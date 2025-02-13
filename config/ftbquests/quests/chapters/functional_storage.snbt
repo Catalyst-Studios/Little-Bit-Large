@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_storage"
+	group: "45275B7C3B114FEE"
+	icon: {
+		id: "functionalstorage:oak_4"
+	}
+	id: "376B718EFCF5AACE"
+	images: [{
+		height: 5.0d
+		image: "functionalstorage:block/spruce_front_4"
+		rotation: 0.0d
+		width: 5.0d
+		x: -7.5d
+		y: -6.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7354C3BF559EE606"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "472ED4119CD1EA32"
+				table_id: 7632690325238466315L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05742792310278CA"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(functionalstorage:drawer_1x1))", "minecraft:custom_name": "\"Functional Storage\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7354C3BF559EE606"]
+			id: "0E01EE9939E9D826"
+			tasks: [{
+				id: "555CBF5AA149425D"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(functionalstorage:drawer_1x2))", "minecraft:custom_name": "\"1X2 Drawers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E01EE9939E9D826"]
+			id: "6DC65B7F58F87F93"
+			tasks: [{
+				id: "56EEDF445D223105"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(functionalstorage:drawer_2x2))", "minecraft:custom_name": "\"2X2 Drawers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			id: "36C75E0C3A750141"
+			rewards: [{
+				id: "1A7B1B31185CFDDB"
+				table_id: 3245123752161385223L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21C7BD9A31D0DF17"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36C75E0C3A750141"]
+			id: "67104292A57A6CAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23FCDF91FB83ABAF"
+				table_id: 5945247175313938059L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E9BCC15F5FA526E"
+				item: { count: 1, id: "functionalstorage:gold_upgrade" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67104292A57A6CAE"]
+			id: "33876A4ABFA81D6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0670BDB6B2B7AFDC"
+				table_id: 6505592889129948431L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6869AB71F31E2425"
+				item: { count: 1, id: "functionalstorage:diamond_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33876A4ABFA81D6E"]
+			dependency_requirement: "all_started"
+			id: "1883E8E5E290BF3D"
+			rewards: [{
+				id: "014CA1CE674FFEB8"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0D1363EA7E0747B9"
+				item: { count: 1, id: "functionalstorage:netherite_upgrade" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+	]
+}

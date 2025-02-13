@@ -1,0 +1,10 @@
+{
+	id: "5A488243B9E5D50F"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 4, item: { count: 1, id: "minecraft:diamond" } }
+		{ count: 2, item: { count: 1, id: "minecraft:diamond_block" } }
+		{ count: 2, item: { count: 1, id: "minecraft:chest" } }
+	]
+}

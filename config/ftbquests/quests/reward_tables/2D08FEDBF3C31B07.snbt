@@ -1,0 +1,11 @@
+{
+	id: "2D08FEDBF3C31B07"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 4, item: { count: 1, id: "minecraft:copper_ingot" } }
+		{ count: 2, item: { count: 1, id: "minecraft:copper_block" } }
+		{ count: 2, item: { count: 1, id: "minecraft:chest" } }
+	]
+	use_title: true
+}

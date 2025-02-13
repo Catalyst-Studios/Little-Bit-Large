@@ -9,6 +9,9 @@
 	chapter.248AEB260B45DF6D.title: "LaserIO"
 	chapter.315076A74ED3C0B4.title: "Ars Nouveau"
 	chapter.4143A153EDB194E8.title: "Pipez"
+	chapter.4ECE52DB829D7DC4.title: "Sophisticated Storage"
+	chapter.376B718EFCF5AACE.title: "Functional Storage"
+	chapter.1FE9C6E71A0B41E1.title: "Sophisticated Backpacks"
 	chapter.4A53A54E581CD0B3.title: "&a&lUseful&f Mods"
 	chapter.4BF27D0A53F14584.title: "Mekanism: The Basics"
 	chapter.4E8B9F24557935B3.title: "Apotheosis"
@@ -2759,4 +2762,12 @@
 	task.73F2DC67AACAE16C.title: "Mod created by: &bSuperMartijn642"
 	task.76EE390FF80FA6E2.title: "&aChisel Reborn&r mod was created by: &eSlaincow"
 	task.7F5D760B4E0FF776.title: "Distributor"
+	quest.6A57F27424491032.quest_desc: ["To this upgrade you will need to work through Occultism"]
+	quest.42C00CC5350392E7.quest_desc: [
+		"           USE AT YOUR OWN RISK "
+		""
+		"This uprgrade is know to cause crashes and will most likely end in a crash"
+	]
+	["These barrels and chests are good early game storage system."]
+	quest.2EFCF9D468B4807E.quest_desc: ["In order to move your storage with no mess you will need to use the almighty packing tape on it first."]
 }
