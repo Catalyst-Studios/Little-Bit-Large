@@ -4105,6 +4105,8 @@
 			id: "0D052E525AAEE0E2"
 			invisible: true
 			optional: true
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "243EE84DA3559841"
 				type: "checkmark"

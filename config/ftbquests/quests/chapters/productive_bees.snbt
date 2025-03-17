@@ -2595,5 +2595,24 @@
 			x: -10.5d
 			y: 10.5d
 		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7858ED4167EE74F1"
+			invisible: true
+			optional: true
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0E3B7A7073742F03"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: -0.44999999999999996d
+		}
 	]
 }

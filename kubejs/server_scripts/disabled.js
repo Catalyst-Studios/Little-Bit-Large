@@ -15,6 +15,11 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove('quarryplus:remove_bedrock_module')
     catalyst.remove('industrialforegoing:infinity_nuke')
     catalyst.remove({id: 'productivebees:evilcraft/bloody_bee_2'})
+    
+    /* Removed due to recipes giving incorrect item*/
+    catalyst.remove({ id: 'utilitarian:utility/tnt_minecart' })
+    catalyst.remove({ id: 'utilitarian:utility/hopper_minecart' })
+
     /*catalyst.remove('extradisks:disk/shaped/infinite_storage_disk')
     catalyst.remove('extradisks:blocks/infinite_storage_block')
     catalyst.remove('extradisks:part/infinite_storage_part')

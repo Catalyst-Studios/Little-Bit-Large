@@ -51,17 +51,6 @@
 			y: 3.0d
 		}
 		{
-			id: "2848F74FF2DC8B87"
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "3EDF323BA54ECA47"
-				type: "kill"
-				value: 100L
-			}]
-			x: -3.5d
-			y: -0.5d
-		}
-		{
 			id: "1092F4D5F4D6C072"
 			tasks: [{
 				id: "719321A18188F780"

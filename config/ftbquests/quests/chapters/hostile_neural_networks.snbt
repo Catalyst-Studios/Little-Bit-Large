@@ -79,6 +79,16 @@
 			x: -5.0d
 			y: -5.0d
 		}
+		{
+			dev: true
+			height: 12.0d
+			image: "kubejs:textures/quest_images/hostile_neural_networks/hnn_logo.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: -24.9d
+			y: -1.2d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]

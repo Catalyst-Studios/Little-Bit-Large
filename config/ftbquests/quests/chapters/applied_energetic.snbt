@@ -191,6 +191,8 @@
 			id: "4048CBD6C81EAFC7"
 			invisible: true
 			optional: true
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "64951EA9ED592DE5"
 				type: "checkmark"
