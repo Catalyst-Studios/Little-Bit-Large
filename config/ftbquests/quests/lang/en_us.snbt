@@ -38,6 +38,7 @@
 	chapter_group.545321A0FD873ED4.title: "Storage "
 	chapter_group.799C57E4146F24A8.title: "Technology"
 	chapter_group.7DB43C7557896446.title: "Magic"
+	chapter.3C17CB8FF9BF24E3.title: "Modular Machinery Reborn"
 	file.0000000000000001.title: "Little Bit Large"
 	quest.0018BE7C428A3137.quest_desc: ["&bCtrl+T&r to open screen"]
 	quest.003142001F6FDC93.quest_desc: ["Now that you have &aExtendedAE&r, you should check the &dprocessor&r recipes and change your old setup for a better one and faster"]
@@ -4491,6 +4492,98 @@
 		""
 		"And finally, we will need to fill it with &4blood&r to use it correctly. You can fill it by using &lrmb&r on any tank that's filled with Blood."
 	]
+quest.0FC0C0A568BF1BAB.quest_desc: [
+		"Basic Modularium recipie"
+		"produces 56 modularium"
+		"&einworld craft 3x3x3&r"
+		""
+		"&cblocks required:&r"
+		"&51x shadowpulse goo &e(dire things)&r &5(center) (not consumed)&r"
+		""
+		"&56x raw eclipsealloy ore &e(dire things)&r &5(on each face of goo)&r"
+		""
+		"&58x reinforced machine casing &e(modular machinery reborn)&r &5(each corner)&r"
+		""
+		"&54x spirited crystal blocks &e(powah)&r &5(anywhere it fits)&r"
+		"&54x refined obsidian blocks &e(mekanism)&r &5(anywhere it fits)&r"
+		"&54x prudentium blocks &e(mysticalaggriculture)&r &5(anywhere it fits)&r"
+		""
+		"&aactivation click shadowpulse goo with 64 portal fluid catalyst (dire things)&r"
+		""
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/advancedmodularium.png width:100 height:100 align:center}"
+		""
+		"&eactivation can be done with a dire things clicker or similar&r"
+	]
+	quest.0FC0C0A568BF1BAB.title: "Advanced Modularium recipie"
+	quest.3F958599EBAEBFD8.quest_desc: [
+		"grows all available mystical aggriculture seeds more seeds will be added in the futrue"
+		""
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/phytogenicsynthezicer.png width:100 height:100 align:center}"
+	]
+	quest.628C96098631C123.quest_desc: [
+		"has the functionality of of loot favricator (hnn) uses (catalyst items) to decide loot."
+		""
+		"operates at roughly 20x the speed of a normal loot fab and uses the same energy per prediction."
+		""
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/dataextractor.png width:100 height:100 align:center}"
+	]
+	quest.62F77CA28BF9653C.quest_desc: ["these multies are used for farming varius ressources"]
+	quest.62F77CA28BF9653C.title: "farming"
+	quest.6943723147A58727.quest_desc: [
+		"grows almost every tree from sapling in the game making the logs saplings and has the potential to make leaves"
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/arboretum.png width:100 height:100 align:center}"
+	]
+	quest.70398E97AAD8E677.quest_desc: [
+		"Reinforced Deepslate"
+		"&einworld craft 3x3x3&r"
+		"&cblocks required:&r"
+		""
+		"&5Polished deepslate (center)&r"
+		"&5Steel Casing (mekanism) (on each face)&r"
+		""
+		"&aactivation click polished deepslate with 6 netherite plates (eternal:ores)&r"
+		""
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/reinforceddeepslate.png width:100 height:100 align:center}"
+		""
+		"&eclicking the center block can be achived with dire things clicker or similar&r"
+	]
+	quest.75C6A646E2DB4905.quest_desc: [
+		"Basic Modularium recipie"
+		"produces 8 modularium"
+		"&einworld craft 3x3x3&r"
+		""
+		"&cblocks required:&r"
+		"&51x voidshimmer goo &e(dire things)&r &5(center) (not consumed)&r"
+		""
+		"&56x raw celestigems ore &e(dire things)&r &5(on each face of goo)&r"
+		""
+		"&58x reinforced deepslate (each corner)&r"
+		""
+		"&54x empowerd emeradic crystal blocks &e(actually additions)&r &5(anywhere it fits)&r"
+		"&54x quantum alloy blocks &e(advnaced ae)&r &5(anywhere it fits)&r"
+		"&54x nitro crystal blocks &e(powah)&r &5(anywhere it fits)&r"
+		""
+		"&aactivation click shadowpulse goo with 64 polymorphic catalyst (dire things)&r"
+		""
+		""
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/basicmodularium.png width:100 height:100 align:center}"
+		""
+		"&eactivation can be done with a dire things clicker or similar&r"
+		"&eif using the inworld recipie for reinforced deepslate it can either be made in place or moved using a dire things swapper&r"
+	]
+	quest.75C6A646E2DB4905.title: "Basic Modularium recipie"
+	quest.7E3B739D277A3254.quest_desc: [
+		"&eto see whats required to make the multiblock you can hold shift while hovering over controller in inventory.&r"
+		""
+		"if you want to see the size and structure of the machine you can make the machine blueprint and shift click the controller to show a preview."
+		""
+		"as you can see down bellow the gui of the controller has 2 buttons one for auto build and one for breaking the multi."
+		"&cpotential faults with the machine may come up in the gui &r"
+		"{image:kubejs:textures/quest_images/modular_machinery_reborn/machinegui.png width:100 height:100 align:center}"
+	]
+	quest.7E3B739D277A3254.title: "Modular machinery and you"
+}
+
 	quest.7F6E4C605AD3DC95.quest_subtitle: "In the form of a Broom!"
 	quest.7F6E4C605AD3DC95.title: "&l&eCreative Flight"
 	quest.7F6EE9B1A8F7F345.title: "Dragon Head"

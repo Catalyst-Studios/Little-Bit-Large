@@ -33,6 +33,25 @@ ServerEvents.tags('item', catalyst => {
 
     //Rubber Tag
     catalyst.add('c:rubber', 'industrialforegoing:dryrubber')
+        let saptag = (saplings) => { catalyst.add('minecraft:saplings', saplings)}
+    saptag('productivetrees:black_ember_sapling')
+    saptag('productivetrees:brown_amber_sapling')
+    saptag('productivetrees:cave_dweller_sapling')
+    saptag('productivetrees:firecracker_sapling')
+    saptag('productivetrees:flickering_sun_sapling')
+    saptag('productivetrees:foggy_blast_sapling')
+    saptag('productivetrees:night_fuchsia_sapling')
+    saptag('productivetrees:purple_spiral_sapling')
+    saptag('biomesoplenty:red_maple_sapling')
+    saptag('productivetrees:rippling_willow_sapling')
+    saptag('productivetrees:slimy_delight_sapling')
+    saptag('productivetrees:soul_tree_sapling')
+    saptag('productivetrees:sparkle_cherry_sapling')
+    saptag('productivetrees:thunder_bolt_sapling')
+    saptag('productivetrees:time_traveller_sapling')
+    saptag('productivetrees:blue_yonder_sapling')
+    saptag('productivetrees:water_wonder_sapling')
+});
 })
 
 //block tags
@@ -56,6 +75,13 @@ ServerEvents.tags('block', catalyst => {
     buds_move("geore:budding_topaz")
     catalyst.removeAll('productivebees:untickable')
     });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
+ 
 
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modular_machinery_reborn"
+	group: "799C57E4146F24A8"
+	icon: {
+		id: "modular_machinery_reborn:modularium"
+	}
+	id: "3C17CB8FF9BF24E3"
+	images: [{
+		height: 6.0d
+		image: "kubejs:textures/quest_images/modular_machinery_reborn/logomodularmachienry.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -3.0d
+		y: -14.5d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:reinforced_deepslate"
+			}
+			id: "70398E97AAD8E677"
+			tasks: [{
+				id: "0B3156C02C8B98AB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:reinforced_deepslate"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["70398E97AAD8E677"]
+			id: "75C6A646E2DB4905"
+			tasks: [{
+				count: 8L
+				id: "5807A15CB730344E"
+				item: { count: 1, id: "modular_machinery_reborn:modularium" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["62F77CA28BF9653C"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:data_extractor"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "628C96098631C123"
+			tasks: [
+				{
+					id: "71CD2C3A1912D5C2"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:data_extractor" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "27736FC91FE0E223"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["62F77CA28BF9653C"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:phytomorphic_synthesiszer"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "3F958599EBAEBFD8"
+			tasks: [
+				{
+					id: "4225E1F095F210A4"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:phytomorphic_synthesiszer" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "4E45CBB7109C96FC"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["62F77CA28BF9653C"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:arboretum"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "6943723147A58727"
+			tasks: [
+				{
+					id: "7FD04C076B23F3A0"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:arboretum" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "4035C71EE14A0999"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["75C6A646E2DB4905"]
+			icon: {
+				id: "modular_machinery_reborn:blueprint"
+			}
+			id: "7E3B739D277A3254"
+			tasks: [
+				{
+					id: "236A756A7D82BAA6"
+					item: { count: 1, id: "modular_machinery_reborn:blueprint" }
+					type: "item"
+				}
+				{
+					id: "35EB087A79794E2F"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["75C6A646E2DB4905"]
+			icon: {
+				id: "modular_machinery_reborn:casing_reinforced"
+			}
+			id: "0FC0C0A568BF1BAB"
+			tasks: [{
+				id: "010278CC3CAB67AE"
+				item: { count: 1, id: "modular_machinery_reborn:casing_reinforced" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "62F77CA28BF9653C"
+			tasks: [{
+				id: "1BC7955BA427A484"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -14.0d
+		}
+	]
+}
