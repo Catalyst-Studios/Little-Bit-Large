@@ -1,0 +1,71 @@
+{
+	id: "38EAFC0250D818E0"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "1EBEA378223E4415"
+			item: {
+				count: 1
+				id: "oritech:magnetic_coil"
+			}
+		}
+		{
+			count: 6
+			id: "0941B9D19B4FFF64"
+			item: {
+				count: 1
+				id: "oritech:insulated_wire"
+			}
+		}
+		{
+			count: 3
+			id: "0DC86E78C98F2BE9"
+			item: {
+				count: 1
+				id: "oritech:motor"
+			}
+		}
+		{
+			count: 4
+			id: "034378C937B2F2C7"
+			item: {
+				count: 1
+				id: "oritech:basic_battery"
+			}
+		}
+		{
+			count: 3
+			id: "2A8C8E48019D6B06"
+			item: {
+				count: 1
+				id: "oritech:adamant_ingot"
+			}
+		}
+		{
+			id: "743F2146561C8938"
+			item: {
+				count: 1
+				id: "oritech:adamant_block"
+			}
+			weight: 0.01f
+		}
+		{
+			count: 9
+			id: "448110896733F334"
+			item: {
+				count: 1
+				id: "ae2:silicon"
+			}
+		}
+		{
+			count: 7
+			id: "2A86C90C8AAE2720"
+			item: {
+				count: 1
+				id: "oritech:insulated_wire"
+			}
+		}
+	]
+}
