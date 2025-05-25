@@ -1,0 +1,17 @@
+{
+    "name": "Cognizant",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "colors": {
+      "flower": "A73F01",
+      "seeds": "A73F01"
+    },
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "respectsEffectiveFarmland": true,
+    "essence": "mysticalagriculture:cognizant_dust"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Supremium",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalcustomization:magical",
+    "colors": {
+      "flower": "DF0101",
+      "seeds": "DF0101"
+    },
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "respectsEffectiveFarmland": false,
+    "essence": "mysticalagriculture:supremium_essence",
+    "crux": "mysticalagradditions:insanium_block"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Darkness",
+  "enabled": true,
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:elemental",
+  "colors": {
+    "flower": "000000",
+    "essence": "000000",
+    "seeds": "000000"
+  },
+  "glint": true,
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  },
+  "respectsEffectiveFarmland": false
+}

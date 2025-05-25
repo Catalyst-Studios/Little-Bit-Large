@@ -1,0 +1,17 @@
+{
+    "name": "Technology",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:elemental",
+    "colors": {
+      "flower": "A6A298",
+      "essence": "EDC45F",
+      "seeds": "E0B23D"
+    },
+    "glint": true,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "respectsEffectiveFarmland": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Arcane",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "colors": {
+      "flower": "AC32C7",
+      "seeds": "AC32C7",
+      "essence": "AC32C7"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_gem"
+    },
+    "respectsEffectiveFarmland": false
+}

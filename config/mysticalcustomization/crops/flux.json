@@ -1,0 +1,16 @@
+{
+    "name": "Flux",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "colors": {
+      "flower": "000000",
+      "seeds": "E02D2D",
+      "essence": "000000"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_face",
+      "essence": "mysticalagriculture:item/essence_flame"
+    },
+    "respectsEffectiveFarmland": false,
+    "crux": "fluxnetworks:flux_block"
+}

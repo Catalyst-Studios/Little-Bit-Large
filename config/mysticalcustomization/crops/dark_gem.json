@@ -1,0 +1,17 @@
+{
+    "name": "Dark Gem",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "colors": {
+      "flower": "320E63",
+      "seeds": "05020A",
+      "essence": "05020A"
+    },
+    "glint": true,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_gem"
+    },
+    "biomes": ["minecraft:deep_dark"],
+    "crux": "minecraft:sculk_catalyst"
+}

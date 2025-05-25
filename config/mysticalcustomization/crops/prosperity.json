@@ -1,0 +1,16 @@
+{
+    "name": "Prosperity",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "colors": {
+      "flower": "0092FC",
+      "seeds": "0092FC",
+      "essence": "0092FC"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "respectsEffectiveFarmland": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Mystical",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:elemental",
+    "colors": {
+      "flower": "3DE0DB",
+      "essence": "3DB2E0",
+      "seeds": "3D63E0"
+    },
+    "glint": true,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_flame"
+    },
+    "respectsEffectiveFarmland": false
+}

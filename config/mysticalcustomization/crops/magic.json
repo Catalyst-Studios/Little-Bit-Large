@@ -1,0 +1,17 @@
+{
+    "name": "Magic",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:elemental",
+    "colors": {
+      "flower": "AA45ED",
+      "essence": "AA45ED",
+      "seeds": "B38ACF"
+    },
+    "glint": true,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_gem"
+    },
+    "respectsEffectiveFarmland": false
+}

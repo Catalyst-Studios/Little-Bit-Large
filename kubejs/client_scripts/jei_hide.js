@@ -16,4 +16,11 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
     catalyst.remove('energizedpower:crafting/weather_controller')
     catalyst.remove('quarryplus:adv_quarry')
     catalyst.remove('quarryplus:remove_bedrock_module')
+    catalyst.remove('mysticalagradditions:insanium_nugget')
+})
+
+RecipeViewerEvents.addInformation('item', event => {
+	event.add('mysticalagriculture:flux_seeds', [
+		'Can be created using the same method as Flux Dust'
+	]);
 })

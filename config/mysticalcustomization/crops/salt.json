@@ -1,0 +1,13 @@
+{
+    "name": "Salt",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:1",
+    "color": "d5dee0",
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "respectsEffectiveFarmland": false,
+    "crux": "mekanism:block_salt"
+}

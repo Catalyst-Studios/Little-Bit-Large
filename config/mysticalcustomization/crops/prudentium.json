@@ -1,0 +1,18 @@
+{
+    "name": "Prudentium",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "colors": {
+      "flower": "008020",
+      "seeds": "008020"
+    },
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "respectsEffectiveFarmland": false,
+    "essence": "mysticalagriculture:prudentium_essence",
+    "crux": "mysticalagriculture:imperium_block"
+}

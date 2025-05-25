@@ -1,0 +1,13 @@
+{
+    "name": "Dire Thing",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalcustomization:technology",
+    "color": "4ebade",
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "respectsEffectiveFarmland": false,
+    "crux": "justdirethings:time_crystal_budding_block"
+}

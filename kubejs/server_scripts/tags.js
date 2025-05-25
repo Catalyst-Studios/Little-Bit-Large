@@ -1,3 +1,4 @@
+//priority: 20
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
@@ -69,8 +70,35 @@ ServerEvents.tags('item', catalyst => {
     saptag('productivetrees:time_traveller_sapling')
     saptag('productivetrees:blue_yonder_sapling')
     saptag('productivetrees:water_wonder_sapling')
+    
+
+    function addSeedTags() {
+        const dontPlantSeeds = [
+            'flux', 'sculk', 'dire', 'insanium', 'supremium', 
+            'imperium', 'tertium', 'prudentium', 'technology', 'cognizian'
+        ];
+
+        const seeds = [
+            // Tier seeds
+            'prudentium', 'tertium', 'imperium', 'supremium', 'insanium', 'cognizian',
+            // Elemental seeds
+            'darkness', 'mystical', 'magic', 'technology',
+            // Normal seeds
+            'salt', 'arcane', 'industrial', 'plastic', 'prosperity', 
+            'xychorium', 'dark_gem', 'entro', 'flux', 'sculk', 'dire'
+        ];
+
+        dontPlantSeeds.forEach(seed => {
+            catalyst.add('c:dont_plant', `mysticalagriculture:${seed}_seeds`);
+        });
+
+        seeds.forEach(seed => {
+            catalyst.add('mysticalagriculture:seeds', `mysticalagriculture:${seed}_seeds`);
+        });
     }
-)
+    addSeedTags();
+
+})
 
 //block tags
 ServerEvents.tags('block', catalyst => {

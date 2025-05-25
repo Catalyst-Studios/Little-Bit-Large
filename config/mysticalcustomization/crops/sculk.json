@@ -1,0 +1,17 @@
+{
+    "name": "Sculk",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalcustomization:magical",
+    "colors": {
+      "flower": "0C0F45",
+      "seeds": "0E308C",
+      "essence": "0E308C"
+    },
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "biomes": ["minecraft:deep_dark"],
+    "crux": "minecraft:sculk_catalyst"
+}

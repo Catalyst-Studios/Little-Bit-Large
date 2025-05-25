@@ -1,0 +1,18 @@
+{
+    "name": "Imperium",
+    "enabled": true,
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "colors": {
+      "flower": "0092FC",
+      "seeds": "0092FC"
+    },
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "respectsEffectiveFarmland": false,
+    "essence": "mysticalagriculture:imperium_essence",
+    "crux": "mysticalagradditions:insanium_block"
+}

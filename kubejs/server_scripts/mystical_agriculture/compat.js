@@ -10,53 +10,68 @@ const secondarySeed = 0.01
 const secondarySeedTierCutoff = 5
 
 ServerEvents.tags('item', catalyst => {
-  let cropRegistryInstance = cropRegistry.getInstance()
-  let cropTiers = cropRegistryInstance.getTiers()
-  let farmlandTiers = Array(cropTiers.length)
+    let cropTiers = cropRegistry.getInstance().getTiers()
+    let farmlandTiers = Array(cropTiers.length)
 
-  for (const cropTier of cropTiers) {
-    farmlandTiers[cropTier.getValue() - 1] = cropTier.getFarmland()
+    for(const cropTier of cropTiers)
+    {
+        farmlandTiers[cropTier.getValue() - 1] = cropTier.getFarmland()
 
-    if (cropTier.getValue() >= secondarySeedTierCutoff) {
-      cropTier.setSecondarySeedDrop(false)
-      cropTier.setBaseSecondaryChance(0)
-    } else {
-      cropTier.setBaseSecondaryChance(secondarySeed)
+        if(cropTier.getValue() >= secondarySeedTierCutoff)
+        {
+            cropTier.setSecondarySeedDrop(false)
+            cropTier.setBaseSecondaryChance(0)
+        }
+        else
+        {
+            cropTier.setBaseSecondaryChance(secondarySeed)
+        }
+    } 
+
+    let farmlandTiersFiltered = farmlandTiers.filter(farm => farm !== null && 
+                                                     farm !== undefined && 
+                                                     farm.toString() !== "undefined")
+    //
+    for(let i = 0; i < farmlandTiersFiltered.length; i++)
+    {
+        for(let t = 0; t <= i; t++)
+        {
+            catalyst.add(`kubejs:farmland/${farmlandTiersFiltered[t].getIdLocation().getPath().replace('_farmland', '')}`, farmlandTiersFiltered[i].getId())
+        }
     }
-  }
-
-  for (let i = 0; i < farmlandTiers.length - 1; i++) {
-    for (let t = 0; t <= i; t++) {
-      catalyst.add(`kubejs:farmland/${farmlandTiers[t].getIdLocation().getPath().replace('_farmland', '')}`, farmlandTiers[i].getId())
-    }
-  }
+    catalyst.add(`kubejs:farmland/${farmlandTiersFiltered[farmlandTiersFiltered.length-1].getIdLocation().getPath().replace('_farmland', '')}`, farmlandTiersFiltered[farmlandTiersFiltered.length-1].getId())
 })
 
 ServerEvents.recipes(catalyst => {
-  if (Platform.isLoaded('immersiveengineering')) {
-    let crops = cropRegistry.getInstance().getCrops()
-    crops.forEach(crop => {
-      if (!crop.isEnabled()) return
-      catalyst.custom({
-        type: 'immersiveengineering:cloche',
-        results: [
-          {
-            basePredicate: {
-              item: crop.getEssenceItem().getId()
-            },
-            count: 2
-          }
-        ],
-        input: Ingredient.of(crop.getSeedsItem()).toJson(),
-        soil: Ingredient.of(crop.getCruxBlock() ?? `#kubejs:farmland/${crop.getTier().getFarmland().getIdLocation().getPath().replace('_farmland', '')}`).toJson(),
-        time: 250 + (750 * crop.getTier().getValue()),
-        render: {
-          type: 'immersiveengineering:crop',
-          block: crop.getCropBlock().getId()
-        }
-      })
-    })
-  }
+    if(Platform.isLoaded('immersiveengineering'))
+    {
+        let crops = cropRegistry.getInstance().getCrops().filter(crop => 
+                                                                 crop !== null && 
+                                                                 crop !== undefined)
+        crops.forEach(crop => {
+            if(!crop.isEnabled()) return;
+            catalyst.custom({
+                type: 'immersiveengineering:cloche',
+                results: [
+                    {
+                        basePredicate: {
+                            item: crop.getEssenceItem().getId()
+                        },
+                        count: 2
+                    }
+                ],
+                input: Ingredient.of(crop.getSeedsItem()).toJson(),
+                soil: Ingredient.of((crop.getCruxBlock()) ?? (crop.getTier().getFarmland() === null ? 
+                                                              "insanium" : 
+                                                              `#kubejs:farmland/${crop.getTier().getFarmland().getIdLocation().getPath().replace('_farmland', '')}`)).toJson(),
+                time: Math.min(75 + (100 * crop.getTier().getValue() * 0.75), 500),
+                render: {
+                    type: 'immersiveengineering:crop',
+                    block: crop.getCropBlock().getId()
+                }
+            })
+        })
+    }
 })
 
 /* 

@@ -1,0 +1,12 @@
+{
+    "name": "Entro",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "color": "40F76E",
+    "glint": false,
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_gem"
+    },
+    "respectsEffectiveFarmland": false
+}

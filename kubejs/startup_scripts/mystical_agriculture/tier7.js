@@ -1,0 +1,108 @@
+let $Rarity = Java.loadClass("net.minecraft.world.item.Rarity");
+const $Farmland = Java.loadClass("net.minecraft.world.level.block.FarmBlock");
+const $Blocks = Java.loadClass("net.minecraft.world.level.block.Blocks");
+const $BlockBehaviour = Java.loadClass("net.minecraft.world.level.block.state.BlockBehaviour");
+
+StartupEvents.registry("block", event => {
+
+    const customFarmland = new $Farmland($BlockBehaviour.Properties.ofFullCopy($Blocks.FARMLAND)
+                                              .strength(0.6));
+
+    event.createCustom('magical_farmland', () => customFarmland)
+    .displayName("Magical Farmland")
+    .tag("minable/paxel");
+    
+    event.create("magical_block")
+    .displayName("Magical Block")
+    .fullBlock(true)
+    .lightLevel(2)
+    .noValidSpawns(true)
+    .suffocating(false)
+    .redstoneConductor(true)
+    .hardness(6.0)
+    .resistance(4.0)
+    .tagBlock("c:storage_blocks")
+    .requiresTool(false)
+    .color(0, "#AA45ED")
+    .texture('up', 'catalyst:block/essence_block')
+    .texture('down', 'catalyst:block/essence_block')
+    .texture('north', 'catalyst:block/essence_block')
+    .texture('south', 'catalyst:block/essence_block')
+    .texture('east', 'catalyst:block/essence_block')
+    .texture('west', 'catalyst:block/essence_block')
+    .item(item => {item.color(0, "#AA45ED"); item.glow(true)})
+
+    event.create("mystical_block")
+    .displayName("Mystical Block")
+    .fullBlock(true)
+    .lightLevel(2)
+    .noValidSpawns(true)
+    .suffocating(false)
+    .redstoneConductor(true)
+    .hardness(6.0)
+    .resistance(4.0)
+    .tagBlock("c:storage_blocks")
+    .requiresTool(false)
+    .color(0, "#3DB2E0")
+    .texture('up', 'catalyst:block/essence_block')
+    .texture('down', 'catalyst:block/essence_block')
+    .texture('north', 'catalyst:block/essence_block')
+    .texture('south', 'catalyst:block/essence_block')
+    .texture('east', 'catalyst:block/essence_block')
+    .texture('west', 'catalyst:block/essence_block')
+    .item(item => {item.color(0, "#3DB2E0"); item.glow(true)})
+
+    event.create("technology_block")
+    .displayName("Technology Block")
+    .fullBlock(true)
+    .lightLevel(5)
+    .noValidSpawns(true)
+    .suffocating(false)
+    .redstoneConductor(true)
+    .hardness(6.0)
+    .resistance(4.0)
+    .tagBlock("c:storage_blocks")
+    .requiresTool(false)
+    .color(0, "#EDC45F")
+    .texture('up', 'catalyst:block/essence_block')
+    .texture('down', 'catalyst:block/essence_block')
+    .texture('north', 'catalyst:block/essence_block')
+    .texture('south', 'catalyst:block/essence_block')
+    .texture('east', 'catalyst:block/essence_block')
+    .texture('west', 'catalyst:block/essence_block')
+    .item(item => {item.color(0, "#EDC45F"); item.glow(true)})
+})
+
+StartupEvents.registry("item", event => {
+
+    event.create("enriched_seeds")
+    .texture("catalyst:item/enriched_seeds")
+    .glow(true)
+    .color(0, '#CD956B')
+    .color(1, '#E31B4A')
+    .rarity($Rarity.COMMON)
+
+    event.create("powered_seeds")
+    .texture("catalyst:item/powered_seeds")
+    .glow(true)
+    .color(0, '#CD956B')
+    .color(1, '#3477EB')
+    .rarity($Rarity.COMMON)
+
+    event.create("ethereal_seeds")
+    .texture("catalyst:item/ethereal_seeds")
+    .glow(true)
+    .color(0, '#34EBE5')
+    .color(1, '#3477EB')
+    .rarity($Rarity.UNCOMMON)
+
+    event.create("reinforced_seeds")
+    .texture("catalyst:item/reinforced_seeds")
+    .glow(true)
+    .rarity($Rarity.RARE)
+
+    event.create("activated_seeds")
+    .texture("catalyst:item/activated_seeds")
+    .glow(true)
+    .rarity($Rarity.EPIC)
+})
