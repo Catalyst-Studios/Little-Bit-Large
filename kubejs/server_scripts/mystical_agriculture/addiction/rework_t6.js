@@ -322,7 +322,132 @@ const awaGB = "mysticalagriculture:awakened_supremium_gemstone_block";
 const insa = "mysticalagradditions:insanium_essence"
 const conig = "mysticalagriculture:cognizant_dust"
 
-ServerEvents.recipes(event =>{
+ServerEvents.recipes(event => {
+
+    const crops = cropRegistry2.getInstance().getCrops()
+
+    const fixSeed = [
+        "cobalt", "lumium", "signalum", "rose_gold", "pig_iron", "enderium"
+    ]
+
+    crops.forEach(crop => {
+        for(let i = 0; i < fixSeed.length; i++)
+        {
+            let name = fixSeed[i];
+            if(crop.getName() === name) {crop.setEnabled(true); console.log("Seed " + name + " fixed")};
+        }
+    })
+
+    //Seed fix
+
+    // Enderium Seeds
+    infusion_MA(
+        "eternalores:enderium_ingot", "mysticalagriculture:supremium_essence",
+        "eternalores:enderium_ingot", "mysticalagriculture:supremium_essence", 
+        "eternalores:enderium_ingot", "mysticalagriculture:supremium_essence", 
+        "eternalores:enderium_ingot", "mysticalagriculture:supremium_essence", 
+        "mysticalagriculture:prosperity_seed_base", 
+        "mysticalagriculture:enderium_seeds", 
+        0, event
+    );
+
+    // Cobalt Seeds
+    infusion_MA(
+        "eternalores:cobalt_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:cobalt_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:cobalt_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:cobalt_ingot", "mysticalagriculture:imperium_essence",
+        "mysticalagriculture:prosperity_seed_base",
+        "mysticalagriculture:cobalt_seeds",
+        0, event
+    );
+
+    // Lumium Seeds
+    infusion_MA(
+        "eternalores:lumium_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:lumium_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:lumium_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:lumium_ingot", "mysticalagriculture:imperium_essence",
+        "mysticalagriculture:prosperity_seed_base",
+        "mysticalagriculture:lumium_seeds",
+        0, event
+    );
+
+    // Signalum Seeds
+    infusion_MA(
+        "eternalores:signalum_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:signalum_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:signalum_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:signalum_ingot", "mysticalagriculture:imperium_essence",
+        "mysticalagriculture:prosperity_seed_base",
+        "mysticalagriculture:signalum_seeds",
+        0, event
+    );
+
+    // Rose Gold Seeds
+    infusion_MA(
+        "eternalores:rose_gold_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:rose_gold_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:rose_gold_ingot", "mysticalagriculture:imperium_essence",
+        "eternalores:rose_gold_ingot", "mysticalagriculture:imperium_essence",
+        "mysticalagriculture:prosperity_seed_base",
+        "mysticalagriculture:rose_gold_seeds",
+        0, event
+    );
+
+    // Pig Iron Seeds
+    infusion_MA(
+        "eternalores:pig_iron_ingot", "mysticalagriculture:tertium_essence",
+        "eternalores:pig_iron_ingot", "mysticalagriculture:tertium_essence",
+        "eternalores:pig_iron_ingot", "mysticalagriculture:tertium_essence",
+        "eternalores:pig_iron_ingot", "mysticalagriculture:tertium_essence",
+        "mysticalagriculture:prosperity_seed_base",
+        "mysticalagriculture:pig_iron_seeds",
+        0, event
+    );
+
+    // Enderium
+    square(
+        "mysticalagriculture:enderium_essence", "mysticalagriculture:enderium_essence",
+        "mysticalagriculture:enderium_essence", "mysticalagriculture:enderium_essence",
+        "eternalores:enderium_ingot", 4, event
+    );
+
+    // Cobalt
+    square(
+        "mysticalagriculture:cobalt_essence", "mysticalagriculture:cobalt_essence",
+        "mysticalagriculture:cobalt_essence", "mysticalagriculture:cobalt_essence",
+        "eternalores:cobalt_ingot", 4, event
+    );
+
+    // Lumium
+    square(
+        "mysticalagriculture:lumium_essence", "mysticalagriculture:lumium_essence",
+        "mysticalagriculture:lumium_essence", "mysticalagriculture:lumium_essence",
+        "eternalores:lumium_ingot", 4, event
+    );
+
+    // Signalum
+    square(
+        "mysticalagriculture:signalum_essence", "mysticalagriculture:signalum_essence",
+        "mysticalagriculture:signalum_essence", "mysticalagriculture:signalum_essence",
+        "eternalores:signalum_ingot", 4, event
+    );
+
+    // Rose Gold
+    square(
+        "mysticalagriculture:rose_gold_essence", "mysticalagriculture:rose_gold_essence",
+        "mysticalagriculture:rose_gold_essence", "mysticalagriculture:rose_gold_essence",
+        "eternalores:rose_gold_ingot", 4, event
+    );
+
+    // Pig Iron
+    square(
+        "mysticalagriculture:pig_iron_essence", "mysticalagriculture:pig_iron_essence",
+        "mysticalagriculture:pig_iron_essence", "mysticalagriculture:pig_iron_essence",
+        "eternalores:pig_iron_ingot", 4, event
+    );
+
     event.remove({output: 'mysticalagradditions:insanium_apple'}); //done
     event.remove({output: 'mysticalagradditions:insanium_ingot'}); //done
     event.remove({output: 'mysticalagradditions:insanium_block'}) //done
