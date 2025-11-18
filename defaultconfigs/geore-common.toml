@@ -1,0 +1,67 @@
+#General settings
+[General]
+	#Generate Coal GeOre [Default: true]
+	generateCoalGeore = true
+	#Generate Copper GeOre [Default: true]
+	generateCopperGeore = true
+	#Generate Diamond GeOre [Default: true]
+	generateDiamondGeore = true
+	#Generate Emerald GeOre [Default: true]
+	generateEmeraldGeore = true
+	#Generate Gold GeOre [Default: true]
+	generateGoldGeore = true
+	#Generate Iron GeOre [Default: true]
+	generateIronGeore = true
+	#Generate Lapis GeOre [Default: true]
+	generateLapisGeore = true
+	#Generate Quartz GeOre [Default: true]
+	generateQuartzGeore = true
+	#Generate Quartz GeOre in the Nether [Default: true]
+	generateQuartzInNetherGeore = true
+	#Generate Redstone GeOre [Default: true]
+	generateRedstoneGeore = true
+	#Generate Budding Ancient Debris [Default: true]
+	generateBuddingAncientDebris = true
+	#Disable piston push for budding GeOre (Overrides the vanilla behavior of breaking the block upon being pushed) [Default: false]
+	disablePistonPushForBuddingGeOre = false
+
+#Modded Generation settings
+[ModdedGeneration]
+	#Generate Ruby GeOre [Default: false]
+	generateRubyGeore = false
+	#Generate Sapphire GeOre [Default: false]
+	generateSapphireGeore = false
+	#Generate Topaz GeOre [Default: false]
+	generateTopazGeore = false
+	#Generate Zinc GeOre [Default: false]
+	generateZincGeore = true
+	#Generate Uraninite GeOre [Default: false]
+	generateUraniniteGeore = true
+	#Generate Black Quartz GeOre [Default: false]
+	generateBlackQuartzGeore = true
+	#Generate Monazite GeOre [Default: false]
+	generateMonaziteGeore = false
+	#Generate Aluminum GeOre [Default: false]
+	generateAluminumGeore = true
+	#Generate Lead GeOre [Default: false]
+	generateLeadGeore = true
+	#Generate Nickel GeOre [Default: false]
+	generateNickelGeore = true
+	#Generate Osmium GeOre [Default: false]
+	generateOsmiumGeore = true
+	#Generate Platinum GeOre [Default: false]
+	generatePlatinumGeore = true
+	#Generate Silver GeOre [Default: false]
+	generateSilverGeore = true
+	#Generate Tin GeOre [Default: false]
+	generateTinGeore = true
+	#Generate Tungsten GeOre [Default: false]
+	generateTungstenGeore = false
+	#Generate Uranium GeOre [Default: false]
+	generateUraniumGeore = true
+	#Generate Allthemodium GeOre [Default: false]
+	generateAllthemodiumGeore = false
+	#Generate Vibranium GeOre [Default: false]
+	generateVibraniumGeore = false
+	#Generate Unobtainium GeOre [Default: false]
+	generateUnobtainiumGeore = false
