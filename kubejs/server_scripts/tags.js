@@ -123,22 +123,13 @@ ServerEvents.tags('item', catalyst => {
 //block tags
 ServerEvents.tags('block', catalyst => {
     //Geore
-    //lets Geore buds be acceled
-    catalyst.add("c:budding", "#c:budding_blocks")
-    //lets geore buds be moved
-    let buds_move = (buds) => { catalyst.remove('c:relocation_not_supported', buds)}
-    buds_move("geore:budding_coal")
-    buds_move("geore:budding_copper"),
-    buds_move("geore:budding_diamond"),
-    buds_move("geore:budding_emerald"),
-    buds_move("geore:budding_gold"),
-    buds_move("geore:budding_iron"),
-    buds_move("geore:budding_lapis"),
-    buds_move("geore:budding_quartz"),
-    buds_move("geore:budding_redstone"),
-    buds_move("geore:budding_ruby"),
-    buds_move("geore:budding_sapphire"),
-    buds_move("geore:budding_topaz")
+        //lets Geore buds be acceled
+        catalyst.add("c:budding", "#c:budding_blocks")
+        //lets geore buds be moved
+        const buds = catalyst.get("c:budding_blocks").getObjectIds();
+        buds.forEach(bud => {
+        catalyst.remove('c:relocation_not_supported', bud);
+    });
     catalyst.removeAll('productivebees:untickable')
 
     //Fix for Boon of Earth enchant dropping non generated ores
