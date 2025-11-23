@@ -1605,7 +1605,10 @@ filteredCrops.forEach(crop => {
     })
 })
 
-//Flux seeds, need special treatment
+/* 
+    Flux seeds, need special treatment
+    JEI Recipe present in client_scripts/custom_recipes_jei/recipe_viewer_add.js
+*/
 BlockEvents.leftClicked("minecraft:obsidian", event => {
     const level = event.level;
     const pos = event.getBlock().pos;

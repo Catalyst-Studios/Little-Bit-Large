@@ -22,9 +22,3 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
     catalyst.remove([/geore:unobtainium_.*/, /geore:.*_unobtainium/, /geore:.*_unobtainium_bud/])
     catalyst.remove(['georenouveau:allthemodium_geore_golem_charm', 'georenouveau:vibranium_geore_golem_charm', 'georenouveau:unobtainium_geore_golem_charm'])
 })
-
-RecipeViewerEvents.addInformation('item', event => {
-	event.add('mysticalagriculture:flux_seeds', [
-		'Can be created using the same method as Flux Dust'
-	]);
-})
