@@ -4,9 +4,9 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 RecipeViewerEvents.addInformation('item', catalyst => {
   catalyst.add('modular_machinery_reborn:modularium', [
-    'Modularium is crafted with an in world recipe. For more info on how to craft it, check out the modular machinery reborn quests.']);
+    'Modularium is crafted with an in-world recipe. For more information on how to craft it, check out the Modular Machinery Reborn quests']);
   catalyst.add('minecraft:reinforced_deepslate', [
-    'Reinforced deepslate can be crafted with an in world recipe. For more info on how to craft it, check out modular machinery reborn quests.']);
+    'Reinforced deepslate can be crafted with an in-world recipe. For more information on how to craft it, check out the Modular Machinery Reborn quests']);
 })
   /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
