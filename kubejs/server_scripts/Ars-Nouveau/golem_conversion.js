@@ -6,22 +6,21 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 
 ServerEvents.recipes(event => {
 
-  // Get all items from the item tag
-  let buds = Ingredient.of('#geore:geore_budding').stacks.toArray();
+    // Get all items from the item tag
+    let buds = Ingredient.of('#geore:geore_budding').stacks.toArray();
 
-  buds.forEach(item => {
+    buds.forEach(item => {
+        // Convert "geore:budding_copper" -> "copper"
+        let material = item.getId().replace('geore:budding_', '');
 
-    // Convert "geore:budding_copper" → "copper"
-    let material = item.getId().replace('geore:budding_', '');
+        // Create budding conversion recipe
+        event.custom({
+            type: "ars_nouveau:budding_conversion",
+            input: `geore:${material}_block`,
+            result: `geore:budding_${material}`
+        });
 
-    // Create budding conversion recipe
-    event.custom({
-      type: "ars_nouveau:budding_conversion",
-      input: `geore:${material}_block`,
-      result: `geore:budding_${material}`
     });
-
-  });
 });
 
 /* 

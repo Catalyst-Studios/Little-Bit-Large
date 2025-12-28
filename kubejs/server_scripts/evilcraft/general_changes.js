@@ -4,7 +4,6 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 
 ServerEvents.recipes( catalyst => {
-    catalyst.remove({id: 'evilcraft:crafting/spirit_furnace'})
     catalyst.shaped('evilcraft:spirit_furnace', [
         ' D ',
         'DSD',
@@ -13,7 +12,6 @@ ServerEvents.recipes( catalyst => {
         D: 'evilcraft:dark_blood_brick',
         S: 'evilcraft:spirit_reanimator'
     })
-    catalyst.remove({id: 'evilcraft:crafting/colossal_blood_chest'})
     catalyst.shaped('evilcraft:colossal_blood_chest', [
         ' U ',
         'UCU',

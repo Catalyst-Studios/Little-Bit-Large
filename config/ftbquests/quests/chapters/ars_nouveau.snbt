@@ -121,7 +121,7 @@
 				{
 					count: 3L
 					id: "07848B89EC2433AD"
-					item: { count: 3, id: "ars_nouveau:arcane_pedestal" }
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 					type: "item"
 				}
 				{
@@ -418,7 +418,7 @@
 				{
 					count: 8L
 					id: "293840FC13660B0C"
-					item: { count: 8, id: "ars_nouveau:arcane_pedestal" }
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 					type: "item"
 				}
 				{

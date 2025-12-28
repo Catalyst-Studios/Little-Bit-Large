@@ -4996,7 +4996,7 @@
 		""
 		"There are a lot of &dfine&r &6details&r around it, you should &eread&r the quest"
 	]
-	quest.50FEE6D19ABFC8DF.quest_subtitle: "[{\"text\":\"Pass the cursor over the \",\"color\":\"#FFFFFF\"},{\"text\":\"title\",\"color\":\"#29e6ca\"},{\"text\":\"!\",\"color\":\"#FFFFFF\"}]"
+	quest.50FEE6D19ABFC8DF.quest_subtitle: "[{\"text\":\"Pass the cursor over the \"},{\"text\":\"title\",\"color\":\"#29e6ca\"},{\"text\":\"!\",\"color\":\"#FFFFFF\"}]"
 	quest.50FEE6D19ABFC8DF.title: "[{\"text\":\"Welcome to \",\"color\":\"#FFFFFF\"},{\"text\":\"Functional\",\"color\":\"#29e6ca\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"The mod around mass storage\"}}},{\"text\":\" Storage!\",\"color\":\"#FFFFFF\"}]"
 	quest.5127C2BF115CBE35.quest_desc: [
 		"80mb of &5refined&r &dobsidian&r vs 240 mb of &5refined&r &dobsidian&r? I guess that &6crafting&r table is superior."
@@ -8023,6 +8023,7 @@
 	task.016D3E4B60878147.title: "Get a Leafcutter Bee"
 	task.017F472645EBB9F4.title: "Steel ingot"
 	task.02476F93B40D264E.title: "\"Infinite\" storage"
+	task.03D0FDF2D21557E1.title: "Any #c:plastics"
 	task.0423499D8AB25B8F.title: "Oxygen"
 	task.05001251EFC0420F.title: "Click if you agree"
 	task.059A1D43410B91E7.title: "Redstone"

@@ -65,13 +65,13 @@
 				{
 					count: 6L
 					id: "61217A2B5DFA6095"
-					item: { count: 6, id: "mekanism:steel_casing" }
+					item: { count: 1, id: "mekanism:steel_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "65B7A4CD51F37C2D"
-					item: { count: 6, id: "eternalores:plate_netherite" }
+					item: { count: 1, id: "eternalores:plate_netherite" }
 					type: "item"
 				}
 			]
@@ -117,25 +117,25 @@
 				{
 					count: 4L
 					id: "269C9E7CC64874FD"
-					item: { count: 6, id: "actuallyadditions:empowered_emeradic_crystal_block" }
+					item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "3DBA0D92E2E1C5C8"
-					item: { count: 4, id: "advanced_ae:quantum_alloy_block" }
+					item: { count: 1, id: "advanced_ae:quantum_alloy_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0FBFFBBA9BAB1D6F"
-					item: { count: 4, id: "powah:nitro_crystal_block" }
+					item: { count: 1, id: "powah:nitro_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "4EB71AA7D9F866BD"
-					item: { count: 64, id: "justdirethings:polymorphic_catalyst" }
+					item: { count: 1, id: "justdirethings:polymorphic_catalyst" }
 					type: "item"
 				}
 			]
@@ -319,25 +319,25 @@
 				{
 					count: 4L
 					id: "73B88E0CAA57AA86"
-					item: { count: 4, id: "powah:spirited_crystal_block" }
+					item: { count: 1, id: "powah:spirited_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "256A87A4210AE40F"
-					item: { count: 4, id: "mekanism:block_refined_obsidian" }
+					item: { count: 1, id: "mekanism:block_refined_obsidian" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0515691088CC503C"
-					item: { count: 4, id: "mysticalagriculture:prudentium_block" }
+					item: { count: 1, id: "mysticalagriculture:prudentium_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "79A20D061ECFD20C"
-					item: { count: 64, id: "justdirethings:portal_fluid_catalyst" }
+					item: { count: 1, id: "justdirethings:portal_fluid_catalyst" }
 					type: "item"
 				}
 			]

@@ -4,22 +4,6 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 
 ServerEvents.recipes(catalyst => {
-    function FixSeed(seedbase, output, input, essence) {
-        catalyst.remove({ output: output })
-
-        catalyst.custom({
-            type: 'mysticalagriculture:infusion',
-            input: { item: seedbase },
-            ingredients: [
-                { item: essence }, { tag: input },
-                { item: essence }, { tag: input },
-                { item: essence }, { tag: input },
-                { item: essence }, { tag: input }
-            ],
-            result: { id: output }
-        });
-    }
-
     const seeds = [
         ['mysticalagriculture:wood_seeds', 'minecraft:logs', 'mysticalagriculture:inferium_essence'],
         ['mysticalagriculture:rubber_seeds', 'c:rubber', 'mysticalagriculture:prudentium_essence'],
@@ -32,14 +16,24 @@ ServerEvents.recipes(catalyst => {
     ]
 
     seeds.forEach(([output, input, essence]) => {
-        FixSeed('mysticalagriculture:prosperity_seed_base', output, input, essence);
-    }
-)
+        catalyst.remove({ output: output })
 
-    }
-)
+        catalyst.custom({
+            type: 'mysticalagriculture:infusion',
+            input: { item: 'mysticalagriculture:prosperity_seed_base' },
+            ingredients: [
+                { item: essence }, { tag: input },
+                { item: essence }, { tag: input },
+                { item: essence }, { tag: input },
+                { item: essence }, { tag: input }
+            ],
+            result: { id: output }
+        });
+    })
+
+})
     
-    /* 
-    This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
-    It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
-    */
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

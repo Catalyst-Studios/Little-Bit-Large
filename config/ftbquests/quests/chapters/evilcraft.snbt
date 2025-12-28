@@ -969,7 +969,7 @@
 			tasks: [{
 				count: 3L
 				id: "54E3C3AE402C71DC"
-				item: { count: 3, id: "evilcraft:dark_gem" }
+				item: { count: 1, id: "evilcraft:dark_gem" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -1094,7 +1094,7 @@
 			tasks: [{
 				count: 9L
 				id: "53855F28639AEEE5"
-				item: { count: 9, id: "evilcraft:hardened_blood_shard" }
+				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1224,7 +1224,7 @@
 				{
 					count: 25L
 					id: "3F4CF53AE2EC2507"
-					item: { count: 25, id: "evilcraft:reinforced_undead_planks" }
+					item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
 					type: "item"
 				}
 			]
