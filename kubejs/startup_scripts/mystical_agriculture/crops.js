@@ -1,4 +1,7 @@
-StartupEvents.init(event => {
+
+global.recipesSeedToRemove = []
+
+StartupEvents.init(catalyst => {
     if(!Platform.isLoaded('mysticalagriculture')) return;
 
     try
@@ -50,7 +53,7 @@ StartupEvents.init(event => {
 
         /**
          * Create a new crop to be register on the crop list, the recipes might be bonked because we dont
-         * give MA time to register stuff properly, but the manager is up when this event fires, so
+         * give MA time to register stuff properly, but the manager is up when this catalyst fires, so
          * we can add crops and tiers
          * @param {string} idStr id of the crop
          * @param {string} displayName Name to be displayed
@@ -125,6 +128,7 @@ StartupEvents.init(event => {
             {
                 if(registryInstance.getCropById(id) != null)
                 {
+                    global.recipesSeedToRemove.push(`mysticalagriculture:${idStr}`)
                     console.info(`[CatJS] Registered Custom Crop: ${idStr} (Ignored expected NPE)`)
                 }
                 else

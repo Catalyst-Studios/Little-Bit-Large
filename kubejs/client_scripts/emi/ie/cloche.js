@@ -52,7 +52,7 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("immersiveengineering")) {
     $IEBlocks = Java.loadClass('blusunrize.immersiveengineering.common.register.IEBlocks')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("immersiveengineering"))
@@ -114,7 +114,7 @@ RecipeViewerEvents.addEntries("item", event => {
                 return;
             }
 
-            let clocheRecipes = recipeManager.getAllRecipesFor(clocheRecipeType)
+            let clocheRecipes = recipeManager.getAllRecipesFor(clocheRecipeType).toArray()
 
             let createEmiIngredient = (ingredient) => {
                 return $EmiIngredient["of(net.minecraft.world.item.crafting.Ingredient)"](ingredient)

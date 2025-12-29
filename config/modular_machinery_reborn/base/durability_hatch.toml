@@ -1,0 +1,55 @@
+[tiny]
+	#Defines the slots number of item durability hatch
+	# Default: 1
+	# Range: > 1
+	slots = 1
+	#Defines the slot cols number of item durability hatch
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the durability hatch slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[small]
+	#Defines the slots number of item durability hatch
+	# Default: 4
+	# Range: > 1
+	slots = 4
+	#Defines the slot cols number of item durability hatch
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the durability hatch slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[normal]
+	#Defines the slots number of item durability hatch
+	# Default: 6
+	# Range: > 1
+	slots = 6
+	#Defines the slot cols number of item durability hatch
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the durability hatch slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[big]
+	#Defines the slots number of item durability hatch
+	# Default: 9
+	# Range: > 1
+	slots = 9
+	#Defines the slot cols number of item durability hatch
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the durability hatch slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64

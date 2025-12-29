@@ -4,8 +4,8 @@ const $ParticlesType = Java.loadClass("net.minecraft.core.particles.ParticleType
 const $Block = Java.loadClass("net.minecraft.world.level.block.Block");
 const $ItemEntity = Java.loadClass("net.minecraft.world.entity.item.ItemEntity");
 const $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack");
-const $AABB = Java.loadClass("net.minecraft.world.phys.AABB");
-const $CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry');
+let $AABB = Java.loadClass("net.minecraft.world.phys.AABB");
+let $CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry');
 
 const awaE = "mysticalagriculture:awakened_supremium_essence";
 const awaEB = "mysticalagriculture:awakened_supremium_block";
@@ -16,7 +16,7 @@ const awaGB = "mysticalagriculture:awakened_supremium_gemstone_block";
 const insa = "mysticalagradditions:insanium_essence"
 const conig = "mysticalagriculture:cognizant_dust"
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(catalyst => {
 
     /**
      * @param {string} output
@@ -25,7 +25,8 @@ ServerEvents.recipes(event => {
      * @param {string[]} ingredients Array of 4 materials
      */
     function awakening(output, input, essences, ingredients) {
-        event.custom({
+        let idName = output.includes(':') ? output.split(':')[1] : output;
+        catalyst.custom({
             type: "mysticalagriculture:awakening",
             essences: essences.map(e => ({
                 id: `mysticalagriculture:${e}_essence`,
@@ -34,7 +35,7 @@ ServerEvents.recipes(event => {
             input: { item: input },
             ingredients: ingredients.map(i => ({ item: i })),
             result: { id: output }
-        });
+        }).id(`catalyst:mysticalagriculture/awakening/${idName}`);
     }
 
     /**
@@ -48,6 +49,9 @@ ServerEvents.recipes(event => {
             type: 'mysticalagriculture:infusion',
             ingredients: ingredients.map(i => ({ item: i }))
         };
+
+        let idName = output.includes(':') ? output.split(':')[1] : output;
+        if (isBee) idName += "_bee";
 
         if (isBee) {
             recipe.input = {
@@ -75,34 +79,42 @@ ServerEvents.recipes(event => {
             recipe.result = { id: output, count: 1 };
         }
 
-        event.custom(recipe);
+        catalyst.custom(recipe).id(`catalyst:mysticalagriculture/infusion/${idName}`);
     }
+
+    const getCleanName = (item) => item.includes(':') ? item.split(':')[1] : item;
 
     function row(mats, output, count, type) {
         let pattern = (type === 0) ? ['A C', ' B ', '   '] : ['ABC', '   ', '   '];
-        event.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] });
+        catalyst.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] })
+        .id(`catalyst:shaped/row/${getCleanName(output)}`);
     }
 
     function row2(mats, output, count, type) {
         let pattern = (type === 0) ? ['   ', 'ABC', '   '] : ['   ', 'A C', ' B '];
-        event.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] });
+        catalyst.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] })
+        .id(`catalyst:shaped/row2/${getCleanName(output)}`);
     }
 
     function row3(mats, output, count, type) {
         let pattern = (type === 0) ? ['   ', '   ', 'ABC'] : ['   ', ' B ', 'A C'];
-        event.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] });
+        catalyst.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] })
+        .id(`catalyst:shaped/row3/${getCleanName(output)}`);
     }
 
     function diagonal(mats, output, count) {
-        event.shaped(`${count}x ${output}`, ['A  ', ' B ', '  C'], { A: mats[0], B: mats[1], C: mats[2] });
+        catalyst.shaped(`${count}x ${output}`, ['A  ', ' B ', '  C'], { A: mats[0], B: mats[1], C: mats[2] })
+        .id(`catalyst:shaped/diagonal/${getCleanName(output)}`);
     }
 
     function diagonal2(mats, output, count) {
-        event.shaped(`${count}x ${output}`, ['  A', ' B ', 'C  '], { A: mats[0], B: mats[1], C: mats[2] });
+        catalyst.shaped(`${count}x ${output}`, ['  A', ' B ', 'C  '], { A: mats[0], B: mats[1], C: mats[2] })
+        .id(`catalyst:shaped/diagonal2/${getCleanName(output)}`)
     }
 
     function square(mats, output, count) {
-        event.shaped(`${count}x ${output}`, [' A ', 'B C', ' D '], { A: mats[0], B: mats[1], C: mats[2], D: mats[3] });
+        catalyst.shaped(`${count}x ${output}`, [' A ', 'B C', ' D '], { A: mats[0], B: mats[1], C: mats[2], D: mats[3] })
+        .id(`catalyst:shaped/square/${getCleanName(output)}`)
     }
 
     const seedsToFix = new Set(["cobalt", "lumium", "signalum", "rose_gold", "pig_iron", "enderium"]);
@@ -167,11 +179,14 @@ ServerEvents.recipes(event => {
     ];
 
     shapedRecipes.forEach(r => {
-        event.shaped(`${r.count || 1}x ${r.out}`, r.p, r.k);
+        let outName = r.out.split(':')[1].split('[')[0];
+        catalyst.shaped(`${r.count || 1}x ${r.out}`, r.p, r.k)
+        .id(`catalyst:shaped/${outName}`);
     });
 
     // Shapeless simple
-    event.shapeless('9x mysticalagradditions:insanium_essence', '1x mysticalagradditions:insanium_block');
+    catalyst.shapeless('9x mysticalagradditions:insanium_essence', '1x mysticalagradditions:insanium_block')
+    .id('catalyst:shapeless/insanium_essence_from_block');
 
     //Awakening Altar Recipes
     const awakeningRecipes = [
@@ -293,7 +308,7 @@ ServerEvents.recipes(event => {
     });
 
     // Creative essence with insanium bee
-    event.custom({
+    catalyst.custom({
         type: "mysticalagriculture:awakening",
         essences: [
             { id: "mysticalagriculture:darkness_essence", count: 40 },
@@ -313,10 +328,10 @@ ServerEvents.recipes(event => {
         },
         ingredients: Array(4).fill({ item: "kubejs:technology_block" }),
         result: { id: "mysticalagradditions:creative_essence" }
-    });
+    }).id('catalyst:mysticalagriculture/awakening/creative_essence');
 
     // Awakening block (2 output) - Count 10 essence
-    event.custom({
+    catalyst.custom({
         type: "mysticalagriculture:awakening",
         essences: [
             { id: `mysticalagriculture:mystical_essence`, count: 10 },
@@ -327,10 +342,10 @@ ServerEvents.recipes(event => {
         input: { item: "mysticalagriculture:supremium_block" },
         ingredients: Array(4).fill({ item: conig }),
         result: { id: awaEB, count: 2 }
-    });
+    }).id('catalyst:mysticalagriculture/awakening/awakened_supremium_block_2');
 
     // Awakening block (4 output) - Count 10 essence
-    event.custom({
+    catalyst.custom({
         type: "mysticalagriculture:awakening",
         essences: [
             { id: `mysticalagriculture:mystical_essence`, count: 10 },
@@ -341,10 +356,10 @@ ServerEvents.recipes(event => {
         input: { item: "mysticalagriculture:supremium_block" },
         ingredients: Array(4).fill({ item: conig }),
         result: { id: awaEB, count: 4 }
-    });
+    }).id('catalyst:mysticalagriculture/awakening/awakened_supremium_block_4');
 
     // Magic seeds
-    event.custom({
+    catalyst.custom({
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         pedestalItems: [
@@ -365,26 +380,26 @@ ServerEvents.recipes(event => {
         reagent: { item: "mysticalagriculture:inferium_seeds" },
         result: { count: 1, id: "mysticalagriculture:magic_seeds" },
         sourceCost: 10000
-    });
+    }).id('catalyst:ars_nouveau/enchanting_apparatus/magic_seeds');
 
     // Enriched seeds
-    event.custom({
+    catalyst.custom({
         type: "mekanism:metallurgic_infusing",
         chemical_input: { amount: 100, tag: "mekanism:redstone" },
         item_input: { count: 1, item: "mysticalagriculture:inferium_seeds" },
         output: { count: 1, id: "kubejs:enriched_seeds" },
         per_tick_usage: true
-    });
+    }).id('catalyst:mekanism/infusing/enriched_seeds');
 
     // Powered seeds
-    event.custom({
+    catalyst.custom({
         type: "ae2:charger",
         ingredient: { item: "kubejs:enriched_seeds" },
         result: { count: 1, id: "kubejs:powered_seeds" }
-    });
+    }).id('catalyst:ae2/charger/powered_seeds');
 
     // Ethereal seeds
-    event.custom({
+    catalyst.custom({
         type: "industrialforegoing:dissolution_chamber",
         input: [
             { item: "kubejs:powered_seeds" },
@@ -399,19 +414,19 @@ ServerEvents.recipes(event => {
         inputFluid: { amount: 2000, fluid: "industrialforegoing:ether_gas" },
         output: { count: 1, id: "kubejs:ethereal_seeds" },
         processingTime: 1800
-    });
+    }).id('catalyst:industrialforegoing/dissolution/ethereal_seeds');
 
     // Reinforced seeds
-    event.custom({
+    catalyst.custom({
         type: "integrateddynamics:mechanical_drying_basin",
         input_fluid: { id: "integrateddynamics:liquid_chorus", amount: 1000 },
         input_item: { item: "kubejs:ethereal_seeds" },
         duration: 300,
         output_item: { id: "kubejs:reinforced_seeds" }
-    });
+    }).id('catalyst:integrateddynamics/drying/reinforced_seeds');
 
     // Activated seeds
-    event.custom({
+    catalyst.custom({
         type: "powah:energizing",
         energy: 20000000,
         ingredients: [
@@ -422,20 +437,20 @@ ServerEvents.recipes(event => {
             { item: "powah:uraninite_block" }
         ],
         result: { count: 1, id: "kubejs:activated_seeds" }
-    });
+    }).id('catalyst:powah/energizing/activated_seeds');
 
     // Technology seeds
-    event.custom({
+    catalyst.custom({
         type: "mekanism:nucleosynthesizing",
         chemical_input: { amount: 20, chemical: "mekanism:antimatter" },
         duration: 1000,
         item_input: { count: 1, item: "kubejs:activated_seeds" },
         output: { count: 1, id: "mysticalagriculture:technology_seeds" },
         per_tick_usage: false
-    });
+    }).id('catalyst:mekanism/nucleosynthesizing/technology_seeds');
 
     // Inferium bee (Standard recipe but complex output NBT)
-    event.custom({
+    catalyst.custom({
         type: 'mysticalagriculture:infusion',
         input: { item: "minecraft:honeycomb" },
         ingredients: Array(8).fill({ item: "mysticalagriculture:inferium_essence" }),
@@ -449,10 +464,10 @@ ServerEvents.recipes(event => {
             count: 1,
             id: "productivebees:spawn_egg_configurable_bee"
         }
-    });
+    }).id('catalyst:mysticalagriculture/infusion/inferium_bee');
 
     // Arcane seeds
-    event.custom({
+    catalyst.custom({
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         pedestalItems: [
@@ -468,10 +483,10 @@ ServerEvents.recipes(event => {
         reagent: { item: "mysticalagriculture:inferium_seeds" },
         result: { count: 1, id: "mysticalagriculture:arcane_seeds" },
         sourceCost: 30000
-    });
+    }).id('catalyst:ars_nouveau/enchanting_apparatus/arcane_seeds');
 
     // Dark gems seeds
-    event.custom({
+    catalyst.custom({
         type: "evilcraft:blood_infuser",
         input_item: { item: "mysticalagriculture:darkness_seeds" },
         input_fluid: { id: "evilcraft:blood", amount: 20000 },
@@ -479,10 +494,10 @@ ServerEvents.recipes(event => {
         duration: 10,
         xp: 0.05,
         tier: 2
-    });
+    }).id('catalyst:evilcraft/blood_infuser/dark_gem_seeds');
 
     // Industrial seeds
-    event.custom({
+    catalyst.custom({
         type: "industrialforegoing:dissolution_chamber",
         input: [
             { item: "mysticalagriculture:inferium_seeds" },
@@ -494,7 +509,7 @@ ServerEvents.recipes(event => {
         inputFluid: { amount: 2000, fluid: "minecraft:water" },
         output: { count: 1, id: "mysticalagriculture:industrial_seeds" },
         processingTime: 1800
-    });
+    }).id('catalyst:industrialforegoing/dissolution/industrial_seeds');
 
     console.log("[CatJS] Finished adding MA recipes")
 
@@ -509,14 +524,14 @@ const filteredCrops = $CropRegistry.getInstance().getCrops() //all are mysticala
 
 //Disable player to place forbidden seeds for players, use machines
 farmlands.forEach(farmland => {
-    BlockEvents.rightClicked(farmland, event => {
-        const item = event.item;
-        const player = event.player;
+    BlockEvents.rightClicked(farmland, catalyst => {
+        const item = catalyst.item;
+        const player = catalyst.player;
 
         not_plant.forEach(e => {
             if(e === item.id)
             {
-                event.getServer().scheduleInTicks(3, ctx => {
+                catalyst.getServer().scheduleInTicks(3, ctx => {
                     const selected = player.inventory.getSelected();
                     if(!selected.isEmpty())
                     {
@@ -524,20 +539,20 @@ farmlands.forEach(farmland => {
                         player.inventory.setChanged();
                     }
 
-                    event.getServer().scheduleInTicks(3, ctx => {
+                    catalyst.getServer().scheduleInTicks(3, ctx => {
                         selected.count++;
                         player.inventory.setChanged();
                     })
                 });
-                event.cancel();
+                catalyst.cancel();
             }
         })
     });
 })
 
 filteredCrops.forEach(crop => {
-    BlockEvents.randomTick(`mysticalagriculture:${crop}_crop`, event => {
-        event.cancel()
+    BlockEvents.randomTick(`mysticalagriculture:${crop}_crop`, catalyst => {
+        catalyst.cancel()
     })
 })
 
@@ -545,9 +560,9 @@ filteredCrops.forEach(crop => {
     Flux seeds, need special treatment
     JEI Recipe present in client_scripts/jei/recipe_viewer_add.js
 */
-BlockEvents.leftClicked("minecraft:obsidian", event => {
-    const level = event.level;
-    const pos = event.getBlock().pos;
+BlockEvents.leftClicked("minecraft:obsidian", catalyst => {
+    const level = catalyst.level;
+    const pos = catalyst.getBlock().pos;
     const crusher = level.getBlockState(pos)
     let base = level.getBlockState(pos.below(2))
 
@@ -587,6 +602,6 @@ BlockEvents.leftClicked("minecraft:obsidian", event => {
         let particleCount = $Mth.clamp(itemCount >> 2, 4, 64);
         level.sendParticles($ParticlesType.LAVA, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, particleCount, 0, 0, 0, 0);
 
-        event.success();
+        catalyst.success();
     }
 })

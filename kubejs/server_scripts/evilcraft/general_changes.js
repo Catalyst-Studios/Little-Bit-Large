@@ -11,7 +11,8 @@ ServerEvents.recipes( catalyst => {
     ], {
         D: 'evilcraft:dark_blood_brick',
         S: 'evilcraft:spirit_reanimator'
-    })
+    }).id('catalyst:evilcraft/spirit_furnace')
+
     catalyst.shaped('evilcraft:colossal_blood_chest', [
         ' U ',
         'UCU',
@@ -19,13 +20,15 @@ ServerEvents.recipes( catalyst => {
     ], {
         U: 'evilcraft:reinforced_undead_planks',
         C: 'evilcraft:blood_chest'
-    })
+    }).id('catalyst:evilcraft/colossal_blood_chest')
+
     catalyst.shapeless(
         'evilcraft:dark_gem_crushed',
         [
             'evilcraft:dark_gem',
             '#c:tools/hammers'
-        ])
+        ]
+    ).id('catalyst:evilcraft/dark_gem_crushed_hammer')
 })
 
 /* 

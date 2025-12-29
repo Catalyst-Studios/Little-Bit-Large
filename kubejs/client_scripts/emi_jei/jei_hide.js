@@ -1,4 +1,4 @@
-RecipeViewerEvents.removeEntries('item', event => {
+RecipeViewerEvents.removeEntries('item', catalyst => {
     const itemsToRemove = [
 
         // Iron Jetpacks (Electrum)
@@ -46,6 +46,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     ];
 
     itemsToRemove.forEach(item => {
-        event.remove(item);
+        catalyst.remove(item);
     });
 });

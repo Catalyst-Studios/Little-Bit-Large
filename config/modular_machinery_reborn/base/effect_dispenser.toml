@@ -1,0 +1,29 @@
+[small]
+	#Defines the effect area radius in blocks
+	#This is ignored if the hatch is interdimensional
+	# Default: 5
+	# Range: > 1
+	radius = 5
+	#Defines if this hatch should show the area effect in form of particles
+	#This is ignored if the hatch is interdimensional
+	showParticles = true
+
+[medium]
+	#Defines the effect area radius in blocks
+	#This is ignored if the hatch is interdimensional
+	# Default: 15
+	# Range: > 1
+	radius = 15
+	#Defines if this hatch should show the area effect in form of particles
+	#This is ignored if the hatch is interdimensional
+	showParticles = true
+
+[big]
+	#Defines the effect area radius in blocks
+	#This is ignored if the hatch is interdimensional
+	# Default: 32
+	# Range: > 1
+	radius = 32
+	#Defines if this hatch should show the area effect in form of particles.
+	#This is ignored if the hatch is interdimensional
+	showParticles = true

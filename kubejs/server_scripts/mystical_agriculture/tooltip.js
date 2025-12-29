@@ -1,6 +1,6 @@
 // priority: 11
 
-ItemEvents.modifyTooltips(event => {
+ItemEvents.modifyTooltips(catalyst => {
 
     const creditText = Text.info("Created by: ").append(Text.of("<glitch>Catalyst</glitch> ").red()).append(Text.of("Studio").gold());
     
@@ -25,7 +25,7 @@ ItemEvents.modifyTooltips(event => {
 
         if(Item.exists(essenceId) && !excludedEssences.has(itemName))
         {
-            event.modify(essenceId, text => {
+            catalyst.modify(essenceId, text => {
                 text.removeLine(1);
                 text.add(creditText);
             });
@@ -33,7 +33,7 @@ ItemEvents.modifyTooltips(event => {
 
         if(Item.exists(seedsId))
         {
-            event.modify(seedsId, text => {
+            catalyst.modify(seedsId, text => {
                 text.removeLine(2);
 
                 if(tier && TIERS[tier])
@@ -89,7 +89,7 @@ ItemEvents.modifyTooltips(event => {
 
     const altar = 'mysticalagriculture:awakening_altar';
     if (Item.exists(altar)) {
-        event.modify(altar, text => {
+        catalyst.modify(altar, text => {
             text.removeLine(2);
             text.add(Text.info("Might cause fire").red());
         });

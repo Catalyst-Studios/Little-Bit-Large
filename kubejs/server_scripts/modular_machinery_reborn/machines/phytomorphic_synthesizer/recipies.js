@@ -32,8 +32,7 @@ ServerEvents.recipes(catalyst => {
     modifiedItemNames.forEach(modifiedName => {
         // Common recipe configuration
         const baseRecipeConfig = (recipe) => recipe
-            .progressX(54)
-            .progressY(20)
+            .progressData(ProgressData.create().x(54).y(20))
             .width(110)
             .height(60)
             .requireEnergy(10000, 0, 4)
@@ -47,13 +46,15 @@ ServerEvents.recipes(catalyst => {
         const essenceOutput = isCognizant 
             ? `mysticalagriculture:cognizant_dust`
             : (isInsanium ? `mysticalagradditions:insanium_essence` : `${modifiedName}_essence`);
+        
         // Base recipe (no fertilizer)
         baseRecipeConfig(
             catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:phytomorphic_synthesiszer", time)
         )
         .produceItem(`${base_production_essence*1}x ${essenceOutput}`, 90, 20)
         .produceItem(`1x ${modifiedName}_seeds`, 90, 0)
-        .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.02, 90, 40);
+        .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.02, 90, 40)
+        .id(`catalyst:mmr/phytomorphic/${idPath}/base`);
 
         // Bone meal recipe
         baseRecipeConfig(
@@ -63,7 +64,8 @@ ServerEvents.recipes(catalyst => {
         .produceItem(`${base_production_essence*2}x ${essenceOutput}`, 90, 20)
         .produceItem(`1x ${modifiedName}_seeds`, 90, 0)
         .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.05, 90, 40)
-        .priority(1);
+        .priority(1)
+        .id(`catalyst:mmr/phytomorphic/${idPath}/bone_meal`);
 
         // Mystical fertilizer recipe
         baseRecipeConfig(
@@ -73,7 +75,8 @@ ServerEvents.recipes(catalyst => {
         .produceItem(`${base_production_essence*4}x ${essenceOutput}`, 90, 20)
         .produceItem(`1x ${modifiedName}_seeds`, 90, 0)
         .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.1, 90, 40)
-        .priority(2);
+        .priority(2)
+        .id(`catalyst:mmr/phytomorphic/${idPath}/mystical_fertilizer`);
     })
 });
 /* 

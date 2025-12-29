@@ -71,7 +71,7 @@ ServerEvents.recipes(catalyst => {
                     type: 'immersiveengineering:crop',
                     block: crop.getCropBlock().getId()
                 }
-            })
+            }).id(`catalyst:immersiveengineering/cloche/${crop.getName()}`)
         })
     }
 })

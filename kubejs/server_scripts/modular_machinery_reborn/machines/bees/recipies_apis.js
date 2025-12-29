@@ -226,7 +226,7 @@ const allBees = [
     ["evilcraft\/bloody", 2, "evilcraft:hardened_blood"],
     ["evilcraft\/dark_gem", 2, "evilcraft:dark_block"],
     ["feywild\/fey", 2, "feywildfey_gem"],
-    //["chocolate", 2, "create:bar_of_chocolate"],
+    ["chocolate", 2, "create:bar_of_chocolate"],
     ["oily", 2, "pneumaticcraft:oil_bucket"],
     ["tea", 2, "minecraft:oak_leaves"],
     ["water", 2, "cookingforblockheads:sink"],
@@ -443,18 +443,29 @@ ServerEvents.recipes(catalyst => {
     allBees.forEach(bee => {
         
         let [keyword, beeType, ingredients] = bee;
-        let modid = ""
         let bee_type = ""
+        let modid = ""
         if(keyword.includes("\/"))
         {
             bee_type = keyword.toString().split("\/")[1]
             modid = keyword.toString().split("\/")[0]
         }
-        if(beeType === 1)
+        else
+        {
+            bee_type = keyword
+        }
+
+        let inputEgg = Item.of('productivebees:spawn_egg_configurable_bee', 1, {
+                "entity_data": {
+                    "id": "productivebees:configurable_bee",
+                    "type": `productivebees:${bee_type}`
+                }
+            });
+
+        if(beeType === 1) //bees that are "normal", aka no nbt
         {
             catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:apis_mutandis", time)
-            .progressX(54)
-            .progressY(20)
+            .progressData(ProgressData.create().x(54).y(20))
             .width(110)
             .height(60)
             .requireEnergy(20000, 0, 4)
@@ -462,48 +473,50 @@ ServerEvents.recipes(catalyst => {
             .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
             .requireFluid('1000x productivebees:honey', 25, 40)
             .produceItem(`productivebees:spawn_egg_${keyword}_bee`, 90, 20)
+            .id(`catalyst:mmr/api_mutandis/${keyword}`)
         }
-        else if(beeType === 2)
+        else if(beeType === 2) //bees that has nbt data (because why wouldnt they have)
         {
             if(Item.exists(ingredients) && Platform.isLoaded(modid))
             {
                 catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:apis_mutandis", time)
-                .progressX(54)
-                .progressY(20)
+                .progressData(ProgressData.create().x(54).y(20))
                 .width(110)
                 .height(60)
                 .requireEnergy(20000, 0, 4)
                 .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
                 .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
                 .requireFluid('1000x productivebees:honey', 25, 40)
-                .produceItem(`productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:${bee_type}"}]`, 90, 20)
+                .produceItem(inputEgg, 90, 20)
+                .id(`catalyst:mmr/api_mutandis/${keyword}`)
             }
-            else if(modid === "")
+            else if(modid === "") //bees without a mod, like thermal
             {
                 try
                 {
                     if(Item.exists(ingredients))
                     {
                         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:apis_mutandis", time)
-                        .progressX(54)
-                        .progressY(20)
+                        .progressData(ProgressData.create().x(54).y(20))
                         .width(110)
                         .height(60)
                         .requireEnergy(20000, 0, 4)
                         .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
                         .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
                         .requireFluid('1000x productivebees:honey', 25, 40)
-                        .produceItem(`productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:${keyword}"}]`, 90, 20)
+                        .produceItem(inputEgg, 90, 20)
+                        .id(`catalyst:mmr/api_mutandis/${keyword}`)
                     }
                 }
                 catch(error)
                 {
-                    //console.warn(`BeeType not found = ${beeType}, ${keyword}, ${ingredients}`)
+                    console.error(`[CatJS] Error while processing: ${beeType}, ${keyword}, ${ingredients}`)
+                    console.log(error)
                 }
             }
             else
             {
-                //console.warn(`BeeType not found = ${beeType}, ${keyword}, ${ingredients}`)
+                //console.warn(`[CatJS] BeeType not found = ${beeType}, ${keyword}, ${ingredients}, this might be skipped`)
             }
         }
         

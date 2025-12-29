@@ -4,165 +4,114 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 ServerEvents.recipes((catalyst) => {
 
-    /* recipe for osmotic concentrator
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:osmotic_concentrator"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: "mekanism:ultimate_control_circuit",
-        C: "mekanism:thermal_evaporation_controller"
-    
-    });
-         recipe for neutron injector
-       catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:neutron_injector"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: "mekanism:ultimate_control_circuit",
-        C: "mekanism:solar_neutron_activator"
-    });
-        // recipe for centrifugal seperator
-       catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:centrifugal_seperator"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: "mekanism:ultimate_control_circuit",
-        C: "mekanism:electric_pump"
-    
-    });*/
-        // recipe for data extractor
-       catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:data_extractor"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: "hostilenetworks:loot_fabricator",
-        C: '#curios:deep_learner'
-    
-    });
-    // recipe for phytomorphic synthesizer
-    catalyst.shaped(
-    Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:phytomorphic_synthesiszer"]'), [
-    'ABA',
-    'BCB',
-    'ABA' ],
-     {
-    A: "modular_machinery_reborn:casing_plain",
-    B: 'industrialforegoing:hydroponic_bed',
-    C: 'mysticalagriculture:awakened_supremium_growth_accelerator'
+    /**
+     * All recipes follow the pattern:
+     * ABA
+     * BCB
+     * ABA
+     * * @param {string} machineId The ID of the MMR machine (e.g., "mmr:data_extractor").
+     * @param {string} itemA The item for the 'A' slot (usually casing).
+     * @param {string} itemB The item for the 'B' slot.
+     * @param {string} itemC The item for the 'C' slot (core component).
+     */
+    const registerController = (machineId, itemA, itemB, itemC) => {
+        catalyst.shaped(
+            Item.of(`modular_machinery_reborn:controller[modular_machinery_reborn:machine="${machineId}"]`),
+            [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            {
+                A: itemA,
+                B: itemB,
+                C: itemC
+            }
+        ).id(`catalyst:mmr/controller/${machineId}`);;
+    };
 
-    });
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:arboretum"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: '#minecraft:saplings',
-        C: 'industrialforegoing:plant_sower'
-    
-        });
+    const plainCasing = "modular_machinery_reborn:casing_plain";
 
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:apis_mutandis"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: '#c:storage_blocks/honeycombs',
-        C: 'ars_nouveau:arcane_core'
-    
-        });
+    // Data Extractor
+    registerController(
+        "mmr:data_extractor",
+        plainCasing,
+        "hostilenetworks:loot_fabricator",
+        '#curios:deep_learner'
+    );
 
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:advanced_apiary"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: '#c:storage_blocks/honeycombs',
-        C: '#productivebees:advanced_beehives'
-    
-        });
+    // Phytomorphic Synthesizer
+    registerController(
+        "mmr:phytomorphic_synthesiszer",
+        plainCasing,
+        'industrialforegoing:hydroponic_bed',
+        'mysticalagriculture:awakened_supremium_growth_accelerator'
+    );
 
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:abyssal_pump"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: '#c:storage_blocks/steel',
-        C: 'mekanism:electric_pump'
-    
-        });
+    // Arboretum
+    registerController(
+        "mmr:arboretum",
+        plainCasing,
+        '#minecraft:saplings',
+        'industrialforegoing:plant_sower'
+    );
 
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:neutron_injector"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: '#c:storage_blocks/steel',
-        C: 'mekanism:solar_neutron_activator'
-    
-        });
+    // Apis Mutandis
+    registerController(
+        "mmr:apis_mutandis",
+        plainCasing,
+        '#c:storage_blocks/honeycombs',
+        'ars_nouveau:arcane_core'
+    );
 
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:osmotic_concentrator"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: '#c:storage_blocks/steel',
-        C: 'mekanism:thermal_evaporation_controller'
-    
-        });
+    // Advanced Apiary
+    registerController(
+        "mmr:advanced_apiary",
+        plainCasing,
+        '#c:storage_blocks/honeycombs',
+        '#productivebees:advanced_beehives'
+    );
 
-    //syntex
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:geo_syntex"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: 'minecraft:amethyst_cluster',
-        C: 'mysticalagriculture:awakened_supremium_growth_accelerator'
-    
-        });
-    
-    //maker
-    catalyst.shaped(
-        Item.of('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:crystalline_fabricator"]'), [
-        'ABA',
-        'BCB',
-        'ABA' ],
-         {
-        A: "modular_machinery_reborn:casing_plain",
-        B: 'minecraft:amethyst_cluster',
-        C: 'pneumaticcraft:pressure_chamber_interface'
-    
-        });
-    
+    // Abyssal Pump
+    registerController(
+        "mmr:abyssal_pump",
+        plainCasing,
+        '#c:storage_blocks/steel',
+        'mekanism:electric_pump'
+    );
 
-    
+    // Neutron Injector
+    registerController(
+        "mmr:neutron_injector",
+        plainCasing,
+        '#c:storage_blocks/steel',
+        'mekanism:solar_neutron_activator'
+    );
+
+    // Osmotic Concentrator
+    registerController(
+        "mmr:osmotic_concentrator",
+        plainCasing,
+        '#c:storage_blocks/steel',
+        'mekanism:thermal_evaporation_controller'
+    );
+
+    // Geo Syntex
+    registerController(
+        "mmr:geo_syntex",
+        plainCasing,
+        'minecraft:amethyst_cluster',
+        'mysticalagriculture:awakened_supremium_growth_accelerator'
+    );
+
+    // Crystalline Fabricator (Maker)
+    registerController(
+        "mmr:crystalline_fabricator",
+        plainCasing,
+        'minecraft:amethyst_cluster',
+        'pneumaticcraft:pressure_chamber_interface'
+    );
+
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

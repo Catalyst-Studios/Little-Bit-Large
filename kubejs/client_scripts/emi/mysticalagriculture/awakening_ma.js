@@ -45,7 +45,7 @@ const AWAKENING_SLOTS = [
     {x: 1, y: 33}   // 7: Izquierda
 ]
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("mysticalagriculture"))
@@ -82,7 +82,7 @@ RecipeViewerEvents.addEntries("item", event => {
                 return;
             }
 
-            let awakeningRecipes = recipeManager.getAllRecipesFor(awakeningType)
+            let awakeningRecipes = recipeManager.getAllRecipesFor(awakeningType).toArray()
             let registryAccess = $Minecraft.getInstance().level.registryAccess()
 
             let barrierItem = $BuiltInRegistries.ITEM.get(new $ResourceLocation("minecraft", "barrier"))

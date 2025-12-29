@@ -45,7 +45,7 @@ const SLOT_POS = {
     WEST:       {x: 0, y: 32}
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("mysticalagriculture"))
@@ -83,7 +83,7 @@ RecipeViewerEvents.addEntries("item", event => {
                 return;
             }
 
-            let infusionRecipes = recipeManager.getAllRecipesFor(infusionType)
+            let infusionRecipes = recipeManager.getAllRecipesFor(infusionType).toArray()
 
             let registryAccess = $Minecraft.getInstance().level.registryAccess()
             let barrierItem = $BuiltInRegistries.ITEM.get(new $ResourceLocation("minecraft", "barrier"))

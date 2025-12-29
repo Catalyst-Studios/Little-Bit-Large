@@ -1,6 +1,6 @@
 const $EssenceVesselsManager = Java.loadClass('com.blakebr0.mysticalagriculture.crafting.EssenceVesselColorManager')
 
-ServerEvents.afterRecipes(event =>{
+ServerEvents.afterRecipes(catalyst =>{
     let manager = $EssenceVesselsManager.INSTANCE
     if(manager)
     {

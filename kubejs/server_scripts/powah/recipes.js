@@ -3,7 +3,7 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
-ServerEvents.recipes( catalyst => {
+ServerEvents.recipes(catalyst => {
 
     // Fluix Blocks	
     catalyst.custom({

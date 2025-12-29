@@ -4,16 +4,12 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 ServerEvents.recipes(catalyst => {
     catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:abyssal_pump", 300)
-        // OPTIONAL CUSTOMIZATION {
-        .progressX(30)
-        .progressY(20)
+        .progressData(ProgressData.create().x(30).y(20))
         .width(110)
         .height(60)
-        // }
-
         .requireEnergy(30000, 0, 4)
         .produceFluid('10000x mekanism:heavy_water', 75, 20)
-        //.requireFluid('1000000x minecraft:water', 25, 20);
+        .id('catalyst:mmr/abyssal_pump/heavy_water')
 
 })
 /* 

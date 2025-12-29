@@ -4,7 +4,6 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 
 ServerEvents.recipes(catalyst => {
-    catalyst.remove('justdirethings:celestigem_paxel')
     catalyst.shaped('justdirethings:celestigem_paxel', [
         'PAS',
         ' W ',
@@ -14,9 +13,8 @@ ServerEvents.recipes(catalyst => {
         A: 'justdirethings:celestigem_axe',
         S: 'justdirethings:celestigem_shovel',
         W: 'minecraft:stick'
-    })
+    }).id('catalyst:justdirethings/celestigem_paxel')
 
-    catalyst.remove('justdirethings:eclipsealloy_paxel')
     catalyst.shaped('justdirethings:eclipsealloy_paxel', [
         'PAS',
         ' W ',
@@ -26,7 +24,7 @@ ServerEvents.recipes(catalyst => {
         A: 'justdirethings:eclipsealloy_axe',
         S: 'justdirethings:eclipsealloy_shovel',
         W: 'minecraft:stick'
-    })
+    }).id('catalyst:justdirethings/eclipsealloy_paxel')
 })
 
 

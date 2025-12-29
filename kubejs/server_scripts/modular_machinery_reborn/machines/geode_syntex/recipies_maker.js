@@ -34,12 +34,12 @@ ServerEvents.recipes(catalyst => {
     
     mineralTypes.forEach(mineral => {
         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:crystalline_fabricator", 2400)
-        .progressX(54)
-        .progressY(20)
+        .progressData(ProgressData.create().x(54).y(20))
         .width(110)
         .height(60)
         .requireEnergy(10000, 0, 4)
         .requireItem(`32x ${mineral.block}`, 25, 20)
-        .produceItem(`1x ${mineral.budding}`, 90, 20);
+        .produceItem(`1x ${mineral.budding}`, 90, 20)
+        .id(`catalyst:mmr/crystalline_fabricator/${mineral.budding}`)
     });
 });

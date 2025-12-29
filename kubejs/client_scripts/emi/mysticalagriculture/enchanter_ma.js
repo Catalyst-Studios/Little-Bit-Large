@@ -2,7 +2,6 @@
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
-// --- Clases de EMI ---
 let $EmiRecipeCategory
 let $EmiStack
 let $EmiRecipe
@@ -10,7 +9,6 @@ let $EmiTexture
 let $EmiRecipes
 let $EmiIngredient
 
-// --- Clases de Minecraft (1.21.1) ---
 let $Minecraft
 let $ItemStack
 let $ResourceLocation
@@ -19,11 +17,9 @@ let $Items
 let $EnchantedBookItem
 let $EnchantmentInstance
 
-// --- Clases de Mystical Agriculture ---
 let $MysticalAgriculture
 let $ModBlocks
 
-// Carga condicional de clases
 if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
@@ -44,7 +40,7 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
     $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("mysticalagriculture"))
@@ -78,7 +74,7 @@ RecipeViewerEvents.addEntries("item", event => {
                 return;
             }
 
-            let enchanterRecipes = recipeManager.getAllRecipesFor(enchanterRecipeType)
+            let enchanterRecipes = recipeManager.getAllRecipesFor(enchanterRecipeType).toArray()
             let createScaledList = (baseIngredient, baseCount, maxLevel) => {
                 let list = []
                 let tempEmiIng = $EmiIngredient["of(net.minecraft.world.item.crafting.Ingredient)"](baseIngredient)

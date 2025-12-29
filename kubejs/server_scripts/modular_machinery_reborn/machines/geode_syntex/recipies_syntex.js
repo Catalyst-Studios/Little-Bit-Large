@@ -6,21 +6,21 @@ let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 
 ServerEvents.recipes(catalyst => {
     catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:geo_syntex", 1200)
-    .progressX(54)
-    .progressY(20)
+    .progressData(ProgressData.create().x(54).y(20))
     .width(110)
     .height(60)
     .requireEnergy(10000, 0, 4)
     .produceItem('1x minecraft:amethyst_shard', 90, 20)
     .requireFunctionOnEnd("geo_chooser")
+    .id("catalyst:mmr/geo_syntex")
 });
 
-MMREvents.recipeFunction("geo_chooser", event => {
-    let controller = event.machine;
-    let level = event.getTile().getLevel();
+MMREvents.recipeFunction("geo_chooser", catalyst => {
+    let controller = catalyst.machine;
+    let level = catalyst.getTile().getLevel();
     let inputItems = controller.getItemsStored(IOType.INPUT);
-    let outputItems = event.machine.getItemsStored(IOType.OUTPUT);
-    let pos = event.getTile().getBlockPos();
+    let outputItems = catalyst.machine.getItemsStored(IOType.OUTPUT);
+    let pos = catalyst.getTile().getBlockPos();
     let geoBonus = 0;
     let upgradeCount = 0;
     let facing = level.getBlock(pos).getProperties().get("facing")
@@ -54,7 +54,7 @@ MMREvents.recipeFunction("geo_chooser", event => {
             centralPos = pos.offset(3, 3, 0);
             break;
         default:
-            event.cancel();
+            catalyst.cancel();
             return;
     }
 
@@ -95,7 +95,7 @@ MMREvents.recipeFunction("geo_chooser", event => {
     let validMineral = mineralTypes.find(mineral => mineral.budding === centralBlock);
     if(!validMineral)
     {
-        event.cancel("Center block is not valid");
+        catalyst.cancel("Center block is not valid");
         return;
     }
 
@@ -120,7 +120,7 @@ MMREvents.recipeFunction("geo_chooser", event => {
 
     if(clusterCount != 6)
     {
-        event.cancel("Needs 6 clusters of " + validMineral.cluster);
+        catalyst.cancel("Needs 6 clusters of " + validMineral.cluster);
         return;
     }
 
@@ -179,13 +179,13 @@ MMREvents.recipeFunction("geo_chooser", event => {
         for(let i = 0; i < fullStacks; i++)
         {
             let stack = Item.of(validMineral.shard, 64);
-            event.machine.addItem(stack);
+            catalyst.machine.addItem(stack);
         }
         
         if(remainder > 0)
         {
             let stack = Item.of(validMineral.shard, remainder);
-            event.machine.addItem(stack);
+            catalyst.machine.addItem(stack);
         }
     }
 });

@@ -3,7 +3,7 @@
         "./**/*.js",
         "./**/*.ts",
         "../client_scripts/jei/recipe_viewer_add.js"
-    ],
+, "../client_scripts/vessels.js"    ],
     "compilerOptions": {
         "module": "none",
         "moduleResolution": "node",

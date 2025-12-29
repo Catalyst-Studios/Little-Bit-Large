@@ -1,15 +1,15 @@
-ServerEvents.recipes(event => {
-    event.remove({ 
+ServerEvents.recipes(catalyst => {
+    catalyst.remove({ 
         type: 'ars_nouveau:apparatus_enchanting',
         enchantment: 'ars_nouveau:reactive'
     })
-    event.remove({ 
+    catalyst.remove({ 
         type: 'ars_nouveau:enchantment',
         enchantment: 'ars_nouveau:reactive'
     })
-    event.remove({type: 'ars_nouveau:reactive_enchantment'})
+    catalyst.remove({type: 'ars_nouveau:reactive_enchantment'})
 
-    event.custom({
+    catalyst.custom({
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         sourceCost: 3000,
@@ -32,9 +32,9 @@ ServerEvents.recipes(event => {
                 }
             }
         }
-    })
+    }).id('catalyst:ars_nouveau/enchanting_apparatus/reactive_1')
 
-    event.custom({
+    catalyst.custom({
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         sourceCost: 6000,
@@ -62,9 +62,9 @@ ServerEvents.recipes(event => {
                 }
             }
         }
-    })
+    }).id('catalyst:ars_nouveau/enchanting_apparatus/reactive_2')
 
-    event.custom({
+    catalyst.custom({
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         sourceCost: 9000,
@@ -92,9 +92,9 @@ ServerEvents.recipes(event => {
                 }
             }
         }
-    })
+    }).id('catalyst:ars_nouveau/enchanting_apparatus/reactive_3')
 
-    event.custom({
+    catalyst.custom({
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         sourceCost: 9000,
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
                 }
             }
         }
-    })
+    }).id('catalyst:ars_nouveau/enchanting_apparatus/reactive_4')
 
     console.log("[CatJS] Added new Reactive Recipe")
 })

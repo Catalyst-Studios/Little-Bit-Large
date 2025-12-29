@@ -53,7 +53,7 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
     $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("mysticalagriculture"))
@@ -87,7 +87,7 @@ RecipeViewerEvents.addEntries("item", event => {
                 return;
             }
 
-            let spawnerRecipes = recipeManager.getAllRecipesFor(spawnerRecipeType)
+            let spawnerRecipes = recipeManager.getAllRecipesFor(spawnerRecipeType).toArray()
             let createInputs = (ingredient, count) => {
                 let list = []
                 let tempEmiIng = $EmiIngredient["of(net.minecraft.world.item.crafting.Ingredient)"](ingredient)

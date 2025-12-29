@@ -1,16 +1,17 @@
 ServerEvents.recipes(catalyst => {
-    function inject(input_chemical, output_chemical, inn, out) {
+
+    function inject(input_chemical, output_chemical, inn, out)
+    {
+        let idName = output_chemical.split(':')[1];
+
         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:neutron_injector", 40)
-            // OPTIONAL CUSTOMIZATION {
-            .progressX(54)
-            .progressY(20)
+            .progressData(ProgressData.create().x(54).y(20))
             .width(110)
             .height(60)
-            // }
             .requireEnergy(10000, 0, 4)
             .produceChemical(`${out}x ${output_chemical}`, 90, 20)
             .requireChemical(`${inn}x ${input_chemical}`, 25, 20)
-            
+            .id(`catalyst:mmr/neutron_injector/${idName}`)
     }
 
     inject("mekanism:nuclear_waste", "mekanism:polonium", 100000, 10000);

@@ -36,7 +36,7 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
     $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("mysticalagriculture"))

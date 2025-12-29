@@ -9,23 +9,28 @@
 	#Print in Log when Time Torch is placed and by who [Default: true]
 	timeTorchLogging = true
 	#How many ticks in between ticking neighbour blocks [Default: 5]
-	#Range: > 0
+	# Default: 5
+	# Range: > 0
 	timeTorchRate = 5
 	#The amount of ticks the Time Torch applies to neighbour blocks [Default: 3]
-	#Range: > 1
+	# Default: 3
+	# Range: > 1
 	timeTorchAmount = 3
 	#Disable recovery hearts from dropping [Default: false]
 	disableRecoveryHearts = false
 	#Enables screen shake when in Liquid Force [Default: false]
 	enableForceShake = false
 	#The max amount of damage blocked when all armor pieces have the Sturdy infusion [Default: 0.75]
-	#Range: 0.0 ~ 1.0
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
 	sturdyDamageReduction = 0.75
 	#The amount of half hearts of damage given by Force Punch given by the Damage infusion on armor [Default: 0.75]
-	#Range: 0.0 ~ 1.7976931348623157E308
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
 	forcePunchDamage = 2.0
 	#The max amount of ticks it takes to charge a tool with Force [Default: 120 (6 seconds)]
-	#Range: > 20
+	# Default: 120
+	# Range: > 20
 	forceInfusingTime = 120
 	#An additional list of tile entities the Force Furnace can NOT insert into [Syntax: modid:tile_name]
 	#Examples: "minecraft:shulker_box" would stop it inserting into shulkers
@@ -39,29 +44,38 @@
 #Infusion settings
 [infusion]
 	#The max level of Bleeding that can be applied [Default: 3]
-	#Range: 1 ~ 5
+	# Default: 3
+	# Range: 1 ~ 5
 	bleedCap = 3
 	#The max level of Healing that can be applied [Default: 3]
-	#Range: 1 ~ 5
+	# Default: 3
+	# Range: 1 ~ 5
 	healingCap = 3
 	#The max level of Sturdy that can be applied on force tools [Default: 3]
-	#Range: 1 ~ 10
+	# Default: 3
+	# Range: 1 ~ 10
 	sturdyToolCap = 3
 	#The max level of Luck that can be applied [Default: 4]
-	#Range: 1 ~ 10
+	# Default: 4
+	# Range: 1 ~ 10
 	luckCap = 4
 	#The max level of Damage that can be applied [Default: 5]
-	#Range: 1 ~ 10
+	# Default: 5
+	# Range: 1 ~ 10
 	damageCap = 5
 	#The max level of Force that can be applied [Default: 2]
-	#Range: 1 ~ 10
+	# Default: 2
+	# Range: 1 ~ 10
 	forceCap = 2
 	#The max level of Speed that can be applied [Default: 5]
-	#Range: 1 ~ 10
+	# Default: 5
+	# Range: 1 ~ 10
 	speedCap = 5
 	#The max level of Speed that can be applied to a Force Rod [Default: 3]
-	#Range: 1 ~ 5
+	# Default: 3
+	# Range: 1 ~ 5
 	rodSpeedCap = 3
 	#The level of Regeneration given to the player when standing in Liquid Force (0 = Regeneration 1) [Default: 0]
-	#Range: 0 ~ 16
+	# Default: 0
+	# Range: 0 ~ 16
 	liquidRegenLevel = 0

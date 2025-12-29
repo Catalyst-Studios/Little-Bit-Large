@@ -69,7 +69,25 @@ ServerEvents.recipes(catalyst => {
         'oritech:crafting/electricfurnacealt',
         'oritech:crafting/pulverizer',
 
-    ];
+        //geore
+        /geore.*:allthemodium_.*/,
+        /geore:.*_allthemodium/,
+        /geore:.*_allthemodium_bud/,
+        /geore.*:vibranium_.*/,
+        /geore:.*_vibranium/,
+        /geore:.*_vibranium_bud/,
+        /geore.*:unobtainium_.*/,
+        /geore:.*_unobtainium/,
+        /geore:.*_unobtainium_bud/,
+
+        //mmr
+        {output: 'modular_machinery_reborn:modularium'},
+
+        //direthings
+        'justdirethings:celestigem_paxel',
+        'justdirethings:eclipsealloy_paxel'
+
+    ].concat(global.recipesSeedToRemove);
 
     recipesToRemove.forEach(recipe => {
         try {

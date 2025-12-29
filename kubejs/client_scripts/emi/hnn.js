@@ -47,7 +47,7 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("hostilenetworks")) {
     $DataModelItem = Java.loadClass('dev.shadowsoffire.hostilenetworks.item.DataModelItem')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("hostilenetworks"))

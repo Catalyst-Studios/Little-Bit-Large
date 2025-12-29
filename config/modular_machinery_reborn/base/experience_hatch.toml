@@ -1,0 +1,47 @@
+[tiny]
+	#Defines the Experience Hatch
+	# Default: 1000
+	# Range: > 1
+	capacity = 1000
+
+[small]
+	#Defines the Experience Hatch
+	# Default: 4000
+	# Range: > 1
+	capacity = 4000
+
+[normal]
+	#Defines the Experience Hatch
+	# Default: 10000
+	# Range: > 1
+	capacity = 10000
+
+[reinforced]
+	#Defines the Experience Hatch
+	# Default: 20000
+	# Range: > 1
+	capacity = 20000
+
+[big]
+	#Defines the Experience Hatch
+	# Default: 45000
+	# Range: > 1
+	capacity = 45000
+
+[huge]
+	#Defines the Experience Hatch
+	# Default: 80000
+	# Range: > 1
+	capacity = 80000
+
+[ludicrous]
+	#Defines the Experience Hatch
+	# Default: 160000
+	# Range: > 1
+	capacity = 160000
+
+[vacuum]
+	#Defines the Experience Hatch
+	# Default: 320000
+	# Range: > 1
+	capacity = 320000

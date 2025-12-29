@@ -1,0 +1,63 @@
+[General]
+	#Weather the fuel tank should reduce its fuel when no recipe is running or not
+	reduceFuel = true
+
+[tiny]
+	#Defines the burntime capacity in ticks (1s = 20ticks)
+	# Default: 10000
+	# Range: 1 ~ 9223372036854775807
+	fuelCapacity = 10000
+	#Defined the fuel tank slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[small]
+	#Defines the burntime capacity in ticks (1s = 20ticks)
+	# Default: 20000
+	# Range: 1 ~ 9223372036854775807
+	fuelCapacity = 20000
+	#Defined the fuel tank slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[normal]
+	#Defines the burntime capacity in ticks (1s = 20ticks)
+	# Default: 50000
+	# Range: 1 ~ 9223372036854775807
+	fuelCapacity = 50000
+	#Defined the fuel tank slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[reinforced]
+	#Defines the burntime capacity in ticks (1s = 20ticks)
+	# Default: 100000
+	# Range: 1 ~ 9223372036854775807
+	fuelCapacity = 100000
+	#Defined the fuel tank slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[big]
+	#Defines the burntime capacity in ticks (1s = 20ticks)
+	# Default: 150000
+	# Range: 1 ~ 9223372036854775807
+	fuelCapacity = 150000
+	#Defined the fuel tank slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[huge]
+	#Defines the burntime capacity in ticks (1s = 20ticks)
+	# Default: 200000
+	# Range: 1 ~ 9223372036854775807
+	fuelCapacity = 200000
+	#Defined the fuel tank slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64

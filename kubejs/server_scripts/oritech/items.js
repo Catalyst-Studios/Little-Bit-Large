@@ -11,7 +11,7 @@ ServerEvents.recipes(catalyst => {
             '3x #c:dusts/diamond',
             '3x #c:dusts/nickel'
         ]
-    )
+    ).id("catalyst:oritech/adamant_dust")
 
 })
 

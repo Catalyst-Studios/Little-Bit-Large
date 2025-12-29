@@ -42,7 +42,7 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("immersiveengineering")) {
     $Arrays = Java.loadClass('java.util.Arrays')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let emiRegistry = global.emiRegistry
 
     if(Platform.isLoaded("emi") && emiRegistry && Platform.isLoaded("immersiveengineering"))
@@ -61,8 +61,6 @@ RecipeViewerEvents.addEntries("item", event => {
             let workstationItem = Item.of("immersiveengineering:fertilizer").getItem()
             let iconStack = new $ItemStack(workstationItem)
             let catIcon = $EmiStack["of(net.minecraft.world.item.ItemStack)"](iconStack)
-            
-            // JEI usa fondo blanco 150x50
             let fertilizerCategory = new $EmiRecipeCategory(catId, catIcon, catIcon)
             
             emiRegistry.addCategory(fertilizerCategory)
@@ -84,7 +82,7 @@ RecipeViewerEvents.addEntries("item", event => {
                 return;
             }
 
-            let fertilizerRecipes = recipeManager.getAllRecipesFor(fertilizerType)
+            let fertilizerRecipes = recipeManager.getAllRecipesFor(fertilizerType).toArray()
 
             fertilizerRecipes.forEach(holder => {
                 try {

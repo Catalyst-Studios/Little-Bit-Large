@@ -2,7 +2,7 @@
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
-ServerEvents.recipes(event => {
+ServerEvents.recipes(catalyst => {
 
     /**
      * We basically form a group
@@ -265,7 +265,7 @@ ServerEvents.recipes(event => {
             let finalOutput = Item.of(outputItem, outputCount);
             let predictionInput = `${predictionCost}x hostilenetworks:prediction[hostilenetworks:data_model="${modelId}"]`;
             
-            event.recipes.mekanismCombining(finalOutput, predictionInput, inputItem);
+            catalyst.recipes.mekanismCombining(finalOutput, predictionInput, inputItem);
         });
     }
 });

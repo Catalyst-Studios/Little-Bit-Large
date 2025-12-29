@@ -5,32 +5,36 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 
 ServerEvents.recipes(catalyst => {
     const seeds = [
-        ['mysticalagriculture:wood_seeds', 'minecraft:logs', 'mysticalagriculture:inferium_essence'],
-        ['mysticalagriculture:rubber_seeds', 'c:rubber', 'mysticalagriculture:prudentium_essence'],
-        ['mysticalagriculture:silicon_seeds', 'c:silicon', 'mysticalagriculture:prudentium_essence'],
-        ['mysticalagriculture:sulfur_seeds', 'c:dusts/sulfur', 'mysticalagriculture:prudentium_essence'],
-        ['mysticalagriculture:steel_seeds', 'c:ingots/steel', 'mysticalagriculture:imperium_essence'],
-        ['mysticalagriculture:saltpeter_seeds', 'c:dusts/niter', 'mysticalagriculture:prudentium_essence'],
-        ['mysticalagriculture:tin_seeds', 'c:ingots/tin', 'mysticalagriculture:tertium_essence'],
-        ['mysticalagriculture:uraninite_seeds', 'c:ingots/uraninite', 'mysticalagriculture:supremium_essence']
+        ['mysticalagriculture:wood_seeds', '#minecraft:logs', 'mysticalagriculture:inferium_essence'],
+        ['mysticalagriculture:rubber_seeds', '#c:rubber', 'mysticalagriculture:prudentium_essence'],
+        ['mysticalagriculture:silicon_seeds', '#c:silicon', 'mysticalagriculture:prudentium_essence'],
+        ['mysticalagriculture:sulfur_seeds', '#c:dusts/sulfur', 'mysticalagriculture:prudentium_essence'],
+        ['mysticalagriculture:steel_seeds', '#c:ingots/steel', 'mysticalagriculture:imperium_essence'],
+        ['mysticalagriculture:saltpeter_seeds', '#c:dusts/niter', 'mysticalagriculture:prudentium_essence'],
+        ['mysticalagriculture:tin_seeds', '#c:ingots/tin', 'mysticalagriculture:tertium_essence'],
+        ['mysticalagriculture:uraninite_seeds', '#c:ingots/uraninite', 'mysticalagriculture:supremium_essence']
     ]
 
     seeds.forEach(([output, input, essence]) => {
+        let seedName = output.split(':')[1]
+        let inputJson = input.startsWith('#') 
+            ? { tag: input.substring(1)}
+            : { item: input }
+
         catalyst.remove({ output: output })
 
         catalyst.custom({
             type: 'mysticalagriculture:infusion',
             input: { item: 'mysticalagriculture:prosperity_seed_base' },
             ingredients: [
-                { item: essence }, { tag: input },
-                { item: essence }, { tag: input },
-                { item: essence }, { tag: input },
-                { item: essence }, { tag: input }
+                { item: essence }, inputJson,
+                { item: essence }, inputJson,
+                { item: essence }, inputJson,
+                { item: essence }, inputJson
             ],
-            result: { id: output }
-        });
+            result: { item: output } 
+        }).id(`catalyst:mysticalagriculture/infusion/${seedName}`)
     })
-
 })
     
 /* 

@@ -46,15 +46,15 @@ const RITUAL_CONFIG = [
     }
 ];
 
-ServerEvents.loaded(event => {
+ServerEvents.loaded(catalyst => {
     const data = JsonIO.read('kubejs/data/altar_effect_preferences.json') || {};
     if (data.activated !== undefined) enabled = data.activated;
 });
 
-ServerEvents.commandRegistry(event => {
-    const { commands: Commands } = event;
+ServerEvents.commandRegistry(catalyst => {
+    const { commands: Commands } = catalyst;
 
-    event.register(Commands.literal('altareffects').requires(source => source.hasPermission(2) || source.getServer().isSingleplayer())
+    catalyst.register(Commands.literal('altareffects').requires(source => source.hasPermission(2) || source.getServer().isSingleplayer())
                    .then(Commands.literal('false').executes(ctx =>{
                         enabled = false;
                         ctx.source.sendSuccess(
@@ -81,12 +81,12 @@ ServerEvents.commandRegistry(event => {
     console.log("[CatJS] Added command to disable/enable MA awakening altar effects")
 });
 
-ServerEvents.tick(event => {
+ServerEvents.tick(catalyst => {
     if(!enabled) return;
 
-    if(event.server.tickCount % 200 === 0)
+    if(catalyst.server.tickCount % 200 === 0)
     {
-        event.server.getAllLevels().forEach(level => {
+        catalyst.server.getAllLevels().forEach(level => {
             level.blockEntityTickers.forEach(ticker => {
                 if(ticker.type.includes("mysticalagriculture:awakening_altar"))
                 {
@@ -101,9 +101,9 @@ ServerEvents.tick(event => {
         });
     }
 
-    if(event.server.tickCount % 20 === 0)
+    if(catalyst.server.tickCount % 20 === 0)
     {
-        checkAltars(event.server);
+        checkAltars(catalyst.server);
     }
 });
 

@@ -26,7 +26,7 @@ ServerEvents.recipes( catalyst => {
         "duration": 400,
         "xp": 2.2,
         "tier": 2
-    })
+    }).id("catalyst:bloodmagic/bloody_bee")
 })
 
 /* 

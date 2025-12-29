@@ -68,7 +68,7 @@ if(Platform.isLoaded("emi"))
     $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
 }
 
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.addEntries("item", catalyst => {
     let jeiRuntime = global.jeiRuntime
     let emiRegistry = global.emiRegistry
 

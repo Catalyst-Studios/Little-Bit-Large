@@ -4,6 +4,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 
 ServerEvents.recipes(catalyst => {
+    
     catalyst.shaped('quarryplus:quarry', [
         'SMS',
         'PEP',
@@ -14,7 +15,8 @@ ServerEvents.recipes(catalyst => {
         P: 'minecraft:diamond_pickaxe',
         C: 'enderio:double_layer_capacitor',
         E: 'enderio:void_chassis'
-    })
+    }).id('catalyst:quarryplus/quarry_enderio')
+
     catalyst.shaped('quarryplus:quarry', [
         'SMS',
         'PEP',
@@ -25,7 +27,8 @@ ServerEvents.recipes(catalyst => {
         P: 'minecraft:diamond_pickaxe',
         C: 'industrialforegoing:efficiency_addon_tier_2',
         E: 'industrialforegoing:machine_frame_simple'
-    })
+    }).id('catalyst:quarryplus/quarry_industrialforegoing')
+
     catalyst.shaped('quarryplus:quarry', [
         'SMS',
         'PEP',
@@ -36,7 +39,7 @@ ServerEvents.recipes(catalyst => {
         P: 'minecraft:diamond_pickaxe',
         C: 'mekanism:upgrade_energy',
         E: 'mekanism:steel_casing'
-    })
+    }).id('catalyst:quarryplus/quarry_mekanism')
 })
 
 /* 
