@@ -6,6 +6,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 
 ServerEvents.recipes(catalyst => {
 
+    let mod = 0;
     /**
      * Format: 'sapling_id': { log: 'log_id', leaves: 'leaves_id' }
      */
@@ -58,7 +59,7 @@ ServerEvents.recipes(catalyst => {
             .produceItem(`64x ${logId}`, 90, 0)
             .emptyItem(90, 20)
             .produceItem(`2x ${saplingId}`, 90, 40)
-            .id(`catalyst:mmr/arboretrum/${saplingId}`);
+            .id(`catalyst:mmr/arboretrum/${saplingId.replace(":", "/")}_${mod}`);
 
         //if the leaves exists, make the recipe
         if(Item.of(leavesId))
@@ -73,9 +74,10 @@ ServerEvents.recipes(catalyst => {
                 .produceItem(`64x ${logId}`, 90, 0)
                 .produceItem(`64x ${leavesId}`, 90, 20)
                 .produceItem(`2x ${saplingId}`, 90, 40)
-                .id(`catalyst:mmr/arboretrum/${saplingId}`)
+                .id(`catalyst:mmr/arboretrum/leaves_${saplingId.replace(":", "/")}_${mod}`)
                 .priority(1);
         }
+        mod++
     };
 
     Ingredient.of('#minecraft:saplings').stacks.forEach(item => {

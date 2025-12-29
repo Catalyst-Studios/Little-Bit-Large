@@ -27,7 +27,7 @@ ServerEvents.recipes((catalyst) => {
                 B: itemB,
                 C: itemC
             }
-        ).id(`catalyst:mmr/controller/${machineId}`);;
+        ).id(`catalyst:mmr/controller/${machineId.split(':')[1]}`);;
     };
 
     const plainCasing = "modular_machinery_reborn:casing_plain";

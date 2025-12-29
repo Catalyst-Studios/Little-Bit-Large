@@ -10,6 +10,7 @@ ServerEvents.recipes(catalyst => {
     // Helper function to create the shaped recipe
     // D = Input Port (Side), A = Center (Core), B = Top, C = Bottom
     const createPort = (input, output, core, top, bottom) => {
+        
         catalyst.shaped(output, [
             'B B',
             'DAD',
@@ -19,7 +20,7 @@ ServerEvents.recipes(catalyst => {
             A: core,
             B: top,
             C: bottom
-        }).id(`catalyst:mmr/ports/${input}_to_${output}`);;
+        }).id(`catalyst:mmr/ports/${input.split(':')[1]}_to_${output.split(':')[1]}`);;
     };
 
     //energy

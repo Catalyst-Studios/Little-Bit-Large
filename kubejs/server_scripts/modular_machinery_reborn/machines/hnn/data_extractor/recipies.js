@@ -7,6 +7,7 @@ ServerEvents.recipes(catalyst => {
     const MAX_STACK = 64;
     const MIN_TIME = 2;
     const MAX_TIME = 128;
+    let mod = 0;
 
     /**
      * Fabrication logic for MMR Data Extractor
@@ -34,7 +35,8 @@ ServerEvents.recipes(catalyst => {
             .requireItem(`${totalInput}x hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:${entity}"]`, 30, 20)
             .requireItem(`${catalystItem}`, 50, 20)
             .produceItem(`${totalOutput}x ${outputItem}`, 98, 20)
-            .id(`catalyst:mmr/data_extractor/${entity}`);   
+            .id(`catalyst:mmr/data_extractor/${entity}_${mod}`);
+            mod++;
     };
 
     // Recipe Definitions: [Entity ID, Catalyst Item, Output Item, Base Output Amount]
@@ -288,7 +290,7 @@ ServerEvents.recipes(catalyst => {
         .requireItem(`16x hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:evoker"]`, 30, 20)
         .requireItem(`minecraft:totem_of_undying`, 50, 20)
         .produceItem(`32x minecraft:totem_of_undying`, 98, 20)
-        .id('catalyst:mmr/data_extractor/evoker_totem');
+        .id(`catalyst:mmr/data_extractor/evoker_totem_${mod}`);
 
     /* Mobs not added:
        twilight deer, twilight fire beetle, twilight kobold, twilight redcap,

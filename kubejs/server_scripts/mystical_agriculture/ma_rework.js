@@ -18,6 +18,7 @@ const conig = "mysticalagriculture:cognizant_dust"
 
 ServerEvents.recipes(catalyst => {
 
+    let mod = 0;
     /**
      * @param {string} output
      * @param {string} input
@@ -35,7 +36,8 @@ ServerEvents.recipes(catalyst => {
             input: { item: input },
             ingredients: ingredients.map(i => ({ item: i })),
             result: { id: output }
-        }).id(`catalyst:mysticalagriculture/awakening/${idName}`);
+        }).id(`catalyst:mysticalagriculture/awakening/${idName}_${mod}`);
+        mod++;
     }
 
     /**
@@ -79,7 +81,8 @@ ServerEvents.recipes(catalyst => {
             recipe.result = { id: output, count: 1 };
         }
 
-        catalyst.custom(recipe).id(`catalyst:mysticalagriculture/infusion/${idName}`);
+        catalyst.custom(recipe).id(`catalyst:mysticalagriculture/infusion/${idName}_${mod}`);
+        mod++;
     }
 
     const getCleanName = (item) => item.includes(':') ? item.split(':')[1] : item;
@@ -87,34 +90,40 @@ ServerEvents.recipes(catalyst => {
     function row(mats, output, count, type) {
         let pattern = (type === 0) ? ['A C', ' B ', '   '] : ['ABC', '   ', '   '];
         catalyst.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] })
-        .id(`catalyst:shaped/row/${getCleanName(output)}`);
+        .id(`catalyst:shaped/row/${getCleanName(output)}_${mod}`);
+        mod++;
     }
 
     function row2(mats, output, count, type) {
         let pattern = (type === 0) ? ['   ', 'ABC', '   '] : ['   ', 'A C', ' B '];
         catalyst.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] })
-        .id(`catalyst:shaped/row2/${getCleanName(output)}`);
+        .id(`catalyst:shaped/row2/${getCleanName(output)}_${mod}`);
+        mod++;
     }
 
     function row3(mats, output, count, type) {
         let pattern = (type === 0) ? ['   ', '   ', 'ABC'] : ['   ', ' B ', 'A C'];
         catalyst.shaped(`${count}x ${output}`, pattern, { A: mats[0], B: mats[1], C: mats[2] })
-        .id(`catalyst:shaped/row3/${getCleanName(output)}`);
+        .id(`catalyst:shaped/row3/${getCleanName(output)}_${mod}`);
+        mod++;
     }
 
     function diagonal(mats, output, count) {
         catalyst.shaped(`${count}x ${output}`, ['A  ', ' B ', '  C'], { A: mats[0], B: mats[1], C: mats[2] })
-        .id(`catalyst:shaped/diagonal/${getCleanName(output)}`);
+        .id(`catalyst:shaped/diagonal/${getCleanName(output)}_${mod}`);
+        mod++;
     }
 
     function diagonal2(mats, output, count) {
         catalyst.shaped(`${count}x ${output}`, ['  A', ' B ', 'C  '], { A: mats[0], B: mats[1], C: mats[2] })
-        .id(`catalyst:shaped/diagonal2/${getCleanName(output)}`)
+        .id(`catalyst:shaped/diagonal2/${getCleanName(output)}_${mod}`)
+        mod++;
     }
 
     function square(mats, output, count) {
         catalyst.shaped(`${count}x ${output}`, [' A ', 'B C', ' D '], { A: mats[0], B: mats[1], C: mats[2], D: mats[3] })
-        .id(`catalyst:shaped/square/${getCleanName(output)}`)
+        .id(`catalyst:shaped/square/${getCleanName(output)}_${mod}`)
+        mod++;
     }
 
     const seedsToFix = new Set(["cobalt", "lumium", "signalum", "rose_gold", "pig_iron", "enderium"]);
@@ -181,7 +190,8 @@ ServerEvents.recipes(catalyst => {
     shapedRecipes.forEach(r => {
         let outName = r.out.split(':')[1].split('[')[0];
         catalyst.shaped(`${r.count || 1}x ${r.out}`, r.p, r.k)
-        .id(`catalyst:shaped/${outName}`);
+        .id(`catalyst:shaped/${outName}_${mod}`);
+        mod++;
     });
 
     // Shapeless simple

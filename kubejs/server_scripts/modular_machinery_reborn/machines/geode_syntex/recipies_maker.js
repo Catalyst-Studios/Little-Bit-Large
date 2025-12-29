@@ -40,6 +40,6 @@ ServerEvents.recipes(catalyst => {
         .requireEnergy(10000, 0, 4)
         .requireItem(`32x ${mineral.block}`, 25, 20)
         .produceItem(`1x ${mineral.budding}`, 90, 20)
-        .id(`catalyst:mmr/crystalline_fabricator/${mineral.budding}`)
+        .id(`catalyst:mmr/crystalline_fabricator/${mineral.budding.replace(":", "_")}`)
     });
 });

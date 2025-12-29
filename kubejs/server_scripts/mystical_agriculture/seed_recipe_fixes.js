@@ -16,7 +16,8 @@ ServerEvents.recipes(catalyst => {
     ]
 
     seeds.forEach(([output, input, essence]) => {
-        let seedName = output.split(':')[1]
+        let seedName = output.split(':')[1] // ej: wood_seeds
+        
         let inputJson = input.startsWith('#') 
             ? { tag: input.substring(1)}
             : { item: input }
@@ -32,8 +33,8 @@ ServerEvents.recipes(catalyst => {
                 { item: essence }, inputJson,
                 { item: essence }, inputJson
             ],
-            result: { item: output } 
-        }).id(`catalyst:mysticalagriculture/infusion/${seedName}`)
+            result: { id: output } 
+        }).id(`catalyst:mysticalagriculture/infusion/${seedName}_essence`)
     })
 })
     

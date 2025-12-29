@@ -48,6 +48,8 @@ ServerEvents.recipes(catalyst => {
             : (isInsanium ? `mysticalagradditions:insanium_essence` : `${modifiedName}_essence`);
         
         // Base recipe (no fertilizer)
+        const idPath = modifiedName.replace(':', '/');
+
         baseRecipeConfig(
             catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:phytomorphic_synthesiszer", time)
         )

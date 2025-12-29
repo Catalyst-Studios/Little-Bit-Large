@@ -163,7 +163,7 @@ ServerEvents.recipes(catalyst => {
         .requireFunctionEachTick("apiary_recipe_each")
         .produceItem(recipe.output, 90, 0)
         .requireFunctionOnEnd(recipe.onEnd)
-        .id(`catalyst:mmr/apiary/${recipe.beeType}`);
+        .id(`catalyst:mmr/apiary/${recipe.beeType.replace(":", "_")}`);
         
     });
 
