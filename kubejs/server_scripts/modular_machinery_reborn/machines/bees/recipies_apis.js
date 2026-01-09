@@ -433,10 +433,42 @@ const allBees = [
     ["undergarden\/forgotten", 2, "undergarden:forgotten_block"],
     ["undergarden\/froststeel", 2, "undergarden:froststeel_block"],
     ["undergarden\/regalium", 2, "undergarden:regalium_block"],
-    ["undergarden\/utheric", 2, "undergarden:utherium_block"]
+    ["undergarden\/utheric", 2, "undergarden:utherium_block"],
+    //This bees are without order, just making sure they are
+    ["oritech\/strange_matter", 2, "oritech:still_strange_matter_bucket"],
+    ["oritech\/biosteel", 2, "oritech:biosteel_ingot"],
+    ["oritech\/uranite_crystal", 2, "oritech:uranium_crystal"],
+    ["oritech\/energite", 2, "oritech:energite_block"],
+    ["oritech\/duratium", 2, "oritech:duratium_block"],
+    ["oritech\/sulfuric_acid", 2, "mekanism:sulfuric_acid_bucket"],
+    ["oritech\/dimensional_shard", 2, "rftoolsbase:dimensionalshard"],
+    ["oritech\/adamant", 2, "oritech:adamant_block"],
+    ["oritech\/fluxite", 2, "oritech:fluxite_block"],
+    ["oritech\/sheol_fire", 2, "oritech:still_sheol_fire_bucket"],
+    ["oritech\/prometheum", 2, "oritech:prometheum_ingot"]
 ];
 
 ServerEvents.recipes(catalyst => {
+
+    let debug = false
+    if(debug)
+    {
+        let beeTypes = new Set(allBees.map(bee => bee[0].includes("\/") ? bee[0].split("\/")[1] : bee[0]));
+        $BeeProvider.INSTANCE.getData().forEach((key, value) =>{
+            try
+            {
+                let type = String(key).split(":")[1];
+                if(!beeTypes.has(type))
+                {
+                    console.log(`[CatJS] New bee detected: ${type}`)
+                }
+            }
+            catch(error)
+            {
+                
+            }
+        })
+    }
 
     const time = 200; //ticks
     const multiplier = 20

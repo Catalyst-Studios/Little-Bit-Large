@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "evilcraft:spirit_portal"
+	}
 	id: "6EEF0BE14447C317"
 	loot_size: 1
 	order_index: 5

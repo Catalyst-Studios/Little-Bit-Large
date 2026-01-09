@@ -3397,6 +3397,24 @@
 	quest.34A2BDA58FF92BAC.quest_desc: ["&5Magical&r creatures guides you to these &dbuddings&r, giving you &bsappharite&r"]
 	quest.34A2BDA58FF92BAC.quest_subtitle: "Lapis"
 	quest.34AABAD892695D37.quest_desc: ["Compress &eitems&r, &conly&r those who has a 2x2 version, like &damethyst&r"]
+	quest.34B94E6DBEC34BCE.quest_desc: [
+		"Convert any &6ore&r, raw or shard to it's corresponding output"
+		""
+		"This &amachine&r uses a lot of &bpower&r and resources, but depending on where you place it, it can give you more &dresources&r"
+		""
+		"- Any &5dimension&r -> Gives x1 (not ideal)"
+		""
+		"- &#ec3e64The Nether&r -> Gives x2 (not the best, but we are near)"
+		""
+		"- &#e6eba8The End&r -> Gives x4 (the best of the best)"
+		""
+		"It needs a lot of &1water&r, which is easy to get, 5 buckets of &#b4e2e2ether gas&r and &#9c6833meat&r and some &asulfuric acid&r."
+		"While it seems a lot, water can be &eeasily&r obtained, and there is another &dmultiblock&r that gets a lot of &#b4e2e2ether gas&r and &#9c6833meat&r."
+		""
+		"For the &asulfuric acid&r, its not as big as it seems"
+	]
+	quest.34B94E6DBEC34BCE.quest_subtitle: "The glorified furnace, the biggest one"
+	quest.34B94E6DBEC34BCE.title: "&#00ff19Celestial&r Forge"
 	quest.34C914F96A3A1A27.quest_desc: [
 		"This relay functions much like a splitter in that it can send to multiple locations."
 		""
@@ -3780,8 +3798,6 @@
 	]
 	quest.3AE420164B082C74.quest_subtitle: "Redstone controller"
 	quest.3B1AF89E06B178D4.quest_desc: [
-		"For now, the &6apiary&r is the only &amultiblock&r that can support &dparallels&r."
-		""
 		"&5Parallels&r means doing more &bwork&r on the same machine, but without &cbuilding&r more."
 		"This &ameans&r you just need to &bchange&r a block and good to go"
 	]
@@ -6177,6 +6193,13 @@
 		"Also, the altar has given more &bimportance&r than before, with more &dcrafts&r and some &aimprovements&r and &cnerfs&r, with more essences for the &evessels&r"
 	]
 	quest.64EC4D5F482E7C30.quest_subtitle: "I hope you don't have wood near"
+	quest.64F9B0F0FA57D7F2.quest_desc: [
+		"Currently, there is only 1 &9machine&r, which is very powerful on its own"
+		""
+		"It can even &5support&r a lot of &ageodes&r and a quarry going, giving up to&#F727FF <shake a=1.0 f=1.0>x4</shake> "
+	]
+	quest.64F9B0F0FA57D7F2.quest_subtitle: "We are &bstarting&r to get multiblocked"
+	quest.64F9B0F0FA57D7F2.title: "&#ffd00cOre&r <bounce a=1.0 f=0.5 w=1.0>processing</bounce>"
 	quest.65041E2312518AE3.quest_desc: ["And to start creating this technological materials we'll need this waffer to create the Advanced Computing Engine for other machines!"]
 	quest.65041E2312518AE3.quest_subtitle: "Not a Waffle"
 	quest.65041E2312518AE3.title: "&lSilicon Wafer"

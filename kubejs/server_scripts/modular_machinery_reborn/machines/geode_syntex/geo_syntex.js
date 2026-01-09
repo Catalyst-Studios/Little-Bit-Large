@@ -58,7 +58,8 @@ MMREvents.machines(catalyst => {
                         "geore:platinum_block",
                         "geore:silver_block",
                         "geore:tin_block",
-                        "geore:tungsten_block"
+                        "geore:tungsten_block",
+                        "geore:uranium_block"
                     ],
                     "p": [
                         "minecraft:budding_amethyst",
@@ -89,7 +90,8 @@ MMREvents.machines(catalyst => {
                         "geore:budding_platinum",
                         "geore:budding_silver",
                         "geore:budding_tin",
-                        "geore:budding_tungsten"
+                        "geore:budding_tungsten",
+                        "geore:budding_uranium"
                     ],
                     "k": [
                         "minecraft:amethyst_cluster",
@@ -120,7 +122,8 @@ MMREvents.machines(catalyst => {
                         "geore:platinum_cluster",
                         "geore:silver_cluster",
                         "geore:tin_cluster",
-                        "geore:tungsten_cluster"
+                        "geore:tungsten_cluster",
+                        "geore:uranium_cluster"
                     ]
                 })
         )

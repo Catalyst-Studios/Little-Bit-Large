@@ -4,7 +4,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 ServerEvents.recipes(catalyst => {
         
-catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:osmotic_concentrator", 20)
+    catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:osmotic_concentrator", 20)
         .progressData(ProgressData.create().x(45).y(20))
         .width(110)
         .height(60)

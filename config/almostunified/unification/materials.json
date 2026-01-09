@@ -36,7 +36,8 @@
     "c:nuggets/plutonium",
     "c:dusts/plutonium",
     "c:pellets/plutonium",
-    "c:plastics"
+    "c:plastics",
+    "c:ingots/uraninite"
   ],
   "ignored_tags": [],
   "ignored_items": [],
@@ -45,6 +46,6 @@
   ],
   "ignored_recipe_ids": [],
   "recipe_viewer_hiding": true,
-  "loot_unification": false,
+  "loot_unification": true,
   "ignored_loot_tables": []
 }
