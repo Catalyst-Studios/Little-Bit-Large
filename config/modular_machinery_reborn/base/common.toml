@@ -28,7 +28,7 @@
 	#20 ticks = 1 second. Default: 80
 	# Default: 20
 	# Range: > 1
-	check_recipe_ticks = 40
+	check_recipe_ticks = 80
 	#Defines the number of max parallel recipes that can be run on multiblocks. If this number is below than any on [parallel hatch] config path, it will use the max value of them instead.
 	# Default: 256
 	# Range: > 1
