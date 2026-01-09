@@ -623,7 +623,7 @@
 				{
 					count: 2L
 					id: "5394DA371F839BA5"
-					item: { count: 2, id: "comforts:rope_and_nail" }
+					item: { count: 1, id: "comforts:rope_and_nail" }
 					type: "item"
 				}
 			]

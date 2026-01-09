@@ -1,0 +1,107 @@
+[container]
+	#Defines the container X offset relative to top-left corner of the texture
+	# Default: 8
+	# Range: > 0
+	xOffset = 8
+	#Defines the container Y offset relative to top-left corner of the texture
+	# Default: 8
+	# Range: > 0
+	yOffset = 8
+
+[tiny]
+	#Defines the slots number of item bus
+	# Default: 1
+	# Range: > 1
+	slots = 1
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[small]
+	#Defines the slots number of item bus
+	# Default: 4
+	# Range: > 1
+	slots = 6
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[normal]
+	#Defines the slots number of item bus
+	# Default: 6
+	# Range: > 1
+	slots = 16
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[reinforced]
+	#Defines the slots number of item bus
+	# Default: 9
+	# Range: > 1
+	slots = 24
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[big]
+	#Defines the slots number of item bus
+	# Default: 12
+	# Range: > 1
+	slots = 39
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[huge]
+	#Defines the slots number of item bus
+	# Default: 16
+	# Range: > 1
+	slots = 40
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64
+
+[ludicrous]
+	#Defines the slots number of item bus
+	# Default: 32
+	# Range: > 1
+	slots = 50
+	#Defines the slot cols number of item bus
+	# Default: 9
+	# Range: > 1
+	cols = 9
+	#Defined the item bus slot max stack size
+	# Default: 64
+	# Range: > 1
+	stackSize = 64

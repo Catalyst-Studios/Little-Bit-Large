@@ -119,51 +119,6 @@
 			y: -2.6785714285714235d
 		}
 		{
-			dependency: "4FCD069CFF4FA112"
-			height: 3.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/drone.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 10.5d
-			y: 5.5d
-		}
-		{
-			dependency: "1A36052DF194B26A"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/guard_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.0d
-			y: 1.5d
-		}
-		{
-			dependency: "0C3E31C1CC7C09B1"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/logistics_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.5d
-			y: 2.5d
-		}
-		{
-			dependency: "232EB86E5AD07B82"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/collector_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: 0.5d
-		}
-		{
-			dependency: "398B22B8D9E1149A"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/harvesting_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.5d
-			y: -0.5d
-		}
-		{
 			dependency: "0EF171C9D1A27B99"
 			height: 1.0d
 			image: "pneumaticcraft:item/micromissiles"
@@ -1023,13 +978,13 @@
 				{
 					count: 8L
 					id: "06D648D52A2B368F"
-					item: { count: 8, id: "pneumaticcraft:reinforced_brick_pillar" }
+					item: { count: 1, id: "pneumaticcraft:reinforced_brick_pillar" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "3201DCA0A7EF396F"
-					item: { count: 8, id: "pneumaticcraft:reinforced_bricks" }
+					item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
 					type: "item"
 				}
 			]

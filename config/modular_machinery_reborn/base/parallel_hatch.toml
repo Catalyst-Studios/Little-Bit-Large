@@ -1,0 +1,29 @@
+[basic]
+	#Defined the max amount of running recipes
+	# Default: 2
+	# Range: > 1
+	max = 2
+
+[medium]
+	#Defined the max amount of running recipes
+	# Default: 25
+	# Range: > 1
+	max = 8
+
+[advanced]
+	#Defined the max amount of running recipes
+	# Default: 50
+	# Range: > 1
+	max = 32
+
+[ultimate]
+	#Defined the max amount of running recipes
+	# Default: 100
+	# Range: > 1
+	max = 128
+
+[max]
+	#Defined the max amount of running recipes
+	# Default: 256
+	# Range: > 1
+	max = 256

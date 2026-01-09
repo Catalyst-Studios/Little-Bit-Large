@@ -76,6 +76,13 @@
 		}
 	}
 	
+	# Cross-mod integration
+	integration: {
+		# If true, and FTB Team Bases is installed, then the '/spawn' command will instead send players to the lobby
+		# Default: true
+		team_bases_spawn_override: true
+	}
+	
 	# Miscellaneous features and utilities
 	misc: {
 		# Allows users to access an Anvil GUI without needing an Anvil.
@@ -153,6 +160,12 @@
 	
 	# Teleportation-related settings
 	teleportation: {
+		# If true, admin-level players (i.e. permission level >= 2) are exempt from
+		# the dimension controls defined in teleportation -> blacklists and
+		# in teleportation -> rtp -> dimension_blacklist/whitelist
+		# Default: true
+		admins_exempt_dimension_blacklists: true
+		
 		# Allows users to return to their previous location after teleporting (or dying)
 		back: {
 			# Cooldown between /back commands (in seconds)
@@ -181,6 +194,18 @@
 			warmup: 0
 		}
 		
+		# Blacklists for all teleport commands
+		# Wildcarded dimensions (e.g. 'somemod:*') are supported
+		blacklists: {
+			# Dimensions players aren't permitted to run teleport commands in.
+			# Default: []
+			from: [ ]
+			
+			# Dimensions players aren't permitted to teleport into.
+			# Default: []
+			to: [ ]
+		}
+		
 		# Allows users to set 'homes', which they can then freely teleport to by using /home afterwards
 		home: {
 			# Cooldown between /home commands (in seconds)
@@ -191,6 +216,11 @@
 			
 			# Default: true
 			enabled: true
+			
+			# The minimum Y value for homes, as set by the /sethome command
+			# Default: -2147483648
+			# Range: -∞ ~ +∞
+			home_min_y: -2147483648
 			
 			# Max amount of homes a user can have.
 			# You can override this with FTB Ranks using ftbessentials.home.max
@@ -210,10 +240,36 @@
 			# Default: true
 			enabled: true
 		}
+		playerspawn: {
+			# Cooldown between /playerspawn commands (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.playerspawn.cooldown
+			# Default: 10
+			# Range: 0 ~ 604800
+			cooldown: 10
+			
+			# Default: true
+			enabled: true
+			
+			# Warm-up time before /playerspawn command executes (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.playerspawn.warmup
+			# Default: 0
+			# Range: 0 ~ 604800
+			warmup: 0
+		}
 		
 		# Allows players to teleport to a random point in the Wilderness
 		# Note: This currently does not respect Claimed Chunks yet!
 		rtp: {
+			# Allow player to specify (only) custom max distance in rtp command
+			# You can override this with FTB Ranks using ftbessentials.rtp.custom_max
+			# Default: false
+			allow_custom_max_distance: false
+			
+			# Allow player to specify custom min and max distance in rtp command
+			# You can override this with FTB Ranks using ftbessentials.rtp.custom_min_max
+			# Default: false
+			allow_custom_min_max_distance: false
+			
 			# Cooldown between /rtp commands (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600

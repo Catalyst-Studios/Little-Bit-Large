@@ -28,11 +28,11 @@
 #Modded Generation settings
 [ModdedGeneration]
 	#Generate Ruby GeOre [Default: false]
-	generateRubyGeore = false
+	generateRubyGeore = true
 	#Generate Sapphire GeOre [Default: false]
-	generateSapphireGeore = false
+	generateSapphireGeore = true
 	#Generate Topaz GeOre [Default: false]
-	generateTopazGeore = false
+	generateTopazGeore = true
 	#Generate Zinc GeOre [Default: false]
 	generateZincGeore = true
 	#Generate Uraninite GeOre [Default: false]
@@ -40,7 +40,7 @@
 	#Generate Black Quartz GeOre [Default: false]
 	generateBlackQuartzGeore = true
 	#Generate Monazite GeOre [Default: false]
-	generateMonaziteGeore = false
+	generateMonaziteGeore = true
 	#Generate Aluminum GeOre [Default: false]
 	generateAluminumGeore = true
 	#Generate Lead GeOre [Default: false]

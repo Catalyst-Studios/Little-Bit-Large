@@ -76,19 +76,19 @@
 				{
 					count: 44L
 					id: "10FC7ACAD6D6EF83"
-					item: { count: 44, id: "extendedae:assembler_matrix_frame" }
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
 					type: "item"
 				}
 				{
 					count: 52L
 					id: "63C2EA26D967209F"
-					item: { count: 52, id: "extendedae:assembler_matrix_wall" }
+					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "5CC4C208CB0133EB"
-					item: { count: 5, id: "extendedae:assembler_matrix_speed" }
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
 					type: "item"
 				}
 			]
@@ -124,13 +124,13 @@
 				{
 					count: 218L
 					id: "2EC23CBDE92D35F1"
-					item: { count: 64, id: "advanced_ae:quantum_structure" }
+					item: { count: 1, id: "advanced_ae:quantum_structure" }
 					type: "item"
 				}
 				{
 					count: 112L
 					id: "10B775BD07FB8358"
-					item: { count: 64, id: "advanced_ae:quantum_accelerator" }
+					item: { count: 1, id: "advanced_ae:quantum_accelerator" }
 					type: "item"
 				}
 				{
@@ -146,7 +146,7 @@
 				{
 					count: 10L
 					id: "483DDBF80A675854"
-					item: { count: 10, id: "advanced_ae:quantum_storage_256" }
+					item: { count: 1, id: "advanced_ae:quantum_storage_256" }
 					type: "item"
 				}
 			]

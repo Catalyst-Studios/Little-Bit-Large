@@ -9,9 +9,6 @@ function summonEntities(catalyst, entityType, count, x, y, z) {
     catalyst.server.runCommandSilent(`summon minecraft:item ${x} ${y} ${z} {Item:{id:"${entityType}"}}`);;
   }
 }
-ServerEvents.recipes(catalyst => {
-catalyst.remove({output: 'modular_machinery_reborn:modularium'})
-})
 
 //reinforced deepslate block crafting
 BlockEvents.rightClicked('minecraft:polished_deepslate', catalyst => {

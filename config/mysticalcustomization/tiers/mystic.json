@@ -1,8 +1,0 @@
-{
-    "name": "Mystic",
-    "value": 7,
-    "essence": "mysticalagriculture:mystical_essence",
-    "fertilizable": false,
-    "secondarySeedDrop": false,
-    "baseSecondaryChance": 0
-}

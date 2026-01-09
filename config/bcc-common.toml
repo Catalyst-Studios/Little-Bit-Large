@@ -1,7 +1,8 @@
 #General settings
 [general]
-	#The CurseForge project ID for the modpack
-	#Range: > 0
+	#modpackProjectID is now deprecated and will be removed soon
+	# Default: 0
+	# Range: > 0
 	modpackProjectID = 1094052
 	#The name of the modpack
 	modpackName = "Little Bit Large"

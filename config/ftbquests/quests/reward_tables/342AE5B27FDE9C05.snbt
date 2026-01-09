@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "evilcraft:dark_power_gem"
+	}
 	id: "342AE5B27FDE9C05"
 	loot_size: 1
 	order_index: 1

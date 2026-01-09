@@ -62,7 +62,7 @@
 				{
 					count: 16L
 					id: "356D57779951EB69"
-					item: { count: 16, id: "mysticalagriculture:prosperity_shard" }
+					item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
 					type: "item"
 				}
 			]
@@ -1561,7 +1561,7 @@
 				{
 					count: 8L
 					id: "2E79E7F250803525"
-					item: { count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
 					type: "item"
 				}
 			]
@@ -1592,13 +1592,13 @@
 				{
 					count: 4L
 					id: "1938358D73B0AA13"
-					item: { count: 4, id: "mysticalagriculture:awakening_pedestal" }
+					item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "75D94F987A51C2FA"
-					item: { count: 4, id: "mysticalagriculture:essence_vessel" }
+					item: { count: 1, id: "mysticalagriculture:essence_vessel" }
 					type: "item"
 				}
 			]
@@ -1716,7 +1716,7 @@
 			tasks: [{
 				count: 4L
 				id: "1AB21CC354343B52"
-				item: { count: 4, id: "mysticalagriculture:soul_jar" }
+				item: { count: 1, id: "mysticalagriculture:soul_jar" }
 				type: "item"
 			}]
 			x: 10.5d
