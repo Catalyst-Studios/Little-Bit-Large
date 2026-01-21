@@ -2,7 +2,10 @@
 
 ItemEvents.modifyTooltips(catalyst => {
 
-    const creditText = Text.info("Created by: ").append(Text.of("<glitch>Catalyst</glitch> ").red()).append(Text.of("Studio").gold());
+    Color.createMapped("#ff9329", "cat_orange")
+    Color.createMapped("#f2170c", "scarlet")
+    
+    const creditText = Text.info("Created by: ").append(Text.of("<glitch>Catalyst</glitch> ").color("scarlet")).append(Text.of("Studio").color("cat_orange"));
     
     const TIERS = {
         mag: Text.of("Magical").lightPurple(),

@@ -66,6 +66,12 @@ ServerEvents.recipes(catalyst => {
     bees.forEach((value, key) => {
         try {
             let keyword = value.toString().split(":")[1];
+            let inputEgg = Item.of('productivebees:spawn_egg_configurable_bee', 1, {
+                "entity_data": {
+                    "id": "productivebees:configurable_bee",
+                    "type": `productivebees:${keyword}`
+                }
+            });
             if(!skip.includes(keyword))
             {
                 let outputComb = Item.of('productivebees:configurable_comb', 64, { "productivebees:bee_type": `productivebees:${keyword}` })
@@ -215,6 +221,8 @@ ServerEvents.recipes(catalyst => {
     centrifuge('pepto_bismol', [
         { chance: 1.0, item: { item: "productivebees:sugarbag_honeycomb" }, max: 4, min: 2 }
     ]);
+
+    console.log("[CatJS] Finished centrifuges recipes")
 })
 
 MMREvents.recipeFunction("apiary_recipe_each", catalyst => {

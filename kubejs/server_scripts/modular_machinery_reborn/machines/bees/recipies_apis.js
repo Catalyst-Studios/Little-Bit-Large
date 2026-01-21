@@ -502,7 +502,7 @@ ServerEvents.recipes(catalyst => {
             .height(60)
             .requireEnergy(20000, 0, 4)
             .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
-            .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
+            .requireItem(`${1*multiplier}x ${ingredients}`, 25, 20)
             .requireFluid('1000x productivebees:honey', 25, 40)
             .produceItem(`productivebees:spawn_egg_${keyword}_bee`, 90, 20)
             .id(`catalyst:mmr/api_mutandis/${keyword}`)
@@ -517,7 +517,7 @@ ServerEvents.recipes(catalyst => {
                 .height(60)
                 .requireEnergy(20000, 0, 4)
                 .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
-                .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
+                .requireItem(`${1*multiplier}x ${ingredients}`, 25, 20)
                 .requireFluid('1000x productivebees:honey', 25, 40)
                 .produceItem(inputEgg, 90, 20)
                 .id(`catalyst:mmr/api_mutandis/${keyword}`)
@@ -534,7 +534,7 @@ ServerEvents.recipes(catalyst => {
                         .height(60)
                         .requireEnergy(20000, 0, 4)
                         .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
-                        .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
+                        .requireItem(`${1*multiplier}x ${ingredients}`, 25, 20)
                         .requireFluid('1000x productivebees:honey', 25, 40)
                         .produceItem(inputEgg, 90, 20)
                         .id(`catalyst:mmr/api_mutandis/${keyword}`)
@@ -553,5 +553,16 @@ ServerEvents.recipes(catalyst => {
         }
         
     });
+
+    catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:apis_mutandis", time)
+        .progressData(ProgressData.create().x(54).y(20))
+        .width(110)
+        .height(60)
+        .requireEnergy(30000, 0, 4)
+        .requireItem(`minecraft:honeycomb`, 25, 0)
+        .requireItem(`${1*multiplier}x minecraft:honeycomb_block`, 25, 20)
+        .requireFluid('1000x productivebees:honey', 25, 40)
+        .produceItem('minecraft:bee_spawn_egg', 90, 20)
+        .id(`catalyst:mmr/api_mutandis/normal_bee_vanilla`)
 
 })

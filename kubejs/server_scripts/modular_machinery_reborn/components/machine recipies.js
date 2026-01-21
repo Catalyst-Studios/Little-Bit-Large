@@ -112,6 +112,22 @@ ServerEvents.recipes((catalyst) => {
         'pneumaticcraft:pressure_chamber_interface'
     );
 
+    //Head drill
+    registerController(
+        "mmr:drill_miner",
+        plainCasing,
+        'catalystcore:reinforced_glass',
+        'industrialforegoing:fluid_laser_base'
+    );
+
+    //Celestial forge
+    registerController(
+        "mmr:celestial_forge",
+        plainCasing,
+        'industrialforegoing:fermentation_station',
+        'energizedpower:advanced_crusher'
+    );
+
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

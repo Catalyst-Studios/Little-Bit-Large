@@ -129,7 +129,7 @@ StartupEvents.init(catalyst => {
                 if(registryInstance.getCropById(id) != null)
                 {
                     global.recipesSeedToRemove.push(`mysticalagriculture:${idStr}`)
-                    console.info(`[CatJS] Registered Custom Crop: ${idStr} (Ignored expected NPE)`)
+                    console.info(`[CatJS] Registered Custom Crop: ${idStr} (Expected NPE)`)
                 }
                 else
                 {
