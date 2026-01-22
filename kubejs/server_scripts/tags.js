@@ -118,6 +118,34 @@ ServerEvents.tags('item', catalyst => {
     }
     addSeedTags();
 
+    const tags = {
+        'goo_revive_tier_1': [
+            'minecraft:sugar',
+            'minecraft:rotten_flesh',
+            'eternalores:catalyrium_dust'
+        ],
+        'goo_revive_tier_2': [
+            'minecraft:nether_wart',
+            'minecraft:blaze_powder',
+            'eternalores:catalyrium_dust'
+        ],
+        'goo_revive_tier_3': [
+            'minecraft:chorus_fruit',
+            'minecraft:ender_pearl',
+            'eternalores:catalyrium_dust'
+        ],
+        'goo_revive_tier_4': [
+            'minecraft:sculk',
+            'minecraft:sculk_catalyst',
+            'eternalores:catalyrium_dust'
+        ]
+    };
+
+    for(let tagName in tags)
+    {
+        catalyst.add(tagName, tags[tagName]);
+    }
+
 })
 
 //block tags

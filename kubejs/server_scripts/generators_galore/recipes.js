@@ -46,6 +46,66 @@ ServerEvents.recipes(catalyst => {
         B: 'generatorgalore:iron_generator',
         C: 'minecraft:lava_bucket'
     }).id('catalyst:generatorgalore/magmatic_generator')
+
+    const generators = [
+        'culinary',
+        'enchantment',
+        'ender',
+        'halitosis',
+        'honey',
+        'iron',
+        'magmatic',
+        'potion',
+        'netherstar',
+        'diamond',
+        "copper",
+        'emerald',
+        'gold',
+        'netherite',
+        'obsidian'
+    ];
+
+    generators.forEach(type => {
+        catalyst.shaped(
+            `generatorgalore:${type}_generator_8x`,
+            [
+                'III',
+                'IFI',
+                'III'
+            ],
+            {
+                I: `generatorgalore:${type}_generator`,
+                F: 'enderio:double_layer_capacitor'
+            }
+        ).id(`catalyst:generatorgalore/8x_${type}_double_layer_variant`);
+    });
+
+    const generators2 = [
+        'culinary',
+        'enchantment',
+        'ender',
+        'halitosis',
+        'honey',
+        'magmatic',
+        'potion',
+        'netherstar',
+        'netherite',
+    ];
+
+    generators2.forEach(type => {
+        catalyst.shaped(
+            `generatorgalore:${type}_generator_64x`,
+            [
+                'III',
+                'IFI',
+                'III'
+            ],
+            {
+                I: `generatorgalore:${type}_generator_8x`,
+                F: 'enderio:octadic_capacitor'
+            }
+        ).id(`kubejs:generatorgalore/64x_${type}_octadic_capacitor_variant`);
+    })
 })
 
 /* 
