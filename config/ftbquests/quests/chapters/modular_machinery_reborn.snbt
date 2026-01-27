@@ -931,6 +931,27 @@
 			dependencies: ["62F77CA28BF9653C"]
 			hide_dependency_lines: true
 			id: "75A17B4F62BAB3A3"
+			rewards: [
+				{
+					count: 4
+					id: "0D68337267AF5EAF"
+					item: {
+						count: 1
+						id: "industrialforegoing:laser_drill"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29CFFACB74923DF7"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:modularium"
+					}
+					random_bonus: 7
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "67262EB239828D79"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:drill_miner" }, count: 1, id: "modular_machinery_reborn:controller" }

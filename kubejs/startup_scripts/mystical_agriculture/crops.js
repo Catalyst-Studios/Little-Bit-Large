@@ -220,7 +220,14 @@ StartupEvents.init(catalyst => {
 
         //We don't care about ingredients here, since we are going to do some manual labour later
 
+        //Tier 1
         registerCustomCrop('salt', 'Salt', 'mysticalagriculture:1', 'mysticalagriculture:resource', 'dust', 0xd5dee0, 'minecraft:barrier', 'mekanism:block_salt')
+
+        //Tier 2
+        registerCustomCrop('fluxite', 'Fluxite', 'mysticalagriculture:2', 'mysticalagriculture:resource', 'gem', 0xa66ecb, 'minecraft:barrier')
+        registerCustomCrop('force_gem', 'Force Gem', 'mysticalagriculture:2', 'mysticalagriculture:resource', 'gem', 0xf7e922, 'minecraft:barrier')
+
+        //Tier 3
         registerCustomCrop('prosperity', 'Prosperity', 'mysticalagriculture:3', 'mysticalagriculture:resource', 'dust', 0x0092FC, 'minecraft:barrier')
         registerCustomCrop('industrial', 'Industrial', 'mysticalagriculture:3', 'mysticalagriculture:resource', 'ingot', 0xbcc3d4, 'minecraft:barrier')
         registerCustomCrop('plastic', 'Plastic', 'mysticalagriculture:3', 'mysticalagriculture:resource', 'ingot', 0xbcc3d4, 'minecraft:barrier')

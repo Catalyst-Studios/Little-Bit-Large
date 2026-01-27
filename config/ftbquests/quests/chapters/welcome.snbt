@@ -4,7 +4,10 @@
 	filename: "welcome"
 	group: ""
 	icon: {
-		id: "minecraft:oak_sapling"
+		components: {
+			"ftbquests:icon": "catalystcore:item/universe_containment_cell"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "0701BDFECC9EA8CD"
 	images: [{

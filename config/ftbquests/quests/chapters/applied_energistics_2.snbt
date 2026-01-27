@@ -2605,10 +2605,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"10E0774B22AC1D58"
-				"38926CA5889429A9"
-			]
+			dependencies: ["38926CA5889429A9"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "megacells:mega_source_cell_housing"

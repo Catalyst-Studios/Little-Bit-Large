@@ -928,7 +928,7 @@
 			y: -20.5d
 		}
 	]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -2464,6 +2464,7 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "06FD532ABD84C9EA"
+			invisible: true
 			rewards: [{
 				id: "11822B5435B7E7DD"
 				type: "xp"
@@ -2482,6 +2483,7 @@
 		{
 			dependencies: ["06FD532ABD84C9EA"]
 			id: "2FE1CD6DDFDF2F31"
+			invisible: true
 			rewards: [{
 				id: "2B8573ADD90DD52F"
 				type: "xp"

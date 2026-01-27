@@ -85,7 +85,11 @@ ServerEvents.recipes(catalyst => {
 
         //direthings
         'justdirethings:celestigem_paxel',
-        'justdirethings:eclipsealloy_paxel'
+        'justdirethings:eclipsealloy_paxel',
+
+        { id: 'create:crafting/tree_fertilizer' },
+        { id: 'ironfurnaces:upgrades/upgrade_vibranium' },
+        { id: 'ironfurnaces:upgrades/upgrade_unobtainium' },
 
     ].concat(global.recipesSeedToRemove);
 
