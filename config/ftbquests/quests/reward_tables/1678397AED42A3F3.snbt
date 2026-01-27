@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "catalystcore:elemental_fire_crystal"
+	}
+	id: "1678397AED42A3F3"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ id: "53F8FE77CD02AAF2", item: { count: 1, id: "ars_nouveau:starby_gift" } }
+		{ id: "41B295818E109AD5", item: { count: 1, id: "ars_additions:ancient_codex_entry" } }
+		{ id: "1969DCD006C71BB8", item: { count: 1, id: "ars_additions:lost_codex_entry" } }
+		{ id: "7D64090AB35E4757", item: { count: 1, id: "ars_additions:codex_entry" } }
+		{ id: "08A16B074167688F", item: { count: 1, id: "ars_nouveau:summon_focus" } }
+		{ id: "6E86337EF2D37A71", item: { count: 1, id: "ars_nouveau:wilden_tribute" } }
+		{ id: "461C53E48D3D1BBE", item: { count: 1, id: "ars_nouveau:stable_warp_scroll" } }
+		{ id: "341AA046FB35A7FB", item: { count: 1, id: "ars_additions:exploration_warp_scroll" } }
+		{ id: "3A83E3A762D8F33B", item: { count: 1, id: "ars_additions:warp_nexus" } }
+		{ id: "785518B790A32C43", item: { count: 1, id: "ars_additions:nexus_warp_scroll" } }
+	]
+}
