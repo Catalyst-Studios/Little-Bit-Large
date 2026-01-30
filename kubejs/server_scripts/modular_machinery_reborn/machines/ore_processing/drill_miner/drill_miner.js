@@ -31,7 +31,10 @@ MMREvents.machines(catalyst => {
                     "Y": ["modular_machinery_reborn:casing_gearbox"],
                     "N": ["modular_machinery_reborn:entity_detector"],
                     "Z": ["#modular_machinery_reborn:energyinputhatch"],
-                    "X": ["#modular_machinery_reborn:fluidoutputhatch"],
+                    "X": [
+                        "#modular_machinery_reborn:fluidoutputhatch",
+                        "#modular_machinery_reborn:itembus"
+                    ],
 
                     "g": ["actuallyadditions:smooth_black_quartz_block"],
                     "e": ["actuallyadditions:smooth_black_quartz_block"],
