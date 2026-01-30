@@ -14,7 +14,7 @@
 	#Higher density means more spawned particles.
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	fanParticleDensity = 0.5
+	fanParticleDensity = 0.3
 	#.
 	#[in Blocks]
 	#Maximum Distance to the player at which items in Blocks' filter slots will be displayed
