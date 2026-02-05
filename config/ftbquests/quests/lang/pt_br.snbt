@@ -3567,12 +3567,6 @@
 		"Além disso, colete um pouco de pedra do céu, precisaremos mais tarde"
 	]
 	quest.374D3F10FD46CC21.quest_subtitle: "O começo"
-	quest.376756A2EE20E8EC.quest_desc: [
-		"Você já se perguntou como &acarregar os chunks&r de toda a sua &brede AE2&r? Bem, é fácil."
-		""
-		"Coloque a &dÂncora Espacial&r em qualquer lugar da sua &brede principal&r, dê alguns segundos e você terá toda a sua base com chunks carregados"
-	]
-	quest.376756A2EE20E8EC.quest_subtitle: "Chunk:&c LIGADO"
 	quest.37729D29364F83F5.quest_desc: ["Confie em mim, você vai, apenas comece o método de duplicação"]
 	quest.37729D29364F83F5.quest_subtitle: "Você vai precisar"
 	quest.37729D29364F83F5.title: "Cristal de Entropia"

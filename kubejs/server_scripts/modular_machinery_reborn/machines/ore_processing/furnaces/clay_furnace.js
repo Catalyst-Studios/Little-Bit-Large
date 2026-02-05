@@ -32,12 +32,12 @@ MMREvents.machines(catalyst => {
         )
         .texture("modular_machinery_reborn:item_input_bus_tiny",
                 false,
-                "minecraft:block/mud_bricks",
-                null
+                null,
+                "catalyst:block/mud_brick_tiny_input_bus"
         )
         .texture("modular_machinery_reborn:item_output_bus_tiny",
                 false,
-                "minecraft:block/mud_bricks",
-                null
+                null,
+                "catalyst:block/mud_brick_tiny_input_bus"
         )
 })

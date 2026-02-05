@@ -3548,32 +3548,6 @@
 		{
 			dependencies: ["13CA67D14B62120B"]
 			hide_until_deps_complete: true
-			id: "376756A2EE20E8EC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "189FA8CBF9879D88"
-				table_id: 1515497227204314039L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "48FE68D9C42FE288"
-					item: { count: 1, id: "ae2:spatial_anchor" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "40B28D3E39EB5B6F"
-					item: { count: 1, id: "ae2:fluix_glass_cable" }
-					type: "item"
-				}
-			]
-			x: 12.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["13CA67D14B62120B"]
-			hide_until_deps_complete: true
 			id: "60A2AE588A7D600C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3593,7 +3567,7 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
+			x: 12.5d
 			y: -10.5d
 		}
 		{
@@ -3611,7 +3585,7 @@
 				item: { count: 1, id: "ae2:spatial_storage_cell_2" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -10.5d
 		}
 		{
@@ -3629,7 +3603,7 @@
 				item: { count: 1, id: "ae2:spatial_storage_cell_16" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -10.5d
 		}
 		{
@@ -3647,7 +3621,7 @@
 				item: { count: 1, id: "ae2:spatial_storage_cell_128" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -10.5d
 		}
 		{

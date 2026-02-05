@@ -35,7 +35,7 @@ ServerEvents.recipes(catalyst => {
         { id: 'productivebees:evilcraft/bloody_bee_2' },
 
         // Advanced Peripherals
-        'advancedperipherals:chunk_controller',
+        { output: 'advancedperipherals:chunk_controller'},
 
         // ComputerCraft
         { id: 'computercraft:upgrade_3' },
@@ -94,7 +94,16 @@ ServerEvents.recipes(catalyst => {
         //create
         { id: 'create:crafting/tree_fertilizer' },
         { output: "create:extendo_grip" },
-        { output: "create:wand_of_symmetry" }
+        { output: "create:wand_of_symmetry" },
+        { output: "create:rotation_speed_controller" },//Nuggets to iron ingots basically and sheets
+        { output: "create_new_age:basic_motor" },
+        { output: "create_new_age:advanced_motor" },
+        "create:haunting/lapis_recycling",
+        { output: "create:item_vault" },
+        { output: 'create:precision_mechanism' },
+        "create:crafting/materials/andesite_alloy",
+        "create:crafting/materials/andesite_alloy_from_zinc"
+
 
     ].concat(global.recipesSeedToRemove);
 
