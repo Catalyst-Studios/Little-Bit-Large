@@ -87,9 +87,14 @@ ServerEvents.recipes(catalyst => {
         'justdirethings:celestigem_paxel',
         'justdirethings:eclipsealloy_paxel',
 
-        { id: 'create:crafting/tree_fertilizer' },
+        //ironfurnaces
         { id: 'ironfurnaces:upgrades/upgrade_vibranium' },
         { id: 'ironfurnaces:upgrades/upgrade_unobtainium' },
+
+        //create
+        { id: 'create:crafting/tree_fertilizer' },
+        { output: "create:extendo_grip" },
+        { output: "create:wand_of_symmetry" }
 
     ].concat(global.recipesSeedToRemove);
 

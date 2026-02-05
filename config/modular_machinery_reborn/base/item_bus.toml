@@ -17,10 +17,6 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64
 
 [small]
 	#Defines the slots number of item bus
@@ -31,10 +27,6 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64
 
 [normal]
 	#Defines the slots number of item bus
@@ -45,10 +37,6 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64
 
 [reinforced]
 	#Defines the slots number of item bus
@@ -59,10 +47,6 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64
 
 [big]
 	#Defines the slots number of item bus
@@ -73,10 +57,6 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64
 
 [huge]
 	#Defines the slots number of item bus
@@ -87,10 +67,6 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64
 
 [ludicrous]
 	#Defines the slots number of item bus
@@ -101,7 +77,3 @@
 	# Default: 9
 	# Range: > 1
 	cols = 9
-	#Defined the item bus slot max stack size
-	# Default: 64
-	# Range: > 1
-	stackSize = 64

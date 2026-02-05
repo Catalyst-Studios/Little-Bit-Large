@@ -197,7 +197,7 @@ ServerEvents.recipes(catalyst => {
                     {
                         let outOverworld = outputItemRaw.copy();
                         outOverworld.setCount(original_count * multiplier * number);
-
+                        //if(number === 256) console.log(outOverworld)
                         let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 400)
                             .requireItem(inputItem, 40, 20) 
                             .produceItem(outOverworld, 90, 20)

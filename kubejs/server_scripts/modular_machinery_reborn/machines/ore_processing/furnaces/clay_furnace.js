@@ -30,4 +30,14 @@ MMREvents.machines(catalyst => {
                     "i": ["minecraft:iron_trapdoor[half=top]"]
                 })
         )
+        .texture("modular_machinery_reborn:item_input_bus_tiny",
+                false,
+                "minecraft:block/mud_bricks",
+                null
+        )
+        .texture("modular_machinery_reborn:item_output_bus_tiny",
+                false,
+                "minecraft:block/mud_bricks",
+                null
+        )
 })
