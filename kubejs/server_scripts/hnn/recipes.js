@@ -268,6 +268,8 @@ ServerEvents.recipes(catalyst => {
             catalyst.recipes.mekanismCombining(finalOutput, predictionInput, inputItem);
         });
     }
+
+    console.log("[CatJS] HNN recipes done")
 });
    
    /* 

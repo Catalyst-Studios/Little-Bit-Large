@@ -108,13 +108,17 @@ ServerEvents.recipes(catalyst => {
     ].concat(global.recipesSeedToRemove);
 
     recipesToRemove.forEach(recipe => {
-        try {
+        try
+        {
             catalyst.remove(recipe);
-        } catch (error) {
-            console.warn("Recipe to remove: ", recipe)
         }
-        
+        catch(error)
+        {
+            console.warn("[CatJS] Error while removing recipe: ", recipe)
+            console.log(error);
+        } 
     });
+    console.log("[CatJS] Recipes removed");
 });
 
 /* 

@@ -1,4 +1,7 @@
-
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 MMREvents.machines(catalyst => {
     catalyst.create("mmr:primitive_furnace")
         .color('#FFb68528')
@@ -41,3 +44,7 @@ MMREvents.machines(catalyst => {
                 "catalyst:block/mud_brick_tiny_input_bus"
         )
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

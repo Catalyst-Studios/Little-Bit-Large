@@ -21,6 +21,8 @@ ServerEvents.recipes(catalyst => {
         }).id(`catalyst:ars_nouveau/budding_conversion/${material}`);
 
     });
+
+    console.log("[CatJS] Added golem conversion")
 });
 
 /* 

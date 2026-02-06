@@ -3,23 +3,9 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 MMREvents.machines(catalyst => {
-    /**
-     * Creates a machine with the given ResourceLocation (namespace:machine) equivalent to the json -> datapackNamespace:jsonName
-     */
     catalyst.create("mmr:osmotic_concentrator")
-        /**
-         * Applies the color to the machine with the format:
-         * #AlphaAlphaRedRedGreenGreenBlueBlue
-         * color in int number format
-         */
         .color('#ff66605f')
-        /**
-         * The name that the machine should display in the controller item and in the controller GUI -> default localized with the id of the creation
-         */
         .name('Osmotic Consentrator')
-        /**
-         * The multiblock definition
-         */
         .structure(
             MMRStructureBuilder.create()
             .pattern([

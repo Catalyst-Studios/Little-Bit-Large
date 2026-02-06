@@ -12,6 +12,8 @@ ServerEvents.recipes(catalyst => {
         A: 'minecraft:obsidian',
         B: 'minecraft:glass',
     })
+
+    console.log("[CatJS] Added Cat Item recipes")
 })
 
 

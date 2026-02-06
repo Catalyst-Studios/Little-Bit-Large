@@ -1,7 +1,7 @@
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
-This script specifically was written by GitHub user dmauldin
+This script specifically was written by GitHub user dmauldin and later modified to fit on LBL
 */
 
 const cropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
@@ -41,6 +41,7 @@ ServerEvents.tags('item', catalyst => {
         }
     }
     catalyst.add(`kubejs:farmland/${farmlandTiersFiltered[farmlandTiersFiltered.length-1].getIdLocation().getPath().replace('_farmland', '')}`, farmlandTiersFiltered[farmlandTiersFiltered.length-1].getId())
+    console.log("[CatJS] Tags for the MA farmland");
 })
 
 //Adding cloche recipes
@@ -74,6 +75,7 @@ ServerEvents.recipes(catalyst => {
             }).id(`catalyst:immersiveengineering/cloche/${crop.getName()}`)
         })
     }
+    console.log("[CatJS] Added Clothe recipes for MA");
 })
 
 /* 

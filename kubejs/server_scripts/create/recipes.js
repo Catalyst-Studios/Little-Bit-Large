@@ -345,6 +345,8 @@ ServerEvents.recipes(catalyst => {
         ]
     })
     .id("catalyst:create/eggs_haunted")
+
+    console.log("[CatJS] Finished Create changes")
 })
 
 

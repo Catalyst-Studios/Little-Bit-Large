@@ -106,6 +106,8 @@ ServerEvents.recipes(catalyst => {
             }
         ).id(`kubejs:generatorgalore/64x_${type}_octadic_capacitor_variant`);
     })
+
+    console.log("[CatJS] Added Generator Galore recipes for 8x and upper")
 })
 
 /* 

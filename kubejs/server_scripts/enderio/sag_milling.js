@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 ServerEvents.recipes(event => {
     
     const ores = [
@@ -40,4 +44,10 @@ ServerEvents.recipes(event => {
             ]
         }).id(`kubejs:enderio/sag_milling/${ore}_ore_to_raw_${ore}`) 
     });
+
+    console.log("[CatJS] Added EnderIO recipes")
 });
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

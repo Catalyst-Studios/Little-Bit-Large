@@ -18,7 +18,8 @@ ServerEvents.recipes(catalyst => {
         ],
         energy: 10000,
         result: Item.of('2x ae2:fluix_block')
-    }).id('catalyst:energizing/fluix_block')
+    })
+    .id('catalyst:energizing/fluix_block')
     
     // Energized Steel Block
     catalyst.custom({
@@ -29,7 +30,8 @@ ServerEvents.recipes(catalyst => {
         ],
         energy: 90000,
         result: Item.of('powah:energized_steel_block')
-    }).id('catalyst:energizing/energized_steel_block')
+    })
+    .id('catalyst:energizing/energized_steel_block')
     
     // Niotic Crystal Block
     catalyst.custom({
@@ -39,7 +41,8 @@ ServerEvents.recipes(catalyst => {
         ],
         energy: 2700000,
         result: Item.of('powah:niotic_crystal_block')
-    }).id('catalyst:energizing/niotic_crystal_block')
+    })
+    .id('catalyst:energizing/niotic_crystal_block')
     
     // Spirited Crystal Block
     catalyst.custom({
@@ -49,7 +52,10 @@ ServerEvents.recipes(catalyst => {
         ],
         energy: 9000000,
         result: Item.of('powah:spirited_crystal_block')
-    }).id('catalyst:energizing/spirited_crystal_block')
+    })
+    .id('catalyst:energizing/spirited_crystal_block')
+
+    console.log("[CatJS] Powah Recipes");
 })
 
 /* 

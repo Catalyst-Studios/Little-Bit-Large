@@ -16,6 +16,8 @@ ServerEvents.recipes(catalyst => {
     nbt_reset('occultism:miner_foliot_unspecialized[damage=0]')
     nbt_reset('occultism:miner_marid_master[damage=0]')
     nbt_reset('occultism:miner_ancient_eldritch[damage=0]')
+    
+    console.log("[CatJS] Data Components reseter for occultism books");
 })
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

@@ -72,7 +72,9 @@ ServerEvents.tags('item', catalyst => {
     catalyst.remove('c:ores_in_ground/stone', 'create:zinc_ore')
     catalyst.remove('c:ores_in_ground/stone', 'eternalores:plutonium_ore_block')
 
-    let saptag = (saplings) => { catalyst.add('minecraft:saplings', saplings)}
+    let saptag = (saplings) => {
+        catalyst.add('minecraft:saplings', saplings)
+    }
     saptag('productivetrees:black_ember_sapling')
     saptag('productivetrees:brown_amber_sapling')
     saptag('productivetrees:cave_dweller_sapling')
@@ -92,7 +94,8 @@ ServerEvents.tags('item', catalyst => {
     saptag('productivetrees:water_wonder_sapling')
     
 
-    function addSeedTags() {
+    function addSeedTags()
+    {
         const dontPlantSeeds = [
             'flux', 'sculk', 'dire', 'insanium', 'supremium', 
             'imperium', 'tertium', 'prudentium', 'technology', 'cognizian'
@@ -119,22 +122,26 @@ ServerEvents.tags('item', catalyst => {
     addSeedTags();
 
     const tags = {
-        'goo_revive_tier_1': [
+        goo_revive_tier_1:
+        [
             'minecraft:sugar',
             'minecraft:rotten_flesh',
             'eternalores:catalyrium_dust'
         ],
-        'goo_revive_tier_2': [
+        goo_revive_tier_2:
+        [
             'minecraft:nether_wart',
             'minecraft:blaze_powder',
             'eternalores:catalyrium_dust'
         ],
-        'goo_revive_tier_3': [
+        goo_revive_tier_3:
+        [
             'minecraft:chorus_fruit',
             'minecraft:ender_pearl',
             'eternalores:catalyrium_dust'
         ],
-        'goo_revive_tier_4': [
+        goo_revive_tier_4:
+        [
             'minecraft:sculk',
             'minecraft:sculk_catalyst',
             'eternalores:catalyrium_dust'
@@ -145,17 +152,18 @@ ServerEvents.tags('item', catalyst => {
     {
         catalyst.add(tagName, tags[tagName]);
     }
+    console.log("[CatJS] Tags for Items has been added");
 
 })
 
 //block tags
 ServerEvents.tags('block', catalyst => {
     //Geore
-        //lets Geore buds be acceled
-        catalyst.add("c:budding", "#c:budding_blocks")
-        //lets geore buds be moved
-        const buds = catalyst.get("c:budding_blocks").getObjectIds();
-        buds.forEach(bud => {
+    //lets Geore buds be acceled
+    catalyst.add("c:budding", "#c:budding_blocks")
+    //lets geore buds be moved
+    const buds = catalyst.get("c:budding_blocks").getObjectIds();
+    buds.forEach(bud => {
         catalyst.remove('c:relocation_not_supported', bud);
     });
     catalyst.removeAll('productivebees:untickable')
@@ -180,8 +188,9 @@ ServerEvents.tags('block', catalyst => {
     catalyst.remove('c:ores_in_ground/stone', 'energizedpower:tin_ore')
     catalyst.remove('c:ores_in_ground/stone', 'create:zinc_ore')
     catalyst.remove('c:ores_in_ground/stone', 'eternalores:plutonium_ore_block')
-    }
-)
+
+    console.log("[CatJS] Tags for items has been added");
+})
 
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

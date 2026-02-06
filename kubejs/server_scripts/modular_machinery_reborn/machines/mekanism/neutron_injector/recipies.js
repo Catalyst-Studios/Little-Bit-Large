@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 ServerEvents.recipes(catalyst => {
 
     function inject(input_chemical, output_chemical, inn, out)
@@ -16,4 +20,10 @@ ServerEvents.recipes(catalyst => {
 
     inject("mekanism:nuclear_waste", "mekanism:polonium", 100000, 10000);
     inject("mekanism:lithium", "mekanismgenerators:tritium", 10000, 10000);
+    console.log("[CatJS] Added Injector recipes (polonium and tritium)");
 });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

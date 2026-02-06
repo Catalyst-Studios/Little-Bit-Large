@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 let MobEffectInstance = Java.loadClass("net.minecraft.world.effect.MobEffectInstance");
 let BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries");
@@ -233,6 +238,7 @@ ServerEvents.recipes(catalyst => {
         }
         
     })
+    console.log("[CatJS] Added Beacon effects recipes");
 })
 
 function getTargetPlayerName(machine)
@@ -293,3 +299,8 @@ MMREvents.recipeFunction("beacon_tick", ctx => {
         ctx.setBaseSpeed(0.0);
     }
 });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

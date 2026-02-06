@@ -128,6 +128,8 @@ ServerEvents.recipes((catalyst) => {
         'energizedpower:advanced_crusher'
     );
 
+    console.log("[CatJS] Added MMR controllers")
+
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

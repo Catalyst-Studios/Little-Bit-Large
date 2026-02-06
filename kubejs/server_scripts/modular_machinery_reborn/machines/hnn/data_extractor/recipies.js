@@ -3,7 +3,6 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 ServerEvents.recipes(catalyst => {
-    // Logic Constants
     const MAX_STACK = 64;
     const MIN_TIME = 2;
     const MAX_TIME = 128;
@@ -14,20 +13,12 @@ ServerEvents.recipes(catalyst => {
      * Calculates multipliers to maximize output up to 64 items, scaling time and energy.
      */
     const fabricate = (entity, catalystItem, outputItem, baseAmount) => {
-        // Calculate max multiplier without exceeding stack size of 64
         const multiplier = Math.min(MAX_STACK, Math.floor(MAX_STACK / baseAmount));
-        
-        // Calculate final counts
         const totalOutput = Math.max(1, Math.min(MAX_STACK, multiplier * baseAmount));
         const totalInput = multiplier; // 1 prediction input per operation cycle
-        
-        // Calculate Time (Linear scaling based on multiplier)
         const time = MIN_TIME + Math.round(((multiplier - 1) * (MAX_TIME - MIN_TIME)) / (MAX_STACK - 1));
-        
-        // Calculate Energy (Maintains ~16k FE/t target based on time compression)
         const energy = multiplier * 256 * (MAX_TIME / time);
 
-        // Register Recipe
         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:data_extractor", time)
             .progressData(ProgressData.create().x(72).y(20))
             .width(130).height(60)
@@ -279,10 +270,8 @@ ServerEvents.recipes(catalyst => {
         ['twilightforest/yeti', 'twilightforest:arctic_fur', 'twilightforest:arctic_fur', 32]
     ];
 
-    // Iterate through all standard recipes
     recipes.forEach(r => fabricate(r[0], r[1], r[2], r[3]));
 
-    // Custom Recipe: Evoker Totem (Unique multipliers)
     catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:data_extractor", 8)
         .progressData(ProgressData.create().x(72).y(20))
         .width(130).height(60)
@@ -291,6 +280,9 @@ ServerEvents.recipes(catalyst => {
         .requireItem(`minecraft:totem_of_undying`, 50, 20)
         .produceItem(`32x minecraft:totem_of_undying`, 98, 20)
         .id(`catalyst:mmr/data_extractor/evoker_totem_${mod}`);
+    
+    console.log("[CatJS] Added HNN loot fab recipes for MMR multiblock");
+    
 
     /* Mobs not added:
        twilight deer, twilight fire beetle, twilight kobold, twilight redcap,

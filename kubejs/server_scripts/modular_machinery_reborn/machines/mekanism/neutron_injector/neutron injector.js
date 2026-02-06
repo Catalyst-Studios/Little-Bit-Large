@@ -3,23 +3,9 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 MMREvents.machines(catalyst => {
-    /**
-     * Creates a machine with the given ResourceLocation (namespace:machine) equivalent to the json -> datapackNamespace:jsonName
-     */
     catalyst.create("mmr:neutron_injector")
-        /**
-         * Applies the color to the machine with the format:
-         * #AlphaAlphaRedRedGreenGreenBlueBlue
-         * color in int number format
-         */
         .color('#F43e3b3e')
-        /**
-         * The name that the machine should display in the controller item and in the controller GUI -> default localized with the id of the creation
-         */
         .name('Neutron Injector')
-        /**
-         * The multiblock definition
-         */
         .structure(
             MMRStructureBuilder.create()
             .pattern([

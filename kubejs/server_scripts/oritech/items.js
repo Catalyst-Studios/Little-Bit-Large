@@ -11,8 +11,9 @@ ServerEvents.recipes(catalyst => {
             '3x #c:dusts/diamond',
             '3x #c:dusts/nickel'
         ]
-    ).id("catalyst:oritech/adamant_dust")
-
+    )
+    .id("catalyst:oritech/adamant_dust")
+    console.log("[CatJS] Oritech Recipes");
 })
 
 /* 

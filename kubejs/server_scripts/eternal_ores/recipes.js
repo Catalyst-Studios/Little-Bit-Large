@@ -18,6 +18,8 @@ ServerEvents.recipes(catalyst => {
             D: 'minecraft:redstone'
         }
     ).id('catalyst:eternalores/catalyrium_dust')
+
+    console.log("[CatJS] Added EternalOres recipes")
 })
 
 

@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 let $BeeProvider = Java.loadClass("cy.jdkdigital.productivebees.setup.BeeReloadListener");
 let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 let $Integer = Java.loadClass("java.lang.Integer");
@@ -735,3 +740,8 @@ MMREvents.recipeFunction("apiary_recipe_end_quarry", catalyst => {
         addStackToMachine(controller, randomStack.getId(), amount);
     }
 });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

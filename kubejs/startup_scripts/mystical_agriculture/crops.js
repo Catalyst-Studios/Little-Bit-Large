@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 
 global.recipesSeedToRemove = []
 
@@ -129,7 +133,7 @@ StartupEvents.init(catalyst => {
                 if(registryInstance.getCropById(id) != null)
                 {
                     global.recipesSeedToRemove.push(`mysticalagriculture:${idStr}`)
-                    console.info(`[CatJS] Registered Custom Crop: ${idStr} (Expected NPE)`)
+                    console.info(`[CatJS] Registered Custom Crop: ${idStr}`)
                 }
                 else
                 {
@@ -267,4 +271,11 @@ StartupEvents.init(catalyst => {
     {
         console.error("[CatJS] Error registering Mystical Agriculture crops: " + e)
     }
+
+    console.log("[CatJS] MA seeds/tiers has been added")
 })
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

@@ -102,6 +102,8 @@ ServerEvents.recipes(catalyst => {
         // createPort(input, output, core, top, bottom)
         createPort(r[0], r[1], r[2], r[3], r[4]);
     });
+
+    console.log("[CatJS] Added hatches and buses for MMR")
 });
 
 ItemEvents.modifyTooltips(catalyst => {
@@ -122,7 +124,8 @@ ItemEvents.modifyTooltips(catalyst => {
         Object.keys(tankSizes).forEach(tier => {
             const targetId = `modular_machinery_reborn_mekanism:chemical${ioType}hatch_${tier}`;
             
-            if (Item.exists(targetId)) {
+            if(Item.exists(targetId))
+            {
                 catalyst.modify(targetId, text => {
                     text.removeLine(1);
                     text.add(Text.of("Stores ").append(Text.of(tankSizes[tier]).red()).append(Text.of(" chemicals")));
@@ -130,6 +133,8 @@ ItemEvents.modifyTooltips(catalyst => {
             }
         });
     });
+
+    console.log("[CatJS] Added tooltips to MMR hatches and buses");
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

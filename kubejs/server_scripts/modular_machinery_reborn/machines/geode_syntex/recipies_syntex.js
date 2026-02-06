@@ -13,6 +13,8 @@ ServerEvents.recipes(catalyst => {
     .produceItem('1x minecraft:amethyst_shard', 90, 20)
     .requireFunctionOnEnd("geo_chooser")
     .id("catalyst:mmr/geo_syntex")
+
+    console.log("[CatJS] Geode multi recipe added")
 });
 
 MMREvents.recipeFunction("geo_chooser", catalyst => {

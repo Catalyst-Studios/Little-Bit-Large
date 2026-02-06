@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 let $BeeProvider = Java.loadClass("cy.jdkdigital.productivebees.setup.BeeReloadListener");
 let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 let $Integer = Java.loadClass("java.lang.Integer");
@@ -565,4 +570,10 @@ ServerEvents.recipes(catalyst => {
         .produceItem('minecraft:bee_spawn_egg', 90, 20)
         .id(`catalyst:mmr/api_mutandis/normal_bee_vanilla`)
 
+    console.log("[CatJS] Added Apis Mutandis recipes");
+
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

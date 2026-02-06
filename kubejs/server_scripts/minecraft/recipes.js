@@ -23,6 +23,8 @@ ServerEvents.recipes(catalyst => {
         P: 'minecraft:paper',
         I: '#c:dyes/black'
     })
+
+    console.log("[CatJS] Added minecraft recipes")
 })
 
 
