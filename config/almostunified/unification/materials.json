@@ -8,7 +8,8 @@
     "forcecraft",
     "pneumaticcraft",
     "immersiveengineering",
-    "oritech"
+    "oritech",
+    "create"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -37,7 +38,8 @@
     "c:dusts/plutonium",
     "c:pellets/plutonium",
     "c:plastics",
-    "c:ingots/uraninite"
+    "c:ingots/uraninite",
+    "c:flours/wheat"
   ],
   "ignored_tags": [],
   "ignored_items": [],

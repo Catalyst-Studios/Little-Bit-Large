@@ -4,6 +4,11 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
+const dontPlantSeeds = [
+    'flux', 'sculk', 'dire', 'insanium', 'supremium', 
+    'imperium', 'tertium', 'prudentium', 'technology', 'cognizian'
+];
+
 ServerEvents.tags('item', catalyst => {
     catalyst.add('c:armors/diamond', 'minecraft:diamond_helmet')
     catalyst.add('c:armors/diamond', 'minecraft:diamond_chestplate')
@@ -51,6 +56,11 @@ ServerEvents.tags('item', catalyst => {
     catalyst.add('c:ingots/plutonium', 'mekanism:pellet_plutonium')
     catalyst.add('c:ingots', 'mekanism:pellet_plutonium')
 
+    catalyst.add('c:flours','pneumaticcraft:wheat_flour')
+    catalyst.add('c:flours/wheat','pneumaticcraft:wheat_flour')
+    catalyst.add('c:flours','enderio:flour')
+    catalyst.add('c:flours/wheat','enderio:flour')
+
     //Fix for Boon of Earth enchant dropping non generated ores
     catalyst.remove('c:ores_in_ground/stone', 'mekanism:fluorite_ore')
     catalyst.remove('c:ores_in_ground/stone', 'mekanism:osmium_ore')
@@ -96,27 +106,19 @@ ServerEvents.tags('item', catalyst => {
 
     function addSeedTags()
     {
-        const dontPlantSeeds = [
-            'flux', 'sculk', 'dire', 'insanium', 'supremium', 
-            'imperium', 'tertium', 'prudentium', 'technology', 'cognizian'
-        ];
-
-        const seeds = [
-            // Tier seeds
-            'prudentium', 'tertium', 'imperium', 'supremium', 'insanium', 'cognizian',
-            // Elemental seeds
-            'darkness', 'mystical', 'magic', 'technology',
-            // Normal seeds
-            'salt', 'arcane', 'industrial', 'plastic', 'prosperity', 
-            'xychorium', 'dark_gem', 'entro', 'flux', 'sculk', 'dire'
-        ];
-
-        dontPlantSeeds.forEach(seed => {
-            catalyst.add('c:dont_plant', `mysticalagriculture:${seed}_seeds`);
-        });
-
-        seeds.forEach(seed => {
-            catalyst.add('mysticalagriculture:seeds', `mysticalagriculture:${seed}_seeds`);
+        global.recipesSeedToRemove.forEach(seedId => {
+            const seedName = seedId.split(':')[1].replace('_seeds', '');
+            const name = seedId + "_seeds"
+            console.log(name)
+            console.log(seedId)
+            if(dontPlantSeeds.includes(seedName))
+            {
+                catalyst.add('c:dont_plant', name);
+            }
+            
+            catalyst.add('mysticalagriculture:seeds', name);
+            catalyst.add('ae2:growth_acceleratable', name);
+            catalyst.add('catalyst:seeds', name);
         });
     }
     addSeedTags();
@@ -188,6 +190,22 @@ ServerEvents.tags('block', catalyst => {
     catalyst.remove('c:ores_in_ground/stone', 'energizedpower:tin_ore')
     catalyst.remove('c:ores_in_ground/stone', 'create:zinc_ore')
     catalyst.remove('c:ores_in_ground/stone', 'eternalores:plutonium_ore_block')
+
+    global.recipesSeedToRemove.forEach(seedId => {
+        const seedName = seedId.split(':')[1].replace('_seeds', '');
+        const name = seedId + "_crop"
+        console.log(name)
+        console.log(seedId)
+        if(dontPlantSeeds.includes(seedName))
+        {
+            catalyst.add('c:dont_plant', name);
+        }
+            
+        catalyst.add('mysticalagriculture:crops', name);
+        catalyst.add('minecraft:crops', name);
+        catalyst.add('ae2:growth_acceleratable', name);
+        //catalyst.add('minecraft:sword_efficient', name);
+    });
 
     console.log("[CatJS] Tags for items has been added");
 })

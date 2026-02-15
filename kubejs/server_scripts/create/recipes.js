@@ -279,54 +279,6 @@ ServerEvents.recipes(catalyst => {
     )
     .id("catalyst:create/blaze_burner")
 
-    //Precision mechanism
-    catalyst.custom({
-        type: "create:sequenced_assembly",
-        ingredient: {
-            tag: "c:plates/gold"
-        },
-        transitional_item: {
-            id: "create:incomplete_precision_mechanism"
-        },
-        loops: 3,
-        sequence: [
-            {
-                type: "create:deploying",
-                ingredients: [
-                    { item: "create:incomplete_precision_mechanism" },
-                    { item: "create:cogwheel" }
-                ],
-                results: [
-                    { id: "create:incomplete_precision_mechanism" }
-                ]
-            },
-            {
-                type: "create:deploying",
-                ingredients: [
-                    { item: "create:incomplete_precision_mechanism" },
-                    { item: "create:large_cogwheel" }
-                ],
-                results: [
-                    { id: "create:incomplete_precision_mechanism" }
-                ]
-            },
-            {
-                type: "create:deploying",
-                ingredients: [
-                    { item: "create:incomplete_precision_mechanism" },
-                    { tag: "c:nuggets/iron" }
-                ],
-                results: [
-                    { id: "create:incomplete_precision_mechanism" }
-                ]
-            }
-        ],
-        results: [
-            { id: "create:precision_mechanism", chance: 100.0 }
-        ]
-    })
-    .id("catalyst:create/precision_mechanism_no_percent")
-
     //Eggs
     catalyst.custom({
         type: 'create:haunting',

@@ -379,7 +379,7 @@ ServerEvents.recipes(catalyst => {
         result: { id: "mysticalagradditions:creative_essence" }
     }).id('catalyst:mysticalagriculture/awakening/creative_essence');
 
-    // Awakening block (2 output) - Count 10 essence
+    // Awakening block (2 output)
     catalyst.custom({
         type: "mysticalagriculture:awakening",
         essences: [
@@ -393,7 +393,7 @@ ServerEvents.recipes(catalyst => {
         result: { id: awaEB, count: 2 }
     }).id('catalyst:mysticalagriculture/awakening/awakened_supremium_block_2');
 
-    // Awakening block (4 output) - Count 10 essence
+    // Awakening block (4 output)
     catalyst.custom({
         type: "mysticalagriculture:awakening",
         essences: [
@@ -498,7 +498,7 @@ ServerEvents.recipes(catalyst => {
         per_tick_usage: false
     }).id('catalyst:mekanism/nucleosynthesizing/technology_seeds');
 
-    // Inferium bee (Standard recipe but complex output NBT)
+    // Inferium bee
     catalyst.custom({
         type: 'mysticalagriculture:infusion',
         input: { item: "minecraft:honeycomb" },
