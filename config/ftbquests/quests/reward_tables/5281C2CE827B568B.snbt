@@ -31,4 +31,5 @@
 			}
 		}
 	]
+	use_title: true
 }

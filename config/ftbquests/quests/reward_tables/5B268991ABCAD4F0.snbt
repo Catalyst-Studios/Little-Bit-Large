@@ -6,4 +6,5 @@
 	loot_size: 1
 	order_index: 16
 	rewards: [ ]
+	use_title: true
 }

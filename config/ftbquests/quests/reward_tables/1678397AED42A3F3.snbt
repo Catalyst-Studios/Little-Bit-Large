@@ -17,4 +17,5 @@
 		{ id: "3A83E3A762D8F33B", item: { count: 1, id: "ars_additions:warp_nexus" } }
 		{ id: "785518B790A32C43", item: { count: 1, id: "ars_additions:nexus_warp_scroll" } }
 	]
+	use_title: true
 }

@@ -22,4 +22,5 @@
 		{ id: "09635504EEAC83B6", item: { count: 1, id: "ars_nouveau:earth_essence" } }
 		{ id: "12E4257851875A1F", item: { count: 1, id: "ars_nouveau:air_essence" } }
 	]
+	use_title: true
 }

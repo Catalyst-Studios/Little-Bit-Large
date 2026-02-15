@@ -740,7 +740,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1094,7 +1094,7 @@
 			id: "6CA72FFE06D0D4A2"
 			tasks: [{
 				id: "5AB252F13DB9E8A2"
-				item: { count: 1, id: "industrialforegoing:plastic" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plastics)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.95d

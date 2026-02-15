@@ -432,16 +432,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7D5CAE3AB604B96B"]
-			hide_lock_icon: true
-			hide_text_until_complete: true
-			id: "5C439FE70FB76CC9"
-			size: 0.25d
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4023E3A4174DE839"]
+			dependencies: [
+				"4C0E826CE13D9471"
+				"4D178B3F79B07236"
+			]
+			dependency_requirement: "one_completed"
 			id: "12EA8624E059C93E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -598,20 +593,6 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5C439FE70FB76CC9"]
-			id: "4023E3A4174DE839"
-			size: 0.25d
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4C0E826CE13D9471"]
-			id: "7B70760B324A7BDB"
-			size: 0.25d
-			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -1245,6 +1226,22 @@
 			]
 			x: 13.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7D5CAE3AB604B96B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D178B3F79B07236"
+			tasks: [{
+				id: "4C3F506C674C4D3E"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 1.0d
 		}
 	]
 }

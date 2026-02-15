@@ -55,4 +55,5 @@
 			}
 		}
 	]
+	use_title: true
 }

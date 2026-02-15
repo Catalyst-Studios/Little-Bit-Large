@@ -1498,6 +1498,12 @@
 		}
 		{
 			dependencies: ["54DAFDE5553EA2E5"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "3BD9E192B040E27E"
 			tasks: [{
 				id: "67FBA25503EC3D7D"
@@ -1509,6 +1515,12 @@
 		{
 			dependencies: ["577615D670CC3BF1"]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0CA42C4E6040517E"
 			tasks: [{
 				id: "52A8530F08C45E1F"
@@ -1520,6 +1532,12 @@
 		{
 			dependencies: ["577615D670CC3BF1"]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0C47A37CB3C4FE67"
 			tasks: [{
 				id: "5E777A42A4FB1ACF"
@@ -1531,6 +1549,12 @@
 		{
 			dependencies: ["577615D670CC3BF1"]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "6F25B3D78143ED1E"
 			tasks: [{
 				id: "75078DC5A54AC93B"
