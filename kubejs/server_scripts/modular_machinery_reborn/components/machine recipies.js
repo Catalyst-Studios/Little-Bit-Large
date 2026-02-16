@@ -128,6 +128,36 @@ ServerEvents.recipes((catalyst) => {
         'energizedpower:advanced_crusher'
     );
 
+    //Furnaces
+    registerController(
+        "mmr:primitive_furnace",
+        plainCasing,
+        'minecraft:furnace',
+        'minecraft:blast_furnace'
+    );
+
+    registerController(
+        "mmr:multismelter",
+        plainCasing,
+        'industrialforegoing:resourceful_furnace',
+        'minecraft:blast_furnace'
+    );
+
+    registerController(
+        "mmr:advanced_multismelter",
+        plainCasing,
+        'ironfurnaces:netherite_furnace',
+        'minecraft:blast_furnace'
+    );
+
+    //Beacon
+    registerController(
+        "mmr:personal_beacon",
+        plainCasing,
+        'minecraft:beacon',
+        'modular_machinery_reborn:casing_reinforced'
+    );
+
     console.log("[CatJS] Added MMR controllers")
 
 });

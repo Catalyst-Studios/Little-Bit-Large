@@ -209,7 +209,7 @@ RecipeViewerEvents.addEntries("item", catalyst => {
     ]
 
     beecombs.forEach(entry => {
-        let comb = Item.of('productivebees:configurable_comb', 64, { "productivebees:bee_type": `productivebees:${entry}`})
+        let comb = Item.of('productivebees:configurable_comb', 1, { "productivebees:bee_type": `productivebees:${entry}`})
         catalyst.add(comb);
     })
 })

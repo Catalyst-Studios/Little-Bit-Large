@@ -170,7 +170,7 @@ ServerEvents.recipes(catalyst => {
                     sequence: finalSequence,
                     results: resultsArray,
                     loops: _loops
-                })
+                }).id(finalId)
             }
         }
     }
