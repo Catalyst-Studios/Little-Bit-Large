@@ -105,7 +105,7 @@ ServerEvents.recipes(catalyst => {
         "create:crafting/materials/andesite_alloy_from_zinc"
 
 
-    ].concat(global.recipesSeedToRemove);
+    ]
 
     recipesToRemove.forEach(recipe => {
         try
@@ -118,6 +118,20 @@ ServerEvents.recipes(catalyst => {
             console.log(error);
         } 
     });
+
+    global.recipesSeedToRemove.forEach(seed => {
+        try
+        {
+            catalyst.remove({ output: `${seed}_seeds` });
+        }
+        catch(error)
+        {
+            console.warn("[CatJS] Error while removing recipe: ", seed)
+            console.log(error);
+        } 
+    })
+
+
     console.log("[CatJS] Recipes removed");
 });
 

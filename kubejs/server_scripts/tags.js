@@ -4,11 +4,6 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
-const dontPlantSeeds = [
-    'flux', 'sculk', 'dire', 'insanium', 'supremium', 
-    'imperium', 'tertium', 'prudentium', 'technology', 'cognizian'
-];
-
 ServerEvents.tags('item', catalyst => {
     catalyst.add('c:armors/diamond', 'minecraft:diamond_helmet')
     catalyst.add('c:armors/diamond', 'minecraft:diamond_chestplate')
@@ -109,14 +104,14 @@ ServerEvents.tags('item', catalyst => {
         global.recipesSeedToRemove.forEach(seedId => {
             const seedName = seedId.split(':')[1].replace('_seeds', '');
             const name = seedId + "_seeds"
-            console.log(name)
-            console.log(seedId)
-            if(dontPlantSeeds.includes(seedName))
+            const essence = seedId + "_essence"
+            if(global.dontPlantSeeds.includes(seedName))
             {
                 catalyst.add('c:dont_plant', name);
             }
             
             catalyst.add('mysticalagriculture:seeds', name);
+            catalyst.add('mysticalagriculture:essences', essence);
             catalyst.add('ae2:growth_acceleratable', name);
             catalyst.add('catalyst:seeds', name);
         });
@@ -194,9 +189,7 @@ ServerEvents.tags('block', catalyst => {
     global.recipesSeedToRemove.forEach(seedId => {
         const seedName = seedId.split(':')[1].replace('_seeds', '');
         const name = seedId + "_crop"
-        console.log(name)
-        console.log(seedId)
-        if(dontPlantSeeds.includes(seedName))
+        if(global.dontPlantSeeds.includes(seedName))
         {
             catalyst.add('c:dont_plant', name);
         }

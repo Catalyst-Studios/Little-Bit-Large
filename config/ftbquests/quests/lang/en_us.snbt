@@ -7056,7 +7056,7 @@
 	quest.642651867EA91259.quest_subtitle: "easier than vanilla"
 	quest.642651867EA91259.title: "&lEasy Villagers"
 	quest.64363D9756720A6B.title: "Solar Helmet &l&eV3"
-	quest.6443CA2A5392ECC5.quest_desc: ["After putting the items, you would need to press the result on a Mechanical Press, which is the last step of the loop"]
+	quest.6443CA2A5392ECC5.quest_desc: ["After putting the &eitems&r, you would need to &6press&r the result on a &dMechanical Press&r, which is the last &astep&r of the loop"]
 	quest.6469409AE1328B47.quest_desc: [
 		"This is your &dmultitool&r, or more to say, the best &zmultitool&r."
 		""

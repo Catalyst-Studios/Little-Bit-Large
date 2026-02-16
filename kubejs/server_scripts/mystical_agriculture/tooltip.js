@@ -88,7 +88,9 @@ ItemEvents.modifyTooltips(catalyst => {
         ['entro'],
         ['flux',       { noPlant: true }],
         ['sculk',      { tier: 'mag', biome: true, noPlant: true }],
-        ['dire',       { tier: 'tech', noPlant: true }]
+        ['dire',       { tier: 'tech', noPlant: true }],
+        ["fluxite"],
+        ["force_gem"]
     ];
 
     items.forEach(([name, options]) => modifyMA(name, options));
