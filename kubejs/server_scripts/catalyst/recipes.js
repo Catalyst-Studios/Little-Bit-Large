@@ -13,6 +13,26 @@ ServerEvents.recipes(catalyst => {
         B: 'minecraft:glass',
     })
 
+    catalyst.shapeless('catalystcore:elemental_fire_crystal', 
+        ['catalystcore:elemental_emptiness_crystal', 'ars_nouveau:fire_essence']
+    ).id("catalyst:ars/personal_beacon/fire_crystal")
+
+    catalyst.shapeless('catalystcore:elemental_water_crystal', 
+        ['catalystcore:elemental_emptiness_crystal', 'ars_nouveau:water_essence']
+    ).id("catalyst:ars/personal_beacon/water_crystal")
+
+    catalyst.shapeless('catalystcore:elemental_earth_crystal', 
+        ['catalystcore:elemental_emptiness_crystal', 'ars_nouveau:earth_essence']
+    ).id("catalyst:ars/personal_beacon/earth_crystal")
+
+    catalyst.shapeless('catalystcore:elemental_wind_crystal', 
+        ['catalystcore:elemental_emptiness_crystal', 'ars_nouveau:air_essence']
+    ).id("catalyst:ars/personal_beacon/wind_crystal")
+
+    catalyst.shapeless('catalystcore:elemental_light_crystal', 
+        ['catalystcore:elemental_emptiness_crystal', 'ars_nouveau:abjuration_essence']
+    ).id("catalyst:ars/personal_beacon/light_crystal")
+
     console.log("[CatJS] Added Cat Item recipes")
 })
 
