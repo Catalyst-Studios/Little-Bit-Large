@@ -34,6 +34,7 @@ MMREvents.machines(catalyst => {
                 "f":[
                     "#modular_machinery_reborn_mekanism:chemicaloutputhatch",
                     "#modular_machinery_reborn:fluidinputhatch",
+                    "#modular_machinery_reborn:fluidoutputhatch",
                     "#modular_machinery_reborn:energyinputhatch",
                     "#modular_machinery_reborn_mekanism:chemicalinputhatch"
                 ],
