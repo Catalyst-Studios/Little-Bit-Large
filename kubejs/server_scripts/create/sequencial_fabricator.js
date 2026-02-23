@@ -255,7 +255,8 @@ ServerEvents.recipes(catalyst => {
         deploy({ item: 'minecraft:sculk' }),
         deploy({ item: 'actuallyadditions:empowered_void_crystal' }),
         press,
-        cut
+        cut,
+        fill("kubejs:liquid_darkness", 250)
       ],
       [{ id: 'eternalores:eternal_dark_ingot', chance: 120.0 }]
     )
@@ -270,7 +271,8 @@ ServerEvents.recipes(catalyst => {
             deploy({ item: 'mekanism:ingot_refined_glowstone' }),
             deploy({ item: 'evilcraft:lightning_grenade' }),
             press,
-            cut
+            cut,
+            fill("kubejs:liquid_light", 250)
           ],
           [{ id: 'eternalores:eternal_light_ingot', chance: 120.0 }]
     )
