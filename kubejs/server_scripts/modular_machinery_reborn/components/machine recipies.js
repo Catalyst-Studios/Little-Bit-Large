@@ -112,6 +112,54 @@ ServerEvents.recipes((catalyst) => {
         'pneumaticcraft:pressure_chamber_interface'
     );
 
+    //Head drill
+    registerController(
+        "mmr:drill_miner",
+        plainCasing,
+        'catalystcore:reinforced_glass',
+        'industrialforegoing:fluid_laser_base'
+    );
+
+    //Celestial forge
+    registerController(
+        "mmr:celestial_forge",
+        plainCasing,
+        'industrialforegoing:fermentation_station',
+        'energizedpower:advanced_crusher'
+    );
+
+    //Furnaces
+    registerController(
+        "mmr:primitive_furnace",
+        plainCasing,
+        'minecraft:furnace',
+        'minecraft:blast_furnace'
+    );
+
+    registerController(
+        "mmr:multismelter",
+        plainCasing,
+        'industrialforegoing:resourceful_furnace',
+        'minecraft:blast_furnace'
+    );
+
+    registerController(
+        "mmr:advanced_multismelter",
+        plainCasing,
+        'ironfurnaces:netherite_furnace',
+        'minecraft:blast_furnace'
+    );
+
+    //Beacon
+    registerController(
+        "mmr:personal_beacon",
+        plainCasing,
+        'minecraft:beacon',
+        'modular_machinery_reborn:casing_reinforced'
+    );
+
+    console.log("[CatJS] Added MMR controllers")
+
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

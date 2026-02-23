@@ -137,13 +137,13 @@ RecipeViewerEvents.addEntries("item", catalyst => {
                         addWidgets: function(widgets) {
                             widgets.addTexture(bgTexture, 0, 0)
                             widgets.addSlot(emiAltarInput, 33, 33).drawBack(false)
-                            widgets.addSlot(emiOutput, 123, 33).drawBack(false).recipeContext(this)
+                            widgets.addSlot(emiOutput, 122, 32).drawBack(false).recipeContext(this)
                             for(let i = 0; i < ringInputs.length; i++)
                             {
                                 if(i < AWAKENING_SLOTS.length)
                                 {
                                     let pos = AWAKENING_SLOTS[i]
-                                    widgets.addSlot(ringInputs[i], pos.x, pos.y).drawBack(false)
+                                    widgets.addSlot(ringInputs[i], pos.x-1, pos.y-1).drawBack(false)
                                 }
                             }
                         }

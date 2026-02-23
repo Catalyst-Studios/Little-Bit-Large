@@ -10,6 +10,7 @@ ServerEvents.recipes(catalyst => {
         .requireEnergy(30000, 0, 4)
         .produceFluid('10000x mekanism:heavy_water', 75, 20)
         .id('catalyst:mmr/abyssal_pump/heavy_water')
+    console.log("[CatJS] Added MMR heavy water recipe");
 
 })
 /* 

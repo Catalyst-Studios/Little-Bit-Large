@@ -1303,7 +1303,6 @@
 			icon: {
 				components: {
 					"ironjetpacks:jetpack_id": "ironjetpacks:creative"
-					"minecraft:rarity": "epic"
 				}
 				id: "ironjetpacks:jetpack"
 			}

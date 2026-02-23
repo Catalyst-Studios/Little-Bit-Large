@@ -10,15 +10,12 @@ ServerEvents.recipes(catalyst => {
     const time = 20
     const base_production_essence= 4
     const fertelizer_production_multiplier= 1
-    // Create an array to store the modified names
     let modifiedItemNames = [];
-
-    // Get the tag of items
     let tagItems = cropRegistry3.getInstance().getCrops()
 
-    // Loop through the items in the tag
     tagItems.forEach(item => {
         if(!item.isEnabled()) return;
+        
         // Get the item name (using the 'id' or 'registry name' of the item)
         let itemName = `${item.getId().toString()}`;  // This gives you the raw ID like 'mysticalagriculture:x_seeds'
         // Remove specific parts of the name (e.g., removing 'seeds' from the name)
@@ -80,6 +77,8 @@ ServerEvents.recipes(catalyst => {
         .priority(2)
         .id(`catalyst:mmr/phytomorphic/${idPath}/mystical_fertilizer`);
     })
+
+    console.log("[CatJS] Added Phytonator recipes");
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

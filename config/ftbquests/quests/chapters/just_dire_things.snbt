@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "just_dire_things"
@@ -7,7 +8,7 @@
 		id: "justdirethings:time_crystal"
 	}
 	id: "707DFCF38F8333D4"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [{
 		icon: {

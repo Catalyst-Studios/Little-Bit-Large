@@ -22,6 +22,7 @@ ServerEvents.recipes(catalyst => {
         .requireFluid("5000000x mekanism:brine", 25, 20)
         .id('catalyst:mmr/osmotic_concentrator/lithium')
 
+    console.log("[CatJS] Added Thermal Evaporation recipes MMR");
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

@@ -80,4 +80,5 @@
 			weight: 0.9f
 		}
 	]
+	use_title: true
 }

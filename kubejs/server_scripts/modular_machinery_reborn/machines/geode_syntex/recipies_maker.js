@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 ServerEvents.recipes(catalyst => {
     let mineralTypes = [
         {budding: "minecraft:budding_amethyst", cluster: "minecraft:amethyst_cluster", shard: "minecraft:amethyst_shard", block: "minecraft:amethyst_block"},
@@ -42,4 +47,11 @@ ServerEvents.recipes(catalyst => {
         .produceItem(`1x ${mineral.budding}`, 90, 20)
         .id(`catalyst:mmr/crystalline_fabricator/${mineral.budding.replace(":", "_")}`)
     });
+
+    console.log("[CatJS] Added buds creation recipes")
 });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

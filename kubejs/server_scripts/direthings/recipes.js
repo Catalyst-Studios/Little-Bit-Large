@@ -25,6 +25,8 @@ ServerEvents.recipes(catalyst => {
         S: 'justdirethings:eclipsealloy_shovel',
         W: 'minecraft:stick'
     }).id('catalyst:justdirethings/eclipsealloy_paxel')
+
+    console.log("[CatJS] Added Just Dire Things changes")
 })
 
 

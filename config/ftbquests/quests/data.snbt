@@ -12,6 +12,9 @@
 	fallback_locale: ""
 	grid_scale: 0.5d
 	hide_excluded_quests: false
+	icon: {
+		id: "catalystcore:complete_catalyst"
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

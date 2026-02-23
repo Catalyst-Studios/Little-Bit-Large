@@ -6,6 +6,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 ServerEvents.recipes(catalyst => {
     const mmr = 'modular_machinery_reborn:';
     const mmr_mek = 'modular_machinery_reborn_mekanism:';
+    const mmr_ars = 'modular_machinery_reborn_ars:'
 
     // Helper function to create the shaped recipe
     // D = Input Port (Side), A = Center (Core), B = Top, C = Bottom
@@ -89,19 +90,43 @@ ServerEvents.recipes(catalyst => {
         createPort(`${mmr_mek}chemicaloutputhatch_${t.id}`, `${mmr_mek}chemicaloutputhatch_${t.next}`, t.upg, t.tank, t.tube);
     });
 
+    //source
+    // Base casing recipes
+    createPort(`${mmr}casing_plain`, `${mmr_ars}sourceinputhatch_small`,  'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block');
+    createPort(`${mmr}casing_plain`, `${mmr_ars}sourceoutputhatch_small`, 'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block');
+
+    // Input: Top = Tube, Bottom = Tank | Output: Top = Tank, Bottom = Tube
+    const sourceTiers = [
+        { id: 'small',      next: 'normal',     upg: 'pipez:basic_upgrade',    tube: 'arseng:source_acceptor',    tank: 'ars_nouveau:source_jar' },
+        { id: 'normal',     next: 'reinforced', upg: 'pipez:basic_upgrade',    tube: 'arseng:source_acceptor',    tank: 'ars_nouveau:source_jar' },
+        { id: 'reinforced', next: 'big',        upg: 'pipez:improved_upgrade', tube: 'arseng:source_acceptor', tank: 'ars_nouveau:source_jar' },
+        { id: 'big',        next: 'huge',       upg: 'pipez:improved_upgrade', tube: 'arseng:source_acceptor', tank: 'ars_nouveau:source_jar' },
+        { id: 'huge',       next: 'ludicrous',  upg: 'pipez:advanced_upgrade', tube: 'arseng:source_acceptor',    tank: 'ars_nouveau:source_jar' },
+        { id: 'ludicrous',  next: 'vacuum',     upg: 'pipez:ultimate_upgrade', tube: 'arseng:source_acceptor', tank: 'ars_nouveau:source_jar' }
+    ];
+
+    sourceTiers.forEach(t => {
+        createPort(`${mmr_ars}sourceinputhatch_${t.id}`,  `${mmr_ars}sourceinputhatch_${t.next}`,  t.upg, t.tube, t.tank);
+        createPort(`${mmr_ars}sourceoutputhatch_${t.id}`, `${mmr_ars}sourceoutputhatch_${t.next}`, t.upg, t.tank, t.tube);
+    });
+
     //misc
     const miscRecipes = [
         ['minecraft:redstone_block',            `${mmr}casing_vent`,           `${mmr}casing_plain`,      'stevescarts:component_cleaning_fan', 'stevescarts:component_cleaning_fan'],
         ['mekanism:ultimate_control_circuit',   `${mmr}casing_circuitry`,      `${mmr}casing_plain`,      'railcraft:radio_circuit',            'railcraft:controller_circuit'],
         [`${mmr}casing_plain`,                  `${mmr}parallel_hatch_basic`,  'mekanism:robit',          'mekanism:robit',                     'stevescarts:component_cleaning_fan'],
         [`${mmr}parallel_hatch_basic`,          `${mmr}parallel_hatch_medium`, `${mmr}casing_reinforced`, `${mmr}casing_reinforced`,            `${mmr}casing_reinforced`],
-        ['minecraft:paper',                     `${mmr}blueprint`,             `${mmr}casing_plain`,      'minecraft:blue_dye',                 'minecraft:blue_dye']
+        ['minecraft:paper',                     `${mmr}blueprint`,             `${mmr}casing_plain`,      'minecraft:blue_dye',                 'minecraft:blue_dye'],
+        ['minecraft:repeater',                  `${mmr}redstone_port`,         `${mmr}casing_plain`,      'minecraft:redstone',                 'minecraft:redstone'],
+        ['minecraft:redstone',                  `${mmr}entity_detector`,       `${mmr}casing_plain`,      'hostilenetworks:deep_learner',       'hostilenetworks:prediction_matrix'],
     ];
 
     miscRecipes.forEach(r => {
         // createPort(input, output, core, top, bottom)
         createPort(r[0], r[1], r[2], r[3], r[4]);
     });
+
+    console.log("[CatJS] Added hatches and buses for MMR")
 });
 
 ItemEvents.modifyTooltips(catalyst => {
@@ -122,7 +147,8 @@ ItemEvents.modifyTooltips(catalyst => {
         Object.keys(tankSizes).forEach(tier => {
             const targetId = `modular_machinery_reborn_mekanism:chemical${ioType}hatch_${tier}`;
             
-            if (Item.exists(targetId)) {
+            if(Item.exists(targetId))
+            {
                 catalyst.modify(targetId, text => {
                     text.removeLine(1);
                     text.add(Text.of("Stores ").append(Text.of(tankSizes[tier]).red()).append(Text.of(" chemicals")));
@@ -130,6 +156,8 @@ ItemEvents.modifyTooltips(catalyst => {
             }
         });
     });
+
+    console.log("[CatJS] Added tooltips to MMR hatches and buses");
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.

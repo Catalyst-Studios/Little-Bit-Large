@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 let $Rarity = Java.loadClass("net.minecraft.world.item.Rarity");
 const $Farmland = Java.loadClass("net.minecraft.world.level.block.FarmBlock");
 const $Blocks = Java.loadClass("net.minecraft.world.level.block.Blocks");
@@ -71,6 +75,8 @@ StartupEvents.registry("block", catalyst => {
     .texture('east', 'catalyst:block/essence_block')
     .texture('west', 'catalyst:block/essence_block')
     .item(item => {item.color(0, "#EDC45F"); item.glow(true)})
+
+    console.log("[CatJS] Added mocking blocks");
 })
 
 StartupEvents.registry("item", catalyst => {
@@ -105,4 +111,10 @@ StartupEvents.registry("item", catalyst => {
     .texture("catalyst:item/activated_seeds")
     .glow(true)
     .rarity($Rarity.EPIC)
+
+    console.log("[CatJS] Added Mocking seeds");
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

@@ -49,3 +49,13 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
         catalyst.remove(item);
     });
 });
+
+RecipeViewerEvents.removeRecipes(catalyst => {
+    const recipeToRemove = [
+        'jei:/integrateddynamics/special/facade'
+    ]
+
+    recipeToRemove.forEach(recipe =>{
+        catalyst.remove(recipe)
+    })
+})

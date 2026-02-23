@@ -4,10 +4,10 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 ServerEvents.recipes(catalyst => {
     let mobTypes = [
-        {id: "minecraft:wither", liquid: "industrialforegoing:ether_gas", time: 600},
-        {id: "minecraft:zombie", liquid: "industrialforegoing:meat", time: 200},
-        {id: "minecraft:sheep", liquid: "industrialforegoing:pink_slime", time: 200},
-        {id: "minecraft:villager", liquid: "integrateddynamics:menril_resin", time: 200},
+        {id: "minecraft:wither", liquid: "industrialforegoing:ether_gas", time: 600, item: "minecraft:wither_skeleton_skull"},
+        {id: "minecraft:zombie", liquid: "industrialforegoing:meat", time: 200, item: "minecraft:rotten_flesh"},
+        {id: "minecraft:sheep", liquid: "industrialforegoing:pink_slime", time: 200, item: "minecraft:white_wool"},
+        {id: "minecraft:villager", liquid: "integrateddynamics:menril_resin", time: 200, item: "minecraft:crafting_table"},
     ];
     
     mobTypes.forEach(mob => {
@@ -16,8 +16,9 @@ ServerEvents.recipes(catalyst => {
         .width(110)
         .height(60)
         .requireEnergy(10000, 0, 4)
+        .requireItem(`16x ${mob.item}`, 20, 20)
         .produceFluid(`10000x ${mob.liquid}`, 90, 20)
-        .checkEntitiesAmountInRadius(5, 1, mob.id)
+        .checkEntitiesAmountInRadius(10, 1, mob.id)
         .id(`catalyst:mmr/drill_head/${mob.liquid.replace(":", "_")}`)
 
         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:drill_miner", mob.time-100)
@@ -26,8 +27,9 @@ ServerEvents.recipes(catalyst => {
         .width(110)
         .height(60)
         .requireEnergy(10000, 0, 4)
+        .requireItem(`16x ${mob.item}`, 20, 20)
         .produceFluid(`10000x ${mob.liquid}`, 90, 20)
-        .checkEntitiesAmountInRadius(5, 1, mob.id)
+        .checkEntitiesAmountInRadius(10, 1, mob.id)
         .requireRedstone(7)
         .id(`catalyst:mmr/drill_head/${mob.liquid.replace(":", "_")}_hidden`)
     });

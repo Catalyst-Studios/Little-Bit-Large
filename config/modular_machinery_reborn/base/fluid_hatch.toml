@@ -44,4 +44,4 @@
 	#Defines the tank size of fluid hatch in mB
 	# Default: 32000
 	# Range: > 1
-	size = 2147483647
+	size = 300000000

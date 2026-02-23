@@ -200,4 +200,5 @@
 			random_bonus: 2
 		}
 	]
+	use_title: true
 }

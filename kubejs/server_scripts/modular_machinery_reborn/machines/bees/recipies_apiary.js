@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 let $BeeProvider = Java.loadClass("cy.jdkdigital.productivebees.setup.BeeReloadListener");
 let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 let $Integer = Java.loadClass("java.lang.Integer");
@@ -16,6 +21,7 @@ let ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
 let LootContextParamSets = Java.loadClass('net.minecraft.world.level.storage.loot.parameters.LootContextParamSets')
 let InteractionHand = Java.loadClass('net.minecraft.world.InteractionHand')
 
+let JsonParser = Java.loadClass('com.google.gson.JsonParser');
 
 ServerEvents.recipes(catalyst => {
 
@@ -61,13 +67,136 @@ ServerEvents.recipes(catalyst => {
     ]
 
     let time = 1200 //ticks
-    let bees = $BeeProvider.INSTANCE.getData();
+    let beeIds = [];
 
-    bees.forEach((value, key) => {
+    const checkCondition = (conditionJson) => {
+        let type = conditionJson.get("type").getAsString();
+
+        if(type.includes("mod_loaded"))
+        {
+            let modId = conditionJson.get("modid").getAsString();
+            return Platform.isLoaded(modId);
+        }
+
+        if(type.includes("tag_empty"))
+        {
+            let tag = conditionJson.get("tag").getAsString();
+            let ingredient = Ingredient.of('#' + tag);
+            let ids = ingredient.getItemIds();
+
+            if(ids.isEmpty()) return true;
+
+            for(let id of ids)
+            {
+                let idStr = id.toString();
+                if(idStr !== "minecraft:air" && 
+                   idStr !== "minecraft:barrier" && 
+                   idStr !== "" && 
+                   !Item.of(idStr).isEmpty())
+                {
+
+                    return false; 
+                }
+            }
+
+            return true;
+        }
+
+        if(type.includes("item_exists"))
+        {
+            let item = conditionJson.get("item").getAsString();
+            return !Item.of(item).isEmpty();
+        }
+
+        if(type.includes("not"))
+        {
+            let innerCondition = conditionJson.get("value").getAsJsonObject();
+            return !checkCondition(innerCondition);
+        }
+
+        if(type.includes("and"))
+        {
+            let values = conditionJson.getAsJsonArray("values");
+            for(let i = 0; i < values.size(); i++)
+            {
+                if(!checkCondition(values.get(i).getAsJsonObject()))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        if(type.includes("or"))
+        {
+            let values = conditionJson.getAsJsonArray("values");
+            for(let i = 0; i < values.size(); i++)
+            {
+                if(checkCondition(values.get(i).getAsJsonObject()))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        return true;
+    };
+
+    const isBeeValid = (json) => {
+        if (!json.has("conditions")) return true;
+
+        let conditions = json.getAsJsonArray("conditions");
+        for(let i = 0; i < conditions.size(); i++)
+        {
+            let condition = conditions.get(i).getAsJsonObject();
+            if(!checkCondition(condition))
+            {
+                return false;
+            }
+        }
+        return true;
+    };
+
+    let resources = catalyst.resourceManager.listResources("productivebees", loc => {
+        return loc.getNamespace() === "productivebees" && loc.getPath().endsWith(".json");
+    });
+
+    resources.forEach((location, resource) => {
         try {
-            let keyword = value.toString().split(":")[1];
+            let reader = resource.openAsReader();
+            let json = JsonParser.parseReader(reader).getAsJsonObject();
+            reader.close();
+
+            if(isBeeValid(json))
+            {
+                let path = location.getPath();
+                let pathNoJson = path.replace(".json", "");
+                let beeId = pathNoJson.substring(pathNoJson.lastIndexOf('/') + 1);
+                beeIds.push(beeId);
+            }
+
+        } 
+        catch(e)
+        {
+            console.error(`[CatJS] Error processing bee, please report it ${location}: ${e}`);
+        }
+    });
+
+
+    beeIds.forEach(value => {
+        try {
+            let keyword = value
+            let inputEgg = Item.of('productivebees:spawn_egg_configurable_bee', 1, {
+                "entity_data": {
+                    "id": "productivebees:configurable_bee",
+                    "type": `productivebees:${keyword}`
+                }
+            });
             if(!skip.includes(keyword))
             {
+                //The commented one works, but no hearth on emi
+                //let outputComb = `64x productivebees:configurable_comb[productivebees:bee_type="productivebees:${keyword}"]`
                 let outputComb = Item.of('productivebees:configurable_comb', 64, { "productivebees:bee_type": `productivebees:${keyword}` })
                 catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_apiary", time)
                 .progressData(ProgressData.create().x(54).y(20))
@@ -75,7 +204,7 @@ ServerEvents.recipes(catalyst => {
                 .height(60)
                 .requireEnergyPerTick(20000, 0, 4)
                 .requireFluid('1000x productivebees:honey', 25, 40)
-                .requireItem(`1x productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:${keyword}"}]`, 0, 25, 0)
+                .requireItem(inputEgg, 0, 25, 0)
                 .requireItem(`32x minecraft:honeycomb`, 25, 20)
                 .produceItem(outputComb, 90, 0)
                 .requireFunctionEachTick("apiary_recipe_each")
@@ -91,7 +220,7 @@ ServerEvents.recipes(catalyst => {
                 .height(60)
                 .requireEnergy(20000, 0, 4)
                 .requireFluid('1000x productivebees:honey', 25, 40)
-                .requireItem(`1x productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:${keyword}"}]`, 0, 25, 0)
+                .requireItem(inputEgg, 0, 25, 0)
                 .requireItem(`32x minecraft:honeycomb`, 25, 20)
                 .produceItem('1x minecraft:rotten_flesh', 90, 0)
                 .requireFunctionEachTick("apiary_recipe_each")
@@ -106,7 +235,7 @@ ServerEvents.recipes(catalyst => {
                     .width(110).height(60)
                     .requireEnergy(ENERGY_COST, 0, 4)
                     .requireFluid('1000x productivebees:honey', 25, 40)
-                    .requireItem(`1x productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:${keyword}"}]`, 0, 25, 0)
+                    .requireItem(inputEgg, 0, 25, 0)
                     .requireItem('32x minecraft:honeycomb', 25, 20)
                     .produceItem('1x minecraft:stone', 90, 0)
                     .requireFunctionEachTick("apiary_recipe_each")
@@ -215,6 +344,8 @@ ServerEvents.recipes(catalyst => {
     centrifuge('pepto_bismol', [
         { chance: 1.0, item: { item: "productivebees:sugarbag_honeycomb" }, max: 4, min: 2 }
     ]);
+
+    console.log("[CatJS] Finished centrifuges recipes")
 })
 
 MMREvents.recipeFunction("apiary_recipe_each", catalyst => {
@@ -609,3 +740,8 @@ MMREvents.recipeFunction("apiary_recipe_end_quarry", catalyst => {
         addStackToMachine(controller, randomStack.getId(), amount);
     }
 });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

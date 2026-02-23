@@ -73,4 +73,5 @@
 			weight: 0.1f
 		}
 	]
+	use_title: true
 }

@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 let $BeeProvider = Java.loadClass("cy.jdkdigital.productivebees.setup.BeeReloadListener");
 let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 let $Integer = Java.loadClass("java.lang.Integer");
@@ -502,7 +507,7 @@ ServerEvents.recipes(catalyst => {
             .height(60)
             .requireEnergy(20000, 0, 4)
             .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
-            .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
+            .requireItem(`${1*multiplier}x ${ingredients}`, 25, 20)
             .requireFluid('1000x productivebees:honey', 25, 40)
             .produceItem(`productivebees:spawn_egg_${keyword}_bee`, 90, 20)
             .id(`catalyst:mmr/api_mutandis/${keyword}`)
@@ -517,7 +522,7 @@ ServerEvents.recipes(catalyst => {
                 .height(60)
                 .requireEnergy(20000, 0, 4)
                 .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
-                .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
+                .requireItem(`${1*multiplier}x ${ingredients}`, 25, 20)
                 .requireFluid('1000x productivebees:honey', 25, 40)
                 .produceItem(inputEgg, 90, 20)
                 .id(`catalyst:mmr/api_mutandis/${keyword}`)
@@ -534,7 +539,7 @@ ServerEvents.recipes(catalyst => {
                         .height(60)
                         .requireEnergy(20000, 0, 4)
                         .requireItem(`minecraft:bee_spawn_egg`, 25, 0)
-                        .requireItem(`${1*multiplier}x ${ingredients}}`, 25, 20)
+                        .requireItem(`${1*multiplier}x ${ingredients}`, 25, 20)
                         .requireFluid('1000x productivebees:honey', 25, 40)
                         .produceItem(inputEgg, 90, 20)
                         .id(`catalyst:mmr/api_mutandis/${keyword}`)
@@ -554,4 +559,21 @@ ServerEvents.recipes(catalyst => {
         
     });
 
+    catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:apis_mutandis", time)
+        .progressData(ProgressData.create().x(54).y(20))
+        .width(110)
+        .height(60)
+        .requireEnergy(30000, 0, 4)
+        .requireItem(`minecraft:honeycomb`, 25, 0)
+        .requireItem(`${1*multiplier}x minecraft:honeycomb_block`, 25, 20)
+        .requireFluid('1000x productivebees:honey', 25, 40)
+        .produceItem('minecraft:bee_spawn_egg', 90, 20)
+        .id(`catalyst:mmr/api_mutandis/normal_bee_vanilla`)
+
+    console.log("[CatJS] Added Apis Mutandis recipes");
+
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

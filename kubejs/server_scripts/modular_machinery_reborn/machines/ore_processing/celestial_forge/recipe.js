@@ -160,7 +160,7 @@ ServerEvents.recipes(catalyst => {
             .progressData(ProgressData.create().x(64).y(20))
             .width(110)
             .height(60)
-            .requireEnergy(500000)
+            .requireEnergyPerTick(2500)
         
         fluids.forEach(f => {
             r.requireFluid(`${f.amount}x ${f.fluid}`, f.x, f.y);
@@ -189,18 +189,20 @@ ServerEvents.recipes(catalyst => {
                 if(outputItemRaw.isEmpty()) return;
 
                 let original_count = outputItemRaw.count;
+                
                 processedRecipes.add(inputId);
                 [1, 32, 256].forEach(number => {
+                    let inputItem = Item.of(inputId, number)
                     if(number > 1)
                     {
                         let outOverworld = outputItemRaw.copy();
                         outOverworld.setCount(original_count * multiplier * number);
-
+                        //if(number === 256) console.log(outOverworld)
                         let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 400)
-                            .requireItem(`${number}x ${inputId}`, 40, 20) 
+                            .requireItem(inputItem, 40, 20) 
                             .produceItem(outOverworld, 90, 20)
                             .produceItem(optional_output.item, optional_output.chance, 90, 40)
-                            .priority(256 - number)
+                            .priority(number)
                             .hide()
                             .id(`catalyst:mmr/glorified_furnace/every_dimension/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
 
@@ -210,11 +212,11 @@ ServerEvents.recipes(catalyst => {
                         outNether.setCount(original_count * multiplier * 2 * number);
 
                         recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 300)
-                            .requireItem(`${number}x ${inputId}`, 40, 20) 
+                            .requireItem(inputItem, 40, 20) 
                             .produceItem(outNether, 90, 20)
                             .produceItem(optional_output.item, optional_output.chance, 90, 40)
                             .dimensions(["minecraft:nether"])
-                            .priority(256 - number)
+                            .priority(number)
                             .hide()
                             .id(`catalyst:mmr/glorified_furnace/nether/${number}/${inputId.replace(":", "-")}_to_${outNether.id.replace(":", "-")}`)
 
@@ -224,11 +226,11 @@ ServerEvents.recipes(catalyst => {
                         outEnd.setCount(original_count * multiplier * 4 * number);
 
                         recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 200)
-                            .requireItem(`${number}x ${inputId}`, 40, 20) 
+                            .requireItem(inputItem, 40, 20) 
                             .produceItem(outEnd, 90, 20)
                             .produceItem(optional_output.item, optional_output.chance, 90, 40)
                             .dimensions(["minecraft:the_end"])
-                            .priority(256 - number)
+                            .priority(number)
                             .hide()
                             .id(`catalyst:mmr/glorified_furnace/end/${number}/${inputId.replace(":", "-")}_to_${outEnd.id.replace(":", "-")}`)
 
@@ -240,7 +242,7 @@ ServerEvents.recipes(catalyst => {
                         outOverworld.setCount(original_count * multiplier * number);
 
                         let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 400)
-                            .requireItem(`${number}x ${inputId}`, 40, 20) 
+                            .requireItem(inputItem, 40, 20) 
                             .produceItem(outOverworld, 90, 20)
                             .produceItem(optional_output.item, optional_output.chance, 90, 40)
                             .id(`catalyst:mmr/glorified_furnace/every_dimension/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
@@ -251,7 +253,7 @@ ServerEvents.recipes(catalyst => {
                         outNether.setCount(original_count * multiplier * 2 * number);
 
                         recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 300)
-                            .requireItem(`${number}x ${inputId}`, 40, 20) 
+                            .requireItem(inputItem, 40, 20) 
                             .produceItem(outNether, 90, 20)
                             .produceItem(optional_output.item, optional_output.chance, 90, 40)
                             .dimensions(["minecraft:nether"])
@@ -263,7 +265,7 @@ ServerEvents.recipes(catalyst => {
                         outEnd.setCount(original_count * multiplier * 4 * number);
 
                         recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:celestial_forge", 200)
-                            .requireItem(`${number}x ${inputId}`, 40, 20) 
+                            .requireItem(inputItem, 40, 20) 
                             .produceItem(outEnd, 90, 20)
                             .produceItem(optional_output.item, optional_output.chance, 90, 40)
                             .dimensions(["minecraft:the_end"])

@@ -1,3 +1,8 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
 //Change this is you want to disable this function
 let enabled = true;
 
@@ -179,7 +184,8 @@ function startRitual(server, dim, pos, players, typeId, key)
     });
 }
 
-function triggerStorm(server, dim, pos) {
+function triggerStorm(server, dim, pos)
+{
     for(let i = 1; i < 7; i++)
     {
         server.scheduleInTicks(i * 10, c => c.source.server.runCommandSilent(`execute in ${dim} run summon minecraft:lightning_bolt ${pos.x} ${pos.y + 2} ${pos.z}`));
@@ -196,3 +202,7 @@ function triggerStorm(server, dim, pos) {
         });
     }
 }
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

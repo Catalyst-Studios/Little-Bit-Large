@@ -26,7 +26,7 @@
 			y: -16.5d
 		}
 	]
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -696,7 +696,7 @@
 			y: -14.07142857142857d
 		}
 		{
-			dependencies: ["4539BB25257AE9CF"]
+			dependencies: ["676F526FA911C55D"]
 			icon: {
 				id: "mekanism:steel_casing"
 			}
@@ -710,7 +710,7 @@
 				id: "0B368CDAD8D899F4"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 11.0d
 			y: -10.5d
 		}
 		{
@@ -791,14 +791,6 @@
 		}
 		{
 			dependencies: ["676F526FA911C55D"]
-			hide_lock_icon: true
-			id: "4539BB25257AE9CF"
-			size: 0.25d
-			x: 11.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["676F526FA911C55D"]
 			id: "3B1AF89E06B178D4"
 			rewards: [{
 				count: 4
@@ -865,14 +857,6 @@
 		}
 		{
 			dependencies: ["676F526FA911C55D"]
-			hide_lock_icon: true
-			id: "498A08245EB10176"
-			size: 0.25d
-			x: 11.0d
-			y: -19.0d
-		}
-		{
-			dependencies: ["498A08245EB10176"]
 			icon: {
 				id: "eternalores:raw_catalyrium"
 			}
@@ -886,7 +870,7 @@
 				id: "0B7AA6C1A8674A89"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 11.0d
 			y: -19.0d
 		}
 		{
@@ -931,6 +915,27 @@
 			dependencies: ["62F77CA28BF9653C"]
 			hide_dependency_lines: true
 			id: "75A17B4F62BAB3A3"
+			rewards: [
+				{
+					count: 4
+					id: "0D68337267AF5EAF"
+					item: {
+						count: 1
+						id: "industrialforegoing:laser_drill"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29CFFACB74923DF7"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:modularium"
+					}
+					random_bonus: 7
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "67262EB239828D79"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:drill_miner" }, count: 1, id: "modular_machinery_reborn:controller" }
@@ -938,6 +943,42 @@
 			}]
 			x: 16.5d
 			y: -15.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			hide_dependency_lines: true
+			id: "1515E056596DAF03"
+			tasks: [{
+				id: "05ED221BAADD1C67"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:primitive_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			hide_dependency_lines: true
+			id: "4A45AD963A4F6469"
+			tasks: [{
+				id: "6C83002D9CB2AA77"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:multismelter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			hide_dependency_lines: true
+			id: "4FBB56F6CEE6DBAC"
+			tasks: [{
+				id: "13DB312C55D1E292"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:advanced_multismelter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -18.0d
 		}
 	]
 }

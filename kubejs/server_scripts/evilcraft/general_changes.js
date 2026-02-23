@@ -4,6 +4,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 
 ServerEvents.recipes( catalyst => {
+
     catalyst.shaped('evilcraft:spirit_furnace', [
         ' D ',
         'DSD',
@@ -29,6 +30,8 @@ ServerEvents.recipes( catalyst => {
             '#c:tools/hammers'
         ]
     ).id('catalyst:evilcraft/dark_gem_crushed_hammer')
+
+    console.log("[CatJS] Added general changed evilcraft")
 })
 
 /* 

@@ -35,7 +35,7 @@ ServerEvents.recipes(catalyst => {
         { id: 'productivebees:evilcraft/bloody_bee_2' },
 
         // Advanced Peripherals
-        'advancedperipherals:chunk_controller',
+        { output: 'advancedperipherals:chunk_controller'},
 
         // ComputerCraft
         { id: 'computercraft:upgrade_3' },
@@ -85,18 +85,54 @@ ServerEvents.recipes(catalyst => {
 
         //direthings
         'justdirethings:celestigem_paxel',
-        'justdirethings:eclipsealloy_paxel'
+        'justdirethings:eclipsealloy_paxel',
 
-    ].concat(global.recipesSeedToRemove);
+        //ironfurnaces
+        { id: 'ironfurnaces:upgrades/upgrade_vibranium' },
+        { id: 'ironfurnaces:upgrades/upgrade_unobtainium' },
+
+        //create
+        { id: 'create:crafting/tree_fertilizer' },
+        { output: "create:extendo_grip" },
+        { output: "create:wand_of_symmetry" },
+        { output: "create:rotation_speed_controller" },//Nuggets to iron ingots basically and sheets
+        { output: "create_new_age:basic_motor" },
+        { output: "create_new_age:advanced_motor" },
+        "create:haunting/lapis_recycling",
+        { output: "create:item_vault" },
+        { output: 'create:precision_mechanism' },
+        "create:crafting/materials/andesite_alloy",
+        "create:crafting/materials/andesite_alloy_from_zinc"
+
+
+    ]
 
     recipesToRemove.forEach(recipe => {
-        try {
+        try
+        {
             catalyst.remove(recipe);
-        } catch (error) {
-            console.warn("Recipe to remove: ", recipe)
         }
-        
+        catch(error)
+        {
+            console.warn("[CatJS] Error while removing recipe: ", recipe)
+            console.log(error);
+        } 
     });
+
+    global.recipesSeedToRemove.forEach(seed => {
+        try
+        {
+            catalyst.remove({ output: `${seed}_seeds` });
+        }
+        catch(error)
+        {
+            console.warn("[CatJS] Error while removing recipe: ", seed)
+            console.log(error);
+        } 
+    })
+
+
+    console.log("[CatJS] Recipes removed");
 });
 
 /* 

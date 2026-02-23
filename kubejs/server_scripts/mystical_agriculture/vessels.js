@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 const $EssenceVesselsManager = Java.loadClass('com.blakebr0.mysticalagriculture.crafting.EssenceVesselColorManager')
 
 ServerEvents.afterRecipes(catalyst =>{
@@ -11,3 +15,7 @@ ServerEvents.afterRecipes(catalyst =>{
         console.log("[CatJS] MA Essence colors has been applied")
     }
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

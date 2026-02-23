@@ -62,4 +62,5 @@
 		{ id: "1FCCF3BADDAE6FDA", item: { count: 1, id: "ae2:cell_component_64k" } }
 		{ id: "3CCFBE4572A7CAA1", item: { count: 1, id: "ae2:dense_energy_cell" } }
 	]
+	use_title: true
 }
