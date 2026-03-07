@@ -107,7 +107,7 @@ StartupEvents.init(catalyst => {
                 },
                 register: function()
                 {
-                    let id = new $ResourceLocation('mysticalagriculture', _idStr)
+                    let id = $ResourceLocation.parse('mysticalagriculture:'+ _idStr)
                     let fmt = $ChatFormatting[_format] || $ChatFormatting.WHITE
                     let newTier = new $CropTier(id, _value, _color, fmt)
                     
@@ -188,7 +188,7 @@ StartupEvents.init(catalyst => {
                 },
                 register: function()
                 {
-                    let id = new $ResourceLocation('mysticalagriculture', _idStr)
+                    let id = $ResourceLocation.parse('mysticalagriculture:'+ _idStr)
                     let tier = getTier(_tierId)
                     let type = getType(_typeId)
                     let textures = TEXTURE_PATTERNS[_pattern]
