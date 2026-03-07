@@ -37,7 +37,7 @@ ServerEvents.recipes(catalyst => {
     };
 
     const createArboretumRecipe = (saplingId, logId, leavesId) => {
-        if(!Item.of(logId))
+        if(!Item.exists(logId))
         {
             console.warn(`[CatJS] Tree ${saplingId} can't be created (Log item '${logId}' not found)`);
             return;
@@ -102,8 +102,14 @@ ServerEvents.recipes(catalyst => {
             console.warn(`[CatJS] Tree ${saplingId} can't be created (Unknown naming format & not in special list). Please report this`);
             return;
         }
-
-        createArboretumRecipe(saplingId, logId, leavesId);
+        try {
+            createArboretumRecipe(saplingId, logId, leavesId);
+        }
+        catch(e)
+        {
+            console.warn("[CatJS] Error on tree: " + saplingId + " --> " + e)
+        }
+        
     });
 
     console.log("[CatJS] Added Arboletum recipes")
