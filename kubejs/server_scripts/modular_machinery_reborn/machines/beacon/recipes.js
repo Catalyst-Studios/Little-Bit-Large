@@ -154,9 +154,6 @@ ServerEvents.recipes(catalyst => {
             .width(110)
             .height(60)
             .requireEnergyPerTick(1000)
-        
-        if(effect.secondary) r.requireItem(Item.of(effect.secondary), 20, 20)
-        if(effect.tertiary) r.requireItem(Item.of(effect.tertiary), 20, 20)
 
         return r;
     };
@@ -180,6 +177,10 @@ ServerEvents.recipes(catalyst => {
             }
             
             let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:personal_beacon", recipe_time)
+            .progressData(ProgressData.create().x(64).y(20))
+            .width(110)
+            .height(60)
+            .requireEnergyPerTick(1000)
             .requireItem("1x minecraft:name_tag", 0, 20, 0)
             .requireItem(item, 40, 0)
             .requireItem(`1x ${effectData.secondary}`, 20, 20)
@@ -217,6 +218,10 @@ ServerEvents.recipes(catalyst => {
             }
             
             let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:personal_beacon", recipe_time)
+            .progressData(ProgressData.create().x(64).y(20))
+            .width(110)
+            .height(60)
+            .requireEnergyPerTick(1000)
             .requireItem(item, 40, 0)
             .requireItem(`1x ${effectData.secondary}`, 20, 20)
             .requireItem(`1x ${effectData.tertiary}`, 20, 40)
