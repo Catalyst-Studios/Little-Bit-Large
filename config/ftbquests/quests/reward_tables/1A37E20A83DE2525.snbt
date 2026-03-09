@@ -1,0 +1,70 @@
+{
+	icon: {
+		id: "create:wrench"
+	}
+	id: "1A37E20A83DE2525"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			id: "1CE09198DB9604F6"
+			item: {
+				count: 1
+				id: "create:blaze_cake"
+			}
+			random_bonus: 3
+			weight: 5.0f
+		}
+		{
+			id: "26639A543E463EB3"
+			item: {
+				count: 1
+				id: "create_new_age:reinforced_motor"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "7C2C67CB4671262D"
+			item: {
+				count: 1
+				id: "createaddition:electric_motor"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 6
+			id: "6F4262DB0FC34F56"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 4
+			id: "159D5E51BB290D72"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "586DEC3FD68BD799"
+			item: {
+				count: 1
+				id: "create:mechanical_arm"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "4AE5F1BE49FAF0F0"
+			item: {
+				count: 1
+				id: "create_new_age:thorium"
+			}
+			weight: 20.0f
+		}
+	]
+	use_title: true
+}
