@@ -82,6 +82,8 @@ ServerEvents.recipes(catalyst => {
 
         //mmr
         {output: 'modular_machinery_reborn:modularium'},
+        {output: "modular_machinery_reborn:outputbus_tiny"},
+        {output: "modular_machinery_reborn:inputbus_tiny"},
 
         //direthings
         'justdirethings:celestigem_paxel',
@@ -103,6 +105,7 @@ ServerEvents.recipes(catalyst => {
         { output: 'create:precision_mechanism' },
         "create:crafting/materials/andesite_alloy",
         "create:crafting/materials/andesite_alloy_from_zinc"
+
 
 
     ]
