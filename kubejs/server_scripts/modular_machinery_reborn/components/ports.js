@@ -24,6 +24,34 @@ ServerEvents.recipes(catalyst => {
         }).id(`catalyst:mmr/ports/${input.split(':')[1]}_to_${output.split(':')[1]}`);;
     };
 
+    catalyst.shaped(
+            Item.of("modular_machinery_reborn:outputbus_tiny"),
+            [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            {
+                A: "minecraft:mud_bricks",
+                B: "minecraft:bricks",
+                C: "chest"
+            }
+        ).id(`catalyst:mmr/ports/tiny_output_bus`);
+
+    catalyst.shaped(
+            Item.of("modular_machinery_reborn:inputbus_tiny"),
+            [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            {
+                B: "minecraft:mud_bricks",
+                A: "minecraft:bricks",
+                C: "chest"
+            }
+        ).id(`catalyst:mmr/ports/tiny_input_bus`);
+
     //energy
     const energyTiers = [
         { id: 'small',      next: 'normal',    cable: 'mekanism:advanced_universal_cable', hopper: 'powah:energy_hopper_niotic' },
