@@ -21,7 +21,10 @@ MMREvents.machines(catalyst => {
                     "a": ["modular_machinery_reborn:casing_reinforced"],
                     "b": ["chipped:rough_quartz_block"],
                     "c": ["modular_machinery_reborn:casing_plain"],
-                    "d": ["crystalix:black_crystalix_glass"],
+                    "d": [
+                        "glassential:obsidian_glass",
+                        "crystalix:crystalix_glass
+                    ],
                     "e": ["ae2:quartz_block"],
                     "f": ["modular_machinery_reborn:energyinputhatch_ultimate"],
                     "g": ["chipped:rough_quartz_block"],
