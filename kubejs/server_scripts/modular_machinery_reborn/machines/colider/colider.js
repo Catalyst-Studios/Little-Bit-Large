@@ -1,0 +1,98 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+MMREvents.machines(catalyst => {
+    /**
+     * Creates a machine with the given ResourceLocation (namespace:machine) equivalent to the json -> datapackNamespace:jsonName
+     */
+    catalyst.create("mmr:colider")
+        /**
+         * Applies the color to the machine with the format:
+         * #AlphaAlphaRedRedGreenGreenBlueBlue
+         * color in int number format
+         */
+        .color('#00131313')
+        /**
+         * The name that the machine should display in the controller item and in the controller GUI -> default localized with the id of the creation
+         */
+        .name('Colider')
+        /**
+         * The multiblock definition
+         */
+        .structure(
+        MMRStructureBuilder.create()
+        .pattern([
+        ["               ccccc               ","            cccdcccdccc            ","         cccddddcccddddccc         ","       ccddddcddcccddcddddcc       ","     ccdddddcccdcccdcccdddddcc     ","    cccddddddcddcccddcddddddccc    ","    ccccddddddddcccddddddddcccc    ","   cddcccdddddddcccdddddddcccddc   ","   cdddcccddddddcccddddddcccdddc   ","  cdddddcccdddddcccdddddcccdddddc  ","  cddddddcccddddcccddddcccddddddc  ","  cdddddddcccdddcccdddcccdddddddc  "," cddcddddddcccdcccccdcccddddddcddc "," cdcccddddddcccccccccccddddddcccdc "," cddcddddddddcccdcdcccddddddddcddc ","cdddddddddddcccddcddcccdddddddddddc","ccccccccccccccddcccddcccccccccccccc","cccccccccccccccccdccccccccccccccccc","ccccccccccccccddcccddcccccccccccccc","cdddddddddddcccddcddcccdddddddddddc"," cddcddddddddcccdcdcccddddddddcddc "," cdcccddddddcccccccccccddddddcccdc "," cddcddddddcccdcccccdcccddddddcddc ","  cdddddddcccdddcccdddcccdddddddc  ","  cddddddcccddddcccddddcccddddddc  ","  cdddddcccdddddcccdddddcccdddddc  ","   cdddcccddddddcccddddddcccdddc   ","   cddcccdddddddcccdddddddcccddc   ","    ccccddddddddcccddddddddcccc    ","    cccddddddcddcccddcddddddccc    ","     ccdddddcccdcccdcccdddddcc     ","       ccddddcddcccddcddddcc       ","         cccddddcccddddccc         ","            cccdcccdccc            ","               ccccc               "],
+        ["                                   ","                                   ","                                   ","             i       i             ","            hgf     hgf            ","             e       e             ","       i                   i       ","      hgf                 hgf      ","       e                   e       ","                                   ","                                   ","                                   ","    i          j   j          i    ","   hgf       j       j       hgf   ","    e                         e    ","            j         j            ","                                   ","                 d                 ","                                   ","            j         j            ","    i                         i    ","   hgf       j       j       hgf   ","    e          j   j          e    ","                                   ","                                   ","                                   ","       i                   i       ","      hgf                 hgf      ","       e                   e       ","             i       i             ","            hgf     hgf            ","             e       e             ","                                   ","                                   ","                                   "],
+        ["                                   ","                                   ","                                   ","             o       o             ","            ngl     ngl            ","             k       k             ","       o                   o       ","      ngl                 ngl      ","       k                   k       ","                                   ","                                   ","                                   ","    o          j   j          o    ","   ngl       j       j       ngl   ","    k                         k    ","            j         j            ","                                   ","                 m                 ","                                   ","            j         j            ","    o                         o    ","   ngl       j       j       ngl   ","    k          j   j          k    ","                                   ","                                   ","                                   ","       o                   o       ","      ngl                 ngl      ","       k                   k       ","             o       o             ","            ngl     ngl            ","             k       k             ","                                   ","                                   ","                                   "],
+        ["                                   ","                                   ","               ppqpp               ","            pqprrqrrpqp            ","          pprqrppqpprqrpp          ","        pprrpqp     pqprrpp        ","      qprrpp           pprrpq      ","      pqpp               ppqp      ","     prpq                 qprp     ","     prp                   prp     ","    prp                     prp    ","    prp                     prp    ","   prp         s   s         prp   ","   qqq       s       s       qqq   ","   prp                       prp   ","  prp       s         s       prp  ","  prp                         prp  ","  qqq                         qqq  ","  prp                         prp  ","  prp       s         s       prp  ","   prp                       prp   ","   qqq       s       s       qqq   ","   prp         s   s         prp   ","    prp                     prp    ","    prp                     prp    ","     prp                   prp     ","     prpq                 qprp     ","      pqpp               ppqp      ","      qprrpp           pprrpq      ","        pprrpqp     pqprrpp        ","          pprqrppqpprqrpp          ","            pqprrqrrpqp            ","               ppqpp               ","                                   ","                                   "],
+        ["                                   ","               ttqtt               ","             qt quq tq             ","         tttquq quq quqttt         ","       ttt  quq quq quq  ttt       ","     qq     quqttqttquq     qq     ","     quq    tqtt   ttqt    quq     ","    t quq ttt         ttt quq t    ","    t  quqt      S      tquq  t    ","   tt   qq   BC  y  Dw   qq   tt   ","   t   tt     xC y DA     tt   t   ","   t   t   VC  F y F  DU   t   t   ","   qqqtt   xHN JKTKJ OHA   ttqqq   ","  quuuq  S  IJ       JM  S  quuuq  ","  tqqqt  xC             DA  tqqqt  "," t   tt   xKJ         JKA   tt   t "," tqqqt      F         F      tqqqt "," quuuq  BPPPR         QPPPw  quuuq "," tqqqt      F         F      tqqqt "," t   tt   DKJ         JKC   tt   t ","  tqqqt  DA             xC  tqqqt  ","  quuuq  v  OJ       JN  v  quuuq  ","   qqqtt   DHM JKLKJ IHC   ttqqq   ","   t   t   GA  F y F  xE   t   t   ","   t   tt     DA y xC     tt   t   ","   tt   qq   BA  y  xw   qq   tt   ","    t  quqt      v      tquq  t    ","    t quq ttt         ttt quq t    ","     quq    tqtt   ttqt    quq     ","     qq     quqttqttquq     qq     ","       ttt  quq quq quq  ttt       ","         tttquq quq quqttt         ","             qt quq tq             ","               ttqtt               ","                                   "],
+        ["               ppqpp               ","            pqp quq pqp            ","         pppquq  q  quqppp         ","       pp    q   q   q    pp       ","     qp      q   q   q      pq     ","    quq      q  quq  q      quq    ","    pqq     quq pqp quq     qqp    ","   p   q     qpp   ppq     q   p   ","   p    qq pp    W    pp qq    p   ","  p     quq  W       W  quq     p  ","  p      q               q      p  ","  p     p  W           W  p     p  "," pq   q p      s   s      p q   qp "," quqqquq W   s       s   W quqqquq "," pq   qp                   pq   qp ","p      p    s         s    p      p","pq   qp                     pq   qp","quqqquq W                 W quqqquq","pq   qp                     pq   qp","p      p    s         s    p      p"," pq   qp                   pq   qp "," quqqquq W   s       s   W quqqquq "," pq   q p      s   s      p q   qp ","  p     p  W           W  p     p  ","  p      q               q      p  ","  p     quq  W       W  quq     p  ","   p    qq pp    W    pp qq    p   ","   p   q     qpp   ppq     q   p   ","    pqq     quq pqp quq     qqp    ","    quq      q  quq  q      quq    ","     qp      q   q   q      pq     ","       pp    q   q   q    pp       ","         pppquq  q  quqppp         ","            pqp quq pqp            ","               ppqpp               "],
+        ["               rrqrr               ","            rqr quq rqr            ","         rrrquq  q  quqrrr         ","       rr    q       q    rr       ","     qr          q          rq     ","    quq      q  quq  q      quq    ","    rqq     quq rJr quq     qqr    ","   r         Jrr F rrJ         r   ","   r    qq rrF   `   Frr qq    r   ","  r     quJ  `       `  Juq     r  ","  r      JYC           DYJ      r  ","  r     r x_           ^A r     r  "," rq   q r      j   j      r q   qr "," quq quJK]   j       j   aKJuq quq "," rq   qr                   rq   qr ","r      r    j         j    r      r","rq   qr                     rq   qr","quq quJK]                 aKJuq quq","rq   qr                     rq   qr","r      r    j         j    r      r"," rq   qr                   rq   qr "," quq quJK]   j       j   aKJuq quq "," rq   q r      j   j      r q   qr ","  r     r D[           ZC r     r  ","  r      JYA           xYJ      r  ","  r     quJ  X       X  Juq     r  ","   r    qq rrF   X   Frr qq    r   ","   r         Jrr F rrJ         r   ","    rqq     quq rJr quq     qqr    ","    quq      q  quq  q      quq    ","     qr          q          rq     ","       rr    q       q    rr       ","         rrrquq  q  quqrrr         ","            rqr quq rqr            ","               rrqrr               "],
+        ["               ppqpp               ","            pqp quq pqp            ","         pppquq  q  quqppp         ","       pp    q   q   q    pp       ","     qp      q   q   q      pq     ","    quq      q  quq  q      quq    ","    pqq     quq pqp quq     qqp    ","   p   q     qpp   ppq     q   p   ","   p    qq pp         pp qq    p   ","  p     quq             quq     p  ","  p      q               q      p  ","  p     p                 p     p  "," pq   q p      j   j      p q   qp "," quqqquq     j       j     quqqquq "," pq   qp                   pq   qp ","p      p    j         j    p      p","pq   qp                     pq   qp","quqqquq                     quqqquq","pq   qp                     pq   qp","p      p    j         j    p      p"," pq   qp                   pq   qp "," quqqquq     j       j     quqqquq "," pq   q p      j   j      p q   qp ","  p     p                 p     p  ","  p      q               q      p  ","  p     quq             quq     p  ","   p    qq pp         pp qq    p   ","   p   q     qpp   ppq     q   p   ","    pqq     quq pqp quq     qqp    ","    quq      q  quq  q      quq    ","     qp      q   q   q      pq     ","       pp    q   q   q    pp       ","         pppquq  q  quqppp         ","            pqp quq pqp            ","               ppqpp               "],
+        ["                                   ","               ttqtt               ","            pqt quq tqp            ","         tttquq quq quqttt         ","       ttt  quq quq quq  ttt       ","     qqt    quqttqttquq    tqq     ","     quq    tqtt   ttqt    quq     ","    ttquq ttt         ttt quqtt    ","    t  quqt             tquq  t    ","   tt   qq               qq   tt   ","   t   tt                 tt   t   ","   t   t                   t   t   ","  pqqqtt                   ttqqqp  ","  quuuq                     quuuq  ","  tqqqt                     tqqqt  "," t   tt                     tt   t "," tqqqt                       tqqqt "," quuuq                       quuuq "," tqqqt                       tqqqt "," t   tt                     tt   t ","  tqqqt                     tqqqt  ","  quuuq                     quuuq  ","  pqqqtt                   ttqqqp  ","   t   t                   t   t   ","   t   tt                 tt   t   ","   tt   qq               qq   tt   ","    t  quqt             tquq  t    ","    ttquq ttt         ttt quqtt    ","     quq    tqtt   ttqt    quq     ","     qqt    quqttqttquq    tqq     ","       ttt  quq quq quq  ttt       ","         tttquq quq quqttt         ","            pqt quq tqp            ","               ttqtt               ","                                   "],
+        ["                                   ","                                   ","               ppqpp               ","            pqprrqrrpqp            ","          pprqrppqpprqrpp          ","        pprrpqp     pqprrpp        ","      qprrpp           pprrpq      ","      pqpp               ppqp      ","     prpq                 qprp     ","     prp                   prp     ","    prp                     prp    ","    prp                     prp    ","   prp                       prp   ","   qqq                       qqq   ","   prp                       prp   ","  prp                         prp  ","  prp                         prp  ","  qqq                         qqq  ","  prp                         prp  ","  prp                         prp  ","   prp                       prp   ","   qqq                       qqq   ","   prp                       prp   ","    prp                     prp    ","    prp                     prp    ","     prp                   prp     ","     prpq                 qprp     ","      pqpp               ppqp      ","      qprrpp           pprrpq      ","        pprrpqp     pqprrpp        ","          pprqrppqpprqrpp          ","            pqprrqrrpqp            ","               ppqpp               ","                                   ","                                   "]
+        ])
+        .keys({
+        "c":"create_new_age:reactor_casing",
+        "d":"modular_machinery_reborn:casing_plain[connect_textures=true]",
+        "e":"immersiveengineering:stairs_steel_scaffolding_standard[facing=north+half=bottom+shape=straight]",
+        "f":"immersiveengineering:stairs_steel_scaffolding_standard[facing=west+half=bottom+shape=straight]",
+        "g":"immersiveengineering:steel_scaffolding_standard[waterlogged=false]",
+        "h":"immersiveengineering:stairs_steel_scaffolding_standard[facing=east+half=bottom+shape=straight]",
+        "i":"immersiveengineering:stairs_steel_scaffolding_standard[facing=south+half=bottom+shape=straight]",
+        "j":"mekanism:ultimate_induction_cell",
+        "k":"immersiveengineering:stairs_steel_scaffolding_standard[facing=north+half=top+shape=straight]",
+        "l":"immersiveengineering:stairs_steel_scaffolding_standard[facing=west+half=top+shape=straight]",
+        "n":"immersiveengineering:stairs_steel_scaffolding_standard[facing=east+half=top+shape=straight]",
+        "o":"immersiveengineering:stairs_steel_scaffolding_standard[facing=south+half=top+shape=straight]",
+        "p":"mekanismgenerators:reactor_glass",
+        "q":"immersiveengineering:coil_hv",
+        "r":"modular_machinery_reborn:casing_reinforced[connect_textures=true]",
+        "s":"mekanism:ultimate_induction_provider",
+        "t":"mekanism:sps_casing",
+        "u":"create_new_age:netherite_magnet",
+        "v":"oritech:superconductor[down=0+straight=false+up=1+north=0+south=1+east=0+west=0]",
+        "w":"oritech:superconductor[down=0+straight=false+up=1+north=0+south=0+east=1+west=0]",
+        "x":"oritech:superconductor[down=0+straight=false+up=0+north=0+south=1+east=0+west=1]",
+        "y":"oritech:superconductor[down=0+straight=true+up=0+north=1+south=1+east=0+west=0]",
+        "A":"oritech:superconductor[down=0+straight=false+up=0+north=0+south=1+east=1+west=0]",
+        "B":"oritech:superconductor[down=0+straight=false+up=1+north=0+south=0+east=0+west=1]",
+        "C":"oritech:superconductor[down=0+straight=false+up=0+north=1+south=0+east=1+west=0]",
+        "D":"oritech:superconductor[down=0+straight=false+up=0+north=1+south=0+east=0+west=1]",
+        "E":"oritech:superconductor[down=0+straight=false+up=1+north=0+south=1+east=1+west=0]",
+        "F":"oritech:superconductor_connection[down=0+straight=true+up=0+north=1+south=1+east=0+west=0]",
+        "G":"oritech:superconductor[down=0+straight=false+up=1+north=0+south=1+east=0+west=1]",
+        "H":"oritech:superconductor[down=0+straight=false+up=0+north=1+south=1+east=1+west=1]",
+        "I":"oritech:superconductor_connection[down=0+straight=false+up=0+north=0+south=1+east=0+west=1]",
+        "J":"modular_machinery_reborn:energyinputhatch_ultimate[connect_textures=true]",
+        "K":"oritech:superconductor_connection[down=0+straight=true+up=0+north=0+south=0+east=1+west=1]",
+        "L":"oritech:superconductor[down=0+straight=false+up=0+north=1+south=0+east=1+west=1]",
+        "M":"oritech:superconductor_connection[down=0+straight=false+up=0+north=0+south=1+east=1+west=0]",
+        "N":"oritech:superconductor_connection[down=0+straight=false+up=0+north=1+south=0+east=1+west=0]",
+        "O":"oritech:superconductor_connection[down=0+straight=false+up=0+north=1+south=0+east=0+west=1]",
+        "P":"oritech:superconductor[down=0+straight=true+up=0+north=0+south=0+east=1+west=1]",
+        "Q":"oritech:superconductor[down=0+straight=false+up=0+north=1+south=1+east=0+west=1]",
+        "R":"oritech:superconductor[down=0+straight=false+up=0+north=1+south=1+east=1+west=0]",
+        "S":"oritech:superconductor[down=0+straight=false+up=1+north=1+south=0+east=0+west=0]",
+        "T":"oritech:superconductor[down=0+straight=false+up=0+north=0+south=1+east=1+west=1]",
+        "U":"oritech:superconductor[down=0+straight=false+up=1+north=1+south=0+east=1+west=0]",
+        "V":"oritech:superconductor[down=0+straight=false+up=1+north=1+south=0+east=0+west=1]",
+        "W":"oritech:superconductor[down=1+straight=true+up=1+north=0+south=0+east=0+west=0]",
+        "X":"oritech:superconductor[down=1+straight=false+up=0+north=1+south=0+east=0+west=0]",
+        "Y":"oritech:superconductor_connection[down=0+straight=false+up=0+north=1+south=1+east=1+west=1]",
+        "Z":"oritech:superconductor[down=1+straight=false+up=0+north=1+south=0+east=0+west=1]",
+        "[":"oritech:superconductor[down=1+straight=false+up=0+north=1+south=0+east=1+west=0]",
+        "a":"oritech:superconductor[down=1+straight=false+up=0+north=0+south=0+east=0+west=1]",
+        "]":"oritech:superconductor[down=1+straight=false+up=0+north=0+south=0+east=1+west=0]",
+        "^":"oritech:superconductor[down=1+straight=false+up=0+north=0+south=1+east=0+west=1]",
+        "_":"oritech:superconductor[down=1+straight=false+up=0+north=0+south=1+east=1+west=0]",
+        "`":"oritech:superconductor[down=1+straight=false+up=0+north=0+south=1+east=0+west=0]"}))
+        });
+
+/*
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
+
