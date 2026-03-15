@@ -10,7 +10,7 @@ ServerEvents.recipes(catalyst => {
     /**
      * Format: 'sapling_id': { log: 'log_id', leaves: 'leaves_id' }
      */
-    const specialTrees = {
+    let specialTrees = {
         // Minecraft Vanilla
         'minecraft:mangrove_propagule': { log: 'minecraft:mangrove_log', leaves: 'minecraft:mangrove_leaves' },
         'minecraft:azalea': { log: 'minecraft:oak_log', leaves: 'minecraft:azalea_leaves' },
@@ -36,7 +36,7 @@ ServerEvents.recipes(catalyst => {
         'twilightforest:hollow_oak_sapling': { log: 'twilightforest:twilight_oak_log', leaves: 'twilightforest:twilight_oak_leaves' }  // Hollow usa tronco normal
     };
 
-    const createArboretumRecipe = (saplingId, logId, leavesId) => {
+    let createArboretumRecipe = (saplingId, logId, leavesId) => {
         if(!Item.exists(logId))
         {
             console.warn(`[CatJS] Tree ${saplingId} can't be created (Log item '${logId}' not found)`);
@@ -81,7 +81,7 @@ ServerEvents.recipes(catalyst => {
     };
 
     Ingredient.of('#minecraft:saplings').stacks.forEach(item => {
-        const saplingId = item.getId();
+        let saplingId = item.getId();
         let logId = '';
         let leavesId = '';
 
@@ -93,7 +93,7 @@ ServerEvents.recipes(catalyst => {
         } 
         else if(saplingId.endsWith('_sapling')) //that uses the sapling -> log name (blame on you if you dont)
         {
-            const baseName = saplingId.replace('_sapling', '');
+            let baseName = saplingId.replace('_sapling', '');
             logId = `${baseName}_log`;
             leavesId = `${baseName}_leaves`;
         } 
