@@ -23,7 +23,7 @@ MMREvents.machines(catalyst => {
                     "c": ["modular_machinery_reborn:casing_plain"],
                     "d": [
                         "glassential:obsidian_glass",
-                        "crystalix:crystalix_glass
+                        "crystalix:crystalix_glass"
                     ],
                     "e": ["ae2:quartz_block"],
                     "f": ["modular_machinery_reborn:energyinputhatch_ultimate"],
