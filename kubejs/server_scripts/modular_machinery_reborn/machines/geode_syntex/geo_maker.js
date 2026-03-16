@@ -32,7 +32,10 @@ MMREvents.machines(catalyst => {
                     "i": ["chipped:bordered_obsidian"],
                     "j": ["chipped:pillar_obsidian_bricks"],
                     "k": ["ae2:quartz_vibrant_glass"],
-                    "l": ["crystalix:purple_crystalix_glass"],
+                    "l": [
+                        "glassential:obsidian_glass",
+                        "crystalix:crystalix_glass"
+                    ],
                     "n": ["chisel:steelframe/glass"],
                     "o": ["ars_nouveau:sourcestone_large_bricks"],
                     "p": ["rechiseled:amethyst_block_bordered_diagonal_tiles_connecting"],
