@@ -27,7 +27,7 @@ ServerEvents.recipes((catalyst) => {
                 B: itemB,
                 C: itemC
             }
-        ).id(`catalyst:mmr/controller/${machineId.split(':')[1]}`);;
+        ).id(`catalyst:mmr/controller/${machineId.split(':')[1]}`);
     };
 
     const plainCasing = "modular_machinery_reborn:casing_plain";
@@ -131,7 +131,7 @@ ServerEvents.recipes((catalyst) => {
     //Furnaces
     registerController(
         "mmr:primitive_furnace",
-        plainCasing,
+        "minecraft:mud_bricks",
         'minecraft:furnace',
         'minecraft:blast_furnace'
     );
