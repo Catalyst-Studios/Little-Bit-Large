@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "ars_nouveau:purple_archwood_sapling"
+	}
+	id: "24233654B48F0FA6"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ id: "0E1198ED5C35AF80", item: { count: 1, id: "ars_nouveau:starby_gift" } }
+		{ id: "69A11223BF153F15", item: { count: 1, id: "ars_additions:codex_entry" } }
+		{ id: "0CF33C487979DA80", item: { count: 1, id: "ars_additions:lost_codex_entry" } }
+		{ id: "5397358B35A9C9D1", item: { count: 1, id: "ars_additions:ancient_codex_entry" } }
+		{ id: "3C62D07A189B3CD8", item: { count: 1, id: "ars_nouveau:wilden_horn" } }
+		{ id: "7566C322FA193274", item: { count: 1, id: "ars_nouveau:wilden_wing" } }
+		{ id: "6F71CDB32019AEBB", item: { count: 1, id: "ars_nouveau:wilden_spike" } }
+		{ id: "0BDC829E648D132F", item: { count: 1, id: "ars_nouveau:source_gem_block" } }
+		{ id: "1F683EC0285457AA", item: { count: 1, id: "ars_nouveau:sourceberry_sack" } }
+		{ id: "64F00E2F73E29DE0", item: { count: 1, id: "ars_nouveau:source_berry_pie" } }
+	]
+	use_title: true
+}

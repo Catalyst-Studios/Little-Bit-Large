@@ -43,7 +43,7 @@
 			y: -11.5d
 		}
 	]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -692,7 +692,7 @@
 				}
 				{
 					id: "03D0FDF2D21557E1"
-					item: { count: 1, id: "oritech:plastic_sheet" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plastics)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -1198,7 +1198,7 @@
 				{
 					count: 8L
 					id: "6BDCAA5C8C828DC8"
-					item: { count: 8, id: "oritech:spawner_cage_block" }
+					item: { count: 1, id: "oritech:spawner_cage_block" }
 					type: "item"
 				}
 			]

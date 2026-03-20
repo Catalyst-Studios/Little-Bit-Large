@@ -1,10 +1,14 @@
 {
+	autofocus_id: "75A4C6008C48EA66"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
 	icon: {
-		id: "minecraft:oak_sapling"
+		components: {
+			"ftbquests:icon": "catalystcore:item/universe_containment_cell"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "0701BDFECC9EA8CD"
 	images: [{

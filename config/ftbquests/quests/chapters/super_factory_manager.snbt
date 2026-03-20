@@ -230,7 +230,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["04607AEB30CF466A"]
+			dependencies: ["7B5EF3CA06074AF9"]
 			icon: {
 				id: "sfm:cable"
 			}
@@ -257,11 +257,11 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 3.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["56E3056DD3640FB6"]
+			dependencies: ["7B5EF3CA06074AF9"]
 			id: "4B4A2B3581520EEA"
 			rewards: [{
 				count: 8
@@ -277,8 +277,8 @@
 				item: { count: 1, id: "sfm:network_tool" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["59E3899D372E1089"]
@@ -377,24 +377,6 @@
 		}
 		{
 			dependencies: ["7B5EF3CA06074AF9"]
-			disable_toast: true
-			hide_lock_icon: true
-			id: "04607AEB30CF466A"
-			size: 0.25d
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["7B5EF3CA06074AF9"]
-			disable_toast: true
-			hide_lock_icon: true
-			id: "56E3056DD3640FB6"
-			size: 0.25d
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["7AC4351C05DD922F"]
 			icon: {
 				id: "sfm:xp_goop"
 			}
@@ -429,11 +411,11 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 3.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["630FFF3D59F3CAE5"]
+			dependencies: ["7B5EF3CA06074AF9"]
 			id: "7D01DD78B475DD0C"
 			rewards: [
 				{
@@ -460,26 +442,8 @@
 				item: { count: 1, id: "sfm:water_tank" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["04607AEB30CF466A"]
-			disable_toast: true
-			hide_lock_icon: true
-			id: "630FFF3D59F3CAE5"
-			size: 0.25d
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["56E3056DD3640FB6"]
-			disable_toast: true
-			hide_lock_icon: true
-			id: "7AC4351C05DD922F"
-			size: 0.25d
-			x: 5.5d
-			y: 1.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6AA8B7AE8A952909"]

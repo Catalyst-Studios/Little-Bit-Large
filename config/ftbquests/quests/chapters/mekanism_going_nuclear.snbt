@@ -160,13 +160,13 @@
 				{
 					count: 26L
 					id: "36592A9477CF3B5E"
-					item: { count: 21, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "7C4FF99D990B2C92"
-					item: { count: 41, id: "mekanismgenerators:fusion_reactor_frame" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 					type: "item"
 				}
 				{
@@ -178,7 +178,7 @@
 				{
 					count: 2L
 					id: "2AF2EF0F23FD191F"
-					item: { count: 2, id: "mekanismgenerators:fusion_reactor_port" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
 					type: "item"
 				}
 			]
@@ -207,25 +207,25 @@
 				{
 					count: 120L
 					id: "5A8344E9F6A23875"
-					item: { count: 99, id: "mekanism:structural_glass" }
+					item: { count: 1, id: "mekanism:structural_glass" }
 					type: "item"
 				}
 				{
 					count: 60L
 					id: "5AA5D2DAE8015B67"
-					item: { count: 81, id: "mekanism:sps_casing" }
+					item: { count: 1, id: "mekanism:sps_casing" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "64E4A9C17599D1A2"
-					item: { count: 4, id: "mekanism:sps_port" }
+					item: { count: 1, id: "mekanism:sps_port" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "115C962E6F5DBC37"
-					item: { count: 2, id: "mekanism:supercharged_coil" }
+					item: { count: 1, id: "mekanism:supercharged_coil" }
 					type: "item"
 				}
 			]
@@ -335,31 +335,31 @@
 				{
 					count: 66L
 					id: "282B387A4003ADEE"
-					item: { count: 66, id: "mekanismgenerators:fission_reactor_casing" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "7BE6BA0414E55AE2"
-					item: { count: 5, id: "mekanismgenerators:control_rod_assembly" }
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "26387F299A4BD7A2"
-					item: { count: 15, id: "mekanismgenerators:fission_fuel_assembly" }
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "56A78D6999C5D790"
-					item: { count: 4, id: "mekanismgenerators:fission_reactor_port" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
 					type: "item"
 				}
 				{
 					count: 48L
 					id: "02784BD52797B021"
-					item: { count: 44, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 			]

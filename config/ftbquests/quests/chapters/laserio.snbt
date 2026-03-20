@@ -55,7 +55,7 @@
 				{
 					count: 4L
 					id: "34AAB0231198A63A"
-					item: { count: 4, id: "laserio:logic_chip" }
+					item: { count: 1, id: "laserio:logic_chip" }
 					type: "item"
 				}
 			]

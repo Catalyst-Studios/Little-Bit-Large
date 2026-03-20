@@ -51,6 +51,11 @@ ServerEvents.tags('item', catalyst => {
     catalyst.add('c:ingots/plutonium', 'mekanism:pellet_plutonium')
     catalyst.add('c:ingots', 'mekanism:pellet_plutonium')
 
+    catalyst.add('c:flours','pneumaticcraft:wheat_flour')
+    catalyst.add('c:flours/wheat','pneumaticcraft:wheat_flour')
+    catalyst.add('c:flours','enderio:flour')
+    catalyst.add('c:flours/wheat','enderio:flour')
+
     //Fix for Boon of Earth enchant dropping non generated ores
     catalyst.remove('c:ores_in_ground/stone', 'mekanism:fluorite_ore')
     catalyst.remove('c:ores_in_ground/stone', 'mekanism:osmium_ore')
@@ -72,7 +77,9 @@ ServerEvents.tags('item', catalyst => {
     catalyst.remove('c:ores_in_ground/stone', 'create:zinc_ore')
     catalyst.remove('c:ores_in_ground/stone', 'eternalores:plutonium_ore_block')
 
-    let saptag = (saplings) => { catalyst.add('minecraft:saplings', saplings)}
+    let saptag = (saplings) => {
+        catalyst.add('minecraft:saplings', saplings)
+    }
     saptag('productivetrees:black_ember_sapling')
     saptag('productivetrees:brown_amber_sapling')
     saptag('productivetrees:cave_dweller_sapling')
@@ -92,42 +99,68 @@ ServerEvents.tags('item', catalyst => {
     saptag('productivetrees:water_wonder_sapling')
     
 
-    function addSeedTags() {
-        const dontPlantSeeds = [
-            'flux', 'sculk', 'dire', 'insanium', 'supremium', 
-            'imperium', 'tertium', 'prudentium', 'technology', 'cognizian'
-        ];
-
-        const seeds = [
-            // Tier seeds
-            'prudentium', 'tertium', 'imperium', 'supremium', 'insanium', 'cognizian',
-            // Elemental seeds
-            'darkness', 'mystical', 'magic', 'technology',
-            // Normal seeds
-            'salt', 'arcane', 'industrial', 'plastic', 'prosperity', 
-            'xychorium', 'dark_gem', 'entro', 'flux', 'sculk', 'dire'
-        ];
-
-        dontPlantSeeds.forEach(seed => {
-            catalyst.add('c:dont_plant', `mysticalagriculture:${seed}_seeds`);
-        });
-
-        seeds.forEach(seed => {
-            catalyst.add('mysticalagriculture:seeds', `mysticalagriculture:${seed}_seeds`);
+    function addSeedTags()
+    {
+        global.recipesSeedToRemove.forEach(seedId => {
+            const seedName = seedId.split(':')[1].replace('_seeds', '');
+            const name = seedId + "_seeds"
+            const essence = seedId + "_essence"
+            if(global.dontPlantSeeds.includes(seedName))
+            {
+                catalyst.add('c:dont_plant', name);
+            }
+            
+            catalyst.add('mysticalagriculture:seeds', name);
+            catalyst.add('mysticalagriculture:essences', essence);
+            catalyst.add('ae2:growth_acceleratable', name);
+            catalyst.add('catalyst:seeds', name);
         });
     }
     addSeedTags();
+
+    const tags = {
+        goo_revive_tier_1:
+        [
+            'minecraft:sugar',
+            'minecraft:rotten_flesh',
+            'eternalores:catalyrium_dust'
+        ],
+        goo_revive_tier_2:
+        [
+            'minecraft:nether_wart',
+            'minecraft:blaze_powder',
+            'eternalores:catalyrium_dust'
+        ],
+        goo_revive_tier_3:
+        [
+            'minecraft:chorus_fruit',
+            'minecraft:ender_pearl',
+            'eternalores:catalyrium_dust'
+        ],
+        goo_revive_tier_4:
+        [
+            'minecraft:sculk',
+            'minecraft:sculk_catalyst',
+            'eternalores:catalyrium_dust'
+        ]
+    };
+
+    for(let tagName in tags)
+    {
+        catalyst.add(tagName, tags[tagName]);
+    }
+    console.log("[CatJS] Tags for Items has been added");
 
 })
 
 //block tags
 ServerEvents.tags('block', catalyst => {
     //Geore
-        //lets Geore buds be acceled
-        catalyst.add("c:budding", "#c:budding_blocks")
-        //lets geore buds be moved
-        const buds = catalyst.get("c:budding_blocks").getObjectIds();
-        buds.forEach(bud => {
+    //lets Geore buds be acceled
+    catalyst.add("c:budding", "#c:budding_blocks")
+    //lets geore buds be moved
+    const buds = catalyst.get("c:budding_blocks").getObjectIds();
+    buds.forEach(bud => {
         catalyst.remove('c:relocation_not_supported', bud);
     });
     catalyst.removeAll('productivebees:untickable')

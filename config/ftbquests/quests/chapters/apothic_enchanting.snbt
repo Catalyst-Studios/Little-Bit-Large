@@ -31,7 +31,7 @@
 		}
 		{
 			height: 1.0d
-			image: "ftbchunks:textures/faces/minecraft/ender_dragon.png"
+			image: "minecraft:textures/entity_icon/enderdragon/dragon.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 12.899999999999999d
@@ -118,7 +118,7 @@
 			y: 2.3622448979591866d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1194,13 +1194,13 @@
 				{
 					count: 5L
 					id: "58F6BD135D5F0648"
-					item: { count: 5, id: "apothic_enchanting:echoing_sculkshelf" }
+					item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "72282FE1C5FBA04A"
-					item: { count: 5, id: "apothic_enchanting:soul_touched_sculkshelf" }
+					item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
 					type: "item"
 				}
 				{

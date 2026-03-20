@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "energized_power"
@@ -7,7 +8,7 @@
 		id: "energizedpower:energized_copper_ingot"
 	}
 	id: "558E65AB78354674"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
 		icon: {

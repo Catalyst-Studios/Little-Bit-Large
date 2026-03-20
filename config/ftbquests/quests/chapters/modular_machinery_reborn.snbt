@@ -22,11 +22,11 @@
 			image: "modular_machinery_reborn:block/overlay_energyinputhatch_big"
 			rotation: 25.0d
 			width: 2.0d
-			x: 12.0d
-			y: -18.0d
+			x: 8.5d
+			y: -16.5d
 		}
 	]
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -65,13 +65,13 @@
 				{
 					count: 6L
 					id: "61217A2B5DFA6095"
-					item: { count: 6, id: "mekanism:steel_casing" }
+					item: { count: 1, id: "mekanism:steel_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "65B7A4CD51F37C2D"
-					item: { count: 6, id: "eternalores:plate_netherite" }
+					item: { count: 1, id: "eternalores:plate_netherite" }
 					type: "item"
 				}
 			]
@@ -117,25 +117,25 @@
 				{
 					count: 4L
 					id: "269C9E7CC64874FD"
-					item: { count: 6, id: "actuallyadditions:empowered_emeradic_crystal_block" }
+					item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "3DBA0D92E2E1C5C8"
-					item: { count: 4, id: "advanced_ae:quantum_alloy_block" }
+					item: { count: 1, id: "advanced_ae:quantum_alloy_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0FBFFBBA9BAB1D6F"
-					item: { count: 4, id: "powah:nitro_crystal_block" }
+					item: { count: 1, id: "powah:nitro_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "4EB71AA7D9F866BD"
-					item: { count: 64, id: "justdirethings:polymorphic_catalyst" }
+					item: { count: 1, id: "justdirethings:polymorphic_catalyst" }
 					type: "item"
 				}
 			]
@@ -319,25 +319,25 @@
 				{
 					count: 4L
 					id: "73B88E0CAA57AA86"
-					item: { count: 4, id: "powah:spirited_crystal_block" }
+					item: { count: 1, id: "powah:spirited_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "256A87A4210AE40F"
-					item: { count: 4, id: "mekanism:block_refined_obsidian" }
+					item: { count: 1, id: "mekanism:block_refined_obsidian" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0515691088CC503C"
-					item: { count: 4, id: "mysticalagriculture:prudentium_block" }
+					item: { count: 1, id: "mysticalagriculture:prudentium_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "79A20D061ECFD20C"
-					item: { count: 64, id: "justdirethings:portal_fluid_catalyst" }
+					item: { count: 1, id: "justdirethings:portal_fluid_catalyst" }
 					type: "item"
 				}
 			]
@@ -696,7 +696,7 @@
 			y: -14.07142857142857d
 		}
 		{
-			dependencies: ["4539BB25257AE9CF"]
+			dependencies: ["676F526FA911C55D"]
 			icon: {
 				id: "mekanism:steel_casing"
 			}
@@ -710,7 +710,7 @@
 				id: "0B368CDAD8D899F4"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 11.0d
 			y: -10.5d
 		}
 		{
@@ -791,14 +791,6 @@
 		}
 		{
 			dependencies: ["676F526FA911C55D"]
-			hide_lock_icon: true
-			id: "4539BB25257AE9CF"
-			size: 0.25d
-			x: 11.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["676F526FA911C55D"]
 			id: "3B1AF89E06B178D4"
 			rewards: [{
 				count: 4
@@ -815,8 +807,8 @@
 				item: { count: 1, id: "modular_machinery_reborn:parallel_hatch_basic" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -16.5d
+			x: 10.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["62F77CA28BF9653C"]
@@ -862,6 +854,131 @@
 			}]
 			x: 16.5d
 			y: -13.5d
+		}
+		{
+			dependencies: ["676F526FA911C55D"]
+			icon: {
+				id: "eternalores:raw_catalyrium"
+			}
+			id: "64F9B0F0FA57D7F2"
+			rewards: [{
+				id: "16D4BA1B09E3EC1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B7AA6C1A8674A89"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			id: "34B94E6DBEC34BCE"
+			rewards: [{
+				id: "400B2EE265483705"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:parallel_hatch_advanced"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19EEFA67CAA80AA9"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:celestial_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["676F526FA911C55D"]
+			id: "28DBA40648A0ED54"
+			rewards: [{
+				id: "0C251A304353004F"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:parallel_hatch_basic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E158D08FE289053"
+				item: { count: 1, id: "modular_machinery_reborn:parallel_hatch_medium" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["62F77CA28BF9653C"]
+			hide_dependency_lines: true
+			id: "75A17B4F62BAB3A3"
+			rewards: [
+				{
+					count: 4
+					id: "0D68337267AF5EAF"
+					item: {
+						count: 1
+						id: "industrialforegoing:laser_drill"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29CFFACB74923DF7"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:modularium"
+					}
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67262EB239828D79"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:drill_miner" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			hide_dependency_lines: true
+			id: "1515E056596DAF03"
+			tasks: [{
+				id: "05ED221BAADD1C67"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:primitive_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			hide_dependency_lines: true
+			id: "4A45AD963A4F6469"
+			tasks: [{
+				id: "6C83002D9CB2AA77"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:multismelter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["64F9B0F0FA57D7F2"]
+			hide_dependency_lines: true
+			id: "4FBB56F6CEE6DBAC"
+			tasks: [{
+				id: "13DB312C55D1E292"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:advanced_multismelter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -18.0d
 		}
 	]
 }

@@ -130,13 +130,13 @@
 				{
 					count: 64L
 					id: "2C3E0E11147360E3"
-					item: { count: 64, id: "minecraft:honey_bottle" }
+					item: { count: 1, id: "minecraft:honey_bottle" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "2D85521A7FC03757"
-					item: { count: 64, id: "minecraft:honeycomb" }
+					item: { count: 1, id: "minecraft:honeycomb" }
 					type: "item"
 				}
 			]
@@ -155,7 +155,7 @@
 			tasks: [{
 				count: 64L
 				id: "17A68299B577BE5B"
-				item: { count: 16, id: "productivebees:honey_treat" }
+				item: { count: 1, id: "productivebees:honey_treat" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1437,7 +1437,7 @@
 				{
 					count: 12L
 					id: "15A2E2C1468FD736"
-					item: { count: 12, id: "minecraft:lead" }
+					item: { count: 1, id: "minecraft:lead" }
 					type: "item"
 				}
 			]
@@ -1498,6 +1498,12 @@
 		}
 		{
 			dependencies: ["54DAFDE5553EA2E5"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "3BD9E192B040E27E"
 			tasks: [{
 				id: "67FBA25503EC3D7D"
@@ -1509,6 +1515,12 @@
 		{
 			dependencies: ["577615D670CC3BF1"]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0CA42C4E6040517E"
 			tasks: [{
 				id: "52A8530F08C45E1F"
@@ -1520,6 +1532,12 @@
 		{
 			dependencies: ["577615D670CC3BF1"]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0C47A37CB3C4FE67"
 			tasks: [{
 				id: "5E777A42A4FB1ACF"
@@ -1531,6 +1549,12 @@
 		{
 			dependencies: ["577615D670CC3BF1"]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "6F25B3D78143ED1E"
 			tasks: [{
 				id: "75078DC5A54AC93B"
@@ -1666,7 +1690,7 @@
 			]
 			tasks: [{
 				id: "1F4ECD05A8C17E6C"
-				item: { count: 64, id: "productivelib:upgrade_productivity_4" }
+				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -1683,7 +1707,7 @@
 			}]
 			tasks: [{
 				id: "0F885697FFA67F7C"
-				item: { count: 64, id: "productivelib:upgrade_block" }
+				item: { count: 1, id: "productivelib:upgrade_block" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -1874,14 +1898,14 @@
 					consume_items: true
 					count: 10L
 					id: "359CADA3CBD4C82A"
-					item: { count: 10, id: "productivetrees:ash_log" }
+					item: { count: 1, id: "productivetrees:ash_log" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "62BB3FE6CDA129F7"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -1909,14 +1933,14 @@
 					consume_items: true
 					count: 9L
 					id: "3A85ED2BEBF7ADF0"
-					item: { count: 10, id: "actuallyadditions:palis_crystal_shard" }
+					item: { count: 1, id: "actuallyadditions:palis_crystal_shard" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "60E34109C348EDAE"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -1944,14 +1968,14 @@
 					consume_items: true
 					count: 9L
 					id: "327F77EB7053DF52"
-					item: { count: 9, id: "actuallyadditions:emeradic_crystal_shard" }
+					item: { count: 1, id: "actuallyadditions:emeradic_crystal_shard" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "58D8D4C132D9D755"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -1979,14 +2003,14 @@
 					consume_items: true
 					count: 4L
 					id: "01E69F88E3DB6ED6"
-					item: { count: 4, id: "handcrafted:yellow_cushion" }
+					item: { count: 1, id: "handcrafted:yellow_cushion" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "0A9891FF3E8351E4"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2019,7 +2043,7 @@
 					consume_items: true
 					count: 4L
 					id: "07B007043744EF24"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2047,21 +2071,21 @@
 					consume_items: true
 					count: 16L
 					id: "730C50D5F3DAD86F"
-					item: { count: 16, id: "minecraft:dirt" }
+					item: { count: 1, id: "minecraft:dirt" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 16L
 					id: "680BA4B7A75A412A"
-					item: { count: 16, id: "minecraft:stone" }
+					item: { count: 1, id: "minecraft:stone" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "76A5640ACF08D6BB"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2089,21 +2113,21 @@
 					consume_items: true
 					count: 16L
 					id: "0C8BB65C9A88312A"
-					item: { count: 16, id: "minecraft:oak_leaves" }
+					item: { count: 1, id: "minecraft:oak_leaves" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 16L
 					id: "1625538E052E03A9"
-					item: { count: 16, id: "minecraft:cherry_leaves" }
+					item: { count: 1, id: "minecraft:cherry_leaves" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "7BA773D804A166E9"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2131,14 +2155,14 @@
 					consume_items: true
 					count: 16L
 					id: "4D6ED0FFA16B7F32"
-					item: { components: { "twilightforest:jar_lid": { lid: "twilightforest:twilight_oak_log" } }, count: 16, id: "twilightforest:mason_jar" }
+					item: { components: { "twilightforest:jar_lid": { lid: "twilightforest:twilight_oak_log" } }, count: 1, id: "twilightforest:mason_jar" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "67A16FF69949B3AA"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2166,21 +2190,21 @@
 					consume_items: true
 					count: 16L
 					id: "14616BD28AF64B13"
-					item: { count: 16, id: "minecraft:glowstone" }
+					item: { count: 1, id: "minecraft:glowstone" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "2DDA814C304571B5"
-					item: { count: 4, id: "minecraft:blue_dye" }
+					item: { count: 1, id: "minecraft:blue_dye" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "042DE75D814E7926"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2214,7 +2238,7 @@
 					consume_items: true
 					count: 4L
 					id: "5DBF1F1C10889351"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2260,14 +2284,14 @@
 					consume_items: true
 					count: 4L
 					id: "5CC328F4D5A3DF30"
-					item: { count: 4, id: "minecraft:honey_block" }
+					item: { count: 1, id: "minecraft:honey_block" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "59D60F318FDE1BD1"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2307,14 +2331,14 @@
 					consume_items: true
 					count: 4L
 					id: "3FED093C8C481BBA"
-					item: { count: 4, id: "minecraft:sculk" }
+					item: { count: 1, id: "minecraft:sculk" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "7BF8F4E2851FB7A8"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2360,7 +2384,7 @@
 					consume_items: true
 					count: 4L
 					id: "358B63C55EE019E6"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2400,28 +2424,28 @@
 					consume_items: true
 					count: 16L
 					id: "1BE7EAF031120E49"
-					item: { count: 16, id: "minecraft:end_stone" }
+					item: { count: 1, id: "minecraft:end_stone" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 6L
 					id: "183B19DEC92579E0"
-					item: { count: 6, id: "minecraft:ender_eye" }
+					item: { count: 1, id: "minecraft:ender_eye" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "59F929EA3221650C"
-					item: { count: 4, id: "minecraft:obsidian" }
+					item: { count: 1, id: "minecraft:obsidian" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "7CBE9E954C842283"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2461,14 +2485,14 @@
 					consume_items: true
 					count: 4L
 					id: "4B97FCCB36B6C018"
-					item: { count: 4, id: "minecraft:magma_block" }
+					item: { count: 1, id: "minecraft:magma_block" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "00E582CB14B2B8B3"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2514,7 +2538,7 @@
 					consume_items: true
 					count: 4L
 					id: "2270CD1B1BF14B50"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2554,28 +2578,28 @@
 					consume_items: true
 					count: 64L
 					id: "6912FA60A1F26AA3"
-					item: { count: 64, id: "minecraft:sugar" }
+					item: { count: 1, id: "minecraft:sugar" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 64L
 					id: "1A5BA4D46B893666"
-					item: { count: 64, id: "minecraft:sugar_cane" }
+					item: { count: 1, id: "minecraft:sugar_cane" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 16L
 					id: "4ABD98D14ABB2C0C"
-					item: { count: 16, id: "minecraft:cocoa_beans" }
+					item: { count: 1, id: "minecraft:cocoa_beans" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "5839D8C81B21739F"
-					item: { count: 4, id: "minecraft:honeycomb_block" }
+					item: { count: 1, id: "minecraft:honeycomb_block" }
 					type: "item"
 				}
 			]
@@ -2602,7 +2626,7 @@
 				consume_items: true
 				count: 4L
 				id: "79C65DC329CAB82B"
-				item: { count: 4, id: "minecraft:honeycomb_block" }
+				item: { count: 1, id: "minecraft:honeycomb_block" }
 				type: "item"
 			}]
 			x: -10.5d

@@ -43,8 +43,8 @@
 			image: "pneumaticcraft:textures/progwidgets/start_piece.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.610714285714309d
-			y: -5.928571428571416d
+			x: 12.640816326530611d
+			y: -5.882653061224495d
 		}
 		{
 			dependency: "0F68267B2DC0E06A"
@@ -117,51 +117,6 @@
 			width: 1.6d
 			x: 12.396428571428586d
 			y: -2.6785714285714235d
-		}
-		{
-			dependency: "4FCD069CFF4FA112"
-			height: 3.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/drone.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 10.5d
-			y: 5.5d
-		}
-		{
-			dependency: "1A36052DF194B26A"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/guard_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.0d
-			y: 1.5d
-		}
-		{
-			dependency: "0C3E31C1CC7C09B1"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/logistics_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.5d
-			y: 2.5d
-		}
-		{
-			dependency: "232EB86E5AD07B82"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/collector_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: 0.5d
-		}
-		{
-			dependency: "398B22B8D9E1149A"
-			height: 1.0d
-			image: "ftbchunks:textures/faces/pneumaticcraft/harvesting_drone.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.5d
-			y: -0.5d
 		}
 		{
 			dependency: "0EF171C9D1A27B99"
@@ -785,7 +740,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1023,13 +978,13 @@
 				{
 					count: 8L
 					id: "06D648D52A2B368F"
-					item: { count: 8, id: "pneumaticcraft:reinforced_brick_pillar" }
+					item: { count: 1, id: "pneumaticcraft:reinforced_brick_pillar" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "3201DCA0A7EF396F"
-					item: { count: 8, id: "pneumaticcraft:reinforced_bricks" }
+					item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
 					type: "item"
 				}
 			]
@@ -1139,7 +1094,7 @@
 			id: "6CA72FFE06D0D4A2"
 			tasks: [{
 				id: "5AB252F13DB9E8A2"
-				item: { count: 1, id: "industrialforegoing:plastic" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plastics)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.95d

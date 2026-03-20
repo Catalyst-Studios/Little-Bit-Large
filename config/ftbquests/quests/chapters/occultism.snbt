@@ -758,10 +758,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4B97F49BBDDB049A"
-				"35F498CAE76F3C31"
-			]
+			dependencies: ["35F498CAE76F3C31"]
 			icon: {
 				id: "occultism:ritual_dummy/summon_marid_crusher"
 			}

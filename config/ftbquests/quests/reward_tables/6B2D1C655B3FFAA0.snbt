@@ -1,0 +1,26 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "ars_nouveau:block/fire_0"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6B2D1C655B3FFAA0"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ id: "37784642FD5CDB9E", item: { count: 1, id: "ars_nouveau:starby_gift" } }
+		{ id: "06CD1C36AC28FF2B", item: { count: 1, id: "ars_additions:lost_codex_entry" } }
+		{ id: "18CAC1F0E5A0FE45", item: { count: 1, id: "ars_additions:ancient_codex_entry" } }
+		{ id: "00BE881905F67692", item: { count: 1, id: "ars_additions:codex_entry" } }
+		{ id: "52CDEC230644B323", item: { count: 1, id: "ars_nouveau:abjuration_essence" } }
+		{ id: "0CA99ADF2C52A874", item: { count: 1, id: "ars_nouveau:conjuration_essence" } }
+		{ id: "7FE5746E142D6E82", item: { count: 1, id: "ars_nouveau:fire_essence" } }
+		{ id: "1B08EE8DD5615005", item: { count: 1, id: "ars_elemental:anima_essence" } }
+		{ id: "20ADE822019BAD37", item: { count: 1, id: "ars_nouveau:water_essence" } }
+		{ id: "403D225375159148", item: { count: 1, id: "ars_nouveau:manipulation_essence" } }
+		{ id: "09635504EEAC83B6", item: { count: 1, id: "ars_nouveau:earth_essence" } }
+		{ id: "12E4257851875A1F", item: { count: 1, id: "ars_nouveau:air_essence" } }
+	]
+	use_title: true
+}

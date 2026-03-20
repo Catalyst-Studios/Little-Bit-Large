@@ -12,7 +12,6 @@
 	chapter.1FE9C6E71A0B41E1.title: "Sophisticated Backpacks"
 	chapter.248AEB260B45DF6D.title: "&cLaser&bIO&r"
 	chapter.2BBFD07BC2C78262.title: "Encantamentos Apóticos"
-	chapter.315076A74ED3C0B4.title: "Ars Nouveau"
 	chapter.31F87E6CA6813107.title: " &l&bOriTech"
 	chapter.32BF091D8E42CFC8.title: "&aMystical &bAgriculture&r"
 	chapter.32EBEDA362E693A6.title: "[{\"text\":\"\"},{\"text\":\"Ge\",\"color\":\"#7327F5\"},{\"text\":\"Ore\",\"color\":\"#F52742\"}]"
@@ -3568,12 +3567,6 @@
 		"Além disso, colete um pouco de pedra do céu, precisaremos mais tarde"
 	]
 	quest.374D3F10FD46CC21.quest_subtitle: "O começo"
-	quest.376756A2EE20E8EC.quest_desc: [
-		"Você já se perguntou como &acarregar os chunks&r de toda a sua &brede AE2&r? Bem, é fácil."
-		""
-		"Coloque a &dÂncora Espacial&r em qualquer lugar da sua &brede principal&r, dê alguns segundos e você terá toda a sua base com chunks carregados"
-	]
-	quest.376756A2EE20E8EC.quest_subtitle: "Chunk:&c LIGADO"
 	quest.37729D29364F83F5.quest_desc: ["Confie em mim, você vai, apenas comece o método de duplicação"]
 	quest.37729D29364F83F5.quest_subtitle: "Você vai precisar"
 	quest.37729D29364F83F5.title: "Cristal de Entropia"

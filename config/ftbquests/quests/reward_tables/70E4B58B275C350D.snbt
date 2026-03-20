@@ -56,4 +56,5 @@
 			}
 		}
 	]
+	use_title: true
 }

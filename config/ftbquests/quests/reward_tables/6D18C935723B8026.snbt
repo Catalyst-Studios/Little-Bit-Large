@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "evilcraft:dark_gem"
+	}
 	id: "6D18C935723B8026"
 	loot_size: 1
 	order_index: 0
@@ -99,4 +102,5 @@
 			weight: 0.01f
 		}
 	]
+	use_title: true
 }

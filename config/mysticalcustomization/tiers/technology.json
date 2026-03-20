@@ -1,8 +1,0 @@
-{
-    "name": "Technology",
-    "value": 9,
-    "essence": "mysticalagriculture:magic_essence",
-    "fertilizable": false,
-    "secondarySeedDrop": false,
-    "baseSecondaryChance": 0
-}

@@ -928,7 +928,7 @@
 			y: -20.5d
 		}
 	]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -969,7 +969,7 @@
 			tasks: [{
 				count: 3L
 				id: "54E3C3AE402C71DC"
-				item: { count: 3, id: "evilcraft:dark_gem" }
+				item: { count: 1, id: "evilcraft:dark_gem" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -1094,7 +1094,7 @@
 			tasks: [{
 				count: 9L
 				id: "53855F28639AEEE5"
-				item: { count: 9, id: "evilcraft:hardened_blood_shard" }
+				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1224,7 +1224,7 @@
 				{
 					count: 25L
 					id: "3F4CF53AE2EC2507"
-					item: { count: 25, id: "evilcraft:reinforced_undead_planks" }
+					item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
 					type: "item"
 				}
 			]
@@ -2464,6 +2464,7 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "06FD532ABD84C9EA"
+			invisible: true
 			rewards: [{
 				id: "11822B5435B7E7DD"
 				type: "xp"
@@ -2482,6 +2483,7 @@
 		{
 			dependencies: ["06FD532ABD84C9EA"]
 			id: "2FE1CD6DDFDF2F31"
+			invisible: true
 			rewards: [{
 				id: "2B8573ADD90DD52F"
 				type: "xp"
