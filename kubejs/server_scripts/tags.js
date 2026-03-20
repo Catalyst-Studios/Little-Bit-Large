@@ -186,22 +186,10 @@ ServerEvents.tags('block', catalyst => {
     catalyst.remove('c:ores_in_ground/stone', 'create:zinc_ore')
     catalyst.remove('c:ores_in_ground/stone', 'eternalores:plutonium_ore_block')
 
-    global.recipesSeedToRemove.forEach(seedId => {
-        const seedName = seedId.split(':')[1].replace('_seeds', '');
-        const name = seedId + "_crop"
-        if(global.dontPlantSeeds.includes(seedName))
-        {
-            catalyst.add('c:dont_plant', name);
-        }
-            
-        catalyst.add('mysticalagriculture:crops', name);
-        catalyst.add('minecraft:crops', name);
-        catalyst.add('ae2:growth_acceleratable', name);
-        //catalyst.add('minecraft:sword_efficient', name);
-    });
-
-    console.log("[CatJS] Tags for items has been added");
-})
+    // Allow waystones to be used inside claims
+    catalyst.add('ftbchunks:interact_whitelist', ['@waystones'])
+    }
+)
 
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
