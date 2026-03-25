@@ -19,7 +19,7 @@ ServerEvents.tags('item', catalyst => {
     //Jetpacks
     catalyst.add('c:creativeflytype/jetpack', 'mekanism:jetpack')
     catalyst.add('c:creativeflytype/jetpack', 'ironjetpacks:jetpack')
-    
+
     //Exalted Crafter Non-Powered
     catalyst.add('c:exaltedcrafter/tier/1', 'evilcraft:exalted_crafter_wooden')
     catalyst.add('c:exaltedcrafter/tier/1', 'evilcraft:exalted_crafter')
@@ -97,7 +97,7 @@ ServerEvents.tags('item', catalyst => {
     saptag('productivetrees:time_traveller_sapling')
     saptag('productivetrees:blue_yonder_sapling')
     saptag('productivetrees:water_wonder_sapling')
-    
+
 
     function addSeedTags()
     {
@@ -109,7 +109,7 @@ ServerEvents.tags('item', catalyst => {
             {
                 catalyst.add('c:dont_plant', name);
             }
-            
+
             catalyst.add('mysticalagriculture:seeds', name);
             catalyst.add('mysticalagriculture:essences', essence);
             catalyst.add('ae2:growth_acceleratable', name);
@@ -186,12 +186,23 @@ ServerEvents.tags('block', catalyst => {
     catalyst.remove('c:ores_in_ground/stone', 'create:zinc_ore')
     catalyst.remove('c:ores_in_ground/stone', 'eternalores:plutonium_ore_block')
 
-    // Allow waystones to be used inside claims
-    catalyst.add('ftbchunks:interact_whitelist', ['@waystones'])
-    }
-)
+    global.recipesSeedToRemove.forEach(seedId => {
+        const seedName = seedId.split(':')[1].replace('_seeds', '');
+        const name = seedId + "_crop"
+        if(global.dontPlantSeeds.includes(seedName))
+        {
+            catalyst.add('c:dont_plant', name);
+        }
+            
+        catalyst.add('mysticalagriculture:crops', name);
+        catalyst.add('minecraft:crops', name);
+        catalyst.add('ae2:growth_acceleratable', name);
+        //catalyst.add('minecraft:sword_efficient', name);
+    });
+
+    console.log("[CatJS] Tags for items has been added");
+})
 
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
-*/
