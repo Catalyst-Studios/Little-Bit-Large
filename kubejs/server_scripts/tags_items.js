@@ -377,6 +377,16 @@ ServerEvents.tags('item', catalyst => {
 
     catalyst.add("productivebees:flowers/quarry", 'ae2:sky_dust')
 
+    catalyst.add("catalyst:tiny_coal",'utilitarian:tiny_coal')
+    catalyst.add("catalyst:tiny_coal",'actuallyadditions:tiny_coal')
+    catalyst.add("catalyst:tiny_coal",'malum:coal_fragment')
+    catalyst.add("catalyst:tiny_coal",'pickletweaks:coal_piece')
+
+    catalyst.add("catalyst:tiny_charcoal",'malum:charcoal_fragment')
+    catalyst.add("catalyst:tiny_charcoal",'utilitarian:tiny_charcoal')
+    catalyst.add("catalyst:tiny_charcoal",'pickletweaks:charcoal_piece')
+    catalyst.add("catalyst:tiny_charcoal",'actuallyadditions:tiny_charcoal')
+
     console.log("[CatJS] Tags for Items has been added");
 
 })

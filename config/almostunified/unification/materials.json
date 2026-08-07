@@ -13,6 +13,7 @@
     "powah",
     "enderio",
     "energizedpower",
+    "actuallyadditions",
     "modular_machinery_reborn"
   ],
   "priority_overrides": {},
@@ -54,7 +55,9 @@
     "c:silicon",
     "c:coal_coke",
     "c:flours/{material}",
-    "c:dust_blocks/{material}"
+    "c:dust_blocks/{material}",
+    "catalyst:tiny_coal",
+    "catalyst:tiny_charcoal"
   ],
   "ignored_tags": [],
   "ignored_items": [
