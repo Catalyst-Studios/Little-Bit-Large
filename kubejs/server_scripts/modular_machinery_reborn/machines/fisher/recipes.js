@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
                 { id: "minecraft:bone", count: 3, chance: 0.6 },
                 { id: "minecraft:spider_eye", count: 1, chance: 0.3 },
                 { id: "minecraft:gunpowder", count: 2, chance: 0.4 },
-                { id: "minecraft:phantom_membrane", count: 1, chance: 0.2 },
+                { id: "minecraft:phantom_membrane", count: 1, chance: 0.8 },
                 { id: "minecraft:ink_sac", count: 3, chance: 0.5 },
                 { id: "minecraft:feather", count: 4, chance: 0.4 }
             ]
