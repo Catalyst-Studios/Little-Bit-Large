@@ -42,6 +42,7 @@ ServerEvents.recipes(catalyst => {
     let special_recipies = {
         'minecraft:crimson_fungus':{ log: 'minecraft:crimson_stem', leaves: 'minecraft:nether_wart_block'},
         'minecraft:warped_fungus':{ log: 'minecraft:warped_stem', leaves: 'minecraft:warped_wart_block'},
+        'malum:soulwood_sapling':{ log: 'malum:soulwood_log', leaves: 'malum:soulwood_leaves'},
     }
 
     let blacklisted = [
