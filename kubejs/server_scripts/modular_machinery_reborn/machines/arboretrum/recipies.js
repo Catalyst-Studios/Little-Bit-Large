@@ -43,6 +43,7 @@ ServerEvents.recipes(catalyst => {
         'minecraft:crimson_fungus':{ log: 'minecraft:crimson_stem', leaves: 'minecraft:nether_wart_block'},
         'minecraft:warped_fungus':{ log: 'minecraft:warped_stem', leaves: 'minecraft:warped_wart_block'},
         'malum:soulwood_sapling':{ log: 'malum:soulwood_log', leaves: 'malum:soulwood_leaves'},
+        'pastel:weeping_gala_sprig':{ log: 'pastel:weeping_gala_log', leaves: 'pastel:weeping_gala_leaves'}
     }
 
     let blacklisted = [
@@ -136,7 +137,6 @@ ServerEvents.recipes(catalyst => {
 
         try
         {
-            if(blacklisted.includes(saplingId)) return;
             createArboretumRecipe(saplingId, logId, leavesId);
         }
         catch(e)
