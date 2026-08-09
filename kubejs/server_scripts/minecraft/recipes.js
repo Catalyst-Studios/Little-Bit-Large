@@ -68,6 +68,17 @@ ServerEvents.recipes(catalyst => {
             .id(`catalyst:minecraft/crafting_station_slab_to_station`);
     catalyst.shapeless(Item.of('minecraft:crafting_table', 1), Item.of('craftingstation:crafting_station', 1))
             .id(`catalyst:minecraft/crafting_station_to_block`);
+
+    catalyst.shaped(Item.of('minecraft:spore_blossom', 1), [
+        " M ",
+        " B ",
+        "   "
+    ],
+    {
+        M: 'minecraft:moss_block',
+        B: '#minecraft:flowers'
+    })
+    .id("catalyst:spore_blossom");
             
     console.log("[CatJS] Added minecraft recipes")
 })

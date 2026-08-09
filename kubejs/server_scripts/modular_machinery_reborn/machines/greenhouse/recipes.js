@@ -715,6 +715,9 @@ ServerEvents.recipes(event => {
         fluid: { id: "minecraft:water", amount: 110 },
         outputs: [
             { id: "pastel:humming_bell", count: 4, chance: 1.0 },
+            { id: 'minecraft:ice', count: 4, chance: 1.0 },
+            { id: 'minecraft:packed_ice', count: 2, chance: 0.46 },
+            { id: 'minecraft:blue_ice', count: 1, chance: 0.1 }
         ]
     },
     {

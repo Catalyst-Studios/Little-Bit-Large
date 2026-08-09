@@ -43,7 +43,11 @@ ServerEvents.recipes(catalyst => {
         'minecraft:crimson_fungus':{ log: 'minecraft:crimson_stem', leaves: 'minecraft:nether_wart_block'},
         'minecraft:warped_fungus':{ log: 'minecraft:warped_stem', leaves: 'minecraft:warped_wart_block'},
         'malum:soulwood_sapling':{ log: 'malum:soulwood_log', leaves: 'malum:soulwood_leaves'},
-        'pastel:weeping_gala_sprig':{ log: 'pastel:weeping_gala_log', leaves: 'pastel:weeping_gala_leaves'}
+        'pastel:weeping_gala_sprig':{ log: 'pastel:weeping_gala_log', leaves: 'pastel:weeping_gala_leaves'},
+        'pastel:slate_noxshroom': { log: 'pastel:slate_noxcap_stem', leaves: 'pastel:slate_noxcap_block' },
+        'pastel:ebony_noxshroom': { log: 'pastel:ebony_noxcap_stem', leaves: 'pastel:ebony_noxcap_block' },
+        'pastel:ivory_noxshroom': { log: 'pastel:ivory_noxcap_stem', leaves: 'pastel:ivory_noxcap_block' },
+        'pastel:chestnut_noxshroom': { log: 'pastel:chestnut_noxcap_stem', leaves: 'pastel:chestnut_noxcap_block' }
     }
 
     let blacklisted = [
