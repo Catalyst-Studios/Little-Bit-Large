@@ -199,5 +199,27 @@ ServerEvents.recipes(catalyst => {
         });
     });
 
+    let customRecipes = [
+        { input: "#pastel:shooting_stars", output: 'pastel:star_fragment', extra: 'pastel:aether_vestiges', out_amount: 3, chance: 0.2 },
+        { input: 'pastel:frostbite_crystal', output: 'pastel:frostbite_essence', out_amount: 18 },
+        { input: 'pastel:blazing_crystal', output: 'pastel:incandescent_essence', out_amount: 18 },
+    ]
+
+    customRecipes.forEach(rs => {
+        let recipe = baseRecipe();
+        let input_size = rs.in_amount ? rs.in_amount : 1
+        let output_size = rs.out_amount ? rs.out_amount : 1
+
+        recipe.requireItem(Ingredient.of(rs.input, input_size), input_slot.x, input_slot.y);
+        recipe.produceItem(Item.of(rs.output, output_size), output_slot.x, output_slot.y);
+        if(rs.extra)
+        {
+            recipe.produceItem(Item.of(rs.extra, 1), rs.chance, output_slot.x, (output_slot.y + 18));
+        }
+
+        recipe.id(`catalyst:mmr/macerator/${recipe_counter}/${rs.input.replace(':', '_').replace("#", "_")}_custom`);
+        recipe_counter++;
+    })
+
     console.log(`[CatJS] Finished macerator recipes`);
 });
