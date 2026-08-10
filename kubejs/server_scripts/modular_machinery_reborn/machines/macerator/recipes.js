@@ -203,6 +203,8 @@ ServerEvents.recipes(catalyst => {
         { input: "#pastel:shooting_stars", output: 'pastel:star_fragment', extra: 'pastel:aether_vestiges', out_amount: 3, chance: 0.2 },
         { input: 'pastel:frostbite_crystal', output: 'pastel:frostbite_essence', out_amount: 18 },
         { input: 'pastel:blazing_crystal', output: 'pastel:incandescent_essence', out_amount: 18 },
+        { input: 'eternalores:bismuth', output: 'eternalores:bismuth_dust', extra: 'pastel:resonance_shard', out_amount: 1, chance: 0.33 },
+        { input: 'pastel:bismuth_crystal', output: 'eternalores:bismuth_dust', extra: 'pastel:resonance_shard', out_amount: 1, chance: 0.33 }
     ]
 
     customRecipes.forEach(rs => {
