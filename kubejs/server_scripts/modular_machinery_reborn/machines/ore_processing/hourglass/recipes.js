@@ -322,14 +322,32 @@ ServerEvents.recipes(catalyst => {
         //     colorB: [0.1, 0.2, 0.1],
         //     mode: 1
         // },
-        // {
-        //     time: 100,
-        //     inputs: [{ id: "eternalores:eternal_dark_ingot", count: 2, chance: 1.0 }],
-        //     output: { id: "eternalores:gem_voiderite", count: 4, chance: 1.0 },
-        //     colorA: [0.05, 0.0, 0.1],
-        //     colorB: [0.2, 0.0, 0.3],
-        //     mode: 1
-        // },
+        {
+            time: 500,
+            inputs: [
+                { id: "eternalores:eternal_dark_ingot", count: 1, chance: 1.0 },
+                { id: 'malum:eldritch_spirit', count: 2, chance: 1.0 },
+                { id: 'malum:arcane_spirit', count: 2, chance: 1.0 },
+                { id: 'malum:warp_flux', count: 16, chance: 1.0 },
+            ],
+            output: { id: "eternalores:gem_voiderite", count: 4, chance: 1.0 },
+            colorA: [0.05, 0.0, 0.1],
+            colorB: [0.2, 0.0, 0.3],
+            mode: 3
+        },
+        {
+            time: 500,
+            inputs: [
+                { id: "eternalores:eternal_light_ingot", count: 1, chance: 1.0 },
+                { id: 'malum:eldritch_spirit', count: 2, chance: 1.0 },
+                { id: 'malum:arcane_spirit', count: 2, chance: 1.0 },
+                { id: 'malum:warp_flux', count: 16, chance: 1.0 },
+            ],
+            output: { id: "eternalores:gem_voiderite", count: 4, chance: 1.0 },
+            colorA: [0.05, 0.0, 0.1],
+            colorB: [0.2, 0.0, 0.3],
+            mode: 3
+        },
         {
             time: 100,
             inputs: [
