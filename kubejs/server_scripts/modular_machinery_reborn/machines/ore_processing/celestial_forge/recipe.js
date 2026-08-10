@@ -47,6 +47,7 @@ ServerEvents.recipes(catalyst => {
         {input: 'minecraft:deepslate_lapis_ore', output: 'minecraft:lapis_lazuli', amount: 7},
         {input: 'minecraft:coal_ore', output: 'minecraft:coal', amount: 3},
         {input: 'minecraft:deepslate_coal_ore', output: 'minecraft:coal', amount: 4},
+        {input: 'mekanism:dirty_netherite_scrap', output: 'minecraft:netherite_scrap', amount: 2},
 
         //MA
         {input: 'mysticalagriculture:inferium_ore', output: 'mysticalagriculture:inferium_essence', amount: 12},
