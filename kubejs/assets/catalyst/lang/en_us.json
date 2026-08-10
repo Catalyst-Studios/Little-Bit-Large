@@ -101,6 +101,7 @@
   "catalyst.mmr.machine.miner": "Deep &#e69986Miner&r",
   "catalyst.mmr.machine.hourglass": "Inter<turb a=0.7 f=0.8><rainb f=0.25 w=60.0>Stellar</rainb></turb> Hourglass of <grad from=#0dc4ec to=#25ec0d hue=true f=0.3 sp=20.0 uni=false>Gems</grad>",
   "catalyst.mmr.machine.macerator": "&#f08411Macerator&r",
+  "catalyst.mmr.machine.portal": "Incarna <grad from=#5514E5 to=#BA14E5 hue=true f=0.2 sp=40.0 uni=true><glitch f=0.1 j=0.005 b=0.003 s=0.08>Warping</glitch></grad> &#14D0E5Portal&r",
 
   "catalyst.create.scoria": "This block can be created using a Vanilla Cobblestone Generator with Lava and Chocolate from Create",
   "catalyst.create.limestone": "This block can be created using a Vanilla Cobblestone Generator with Lava and Honey from Create",
