@@ -721,6 +721,20 @@ ServerEvents.recipes(event => {
         ]
     },
     {
+        id: 'pastel:nephrite_blossom_bulb',
+        time: 170,
+        energyPerTick: 60,
+        fluid: { id: "minecraft:water", amount: 150 },
+        outputs: [
+            { id: 'pastel:nephrite_blossom_bulb', count: 2, chance: 1.0 },
+            { id: 'pastel:nephrite_blossom_leaves', count: 7, chance: 1.0 },
+            { id: 'pastel:nephrite_blossom_stem', count: 4, chance: 1.0 },
+            { id: 'pastel:giant_moss_ball', count: 1, chance: 0.8 },
+            { id: 'pastel:moss_ball', count: 1, chance: 0.6 },
+            { id: 'pastel:glass_peach', count: 1, chance: 0.4 }
+        ]
+    },
+    {
         id: "pastel:blood_orchid",
         time: 180,
         energyPerTick: 7,
