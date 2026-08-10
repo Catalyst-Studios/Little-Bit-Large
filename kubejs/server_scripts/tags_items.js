@@ -387,6 +387,8 @@ ServerEvents.tags('item', catalyst => {
     catalyst.add("catalyst:tiny_charcoal",'pickletweaks:charcoal_piece')
     catalyst.add("catalyst:tiny_charcoal",'actuallyadditions:tiny_charcoal')
 
+    catalyst.add('c:bismuth', 'pastel:bismuth_crystal')
+
     console.log("[CatJS] Tags for Items has been added");
 
 })
