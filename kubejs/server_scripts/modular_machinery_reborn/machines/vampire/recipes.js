@@ -397,6 +397,16 @@ ServerEvents.recipes(catalyst => {
             ],
             fluid_input: [{ id: "catalystcore:liquid_blood", amount: 30000 }],
             fluid_output: []
+        },
+        {
+            time: 6000,
+            outputs: [{ id: 'pastel:pure_bloodstone', count: 32, chance: 1.0 }],
+            inputs: [
+                { id: 'eternalores:gem_sanguis_vivus', count: 1, chance: 1.0 },
+                { id: '#c:ingots', count: 32, chance: 1.0 }
+            ],
+            fluid_input: [{ id: "catalystcore:liquid_blood", amount: 30000 }],
+            fluid_output: []
         }
     ];
 
