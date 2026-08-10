@@ -1208,6 +1208,18 @@ ServerEvents.recipes(catalyst => {
             ]
         },
         {
+            time: 666,
+            energy: 50000000,
+            inputs: [
+                { id: 'pastel:black_materia', count: 1 }
+            ],
+            outputs: [
+                { id: 'eternalores:exotic_matter_block', count: 1, chance: 0.5 },
+                { id: 'eternalores:strange_matter_block', count: 1, chance: 0.75 },
+                { id: 'eternalores:antimatter_block', count: 1 }
+            ]
+        },
+        {
 
             inputs: [
                 { id: 'minecraft:grass_block', count: 1 },
@@ -1615,7 +1627,8 @@ ServerEvents.recipes(catalyst => {
             energy: 10000000,
             source: 20000,
             inputs: [
-                { id: 'pastel:black_materia', count: 1 }
+                { id: 'pastel:black_materia', count: 1 },
+                { id: 'eternalores:gem_spectral_sky_bluerite', count: 2}
             ],
             outputs: [
                 { id: 'malum:umbral_spirit', count: 1 },

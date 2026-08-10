@@ -3946,6 +3946,24 @@ ServerEvents.recipes(catalyst => {
             fluid_input: [],
             fluid_output: [],
             energy_out: 0
+        },
+        {
+            time: 240,
+            energy: 100000,
+            outputs: [
+                { id: 'eternalores:eternity_ingot', count: 1, chance: 1.0 },
+                { id: 'eternalores:universium_small_dust', count: 3, chance: 1.0}
+            ],
+            inputs: [
+                { id: 'eternalores:antimatter_block', count: 1, chance: 1.0 },
+                { id: 'eternalores:strange_matter_block', count: 1, chance: 1.0 },
+                { id: 'eternalores:exotic_matter_block', count: 1, chance: 1.0 },
+                { id: 'eternalores:enriched_voiderite', count: 1, chance: 0.33 },
+                { id: 'malum:umbral_spirit', count: 1, chance: 0 }
+            ],
+            fluid_input: [{ id: 'pastel:midnight_solution', count: 10000, chance: 1.0 }],
+            fluid_output: [],
+            energy_out: 0
         }
     ];
 

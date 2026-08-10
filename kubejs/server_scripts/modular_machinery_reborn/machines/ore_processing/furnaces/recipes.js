@@ -172,6 +172,18 @@ ServerEvents.recipes(catalyst => {
             .id(`catalyst:mmr/primitive_furnace/coke_special_recipe`)
     addFurnaceRequirements(recipe);
 
+    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 350)
+            .requireItem('eternalores:eternity_dust', 5, 10) 
+            .produceItem('eternalores:eternity_ingot', 60, 10)
+            .id(`catalyst:mmr/adv_furnace/eternity`)
+    addFurnaceRequirements(recipe);
+
+    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 450)
+            .requireItem('eternalores:universium_dust', 5, 10) 
+            .produceItem('eternalores:universium_ingot', 60, 10)
+            .id(`catalyst:mmr/adv_furnace/universium`)
+    addFurnaceRequirements(recipe);
+
     console.log("[CatJS] Added Furnaces recipes from smelting")
 
 });
