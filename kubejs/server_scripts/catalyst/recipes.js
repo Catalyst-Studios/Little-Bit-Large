@@ -302,6 +302,36 @@ ServerEvents.recipes(catalyst => {
     })
     .id("catalyst:sculk_cannon");
 
+    catalyst.shaped(Item.of('mmr_cosmetics:white_glyph', 32), [
+        "W W",
+        "W W",
+        " W "
+    ],
+    {
+        W: 'minecraft:white_wool'
+    })
+    .id("catalyst:white_glyph");
+
+    catalyst.shaped(Item.of('mmr_cosmetics:runes_purple', 32), [
+        "P P",
+        "P P",
+        " P "
+    ],
+    {
+        P: 'minecraft:purple_wool'
+    })
+    .id("catalyst:runes_purple");
+
+    catalyst.shaped(Item.of('mmr_cosmetics:runes_red', 32), [
+        "R R",
+        "R R",
+        " R "
+    ],
+    {
+        R: 'minecraft:red_wool'
+    })
+    .id("catalyst:runes_red");
+
     console.log("[CatJS] Added Cat Multiblock recipes")
 
     catalyst.shaped(Item.of('catalystcore:spirit_agglomeratio', 1), [
