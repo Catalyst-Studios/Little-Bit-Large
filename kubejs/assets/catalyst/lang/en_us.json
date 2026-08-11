@@ -107,6 +107,9 @@
   "catalyst.create.limestone": "This block can be created using a Vanilla Cobblestone Generator with Lava and Honey from Create",
 
   "catalyst.eo.unify": "This item can be converted 1:1 in a Crafting Grid to get the new material",
+  "catalyst.mysticalagriculture.altareffects.prefix": "Visuals effects on Mystical Agriculture: ",
+  "catalyst.mysticalagriculture.status.disabled": "Disabled",
+  "catalyst.mysticalagriculture.status.enabled": "Enabled",
 
   "catalyst.extendedae.lava": "Infinite Lava Cell",
   "catalyst.extendedae.milk": "Infinite Milk Cell",

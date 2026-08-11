@@ -61,31 +61,34 @@ ServerEvents.loaded(catalyst => {
 ServerEvents.commandRegistry(catalyst => {
     let { commands: Commands } = catalyst;
 
-    catalyst.register(Commands.literal('altareffects').requires(source => source.hasPermission(2) || source.getServer().isSingleplayer())
-                   .then(Commands.literal('false').executes(ctx =>{
-                        enabled = false;
-                        ctx.source.sendSuccess(
-                            Text.green('Visuals effects on Mystical Agriculture: ').append(Text.red('Disabled')), 
-                            false
-                        );
-                        JsonIO.write('kubejs/data/altar_effect_preferences.json', {
-                            activated : enabled
-                        })
-                        return 1;
-                   }))
-                   .then(Commands.literal('true').executes(ctx =>{
-                        enabled = true;
-                        ctx.source.sendSuccess(
-                            Text.green('Visuals effects on Mystical Agriculture: ').append(Text.aqua('Enabled')), 
-                            false
-                        );
-                        JsonIO.write('kubejs/data/altar_effect_preferences.json', {
-                            activated : enabled
-                        })
-                        return 1;
-                   }))
-    )
-    console.log("[CatJS] Added command to disable/enable MA awakening altar effects")
+    catalyst.register(Commands.literal('altareffects')
+        .requires(source => source.hasPermission(2) || source.getServer().isSingleplayer())
+        .then(Commands.literal('false').executes(ctx => {
+            enabled = false;
+            ctx.source.sendSuccess(
+                Component.translate('catalyst.mysticalagriculture.altareffects.prefix').green()
+                    .append(Component.translate('catalyst.mysticalagriculture.status.disabled').red()), 
+                false
+            );
+            JsonIO.write('kubejs/data/altar_effect_preferences.json', {
+                activated : enabled
+            });
+            return 1;
+        }))
+        .then(Commands.literal('true').executes(ctx => {
+            enabled = true;
+            ctx.source.sendSuccess(
+                Component.translate('catalyst.mysticalagriculture.altareffects.prefix').green()
+                    .append(Component.translate('catalyst.mysticalagriculture.status.enabled').aqua()), 
+                false
+            );
+            JsonIO.write('kubejs/data/altar_effect_preferences.json', {
+                activated : enabled
+            });
+            return 1;
+        }))
+    );
+    console.log("[CatJS] Added command to disable/enable MA awakening altar effects");
 });
 
 ServerEvents.tick(catalyst => {

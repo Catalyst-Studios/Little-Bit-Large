@@ -128,6 +128,36 @@ ServerEvents.recipes(catalyst => {
     }).id('catalyst:ars_nouveau/enchanting_apparatus/reactive_4')
 
     console.log("[CatJS] Added new Reactive Recipe")
+
+    catalyst.shaped(Item.of('ars_nouveau:mob_jar', 1), [
+        "AGA",
+        "B B",
+        "BBB"
+    ],
+    {
+        A: 'ars_nouveau:archwood_slab',
+        G: 'eternalores:gold_foil',
+        B: 'minecraft:glass'
+    })
+    .id("catalyst:mob_jar");
+
+    console.log("[CatJS] Added Ars Recipes")
+
+    let buds = Ingredient.of('#geore:geore_budding').stacks.toArray();
+
+    buds.forEach(item => {
+        let material = item.getId().replace('geore:budding_', '');
+        if(material.contains("vibranium") || material.contains("allthemodium") || material.contains("unobtainium")) return;
+        if(material.contains("eternalores:")) return;
+        catalyst.custom({
+            type: "ars_nouveau:budding_conversion",
+            input: `geore:${material}_block`,
+            result: `geore:budding_${material}`
+        }).id(`catalyst:ars_nouveau/budding_conversion/${material}`);
+
+    });
+
+    console.log("[CatJS] Added golem conversion")
 })
 
 /* 
