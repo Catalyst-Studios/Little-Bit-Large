@@ -23,11 +23,11 @@ MMREvents.machines(catalyst => {
         .structure(
         MMRStructureBuilder.create()
         .pattern([
-        ["ajjjjjjja","fdeeeeedc","feggeggec","fegghggec","fegghggec","feiihiiec","feiihiiec","feiihiiec","fegghggec","fegghggec","feggeggec","fdeeeeedc","abbbbbbba"],
-        ["m        "," dllqlld "," l     l "," l     l "," d     d "," loo ool "," ldddddl "," lnn nnl "," d     d "," l     l "," l     l "," dlldlld ","         "],
+        ["afffffffa","fdeeeeedf","feggeggef","fegghggef","fegghggef","feiihiief","feiihiief","feiihiief","fegghggef","fegghggef","feggeggef","fdeeeeedf","afffffffa"],
+        ["m        "," dllrlld "," l     l "," l     l "," d     d "," loo ool "," ldddddl "," lnn nnl "," d     d "," l     l "," l     l "," dlldlld ","         "],
         ["         "," dllrlld "," l     l "," l     l "," d     d "," l     l "," l  d  l "," l     l "," d     d "," l     l "," l     l "," dlldlld ","         "],
         ["         "," dlldlld "," l     l "," l     l "," d     d "," l     l "," l  s  l "," l     l "," d     d "," l     l "," l     l "," dlldlld ","         "],
-        ["         ","  dldld  ","  l v l  ","  l u l  ","  d u d  ","  l u l  ","  l u l  ","  l u l  ","  d u d  ","  l u l  ","  l t l  ","  dldld  ","         "],
+        ["         ","  dldld  ","  l v l  ","  l v l  ","  d v d  ","  l v l  ","  l v l  ","  l v l  ","  d v d  ","  l v l  ","  l v l  ","  dldld  ","         "],
         ["         ","   ddd   ","   ldl   ","   ldl   ","   ddd   ","   ldl   ","   ldl   ","   ldl   ","   ddd   ","   ldl   ","   ldl   ","   ddd   ","         "]
         ])
         .keys({
@@ -37,8 +37,6 @@ MMREvents.machines(catalyst => {
                 '#modular_machinery_reborn:energyinputhatch',
                 '#modular_machinery_reborn:itembus'
             ],
-            "b":['#minecraft:stairs'],
-            "c":['#minecraft:stairs'],
             "d":["#create:casing"],
             "e":[
                 '#minecraft:stone_bricks',
@@ -49,19 +47,33 @@ MMREvents.machines(catalyst => {
                 'minecraft:quartz_bricks',
                 'chipped:rounded_raw_copper_block_bricks'
             ],
-            "f":['#minecraft:stairs'],
+            "f":[
+                'minecraft:quartz_stairs',
+                'minecraft:deepslate_brick_stairs',
+                'minecraft:stone_stairs',
+                'minecraft:mud_brick_stairs',
+                'create:cut_crimsite_stairs',
+                'create:cut_veridium_stairs',
+                'create:cut_scorchia_stairs',
+                'create:cut_tuff_brick_stairs'
+            ],
             "g":["minecraft:farmland"],
-            "h":["minecraft:stone_brick_slab[type=bottom+waterlogged=true]"],
+            "h":[
+                "minecraft:stone_brick_slab",
+                '#modular_machinery_reborn:parallelhatch'
+            ],
             "i":["minecraft:dirt"],
-            "j":['#minecraft:stairs'],
-            "l":['#c:glass_blocks'],
+            "l":['minecraft:glass'],
             "n":["create:mechanical_harvester[facing=south]"],
             "o":["create:mechanical_harvester[facing=north]"],
-            "q":["#minecraft:doors"],
-            "r":["#minecraft:doors"],
+            "r":[
+                'create:andesite_door',
+                'create:brass_door',
+                'create:copper_door',
+                'create:train_door',
+                'create:framed_glass_door'
+            ],
             "s":["create:gantry_carriage[axis_along_first=true+facing=down]"],
-            "t":["create:gantry_shaft"],
-            "u":["create:gantry_shaft"],
             "v":["create:gantry_shaft"]
         })
     )
