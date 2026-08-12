@@ -34,6 +34,7 @@ ServerEvents.tags('item', catalyst => {
     //Plastic tag
     catalyst.add('c:plates/plastic', 'industrialforegoing:plastic')
     catalyst.add('c:plates/plastic', 'pneumaticcraft:plastic')
+    catalyst.add('c:plastics', 'pneumaticcraft:plastic')
 
     //Eternal Ores
     catalyst.add('c:dusts/plutonium', 'eternalores:plutonium_dust')

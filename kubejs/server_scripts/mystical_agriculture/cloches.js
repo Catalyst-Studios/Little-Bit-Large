@@ -29,9 +29,16 @@ ServerEvents.tags('item', catalyst => {
         }
     } 
 
-    let farmlandTiersFiltered = farmlandTiers.filter(farm => farm !== null && 
-                                                     farm !== undefined && 
-                                                     farm.toString() !== "undefined")
+    let farmlandTiersFiltered = [];
+
+    for(let i = 0; i < farmlandTiers.length; i++)
+    {
+        let farm = farmlandTiers[i];
+        if(farm != null && farm !== "undefined")
+        {
+            farmlandTiersFiltered.push(farm);
+        }
+    }
     //
     for(let i = 0; i < farmlandTiersFiltered.length; i++)
     {

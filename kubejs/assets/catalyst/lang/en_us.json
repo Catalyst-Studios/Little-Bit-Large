@@ -194,5 +194,17 @@
   "item.catalystcore.powered_seeds": "Powered Seeds",
   "item.catalystcore.ethereal_seeds": "Ethereal Seeds",
   "item.catalystcore.reinforced_seeds": "Reinforced Seeds",
-  "item.catalystcore.activated_seeds": "Activated Seeds"
+  "item.catalystcore.activated_seeds": "Activated Seeds",
+
+  "emi.category.catalyst.cloche": "Garden Cloche",
+  "emi.category.catalyst.fertilizer": "Fertilizers",
+  "emi.category.catalyst.sim_chamber": "Simulation Chamber",
+  "emi.category.catalyst.loot_fabricator": "Loot Fabricator",
+  "emi.category.catalyst.awakening": "Awakening Crafting",
+  "emi.category.catalyst.crux": "Cruxes",
+  "emi.category.catalyst.enchanter": "Enchanter",
+  "emi.category.catalyst.infusion": "Infusion Crafting",
+  "emi.category.catalyst.reprocessor": "Reprocessor",
+  "emi.category.catalyst.soul_extractor": "Soul Extractor",
+  "emi.category.catalyst.soulium_spawner": "Soulium Spawner"
 }

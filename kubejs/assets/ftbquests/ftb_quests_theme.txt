@@ -2,7 +2,6 @@
 background:          ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=650
 chapter_panel_background:          hollow_rectangle:{{widget_border}}; round_edges + {{background}}; color=#B4B4B4; padding=1
 key_reference_background:          ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=512
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0

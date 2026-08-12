@@ -400,7 +400,12 @@ ServerEvents.recipes(catalyst => {
             },
             "items": "productivebees:spawn_egg_configurable_bee"
         },
-        ingredients: Array(4).fill({ item: "catalystcore:technology_block" }),
+        ingredients: [
+            { item: "catalystcore:technology_block" },
+            { item: "catalystcore:technology_block" },
+            { item: "catalystcore:technology_block" },
+            { item: "catalystcore:technology_block" }
+        ],
         result: { id: "mysticalagradditions:creative_essence" }
     }).id('catalyst:mysticalagriculture/awakening/creative_essence');
 
@@ -414,7 +419,12 @@ ServerEvents.recipes(catalyst => {
             { id: `mysticalagriculture:magic_essence`, count: 10 }
         ],
         input: { item: "mysticalagriculture:supremium_block" },
-        ingredients: Array(4).fill({ item: conig }),
+        ingredients:[
+            { item: conig },
+            { item: conig },
+            { item: conig },
+            { item: conig }
+        ],
         result: { id: awaEB, count: 2 }
     }).id('catalyst:mysticalagriculture/awakening/awakened_supremium_block_2');
 
@@ -428,7 +438,12 @@ ServerEvents.recipes(catalyst => {
             { id: `mysticalagriculture:technology_essence`, count: 10 }
         ],
         input: { item: "mysticalagriculture:supremium_block" },
-        ingredients: Array(4).fill({ item: conig }),
+        ingredients: [
+            { item: conig },
+            { item: conig },
+            { item: conig },
+            { item: conig }
+        ],
         result: { id: awaEB, count: 4 }
     }).id('catalyst:mysticalagriculture/awakening/awakened_supremium_block_4');
 
@@ -528,7 +543,16 @@ ServerEvents.recipes(catalyst => {
     catalyst.custom({
         type: 'mysticalagriculture:infusion',
         input: { item: "minecraft:honeycomb" },
-        ingredients: Array(8).fill({ item: "mysticalagriculture:inferium_essence" }),
+        ingredients: [
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" },
+            { item: "mysticalagriculture:inferium_essence" }
+        ],
         result: {
             components: {
                 "minecraft:entity_data": {
