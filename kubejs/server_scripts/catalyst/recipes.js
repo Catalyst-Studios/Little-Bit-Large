@@ -312,7 +312,7 @@ ServerEvents.recipes(catalyst => {
     })
     .id("catalyst:white_glyph");
 
-    catalyst.shaped(Item.of('mmr_cosmetics:runes_purple', 32), [
+    catalyst.shaped(Item.of('mmr_cosmetics:purple_glyph', 32), [
         "P P",
         "P P",
         " P "
@@ -322,7 +322,7 @@ ServerEvents.recipes(catalyst => {
     })
     .id("catalyst:runes_purple");
 
-    catalyst.shaped(Item.of('mmr_cosmetics:runes_red', 32), [
+    catalyst.shaped(Item.of('mmr_cosmetics:red_glyph', 32), [
         "R R",
         "R R",
         " R "
