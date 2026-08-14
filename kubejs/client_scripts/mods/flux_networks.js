@@ -49,8 +49,11 @@ let $BuiltInRegistries
 let $BlockItem
 let $ItemStack
 
-if(Platform.isLoaded("emi"))
-{
+RecipeViewerEvents.addEntries("item", catalyst => {
+
+    let jeiRuntime = global.jeiRuntime
+    let emiRegistry = global.emiRegistry
+
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
     $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
@@ -66,11 +69,6 @@ if(Platform.isLoaded("emi"))
     $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
     $BlockItem = Java.loadClass('net.minecraft.world.item.BlockItem')
     $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
-}
-
-RecipeViewerEvents.addEntries("item", catalyst => {
-    let jeiRuntime = global.jeiRuntime
-    let emiRegistry = global.emiRegistry
 
     if (Platform.isLoaded("jei") && jeiRuntime) {
         try {

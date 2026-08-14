@@ -19,25 +19,6 @@ let $MysticalAgriculture
 let $CropRegistry
 let $ModItems
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
-    $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
-    $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
-    $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
-    $EmiTexture = Java.loadClass('dev.emi.emi.api.render.EmiTexture')
-    $EmiRecipes = Java.loadClass('dev.emi.emi.registry.EmiRecipes')
-    $EmiComparison = Java.loadClass('dev.emi.emi.api.stack.Comparison')
-    
-    $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
-    $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
-    $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
-    $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
-
-    // MA Clases específicas
-    $MysticalAgriculture = Java.loadClass('com.blakebr0.mysticalagriculture.MysticalAgriculture')
-    $CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
-    $ModItems = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModItems')
-}
-
 RecipeViewerEvents.addEntries("item", catalyst => {
     if(!Platform.isLoaded("emi"))
     {
@@ -54,6 +35,23 @@ RecipeViewerEvents.addEntries("item", catalyst => {
     {
         return;
     }
+
+    $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
+    $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
+    $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
+    $EmiTexture = Java.loadClass('dev.emi.emi.api.render.EmiTexture')
+    $EmiRecipes = Java.loadClass('dev.emi.emi.registry.EmiRecipes')
+    $EmiComparison = Java.loadClass('dev.emi.emi.api.stack.Comparison')
+    
+    $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
+    $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
+    $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+    $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+
+    // MA Clases específicas
+    $MysticalAgriculture = Java.loadClass('com.blakebr0.mysticalagriculture.MysticalAgriculture')
+    $CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
+    $ModItems = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModItems')
 
     let catId = $ResourceLocation.fromNamespaceAndPath("catalyst", "crux")
     let iconStack = new $ItemStack($ModItems.PROSPERITY_SEED_BASE.get())

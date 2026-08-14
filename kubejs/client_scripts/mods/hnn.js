@@ -24,7 +24,10 @@ let $ModelTierRegistry
 let $DataModelRegistry
 let $DataModelItem
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("hostilenetworks")) {
+RecipeViewerEvents.addEntries("item", catalyst => {
+    if(!Platform.isLoaded("emi")) return;
+    if(!Platform.isLoaded("hostilenetworks")) return;
+
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
     $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
@@ -45,11 +48,6 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("hostilenetworks")) {
     $DataModelRegistry = Java.loadClass('dev.shadowsoffire.hostilenetworks.data.DataModelRegistry')
     $ModelTierRegistry = Java.loadClass('dev.shadowsoffire.hostilenetworks.data.ModelTierRegistry')
     $DataModelItem = Java.loadClass('dev.shadowsoffire.hostilenetworks.item.DataModelItem')
-}
-
-RecipeViewerEvents.addEntries("item", catalyst => {
-    if(!Platform.isLoaded("emi")) return;
-    if(!Platform.isLoaded("hostilenetworks")) return;
 
     let emiRegistry = global.emiRegistry
     if(!emiRegistry) return;

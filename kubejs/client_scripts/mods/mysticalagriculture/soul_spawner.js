@@ -26,7 +26,23 @@ let $Arrays
 let $MysticalAgriculture
 let $ModBlocks
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
+RecipeViewerEvents.addEntries("item", catalyst => {
+    if(!Platform.isLoaded("emi"))
+    {
+        return;
+    }
+
+    if(!Platform.isLoaded("mysticalagriculture"))
+    {
+        return;
+    }
+
+    let emiRegistry = global.emiRegistry
+    if(!emiRegistry)
+    {
+        return;
+    }
+
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
     $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
@@ -44,31 +60,12 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
     $Component = Java.loadClass('net.minecraft.network.chat.Component')
     $ChatFormatting = Java.loadClass('net.minecraft.ChatFormatting')
     
-    // IMPORTACIONES CLAVE PARA 1.21
     $DataComponents = Java.loadClass('net.minecraft.core.component.DataComponents')
     $ItemLore = Java.loadClass('net.minecraft.world.item.component.ItemLore')
     $Arrays = Java.loadClass('java.util.Arrays')
 
     $MysticalAgriculture = Java.loadClass('com.blakebr0.mysticalagriculture.MysticalAgriculture')
     $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
-}
-
-RecipeViewerEvents.addEntries("item", catalyst => {
-    if(!Platform.isLoaded("emi"))
-    {
-        return;
-    }
-
-    if(!Platform.isLoaded("mysticalagriculture"))
-    {
-        return;
-    }
-
-    let emiRegistry = global.emiRegistry
-    if(!emiRegistry)
-    {
-        return;
-    }
 
     let catId = $ResourceLocation.fromNamespaceAndPath("catalyst", "soulium_spawner")
     let maRecipeTypeLoc = $ResourceLocation.fromNamespaceAndPath("mysticalagriculture", "soulium_spawner")

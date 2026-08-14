@@ -20,7 +20,23 @@ let $EnchantmentInstance
 let $MysticalAgriculture
 let $ModBlocks
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
+RecipeViewerEvents.addEntries("item", catalyst => {
+    if(!Platform.isLoaded("emi"))
+    {
+        return;
+    }
+
+    if(!Platform.isLoaded("mysticalagriculture"))
+    {
+        return;
+    }
+
+    let emiRegistry = global.emiRegistry
+    if(!emiRegistry)
+    {
+        return;
+    }
+
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
     $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
@@ -38,24 +54,6 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
 
     $MysticalAgriculture = Java.loadClass('com.blakebr0.mysticalagriculture.MysticalAgriculture')
     $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
-}
-
-RecipeViewerEvents.addEntries("item", catalyst => {
-    if(!Platform.isLoaded("emi"))
-    {
-        return;
-    }
-
-    if(!Platform.isLoaded("mysticalagriculture"))
-    {
-        return;
-    }
-
-    let emiRegistry = global.emiRegistry
-    if(!emiRegistry)
-    {
-        return;
-    }
 
     let catId = $ResourceLocation.fromNamespaceAndPath("catalyst", "enchanter")
     let workstationItem = $ModBlocks.ENCHANTER.get()

@@ -280,7 +280,7 @@ ServerEvents.recipes(catalyst => {
     assembly(
         'ars_nouveau:mob_jar',
         6,
-        'ars_nouveau:mob_jar',
+        'catalystcore:incomplete_containment_ingot',
         [
                 deploy({ item: 'eternalores:rod_netherite' }),
                 deploy({ item: 'eternalores:rod_netherite' }),

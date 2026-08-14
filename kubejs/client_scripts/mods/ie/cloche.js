@@ -28,7 +28,10 @@ let $IEBlocks
 let $ClocheRecipe
 let $ClocheFertilizer
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("immersiveengineering")) {
+RecipeViewerEvents.addEntries("item", catalyst => {
+    if(!Platform.isLoaded("emi")) return;
+    if(!Platform.isLoaded("immersiveengineering")) return;
+
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
     $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
@@ -50,11 +53,6 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("immersiveengineering")) {
     $Arrays = Java.loadClass('java.util.Arrays')
 
     $IEBlocks = Java.loadClass('blusunrize.immersiveengineering.common.register.IEBlocks')
-}
-
-RecipeViewerEvents.addEntries("item", catalyst => {
-    if(!Platform.isLoaded("emi")) return;
-    if(!Platform.isLoaded("immersiveengineering")) return;
 
     let emiRegistry = global.emiRegistry
     if(!emiRegistry) return;

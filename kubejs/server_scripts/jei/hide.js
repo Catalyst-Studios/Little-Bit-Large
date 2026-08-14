@@ -4,6 +4,16 @@ RecipeViewerEvents.removeCategories(catalyst => {
         return;
     }
 
+    if(Platform.isLoaded("jei") && !Platform.isLoaded("emi"))
+    {
+        return;
+    }
+
+    if(!Platform.isLoaded("jei") && Platform.isLoaded("emi"))
+    {
+        return;
+    }
+
     catalyst.remove('immersiveengineering:cloche')
     catalyst.remove("immersiveengineering:fertilizer")
     catalyst.remove('hostilenetworks:sim_chamber')

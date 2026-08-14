@@ -19,25 +19,6 @@ let $Mth
 let $MysticalAgriculture
 let $ModBlocks
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("mysticalagriculture")) {
-    $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
-    $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
-    $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
-    $EmiTexture = Java.loadClass('dev.emi.emi.api.render.EmiTexture')
-    $EmiRecipes = Java.loadClass('dev.emi.emi.registry.EmiRecipes')
-    $EmiIngredient = Java.loadClass('dev.emi.emi.api.stack.EmiIngredient')
-    
-    $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
-    $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
-    $Items = Java.loadClass('net.minecraft.world.item.Items')
-    $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
-    $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
-    $Mth = Java.loadClass('net.minecraft.util.Mth')
-
-    $MysticalAgriculture = Java.loadClass('com.blakebr0.mysticalagriculture.MysticalAgriculture')
-    $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
-}
-
 RecipeViewerEvents.addEntries("item", catalyst => {
     if(!Platform.isLoaded("emi"))
     {
@@ -54,6 +35,23 @@ RecipeViewerEvents.addEntries("item", catalyst => {
     {
         return;
     }
+
+    $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
+    $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
+    $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
+    $EmiTexture = Java.loadClass('dev.emi.emi.api.render.EmiTexture')
+    $EmiRecipes = Java.loadClass('dev.emi.emi.registry.EmiRecipes')
+    $EmiIngredient = Java.loadClass('dev.emi.emi.api.stack.EmiIngredient')
+    
+    $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
+    $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
+    $Items = Java.loadClass('net.minecraft.world.item.Items')
+    $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+    $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+    $Mth = Java.loadClass('net.minecraft.util.Mth')
+
+    $MysticalAgriculture = Java.loadClass('com.blakebr0.mysticalagriculture.MysticalAgriculture')
+    $ModBlocks = Java.loadClass('com.blakebr0.mysticalagriculture.init.ModBlocks')
 
     let catId = $ResourceLocation.fromNamespaceAndPath("catalyst", "reprocessor")
     let maRecipeTypeLoc = $ResourceLocation.fromNamespaceAndPath("mysticalagriculture", "reprocessor")

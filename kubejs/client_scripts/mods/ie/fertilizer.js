@@ -22,14 +22,17 @@ let $ChatFormatting
 
 let $Arrays
 
-if (Platform.isLoaded("emi") && Platform.isLoaded("immersiveengineering")) {
+RecipeViewerEvents.addEntries("item", catalyst => {
+    if(!Platform.isLoaded("emi")) return;
+    if(!Platform.isLoaded("immersiveengineering")) return;
+
     $EmiRecipeCategory = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipeCategory')
     $EmiStack = Java.loadClass('dev.emi.emi.api.stack.EmiStack')
     $EmiRecipe = Java.loadClass('dev.emi.emi.api.recipe.EmiRecipe')
     $EmiTexture = Java.loadClass('dev.emi.emi.api.render.EmiTexture')
     $EmiRecipes = Java.loadClass('dev.emi.emi.registry.EmiRecipes')
     $EmiIngredient = Java.loadClass('dev.emi.emi.api.stack.EmiIngredient')
-    
+
     $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
     $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
     $Items = Java.loadClass('net.minecraft.world.item.Items')
@@ -39,12 +42,11 @@ if (Platform.isLoaded("emi") && Platform.isLoaded("immersiveengineering")) {
     $Component = Java.loadClass('net.minecraft.network.chat.Component')
     $ChatFormatting = Java.loadClass('net.minecraft.ChatFormatting')
 
+    $DataComponents = Java.loadClass('net.minecraft.core.component.DataComponents')
+    $ItemLore = Java.loadClass('net.minecraft.world.item.component.ItemLore')
     $Arrays = Java.loadClass('java.util.Arrays')
-}
 
-RecipeViewerEvents.addEntries("item", catalyst => {
-    if(!Platform.isLoaded("emi")) return;
-    if(!Platform.isLoaded("immersiveengineering")) return;
+    $IEBlocks = Java.loadClass('blusunrize.immersiveengineering.common.register.IEBlocks')
 
     let emiRegistry = global.emiRegistry
     if(!emiRegistry) return;
