@@ -8,6 +8,7 @@
 		id: "industrialforegoing:plastic"
 	}
 	id: "17F17CB1AD372FE4"
+	images: [ ]
 	order_index: 2
 	quest_links: [
 		{

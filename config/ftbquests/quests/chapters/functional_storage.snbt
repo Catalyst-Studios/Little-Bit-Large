@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "746E797C07BBA3EC"
 			image: "functionalstorage:item/linking_tool_base"
 			rotation: -30.0d
 			width: 3.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 3.75d
+			id: "0ADA1E2A562DD100"
 			image: "functionalstorage:block/oak_front_4"
 			rotation: 0.0d
 			width: 3.75d
@@ -26,7 +28,7 @@
 			y: -1.6785714285714377d
 		}
 	]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

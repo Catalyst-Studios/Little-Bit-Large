@@ -20,6 +20,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "64A17802CF928839"
 			image: "sophisticatedstorage:block/oak_barrel_top"
 			rotation: 0.0d
 			width: 5.0d
@@ -28,6 +29,7 @@
 		}
 		{
 			height: 5.0d
+			id: "565184A14ECDBFDF"
 			image: "sophisticatedstorage:block/netherite_barrel_top"
 			rotation: 0.0d
 			width: 5.0d
@@ -36,6 +38,7 @@
 		}
 		{
 			height: 3.0d
+			id: "44472FDA08C302AD"
 			image: "sophisticatedstorage:item/crafting_upgrade"
 			rotation: 0.0d
 			width: 3.0d
@@ -44,6 +47,7 @@
 		}
 		{
 			height: 3.0d
+			id: "6A0C29A734554573"
 			image: "sophisticatedstorage:item/stack_upgrade_tier_1"
 			rotation: 0.0d
 			width: 3.0d
@@ -52,6 +56,7 @@
 		}
 		{
 			height: 3.0d
+			id: "48FB8318CB8CE933"
 			image: "sophisticatedstorage:block/storage_link_top"
 			rotation: 0.0d
 			width: 3.0d
@@ -60,6 +65,7 @@
 		}
 		{
 			height: 1.0d
+			id: "003B0928F931B345"
 			image: "sophisticatedstorage:item/basic_tier_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,6 +74,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6B63C6BFF35D9F90"
 			image: "sophisticatedstorage:item/basic_to_iron_tier_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -76,6 +83,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7F8B96F926455D20"
 			image: "sophisticatedstorage:item/basic_to_gold_tier_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -84,6 +92,7 @@
 		}
 		{
 			height: 1.0d
+			id: "21CD6D9F370FEE0C"
 			image: "sophisticatedstorage:item/basic_to_diamond_tier_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,6 +101,7 @@
 		}
 		{
 			height: 1.0d
+			id: "00C66207F31147F8"
 			image: "sophisticatedstorage:item/basic_to_netherite_tier_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -99,7 +109,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

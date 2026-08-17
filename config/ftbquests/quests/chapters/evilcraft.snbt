@@ -12,6 +12,7 @@
 		{
 			dependency: "181DFA60A3F29580"
 			height: 2.0d
+			id: "242FD228961A6BA1"
 			image: "evilcraft:block/blood_stain_0"
 			order: 1
 			rotation: 0.0d
@@ -23,6 +24,7 @@
 			color: 4850178
 			dependency: "348C191492897716"
 			height: 3.0d
+			id: "3E9B1C9B3E8023DD"
 			image: "integrateddynamics:valuetype/long"
 			order: 1
 			rotation: 0.0d
@@ -34,6 +36,7 @@
 			color: 4850178
 			dependency: "348C191492897716"
 			height: 3.0d
+			id: "4398376E22E663AB"
 			image: "integrateddynamics:valuetype/long"
 			order: 1
 			rotation: 45.0d
@@ -45,6 +48,7 @@
 			color: 4719361
 			dependency: "16359AA62D3FE75B"
 			height: 2.5d
+			id: "2B283BEAE98D3D88"
 			image: "integrateddynamics:valuetype/named"
 			order: 1
 			rotation: 0.0d
@@ -56,6 +60,7 @@
 			color: 6881028
 			dependency: "610C7735CF3C7BF5"
 			height: 2.75d
+			id: "349A762C6D3A643A"
 			image: "ftbquests:tasks/input_only"
 			order: 1
 			rotation: 45.0d
@@ -67,6 +72,7 @@
 			color: 6881028
 			dependency: "610C7735CF3C7BF5"
 			height: 2.75d
+			id: "0F9C1E827BAF0C1F"
 			image: "ftbquests:tasks/input_only"
 			order: 1
 			rotation: 0.0d
@@ -77,6 +83,7 @@
 		{
 			dependency: "610C7735CF3C7BF5"
 			height: 2.25d
+			id: "026F6484266CBFCE"
 			image: "chipped:block/black_glazed_terracotta/black_glazed_terracotta_smooth_tiles"
 			order: 1
 			rotation: 45.0d
@@ -87,6 +94,7 @@
 		{
 			dependency: "610C7735CF3C7BF5"
 			height: 2.25d
+			id: "4FAF5ACF0456E919"
 			image: "chipped:block/black_glazed_terracotta/black_glazed_terracotta_smooth_tiles"
 			order: 1
 			rotation: 0.0d
@@ -96,6 +104,7 @@
 		}
 		{
 			height: 5.0d
+			id: "4434E9465BA1A3BF"
 			image: "catalyst:textures/quest_images/evilcraft/evilcraft_quest_logo_oly.png"
 			order: 2
 			rotation: 0.0d
@@ -105,6 +114,7 @@
 		}
 		{
 			height: 5.0d
+			id: "5939643243779492"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -114,6 +124,7 @@
 		}
 		{
 			height: 5.0d
+			id: "74360D8CFD62598F"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -123,6 +134,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1AA4E4B4206DE796"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -132,6 +144,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1D94CFFC137684C5"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -141,6 +154,7 @@
 		}
 		{
 			height: 5.0d
+			id: "5A5DF4508D8CEF46"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -150,6 +164,7 @@
 		}
 		{
 			height: 5.0d
+			id: "760DF6D04F8DC2D2"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -159,6 +174,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1319D3D1315475F0"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -168,6 +184,7 @@
 		}
 		{
 			height: 5.0d
+			id: "07057014C4C823D4"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -177,6 +194,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1D278DF7FFC8A1F1"
 			image: "evilcraft:block/dark_blood_brick_on"
 			rotation: 0.0d
 			width: 5.0d
@@ -185,6 +203,7 @@
 		}
 		{
 			height: 5.0d
+			id: "493978B423B02D64"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -194,6 +213,7 @@
 		}
 		{
 			height: 5.0d
+			id: "40F0B34D6895B0BD"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -203,6 +223,7 @@
 		}
 		{
 			height: 5.0d
+			id: "6CC6EAE5009ED617"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -212,6 +233,7 @@
 		}
 		{
 			height: 5.0d
+			id: "37E3D413F730B14C"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -221,6 +243,7 @@
 		}
 		{
 			height: 5.0d
+			id: "0B0A62C36604A1B2"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -230,6 +253,7 @@
 		}
 		{
 			height: 5.0d
+			id: "43E0EA0C93E56D18"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -239,6 +263,7 @@
 		}
 		{
 			height: 5.0d
+			id: "43ED7B2280C6990C"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -248,6 +273,7 @@
 		}
 		{
 			height: 5.0d
+			id: "2B8400289ABB32B8"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -257,6 +283,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1FCD1BF464361016"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -266,6 +293,7 @@
 		}
 		{
 			height: 5.0d
+			id: "4931A018168FF5DE"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -275,6 +303,7 @@
 		}
 		{
 			height: 5.0d
+			id: "33877C10156FC3A5"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -284,6 +313,7 @@
 		}
 		{
 			height: 5.0d
+			id: "270F8F25C5F22993"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -293,6 +323,7 @@
 		}
 		{
 			height: 5.0d
+			id: "346073C61C213147"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -302,6 +333,7 @@
 		}
 		{
 			height: 5.0d
+			id: "29526149C7CA2723"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -311,6 +343,7 @@
 		}
 		{
 			height: 5.0d
+			id: "759A95D76006288A"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -320,6 +353,7 @@
 		}
 		{
 			height: 5.0d
+			id: "7389959A5BD3DC52"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -329,6 +363,7 @@
 		}
 		{
 			height: 5.0d
+			id: "769076943D4788A8"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -338,6 +373,7 @@
 		}
 		{
 			height: 5.0d
+			id: "6897F7ECD166C77A"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -347,6 +383,7 @@
 		}
 		{
 			height: 5.0d
+			id: "46A4C72471E93C11"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -356,6 +393,7 @@
 		}
 		{
 			height: 5.0d
+			id: "57F29C0A18DA93DA"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -365,6 +403,7 @@
 		}
 		{
 			height: 5.0d
+			id: "46E4795DB32B59FD"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -374,6 +413,7 @@
 		}
 		{
 			height: 5.0d
+			id: "79465481F8CA6FE4"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -383,6 +423,7 @@
 		}
 		{
 			height: 5.0d
+			id: "0C0EE93F6B7EE113"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -393,6 +434,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "5C049E4D2DF5D0D6"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -402,6 +444,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "4F6AD55CE25A7A7D"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -411,6 +454,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "11C3E34D809B4A7E"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -420,6 +464,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "2B6385A111B5903E"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -429,6 +474,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "61EEC308318526CB"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -438,6 +484,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "40DC9DB4F5A1BDF9"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -447,6 +494,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "05B593E96FEFAE31"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -456,6 +504,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "1067C5ACCF08762E"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -465,6 +514,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "74660B2E0E8798D1"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -474,6 +524,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "6674BD2C299C4860"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -483,6 +534,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "5A24ACFC89A5B917"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -492,6 +544,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "5AA5F28F8F6AD759"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -501,6 +554,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "044991B1355CAD96"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -510,6 +564,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "7E7B5C86498909E9"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -519,6 +574,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "1CB3262671795A17"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -528,6 +584,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "68948638630CF54F"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -537,6 +594,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "43A76DE9673E36FC"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -546,6 +604,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "3126D9FF055C8364"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -555,6 +614,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "2EFA2E07231ACD4D"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -564,6 +624,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "21A45D58A6273716"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -573,6 +634,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "55490E3370817286"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -582,6 +644,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "7B8087278C396E38"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -591,6 +654,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "2B033971B1833753"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -600,6 +664,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "64C73415F8FA1C5A"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -609,6 +674,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "1F5F8A2936F1326F"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -618,6 +684,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "56AC733CD1903074"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -627,6 +694,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "740011845E238BFD"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -636,6 +704,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "18223E5AF51E5396"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -645,6 +714,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "2D5984CD7EF87A83"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -654,6 +724,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "7BF57A8C950761B0"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -663,6 +734,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "6FB7B910C1023FB9"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -672,6 +744,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "346DFE8B304F07C5"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -681,6 +754,7 @@
 		{
 			color: 0
 			height: 5.0d
+			id: "2D644AFDAB28615C"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -690,6 +764,7 @@
 		{
 			dependency: "75719D26D5D57A77"
 			height: 3.0d
+			id: "0ADB89E8796439B5"
 			image: "evilcraft:item/necromancer_staff"
 			rotation: -45.0d
 			width: 3.0d
@@ -699,6 +774,7 @@
 		{
 			dependency: "75719D26D5D57A77"
 			height: 3.0d
+			id: "1E3182E14A52E11C"
 			image: "evilcraft:item/mace_of_destruction"
 			rotation: -45.0d
 			width: 3.0d
@@ -708,6 +784,7 @@
 		{
 			dependency: "75719D26D5D57A77"
 			height: 3.0d
+			id: "5B1B575E1D4E5B8B"
 			image: "evilcraft:item/mace_of_distortion"
 			rotation: -45.0d
 			width: 3.0d
@@ -717,6 +794,7 @@
 		{
 			dependency: "470B3C3DBE33EBEE"
 			height: 3.0d
+			id: "7B91FE1082EEB149"
 			image: "evilcraft:item/flesh_rejuvenated"
 			rotation: 0.0d
 			width: 3.0d
@@ -726,6 +804,7 @@
 		{
 			dependency: "2ABDA47F00454485"
 			height: 3.0d
+			id: "5BF454DD1E9D1CFD"
 			image: "evilcraft:item/piercing_vengeance_focus"
 			rotation: 0.0d
 			width: 3.0d
@@ -735,6 +814,7 @@
 		{
 			dependency: "0FB79B7ACDEDBA93"
 			height: 3.0d
+			id: "01F446A7F3097655"
 			image: "evilcraft:item/exalted_crafter"
 			rotation: 0.0d
 			width: 3.0d
@@ -744,6 +824,7 @@
 		{
 			dependency: "3BEA955788837733"
 			height: 2.0d
+			id: "608B0A263E46F784"
 			image: "evilcraft:item/blook"
 			rotation: 0.0d
 			width: 2.0d
@@ -753,6 +834,7 @@
 		{
 			dependency: "3BEA955788837733"
 			height: 3.0d
+			id: "3664E7DA7B88BE06"
 			image: "evilcraft:block/purifier_top"
 			rotation: 0.0d
 			width: 3.0d
@@ -762,6 +844,7 @@
 		{
 			dependency: "369F69559064623C"
 			height: 3.0d
+			id: "419D21982F569D4C"
 			image: "evilcraft:item/biome_extract"
 			rotation: 0.0d
 			width: 3.0d
@@ -771,6 +854,7 @@
 		{
 			dependency: "295B9BC524CA6E40"
 			height: 3.0d
+			id: "2C87888AD6FC9A93"
 			image: "evilcraft:item/burning_gem_stone"
 			rotation: 0.0d
 			width: 3.0d
@@ -780,6 +864,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "1C87DD5325892014"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -790,6 +875,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "6490C8D135476BD5"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -800,6 +886,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "55DA695D15445009"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -810,6 +897,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "4951FAD69081630C"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -820,6 +908,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "638DEF02E9A167F6"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -830,6 +919,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "42EEAB863878340C"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -840,6 +930,7 @@
 		{
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "4389A9DA35DAD362"
 			image: "evilcraft:block/dark_blood_brick_on"
 			order: 1
 			rotation: 0.0d
@@ -851,6 +942,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "13C5E63836052C87"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -861,6 +953,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "686C83F9E6069C44"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -871,6 +964,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "782675E34EF6C79B"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -881,6 +975,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "05EB64FABCCF7E70"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -891,6 +986,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "5189E1A3F04E8EA1"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -901,6 +997,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "01F6AE559312828F"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -911,6 +1008,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "0376BAAD8F245248"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -921,6 +1019,7 @@
 			color: 0
 			dependency: "06FD532ABD84C9EA"
 			height: 5.0d
+			id: "59411454F29723B0"
 			image: "evilcraft:block/dark_inventory"
 			rotation: 0.0d
 			width: 5.0d
@@ -2254,6 +2353,12 @@
 				"1084EF10C86A452B"
 				"594951F795F0DC8A"
 			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "610C7735CF3C7BF5"
 			rewards: [
 				{

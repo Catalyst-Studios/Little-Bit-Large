@@ -22,23 +22,19 @@
 	chapter.376B718EFCF5AACE.title: "[{\"text\":\"\"},{\"text\":\"Armazenamento\",\"color\":\"#29e6ca\"},{\"text\":\" Funcional!\"}]"
 	chapter.3C17CB8FF9BF24E3.title: "Modular Machinery Reborn"
 	chapter.4143A153EDB194E8.title: "&ePipez"
-	chapter.46FE3A44D3ECB19B.title: "Exploração Apótico"
 	chapter.4A53A54E581CD0B3.title: "&a&lMods&f Úteis"
 	chapter.4ECE52DB829D7DC4.title: "Sophisticated Storage"
 	chapter.558E65AB78354674.title: "Energized Power"
 	chapter.60E93AB6224A9369.title: "Apotheosis"
-	chapter.661254AE0EBD66A8.title: "Todas as Decorações de Macaw"
 	chapter.6C942D6BA7090A71.title: "&aProductive &6Bees"
 	chapter.6D1B091BA4B10868.title: "&lGeração Solar"
 	chapter.6E7DE3824D41BB16.title: "Theurgy"
 	chapter.707DFCF38F8333D4.title: "Apenas Coisas do Dire"
 	chapter.731F653DF0327C9D.title: "[{\"text\":\"\"},{\"text\":\"Mekanism\",\"color\":\"#55FF55\"},{\"text\":\": Indo à energia \"},{\"text\":\"nuclear\",\"color\":\"#48cf63\"},{\"text\":\"!\"}]"
-	chapter.772F9D23E72DBD20.title: "Mods de Decoração"
 	chapter.79AD8C81D25E35E2.title: "Evilcraft"
 	chapter.7B0281FA3D163FD2.title: "Powah"
 	chapter.7D0096384EB81C5A.title: "Applied Energistics 2"
 	chapter_group.0B97DBA0432ACE7B.title: "Começando"
-	chapter_group.1624E0136E971599.title: "Exploração"
 	chapter_group.18780F4E46895DDF.title: "Úteis/Decoração"
 	chapter_group.19313A2EE9B1FE18.title: "Logística"
 	chapter_group.4197252DA86F4486.title: "Tecnologia"
@@ -3766,7 +3762,6 @@
 	]
 	quest.32E928CCA34C266B.quest_subtitle: "Estas incríveis missões foram feitas para o &4Catalyst Studios&r"
 	quest.32E928CCA34C266B.title: "&l&4Missões do Catalyst Studios"
-	quest.33006B1CA6F4551A.title: " "
 	quest.333EBCACA0935EDC.quest_desc: ["&dGera&r 1 balde de &clava&r a cada 50 &6segundos&r, não é impressionante, mas é melhor que o &evanilla&r"]
 	quest.333EBCACA0935EDC.quest_subtitle: "Lava infinita"
 	quest.33859430B6AE4EE0.quest_desc: [
@@ -3775,18 +3770,6 @@
 		"Você deveria verificar as &6abelhas&r para uma opção melhor, mas se quiser, aqui está uma &ealternativa&r!"
 	]
 	quest.33859430B6AE4EE0.quest_subtitle: "Uma pequena diferença"
-	quest.338CC8C7E220FC3A.quest_desc: [
-		"Esta será uma longa jornada, mas tentarei ser o mais simples que puder."
-		""
-		"O &bAE2&r foi feito para ser uma ferramenta poderosa, mas um pouco &cdifícil&r para começar. "
-		"Você precisa de alguns &amateriais&r para começar com ele, então talvez você queira obter alguns recursos e um pouco de energia."
-		""
-		"As missões estão aqui para tentar ajudá-lo, não para serem uma tarefa, elas fornecerão &crecompensas&r que escalam. "
-		""
-		"Algumas missões estão &docultas&r até que você as complete (para você focar) e você tem missões para 5 addons ;)"
-	]
-	quest.338CC8C7E220FC3A.quest_subtitle: "Encontre seu primeiro item afixado!"
-	quest.338CC8C7E220FC3A.title: "Refúgio"
 	quest.3390B157AFDD3C90.quest_desc: [
 		"[{\"text\":\"Bem, esta é a sua \",\"color\":\"#FFFFFF\"},{\"text\":\"primeira\",\"color\":\"#b0e629\"},{\"text\":\" melhoria, dando a você as \",\"color\":\"#FFFFFF\"},{\"text\":\"seguintes\",\"color\":\"#aa29e6\"},{\"text\":\" estatísticas:\",\"color\":\"#FFFFFF\"}]"
 		""
@@ -5325,8 +5308,6 @@
 	quest.4ABC8789D7E4A93F.quest_subtitle: "Primeiro passo"
 	quest.4ABC8789D7E4A93F.title: "Movimentos com as mãos"
 	quest.4AD7CE8419514036.quest_subtitle: "Ποσειδώνας"
-	quest.4AEB916826B71BD3.quest_desc: ["O &2Mundo Superior&r será o começo da sua aventura no Apotheosis."]
-	quest.4AEB916826B71BD3.title: "Visite o Mundo Superior"
 	quest.4AF3718554C73E66.quest_desc: ["&dMagia&r e &etecnologia&r são combinadas para obter &6cobre&r"]
 	quest.4AF3718554C73E66.quest_subtitle: "Cuprum"
 	quest.4B09911DB0E2C361.quest_desc: ["&dMagia&r e &etecnologia&r são combinadas para obter &9lápis-lazúli&r"]
@@ -9254,7 +9235,6 @@
 	task.37537FF9B0F013BE.title: "Prensa Mecânica"
 	task.3773257F65DF0B1D.title: "Interface Estendida"
 	task.379F21343DF3C58C.title: "Obtenha uma Abelha Nômade"
-	task.39001B6D46A193DF.title: "Placeholder"
 	task.3A4CA655670F2067.title: "Qualquer capacete de MA"
 	task.3A79D05C38BBD00D.title: "Barra de Ósmio"
 	task.3AA1A99620F3962F.title: "Aham"

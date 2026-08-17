@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "0484EE772EEE70EA"
 			image: "sfm:item/labelgun"
 			rotation: 0.0d
 			width: 4.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3BDADF5822A132A8"
 			image: "sfm:item/disk"
 			order: 3
 			rotation: -30.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1D309CD062CA7F19"
 			image: "sfm:item/disk"
 			order: 2
 			rotation: 0.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4D0EC0A1B0F5A332"
 			image: "sfm:item/disk"
 			order: 1
 			rotation: 0.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 1.0d
+			id: "495A619B29655ECB"
 			image: "sfm:item/disk"
 			rotation: 0.0d
 			width: 1.0d
@@ -54,6 +59,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7C13859665E26DE7"
 			image: "sfm:item/disk"
 			rotation: 0.0d
 			width: 1.0d
@@ -62,6 +68,7 @@
 		}
 		{
 			height: 1.0d
+			id: "50A2847E9F8685B4"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -70,6 +77,7 @@
 		}
 		{
 			height: 1.0d
+			id: "03DC59CBEDDCE411"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -78,6 +86,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2DEC9F0EA4DE8BD6"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -86,6 +95,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4D0F0356F242FEB5"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -94,6 +104,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0D161A721E566EB6"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -102,6 +113,7 @@
 		}
 		{
 			height: 1.0d
+			id: "798EE31324D2E63A"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,6 +122,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6AECEE6B540D915F"
 			image: "sfm:block/cable"
 			rotation: 0.0d
 			width: 1.0d
@@ -118,6 +131,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0094A54E6531E573"
 			image: "sfm:block/manager_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -126,6 +140,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4FC8B8C53756B18D"
 			image: "mekanism:block/crusher/front_active"
 			rotation: 0.0d
 			width: 1.0d
@@ -134,6 +149,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6D4F12DBAA73FD6D"
 			image: "sfm:item/network_tool"
 			rotation: 10.0d
 			width: 1.0d
@@ -142,6 +158,7 @@
 		}
 		{
 			height: 1.0d
+			id: "00BB98CE337C34AD"
 			image: "mekanism:block/energized_smelter/front_active"
 			rotation: 0.0d
 			width: 1.0d
@@ -150,6 +167,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7F4B97FE81CA9F7E"
 			image: "integrateddynamics:block/energy_battery_side_full"
 			rotation: 0.0d
 			width: 1.0d

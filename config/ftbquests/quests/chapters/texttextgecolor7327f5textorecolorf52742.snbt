@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "182653DF991CBB4B"
 			image: "minecraft:item/amethyst_shard"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3DBAE9CD4B705544"
 			image: "minecraft:item/amethyst_shard"
 			rotation: 90.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0FB05906B6AE82AB"
 			image: "minecraft:item/amethyst_shard"
 			rotation: 180.0d
 			width: 1.0d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "660D11D2284799FB"
 			image: "minecraft:item/amethyst_shard"
 			rotation: -90.0d
 			width: 1.0d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2CB31817408AB1D6"
 			image: "geore:block/budding_diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 1.0d
+			id: "667AF2BB23CD9598"
 			image: "geore:block/diamond_cluster"
 			rotation: 0.0d
 			width: 1.0d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2009452061A8F331"
 			image: "geore:block/diamond_cluster"
 			rotation: 90.0d
 			width: 1.0d
@@ -67,6 +74,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6E6199EFD9A0F764"
 			image: "geore:block/large_diamond_bud"
 			rotation: -90.0d
 			width: 1.0d
@@ -75,6 +83,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1373339698ED08A3"
 			image: "geore:block/medium_diamond_bud"
 			rotation: 180.0d
 			width: 1.0d
@@ -83,6 +92,7 @@
 		}
 		{
 			height: 1.0d
+			id: "34AA2784D60A7FC1"
 			image: "georenouveau:item/emerald_golem_charm"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,6 +101,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6F43F9D3DEF99BBD"
 			image: "georenouveau:item/nickel_golem_charm"
 			rotation: 0.0d
 			width: 1.0d
@@ -99,6 +110,7 @@
 		}
 		{
 			height: 1.0d
+			id: "49DCB2EDFAD27EB3"
 			image: "georenouveau:item/quartz_golem_charm"
 			rotation: 0.0d
 			width: 1.0d
@@ -107,6 +119,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1ECB15EC6804D71C"
 			image: "ars_nouveau:item/amethyst_golem_charm"
 			rotation: 0.0d
 			width: 1.0d

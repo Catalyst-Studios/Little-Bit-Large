@@ -27,6 +27,104 @@ ServerEvents.recipes(catalyst => {
         return r;
     };
 
+    let custom_recipes = [
+        {
+            input: 'enderio:photovoltaic_composite',
+            in_amount: 2,
+            output: 'enderio:photovoltaic_plate',
+            out_amount: 1
+        },
+        {
+            input: 'minecraft:coal_block',
+            output: 'eternalores:coke_coal_block',
+            tier: 1
+        },
+        {
+            input: 'eternalores:eternity_dust',
+            output: 'eternalores:eternity_ingot',
+            tier: 5
+        },
+        {
+            input: 'eternalores:universium_dust',
+            output: 'eternalores:universium_ingot',
+            tier: 5
+        }
+    ]
+
+    custom_recipes.forEach(cr => {
+        let input_id = cr.input;
+        let output_id = cr.output;
+        let in_amount = cr.in_amount !== undefined ? cr.in_amount : 1;
+        let out_amount = cr.out_amount !== undefined ? cr.out_amount : 1;
+        let recipe_tier = cr.tier !== undefined ? cr.tier : 0;
+        let energy = cr.energy;
+
+        let input_item = Item.of(input_id, in_amount);
+        let output_item = Item.of(output_id, out_amount);
+
+        if(recipe_tier <= 0) catalyst.smelting(output_item, input_item);
+
+        processedRecipes.add(input_id);
+
+        let clean_input = input_id.replace(":", "-");
+        let clean_output = output_id.replace(":", "-");
+
+        if(recipe_tier <= 1)
+        {
+            let primitive = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", 400)
+                .requireItem(input_item, 5, 10)
+                .produceItem(output_item, 60, 10)
+                .id(`catalyst:mmr/primitive_furnace/custom/${clean_input}_to_${clean_output}`);
+            addFurnaceRequirements(primitive);
+        }
+
+        if(recipe_tier <= 2)
+        {
+            let nether = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", 350)
+                .requireItem(input_item, 5, 10)
+                .produceItem(output_item, 60, 10)
+                .id(`catalyst:mmr/primitive_soul_furnace/custom/${clean_input}_to_${clean_output}`);
+            addFurnaceRequirements(nether);
+        }
+
+        if(recipe_tier <= 3)
+        {
+            let end = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", 300)
+                .requireItem(input_item, 5, 10)
+                .produceItem(output_item, 60, 10)
+                .id(`catalyst:mmr/primitive_end_furnace/custom/${clean_input}_to_${clean_output}`);
+            addFurnaceRequirements(end);
+        }
+
+        if(recipe_tier <= 4)
+        {
+            let multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", 150)
+                .requireItem(input_item, 20, 20)
+                .produceItem(output_item, 90, 20)
+            
+            if(energy !== undefined) multi.requireEnergyPerTick(energy)
+            else multi.requireEnergyPerTick(10000)
+            
+            addFurnaceRequirements2(multi);
+
+            multi.id(`catalyst:mmr/multismelter/custom/${clean_input}_to_${clean_output}`)
+        }
+
+        if(recipe_tier <= 5)
+        {
+            let adv_multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 50)
+                .requireItem(input_item, 20, 20)
+                .produceItem(output_item, 90, 20)
+            
+            if(energy !== undefined) adv_multi.requireEnergyPerTick(energy)
+            else adv_multi.requireEnergyPerTick(10000)
+
+            addFurnaceRequirements2(adv_multi);
+
+            adv_multi.id(`catalyst:mmr/adv_multismelter/custom/${clean_input}_to_${clean_output}`);
+        }
+    });
+
     catalyst.forEachRecipe({ type: 'minecraft:smelting' }, recipe => {
         let outputItemRaw = recipe.originalRecipeResult;
         
@@ -165,24 +263,6 @@ ServerEvents.recipes(catalyst => {
             });
         });
     });
-
-    let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", 400)
-            .requireItem("minecraft:coal_block", 5, 10) 
-            .produceItem('eternalores:coke_coal_block', 60, 10)
-            .id(`catalyst:mmr/primitive_furnace/coke_special_recipe`)
-    addFurnaceRequirements(recipe);
-
-    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 350)
-            .requireItem('eternalores:eternity_dust', 5, 10) 
-            .produceItem('eternalores:eternity_ingot', 60, 10)
-            .id(`catalyst:mmr/adv_furnace/eternity`)
-    addFurnaceRequirements(recipe);
-
-    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 450)
-            .requireItem('eternalores:universium_dust', 5, 10) 
-            .produceItem('eternalores:universium_ingot', 60, 10)
-            .id(`catalyst:mmr/adv_furnace/universium`)
-    addFurnaceRequirements(recipe);
 
     console.log("[CatJS] Added Furnaces recipes from smelting")
 

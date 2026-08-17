@@ -10,6 +10,7 @@
 	id: "731F653DF0327C9D"
 	images: [{
 		height: 10.0d
+		id: "111E88B7C8E7FC20"
 		image: "chipped:block/iron_bars/iron_bars_top"
 		rotation: 0.0d
 		width: 1.0d
@@ -277,7 +278,7 @@
 			}]
 			tasks: [{
 				id: "7AFF5E6C6B27C599"
-				item: { count: 1, id: "mekanism:pellet_polonium" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:pellets/polonium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -864,6 +865,14 @@
 			y: 3.5d
 		}
 		{
+			dep_control_pts: {
+				65AAE405AC91FB85: [
+					-4.271428571428572d
+					5.228571428571428d
+					-1.6142857142857068d
+					5.257142857142853d
+				]
+			}
 			dependencies: ["65AAE405AC91FB85"]
 			disable_toast: true
 			hide_lock_icon: true
@@ -873,10 +882,18 @@
 			y: 7.5d
 		}
 		{
+			dep_control_pts: {
+				0C2DE3DDB6BFD375: [
+					-3.3000000000000043d
+					8.885714285714286d
+					-7.0d
+					7.5d
+				]
+			}
 			dependencies: ["0C2DE3DDB6BFD375"]
 			disable_toast: true
 			hide_lock_icon: true
-			id: "33006B1CA6F4551A"
+			id: "4A047F5899833C2A"
 			size: 0.25d
 			x: -7.0d
 			y: 7.5d

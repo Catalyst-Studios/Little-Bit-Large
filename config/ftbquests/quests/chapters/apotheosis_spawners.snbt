@@ -9,8 +9,8 @@
 	id: "136E858245C7C7AD"
 	images: [
 		{
-			click: "Catalyst Studios"
 			height: 2.0d
+			id: "1ADCB42420B4E703"
 			image: "ftbquests:block/barrier"
 			rotation: 0.0d
 			width: 2.0d
@@ -18,9 +18,9 @@
 			y: 0.0d
 		}
 		{
-			click: "Catalyst Studios"
 			color: 15066597
 			height: 1.75d
+			id: "23C070EE1A328BD2"
 			image: "minecraft:textures/gui/sprites/advancements/challenge_frame_unobtained.png"
 			rotation: 0.0d
 			width: 1.75d
@@ -28,12 +28,9 @@
 			y: 0.0d
 		}
 		{
-			click: "https://www.curseforge.com/minecraft/mc-mods/apothic-spawners"
+			click_action: "open_uri:https://www.curseforge.com/minecraft/mc-mods/apothic-spawners"
 			height: 2.5d
-			hover: [
-				"Apothic Spawners"
-				"by Shadows_of_fire!"
-			]
+			id: "1E5353162B148B3D"
 			image: "catalyst:textures/quest_images/apotheosis/apoth_spawn_logo.png"
 			rotation: 0.0d
 			width: 2.5d

@@ -12,6 +12,7 @@
 		{
 			color: 13318661
 			height: 50.0d
+			id: "7E5B63CB7CDE5E6E"
 			image: "minecraft:textures/gui/sprites/gamemode_switcher/selection.png"
 			rotation: 0.0d
 			width: 50.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 40.0d
+			id: "7A420CC07D350059"
 			image: "oritech:block/machine_core_7"
 			rotation: 0.0d
 			width: 40.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2920EE36ED067870"
 			image: "ae2:block/mysterious_cube_side"
 			rotation: 0.0d
 			width: 0.045454545454545456d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1199D84D85BFC71D"
 			image: "ae2:block/mysterious_cube_top"
 			rotation: 0.0d
 			width: 0.045454545454545456d
@@ -43,7 +47,7 @@
 			y: -11.5d
 		}
 	]
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -901,6 +905,7 @@
 					id: "oritech:black_hole_block"
 				}
 				id: "6B92E358E678B2B0"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "oritech:black_hole_block"
@@ -1253,6 +1258,12 @@
 				"35A0BF8336B17F86"
 				"4A1EFCDE1B4F604B"
 			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "7D6063FFF0A68794"
 			rewards: [{
 				id: "79454F8BF3CBEBD8"
@@ -1533,6 +1544,7 @@
 						id: "oritech:resource_node_coal"
 					}
 					id: "0A9B74996D9FFB00"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_coal"
@@ -1543,6 +1555,7 @@
 						id: "oritech:resource_node_diamond"
 					}
 					id: "27675614E43E2D3E"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_diamond"
@@ -1553,6 +1566,7 @@
 						id: "oritech:resource_node_redstone"
 					}
 					id: "1F29A9E7F0E86420"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_redstone"
@@ -1563,6 +1577,7 @@
 						id: "oritech:resource_node_lapis"
 					}
 					id: "69F4F314723594F9"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_lapis"
@@ -1573,6 +1588,7 @@
 						id: "oritech:resource_node_iron"
 					}
 					id: "0F4494E7392AEB9A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_iron"
@@ -1583,6 +1599,7 @@
 						id: "oritech:resource_node_copper"
 					}
 					id: "36752FDC79DF62AE"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_copper"
@@ -1593,6 +1610,7 @@
 						id: "oritech:resource_node_emerald"
 					}
 					id: "608D155E7BBD7068"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_emerald"
@@ -1603,6 +1621,7 @@
 						id: "oritech:resource_node_uranium"
 					}
 					id: "1AA309F967A29DC0"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_uranium"
@@ -1613,6 +1632,7 @@
 						id: "oritech:resource_node_nickel"
 					}
 					id: "2322C67C87F9CD12"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_nickel"
@@ -1623,6 +1643,7 @@
 						id: "oritech:resource_node_platinum"
 					}
 					id: "3443EBD8AFE058C3"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "oritech:resource_node_platinum"
@@ -1634,6 +1655,12 @@
 		}
 		{
 			dependencies: ["1462C9B3FF493EEB"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "4290772E39EF863B"
 			rewards: [{
 				id: "7B5D345AE33F93A4"
@@ -2068,6 +2095,12 @@
 		}
 		{
 			dependencies: ["1E9B91AB1CD4463E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "2EA4BF9A9B390F5F"
 			rewards: [{
 				id: "61C44A8B806A5178"
@@ -2193,6 +2226,12 @@
 				"5F3A317A8E8976EC"
 				"4186A6EC2E0EFC82"
 			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "1E9B91AB1CD4463E"
 			rewards: [{
 				id: "6DCF5EDCC282E75A"

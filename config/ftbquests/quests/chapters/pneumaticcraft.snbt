@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "65FB88D32C3C8534"
 			image: "catalyst:textures/quest_images/pneumaticcraft_repressurized/logo.png"
 			rotation: 0.0d
 			width: 12.533333333333335d
@@ -21,6 +22,7 @@
 		{
 			color: 5592405
 			height: 20.0d
+			id: "4DFBACC1B06848F2"
 			image: "pneumaticcraft:block/compressed_stone"
 			order: -6
 			rotation: 0.0d
@@ -31,6 +33,7 @@
 		{
 			dependency: "10B2FF4D07F806B7"
 			height: 1.5d
+			id: "5C2E3F258A5DDAF5"
 			image: "pneumaticcraft:textures/particle/air_particle_2.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -40,6 +43,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.0d
+			id: "019DB9E135735BE7"
 			image: "pneumaticcraft:textures/progwidgets/start_piece.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -49,6 +53,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.6d
+			id: "0CCDC06A3F8D0DFF"
 			image: "pneumaticcraft:textures/progwidgets/entity_import_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -58,6 +63,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.6d
+			id: "4F1C6FEF3B0E858A"
 			image: "pneumaticcraft:textures/progwidgets/entity_export_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -67,6 +73,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.6d
+			id: "44C985B46B25072D"
 			image: "pneumaticcraft:textures/progwidgets/attack_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -76,6 +83,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.6d
+			id: "4EBDF6115E4693FE"
 			image: "pneumaticcraft:textures/progwidgets/area_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -85,6 +93,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.6d
+			id: "1F3EE0AEE13AC187"
 			image: "pneumaticcraft:textures/progwidgets/area_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -94,6 +103,7 @@
 		{
 			dependency: "746ABCD05A10E15A"
 			height: 1.6d
+			id: "07DF67E51CB8EA7B"
 			image: "pneumaticcraft:textures/progwidgets/area_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -103,6 +113,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.6d
+			id: "135D2BA6C2DEF0E4"
 			image: "pneumaticcraft:textures/progwidgets/text_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -112,6 +123,7 @@
 		{
 			dependency: "746ABCD05A10E15A"
 			height: 1.6d
+			id: "13D411757D18291B"
 			image: "pneumaticcraft:textures/progwidgets/text_piece.png"
 			rotation: 0.0d
 			width: 1.6d
@@ -121,6 +133,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 1.0d
+			id: "2FB1ABAC54F3F2DC"
 			image: "pneumaticcraft:item/micromissiles"
 			rotation: 0.0d
 			width: 1.0d
@@ -130,6 +143,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 1.0d
+			id: "74368C295ED2FFF0"
 			image: "pneumaticcraft:item/micromissiles"
 			rotation: -90.0d
 			width: 1.0d
@@ -139,6 +153,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 1.0d
+			id: "659188AF524AA618"
 			image: "pneumaticcraft:item/micromissiles"
 			rotation: -135.0d
 			width: 1.0d
@@ -148,6 +163,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 1.0d
+			id: "5D4E978067D0EC2B"
 			image: "pneumaticcraft:item/micromissiles"
 			rotation: -45.0d
 			width: 1.0d
@@ -157,6 +173,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 3.0d
+			id: "24F1283BD130FF6B"
 			image: "pneumaticcraft:item/micromissiles"
 			rotation: 90.0d
 			width: 3.0d
@@ -166,6 +183,7 @@
 		{
 			dependency: "679E61DE9A872F6B"
 			height: 2.0d
+			id: "12E138EA7FEDF64E"
 			image: "pneumaticcraft:item/module_expansion_card"
 			order: 3
 			rotation: 0.0d
@@ -176,6 +194,7 @@
 		{
 			dependency: "5767DCAD635EB0D5"
 			height: 1.0d
+			id: "39B30689E3550F06"
 			image: "pneumaticcraft:item/unassembled_pcb"
 			order: 2
 			rotation: 0.0d
@@ -186,6 +205,7 @@
 		{
 			dependency: "057C34F21922414A"
 			height: 1.0d
+			id: "1B61C1BE198D5AD3"
 			image: "pneumaticcraft:item/empty_pcb"
 			rotation: 0.0d
 			width: 1.0d
@@ -195,6 +215,7 @@
 		{
 			dependency: "3A25C866395DB478"
 			height: 1.0d
+			id: "4C713C26B93B46A3"
 			image: "pneumaticcraft:item/printed_circuit_board"
 			rotation: 0.0d
 			width: 1.0d
@@ -204,6 +225,7 @@
 		{
 			dependency: "495DE286325A307B"
 			height: 1.0d
+			id: "0D5595F8DC950ACA"
 			image: "pneumaticcraft:item/printed_circuit_board"
 			rotation: 0.0d
 			width: 1.0d
@@ -213,6 +235,7 @@
 		{
 			dependency: "495DE286325A307B"
 			height: 1.0d
+			id: "1CB6C37C796401D4"
 			image: "pneumaticcraft:item/printed_circuit_board"
 			rotation: 0.0d
 			width: 1.0d
@@ -222,6 +245,7 @@
 		{
 			dependency: "495DE286325A307B"
 			height: 1.0d
+			id: "5AFD73E655FCA813"
 			image: "pneumaticcraft:item/printed_circuit_board"
 			rotation: 0.0d
 			width: 1.0d
@@ -231,6 +255,7 @@
 		{
 			dependency: "4611B03649489FE8"
 			height: 1.0d
+			id: "0E807E5403C55746"
 			image: "pneumaticcraft:item/failed_pcb"
 			order: 1
 			rotation: 0.0d
@@ -241,6 +266,7 @@
 		{
 			dependency: "3F502A343332B9DB"
 			height: 1.0d
+			id: "61C8E74C432ACDF2"
 			image: "pneumaticcraft:item/plastic"
 			rotation: 0.0d
 			width: 1.0d
@@ -250,6 +276,7 @@
 		{
 			dependency: "3F502A343332B9DB"
 			height: 1.0d
+			id: "2B5042513388C0FE"
 			image: "pneumaticcraft:item/plastic"
 			order: -2
 			rotation: 0.0d
@@ -260,6 +287,7 @@
 		{
 			dependency: "3F502A343332B9DB"
 			height: 1.0d
+			id: "17204FCA00C1CD20"
 			image: "pneumaticcraft:item/plastic"
 			order: -1
 			rotation: 0.0d
@@ -271,6 +299,7 @@
 			color: 11184810
 			dependency: "218624C62F3E436E"
 			height: 3.0d
+			id: "71AD47F7ADD6817C"
 			image: "pneumaticcraft:item/amadron_tablet"
 			rotation: 0.0d
 			width: 3.0d
@@ -280,6 +309,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "653E9281DD4745DB"
 			image: "pneumaticcraft:item/capacitor"
 			rotation: -20.0d
 			width: 1.0d
@@ -289,6 +319,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "4263016DF843A0F5"
 			image: "pneumaticcraft:item/capacitor"
 			rotation: 30.0d
 			width: 1.0d
@@ -298,6 +329,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "6A03F713A25D28DA"
 			image: "pneumaticcraft:item/capacitor"
 			rotation: 10.0d
 			width: 1.0d
@@ -307,6 +339,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "7A8B95F25BE73B42"
 			image: "pneumaticcraft:item/transistor"
 			rotation: 15.0d
 			width: 1.0d
@@ -316,6 +349,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "05D3D64CC2AB1A16"
 			image: "pneumaticcraft:item/transistor"
 			rotation: -40.0d
 			width: 1.0d
@@ -325,6 +359,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "5D0C48041FCD340E"
 			image: "pneumaticcraft:item/transistor"
 			rotation: -170.0d
 			width: 1.0d
@@ -334,6 +369,7 @@
 		{
 			dependency: "51A04C8539DD3226"
 			height: 1.0d
+			id: "127C4EFEE4CF944A"
 			image: "pneumaticcraft:item/transistor"
 			rotation: 20.0d
 			width: 1.0d
@@ -344,6 +380,7 @@
 			color: 11184810
 			dependency: "3C99340DB19C8333"
 			height: 1.0d
+			id: "550F46CDA4C45FF5"
 			image: "pneumaticcraft:block/aerial_interface_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -354,6 +391,7 @@
 			color: 11184810
 			dependency: "3C99340DB19C8333"
 			height: 2.0d
+			id: "2D6E3D1AF6B33F4D"
 			image: "pneumaticcraft:block/aerial_interface_front"
 			rotation: 0.0d
 			width: 2.0d
@@ -363,6 +401,7 @@
 		{
 			dependency: "7E4F9C92570A846E"
 			height: 1.6d
+			id: "4DE8F1D8348A7CD8"
 			image: "pneumaticcraft:item/pneumatic_chestplate"
 			rotation: 0.0d
 			width: 1.6d
@@ -372,6 +411,7 @@
 		{
 			dependency: "7E4F9C92570A846E"
 			height: 1.6d
+			id: "4BD7DD6760FF42F0"
 			image: "pneumaticcraft:item/pneumatic_helmet"
 			rotation: 0.0d
 			width: 1.6d
@@ -381,6 +421,7 @@
 		{
 			dependency: "7E4F9C92570A846E"
 			height: 1.6d
+			id: "3B986AC4CE4676B6"
 			image: "pneumaticcraft:item/pneumatic_leggings"
 			rotation: 0.0d
 			width: 1.6d
@@ -390,6 +431,7 @@
 		{
 			dependency: "7E4F9C92570A846E"
 			height: 1.6d
+			id: "33D2BB6F2F4A08A6"
 			image: "pneumaticcraft:item/pneumatic_boots"
 			rotation: 0.0d
 			width: 1.6d
@@ -400,6 +442,7 @@
 			color: 11184810
 			dependency: "3A25C866395DB478"
 			height: 1.0d
+			id: "39D59BBB31915002"
 			image: "pneumaticcraft:block/drone_interface_front_on"
 			rotation: 0.0d
 			width: 1.0d
@@ -409,6 +452,7 @@
 		{
 			dependency: "2BA4BE93A61B7015"
 			height: 2.0d
+			id: "2BD8ABED6A0BB00E"
 			image: "pneumaticcraft:textures/gui/jei/thermometer.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -419,6 +463,7 @@
 			color: 11184810
 			dependency: "4FCD069CFF4FA112"
 			height: 4.0d
+			id: "5F840EE3A7D40E43"
 			image: "pneumaticcraft:block/programmable_controller_top"
 			order: -1
 			rotation: 0.0d
@@ -429,6 +474,7 @@
 		{
 			dependency: "0F68267B2DC0E06A"
 			height: 1.5d
+			id: "705C768F63734731"
 			image: "pneumaticcraft:item/network_components/network_api"
 			rotation: 0.0d
 			width: 1.5d
@@ -438,6 +484,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 1.0d
+			id: "47414234F3296456"
 			image: "minecraft:textures/entity_icon/villager/profession/armorer.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -447,6 +494,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 0.7d
+			id: "6239973D0734F5AB"
 			image: "minecraft:item/emerald"
 			rotation: 0.0d
 			width: 0.7d
@@ -456,6 +504,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 0.7d
+			id: "00EA8810FB571F54"
 			image: "minecraft:item/emerald"
 			order: -2
 			rotation: 0.0d
@@ -466,6 +515,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 0.7d
+			id: "6B5D518EA991E332"
 			image: "minecraft:item/emerald"
 			order: -1
 			rotation: 0.0d
@@ -476,6 +526,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 0.7d
+			id: "3FAFF54C53C98566"
 			image: "minecraft:item/emerald"
 			rotation: 0.0d
 			width: 0.7d
@@ -485,6 +536,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 0.7d
+			id: "71E09966B5AE8967"
 			image: "minecraft:item/emerald"
 			rotation: 0.0d
 			width: 0.7d
@@ -494,6 +546,7 @@
 		{
 			dependency: "0EF171C9D1A27B99"
 			height: 0.7d
+			id: "2588618004176560"
 			image: "minecraft:item/emerald"
 			rotation: 0.0d
 			width: 0.7d
@@ -503,6 +556,7 @@
 		{
 			dependency: "5F3191014DED156F"
 			height: 2.0d
+			id: "258741602276027A"
 			image: "pneumaticcraft:item/upgrades/security"
 			rotation: 0.0d
 			width: 2.0d
@@ -512,6 +566,7 @@
 		{
 			dependency: "1D3E958C900ADD0E"
 			height: 3.0d
+			id: "25D7D6703357D981"
 			image: "pneumaticcraft:item/reinforced_air_canister_array"
 			order: -1
 			rotation: 0.0d
@@ -522,6 +577,7 @@
 		{
 			dependency: "10B2FF4D07F806B7"
 			height: 3.0d
+			id: "38F7925F754F9AF3"
 			image: "pneumaticcraft:item/pressure_gauge"
 			rotation: 0.0d
 			width: 3.0d
@@ -531,6 +587,7 @@
 		{
 			dependency: "2794DEFAA6E8DD10"
 			height: 1.0d
+			id: "724DE1CA90A843FD"
 			image: "pneumaticcraft:item/gps_area_tool"
 			rotation: 10.0d
 			width: 1.0d
@@ -540,6 +597,7 @@
 		{
 			dependency: "2489A5EDFFCD05C3"
 			height: 1.0d
+			id: "19F5C6AA83770103"
 			image: "pneumaticcraft:item/gps_tool"
 			rotation: -30.0d
 			width: 1.0d
@@ -549,6 +607,7 @@
 		{
 			dependency: "31A03D303C9D7543"
 			height: 1.0d
+			id: "6268B04F36637D82"
 			image: "pneumaticcraft:item/upgrades/dispenser"
 			rotation: 0.0d
 			width: 1.0d
@@ -558,6 +617,7 @@
 		{
 			dependency: "1A36052DF194B26A"
 			height: 1.0d
+			id: "5B25A07D1E80C294"
 			image: "pneumaticcraft:item/gun_ammo_weighted"
 			rotation: 0.0d
 			width: 1.0d
@@ -567,6 +627,7 @@
 		{
 			dependency: "1A36052DF194B26A"
 			height: 1.0d
+			id: "1A7E13A977811807"
 			image: "pneumaticcraft:item/gun_ammo_freezing"
 			rotation: 0.0d
 			width: 1.0d
@@ -576,6 +637,7 @@
 		{
 			dependency: "1A36052DF194B26A"
 			height: 1.0d
+			id: "468CCE08FD728558"
 			image: "pneumaticcraft:item/gun_ammo_explosive"
 			rotation: 0.0d
 			width: 1.0d
@@ -585,6 +647,7 @@
 		{
 			dependency: "5767DCAD635EB0D5"
 			height: 1.0d
+			id: "4D09624FE2A04A53"
 			image: "pneumaticcraft:item/unassembled_pcb"
 			rotation: 0.0d
 			width: 1.0d
@@ -594,6 +657,7 @@
 		{
 			dependency: "3A25C866395DB478"
 			height: 1.0d
+			id: "2494F702323F005C"
 			image: "pneumaticcraft:item/printed_circuit_board"
 			rotation: 0.0d
 			width: 1.0d
@@ -602,6 +666,7 @@
 		}
 		{
 			height: 2.0d
+			id: "05FEBFF2A83872AA"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -610,6 +675,7 @@
 		}
 		{
 			height: 2.0d
+			id: "330597A4E8D4B321"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -618,6 +684,7 @@
 		}
 		{
 			height: 2.0d
+			id: "44473C1A3605CA64"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -626,6 +693,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5E9E4F7F5DA3F8EF"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			order: -1
 			rotation: 0.0d
@@ -635,6 +703,7 @@
 		}
 		{
 			height: 10.0d
+			id: "0364E3D9B73CB1CC"
 			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
 			rotation: 0.0d
 			width: 2.0d
@@ -643,6 +712,7 @@
 		}
 		{
 			height: 10.0d
+			id: "10C822CE641607B9"
 			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
 			rotation: 0.0d
 			width: 2.0d
@@ -651,6 +721,7 @@
 		}
 		{
 			height: 2.0d
+			id: "26C5490C57C75F37"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -659,6 +730,7 @@
 		}
 		{
 			height: 2.0d
+			id: "641BDC7598D41E23"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -667,6 +739,7 @@
 		}
 		{
 			height: 2.0d
+			id: "1AD9A32EE3C21744"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -675,6 +748,7 @@
 		}
 		{
 			height: 2.0d
+			id: "05CC25F98C53969F"
 			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
 			rotation: 0.0d
 			width: 10.0d
@@ -683,6 +757,7 @@
 		}
 		{
 			height: 10.0d
+			id: "4446743A8CE4692A"
 			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
 			rotation: 0.0d
 			width: 2.0d
@@ -691,6 +766,7 @@
 		}
 		{
 			height: 10.0d
+			id: "4EA2D0FE02802464"
 			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
 			order: -1
 			rotation: 0.0d
@@ -700,6 +776,7 @@
 		}
 		{
 			height: 5.0d
+			id: "0445657F139269A2"
 			image: "pneumaticcraft:block/pressure_chamber/valve_side"
 			rotation: 0.0d
 			width: 5.0d
@@ -708,6 +785,7 @@
 		}
 		{
 			height: 5.0d
+			id: "08DB32B0EBA982D8"
 			image: "pneumaticcraft:block/pressure_chamber/valve_side"
 			rotation: 0.0d
 			width: 5.0d
@@ -716,6 +794,7 @@
 		}
 		{
 			height: 5.0d
+			id: "0C86299A9488B158"
 			image: "pneumaticcraft:block/pressure_chamber/valve_side"
 			rotation: 0.0d
 			width: 5.0d
@@ -724,6 +803,7 @@
 		}
 		{
 			height: 5.0d
+			id: "4BBDF74B747D3F07"
 			image: "pneumaticcraft:block/pressure_chamber/valve_side"
 			rotation: 0.0d
 			width: 5.0d
@@ -733,6 +813,7 @@
 		{
 			dependency: "40FF3CEA25F2CB54"
 			height: 1.0d
+			id: "3F40D3CA28E7C0EC"
 			image: "pneumaticcraft:item/manometer"
 			rotation: 0.0d
 			width: 1.0d
@@ -1026,6 +1107,12 @@
 		}
 		{
 			dependencies: ["4C89C5F7446C15CD"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "387749084DD040D9"
 			tasks: [{
 				id: "0D92D306CDD4B4FF"
@@ -2052,7 +2139,7 @@
 			hide_text_until_complete: false
 			icon: {
 				components: {
-					"ftbquests:icon": "kubejs:textures/font/icons/warn.png"
+					"ftbquests:icon": "minecraft:textures/gui/sprites/dialog/warning_button_highlighted.png"
 				}
 				id: "ftbquests:custom_icon"
 			}

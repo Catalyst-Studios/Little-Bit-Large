@@ -521,6 +521,19 @@ ServerEvents.recipes(catalyst => {
     
     }).id("catalyst:powah/dielectric_paste");
 
+    catalyst.shaped(Item.of('powah:photoelectric_pane', 1), [
+        "DGD",
+        "APA",
+        "DAD"
+    ],
+    {
+        D: 'powah:dielectric_paste',
+        G: 'minecraft:glass_pane',
+        A: 'eternalores:gallium_ingot',
+        P: 'enderio:photovoltaic_plate'
+    })
+    .id("catalyst:solar/photoelectric_pane");
+
     console.log("[CatJS] Powah Recipes");
 })
 

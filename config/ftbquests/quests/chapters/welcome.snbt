@@ -6,13 +6,14 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "catalystcore:item/universe_containment_cell"
+			"ftbquests:icon": "catalystcore:item/universe_codex"
 		}
 		id: "ftbquests:custom_icon"
 	}
 	id: "0701BDFECC9EA8CD"
 	images: [{
 		height: 5.0d
+		id: "3AEDBE27AB20F0A0"
 		image: "catalyst:textures/quest_images/lbl_logo.png"
 		rotation: 0.0d
 		width: 10.0d

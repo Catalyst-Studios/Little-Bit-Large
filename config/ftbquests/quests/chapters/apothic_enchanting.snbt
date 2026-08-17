@@ -9,12 +9,9 @@
 	id: "2BBFD07BC2C78262"
 	images: [
 		{
-			click: "https://www.curseforge.com/minecraft/mc-mods/apothic-enchanting"
+			click_action: "open_uri:https://www.curseforge.com/minecraft/mc-mods/apothic-enchanting"
 			height: 2.5d
-			hover: [
-				"Apothic Enchanting"
-				"by Shadows_of_fire!"
-			]
+			id: "3ACAB326B21A0A99"
 			image: "catalyst:textures/quest_images/apotheosis/apoth_enchant_logo.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -23,6 +20,7 @@
 		}
 		{
 			height: 0.9d
+			id: "4F56042FCC7153DF"
 			image: "minecraft:item/dragon_breath"
 			rotation: 0.0d
 			width: 0.9d
@@ -31,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7A13F823C9E493C4"
 			image: "minecraft:textures/entity_icon/enderdragon/dragon.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -39,6 +38,7 @@
 		}
 		{
 			height: 0.9d
+			id: "44395270FBC06C24"
 			image: "apothic_enchanting:blocks/filtering_shelf/occupied"
 			rotation: 0.0d
 			width: 0.9d
@@ -47,6 +47,7 @@
 		}
 		{
 			height: 0.9d
+			id: "4691273161ADDA57"
 			image: "apothic_enchanting:blocks/treasure_shelf_side"
 			rotation: 0.0d
 			width: 0.9d
@@ -55,6 +56,7 @@
 		}
 		{
 			height: 0.9d
+			id: "529130E2AC394CCB"
 			image: "apothic_enchanting:blocks/melonshelf"
 			rotation: 0.0d
 			width: 0.9d
@@ -63,6 +65,7 @@
 		}
 		{
 			height: 0.9d
+			id: "27687F58ACECC300"
 			image: "apothic_enchanting:blocks/beeshelf"
 			rotation: 0.0d
 			width: 0.9d
@@ -71,6 +74,7 @@
 		}
 		{
 			height: 0.9d
+			id: "793EDB077522E2A9"
 			image: "apothic_enchanting:blocks/stoneshelf"
 			rotation: 0.0d
 			width: 0.9d
@@ -79,6 +83,7 @@
 		}
 		{
 			height: 0.8d
+			id: "48D9CCC44BEA61BC"
 			image: "occultism:item/spirit_attuned_gem"
 			rotation: 0.0d
 			width: 0.8d
@@ -87,6 +92,7 @@
 		}
 		{
 			height: 0.9d
+			id: "62D8B7F1D489DDA4"
 			image: "minecraft:item/heart_of_the_sea"
 			rotation: 0.0d
 			width: 0.9d
@@ -95,6 +101,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4C93E3B812499FB7"
 			image: "apothic_enchanting:items/warden_tendril"
 			rotation: 0.0d
 			width: 1.0d
@@ -103,6 +110,7 @@
 		}
 		{
 			height: 0.9d
+			id: "22345DAD40E71F5C"
 			image: "minecraft:item/skull_pottery_sherd"
 			rotation: 0.0d
 			width: 0.9d
@@ -111,6 +119,7 @@
 		}
 		{
 			height: 0.7d
+			id: "71B28931224258B1"
 			image: "minecraft:item/candle"
 			rotation: 0.0d
 			width: 0.7d

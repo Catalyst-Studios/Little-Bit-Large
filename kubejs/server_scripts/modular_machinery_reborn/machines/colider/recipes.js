@@ -1456,7 +1456,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedstorage:4k_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:1k_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 4, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 4, chance: 1.0 },
                 { id: "refinedstorage:basic_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1470,7 +1470,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedstorage:16k_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:4k_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 4, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 4, chance: 1.0 },
                 { id: "refinedstorage:improved_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1484,7 +1484,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedstorage:64k_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:16k_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 4, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 4, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1498,7 +1498,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedstorage:256b_fluid_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:64b_fluid_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 4, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 4, chance: 1.0 },
                 { id: "refinedstorage:improved_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1512,7 +1512,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedstorage:1024b_fluid_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:256b_fluid_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 4, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 4, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1526,7 +1526,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedstorage:4096b_fluid_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:1024b_fluid_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 4, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 4, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1582,7 +1582,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_256k", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:64k_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1596,7 +1596,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_1024k", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "extrastorage:storagepart_256k", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1610,7 +1610,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_4096k", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "extrastorage:storagepart_1024k", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1624,7 +1624,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_16384k", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "extrastorage:storagepart_4096k", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:chest", count: 10, chance: 1.0 }
             ],
@@ -1638,7 +1638,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_16384b_fluid", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedstorage:4096b_fluid_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1652,7 +1652,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_65536b_fluid", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "extrastorage:storagepart_16384b_fluid", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1666,7 +1666,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_262144b_fluid", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "extrastorage:storagepart_65536b_fluid", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1680,7 +1680,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "extrastorage:storagepart_1048576b_fluid", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "extrastorage:storagepart_262144b_fluid", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 10, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 10, chance: 1.0 },
                 { id: "refinedstorage:advanced_processor", count: 1, chance: 1.0 },
                 { id: "minecraft:bucket", count: 5, chance: 1.0 }
             ],
@@ -1696,7 +1696,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:256k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:64k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 1, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 1, chance: 1.0 }
             ],
@@ -1710,7 +1710,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:1024k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:256k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 10, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 5, chance: 1.0 }
             ],
@@ -1724,7 +1724,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:8192k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:1024k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 20, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 10, chance: 1.0 }
             ],
@@ -1738,7 +1738,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:65536k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:8192k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 30, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 15, chance: 1.0 }
             ],
@@ -1752,7 +1752,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:262144k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:65536k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 40, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 20, chance: 1.0 }
             ],
@@ -1766,7 +1766,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:1048576k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:262144k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 50, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 25, chance: 1.0 }
             ],
@@ -1780,7 +1780,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:8388608k_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:1048576k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 60, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 30, chance: 1.0 }
             ],
@@ -1794,7 +1794,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:infinite_energy_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:8388608k_energy_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 70, chance: 1.0 },
                 { id: "extrastorage:neural_processor", count: 35, chance: 1.0 }
             ],
@@ -1810,9 +1810,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:256b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:64b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 1, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 16, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 16, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1824,9 +1824,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:1024b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:256b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 10, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 32, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 32, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1838,9 +1838,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:8192b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:1024b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 20, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 64, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 64, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1852,9 +1852,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:65536b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:8192b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 30, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 128, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 128, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1866,9 +1866,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:262144b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:65536b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 40, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 256, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 256, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1880,9 +1880,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:1048576b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:262144b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 50, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 512, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 512, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1894,9 +1894,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:8388608b_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:1048576b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 60, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 1024, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 1024, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1908,9 +1908,9 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:infinite_source_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:8388608b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 70, chance: 1.0 },
-                { id: "ars_nouveau:source_gem", count: 2048, chance: 1.0 }
+                { id: 'eternalores:gem_source', count: 2048, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -1924,7 +1924,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:8k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:1k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 1, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_surge", count: 1, chance: 1.0 }
             ],
@@ -1938,7 +1938,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:64k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:8k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 10, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_network_pipe", count: 4, chance: 1.0 }
             ],
@@ -1952,7 +1952,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:512k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:64k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 20, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_surge", count: 8, chance: 1.0 }
             ],
@@ -1966,7 +1966,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:4096k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:512k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 30, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_network_pipe", count: 12, chance: 1.0 }
             ],
@@ -1980,7 +1980,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:32768k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:4096k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 40, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_surge", count: 16, chance: 1.0 }
             ],
@@ -1994,7 +1994,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:262144k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:32768k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 50, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_network_pipe", count: 20, chance: 1.0 }
             ],
@@ -2008,7 +2008,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:2097152k_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:262144k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_copper", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_copper_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:destruction_core", count: 60, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_surge", count: 24, chance: 1.0 }
             ],
@@ -2022,7 +2022,7 @@ ServerEvents.recipes(catalyst => {
             outputs: [{ id: "refinedtypes:infinite_soul_storage_part", count: 1, chance: 1.0 }],
             inputs: [
                 { id: "refinedtypes:2097152k_soul_storage_part", count: 1, chance: 1.0 },
-                { id: "refinedstorage:quartz_enriched_iron", count: 32, chance: 1.0 },
+                { id: 'eternalores:quartz_enriched_iron_ingot', count: 32, chance: 1.0 },
                 { id: "refinedstorage:construction_core", count: 70, chance: 1.0 },
                 { id: "industrialforegoingsouls:soul_network_pipe", count: 28, chance: 1.0 }
             ],
@@ -2140,13 +2140,13 @@ ServerEvents.recipes(catalyst => {
             energy: 1000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_4", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_2", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2160,13 +2160,13 @@ ServerEvents.recipes(catalyst => {
             energy: 2000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_8", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_4", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2180,13 +2180,13 @@ ServerEvents.recipes(catalyst => {
             energy: 3000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_16", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_8", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2200,13 +2200,13 @@ ServerEvents.recipes(catalyst => {
             energy: 4000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_32", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_16", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2220,13 +2220,13 @@ ServerEvents.recipes(catalyst => {
             energy: 5000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_64", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_32", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2240,13 +2240,13 @@ ServerEvents.recipes(catalyst => {
             energy: 6000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_128", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_64", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2260,13 +2260,13 @@ ServerEvents.recipes(catalyst => {
             energy: 7000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_256", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_128", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2280,13 +2280,13 @@ ServerEvents.recipes(catalyst => {
             energy: 8000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_512", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_256", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2300,13 +2300,13 @@ ServerEvents.recipes(catalyst => {
             energy: 9000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_1k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_512", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2320,13 +2320,13 @@ ServerEvents.recipes(catalyst => {
             energy: 10000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_2k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_1k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2340,13 +2340,13 @@ ServerEvents.recipes(catalyst => {
             energy: 11000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_4k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_2k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2360,13 +2360,13 @@ ServerEvents.recipes(catalyst => {
             energy: 12000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_8k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_4k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2380,13 +2380,13 @@ ServerEvents.recipes(catalyst => {
             energy: 13000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_16k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_8k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2400,13 +2400,13 @@ ServerEvents.recipes(catalyst => {
             energy: 14000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_32k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_16k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2420,13 +2420,13 @@ ServerEvents.recipes(catalyst => {
             energy: 15000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_64k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_32k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2440,13 +2440,13 @@ ServerEvents.recipes(catalyst => {
             energy: 16000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_128k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_64k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2460,13 +2460,13 @@ ServerEvents.recipes(catalyst => {
             energy: 17000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_256k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_128k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2480,13 +2480,13 @@ ServerEvents.recipes(catalyst => {
             energy: 18000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_512k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_256k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }
@@ -2500,13 +2500,13 @@ ServerEvents.recipes(catalyst => {
             energy: 19000000,
             outputs: [
                 { id: "expandedae:exp_crafting_accelerator_1m", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 0.3 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 0.3 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 0.1 }
             ],
             inputs: [
                 { id: "eternalores:plate_diamond", count: 9, chance: 1.0 },
                 { id: "expandedae:exp_crafting_accelerator_512k", count: 1, chance: 1.0 },
-                { id: "ae2:quartz_block", count: 4, chance: 1.0 },
+                { id: 'eternalores:certus_quartz_block', count: 4, chance: 1.0 },
                 { id: "eternalores:compressed_fluix_block_2x", count: 1, chance: 1.0 },
                 { id: "eternalores:compressed_redstone_block_2x", count: 2, chance: 1.0 },
                 { id: "eternalores:silicon_block", count: 9, chance: 1.0 }

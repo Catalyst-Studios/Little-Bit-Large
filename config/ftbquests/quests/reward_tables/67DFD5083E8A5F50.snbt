@@ -1,0 +1,54 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/painting/sunset.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "67DFD5083E8A5F50"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 20
+			id: "2152321FE0BE2767"
+			item: {
+				count: 1
+				id: "energizedpower:advanced_solar_cell"
+			}
+			random_bonus: 10
+			weight: 7.0f
+		}
+		{ id: "25A160481B2CE5E1", item: { count: 1, id: "energizedpower:solar_panel_7" } }
+		{
+			count: 32
+			id: "44F36E5F85DC9928"
+			item: {
+				count: 1
+				id: "powah:photoelectric_pane"
+			}
+			random_bonus: 40
+			weight: 7.0f
+		}
+		{
+			count: 12
+			id: "48BECC2924E1EB19"
+			item: {
+				count: 1
+				id: "solargeneration:solar_panel_resonant"
+			}
+			random_bonus: 5
+			weight: 3.0f
+		}
+		{
+			count: 3
+			id: "5A9327E2D5EBC9E1"
+			item: {
+				count: 1
+				id: "energizedpower:reinforced_advanced_solar_cell"
+			}
+			random_bonus: 4
+			weight: 2.0f
+		}
+	]
+}

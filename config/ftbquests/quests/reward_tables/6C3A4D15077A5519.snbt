@@ -1,0 +1,53 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "emi_loot:textures/gui/sunny.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6C3A4D15077A5519"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			count: 2
+			id: "6712CF690214A9E1"
+			item: {
+				count: 1
+				id: "enderio:vibrant_photovoltaic_module"
+			}
+			random_bonus: 4
+			weight: 250.0f
+		}
+		{
+			id: "1AA8773E7FA0FDC2"
+			item: {
+				count: 1
+				id: "energizedpower:advanced_solar_cell"
+			}
+			random_bonus: 8
+			weight: 250.0f
+		}
+		{
+			count: 14
+			id: "4873A726CD1549EE"
+			item: {
+				count: 1
+				id: "powah:photoelectric_pane"
+			}
+			random_bonus: 12
+			weight: 300.0f
+		}
+		{ id: "235C975818051D4A", item: { count: 1, id: "energizedpower:solar_panel_7" } }
+		{
+			count: 2
+			id: "27B8572500DE4915"
+			item: {
+				count: 1
+				id: "powah:solar_panel_blazing"
+			}
+			random_bonus: 1
+			weight: 199.0f
+		}
+	]
+}

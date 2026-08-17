@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "72EE991883D29341"
 			image: "ars_nouveau:item/bookwyrm_charm"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5022381140B4F579"
 			image: "ars_additions:item/nexus_warp_scroll"
 			rotation: 0.0d
 			width: 2.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6728B2B9CC61518B"
 			image: "ars_nouveau:item/familiar_drygmy"
 			rotation: 30.0d
 			width: 2.0d

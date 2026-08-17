@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "184CDCF7B436952E"
 			image: "catalyst:textures/quest_images/mekanism/robit.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6500F7E2C4E83CB9"
 			image: "mekanism:block/thermal_evaporation_controller_on_led"
 			rotation: 1.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "72AB497D34A31C27"
 			image: "mekanism:item/alloy_atomic"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7B7CECED5C4983BA"
 			image: "mekanism:item/alloy_atomic"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2CE446C0E430DCD7"
 			image: "mekanism:item/alloy_atomic"
 			rotation: 0.0d
 			width: 1.0d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 1.0d
+			id: "65EF50399973B490"
 			image: "mekanism:item/pellet_antimatter"
 			rotation: 25.0d
 			width: 1.0d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 1.0d
+			id: "012C8A1349913126"
 			image: "minecraft:item/diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -67,6 +74,7 @@
 		}
 		{
 			height: 1.0d
+			id: "61E760DA2EDC8F49"
 			image: "minecraft:item/diamond"
 			rotation: 30.0d
 			width: 1.0d
@@ -75,6 +83,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0B88DA60DB37BB71"
 			image: "eternalores:item/hammers/copper_hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,6 +92,7 @@
 		}
 		{
 			height: 1.0d
+			id: "33FA978C69967A09"
 			image: "minecraft:item/iron_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,6 +101,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1E456A5507D12DE9"
 			image: "minecraft:item/coal"
 			rotation: 0.0d
 			width: 1.0d
@@ -98,8 +109,10 @@
 			y: -3.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
-			image: "kubejs:textures/font/icons/plus.png"
+			id: "02678B55B9185D70"
+			image: "betteradvancedtooltips:textures/font/icons/plus.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.5d
@@ -107,6 +120,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3D22DE1CD8FD4D7B"
 			image: "justdirethings:textures/gui/buttons/equals.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -114,8 +128,10 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
-			image: "kubejs:textures/font/icons/plus.png"
+			id: "36A456EBA9F2A087"
+			image: "betteradvancedtooltips:textures/font/icons/plus.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.5d
@@ -123,6 +139,7 @@
 		}
 		{
 			height: 1.0d
+			id: "12097C402DC3EBA8"
 			image: "mekanism:item/energy_tablet"
 			rotation: 0.0d
 			width: 1.0d
@@ -131,6 +148,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0523C9A13DF7BF3C"
 			image: "mekanism:block/models/resistive_heater_sides"
 			rotation: 10.0d
 			width: 2.0d
@@ -139,6 +157,7 @@
 		}
 		{
 			height: 1.0d
+			id: "732BCF38C089C191"
 			image: "mekanism:block/models/security_desk_leds"
 			rotation: 0.0d
 			width: 1.0d
@@ -147,6 +166,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3F1A6B09D1942F31"
 			image: "farmersdelight:item/melon_popsicle"
 			rotation: 0.0d
 			width: 1.0d
@@ -155,6 +175,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6467E61098E85778"
 			image: "farmersdelight:item/melon_popsicle"
 			rotation: -40.0d
 			width: 1.0d
@@ -163,6 +184,7 @@
 		}
 		{
 			height: 1.0d
+			id: "391D94DFD4FF3DD0"
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
@@ -171,6 +193,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5212C951C3F95989"
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
@@ -179,6 +202,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6A8038D64DACC45E"
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
@@ -187,6 +211,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5578582142F1069E"
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
@@ -195,6 +220,7 @@
 		}
 		{
 			height: 1.0d
+			id: "29DB9A9A8BAC88E1"
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d

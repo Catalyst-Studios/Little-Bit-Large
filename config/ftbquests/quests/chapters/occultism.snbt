@@ -12,6 +12,7 @@
 		{
 			dependency: "3171E159C4D05AD4"
 			height: 8.0d
+			id: "7920E34729601103"
 			image: "occultism:textures/gui/book/pentagram_rose.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -21,6 +22,7 @@
 		{
 			dependency: "781D98EE5538B3F8"
 			height: 25.0d
+			id: "7E8692F7E2C4A424"
 			image: "catalyst:textures/quest_images/occultism/sigil2.png"
 			order: -6
 			rotation: 0.0d
@@ -30,6 +32,7 @@
 		}
 		{
 			height: 5.419664268585132d
+			id: "2BCD5FE8FD7DAF24"
 			image: "catalyst:textures/quest_images/occultism/logo.png"
 			order: 2
 			rotation: 0.0d
@@ -41,6 +44,7 @@
 			color: 11141290
 			dependency: "4821A8015B2F5FA1"
 			height: 3.0d
+			id: "066BA65E0BFA2545"
 			image: "occultism:block/chalk_glyph/11"
 			rotation: 0.0d
 			width: 3.0d
@@ -51,6 +55,7 @@
 			color: 11141290
 			dependency: "648EA810839EEB7F"
 			height: 3.0d
+			id: "646BDA1059FFC54F"
 			image: "occultism:block/chalk_glyph/9"
 			rotation: 0.0d
 			width: 3.0d
@@ -61,6 +66,7 @@
 			color: 10852358
 			dependency: "09AA28D69D0D696E"
 			height: 3.0d
+			id: "4DA1F3CE28E5B228"
 			image: "occultism:block/chalk_glyph/0"
 			rotation: 0.0d
 			width: 3.0d
@@ -71,6 +77,7 @@
 			color: 11141290
 			dependency: "64185463F33F5F35"
 			height: 3.0d
+			id: "2943BE1AF76F0506"
 			image: "occultism:block/chalk_glyph/1"
 			rotation: 0.0d
 			width: 3.0d
@@ -81,6 +88,7 @@
 			color: 10852358
 			dependency: "078639E7470871B6"
 			height: 3.0d
+			id: "7C2E4EA8A80C1E72"
 			image: "occultism:block/chalk_glyph/10"
 			rotation: 0.0d
 			width: 3.0d
@@ -91,6 +99,7 @@
 			color: 11141290
 			dependency: "5D6F17D952C6BAEB"
 			height: 3.0d
+			id: "02FD22CA7BA22F8A"
 			image: "occultism:block/chalk_glyph/6"
 			rotation: 0.0d
 			width: 3.0d
@@ -101,6 +110,7 @@
 			color: 10852358
 			dependency: "4EB2763EB94E73AB"
 			height: 3.0d
+			id: "4357649596792B36"
 			image: "occultism:block/chalk_glyph/5"
 			rotation: 0.0d
 			width: 3.0d
@@ -111,6 +121,7 @@
 			color: 10852358
 			dependency: "4C3233E2F465F5C7"
 			height: 3.0d
+			id: "450B8DD42AA8B127"
 			image: "occultism:block/chalk_glyph/3"
 			rotation: 0.0d
 			width: 3.0d
@@ -120,6 +131,7 @@
 		{
 			dependency: "7ACE109B69EDE436"
 			height: 25.0d
+			id: "70596073D3ED90D4"
 			image: "catalyst:textures/quest_images/occultism/sigil2.png"
 			order: -6
 			rotation: 180.0d
@@ -165,6 +177,7 @@
 					id: "occultism:spirit_fire"
 				}
 				id: "6587F4163EB2244F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "occultism:spirit_fire"

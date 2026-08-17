@@ -1,0 +1,69 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "apotheosis:items/gems/solar"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "16D7F04885C74D84"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 12
+			id: "7EE71C5770D81F4D"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			random_bonus: 4
+			weight: 90.0f
+		}
+		{
+			count: 12
+			id: "10B8088416DD2A18"
+			item: {
+				count: 1
+				id: "eternalores:tin_ingot"
+			}
+			random_bonus: 7
+			weight: 90.0f
+		}
+		{
+			id: "2DAAF16AB1CACBFD"
+			item: {
+				count: 1
+				id: "enderio:photovoltaic_composite"
+			}
+			random_bonus: 4
+			weight: 60.0f
+		}
+		{
+			id: "259DA3FC1E41327D"
+			item: {
+				count: 1
+				id: "enderio:energetic_photovoltaic_module"
+			}
+			random_bonus: 3
+			weight: 20.0f
+		}
+		{
+			id: "067F14F28A3B7B08"
+			item: {
+				count: 1
+				id: "enderio:vibrant_photovoltaic_module"
+			}
+			random_bonus: 1
+			weight: 20.0f
+		}
+		{
+			id: "282FE64FFEF732CD"
+			item: {
+				count: 1
+				id: "enderio:pulsating_photovoltaic_module"
+			}
+			weight: 20.0f
+		}
+	]
+	use_title: true
+}

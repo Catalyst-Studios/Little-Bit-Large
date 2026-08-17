@@ -13,6 +13,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "4A606B82DCB47846"
 			image: "catalyst:textures/quest_images/useful_mods/useful_mods.png"
 			order: 1
 			rotation: 0.0d
@@ -23,6 +24,7 @@
 		{
 			color: 4849994
 			height: 9.0d
+			id: "404E7E76A637C1DD"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 2
 			rotation: 0.0d
@@ -33,6 +35,7 @@
 		{
 			color: 6291808
 			height: 6.0d
+			id: "7196757AE2706BF1"
 			image: "xycraft_machines:textures/particles/soft.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -42,6 +45,7 @@
 		{
 			color: 2752554
 			height: 4.0d
+			id: "3E1F80ACF3D64543"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 3
 			rotation: 0.0d
@@ -52,6 +56,7 @@
 		{
 			color: 4194566
 			height: 9.0d
+			id: "0F4A7710F10A6575"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 2
 			rotation: 0.0d
@@ -62,6 +67,7 @@
 		{
 			color: 6947338
 			height: 6.0d
+			id: "79CCF90A2F517807"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 3
 			rotation: 0.0d
@@ -72,6 +78,7 @@
 		{
 			color: 2490628
 			height: 4.0d
+			id: "67C4FEADB3046150"
 			image: "xycraft_machines:textures/particles/soft.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -81,6 +88,7 @@
 		{
 			color: 66374
 			height: 9.0d
+			id: "4020AD236A0AE9FB"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 2
 			rotation: 0.0d
@@ -91,6 +99,7 @@
 		{
 			color: 132190
 			height: 6.0d
+			id: "4CC58AFB08A8A443"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 2
 			rotation: 0.0d
@@ -101,6 +110,7 @@
 		{
 			color: 65832
 			height: 4.0d
+			id: "182FFAD6624117AD"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 3
 			rotation: 0.0d
@@ -111,6 +121,7 @@
 		{
 			color: 10754
 			height: 9.0d
+			id: "51D1A353AB77D766"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 2
 			rotation: 0.0d
@@ -121,6 +132,7 @@
 		{
 			color: 14851
 			height: 6.0d
+			id: "1073F7656DA8E626"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 3
 			rotation: 0.0d
@@ -131,6 +143,7 @@
 		{
 			color: 6657
 			height: 4.0d
+			id: "23F3498A5F0E2974"
 			image: "xycraft_machines:textures/particles/soft.png"
 			order: 2
 			rotation: 0.0d
@@ -1444,7 +1457,7 @@
 			}]
 			tasks: [{
 				id: "19B6BA05C38FE224"
-				item: { count: 1, id: "hyperbox:hyperbox" }
+				item: { components: { "ftbquests:missing_item": "hyperbox:hyperbox" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d

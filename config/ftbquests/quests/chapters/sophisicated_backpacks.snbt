@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "7CAEED6F7C7AAD96"
 			image: "minecraft:item/leather"
 			rotation: 0.0d
 			width: 5.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 5.0d
+			id: "7B080D4933FD834D"
 			image: "ftbteams:textures/cancel.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "75D2C575197AABC7"
 			image: "minecraft:block/iron_block"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7EC075D3E77F7554"
 			image: "minecraft:block/gold_block"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 1.0d
+			id: "272342FCFC9A99F3"
 			image: "minecraft:block/diamond_block"
 			rotation: 0.0d
 			width: 1.0d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 0.8d
+			id: "1C6BF061D90CE615"
 			image: "minecraft:item/netherite_upgrade_smithing_template"
 			rotation: 0.0d
 			width: 0.8d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 0.8d
+			id: "45ACBD4A26E7D1A5"
 			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 0.8d
@@ -67,6 +74,7 @@
 		}
 		{
 			height: 0.9d
+			id: "4823E1320AE6BA41"
 			image: "simplemagnets:advancedmagnet"
 			rotation: 0.0d
 			width: 0.9d
@@ -75,6 +83,7 @@
 		}
 		{
 			height: 0.9d
+			id: "098024E9BA521990"
 			image: "minecraft:block/blast_furnace_front"
 			rotation: 0.0d
 			width: 0.9d
@@ -83,6 +92,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3E9E090FEE01A03E"
 			image: "minecraft:item/totem_of_undying"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,6 +101,7 @@
 		}
 		{
 			height: 0.9d
+			id: "573E2E57A193ED56"
 			image: "minecraft:block/smoker_front"
 			rotation: 0.0d
 			width: 0.9d
@@ -99,6 +110,7 @@
 		}
 		{
 			height: 0.9d
+			id: "0F3686D7CBF3F749"
 			image: "minecraft:block/furnace_front"
 			rotation: 0.0d
 			width: 0.9d
@@ -107,6 +119,7 @@
 		}
 		{
 			height: 0.9d
+			id: "12B7891B71C94C52"
 			image: "minecraft:item/experience_bottle"
 			rotation: 0.0d
 			width: 0.9d
@@ -115,6 +128,7 @@
 		}
 		{
 			height: 0.9d
+			id: "26CBBA323F722F7C"
 			image: "minecraft:block/crafting_table_top"
 			rotation: 0.0d
 			width: 0.9d
@@ -123,6 +137,7 @@
 		}
 		{
 			height: 1.0d
+			id: "484CB145BD87CA0E"
 			image: "minecraft:block/stonecutter_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -131,6 +146,7 @@
 		}
 		{
 			height: 1.0d
+			id: "43FB73E03C4661E5"
 			image: "minecraft:block/stonecutter_saw"
 			rotation: 0.0d
 			width: 1.0d
@@ -139,6 +155,7 @@
 		}
 		{
 			height: 0.9d
+			id: "413A3096C9EBA806"
 			image: "minecraft:item/music_disc_5"
 			rotation: 0.0d
 			width: 0.9d
@@ -147,6 +164,7 @@
 		}
 		{
 			height: 0.9d
+			id: "23FA982D79193472"
 			image: "minecraft:block/anvil_top"
 			rotation: 90.0d
 			width: 0.9d
@@ -155,6 +173,7 @@
 		}
 		{
 			height: 0.9d
+			id: "60B0E4138F54E012"
 			image: "powah:item/battery_nitro"
 			rotation: 0.0d
 			width: 0.9d
@@ -163,6 +182,7 @@
 		}
 		{
 			height: 0.9d
+			id: "5B8BF23591B47E56"
 			image: "dimstorage:block/dimtank_side"
 			rotation: 0.0d
 			width: 0.9d
@@ -171,6 +191,7 @@
 		}
 		{
 			height: 0.9d
+			id: "458B14089BE560CF"
 			image: "minecraft:block/piston_top_sticky"
 			rotation: 0.0d
 			width: 0.9d
@@ -179,6 +200,7 @@
 		}
 		{
 			height: 0.9d
+			id: "081DE6C23A257446"
 			image: "minecraft:textures/gui/sprites/hud/food_full.png"
 			rotation: 90.0d
 			width: 0.9d
@@ -186,7 +208,7 @@
 			y: -0.8867346938775498d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [{
 		id: "60FCE367903F4123"
 		linked_quest: "37FEFBA176B0E030"

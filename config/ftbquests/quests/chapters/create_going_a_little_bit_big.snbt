@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "45B05F4CFD06605B"
 			image: "createaddition:block/tesla_coil/lightning_new"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3C1092F0CE19884E"
 			image: "createaddition:block/tesla_coil/lightning"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,7 +29,7 @@
 		}
 		{
 			height: 7.0d
-			hover: ["Create Wrench, used a lot"]
+			id: "03CFC60E1A93C0EF"
 			image: "catalyst:textures/quest_images/create/wrench.png"
 			order: 1
 			rotation: -25.0d
@@ -37,7 +39,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["A player using Create Chain Conveyor"]
+			id: "0E32741A9D3B1646"
 			image: "catalyst:textures/quest_images/create/chain.png"
 			order: 1
 			rotation: 0.0d
@@ -47,6 +49,7 @@
 		}
 		{
 			height: 60.0d
+			id: "5CC9A57F130626D3"
 			image: "create:block/railway_casing"
 			rotation: 0.0d
 			width: 60.0d
@@ -55,6 +58,7 @@
 		}
 		{
 			height: 5.0d
+			id: "08C075D40A103CD8"
 			image: "create:block/brass_casing"
 			rotation: 0.0d
 			width: 5.0d
@@ -63,6 +67,7 @@
 		}
 		{
 			height: 5.0d
+			id: "2BE5D55F6E7ECE82"
 			image: "create:block/copper_casing"
 			rotation: 0.0d
 			width: 5.0d
@@ -70,15 +75,17 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
-			image: "relics:item/magma_walker_fire"
+			id: "18D5AECEE8AAE7FF"
+			image: "pastel:block/primordial_fire_0"
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.0d
 			y: 5.5d
 		}
 	]
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

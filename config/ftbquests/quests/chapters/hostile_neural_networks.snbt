@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "28960AE61B501B89"
 			image: "hostilenetworks:item/deep_learner"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7B0C56042B7926E5"
 			image: "hostilenetworks:item/blank_data_model"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1364217F705AEBB9"
 			image: "hostilenetworks:block/simulation_chamber_north"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "430C00FCDC5868DA"
 			image: "hostilenetworks:block/loot_fabricator_north"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1FCE488B8917F415"
 			image: "hostilenetworks:item/prediction_matrix"
 			rotation: 0.0d
 			width: 1.0d
@@ -50,8 +55,9 @@
 			y: 4.5d
 		}
 		{
-			dev: true
+			dev: 1b
 			height: 10.0d
+			id: "7C8293DCAEEB3EC2"
 			image: "catalyst:textures/quest_images/hostile_neural_networks/hnn_logo.png"
 			order: -1
 			rotation: 45.0d
@@ -60,8 +66,9 @@
 			y: -4.5d
 		}
 		{
-			dev: true
+			dev: 1b
 			height: 12.0d
+			id: "7806D868B27820F9"
 			image: "catalyst:textures/quest_images/hostile_neural_networks/hnn_logo.png"
 			order: -1
 			rotation: -45.0d
@@ -70,8 +77,9 @@
 			y: -4.5d
 		}
 		{
-			dev: true
+			dev: 1b
 			height: 12.0d
+			id: "04DFDBA2AC76FC62"
 			image: "catalyst:textures/quest_images/hostile_neural_networks/hnn_logo.png"
 			order: -1
 			rotation: 0.0d
@@ -80,8 +88,9 @@
 			y: -5.0d
 		}
 		{
-			dev: true
+			dev: 1b
 			height: 12.0d
+			id: "31374840A58DCAEC"
 			image: "catalyst:textures/quest_images/hostile_neural_networks/hnn_logo.png"
 			order: -1
 			rotation: 0.0d

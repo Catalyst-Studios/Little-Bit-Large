@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "207907D180BA6E31"
 			image: "minecraft:textures/entity_icon/bee/bee.png"
 			rotation: -25.0d
 			width: 5.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 3.5d
+			id: "3ED9F3067D4E5475"
 			image: "productivebees:item/honey_treat"
 			rotation: 25.0d
 			width: 3.5d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "747EFA928E8E298E"
 			image: "catalyst:textures/quest_images/productive_bees/beeshop.png"
 			rotation: 0.0d
 			width: 5.321428571428571d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 7.5d
+			id: "53984EB408347AA2"
 			image: "chipped:block/glass_pane/oak_horizontal_lined_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -430,6 +434,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "57F27ECDAB0BD1DF"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:configurable_bee[type=\"productivebees:gold\"]"
@@ -483,6 +488,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "79F1659878F17430"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:ghostly"
@@ -525,6 +531,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "1004A92C2890456F"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:ender"
@@ -571,6 +578,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "68C325C0E97237A0"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:magmatic"
@@ -624,6 +632,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "626F3BAAA66A2EAF"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:glowing"
@@ -666,6 +675,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "1234CBD155863564"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:draconic"
@@ -708,6 +718,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "0D635F963374FA42"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:slimy"
@@ -755,6 +766,7 @@
 					id: "productivebees:spawn_egg_reed_bee"
 				}
 				id: "4D77CB9540DD7B51"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:reed_bee"
@@ -802,6 +814,7 @@
 					id: "productivebees:spawn_egg_sweat_bee"
 				}
 				id: "7C3792BD4D5B2D27"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:sweat_bee"
@@ -844,6 +857,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "1F94E402EBB9E5B5"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:crystaline"
@@ -891,6 +905,7 @@
 					id: "productivebees:spawn_egg_resin_bee"
 				}
 				id: "4FA935E25C27CE0E"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:resin_bee"
@@ -937,6 +952,7 @@
 					id: "productivebees:spawn_egg_green_carpenter_bee"
 				}
 				id: "0D741B46E74CB17D"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:green_carpenter_bee"
@@ -973,6 +989,7 @@
 					id: "productivebees:spawn_egg_yellow_black_carpenter_bee"
 				}
 				id: "5F2B50571D656D90"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:yellow_black_carpenter_bee"
@@ -998,6 +1015,7 @@
 					id: "productivebees:spawn_egg_blue_banded_bee"
 				}
 				id: "7F5F3877B6F33DF7"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:blue_banded_bee"
@@ -1044,6 +1062,7 @@
 					id: "productivebees:spawn_egg_mason_bee"
 				}
 				id: "69E90AEF09035268"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:mason_bee"
@@ -1080,6 +1099,7 @@
 					id: "productivebees:spawn_egg_digger_bee"
 				}
 				id: "697B085557AC93B9"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:digger_bee"
@@ -1120,6 +1140,7 @@
 					id: "productivebees:spawn_egg_leafcutter_bee"
 				}
 				id: "016D3E4B60878147"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:leafcutter_bee"
@@ -1165,6 +1186,7 @@
 					id: "productivebees:spawn_egg_chocolate_mining_bee"
 				}
 				id: "0945FABB3B320E12"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:chocolate_mining_bee"
@@ -1200,6 +1222,7 @@
 					id: "productivebees:spawn_egg_ashy_mining_bee"
 				}
 				id: "2C410B95C396D49A"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:ashy_mining_bee"
@@ -1224,6 +1247,7 @@
 					id: "productivebees:spawn_egg_neon_cuckoo_bee"
 				}
 				id: "17FDA62C6FC7A94A"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:neon_cuckoo_bee"
@@ -1248,6 +1272,7 @@
 					id: "productivebees:spawn_egg_nomad_bee"
 				}
 				id: "379F21343DF3C58C"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:nomad_bee"
@@ -1386,6 +1411,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "5B0AADC3E7194977"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:water"
@@ -1414,6 +1440,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "1DCD086A56EC3F0E"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:kamikaz"
@@ -1458,6 +1485,7 @@
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
 				id: "1DD8E2B176690796"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "productivebees:draconic"

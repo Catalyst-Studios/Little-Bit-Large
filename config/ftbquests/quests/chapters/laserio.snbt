@@ -10,6 +10,7 @@
 	id: "248AEB260B45DF6D"
 	images: [{
 		height: 3.0d
+		id: "5CAB65B34A34034A"
 		image: "laserio:item/logic_chip"
 		rotation: 0.0d
 		width: 3.0d

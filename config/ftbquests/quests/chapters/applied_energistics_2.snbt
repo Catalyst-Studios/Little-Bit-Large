@@ -8,7 +8,8 @@
 		id: "ae2:controller"
 	}
 	id: "7D0096384EB81C5A"
-	order_index: 0
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -227,7 +228,7 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
 			icon: {
-				id: "ae2:silicon"
+				id: "eternalores:silicon"
 			}
 			id: "545CECD192055BC0"
 			rewards: [{
@@ -239,12 +240,15 @@
 			tasks: [
 				{
 					id: "6E5A4EBB9197750F"
-					item: { count: 1, id: "ae2:certus_quartz_dust" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/certus_quartz)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "eternalores:silicon"
+					}
 					id: "3E23F50F6C861B35"
-					item: { count: 1, id: "ae2:silicon" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:silicon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -409,6 +413,7 @@
 						id: "ae2:mysterious_cube"
 					}
 					id: "3EBD4602D46B06F4"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L

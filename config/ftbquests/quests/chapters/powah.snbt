@@ -8,6 +8,7 @@
 		id: "powah:energizing_orb"
 	}
 	id: "7B0281FA3D163FD2"
+	images: [ ]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

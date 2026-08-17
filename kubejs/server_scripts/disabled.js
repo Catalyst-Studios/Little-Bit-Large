@@ -143,6 +143,7 @@ ServerEvents.recipes(catalyst => {
         { output: "solargeneration:solar_panel_advanced" },
         { output: "energizedpower:solar_panel_6" },
         { output: "solargeneration:solar_panel_ultimate" },
+        { output: 'powah:photoelectric_pane' },
         {id: "energizedpower:crafting/press_mold_maker"},
         {id: "energizedpower:crafting/copper_plate"},
         {id: "energizedpower:crafting/gold_plate"},

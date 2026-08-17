@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "1A0E653D62F53538"
 			image: "catalyst:textures/quest_images/modular_machinery_reborn/logomodularmachienry.png"
 			rotation: -25.0d
 			width: 6.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 2.0d
+			id: "66E4D60BA2263FF2"
 			image: "modular_machinery_reborn:block/overlay_energyinputhatch_big"
 			rotation: 25.0d
 			width: 2.0d
@@ -26,7 +28,7 @@
 			y: -16.5d
 		}
 	]
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -52,6 +54,7 @@
 						id: "minecraft:reinforced_deepslate"
 					}
 					id: "0B3156C02C8B98AB"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:reinforced_deepslate"
