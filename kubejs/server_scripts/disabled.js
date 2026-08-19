@@ -82,6 +82,8 @@ ServerEvents.recipes(catalyst => {
         {id: "oritech:foundry/alloy/electrum"},
         {id: "oritech:compact/energizedpower/alloyfurance/oritech_electrum"},
         {id: "oritech:crafting/alloy/electrum"},
+        {id: "oritech:silicon_from_smelting_raw_silicon"},
+        
 
         //mmr
         {output: 'modular_machinery_reborn:modularium'},
@@ -180,6 +182,9 @@ ServerEvents.recipes(catalyst => {
         {id: "xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_raw_block"},
         {id: "xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_ore"},
         {id: "xycraft_machines:compat/mek/processing/aluminum/slurry/clean"},
+
+        //rs refined storage
+        {id: "refinedstorage:silicon"},
 
     ]
 

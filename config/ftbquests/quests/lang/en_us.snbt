@@ -4,7 +4,6 @@
 	chapter.1287AC579F7832FE.title: "Occultism"
 	chapter.136E858245C7C7AD.title: "Apothic Spawners"
 	chapter.16058E3CD3AE6F74.title: "Routers"
-	chapter.160BB09BD6B3B0E2.title: "Xycraft: Machines"
 	chapter.178D85AB0B59714B.title: "&o&6<bounce a=0.31 f=0.3 w=2><pulse base=0.75 a=1.0 f=1.0 w=0.25>Create</pulse></bounce>&r: Starting!"
 	chapter.17F17CB1AD372FE4.title: "&6<pulse base=0.75 a=1.0 f=1.0 w=1.0>Industrial</pulse> &#26b7ecForegoing&r"
 	chapter.184FD88EB54E4E86.title: "Applied Energistics 2 Examples"
@@ -2918,6 +2917,13 @@
 		"You need &6honey treats&r"
 	]
 	quest.244F413E5C160D25.quest_subtitle: "3 bees at once?"
+	quest.2456EE8234B18D05.quest_desc: [
+		"Xycraft is a collection of mods, for decorating to some useful stuff, like different rock generator to pumps."
+		""
+		"It has basic stuff, mostly kivi and xycraft stone are the most important, a part from the Extractor, able to generate lots of useful stuff, like snowballs, obsidian or dragon"
+	]
+	quest.2456EE8234B18D05.quest_subtitle: "Machines"
+	quest.2456EE8234B18D05.title: "Xycraft"
 	quest.245A46C88B6EF096.quest_desc: ["It's cheap, just made from glue and iron and some other materials"]
 	quest.245A46C88B6EF096.quest_subtitle: "The binding"
 	quest.2489A5EDFFCD05C3.quest_desc: [
@@ -5791,6 +5797,7 @@
 		""
 		"We have the &apassive&r generators that will generate power without needing any type of fuel."
 		""
+		"{@pagebreak}"
 		"The other type of generators do require a type of &cfuel&r. They can use fluid fuels or solid fuels. The &8coal&r is commonly used over these type of generators, i do recommend using &6charcoal&r in case you haven't found any coal ores."
 		""
 		"Which mod to use to generate this energy? We got a variety of mods, &3Mekanism&r being of the best ones, due to it having the &eFusion Reactor&r, that can generate &4200MFE&r/t."
@@ -10028,6 +10035,7 @@
 	task.72AB69FAE7968DA3.title: "Sulfuric Acid"
 	task.73E88F63C1D5AE68.title: "Any Motor"
 	task.73F2DC67AACAE16C.title: "Mod created by: &bSuperMartijn642"
+	task.74302622B86A00AB.title: "Xycraft Machines"
 	task.74DE9D66FA636171.title: "Plutonium Ingot"
 	task.75078DC5A54AC93B.title: "Getting the best"
 	task.759C3E8B338464C4.title: "Uranium Ingot"
