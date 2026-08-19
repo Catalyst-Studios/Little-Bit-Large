@@ -2354,10 +2354,7 @@
 				"594951F795F0DC8A"
 			]
 			icon: {
-				components: {
-					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "catalystcore:spirit_agglomeratio"
 			}
 			id: "610C7735CF3C7BF5"
 			rewards: [
@@ -2376,8 +2373,9 @@
 			shape: "octagon"
 			size: 2.5d
 			tasks: [{
-				id: "4D0A64844F8213A7"
-				type: "checkmark"
+				id: "1DA666CB40A88A84"
+				item: { count: 1, id: "catalystcore:spirit_agglomeratio" }
+				type: "item"
 			}]
 			x: 30.0d
 			y: -17.5d

@@ -1246,5 +1246,26 @@
 			x: 10.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["29B79BA6B084ED4A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_nouveau:block/warp_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1FC99D53AB93C9E2"
+			rewards: [{
+				id: "7D027A0B227B1BD6"
+				type: "xp_levels"
+				xp_levels: 400
+			}]
+			tasks: [{
+				id: "352B0AD1E1EDA421"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
 	]
 }

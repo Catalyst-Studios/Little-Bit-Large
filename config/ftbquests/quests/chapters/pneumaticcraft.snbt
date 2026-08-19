@@ -1102,7 +1102,7 @@
 				item: { count: 1, id: "pneumaticcraft:safety_tube_module" }
 				type: "item"
 			}]
-			x: -8.4d
+			x: -8.75d
 			y: 1.05d
 		}
 		{
@@ -2152,6 +2152,25 @@
 			}]
 			x: 1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["386792182535EFAE"]
+			id: "2C2A8116CA4A5430"
+			rewards: [{
+				id: "25999BF98D7424AD"
+				item: {
+					count: 1
+					id: "pneumaticcraft:omnidirectional_hopper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D6E01916FE913B3"
+				item: { count: 1, id: "pneumaticcraft:entity_tracker_upgrade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
 		}
 	]
 }

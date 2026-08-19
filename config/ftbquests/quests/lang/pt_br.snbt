@@ -513,8 +513,6 @@
 		"Se você está vendo isso, significa que está no modo de edição."
 	]
 	quest.06D93FEF99C1385C.title: "Abelha Suspeita"
-	quest.06EA43B239BD0B56.quest_subtitle: "O Começo"
-	quest.06EA43B239BD0B56.title: "Seu Primeiro Modificador!"
 	quest.06F3205FC0167AA4.quest_desc: [
 		"É isso mesmo, este é o &6aprimoramento&r"
 		""
@@ -1986,8 +1984,6 @@
 	quest.1ACFC9C3988684A8.quest_subtitle: "[{\"text\":\"adamas\",\"color\":\"#25e6dc\"}]"
 	quest.1AD0B6FC4101DE41.quest_desc: ["Este item age como um terminal remoto и permite que você acesse seu armazenamento de qualquer lugar do seu mundo."]
 	quest.1AD0B6FC4101DE41.title: "Acesso Remoto"
-	quest.1AD8C1337F69E1C5.quest_desc: ["Faz o gerador exigir um &bsinal de redstone&r para funcionar."]
-	quest.1AD8C1337F69E1C5.title: "Alternador de Redstone"
 	quest.1AF3E9F16A147816.quest_desc: ["Agora, a armadura tem muitos &3aprimoramentos&r que você pode colocar, semelhante à armadura da &aMystical Agriculture&r ou ao Mekasuit do &aMekanism&r."]
 	quest.1AF3E9F16A147816.quest_subtitle: "Aprimoramentos"
 	quest.1AF45B00853ADE5F.quest_desc: [
@@ -2666,13 +2662,6 @@
 		"Coloque os &dfrascos&r no seu &einventário&r e comece a matá-los!"
 	]
 	quest.23D9830AF2B0CBCC.quest_subtitle: "Sementes de Criatura"
-	quest.240552BBF5D94EB1.quest_desc: [
-		"Criaturas ignoram as condições de geração e aparecem em qualquer condição."
-		""
-		"Você não precisa de &bIgnorar Nível de Luz&r se tiver esta melhoria."
-	]
-	quest.240552BBF5D94EB1.quest_subtitle: "Este lugar parece bom o suficiente"
-	quest.240552BBF5D94EB1.title: "&bIgnorar Condições de Geração"
 	quest.242A717797D292A4.quest_desc: [
 		"Eles são usados muito em setups, então você vai querer muitos deles."
 		"Eles aceleram as coisas."
@@ -3710,13 +3699,6 @@
 		"{image:catalyst:textures/quest_images/applied_energetic/entro_farm_2.png width:150 height:100 align:center fit:true}"
 	]
 	quest.325AD48FA7A279AB.quest_subtitle: "Primeiro passo, Entropia"
-	quest.328025E9BA01FBDC.quest_desc: [
-		"O gerador não precisa mais de um &bjogador por perto&r para gerar criaturas."
-		""
-		"Ótimo para farmar enquanto faz outras coisas!"
-	]
-	quest.328025E9BA01FBDC.quest_subtitle: "Eu não preciso de você"
-	quest.328025E9BA01FBDC.title: "&dIgnorar Jogadores"
 	quest.3292668B69E6A25D.quest_desc: [
 		"As &dEstantes do End&r são o nível mais alto de estantes e fornecem no máximo &a90 Eterna&r, perfeito para encantamentos do dia a dia."
 		""
@@ -3750,9 +3732,6 @@
 		"Sim, você leu certo!"
 	]
 	quest.32D7F45EEF23FB81.title: "&lAddon de Filtro de Colheita"
-	quest.32E4322646FFF017.quest_desc: ["As criaturas ignoram o nível de luz e aparecerão em qualquer nível de luz."]
-	quest.32E4322646FFF017.quest_subtitle: "Sou legalmente cego"
-	quest.32E4322646FFF017.title: "Ignorar Nível de Luz"
 	quest.32E928CCA34C266B.quest_desc: [
 		"Você &l&não&r está autorizado a usar estas missões em nenhum modpack público sem &4&npermissão explícita&r do Catalyst Studios."
 		""
@@ -4685,13 +4664,6 @@
 		"É sugerido e aconselhado colocar alguns adicionais de velocidade e eficiência para multiplicar sua taxa de geração!"
 	]
 	quest.409C2BEADCB1C3A9.title: "&lGerador de Lava"
-	quest.40D0DEDD660A301E.quest_desc: [
-		"Diminui a quantidade de vida com que as criaturas nascem."
-		""
-		"Cada dripstone dará &b-5% de vida inicial&r até um &bmínimo de 20% de vida&r."
-	]
-	quest.40D0DEDD660A301E.quest_subtitle: "Chame uma ambulância!"
-	quest.40D0DEDD660A301E.title: "Menos Vida Inicial"
 	quest.40E18730E0B16FFE.quest_desc: [
 		"Sua &amochila&r, seu b&6aú&r pessoal nas suas costas."
 		""
@@ -4964,13 +4936,6 @@
 	quest.44D5D328F4A7375B.title: "&l&cCinzéis"
 	quest.44E4EDC88E6809F6.quest_desc: ["&6Alimentando&r o jogador com &acomida&r? O que é isso? Uma &dmochila&r?"]
 	quest.44E4EDC88E6809F6.quest_subtitle: "Alimentador"
-	quest.45486AC8954F26C1.quest_desc: [
-		"Aumenta o alcance em que as criaturas nascem."
-		""
-		"Cada pistão dará &b+2 de alcance de geração&r até um &bmáximo de 32 blocos&r."
-	]
-	quest.45486AC8954F26C1.quest_subtitle: "Muito espaço para se esticar"
-	quest.45486AC8954F26C1.title: "Mais Alcance de Geração"
 	quest.455950B18235B335.quest_desc: ["Permite mais 10 espaços para células, só que você não pode vê-los no modelo do bloco"]
 	quest.455950B18235B335.quest_subtitle: "Mais espaço"
 	quest.45CEDE5DDED5ADC2.quest_subtitle: "Brilho do Sol do seu Amor?"
@@ -5177,9 +5142,6 @@
 		"Certifique-se de usar uma &zCâmara de Estase&r"
 	]
 	quest.490D3C76D973668B.title: "Carne Líquida"
-	quest.49235AB18DFE6AD7.quest_desc: ["Criaturas geradas sempre nascerão como bebês, se possível."]
-	quest.49235AB18DFE6AD7.quest_subtitle: "&4Seu Monstro&r"
-	quest.49235AB18DFE6AD7.title: "Jovem"
 	quest.49286C762F383267.quest_desc: [
 		"&bDiamantes.&r..."
 		""
@@ -6158,15 +6120,6 @@
 	]
 	quest.5735C6D3BF055470.quest_subtitle: "Prensando, prensando, ...."
 	quest.5735C6D3BF055470.title: "Presses"
-	quest.5760A1BA7C6CDA67.quest_desc: [
-		"Diminui o tempo máximo de tique entre as gerações."
-		""
-		"Cada relógio irá -20 tiques para o &batraso máximo de geração&r."
-		""
-		"O atraso máximo de geração mínimo é de &b20 tiques&r."
-	]
-	quest.5760A1BA7C6CDA67.quest_subtitle: "Limite superior"
-	quest.5760A1BA7C6CDA67.title: "Atraso Máximo de Geração"
 	quest.5767DCAD635EB0D5.quest_desc: ["Sua primeira PCB gravada com sucesso, tudo o que falta são os eletrônicos."]
 	quest.5767DCAD635EB0D5.title: "Base de PCB"
 	quest.577615D670CC3BF1.quest_desc: ["Agora, vamos melhorar suas abelhas, talvez você queira fazer algumas abelhas dracônicas, porque vamos precisar delas, novamente, em quantidades industriais....."]
@@ -7573,9 +7526,6 @@
 	quest.6B1734299D45AFD3.quest_subtitle: "Argila balanceada"
 	quest.6B43DA8A8EFAC636.quest_desc: ["Pule este aprimoramento"]
 	quest.6B43DA8A8EFAC636.quest_subtitle: "Mais rápido"
-	quest.6B477C68C8D84A3D.quest_desc: ["Gera criaturas &6em chamas&r. &oAi&r."]
-	quest.6B477C68C8D84A3D.quest_subtitle: "Deixe-os queimar"
-	quest.6B477C68C8D84A3D.title: "Em Chamas"
 	quest.6B4C6BEDD35D7F0F.quest_desc: [
 		"Esta linha de missões foi feita com a intenção de ter a &bescala da grade&r em &b0.15&r."
 		""
@@ -7648,15 +7598,6 @@
 		"Além disso, você pode mudar sua &cc&r&do&r&6r&r&bc&r&eo&r&rr&r no menu de &bconfigurações&r, &dpropagando&r para outros nós e conectores"
 	]
 	quest.6C45CC92E552B738.quest_subtitle: "Trabalhando, por favor espere"
-	quest.6C504AA720E7C1C3.quest_desc: [
-		"Diminui o tempo mínimo em tiques entre as gerações."
-		""
-		"Cada açúcar irá -20 tiques para o &batraso mínimo de geração&r."
-		""
-		"O atraso mínimo de geração é de &b20 tiques&r."
-	]
-	quest.6C504AA720E7C1C3.quest_subtitle: "Limite inferior"
-	quest.6C504AA720E7C1C3.title: "Atraso Mínimo de Geração"
 	quest.6C6D6015BDFF4BD3.quest_desc: [
 		"Esta é a &bmáquina AE2&r que permite usar &carmazenamento&r de outros mods."
 		"Ela usa 1 &acanal&r e só pode ser colocada em &dcabos inteligentes&r."
@@ -7909,13 +7850,6 @@
 		"Útil apenas para obter bolas de neve ou gelo no início, até você conseguir &6abelhas&r ou &dsementes&r"
 	]
 	quest.6FBE162F8B5157F3.quest_subtitle: "Principalmente inútil, mas tenho que te dizer"
-	quest.6FE1831C4E32CD9D.quest_desc: [
-		"Aumenta a quantidade de criaturas geradas por onda."
-		""
-		"Cada olho adiciona &b+2 à contagem de geração&r até um &bmáximo de 16 criaturas&r em uma única onda."
-	]
-	quest.6FE1831C4E32CD9D.quest_subtitle: "Mais Criaturas!"
-	quest.6FE1831C4E32CD9D.title: "Aumentar Contagem de Geração"
 	quest.6FF0A677B6BDD946.quest_desc: [
 		"Sim, podemos automatizar o &5fluix&r agora sem usar &dsementes&r ou &6abelhas&r."
 		""
@@ -8172,13 +8106,6 @@
 	]
 	quest.747BCC83F4809BCB.quest_subtitle: "Apenas um exemplo, leia &ctodo&r o texto!"
 	quest.747BCC83F4809BCB.title: "&dRede&r de Exemplo"
-	quest.74F6B9592744EC7C.quest_desc: [
-		"Criaturas mortas dropam mais loot!"
-		""
-		"Cada Caco de Eco dá &b+1 nível&r. O nível máximo é &bEcoante V&r."
-	]
-	quest.74F6B9592744EC7C.quest_subtitle: "MAIS LOOT!"
-	quest.74F6B9592744EC7C.title: "Mais Loot!"
 	quest.74FDB5EDE3024323.quest_desc: ["Eu &aespero&r que você não perceba ;)"]
 	quest.7509E3311610BE2B.quest_subtitle: "Chuva de Novembro?"
 	quest.7509E3311610BE2B.title: "Chuva em uma Garrafa"
@@ -8616,9 +8543,6 @@
 	quest.7A3A78C25AC9D033.quest_subtitle: "Ainda não atrai amor..."
 	quest.7A3A78C25AC9D033.title: "Kinecticators"
 	quest.7A545D85BF794497.quest_desc: ["Reduz o alcance do módulo em 1 bloco por aumento. Útil para módulos de vácuo que você deseja que funcionem em uma área menor."]
-	quest.7A71E1BAB8050192.quest_desc: ["+2 entidades totais próximas Máx 32"]
-	quest.7A71E1BAB8050192.quest_subtitle: "Ficando Lotado"
-	quest.7A71E1BAB8050192.title: "Máximo de Entidades Próximas"
 	quest.7A8A665FD3020BF2.quest_desc: [
 		"Estas armaduras têm qualidades especiais, elas podem ser &caumentadas&r"
 		""
@@ -8936,13 +8860,6 @@
 		"Por quê? Porque as colmeias se beneficiam muito mais de outras melhorias"
 	]
 	quest.7DD1FD32851C81F5.quest_subtitle: "Sonic"
-	quest.7DDA8F8BFCB5F3EC.quest_desc: [
-		"Criaturas geram sem IA, o que significa que não farão nada."
-		""
-		"&eAviso:&r Isso &opode&r quebrar certas interações com criaturas."
-	]
-	quest.7DDA8F8BFCB5F3EC.quest_subtitle: "&oO que eu sou?"
-	quest.7DDA8F8BFCB5F3EC.title: "Sem IA"
 	quest.7DF7DE4654985DE5.quest_desc: ["&aArmazenamento&r de &cSource&r do &dArs Nouveau&r, o que no mundo precisa de 50000000000000 de &dsource&r?"]
 	quest.7DF7DE4654985DE5.quest_subtitle: "Espera, source também?"
 	quest.7E1DD64F0353A803.quest_desc: [
@@ -9146,7 +9063,6 @@
 	task.0686373DBEE34528.title: "Bem-vindo"
 	task.06ABB38975C76CB7.title: "Trens"
 	task.07C0B645E9F81502.title: "Cultivo"
-	task.07DEF24772DF8253.title: "Qualquer Bloco de Lã"
 	task.084BF4A248034160.title: "Construções"
 	task.093E833D415B663B.title: "Centrífugas"
 	task.0945FABB3B320E12.title: "Obtenha uma Abelha Mineradora de Chocolate"
@@ -9265,7 +9181,6 @@
 	task.4C3F506C674C4D3E.title: "Automação"
 	task.4CAC18EA6AA8D74A.title: "Rodas Moedoras"
 	task.4CC4125F5D13EE52.title: "Provedor de Padrões Estendido"
-	task.4D0A64844F8213A7.title: "Em Desenvolvimento"
 	task.4D1B372E1C51D2D6.title: "Melhor produtor de açúcar"
 	task.4D77CB9540DD7B51.title: "Obtenha uma Abelha de Cana"
 	task.4EC999DC78E9CD60.title: "Mod criado por: &6Soaryn"

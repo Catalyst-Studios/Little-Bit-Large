@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "useful_mods"
-	group: ""
+	group: "18780F4E46895DDF"
 	icon: {
 		components: {
 			"ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/full.png"
@@ -152,7 +152,7 @@
 			y: -1.5d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -417,11 +417,18 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "58D77E3AB2FAA70A"
-				item: { components: { "ftbfiltersystem:filter": "or(item(relics:golden_tooth)item(relics:pet_bone)item(relics:raw_meatball)item(relics:cooked_meatball)item(relics:leafy_mantle)item(relics:springy_boot)item(relics:kinetic_belt)item(relics:reflective_necklace)item(relics:jellyfish_necklace)item(relics:midnight_mantle)item(relics:roller_skate)item(relics:chorus_staff)item(relics:clot_of_time)item(relics:piglin_mask)item(relics:chef_hat)item(relics:cut_glass_boot)item(relics:rider_flute)item(relics:ring_of_the_seven_deadly_sins)item(relics:sphere_of_self_sacrifice)item(relics:hunting_belt)item(relics:experience_disperser))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58D77E3AB2FAA70A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(relics:golden_tooth)item(relics:pet_bone)item(relics:raw_meatball)item(relics:cooked_meatball)item(relics:leafy_mantle)item(relics:springy_boot)item(relics:kinetic_belt)item(relics:reflective_necklace)item(relics:jellyfish_necklace)item(relics:midnight_mantle)item(relics:roller_skate)item(relics:chorus_staff)item(relics:clot_of_time)item(relics:piglin_mask)item(relics:chef_hat)item(relics:cut_glass_boot)item(relics:rider_flute)item(relics:ring_of_the_seven_deadly_sins)item(relics:sphere_of_self_sacrifice)item(relics:hunting_belt)item(relics:experience_disperser))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7B60B51C8E12A185"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(artifacts:artifacts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 7.0d
 		}
@@ -481,10 +488,7 @@
 			dependencies: ["77E4F1F6EEB85DBA"]
 			hide_dependency_lines: true
 			icon: {
-				components: {
-					"ftbquests:icon": "integrateddynamics:aspect/read/block"
-				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:grass_block"
 			}
 			id: "07B077F7F5D09FDF"
 			size: 1.5d
@@ -501,16 +505,52 @@
 				id: "apothic_enchanting:draconic_endshelf"
 			}
 			id: "116C52D690CC1551"
-			rewards: [{
-				id: "374E1D0799C06C99"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7830EB2F1F46EF21"
-				item: { count: 1, id: "minecraft:bookshelf" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "374E1D0799C06C99"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3B2650CC2FB1862E"
+					item: {
+						count: 1
+						id: "apothic_enchanting:helmet_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "41ACC080EE29E2C9"
+					item: {
+						count: 1
+						id: "apotheosis:gem_case"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "44E488FAD620B7F1"
+					item: { count: 1, id: "apotheosis:gem_dust" }
+					type: "item"
+				}
+				{
+					id: "3B317B6771FACA5E"
+					item: { count: 1, id: "apotheosis:salvaging_table" }
+					type: "item"
+				}
+				{
+					id: "6B789AC1A9C9BEDD"
+					item: { count: 1, id: "apotheosis:gem_cutting_table" }
+					type: "item"
+				}
+				{
+					id: "4B2791C43C8D30F6"
+					item: { count: 1, id: "apotheosis:simple_reforging_table" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -1456,8 +1496,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "19B6BA05C38FE224"
-				item: { components: { "ftbquests:missing_item": "hyperbox:hyperbox" }, count: 1, id: "ftbquests:missing_item" }
+				id: "162B53FA9B59633A"
+				item: { count: 1, id: "hyperbox:hyperbox" }
 				type: "item"
 			}]
 			x: 6.5d

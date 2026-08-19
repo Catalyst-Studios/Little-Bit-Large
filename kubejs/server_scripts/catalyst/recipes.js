@@ -347,7 +347,41 @@ ServerEvents.recipes(catalyst => {
         V: 'evilcraft:vengeance_essence'
     }).id("catalyst:endgame/evilcraft/spirit_agglomeratio")
 
+    catalyst.shaped(Item.of('catalystcore:cosmic_shatterer', 1), [
+        "LWL",
+        "DNS",
+        "LAL"
+    ],
+    {
+        L: 'catalystcore:life_essence_bottle',
+        W: 'ars_nouveau:whirlisprig_shards',
+        D: 'ars_nouveau:drygmy_charm',
+        N: 'ars_elemental:necrotic_focus',
+        S: 'ars_nouveau:starbuncle_charm',
+        A: 'ars_elemental:siren_shards'
+    })
+    .id("catalyst:cosmic_shatterer");
+
     console.log("[CatJS] Added recipe for end game items")
+    
+    catalyst.shaped(Item.of('gateways:gate_pearl[gateways:gateway="apotheosis:endless_invader"]', 1), [
+        "GIG",
+        "EAW",
+        "GBG"
+    ],
+    {
+        G: 'apotheosis:god_fused_pearl',
+        I: 'apotheosis:ignore_players_spawner_rune',
+        E: 'apothic_enchanting:ender_library',
+        A: 'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/pinnacle"]',
+        W: 'catalystcore:warden_core',
+        B: 'apotheosis:ender_gem_case'
+    })
+    .id("catalyst:gate_pearl");
+
+
+    console.log("[CatJS] Added misc items using Cat items");
+    
 })
 
 
