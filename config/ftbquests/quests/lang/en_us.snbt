@@ -7230,7 +7230,9 @@
 	quest.5A5767A21252D0E2.quest_desc: [
 		"This should be your first rods to be used, since the last tier ones won't last you longer."
 		""
-		"Make some energized steel first"
+		"If you use Powah cables, you are able to walk throught them"
+		""
+		"Make some energized steel so we can progress in this relative quick mod to complete"
 	]
 	quest.5A7AC88F7D638EF5.quest_desc: ["Crafting item for other tiers capacitors, basic battery and basic reactor"]
 	quest.5A83782E4EB80DB5.quest_desc: [
