@@ -711,8 +711,8 @@
 			dependencies: [
 				"72E024F538AAFA84"
 				"5858DC9FC4A4272A"
+				"54B871DFAEAD338E"
 			]
-			hide_dependent_lines: true
 			id: "61913412655E0531"
 			tasks: [{
 				count: 64L
@@ -819,7 +819,9 @@
 			dependencies: [
 				"5E635799470EEF47"
 				"61913412655E0531"
+				"5433B1AF13AFAC6C"
 			]
+			hide_dependency_lines: true
 			id: "3F4117B3A4060A90"
 			rewards: [{
 				exclude_from_claim_all: true
