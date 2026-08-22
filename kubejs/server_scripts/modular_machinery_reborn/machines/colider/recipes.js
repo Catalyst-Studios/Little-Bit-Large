@@ -1061,6 +1061,21 @@ ServerEvents.recipes(catalyst => {
         // Energized power
         {
             time: 200,
+            energy: 2500000,
+            outputs: [{ id: "energizedpower:solar_panel_7", count: 1, chance: 1.0 }],
+            inputs: [
+                { id: 'solargeneration:solar_panel_ultimate', count: 1, chance: 1.0 },
+                { id: 'energizedpower:elite_solar_cell', count: 1, chance: 1.0 },
+                { id: "eternalores:silicon", count: 2048, chance: 1.0 },
+                { id: "minecraft:glass_pane", count: 256, chance: 1.0 },
+                { id: 'eternalores:stellarium_ingot', count: 1, chance: 1.0 }
+            ],
+            fluid_input: [],
+            fluid_output: [],
+            energy_out: 0
+        },
+        {
+            time: 200,
             energy: 1250000,
             outputs: [{ id: "energizedpower:solar_panel_6", count: 1, chance: 1.0 }],
             inputs: [

@@ -58,6 +58,19 @@ ServerEvents.recipes(catalyst => {
     solar_recipe("eternalores:eternal_light_block", plate("eternal_dark"), cell, energ("5"), solar("advanced"))
     solar_recipe(ingot, plate("ultimatitanium"), cell, solar("advanced"), energ("6"))
     solar_recipe("eternalores:missing_ingot", plate("etherium"), cell, energ("6"), solar("ultimate"))
+    
+    catalyst.shaped(Item.of('energizedpower:solar_panel_7', 1), [
+        "PPP",
+        "SES",
+        "AAA"
+    ],
+    {
+        P: 'powah:photoelectric_pane',
+        S: 'solargeneration:solar_panel_ultimate',
+        E: 'energizedpower:elite_solar_cell',
+        A: 'eternalores:plate_stellarium'
+    })
+    .id("catalyst:solar_generators/solar_generation_solar_panel_ultimate_to_energizedpower_solar_panel_7");
 
     console.log("[CatJS] Added Solar Generators recipes");
 })
