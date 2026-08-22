@@ -1803,5 +1803,16 @@
 			x: 14.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["22E2F44C5CA270E0"]
+			id: "3A698C3110C4E336"
+			tasks: [{
+				id: "4A4AC784C3CF9332"
+				item: { count: 1, id: "catalystcore:ethereal_seeds" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
 	]
 }
