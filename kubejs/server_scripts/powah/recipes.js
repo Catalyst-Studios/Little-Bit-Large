@@ -25,34 +25,6 @@ ServerEvents.recipes(catalyst => {
     catalyst.custom({
         type: 'powah:energizing',
         ingredients: [
-            Ingredient.of('minecraft:iron_block'),
-            Ingredient.of('minecraft:gold_block'),
-            Ingredient.of('minecraft:iron_block'),
-            Ingredient.of('minecraft:gold_block')
-        ],
-        energy: 84000,
-        result: Item.of('powah:energized_steel_block', 2)
-    })
-    .id('catalyst:energizing/energized_steel_block_2')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:iron_block'),
-            Ingredient.of('minecraft:gold_block'),
-            Ingredient.of('minecraft:iron_block'),
-            Ingredient.of('minecraft:gold_block'),
-            Ingredient.of('minecraft:iron_block'),
-            Ingredient.of('minecraft:gold_block')
-        ],
-        energy: 126000,
-        result: Item.of('powah:energized_steel_block', 3)
-    })
-    .id('catalyst:energizing/energized_steel_block_3')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
             Ingredient.of('eternalores:compressed_iron_block_1x'),
             Ingredient.of('eternalores:compressed_gold_block_1x')
         ],
