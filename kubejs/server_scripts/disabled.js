@@ -186,6 +186,10 @@ ServerEvents.recipes(catalyst => {
         //rs refined storage
         {id: "refinedstorage:silicon"},
 
+        //powah
+        {id: "eternalores:compat/powah/energizing_orb/item/uraninite_ore"}, 
+        {id: "mysticalagradditions:essence/nitro_crystal"}
+
     ]
 
     recipesToRemove.forEach(recipe => {

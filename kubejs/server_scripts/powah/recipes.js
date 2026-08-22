@@ -61,159 +61,6 @@ ServerEvents.recipes(catalyst => {
     })
     .id('catalyst:energizing/compressed_energized_steel_block')
 
-    // Blazing
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block')
-        ],
-        energy: 480000,
-        result: Item.of('powah:blazing_crystal_block', 2)
-    })
-    .id('catalyst:energizing/blazing_crystal_block_2')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block')
-        ],
-        energy: 720000,
-        result: Item.of('powah:blazing_crystal_block', 3)
-    })
-    .id('catalyst:energizing/blazing_crystal_block_3')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block')
-        ],
-        energy: 960000,
-        result: Item.of('powah:blazing_crystal_block', 4)
-    })
-    .id('catalyst:energizing/blazing_crystal_block_4')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block'),
-            Ingredient.of('eternalores:blaze_block')
-        ],
-        energy: 1200000,
-        result: Item.of('powah:blazing_crystal_block', 5)
-    })
-    .id('catalyst:energizing/blazing_crystal_block_5')
-
-    // Niotic Crystal Block
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block')
-        ],
-        energy: 1160000,
-        result: Item.of('powah:niotic_crystal_block', 2)
-    })
-    .id('catalyst:energizing/niotic_crystal_block_2')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block')
-        ],
-        energy: 1740000,
-        result: Item.of('powah:niotic_crystal_block', 3)
-    })
-    .id('catalyst:energizing/niotic_crystal_block_3')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block')
-        ],
-        energy: 2320000,
-        result: Item.of('powah:niotic_crystal_block', 4)
-    })
-    .id('catalyst:energizing/niotic_crystal_block_4')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block'),
-            Ingredient.of('minecraft:diamond_block')
-        ],
-        energy: 2900000,
-        result: Item.of('powah:niotic_crystal_block', 5)
-    })
-    .id('catalyst:energizing/niotic_crystal_block_5')
-    
-    // Spirited Crystal Block
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block')
-        ],
-        energy: 4800000,
-        result: Item.of('powah:spirited_crystal_block', 2)
-    })
-    .id('catalyst:energizing/spirited_crystal_block_2')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block')
-        ],
-        energy: 7200000,
-        result: Item.of('powah:spirited_crystal_block', 3)
-    })
-    .id('catalyst:energizing/spirited_crystal_block_3')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block')
-        ],
-        energy: 9600000,
-        result: Item.of('powah:spirited_crystal_block', 4)
-    })
-    .id('catalyst:energizing/spirited_crystal_block_4')
-
-    catalyst.custom({
-        type: 'powah:energizing',
-        ingredients: [
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block'),
-            Ingredient.of('minecraft:emerald_block')
-        ],
-        energy: 12000000,
-        result: Item.of('powah:spirited_crystal_block', 5)
-    })
-    .id('catalyst:energizing/spirited_crystal_block_5')
-
     //Uraninite 
     catalyst.custom({
         type: 'powah:energizing',
@@ -533,6 +380,16 @@ ServerEvents.recipes(catalyst => {
         P: 'enderio:photovoltaic_plate'
     })
     .id("catalyst:solar/photoelectric_pane");
+
+    catalyst.shaped(Item.of('powah:crystal_nitro', 5), [
+        "NNN",
+        "N N",
+        "NNN"
+    ],
+    {
+        N: 'mysticalagriculture:nitro_crystal_essence'
+    })
+    .id("catalyst:powah/crystal_nitro");
 
     console.log("[CatJS] Powah Recipes");
 })
