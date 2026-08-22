@@ -8,6 +8,36 @@
 	disable_gui: false
 	drop_book_on_death: false
 	drop_loot_crates: false
+	emergency_items: [
+		{
+			count: 1
+			id: "minecraft:stone_pickaxe"
+		}
+		{
+			count: 16
+			id: "minecraft:cobblestone"
+		}
+		{
+			count: 1
+			id: "mekanismtools:bronze_sword"
+		}
+		{
+			count: 1
+			id: "minecraft:leather_chestplate"
+		}
+		{
+			count: 1
+			id: "minecraft:iron_helmet"
+		}
+		{
+			count: 1
+			id: "mekanismtools:bronze_leggings"
+		}
+		{
+			count: 1
+			id: "mekanismtools:lapis_lazuli_boots"
+		}
+	]
 	emergency_items_cooldown: 300
 	fallback_locale: ""
 	grid_scale: 0.5d
