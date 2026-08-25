@@ -14,7 +14,7 @@ function summonEntities(catalyst, entityType, count, x, y, z)
 {
     for(let i = 0; i < count; i++)
     {
-        catalyst.server.runCommandSilent(`summon minecraft:item ${x} ${y} ${z} {Item:{id:"${entityType}"}}`);;
+        catalyst.server.runCommandSilent(`summon minecraft:item ${x} ${y} ${z} {Item:{id:"${entityType}", Count:1b}}`);
     }
 }
 
@@ -237,6 +237,7 @@ BlockEvents.rightClicked('justdirethings:gooblock_tier4', catalyst => {
                         }
                     }
                 }
+            }
 
             // If there are at least 6 Raw Celestigem Ore Blocks, exactly 8 Reinforced Deepslate Blocks in the corners,
             // and 4 of each of the new blocks, proceed with the crafting
@@ -262,7 +263,6 @@ BlockEvents.rightClicked('justdirethings:gooblock_tier4', catalyst => {
 
                 // Consume the Netherite Upgrade Smithing Template item
                 catalyst.player.getMainHandItem().count -= 64;
-            }
             }
         }
     }
