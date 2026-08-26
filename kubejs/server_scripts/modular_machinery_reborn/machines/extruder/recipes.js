@@ -6,7 +6,9 @@ ServerEvents.recipes(catalyst => {
     let energized_plates = [
         { input: 'energizedpower:advanced_alloy_ingot', output: 'energizedpower:advanced_alloy_plate' },
         { input: 'energizedpower:energized_copper_ingot', output: 'energizedpower:energized_copper_plate' },
-        { input: 'energizedpower:energized_gold_ingot', output: 'energizedpower:energized_gold_plate' }
+        { input: 'energizedpower:energized_gold_ingot', output: 'energizedpower:energized_gold_plate' },
+        { input: 'energizedpower:crystallized_alloy_ingot', output: 'energizedpower:crystallized_alloy_plate' },
+        { input: 'energizedpower:energized_alloy_ingot', output: 'energizedpower:energized_alloy_plate' }
     ];
 
     let standard_wires = [
