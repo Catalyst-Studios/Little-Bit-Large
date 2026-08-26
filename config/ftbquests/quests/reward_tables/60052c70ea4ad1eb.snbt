@@ -1,0 +1,56 @@
+{
+	icon: {
+		id: "powah:dielectric_paste"
+	}
+	id: "60052C70EA4AD1EB"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			count: 5
+			id: "5FD484F3F4762029"
+			item: {
+				count: 1
+				id: "powah:steel_energized"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "55A8EAB52CEB99D8"
+			item: {
+				count: 1
+				id: "powah:crystal_blazing"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "10FBC7011D9E5AEE"
+			item: {
+				count: 1
+				id: "powah:dielectric_paste"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 10
+			id: "45DF4AB56E3F1CEA"
+			item: {
+				count: 1
+				id: "eternalores:uraninite_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "6B798EB2C61F7C7F"
+			item: {
+				count: 1
+				id: "powah:dry_ice"
+			}
+			weight: 2.0f
+		}
+		{ id: "4FC16210DCCA4ABE", item: { count: 1, id: "powah:crystal_niotic" } }
+	]
+}

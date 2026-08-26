@@ -1,0 +1,47 @@
+{
+	icon: {
+		id: "energizedpower:advanced_upgrade_module"
+	}
+	id: "1748E975BB81B4CA"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			id: "7247E1BA65D2AB74"
+			item: {
+				count: 1
+				id: "energizedpower:advanced_upgrade_module"
+			}
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			id: "568F8CAB0888E5F1"
+			item: {
+				count: 1
+				id: "energizedpower:energized_copper_ingot"
+			}
+			random_bonus: 1
+		}
+		{ id: "1A23A45C8F2C99A5", item: { count: 1, id: "energizedpower:energized_gold_ingot" } }
+		{
+			count: 3
+			id: "6769104162108CC8"
+			item: {
+				count: 1
+				id: "energizedpower:crystal_matrix"
+			}
+			random_bonus: 3
+			weight: 3.0f
+		}
+		{
+			id: "7CB23A54AA8A69F5"
+			item: {
+				count: 1
+				id: "energizedpower:advanced_alloy_ingot"
+			}
+			random_bonus: 4
+			weight: 5.0f
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	icon: {
+		id: "powah:crystal_niotic"
+	}
+	id: "130D7ED8172DE291"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			count: 4
+			id: "5C22F018C65A9DF7"
+			item: {
+				count: 1
+				id: "powah:crystal_niotic"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "0AF37837D4EDC4C9"
+			item: {
+				count: 1
+				id: "powah:crystal_spirited"
+			}
+			weight: 2.0f
+		}
+		{ id: "0DA9B081C613E2B0", item: { count: 1, id: "powah:crystal_nitro" } }
+		{
+			count: 64
+			id: "401AF3F2A5C97EC7"
+			item: {
+				count: 1
+				id: "powah:dielectric_paste"
+			}
+		}
+		{
+			count: 2
+			id: "55DC4E55DB2355FA"
+			item: {
+				count: 1
+				id: "powah:blazing_crystal_block"
+			}
+			weight: 2.0f
+		}
+	]
+}

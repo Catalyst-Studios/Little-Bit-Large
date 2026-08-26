@@ -598,6 +598,15 @@ ServerEvents.recipes(event => {
                 { id: "eternalores:osmium_ingot", count: 1 },
                 { id: "eternalores:gem_certus_quartz", count: 1}
             ]
+        },
+        {
+            result: 'energizedpower:crystallized_alloy_ingot',
+            result_count: 2,
+            inputs: [
+                { id: 'energizedpower:crystallized_lapis_lazuli', count: 4 },
+                { id: 'energizedpower:crystal_matrix', count: 2 },
+                { id: 'energizedpower:advanced_alloy_ingot', count: 3}
+            ]
         }
     ];
 

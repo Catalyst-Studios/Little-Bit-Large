@@ -258,6 +258,12 @@
 		{
 			dependencies: ["374D3F10FD46CC21"]
 			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "116BB789A12F3457"
 			tasks: [{
 				id: "0D0B21600C69185B"

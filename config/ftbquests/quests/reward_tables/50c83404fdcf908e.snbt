@@ -1,0 +1,64 @@
+{
+	icon: {
+		id: "energizedpower:basic_upgrade_module"
+	}
+	id: "50C83404FDCF908E"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			count: 21
+			id: "3DEDF07460A11107"
+			item: {
+				count: 1
+				id: "energizedpower:cable_insulator"
+			}
+			random_bonus: 21
+		}
+		{
+			count: 5
+			id: "722F3E9B1E2D5783"
+			item: {
+				count: 1
+				id: "energizedpower:tin_cable"
+			}
+			random_bonus: 7
+		}
+		{
+			count: 3
+			id: "32FD7053B397D9F4"
+			item: {
+				count: 1
+				id: "energizedpower:gold_cable"
+			}
+			random_bonus: 2
+		}
+		{ id: "43CF8603D7F00D75", item: { count: 1, id: "energizedpower:advanced_alloy_ingot" } }
+		{
+			id: "37C97DBAE58A9067"
+			item: {
+				count: 1
+				id: "energizedpower:basic_upgrade_module"
+			}
+			random_bonus: 1
+		}
+		{
+			count: 2
+			id: "1E2DDDEC005585BE"
+			item: {
+				count: 1
+				id: "energizedpower:basic_solar_cell"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 10
+			id: "4F820BF635AFA53F"
+			item: {
+				count: 1
+				id: "eternalores:silicon"
+			}
+			random_bonus: 12
+		}
+	]
+}

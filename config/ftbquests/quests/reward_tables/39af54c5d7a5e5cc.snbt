@@ -1,0 +1,71 @@
+{
+	icon: {
+		id: "powah:crystal_nitro"
+	}
+	id: "39AF54C5D7A5E5CC"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			count: 9
+			id: "0F3C953D87EAD28E"
+			item: {
+				count: 1
+				id: "powah:crystal_spirited"
+			}
+			random_bonus: 5
+		}
+		{
+			count: 9
+			id: "28AC32EC0CC8E25A"
+			item: {
+				count: 1
+				id: "powah:crystal_nitro"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "1925B012749055CF"
+			item: {
+				count: 1
+				id: "powah:niotic_crystal_block"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "2838AFA441749B6E"
+			item: {
+				count: 1
+				id: "powah:solar_panel_nitro"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "3FE12697BB5B5886"
+			item: {
+				count: 1
+				id: "powah:capacitor_nitro"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 4
+			id: "305EB22295045EFD"
+			item: {
+				count: 1
+				id: "catalystcore:liquid_darkness_bucket"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 3
+			id: "4C848BA83E1E1111"
+			item: {
+				count: 1
+				id: "catalystcore:liquid_light_bucket"
+			}
+			random_bonus: 6
+		}
+	]
+}

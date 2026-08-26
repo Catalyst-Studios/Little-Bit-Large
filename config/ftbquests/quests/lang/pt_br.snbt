@@ -6207,12 +6207,6 @@
 	quest.594A88E613C554B4.quest_subtitle: "O baú que faz tudo"
 	quest.5955BACB5F4570FA.quest_desc: ["Basicamente, &dpermite&r que você &carmazene&r 8 vezes mais em cada &6slot&r"]
 	quest.5955BACB5F4570FA.quest_subtitle: "MAIS?!?!"
-	quest.595C57935DCCD08E.quest_desc: [
-		"A &6Linha de Missões de Energized Power&r ainda está em desenvolvimento, para mais informações, junte-se ao nosso discord para ver o status atual!"
-		""
-		"Desculpe pela Inconveniência."
-	]
-	quest.595C57935DCCD08E.title: "Linha de Missões em Desenvolvimento"
 	quest.596F28EF0EB7002F.quest_desc: [
 		"\"Estas &6abelhas&r precisam de um ambiente &dmágico&r para &afuncionarem&r, mas parece que elas podem &5trabalhar&r em &3paralelo&r umas com as outras\" - &5Executor&r Mágico 1"
 		""

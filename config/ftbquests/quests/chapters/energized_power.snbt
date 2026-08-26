@@ -1,5 +1,6 @@
 {
 	always_invisible: true
+	autofocus_id: "2F4E1ADE29C2972F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "energized_power"
@@ -11,25 +12,2341 @@
 	images: [ ]
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "ftblibrary:icons/check"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "ftbquests:custom_icon"
+			id: "2F4E1ADE29C2972F"
+			rewards: [{
+				id: "33D1A55FC2017F89"
+				item: {
+					count: 1
+					id: "energizedpower:energized_power_book"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "25324B772D5AD829"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
 		}
-		id: "595C57935DCCD08E"
-		rewards: [{
-			id: "0E2406F9F78A47FA"
-			type: "xp"
-			xp: 100
-		}]
-		shape: "heart"
-		tasks: [{
-			id: "666768BA0EABF53F"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: 0.0d
-	}]
+		{
+			dependencies: ["6073BA8A01393C9A"]
+			id: "63FB6D7D962088EC"
+			tasks: [{
+				id: "20C0EDF011CCACDC"
+				item: { count: 1, id: "energizedpower:cutter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F4E1ADE29C2972F"]
+			id: "07DAE2AC4660AEE3"
+			tasks: [{
+				id: "3E72E9E19E3A44F7"
+				item: { count: 1, id: "energizedpower:wrench" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07DAE2AC4660AEE3"]
+			id: "6F8BC77701F996A4"
+			tasks: [{
+				id: "318536C02F3925B0"
+				item: { count: 1, id: "energizedpower:machine_configurator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F4E1ADE29C2972F"]
+			id: "6073BA8A01393C9A"
+			tasks: [{
+				id: "2524411D8CFB420E"
+				item: { count: 1, id: "energizedpower:diamond_hammer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6F8BC77701F996A4"
+				"63FB6D7D962088EC"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D4962777B170BCF"
+			tasks: [{
+				id: "2A40554066330DFC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D4962777B170BCF"]
+			id: "14C1AEB2835E60A1"
+			tasks: [{
+				id: "6EF683D451B01573"
+				item: { count: 1, id: "energizedpower:copper_fluid_pipe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14C1AEB2835E60A1"]
+			id: "7F310BF4068C46F8"
+			tasks: [{
+				id: "4D507CA665302ED1"
+				item: { count: 1, id: "energizedpower:fluid_pipe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F310BF4068C46F8"]
+			id: "48BCCE534E86904D"
+			tasks: [{
+				id: "7009464003476B80"
+				item: { count: 1, id: "energizedpower:golden_fluid_pipe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BFA12DF02ED23C1"]
+			id: "6469FDB9E58A7131"
+			tasks: [{
+				id: "524708FD56CDCFF8"
+				item: { count: 1, id: "energizedpower:tin_cable" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6469FDB9E58A7131"]
+			id: "0E00C461AF798658"
+			tasks: [{
+				id: "5ADA58D4DFA2BA7C"
+				item: { count: 1, id: "energizedpower:copper_cable" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E00C461AF798658"]
+			id: "12A223928F9A175E"
+			tasks: [{
+				id: "010B827F12BA22EC"
+				item: { count: 1, id: "energizedpower:gold_cable" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D4962777B170BCF"]
+			id: "2F378EA1329F8B27"
+			tasks: [{
+				id: "095C9B722066F7FE"
+				item: { count: 1, id: "energizedpower:press_mold_maker" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D4962777B170BCF"]
+			id: "710A60E3C18DEE07"
+			tasks: [{
+				id: "44A553FB4074FAEB"
+				item: { count: 1, id: "energizedpower:alloy_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"710A60E3C18DEE07"
+				"2F378EA1329F8B27"
+			]
+			id: "1E1F4F88D5714E12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44E16E129AF0CC96"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "438F07CAED899B3E"
+				item: { count: 1, id: "energizedpower:basic_machine_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F378EA1329F8B27"]
+			id: "1D43DEFCDE66C314"
+			tasks: [
+				{
+					id: "729A62AF5023318D"
+					item: { count: 1, id: "energizedpower:raw_gear_press_mold" }
+					type: "item"
+				}
+				{
+					id: "79DA71E5D7F7929F"
+					item: { count: 1, id: "energizedpower:raw_rod_press_mold" }
+					type: "item"
+				}
+				{
+					id: "76FF1437A93FCCBA"
+					item: { count: 1, id: "energizedpower:raw_wire_press_mold" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			id: "1C19795D0CB80D14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C8780283E974689"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "086CB7B7C80ED98B"
+				item: { count: 1, id: "energizedpower:hardened_machine_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1C19795D0CB80D14"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "000CE1F489C73737"
+			tasks: [{
+				id: "7630A9A757932257"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["710A60E3C18DEE07"]
+			id: "60F1626FEBB9A4C6"
+			tasks: [{
+				id: "3D8B1CBB58B6912F"
+				item: { count: 1, id: "energizedpower:induction_smelter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["000CE1F489C73737"]
+			id: "0E628626CF8245D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10F5C63DE524B525"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FACCBA729E116ED"
+				item: { count: 1, id: "energizedpower:heat_generator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["000CE1F489C73737"]
+			id: "3D7AD4420DA21D23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31B00DF82019A5F3"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7036D81AC502F41F"
+				item: { count: 1, id: "energizedpower:thermal_generator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["000CE1F489C73737"]
+			id: "4CA86A033479FF03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BA990EC3C61C04F"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "65825E8C29AB4AB2"
+				item: { count: 1, id: "energizedpower:battery_box" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1EDB5B9EBE40E2A0"
+			tasks: [{
+				id: "108AD6436A85F52B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "03971ACD2EAC5B45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ADEC5415C24E57C"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4873CE98290BFE71"
+				item: { count: 1, id: "energizedpower:plant_growth_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["03971ACD2EAC5B45"]
+			id: "001E685F62DE940B"
+			tasks: [{
+				id: "031774A8C8DD6A88"
+				item: { count: 1, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["001E685F62DE940B"]
+			id: "60D0092E84ECF301"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B936D5C28129D2B"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5FEB96060091468B"
+				item: { count: 1, id: "energizedpower:basic_fertilizer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["60D0092E84ECF301"]
+			id: "6D7DB1072D32E725"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15B302CC1C70CC3C"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "14675678F2FD28C0"
+				item: { count: 1, id: "energizedpower:good_fertilizer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D7DB1072D32E725"]
+			id: "55CDBB3FE593BCB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC8A3700A9EDB7B"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58E672A4C42772DA"
+				item: { count: 1, id: "energizedpower:advanced_fertilizer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7D4962777B170BCF"]
+			id: "0BFA12DF02ED23C1"
+			tasks: [{
+				id: "445DD074AB90BC71"
+				item: { count: 1, id: "energizedpower:cable_insulator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EDB5B9EBE40E2A0"]
+			id: "0E4920A6EB713AFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E51F39281BC9482"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E054E6C80A9E11F"
+				item: { count: 1, id: "energizedpower:charger" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"3E2AAD1CE0883A9E"
+				"5ABD6ADBC06BAAB5"
+			]
+			id: "0E8F22B3E0D200F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70BDD984614D76AE"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "411D7B8B13B4566B"
+				item: { count: 1, id: "energizedpower:energizer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["0E4920A6EB713AFB"]
+			id: "14F55DF8897A481B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571837C0A5EAFAFC"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "555BA6917C2D6D25"
+				item: { count: 1, id: "energizedpower:energized_copper_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"14F55DF8897A481B"
+				"146EA2D8FE69527B"
+			]
+			id: "3E2AAD1CE0883A9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B83ED7AC79D3DEE"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2341F286A9D0E1E3"
+				item: { count: 1, id: "energizedpower:energized_copper_plate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["14F55DF8897A481B"]
+			id: "071D42E954EFFC38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BDC7A3F116FA2DE"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "367709F0CA7D3CD1"
+				item: { count: 1, id: "energizedpower:energized_copper_cable" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1EDB5B9EBE40E2A0"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0E0CE91A82A816EB"
+			tasks: [{
+				id: "6981FB23B419FA3E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["0E0CE91A82A816EB"]
+			id: "7EB8977A7A05AEA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1932EFAC71639C9A"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2BFB9CBD25997978"
+				item: { count: 1, id: "energizedpower:advanced_alloy_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7EB8977A7A05AEA8"]
+			id: "61D5D85468049267"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257508D3B30E0A96"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2AC3F63F3E45D6E9"
+				item: { count: 1, id: "energizedpower:advanced_alloy_plate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7EB8977A7A05AEA8"]
+			id: "5ABD6ADBC06BAAB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "489ED299CD5213A6"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3208D66C29BD4C38"
+				item: { count: 1, id: "energizedpower:advanced_machine_frame" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["61D5D85468049267"]
+			id: "3DC846B8C02E58F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2947D574AD943933"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "311796018EDA7ADC"
+				item: { count: 1, id: "energizedpower:charging_station" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["61D5D85468049267"]
+			id: "5C51BA9406B66C78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6412586D511EA844"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "76092F1A2DA4BDAC"
+				item: { count: 1, id: "energizedpower:crystal_growth_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1EDB5B9EBE40E2A0"]
+			id: "146EA2D8FE69527B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BA7FB4DA8E0F59B"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2EDDC143849E3560"
+				item: { count: 1, id: "energizedpower:compressor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["61D5D85468049267"]
+			id: "01634B782B178153"
+			rewards: [
+				{
+					id: "3A3E8DD25775368D"
+					item: {
+						count: 1
+						id: "powah:charged_snowball"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05AB43249AFA0542"
+					table_id: 1677847553061795018L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "112FED90C7E279AF"
+				item: { count: 1, id: "energizedpower:lightning_generator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0E8F22B3E0D200F3"]
+			id: "730DAFEC67BD0508"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56264125BB00D8AD"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "31772D04E3E98766"
+				item: { count: 1, id: "energizedpower:assembling_machine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "76627B9D3393441C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2A1B9C24299B86"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4969427F34B81239"
+				item: { count: 1, id: "energizedpower:energized_gold_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["76627B9D3393441C"]
+			id: "09805FB4A6C0959B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F12F4537EB18ADB"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B60E9A02AB592E6"
+				item: { count: 1, id: "energizedpower:energized_gold_plate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 33.5d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "30B424AB178FF23C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D0ACE8ABFE2C9AF"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7565D8F1EE1F21D7"
+				item: { count: 1, id: "energizedpower:crystal_matrix" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["30B424AB178FF23C"]
+			id: "238702C6F6C1F3EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "034FFD7BDA836955"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "664B83A6E9E79EF0"
+				item: { count: 1, id: "energizedpower:energized_crystal_matrix" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 33.5d
+		}
+		{
+			dependencies: ["238702C6F6C1F3EB"]
+			id: "0EA99797A43CC2D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F448A190A05FC37"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2FFF0770DFECA497"
+				item: { count: 1, id: "energizedpower:energized_crystal_matrix_cable" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["09805FB4A6C0959B"]
+			id: "64829F0BBF337F81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0953156A970084F1"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4AAB369D3D2CD4EC"
+				item: { count: 1, id: "energizedpower:energized_gold_cable" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["09805FB4A6C0959B"]
+			id: "5A52085AF24968DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "566F07E7ECC102A8"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D599A939396C6D7"
+				item: { count: 1, id: "energizedpower:advanced_battery_box" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"5A52085AF24968DC"
+				"0EA99797A43CC2D1"
+			]
+			id: "0939C9E8A0274912"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29762E72EFB48D74"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "303D35B6D1424630"
+				item: { count: 1, id: "energizedpower:reinforced_advanced_machine_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["36B491E769510D26"]
+			id: "4528478FC879FB28"
+			rewards: [{
+				id: "2CE5FF67498C1610"
+				item: {
+					count: 1
+					id: "energizedpower:teleporter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B549ADBA53BA02"
+				item: { count: 1, id: "energizedpower:teleporter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 37.0d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "070DAA1B0BDC0CBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62E6126779BD2BFD"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				count: 64L
+				id: "3C9B7DB3D6421546"
+				item: { count: 1, id: "energizedpower:crystallized_lapis_lazuli" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["070DAA1B0BDC0CBC"]
+			id: "736BB1909D736310"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "768A82D6CEE25DEB"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35A0467815BA357B"
+				item: { count: 1, id: "energizedpower:crystallized_alloy_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["736BB1909D736310"]
+			id: "6C4A7CEBB5475A5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D078E1898600AC4"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DD49FDD8C2FF018"
+				item: { count: 1, id: "energizedpower:crystallized_alloy_plate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 45.5d
+		}
+		{
+			dependencies: ["6C4A7CEBB5475A5E"]
+			id: "709E19F2CE7323DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DBB1AFEFEB094C1"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B92C98BD2D74986"
+				item: { count: 1, id: "energizedpower:pressurized_fluid_pipe" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["070DAA1B0BDC0CBC"]
+			id: "7DA3D260E022D398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A313D8BB169F8A"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "05BB73B3BE9DBAFE"
+				item: { count: 1, id: "energizedpower:coolant_cell" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["736BB1909D736310"]
+			id: "4E6720A4DA9C8D6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ADD8C857BF5A678"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C2B84C292FABC02"
+				item: { count: 1, id: "energizedpower:energized_alloy_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 47.0d
+		}
+		{
+			dependencies: ["4E6720A4DA9C8D6A"]
+			id: "49DB0E12F5C3BEAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11116CE941D59C44"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31292F4E1AE712DD"
+				item: { count: 1, id: "energizedpower:energized_alloy_plate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 48.5d
+		}
+		{
+			dependencies: [
+				"49DB0E12F5C3BEAB"
+				"7DA3D260E022D398"
+			]
+			id: "50AFAF555C575CD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EF9077C384C8576"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "643E559764160C39"
+				item: { count: 1, id: "energizedpower:superconductor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 48.5d
+		}
+		{
+			dependencies: [
+				"49DB0E12F5C3BEAB"
+				"50AFAF555C575CD7"
+			]
+			id: "585AB13F5D314998"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6421670D022A12D0"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "757E39FB376CE738"
+				item: { count: 1, id: "energizedpower:elite_machine_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 50.0d
+		}
+		{
+			dependencies: ["50AFAF555C575CD7"]
+			id: "0E160ED6B780FE5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D938D05CD161AEF"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "081B9C9BA7B9B461"
+				item: { count: 1, id: "energizedpower:superconductive_cable" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 49.5d
+		}
+		{
+			dependencies: ["50AFAF555C575CD7"]
+			id: "608EA780A280CBAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446CEC97CCA9155F"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4AFB764416DE8D50"
+				item: { count: 1, id: "energizedpower:elite_battery_box" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 47.5d
+		}
+		{
+			dependencies: [
+				"0E628626CF8245D5"
+				"4CA86A033479FF03"
+				"3D7AD4420DA21D23"
+			]
+			id: "266389E4252F36B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51AAF151989B0E14"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D46B88F4D97BB8F"
+				item: { count: 1, id: "energizedpower:basic_circuit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["266389E4252F36B4"]
+			id: "582E5067CD375F18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D0CA67FDDF71F18"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "44359F8058499326"
+				item: { count: 1, id: "energizedpower:basic_upgrade_module" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["730DAFEC67BD0508"]
+			id: "39F13C2725B3176A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41F5360982C411BA"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B8706BC8C510004"
+				item: { count: 1, id: "energizedpower:advanced_circuit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["39F13C2725B3176A"]
+			id: "0BA4F7A8D9D87BDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5156F063D73CD529"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1476A1FD2944566E"
+				item: { count: 1, id: "energizedpower:advanced_upgrade_module" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["0939C9E8A0274912"]
+			id: "745C35450FE2865B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "065198C2FA7531F9"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7402C8E5D1EB5934"
+				item: { count: 1, id: "energizedpower:processing_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["745C35450FE2865B"]
+			id: "1DABCD81B6E3A9F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73E8B4E3F9BB2573"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "42FD0BFA7EA5F27F"
+				item: { count: 1, id: "energizedpower:reinforced_advanced_upgrade_module" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["0939C9E8A0274912"]
+			id: "009D351EDE9AD400"
+			rewards: [{
+				id: "39CD86682107FCC8"
+				item: {
+					count: 1
+					id: "energizedpower:teleporter_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5519410F4F822C31"
+				item: { count: 1, id: "energizedpower:teleporter_matrix" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 37.0d
+		}
+		{
+			dependencies: ["009D351EDE9AD400"]
+			id: "36B491E769510D26"
+			rewards: [{
+				count: 2
+				id: "2ED331C3AA2CF79B"
+				item: {
+					count: 1
+					id: "energizedpower:teleporter_processing_unit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1014920F5CE19A44"
+				item: { count: 1, id: "energizedpower:teleporter_processing_unit" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["585AB13F5D314998"]
+			id: "20B5AE21DCACBD3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3541B5FC40F0C41B"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C40B061C3D5C98D"
+				item: { count: 1, id: "energizedpower:quantum_processing_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 51.5d
+		}
+		{
+			dependencies: ["20B5AE21DCACBD3B"]
+			id: "078AB7F6FDF2A111"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D54D9E45590D21A"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D955226AC6E37E7"
+				item: { count: 1, id: "energizedpower:elite_upgrade_module" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["2F4E1ADE29C2972F"]
+			id: "43343CDB3AA914DA"
+			tasks: [{
+				id: "0DF73D0314934854"
+				item: { count: 1, id: "energizedpower:basic_solar_cell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["730DAFEC67BD0508"]
+			id: "408C8DB7CD28AFA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443AF15DE8E9C623"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7C532EE059DB24F0"
+				item: { count: 1, id: "energizedpower:advanced_solar_cell" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["238702C6F6C1F3EB"]
+			id: "43F2B08E2C62EAE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AB9E410732C3B8A"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "058BCA04FBA1DFC0"
+				item: { count: 1, id: "energizedpower:reinforced_advanced_solar_cell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["4E6720A4DA9C8D6A"]
+			id: "01A7DBE9B125EC6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72F262C918F2146F"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B410712D3E66C56"
+				item: { count: 1, id: "energizedpower:elite_solar_cell" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 47.0d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			id: "21EEC2D538889EE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70071972BE112763"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2CAC850D5C31923A"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_1" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["21EEC2D538889EE6"]
+			id: "38C9AE435CA1A884"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CFF489BFED71AAC"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58BB1426EA692D39"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_2" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			id: "0BE9319D07EB4EA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FEA6B3D0A986F74"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "00A82C99F1CCA69B"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_1" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0BE9319D07EB4EA3"]
+			id: "76F5953B70FC0E97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32F676288D8E47F4"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "240D14DDED995D62"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_2" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			id: "697B9815FF380F6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0315F3F8F125163C"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "28EC1D9E4BDE2B9F"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_1" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			id: "10795916D54A6137"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C112CE907D50FB6"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A8B635154086F1E"
+				item: { count: 1, id: "energizedpower:moon_light_upgrade_module_1" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["697B9815FF380F6E"]
+			id: "113B1D1C9748D67B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446AF24E47271465"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32697EE659A0A669"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_2" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			id: "60C2544AA1C3763B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A90B69D2003C872"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "76B47C4616C4FE8B"
+				item: { count: 1, id: "energizedpower:blast_furnace_upgrade_module" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["582E5067CD375F18"]
+			id: "3831701C09E3CC03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55943A259FB2AC52"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3856F64B80FA5592"
+				item: { count: 1, id: "energizedpower:smoker_upgrade_module" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "5778E1B1BA45017F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DF3A71789103CFA"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63E827048958C933"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_3" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["5778E1B1BA45017F"]
+			id: "05D334CA90AE44E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "392744B9914781AF"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2634266DF8E55E9D"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_4" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "47647A66ADA05744"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E83D02CE8701DBB"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "739F210D12C40B6D"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_3" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["47647A66ADA05744"]
+			id: "0D213A137E21A42D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0339179A425453C6"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1AFC5FEF917AFDA3"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_4" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "7D64F2860DBA2270"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EDF591DB18BFB91"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4EC0AB8BF30BD663"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_3" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["7D64F2860DBA2270"]
+			id: "773F982BE73188B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "207A1D1DA5F4AFAD"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2FC65DB908464DBD"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_4" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "52E30ACB2E6FE14D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "676F66A7FF02EE51"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "147B752D62673F3D"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_1" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["52E30ACB2E6FE14D"]
+			id: "198BBD423F4E8299"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BC6E3C9D6650C6B"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6ED2C5947EFF6AB1"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_2" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["0BA4F7A8D9D87BDE"]
+			id: "39A07F076DF4834F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3F3EC15B3CDAE1"
+				table_id: 1677847553061795018L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "59AD508BEFAF84CD"
+				item: { count: 1, id: "energizedpower:moon_light_upgrade_module_2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "652147D1D57E652E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48371E354313BB66"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7AF26F5CA6CDCB4D"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_5" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["652147D1D57E652E"]
+			id: "3D7853FF1B66B723"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58F2748679C4F215"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33A1F3C1AEC12362"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_6" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "71D40C81AE1EC6A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25BA2AFA45E499AA"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4765C164B0173907"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_5" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["71D40C81AE1EC6A5"]
+			id: "769D8159E643C828"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59396D888DECE757"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "712D1748C9A5598A"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_6" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "422C3437F947EFD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66D0898B98091905"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3B5228AA9AA25BC1"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_5" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["422C3437F947EFD2"]
+			id: "2B031713E3A6F431"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "541B50646020E7A1"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1F7BAA52BBC585F3"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_6" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "1AEEFCA18ED70673"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB521CCCC6E6365"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6117F26B18EB5FB9"
+				item: { count: 1, id: "energizedpower:moon_light_upgrade_module_3" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "3DC321B3CBEAB6C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74AEBA71895B3438"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "604CE96318AC4E71"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_3" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 43.0d
+		}
+		{
+			dependencies: ["3DC321B3CBEAB6C7"]
+			id: "07B95DAFFC68111A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "044FC54CBA81BE11"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1CC2E697EC735F1D"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_4" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["1DABCD81B6E3A9F4"]
+			id: "2F6FC054AE0A3AD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AA9103E57A59E12"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "65CD7744BD9BC41D"
+				item: { count: 1, id: "energizedpower:energy_production_upgrade_module_5" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 43.0d
+		}
+		{
+			dependencies: ["2F6FC054AE0A3AD8"]
+			id: "4E7C343067E9A6E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D0B06CE755B98F"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6379C0B43887E21F"
+				item: { count: 1, id: "energizedpower:energy_production_upgrade_module_6" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["078AB7F6FDF2A111"]
+			id: "63143F95E1DC5F1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F221D3B9CF8F8FB"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2296902813CB704B"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_7" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 52.5d
+		}
+		{
+			dependencies: ["63143F95E1DC5F1B"]
+			id: "3C167AC8EBA7CAC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7136546D7D9741BF"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03EB32F24B104CC7"
+				item: { count: 1, id: "energizedpower:speed_upgrade_module_8" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 52.5d
+		}
+		{
+			dependencies: ["078AB7F6FDF2A111"]
+			id: "5BB520DF32271682"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16BC1B5F4F96817E"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "19BE64F19913495D"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_7" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 52.5d
+		}
+		{
+			dependencies: ["5BB520DF32271682"]
+			id: "061E1B7B18080BA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C0874F34E2D9EF3"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F00866FF983AF5C"
+				item: { count: 1, id: "energizedpower:energy_efficiency_upgrade_module_8" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 52.5d
+		}
+		{
+			dependencies: ["078AB7F6FDF2A111"]
+			id: "677E9CBFA553A650"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5985278A79424EA8"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "610CA87F05425BDF"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_7" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["677E9CBFA553A650"]
+			id: "51DFF7A9BE47F835"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BFA7EC84DD3E088"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "427760AA42962979"
+				item: { count: 1, id: "energizedpower:energy_capacity_upgrade_module_8" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["078AB7F6FDF2A111"]
+			id: "7C511C948BE0E363"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "759509A72B8AB1C9"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "15A480AFA34E134A"
+				item: { count: 1, id: "energizedpower:moon_light_upgrade_module_4" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["7C511C948BE0E363"]
+			id: "3352336E2D2038F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53550CE3E3A11D51"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68370DFF2A16FCC4"
+				item: { count: 1, id: "energizedpower:moon_light_upgrade_module_5" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["078AB7F6FDF2A111"]
+			id: "0E57ED35107316D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4877B1849CA99723"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FA7B4F0E562AA3A"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_5" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 55.5d
+		}
+		{
+			dependencies: ["0E57ED35107316D3"]
+			id: "7480A69A1E019392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "751B488A1A797EE0"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6655B3C81B0A362E"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_6" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 57.0d
+		}
+		{
+			dependencies: ["7480A69A1E019392"]
+			id: "4CA524E724DF27CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11FAD1B5B3B66F99"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5829F969F4AF0F57"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_7" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 57.0d
+		}
+		{
+			dependencies: ["4CA524E724DF27CC"]
+			id: "044B03448783CA3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "694F3E96E9994390"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E23F3DD2E824B74"
+				item: { count: 1, id: "energizedpower:energizing_speed_upgrade_module_8" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 55.5d
+		}
+		{
+			dependencies: ["078AB7F6FDF2A111"]
+			id: "73C118CB7B874FAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66DED52BF164C519"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B5CB57E46B5252D"
+				item: { count: 1, id: "energizedpower:energy_production_upgrade_module_7" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 55.5d
+		}
+		{
+			dependencies: ["73C118CB7B874FAF"]
+			id: "3D7358B45FC9D9D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D59EE8139E5829"
+				table_id: 2404743661539187571L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "37467FEE46001760"
+				item: { count: 1, id: "energizedpower:energy_production_upgrade_module_8" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 55.5d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "033A1AB627084E6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1015CA7110D4C6C4"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3EFDC7A7522A8C12"
+				item: { count: 1, id: "energizedpower:powered_furnace" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["033A1AB627084E6C"]
+			id: "6FB7F2DD8C7E6ADF"
+			tasks: [{
+				id: "39CF624BA2121279"
+				item: { count: 1, id: "energizedpower:advanced_powered_furnace" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6FB7F2DD8C7E6ADF"]
+			id: "7060533FE885B7B7"
+			tasks: [{
+				id: "326C224AEAC46673"
+				item: { count: 1, id: "energizedpower:elite_powered_furnace" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "1F2ADE67CE1B4446"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A54074493D4840E"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0C7E990F098F9B4A"
+				item: { count: 1, id: "energizedpower:crusher" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1F2ADE67CE1B4446"]
+			id: "411D065FF40241B5"
+			tasks: [{
+				id: "2F869D8DE1E917C6"
+				item: { count: 1, id: "energizedpower:advanced_crusher" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "6E0E46869A5D99A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547E7577BB83DDEC"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "229728E97E76F1D8"
+				item: { count: 1, id: "energizedpower:pulverizer" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6E0E46869A5D99A5"]
+			id: "56DFE3E7B60578CD"
+			tasks: [{
+				id: "7E7B6922C4E48EA6"
+				item: { count: 1, id: "energizedpower:advanced_pulverizer" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"56DFE3E7B60578CD"
+				"411D065FF40241B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "20BB01E5595D22E2"
+			tasks: [{
+				id: "43B73DFA35A6C298"
+				item: { count: 1, id: "energizedpower:filtration_plant" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["20BB01E5595D22E2"]
+			id: "6FB9C604FEDE6EDA"
+			tasks: [{
+				count: 2L
+				id: "121AC86CF4FD3427"
+				item: { count: 1, id: "energizedpower:charcoal_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6FB9C604FEDE6EDA"]
+			id: "58CCB6A80CA794B4"
+			tasks: [{
+				id: "2AFFDAA3F2D7D402"
+				item: { count: 1, id: "energizedpower:dirty_water_bucket" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "45265EBD8B665E30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59599FF7416F398F"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "605B2FA055900DB7"
+				item: { count: 1, id: "energizedpower:sawmill" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "730A771A3BC6CC70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "451015F6DED2C7DD"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F5F1DFDAB9302F5"
+				item: { count: 1, id: "energizedpower:compressor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "713BFD843CFFF5CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EECF828EF8500C3"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3DD356C18E8FF05F"
+				item: { count: 1, id: "energizedpower:metal_press" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1F4F88D5714E12"]
+			hide_dependency_lines: true
+			id: "25E9A0725C280FE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "156ADDA9223B4FD0"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08A570339C62D3A0"
+				item: { count: 1, id: "energizedpower:block_placer" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1C19795D0CB80D14"]
+			hide_dependency_lines: true
+			id: "2E2F858D10F4CEA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633DDBC02B84E3B5"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "355925E688B5394F"
+				item: { count: 1, id: "energizedpower:fluid_freezer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C19795D0CB80D14"]
+			hide_dependency_lines: true
+			id: "7660CBB51C6ECE71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34D3AC5496CD26FA"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63BC6040BBDBEB55"
+				item: { count: 1, id: "energizedpower:stone_liquefier" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7660CBB51C6ECE71"]
+			id: "14F3F984A31226BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BEE9D6F77EF576E"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "596FFA5A5A95C9B3"
+				item: { count: 1, id: "energizedpower:stone_solidifier" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C19795D0CB80D14"]
+			hide_dependency_lines: true
+			id: "301EF0AAD3DC8F9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D8BE16CA94BEC66"
+				table_id: 5820959714419118222L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33F42D06DEE6600D"
+				item: { count: 1, id: "energizedpower:fluid_transposer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E2F858D10F4CEA4"]
+			id: "780620B789F57AA5"
+			tasks: [
+				{
+					id: "5AF86F5A51AC8AA1"
+					item: { count: 1, id: "minecraft:ice" }
+					type: "item"
+				}
+				{
+					id: "00AFA8D92B79E2D7"
+					item: { count: 1, id: "minecraft:snowball" }
+					type: "item"
+				}
+				{
+					id: "000679CF47CB4006"
+					item: { count: 1, id: "minecraft:snow_block" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4528478FC879FB28"]
+			id: "5C026BB395242F83"
+			rewards: [{
+				count: 4
+				id: "2ED084927CDAF34C"
+				item: {
+					count: 1
+					id: "energizedpower:teleporter_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "670DEA3B92BF82A3"
+				item: { components: { "energizedpower:energy": 8388608 }, count: 1, id: "energizedpower:inventory_teleporter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 37.0d
+		}
+	]
 }

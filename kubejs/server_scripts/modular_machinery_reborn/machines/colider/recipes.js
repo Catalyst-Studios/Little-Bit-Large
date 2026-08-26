@@ -1160,6 +1160,29 @@ ServerEvents.recipes(catalyst => {
         },
         {
             time: 150,
+            energy: 800000,
+            outputs: [{ id: 'energizedpower:energized_alloy_ingot', count: 64, chance: 1.0 }],
+            inputs: [{id: 'energizedpower:crystallized_alloy_ingot', count: 64, chance: 1.0}],
+            fluid_input: [],
+            fluid_output: [],
+            energy_out: 0
+        },
+        {
+            time: 150,
+            energy: 1000000,
+            outputs: [
+                { id: 'energizedpower:crystallized_lapis_lazuli', count: 64, chance: 1.0 },
+                { id: 'energizedpower:crystallized_lapis_lazuli', count: 32, chance: 0.5 },
+                { id: 'energizedpower:crystallized_lapis_lazuli', count: 16, chance: 0.25 },
+                { id: 'energizedpower:crystallized_lapis_lazuli', count: 8, chance: 0.125 },
+            ],
+            inputs: [{id: 'energizedpower:crystallized_lapis_lazuli', count: 64, chance: 1.0}],
+            fluid_input: [],
+            fluid_output: [],
+            energy_out: 0
+        },
+        {
+            time: 150,
             energy: 200000,
             outputs: [{ id: "energizedpower:reinforced_advanced_solar_cell", count: 1, chance: 1.0 }],
             inputs: [

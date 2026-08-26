@@ -1,0 +1,73 @@
+{
+	icon: {
+		id: "energizedpower:reinforced_advanced_upgrade_module"
+	}
+	id: "215F5D9E89EA5B73"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			id: "2ACFEFB8C53173DA"
+			item: {
+				count: 1
+				id: "energizedpower:solar_panel_6"
+			}
+			weight: 0.02f
+		}
+		{
+			id: "1CF727CFABFFE4E1"
+			item: {
+				count: 1
+				id: "energizedpower:superconductive_cable"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "32377733B0527848"
+			item: {
+				count: 1
+				id: "energizedpower:energized_crystal_matrix_cable"
+			}
+			random_bonus: 5
+		}
+		{ id: "44C257A00B45E56B", item: { count: 1, id: "energizedpower:crystallized_alloy_ingot" } }
+		{
+			id: "3E7D47F52B4FC3B5"
+			item: {
+				count: 1
+				id: "energizedpower:crystallized_lapis_lazuli"
+			}
+			random_bonus: 4
+			weight: 0.5f
+		}
+		{
+			id: "4EE2CFAF56D1E5D5"
+			item: {
+				count: 1
+				id: "energizedpower:energized_gold_ingot"
+			}
+			random_bonus: 4
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "7603545B6F543046"
+			item: {
+				count: 1
+				id: "energizedpower:reinforced_advanced_machine_frame"
+			}
+			weight: 3.0f
+		}
+		{
+			auto: "enabled"
+			count: 3
+			id: "52F48E8414915375"
+			item: {
+				count: 1
+				id: "energizedpower:reinforced_advanced_upgrade_module"
+			}
+			random_bonus: 5
+			weight: 3.0f
+		}
+	]
+}
