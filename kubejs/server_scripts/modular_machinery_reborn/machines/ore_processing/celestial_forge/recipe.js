@@ -186,11 +186,9 @@ ServerEvents.recipes(catalyst => {
         'geore:unobtainium_shard',
         'geore:vibranium_shard',
         'geore:allthemodium_shard',
-        'geore:topaz_shard',
-        'geore:monazite_shard',
-        'geore:tungsten_shard',
         'malum:cthonic_gold',
         'malum:cthonic_gold_fragment',
+        'neovitae:dungeon_ore'
     ];
 
 

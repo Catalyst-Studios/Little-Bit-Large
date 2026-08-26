@@ -1,5 +1,5 @@
 let chiseled_groups = {};
-let disable = false; //Disable lots of recipe and tags
+let disable = true; //Disable lots of recipe and tags
 
 ServerEvents.tags('item', catalyst => {
     if(disable) return;
@@ -26,7 +26,6 @@ ServerEvents.tags('item', catalyst => {
         }
     }
    
-    let regex_suffix_1 = /(_stairs|_slab|_slabs|_\d+)$/;
     let regex_suffix_2 = /(_connecting|_diagonal|_bricks|_square|_panel|_pattern|_pillar|_wavy|_tiles|_chiseled|_carved|_cracked|_mossy|_smooth|_layered|_shingles|_paved|_checkered|_offset|_large|_small|_borderless|_clear)$/;
     let regex_prefix = /^(borderless_|clear_|smooth_|chiseled_|mossy_|cracked_)/;
    
@@ -50,8 +49,7 @@ ServerEvents.tags('item', catalyst => {
             guessed_path = path.substring(path.lastIndexOf('/') + 1);
         }
 
-        guessed_path = guessed_path.replace(regex_suffix_1, "")
-                                   .replace(regex_suffix_2, "")
+        guessed_path = guessed_path.replace(regex_suffix_2, "")
                                    .replace(regex_prefix, "");
                                    
         let base_id = base_map[guessed_path];
@@ -101,24 +99,11 @@ ServerEvents.tags('item', catalyst => {
                 chiseled_groups[base_id] = {
                     base_id: base_id,
                     tag_name: 'catalystic:chisel_group/' + base_id.replace(':', '_'),
-                    variants: [],
-                    stairs: [],
-                    slabs: []
+                    variants: []
                 };
             }
            
-            if(path.slice(-7) === '_stairs')
-            {
-                chiseled_groups[base_id].stairs.push(id);
-            }
-            else if(path.slice(-5) === '_slab' || path.slice(-6) === '_slabs')
-            {
-                chiseled_groups[base_id].slabs.push(id);
-            }
-            else
-            {
-                chiseled_groups[base_id].variants.push(id);
-            }
+            chiseled_groups[base_id].variants.push(id);
         }
     }
    
@@ -141,7 +126,6 @@ ServerEvents.tags('item', catalyst => {
     all_item_ids = null;
     base_map = null;
     cosmetic_mods = null;
-    regex_suffix_1 = null;
     regex_suffix_2 = null;
     regex_prefix = null;
     group_keys = null;
@@ -166,25 +150,6 @@ ServerEvents.recipes(catalyst => {
             catalyst.stonecutting(output_id, tag_string).id(recipe_id);
         }
        
-        for(let k = 0; k < group.stairs.length; k++)
-        {
-            let stair_id = group.stairs[k];
-            let stonecutter_recipe_id = 'catalyst:stonecutter/' + stair_id.replace(':', '_');
-            let crafting_recipe_id = 'catalyst:stonecutter/crafting/' + group.base_id.replace(':', '_') + '_from_' + stair_id.replace(':', '_');
-            
-            catalyst.stonecutting('3x ' + stair_id, group.base_id).id(stonecutter_recipe_id);
-            catalyst.shapeless(group.base_id, [stair_id, stair_id, stair_id]).id(crafting_recipe_id);
-        }
-       
-        for(let k = 0; k < group.slabs.length; k++)
-        {
-            let slab_id = group.slabs[k];
-            let stonecutter_recipe_id = 'catalyst:stonecutter/' + slab_id.replace(':', '_');
-            let crafting_recipe_id = 'catalyst:stonecutter/crafting/' + group.base_id.replace(':', '_') + '_from_' + slab_id.replace(':', '_');
-            
-            catalyst.stonecutting('2x ' + slab_id, group.base_id).id(stonecutter_recipe_id);
-            catalyst.shapeless(group.base_id, [slab_id, slab_id]).id(crafting_recipe_id);
-        }
     }
 
     let factory_tag = '#factory_blocks:factory';
