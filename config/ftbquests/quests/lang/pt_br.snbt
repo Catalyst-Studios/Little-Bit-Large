@@ -963,9 +963,6 @@
 		"O &bterminal&r é para gerenciar vários solicitadores ao mesmo tempo."
 	]
 	quest.0C7B1EBED4C008AC.quest_subtitle: "Solicitadores.... SOB DEMANDA"
-	quest.0C7FFA80C1B2836F.quest_desc: ["EM DESENVOLVIMENTO"]
-	quest.0C7FFA80C1B2836F.quest_subtitle: "Loot grátis"
-	quest.0C7FFA80C1B2836F.title: "&lPortais para a Eternidade"
 	quest.0CA10AE04D6AEA7B.quest_desc: [
 		"O &dinterior&r do reator de &efissão&r consiste em um padrão de tabuleiro de &bxadrez&r, um espaço &ccheio&r e outro &dvazio&r."
 		""

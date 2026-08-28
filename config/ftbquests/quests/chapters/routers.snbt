@@ -13,6 +13,11 @@
 	quests: [
 		{
 			id: "47B034CFFDCDED24"
+			rewards: [{
+				id: "39300408A641E106"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "1CEF0F4103519AB4"
 				item: { count: 1, id: "modularrouters:modular_router" }
@@ -24,6 +29,11 @@
 		{
 			dependencies: ["47B034CFFDCDED24"]
 			id: "286161478F4107E8"
+			rewards: [{
+				id: "3661315D614D115B"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "48E0989B2C16C139"
 				item: { count: 1, id: "modularrouters:augment_core" }
@@ -35,6 +45,11 @@
 		{
 			dependencies: ["47B034CFFDCDED24"]
 			id: "0BC89903FE272EF2"
+			rewards: [{
+				id: "08CA439F20063E24"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "312BD87CA838537E"
 				item: { count: 1, id: "modularrouters:blank_upgrade" }
@@ -46,6 +61,11 @@
 		{
 			dependencies: ["47B034CFFDCDED24"]
 			id: "003C69131CD0DA79"
+			rewards: [{
+				id: "2358B1623BD017A9"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "6C4C71C410D64291"
 				item: { count: 1, id: "modularrouters:blank_module" }
@@ -57,6 +77,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "58D0DF58E56F6CBC"
+			rewards: [{
+				id: "7F55A6FDCA18681A"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "1BD7B2286A829399"
 				item: { count: 1, id: "modularrouters:breaker_module" }
@@ -68,6 +93,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "1F9003B2E0134DEF"
+			rewards: [{
+				id: "0CE3EC764550C1FC"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0B5CCEB16630F709"
 				item: { count: 1, id: "modularrouters:placer_module" }
@@ -82,6 +112,11 @@
 				"1F9003B2E0134DEF"
 			]
 			id: "2AE4D5671C45025B"
+			rewards: [{
+				id: "1C5D573E003B5254"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "707B26CA10E707CF"
 				item: { count: 1, id: "modularrouters:extruder_module_1" }
@@ -93,6 +128,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "2BF5E236F6A8F252"
+			rewards: [{
+				id: "617F2F426712CD56"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "580EA7D01DB1F954"
 				item: { count: 1, id: "modularrouters:sender_module_1" }
@@ -104,6 +144,11 @@
 		{
 			dependencies: ["2BF5E236F6A8F252"]
 			id: "76ED2E2F59D4E7BB"
+			rewards: [{
+				id: "2C221AF0B8924019"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "25BE260F6F68BD8F"
 				item: { count: 1, id: "modularrouters:distributor_module" }
@@ -118,6 +163,11 @@
 				"4AB321ECCDB35CDB"
 			]
 			id: "779918B7EF072B1A"
+			rewards: [{
+				id: "2DB0DF3D6DCCA1C6"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "25B78E1E86FD152B"
 				item: { count: 1, id: "modularrouters:energy_distributor_module" }
@@ -129,6 +179,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "4AB321ECCDB35CDB"
+			rewards: [{
+				id: "7CB7A1E3BAE402CB"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "6AF29026601D7B33"
 				item: { count: 1, id: "modularrouters:energy_output_module" }
@@ -140,6 +195,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "66092D43BCF44F05"
+			rewards: [{
+				id: "7AE7E9E4804DCA28"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0451F40FA25987BA"
 				item: { count: 1, id: "modularrouters:extruder_module_2" }
@@ -154,6 +214,11 @@
 				"2BF5E236F6A8F252"
 			]
 			id: "116C2B35680E1C72"
+			rewards: [{
+				id: "50C4C4A74BB276BD"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "33CCBF31B60B2152"
 				item: { count: 1, id: "modularrouters:player_module" }
@@ -165,6 +230,11 @@
 		{
 			dependencies: ["7130B6B820483A59"]
 			id: "48D68895FF14804B"
+			rewards: [{
+				id: "073CDAADC1498DB8"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0BC197B9801733B0"
 				item: { count: 1, id: "modularrouters:flinger_module" }
@@ -176,6 +246,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "7130B6B820483A59"
+			rewards: [{
+				id: "3A64C31EFF26C7F6"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "3A6A6BBF249BDA25"
 				item: { count: 1, id: "modularrouters:dropper_module" }
@@ -187,6 +262,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "55D8A20CBD2262BA"
+			rewards: [{
+				id: "2B40D0D6008FF2DF"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "193674968A7ED249"
 				item: { count: 1, id: "modularrouters:void_module" }
@@ -198,6 +278,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "7760C341D49250BE"
+			rewards: [{
+				id: "30F98BF8871499A0"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0F64B794A59322D2"
 				item: { count: 1, id: "modularrouters:vacuum_module" }
@@ -209,6 +294,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "2A8471978FD012D7"
+			rewards: [{
+				id: "135E09FC8B428982"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "5DD2DD3AE30EC0BC"
 				item: { count: 1, id: "modularrouters:fluid_module" }
@@ -220,6 +310,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "6EBC601FCA2AC5DF"
+			rewards: [{
+				id: "0800A285242C8502"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "066F36511EB4FF83"
 				item: { count: 1, id: "modularrouters:detector_module" }
@@ -231,6 +326,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "739BB0F55324322F"
+			rewards: [{
+				id: "75775B866F4A2C04"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "3757602647EAFCA9"
 				item: { count: 1, id: "modularrouters:activator_module" }
@@ -242,6 +342,11 @@
 		{
 			dependencies: ["003C69131CD0DA79"]
 			id: "5A15961FC3022333"
+			rewards: [{
+				id: "2779A2F64870A1EF"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "2F74122A5EC998E7"
 				item: { count: 1, id: "modularrouters:puller_module_1" }
@@ -253,6 +358,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "7A545D85BF794497"
+			rewards: [{
+				id: "3A3730BE674DD402"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "37E34740F84A562C"
 				item: { count: 1, id: "modularrouters:range_down_augment" }
@@ -264,6 +374,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "206CAE3AFA9F0339"
+			rewards: [{
+				id: "4107AF98E03D9E08"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0A7EF06D1B3D6F0B"
 				item: { count: 1, id: "modularrouters:range_up_augment" }
@@ -275,6 +390,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "7053E4EEA04089E0"
+			rewards: [{
+				id: "5A99804CD12FD0CB"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "746F58C47399260C"
 				item: { count: 1, id: "modularrouters:xp_vacuum_augment" }
@@ -286,6 +406,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "19D0C7D63BE701A7"
+			rewards: [{
+				id: "2EB01DA6A341A6D6"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "213605420F6709E0"
 				item: { count: 1, id: "modularrouters:mimic_augment" }
@@ -297,6 +422,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "03F4B189616EDCBC"
+			rewards: [{
+				id: "61D593E08F5423E2"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "18DC456B49733A8D"
 				item: { count: 1, id: "modularrouters:filter_round_robin_augment" }
@@ -308,6 +438,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "3F779B1EEE12810E"
+			rewards: [{
+				id: "1E11891CD46A7891"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "00B31F1BA929EA48"
 				item: { count: 1, id: "modularrouters:fast_pickup_augment" }
@@ -319,6 +454,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "6F528C4E7165806F"
+			rewards: [{
+				id: "1FB6BCAC43EE8310"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "33FD8CBC6D1009F7"
 				item: { count: 1, id: "modularrouters:regulator_augment" }
@@ -330,6 +470,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "68BD90AE2185792E"
+			rewards: [{
+				id: "24DA6A73EA842EBF"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "34AFEDC917A5BAC4"
 				item: { count: 1, id: "modularrouters:stack_augment" }
@@ -341,6 +486,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "1355A1B5306B2105"
+			rewards: [{
+				id: "417D693F68C5F323"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "3201D93793232224"
 				item: { count: 1, id: "modularrouters:pushing_augment" }
@@ -352,6 +502,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "05FAEBA8E296FE54"
+			rewards: [{
+				id: "3F0924BA34E5653F"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "58605B394526E636"
 				item: { count: 1, id: "modularrouters:pickup_delay_augment" }
@@ -363,6 +518,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "54A17337948A2448"
+			rewards: [{
+				id: "16D491CF61D7E396"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "45FC323935704642"
 				item: { count: 1, id: "modularrouters:sync_upgrade" }
@@ -374,6 +534,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "44A632CEC21C79E1"
+			rewards: [{
+				id: "3344325429ED1768"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "3B698A63C9DDB55E"
 				item: { count: 1, id: "modularrouters:blast_upgrade" }
@@ -385,6 +550,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "3C33DFE38E9097FA"
+			rewards: [{
+				id: "1E63F7C23D976D6F"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "5D23C2E7EF628A92"
 				item: { count: 1, id: "modularrouters:camouflage_upgrade" }
@@ -396,6 +566,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "363B4216992BD094"
+			rewards: [{
+				id: "5207308E42800136"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "6F2CC09790E55545"
 				item: { count: 1, id: "modularrouters:energy_upgrade" }
@@ -407,6 +582,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "7E919645FB2E2BB7"
+			rewards: [{
+				id: "1701C1CB8F385311"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "21194E42B3E78C6A"
 				item: { count: 1, id: "modularrouters:fluid_upgrade" }
@@ -418,6 +598,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "109871D7E0FD1BF3"
+			rewards: [{
+				id: "73D97D2B91E9E7A8"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0675A6D229398469"
 				item: { count: 1, id: "modularrouters:stack_upgrade" }
@@ -429,6 +614,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "023AEAAD31B7C79F"
+			rewards: [{
+				id: "465F3D8D04BCC1B2"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "2583052409C057CF"
 				item: { count: 1, id: "modularrouters:muffler_upgrade" }
@@ -440,6 +630,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "569825486A9EA6FD"
+			rewards: [{
+				id: "5FB8B905FD08040E"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "37FF2A569D7DD14A"
 				item: { count: 1, id: "modularrouters:security_upgrade" }
@@ -451,6 +646,11 @@
 		{
 			dependencies: ["0BC89903FE272EF2"]
 			id: "252B224EE93878E6"
+			rewards: [{
+				id: "63F27F72D32F2784"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "0CC1E5C0AA8810F3"
 				item: { count: 1, id: "modularrouters:speed_upgrade" }
@@ -462,6 +662,11 @@
 		{
 			dependencies: ["286161478F4107E8"]
 			id: "500D56B1B6C45B6F"
+			rewards: [{
+				id: "5D471AA3E351DD06"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
 				id: "1311E6143151EED2"
 				item: { count: 1, id: "modularrouters:redstone_augment" }

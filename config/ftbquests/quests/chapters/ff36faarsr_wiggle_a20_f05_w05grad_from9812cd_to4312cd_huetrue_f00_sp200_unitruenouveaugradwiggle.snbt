@@ -399,6 +399,12 @@
 				id: "ars_nouveau:enchanting_apparatus"
 			}
 			id: "7D5CAE3AB604B96B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "664467ED2B971529"
+				table_id: 7722860157658462880L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{

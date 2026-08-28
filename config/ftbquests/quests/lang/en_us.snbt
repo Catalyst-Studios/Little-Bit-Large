@@ -26,6 +26,7 @@
 	chapter.4ECE52DB829D7DC4.title: "Sophisticated Storage"
 	chapter.558E65AB78354674.title: "Energized Power"
 	chapter.60E93AB6224A9369.title: "Apotheosis"
+	chapter.670D99477C92AAE8.title: "Malum"
 	chapter.6C942D6BA7090A71.title: "&aProductive &6Bees"
 	chapter.6D1B091BA4B10868.title: "&lSolar Generation"
 	chapter.6E7DE3824D41BB16.title: "Theurgy"
@@ -280,6 +281,11 @@
 	]
 	quest.026BC7F25AAF107D.quest_subtitle: "Im &9blue&r ...."
 	quest.026F3297989930ED.quest_desc: ["More &dfiltering&r!"]
+	quest.0270173E2FE25CCA.quest_desc: [
+		"Bosses or enderman"
+		""
+		"Endermite are the easiest"
+	]
 	quest.02A1C699031C7DBD.quest_desc: [
 		"This feature only works while playing with someone. If you are playing alone, you can skip this long text."
 		""
@@ -1154,9 +1160,6 @@
 		"The &bterminal&r is to manage multiple requester at the same time."
 	]
 	quest.0C7B1EBED4C008AC.quest_subtitle: "Requesters.... ON-DEMAND"
-	quest.0C7FFA80C1B2836F.quest_desc: ["W.I.P"]
-	quest.0C7FFA80C1B2836F.quest_subtitle: "Free loot"
-	quest.0C7FFA80C1B2836F.title: "&lGateways to Eternity"
 	quest.0CA10AE04D6AEA7B.quest_desc: [
 		"The &efission&r reactor's &dinside&r consists on a &bchess&r board pattern, one &cfill&r and another one &dempty&r."
 		""
@@ -1420,7 +1423,7 @@
 	quest.0FC0C0A568BF1BAB.quest_desc: [
 		"The better recipe to get &6modularium&r, a passive way, on &aGT&r terms"
 		""
-		"It produces 56 &6modularium&r ingots per craft and an &ein-world&r craft, another 3x3x3 one, but you will need to &droute&r back some of the &coutput&r to get more!"
+		"It produces 72 &6modularium&r ingots per craft and an &ein-world&r craft, another 3x3x3 one, but you will need to &droute&r back some of the &coutput&r to get more!"
 		"I would probably get started on some &amods&r to continue"
 		""
 		"You would need the following &dmaterials&r:"
@@ -2274,6 +2277,7 @@
 		"&e(note drones can have many upgrades which may prove beneficial for its operation upgrades are explained in charger ui&r&4(arrow above charge slot)&r&e)&r"
 	]
 	quest.1A36052DF194B26A.quest_subtitle: "Pest control"
+	quest.1A372024C6D4839A.quest_desc: ["Speeds up the rituals but consumes 1 spirit"]
 	quest.1A40816813B61A7D.quest_desc: [
 		"&dOnly&r can be used on &ainput&r and &coutput&r, and has different effects:"
 		""
@@ -2411,6 +2415,11 @@
 	]
 	quest.1C39960D4E84A92B.quest_subtitle: "The Input and Output"
 	quest.1C39960D4E84A92B.title: "In and Out"
+	quest.1C54667EE66C6BCE.quest_desc: [
+		"Anything that can fly or has wings"
+		""
+		"Phantoms are recommended or chickens"
+	]
 	quest.1C576EB5C4A85273.quest_subtitle: "Charges Equiped Energy Items"
 	quest.1C576EB5C4A85273.title: "&lExo Chestplate"
 	quest.1C57811E44381FAC.quest_desc: ["Crafting material, needed for the next tier of rods"]
@@ -2434,7 +2443,7 @@
 		""
 		"- You can get 3 &7steel&r dust by using 2 iron dust and 3 coal dust"
 		""
-		"- Make a &eprimitive&r &aalloy smelter&r to do 1 iron ingot and 1 coal dust to 1 &7steel&r ingot."
+		"- Make a &ePrimitive&r &aAlloy Maker&r to do &7steel&r ingot, they have different &6recipes&r."
 		""
 		"Later on, you can make some &dseeds&r or &6bees&r to make them &bfaster&r"
 	]
@@ -2977,6 +2986,7 @@
 		"Also used one &dmachine&r crafting"
 	]
 	quest.2299E953A9A2DD3F.quest_subtitle: "No more food, just souls"
+	quest.22A1DC5C3DBFF918.quest_desc: ["Endermans"]
 	quest.22AF4040C1A46CC5.quest_desc: ["Stores 32 &abuckets&r, but can store 4 &ddifferent&r type of &bfluids&r, 8 &ebuckets&r of each type."]
 	quest.22AF4040C1A46CC5.quest_subtitle: "The best one? &bAE2&r is best"
 	quest.22B285D439CCF4B5.quest_desc: [
@@ -3475,6 +3485,11 @@
 	quest.28F7E7830637F31D.quest_subtitle: "Even more?"
 	quest.2919FB8C84AD69F9.quest_subtitle: "NASv5: ON"
 	quest.2919FB8C84AD69F9.title: "4M Storage Component"
+	quest.29369B6D0959E962.quest_desc: [
+		"Using hoppers/SFM to insert spirits"
+		""
+		"Extra items goes in pedetals"
+	]
 	quest.2936AA3F0E3A1922.quest_desc: [
 		"Charged Snowball has 1 use, generate lightning at your will"
 		""
@@ -4598,7 +4613,7 @@
 	]
 	quest.35A0BF8336B17F86.title: "&lParticle Accelerator"
 	quest.35A559FBB356919D.quest_desc: [
-		"[ \"Do you remember that tower of &6pattern providers&r I've showed in this \", { \"text\": \"quest\", \"underlined\": true, \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"697A5E53CC53ADDB\" } }, \"?\" ]"
+		"[ \"Do you remember that tower of pattern providers I've showed in this \", { \"text\": \"quest\", \"underlined\": true, \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"697A5E53CC53ADDB\" } }, \"?\" ]"
 		""
 		"Well, time to upgrade it to a &afaster&r and more &befficient&r one."
 		""
@@ -4636,6 +4651,11 @@
 		"You don't need &aenergy&r to use it"
 	]
 	quest.35DF9A15779E8AE4.quest_subtitle: "Master key"
+	quest.35EEAC9C37B1EEB4.quest_desc: [
+		"They swim"
+		""
+		"Any fish is recommended"
+	]
 	quest.35F498CAE76F3C31.quest_desc: [
 		"Occultism is based around doing rituals and summoning these rituals can be found in the spirit guide and provide a build guide for you to follow."
 		""
@@ -4688,6 +4708,11 @@
 		"We could've crafted the compound earlier without any issues, but now that we have the Fragment Forge, it is advised to use this machine as it has the best recipe for it."
 	]
 	quest.364B91C3F2AC5C3C.title: "&lEnderic Compound"
+	quest.3686980DC39E762A.quest_desc: [
+		"Nether mobs"
+		""
+		"Creepers are recommended since they just drop that"
+	]
 	quest.3689AFA62A2A1D46.quest_desc: [
 		"Generate &6Sewage&r fluid depending on the number of &cAnimals&r above it."
 		""
@@ -5762,6 +5787,8 @@
 		""
 		"This is a crafting material"
 	]
+	quest.44B9580A098565F4.quest_desc: ["Zombies"]
+	quest.44B9A82A07B42089.quest_desc: ["Phantoms"]
 	quest.44C48011CDF0FB35.quest_desc: ["I have to balance both things"]
 	quest.44C48011CDF0FB35.quest_subtitle: "Sorry"
 	quest.44CC0C8C57F6BFCC.quest_desc: [
@@ -6247,7 +6274,7 @@
 	quest.4B09BF91C8CBFBD3.quest_desc: [
 		"[ \"You probably want to start \", { \"text\": \"bee quests\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"232345A9C9EFDC9B\" } }, \", before doing this one.\" ]"
 		""
-		"But if you did, congrats, you have another powerful way to generate &bcertus&r and &bcertus dust&r, which we will need in industrial quantities ;)"
+		"But if you did, &dcongrats&r, you have another &6powerful&r way to generate &bcertus&r and &bcertus dust&r, which we will need in industrial quantities ;)"
 	]
 	quest.4B09BF91C8CBFBD3.quest_subtitle: "bzzzzzzzz"
 	quest.4B3625968F4E4331.quest_subtitle: "Walk Faster and More Efficiently Effortlessly"
@@ -6584,10 +6611,28 @@
 		"With this addon, we are now able to hunt living creatures with ease, such as zombies, skeletons, creepers and wandering traders. Who needs a restriction order when you got a LASER!"
 	]
 	quest.4EC581DCFFFD7E29.title: "&lMachine Hunter Addon"
+	quest.4ED1D6EA1C603BE0.quest_desc: [
+		"Magical creatures"
+		""
+		"Phantoms are recommended or slime or blazes"
+	]
 	quest.4F09224ECBE6AF12.quest_desc: [
 		"You would &cneed&r some &bwater&r to start with."
 		""
 		"And some &abig&r &dmachines&r!"
+	]
+	quest.4F4F69C0FE90C33B.quest_desc: [
+		"Each recipe takes 45 seconds"
+		""
+		"Instability makes more damage to the impetus"
+		""
+		"Fortune has a chance to give more "
+		""
+		"Warping ignores time for the next recipe"
+		""
+		"Sus device makes an explosion"
+		""
+		"Shielding makes repairing the impetus "
 	]
 	quest.4F74130EBAF02EFF.quest_desc: [
 		"[{\"text\":\"\"},{\"text\":\"On an \"},{\"text\":\"enrichment\",\"color\":\"#FF55FF\"},{\"text\":\" chamber, throw some \"},{\"text\":\"uranium\",\"color\":\"#48cf63\"},{\"text\":\" to get \"},{\"text\":\"uranium cake\",\"color\":\"#FFFF55\"},{\"text\":\".\"}]"
@@ -6922,6 +6967,11 @@
 	quest.53B3F4366891C8E4.title: "&l&9Functional Storage&r and &l&9Sophisticated Storage"
 	quest.53B435B6F12C773E.quest_subtitle: "It is infinite, but not quite"
 	quest.53B435B6F12C773E.title: "&lInfinite&r &4Blood"
+	quest.53F10B6BED6A9E77.quest_desc: [
+		"Hostile mobs"
+		""
+		"Phantoms are recommended or zombies"
+	]
 	quest.5404F37ADFC2FB5E.quest_desc: ["I think the &6pludger&r is the wrong type of &aarrow&r"]
 	quest.5404F37ADFC2FB5E.quest_subtitle: "Bow?"
 	quest.540545114AE23AD9.quest_desc: [
@@ -7352,6 +7402,11 @@
 		""
 		"On the left side, it will have 6 slots for putting the different tier materials, so you can upgrade them!"
 	]
+	quest.59B7B59384B13029.quest_desc: [
+		"Walks on the overworld"
+		""
+		"Zombies o Kobolts are recommended"
+	]
 	quest.59D413BC45E63987.quest_desc: ["Allows to craft your drinkings!"]
 	quest.59DC06DEBAB70211.quest_desc: [
 		"Did you know that some steam turbines generates less than this solar can in 1 day? Well, now you know why they are better. "
@@ -7484,7 +7539,7 @@
 	quest.5BB1C96280007519.quest_desc: ["This block allows you to store anything, from items to chemicals inside, except nuclear stuff."]
 	quest.5BB1C96280007519.quest_subtitle: "SFM: &cTriggered"
 	quest.5BBC3C0F5B59E7F8.quest_desc: [
-		"Give a redstone signal like a lever to this machine and it will start to fuse genes."
+		"Put genes inside, and it will automatically start to combine them into higher % up to 100%"
 		""
 		"More info later, when we have all hives and bees"
 	]
@@ -8653,6 +8708,7 @@
 	quest.697A5E53CC53ADDB.quest_subtitle: "How to automate things"
 	quest.697A5E53CC53ADDB.title: "&6Autocrafting"
 	quest.697B9815FF380F6E.quest_desc: ["Machines are limited in energy capacity and energy transfer, but these little upgrades allows to change that"]
+	quest.69868BBC56DA8F95.quest_desc: ["Wind blazes"]
 	quest.6995F60A94673332.quest_desc: [
 		"Crush some &eitems&r into other."
 		""
@@ -9770,6 +9826,7 @@
 		"It will need &4Blood&r to operate and bring the dead back to the living."
 	]
 	quest.77BC1DE1D0D6D03B.title: "Bringing Spirits to Life"
+	quest.77D8CD1FB883BC36.quest_desc: ["Skeletons"]
 	quest.77E4F1F6EEB85DBA.quest_desc: [
 		"In this quest section, we will talk about &ecertain&f modded items for you to achieve your goal."
 		""
@@ -10260,6 +10317,7 @@
 		"If you are seeing this, it means you are in editing mode."
 	]
 	quest.7D4962777B170BCF.quest_desc: ["At this point, you should collect some clay, iron, gold, lapis and copper to continue, since it's used a lot in the mod"]
+	quest.7D4ECB54B96AFCA8.quest_desc: ["Passive mobs, any"]
 	quest.7D5439BA46732CEB.quest_desc: [
 		"Before we start creating &cmachines&r and &6multiblocks&r, we'll need to craft this core first."
 		""
@@ -10470,6 +10528,7 @@
 		"If you are not ready yet, you can change to Haven to get the materials"
 	]
 	quest.7F4A8D072E6E422F.title: "Pinnacle"
+	quest.7F5D4C74576F702E.quest_desc: ["5 fundamental, 1 per log"]
 	quest.7F62A235078FFDBF.quest_desc: ["Combining all into one, allows you to make a pineapple juice on The Nether while also checking if any of your setups has failed"]
 	quest.7F62A235078FFDBF.quest_subtitle: "The best one!"
 	quest.7F64B800348E4694.quest_desc: ["3 &6chests&r in 1 blocks? And only some &egold&r?"]
@@ -10614,6 +10673,7 @@
 	task.1004A92C2890456F.title: "Get an Ender Bee"
 	task.108AD6436A85F52B.title: "Starter Energy"
 	task.10A460C2DED7364D.title: "What have i done.."
+	task.10EBB1A7D60224EF.title: "Magical Monuments"
 	task.10F64B1DF8F5EAEB.title: "Welcome"
 	task.10FCCE450F48710B.title: "Resources Types"
 	task.111AAFA4BDCD1C7C.title: "Any Wrench"
@@ -10629,6 +10689,7 @@
 	task.17FDA62C6FC7A94A.title: "Get a Neon Cuckoo Bee"
 	task.188936236005F46F.title: "NBT"
 	task.19D7CBC40EFD5724.title: "Any Charm"
+	task.1A4353D42304B0D1.title: "Any Advanced Beehive"
 	task.1AA309F967A29DC0.title: "Uranium Node"
 	task.1C96F235C76AD42C.title: "Mob farm"
 	task.1DCD086A56EC3F0E.title: "Observe a KamikazBee"
@@ -10695,6 +10756,7 @@
 	task.3FE42247204875A7.title: "Any valve"
 	task.400FAEC8EFD1E253.title: "Any flour"
 	task.41C0455F2876E6BB.title: "Mod created by: &3DireWolf20"
+	task.426088136ABCA8FF.title: "Any #malum:impetus"
 	task.42F2038763A578EA.title: "Smart cables"
 	task.42F282D144BDE847.title: "Storage!"
 	task.43A963B1CF474EE6.title: "Any Fluid Pump"
@@ -10748,6 +10810,7 @@
 	task.5DFF9AB17D5E48EC.title: "Welcome to Mekanism!"
 	task.5E3DB1BC6B461008.title: "Mod created by: &aBlayTheNinth"
 	task.5E777A42A4FB1ACF.title: "Auto breeder"
+	task.5F0D26D3CACAD81F.title: "Any Expansion Box"
 	task.5F2B50571D656D90.title: "Get a Yellow Carpenter"
 	task.5FEF4FA418386572.title: "Deuterium"
 	task.6085E39EB0029CC6.title: "Tritium"
@@ -10768,6 +10831,7 @@
 	task.69F4F314723594F9.title: "Lapis Node"
 	task.6A590A66E66EE54A.title: "Tree farm"
 	task.6ADD8CA326D91C66.title: "Any Hammock"
+	task.6D55F4498F1DCA0E.title: "Any #curios:rune"
 	task.6E08378CF30A85D7.title: "Empowered Exalted Crafters"
 	task.6E5A4EBB9197750F.title: "Any Certus Dust"
 	task.6EEB18B1566985C0.title: "Block of Fluorite"

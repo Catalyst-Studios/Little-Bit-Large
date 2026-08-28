@@ -1671,8 +1671,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["038754BCDC1F9CD0"]
-			hide_dependency_lines: true
+			dependencies: ["1C19F475ABA24D0C"]
 			id: "23D9830AF2B0CBCC"
 			rewards: [{
 				id: "647EF38A7A00A7CC"
@@ -1700,7 +1699,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.5d
 			y: 4.5d
 		}
 		{
@@ -1723,7 +1722,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["23D9830AF2B0CBCC"]
+			dependencies: ["038754BCDC1F9CD0"]
+			hide_dependency_lines: true
 			id: "1C19F475ABA24D0C"
 			tasks: [{
 				count: 4L
@@ -1731,7 +1731,7 @@
 				item: { count: 1, id: "mysticalagriculture:soul_jar" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{

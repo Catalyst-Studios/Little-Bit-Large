@@ -57,14 +57,6 @@
 			}
 			weight: 5.0f
 		}
-		{
-			id: "4AE5F1BE49FAF0F0"
-			item: {
-				count: 1
-				id: "create_new_age:thorium"
-			}
-			weight: 20.0f
-		}
 	]
 	use_title: true
 }

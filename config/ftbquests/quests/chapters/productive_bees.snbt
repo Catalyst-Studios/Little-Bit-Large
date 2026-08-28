@@ -194,12 +194,12 @@
 			tasks: [
 				{
 					id: "1A4353D42304B0D1"
-					item: { count: 1, id: "productivebees:advanced_oak_beehive" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "5F0D26D3CACAD81F"
-					item: { count: 1, id: "productivebees:expansion_box_oak" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:expansion_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
