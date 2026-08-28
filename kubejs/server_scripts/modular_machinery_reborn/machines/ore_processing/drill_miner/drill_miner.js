@@ -28,7 +28,10 @@ MMREvents.machines(catalyst => {
                     "f": ["modular_machinery_reborn:casing_plain"],
                     "h": ["modular_machinery_reborn:casing_circuitry"],
                     "s": ["modular_machinery_reborn:casing_reinforced"],
-                    "Y": ["modular_machinery_reborn:casing_gearbox"],
+                    "Y": [
+                        "modular_machinery_reborn:casing_gearbox",
+                        'industrialforegoingsouls:soul_network_pipe'
+                    ],
                     "N": ["modular_machinery_reborn:entity_detector"],
                     "Z": ["#modular_machinery_reborn:energyinputhatch"],
                     "X": [
