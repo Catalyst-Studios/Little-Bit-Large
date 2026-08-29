@@ -1,7 +1,8 @@
 [*]
-background:          ftbquests:textures/gui/blue_background.png; color=#a0a0a0; tile_size=650
+background:                        ftbquests:textures/gui/blue_background.png; color=#9FFFFFFF; tile_size=650
+background_repeat:                 0
 chapter_panel_background:          hollow_rectangle:{{widget_border}}; round_edges + {{background}}; color=#B4B4B4; padding=1
-key_reference_background:          ftbquests:textures/gui/blue_background.png; color=#a0a0a0; tile_size=512
+key_reference_background:          ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=512
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0
@@ -82,7 +83,7 @@ checkmark_task_inactive: ftbquests:textures/gui/check_inactive.png
 
 # Welcome
 [0701BDFECC9EA8CD]
-background:                         ftbquests:textures/gui/welcome_background.png; tile_size=640; color=#a0a0a0
+background:                         ftbquests:textures/gui/welcome_background.png; tile_size=640
 quest_view_background:              ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=650
 
 # Malum
