@@ -1796,8 +1796,8 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "11C0933DC65560F5"
-				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				id: "786E4A9BF875BAC7"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
 			x: 14.5d
@@ -1813,6 +1813,54 @@
 			}]
 			x: 11.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["5D8CEA0C5F37F92C"]
+			id: "5F9B4D92EF2291EE"
+			rewards: [
+				{
+					count: 4
+					id: "2264F644EA345002"
+					item: {
+						count: 1
+						id: "industrialforegoing:stasis_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "23EA9E29C93BC1F3"
+					item: {
+						count: 1
+						id: "industrialforegoingsouls:soul_surge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "254C7F2F159C4CE3"
+					item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7B793EA35DB35BBA"
+					item: { count: 1, id: "industrialforegoingsouls:soul_network_pipe" }
+					type: "item"
+				}
+				{
+					id: "48B021FE2015B24F"
+					item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
+					type: "item"
+				}
+				{
+					id: "687F7DCA60F91DF5"
+					item: { count: 1, id: "industrialforegoing:blue_laser_lens" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.0d
 		}
 	]
 }

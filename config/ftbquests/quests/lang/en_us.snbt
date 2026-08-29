@@ -282,9 +282,9 @@
 	quest.026BC7F25AAF107D.quest_subtitle: "Im &9blue&r ...."
 	quest.026F3297989930ED.quest_desc: ["More &dfiltering&r!"]
 	quest.0270173E2FE25CCA.quest_desc: [
-		"Bosses or enderman"
+		"Eldrith is by far the most simple of all spirits, it drops from bosses or endermen or endermites"
 		""
-		"Endermite are the easiest"
+		"That's it, the simplest of all. I would recommend Endermite since they have low HP"
 	]
 	quest.02A1C699031C7DBD.quest_desc: [
 		"This feature only works while playing with someone. If you are playing alone, you can skip this long text."
@@ -716,6 +716,7 @@
 		"Perfect for an infinite water source or lava source."
 	]
 	quest.08CA4A967521AAC0.title: "&lPump"
+	quest.08DD86F92927595D.quest_desc: ["Used a lot in crafting and decoration, probably have 2000 of each passived"]
 	quest.08F416131D7643D3.quest_desc: [
 		"Are you tired of pipes ruining your clean setup?"
 		""
@@ -842,6 +843,7 @@
 		"It can mirror in &aone way&r, &e2&r or &5fully&r"
 	]
 	quest.09FCC8E992E23AFD.quest_subtitle: "Circles in Minecraft"
+	quest.0A00C8C55DE2D39C.quest_desc: ["Throw a Complete Design inside the well"]
 	quest.0A023BB2FD68153A.quest_desc: [
 		"These are the 2 most important &denchantments&r you can have for this mod"
 		""
@@ -1141,6 +1143,13 @@
 	]
 	quest.0C513C2290CB94DA.quest_subtitle: "in the form of a bucket!"
 	quest.0C513C2290CB94DA.title: "&l&1Infinite Water"
+	quest.0C5575BAC9933656.quest_desc: [
+		"And the all the mining items you will ever need, there are 2 ways to get them, by mining and by mining..."
+		""
+		"That doesn't makes sense, but here we go, the first mining is natural one, on any Vanilla or Biome O' Plenty biome, they are rare"
+		""
+		"Or by using the Deep Miner to mine some ores for you, more info of this machine on Modular Machinery Reborn tab! (7FFD86864E64AB0F)"
+	]
 	quest.0C6B960703FA685F.quest_desc: ["Transferes fe/rf"]
 	quest.0C7B1EBED4C008AC.quest_desc: [
 		"Imagine you want to have always 500 stone bricks in your &bnetwork&r."
@@ -1450,6 +1459,11 @@
 	]
 	quest.0FC0C0A568BF1BAB.quest_subtitle: "\"UPGRADES\""
 	quest.0FC0C0A568BF1BAB.title: "Advanced Modularium recipe"
+	quest.0FE9246E2A50B993.quest_desc: [
+		"Each rune needs a Curios slots, but there is only 2 ways to get them, via brooms and Geas, but as always, there is a catch."
+		""
+		"This one being the worst, reducing a ring slots, which you can use for other things"
+	]
 	quest.0FEEF242CE736765.quest_desc: [
 		"This is an axe, but electrical and fancier!"
 		""
@@ -1610,6 +1624,7 @@
 		"And some &7gunpowder&r of course :p"
 	]
 	quest.11CDFCDE525AE185.quest_subtitle: "Building a house from the roof"
+	quest.11CE5976BD92B743.quest_desc: ["Runewood is one of the main materials needed in the mod, you can get them by exploring and finding the tree, which is pretty rare or by buying it directly from the seed market"]
 	quest.11CED3F925F56C8D.quest_desc: ["You need &6honey treats&r"]
 	quest.11CED3F925F56C8D.quest_subtitle: "Dirty"
 	quest.11DABCC90AF0B4DF.quest_desc: ["On a &dchemical&r infuser, put some &cdeuterium&r and some &atritium&r"]
@@ -1996,6 +2011,13 @@
 	]
 	quest.162694C7F0BA16A9.quest_subtitle: "&oYawn..."
 	quest.162694C7F0BA16A9.title: "&9Dormant Deepshelf"
+	quest.162F527B22AE40DD.quest_desc: [
+		"Well, time to upgrade your equipment, speacially the weapons"
+		""
+		"Weapons made with this material can collect spirits too, so you won't have to relei on a scyth anymore."
+		""
+		"Or it's used as a crafting material too"
+	]
 	quest.16359AA62D3FE75B.quest_desc: [
 		"The Spirit Furnace is a way to farm mob drops by using a trapped spirit on the Spirit Box, kinda similar to a &dSimulation Chamber&r from Hostile Neural Networks. The only difference here, is that this is a multiblock and it uses &4blood&r instead of &cenergy&r!"
 		""
@@ -2277,7 +2299,15 @@
 		"&e(note drones can have many upgrades which may prove beneficial for its operation upgrades are explained in charger ui&r&4(arrow above charge slot)&r&e)&r"
 	]
 	quest.1A36052DF194B26A.quest_subtitle: "Pest control"
-	quest.1A372024C6D4839A.quest_desc: ["Speeds up the rituals but consumes 1 spirit"]
+	quest.1A372024C6D4839A.quest_desc: [
+		"Since we got the soulwood, we can speed the altar quite a bit, but we will need a good supply of arcane spirits."
+		""
+		"Put 4 arcane pylons near the altar, similar to the Obelisks, after that, feed some spirits."
+		"Now recipes are faster"
+		""
+		"You can use other spirits to decor, since light changes"
+	]
+	quest.1A372024C6D4839A.title: "Arcana Pylons"
 	quest.1A40816813B61A7D.quest_desc: [
 		"&dOnly&r can be used on &ainput&r and &coutput&r, and has different effects:"
 		""
@@ -2293,6 +2323,11 @@
 		"Syntax: output <filters> retain X <other filters> to <label>"
 		""
 		"Where X is the &6number&r of items or millibuckets and <other filters> are the &dfilters&r that SFM will use on the &6retain&r"
+	]
+	quest.1A45200047BC1937.quest_desc: [
+		"Right click an Exposed Runewood with an axe, after that, right click with a glass bottle to get the sap"
+		""
+		"You can use this as a subtitute of slime balls at the early game"
 	]
 	quest.1A4A8AB28AEE3D91.quest_desc: [
 		"This pickaxe is not entirely needed to progress through Evilcraft, but its quite nice that it comes with &6Fortune V&r and... curse of vengeance?"
@@ -2416,9 +2451,13 @@
 	quest.1C39960D4E84A92B.quest_subtitle: "The Input and Output"
 	quest.1C39960D4E84A92B.title: "In and Out"
 	quest.1C54667EE66C6BCE.quest_desc: [
-		"Anything that can fly or has wings"
+		"Aerial is a bit tricky, since you need something that should be able to fly, but there are 2 mobs that fits that category and are relative easy to farm:"
 		""
-		"Phantoms are recommended or chickens"
+		"- Phantoms: You can farm this spirit, Arcane and Wicked"
+		""
+		"- Chickens: Sacred and this one"
+		""
+		"For Phantoms I would recommend disabling the AI with Spawners, although Chickens are by far the easiest of them"
 	]
 	quest.1C576EB5C4A85273.quest_subtitle: "Charges Equiped Energy Items"
 	quest.1C576EB5C4A85273.title: "&lExo Chestplate"
@@ -2583,6 +2622,11 @@
 		"To complete this quest you only need observe every single each of these nodes!"
 	]
 	quest.1DD215C9864E6026.title: "&l&6Infinite &bOre &eExtraction"
+	quest.1DE9B2DB4E187973.quest_desc: [
+		"Runes are another way to improve your gameplay, some has minor effects like extra speed, while others has more complex mechanisms."
+		""
+		"It works the same as Altar, but you won't need an item pedestal this time, since we only have 1 item"
+	]
 	quest.1DFD9386E6755838.quest_desc: [
 		"This is similar to &5retain&r, but instead it works with &etags&r!"
 		"You can &acombine&r both and they go on the &6same&r place, here are the details:"
@@ -2986,7 +3030,11 @@
 		"Also used one &dmachine&r crafting"
 	]
 	quest.2299E953A9A2DD3F.quest_subtitle: "No more food, just souls"
-	quest.22A1DC5C3DBFF918.quest_desc: ["Endermans"]
+	quest.22A1DC5C3DBFF918.quest_desc: [
+		"Drops from Endermans"
+		""
+		"Some of it's uses are for a endgame gem as well as some stuff related to Geas"
+	]
 	quest.22AF4040C1A46CC5.quest_desc: ["Stores 32 &abuckets&r, but can store 4 &ddifferent&r type of &bfluids&r, 8 &ebuckets&r of each type."]
 	quest.22AF4040C1A46CC5.quest_subtitle: "The best one? &bAE2&r is best"
 	quest.22B285D439CCF4B5.quest_desc: [
@@ -3072,6 +3120,15 @@
 		"&e(note drones can have many upgrades which may prove beneficial for its operation upgrades are explained in charger ui&r&4(arrow above charge slot)&r&e)&r"
 	]
 	quest.234A684181B4B277.quest_desc: ["This is the highest tier of satchel and will construct the entire ritual if you click on the preview it will also allow you to instantly clean up the ritual by clicking on the ritual bowl"]
+	quest.236F1EFEBED1B2E3.quest_desc: [
+		"You only need an enchantment, so this quest can be completed, this is mostly information."
+		""
+		"The first enchantment will generate more lights that will mine for you, while the other will make them faster."
+		""
+		"I would suggest against using with Ultimine, since it will crash you game because it will generate 4 or more lights per block mines."
+		""
+		"They do not care which block they mine, as long as it can with the tool it generated them"
+	]
 	quest.237B43D294790EC9.quest_desc: ["For this bee, you need to use glowstone and be on &4The Nether&r"]
 	quest.237B43D294790EC9.quest_subtitle: "Turn off the light"
 	quest.237F1340DB1B1FEE.quest_desc: [
@@ -3278,6 +3335,8 @@
 		"Drop the &4netherrack&r and you get &ecinder dust&r!"
 	]
 	quest.25669046E438B028.quest_subtitle: "Nether sugar"
+	quest.256819E8EA869BF7.quest_desc: ["Runes are upgrades to your player or in some cases, to your enemies, choose carefully!"]
+	quest.256819E8EA869BF7.title: "Any Rune"
 	quest.25736C2EAF0B2BEA.title: "Niotic Tier"
 	quest.2574C8E53EFD83E1.quest_desc: ["Items and circuits, good combination"]
 	quest.2574C8E53EFD83E1.quest_subtitle: "Items"
@@ -3297,6 +3356,7 @@
 	quest.25D07D5C1BF155D0.quest_desc: ["Allows to store 1024 buckets of fluids"]
 	quest.25D07D5C1BF155D0.quest_subtitle: "Not enough"
 	quest.25E9A0725C280FE9.quest_desc: ["Basically puts blocks in the world, but uses energy to do so"]
+	quest.25EACF69F4AA5C28.quest_desc: ["Fancier gold, crafting material needed for the mod"]
 	quest.2607CCE7E9B43E4F.quest_desc: [
 		"Instead of having 10 controllers, lets have 1."
 		""
@@ -3486,9 +3546,20 @@
 	quest.2919FB8C84AD69F9.quest_subtitle: "NASv5: ON"
 	quest.2919FB8C84AD69F9.title: "4M Storage Component"
 	quest.29369B6D0959E962.quest_desc: [
-		"Using hoppers/SFM to insert spirits"
+		"The most important block in the entire mod, the altar, and as always, it's a bit tricky."
 		""
-		"Extra items goes in pedetals"
+		"All you will ever need is right click or using hoppers/SFM (even the first example program will work) to insert the spirits and items"
+		""
+		"The main item needs to go to the altar by right clicking (the one that shows in the middle in EMI/JEI), then you need the spirits, which you need to right click with them in the main hand (maximum is 64 per spirit)."
+		""
+		"{@pagebreak}"
+		"If a recipe requires extra items (located on the right side of the recipe on EMI/JEI), they go into the item pedestals being 4 blocks (including center) radius."
+		""
+		"Now, finally, the important part, they only will work if you have the correct spirits, with the spirits going up. You can put 64 spirits or 64 items at the same time for batch crafting, it just care about the ingredient being present and the minimum"
+		""
+		"When the recipe is done, the result will drop into the world as an item, so you would need to use a item collector or similar"
+		""
+		"All other tables from Malum works the same, but Gaze do a bit different (more info later)"
 	]
 	quest.2936AA3F0E3A1922.quest_desc: [
 		"Charged Snowball has 1 use, generate lightning at your will"
@@ -3948,6 +4019,7 @@
 		"You can connect different parts of your network with this block, althought, for dimensional transport or big distances, there will be another method much better."
 	]
 	quest.2D3EF621FB6C3C7E.quest_subtitle: "Moving data"
+	quest.2D58912C15CC42AF.quest_desc: ["The best Scyth from the mod, but still there is a lot to uncover"]
 	quest.2D63159E471984D9.quest_desc: [
 		"This &afilter&r allows you to filter based on the tag an &ditem&r has, for example, smeltable or armor"
 		""
@@ -4100,6 +4172,13 @@
 	]
 	quest.2E4461B571572B25.quest_subtitle: "Magnets, but in the form of blocks!"
 	quest.2E4461B571572B25.title: "&l&eItem Collectors"
+	quest.2E5535BD9EF7C252.quest_desc: [
+		"Malum is a dark magic themed mod, with lots of useful tools and cool animations."
+		""
+		"Unlike most mods that go straight to the point, there is a bit of adivination here, but it's pretty much as easy as you it can get"
+		""
+		"The book contains a lot of secrets pacts and rites, so move around!"
+	]
 	quest.2E6E63F5C8849B56.quest_subtitle: "Organic"
 	quest.2EA4BF9A9B390F5F.quest_desc: [
 		"Operating this nuclear reactor is no joke. Before you even think about fueling it up, you need to ensure proper safety protocols are in place. Reactors can generate immense &cheat&r, and without proper &bcooling&r, things can spiral out of control... &4fast&r."
@@ -4399,6 +4478,7 @@
 	]
 	quest.32E928CCA34C266B.quest_subtitle: "These amazing quests were made for &4Catalyst Studios&r"
 	quest.32E928CCA34C266B.title: "&l&4Catalyst Studios Quests"
+	quest.332901797E57E045.quest_desc: ["Click me more, I CHALLENGE YOU!"]
 	quest.333D257605BE55B1.quest_desc: ["Crafting material, needed for the next tier of rods"]
 	quest.333EBCACA0935EDC.quest_desc: ["&dGenerates&r 1 bucket of &clava&r every 50 &6seconds&r, not impressive but better than &evanilla&r"]
 	quest.333EBCACA0935EDC.quest_subtitle: "Infinite lava"
@@ -4428,6 +4508,7 @@
 		"These &6upgrade&r are &dmultiplicative&r, this means that you can get 8 million &6items&r in a drawer using &conly&r these!"
 	]
 	quest.3390B157AFDD3C90.quest_subtitle: "More space!"
+	quest.3398E8F5A62508E3.quest_desc: ["Throw Hex Ash inside the well"]
 	quest.33C3F20CCC8C10FB.quest_desc: [
 		"Tier 3, thats means more &6powerful&r &dmachines&r, which means more &ccrazy&r setups!"
 		""
@@ -4438,6 +4519,14 @@
 	quest.33C3F20CCC8C10FB.quest_subtitle: "T3"
 	quest.33CDF889D6BEA2E3.quest_desc: ["Basically &binput&r and &coutput&r all the needed &eitems&r or &5results&r"]
 	quest.33CDF889D6BEA2E3.quest_subtitle: "Auto furnace"
+	quest.33DA16E3CFBAE1BD.quest_desc: [
+		"This part needs to be done on the Overworld or in the multiblock."
+		""
+		"You need to find a Weeping Well, and your starter book to it."
+		"After some time it will returns with an upgraded version."
+		""
+		"Either compass will point to a near location of the Well, you will need to search a bit"
+	]
 	quest.33F13B95FF0DB5E1.quest_desc: [
 		"This is the new &6chest&r, the &abarrel&r."
 		""
@@ -4517,12 +4606,12 @@
 		""
 		"- &#e6eba8The End&r -> Gives x4 (the best of the best)"
 		""
-		"It needs a lot of &1water&r, which is easy to get, 5 buckets of &#b4e2e2ether gas&r and &#9c6833meat&r and some &asulfuric acid&r."
+		"It needs a lot of &bwater&r, which is easy to get, 5 buckets of &#b4e2e2ether gas&r and &#9c6833meat&r and some &asulfuric acid&r."
 		"While it seems a lot, water can be &eeasily&r obtained, and there is another &dmultiblock&r that gets a lot of &#b4e2e2ether gas&r and &#9c6833meat&r."
 		""
 		"For the &asulfuric acid&r, its not as big as it seems"
 		"{@pagebreak}"
-		"Now, here is the &acool&r part, this &#29dab4multiblock&r &5lies&r a lot. There are 2 &#dada29hidden&r recipes, they are the &dsame&r, but the only difference is the input and output item"
+		"Now, here is the &acool&r part, this &#29dab4multiblock&r &5lies&r a lot. There are &#dada29hidden&r recipes, they are the &dsame&r, but the only difference is the input and output item"
 		""
 		"For example, let's say that we have 289 &#e0e090raw iron&r and we use it on the &8void&r dimension, well, the machine will do 3 &5recipes&r instead of 289 &drecipes&r, one doing 256 &#e0e090raw iron&r to 256 iron ingot, another doing 32, and last one doing 1."
 		""
@@ -4587,6 +4676,11 @@
 		"You'll need &96x Echoing Sculkshelf&r, &a3x Melonshelf&r, &d2x Draconic Endshelf&r, and &b2x Infused Seashelf&r and be at least &blevel 100&r."
 	]
 	quest.35570C818FB1333F.quest_subtitle: "&oHopefully this one doesn't catch fire..."
+	quest.357A15AEF6A75E24.quest_desc: [
+		"You can repair your gear using this multiblocks, works similar to the Altar."
+		""
+		"Put the item you want to repair on an item pedestal, put the spirits on the Pylon and some Cthonic Gold Fragments, give it some time, and good to start again"
+	]
 	quest.3580A39C481777CB.quest_desc: [
 		"Well, &9water&rwheels are probably the &deasiest&r way to start with &6Create&r, but also not that &dgood&r on the long run."
 		"This is why people &5complains&r about Create, because of the &bspam&r problem."
@@ -4640,7 +4734,7 @@
 	quest.35DB426ECA2FC374.quest_desc: [
 		"A bit expensive for what it does, but there is another catch that isn't told on the other quests."
 		""
-		"Some solar panels work during the night"
+		"Some solar panels work during the night, like EnderIO ones if you use a Phantom Soul or some upgrades"
 	]
 	quest.35DB426ECA2FC374.quest_subtitle: "Pulses?"
 	quest.35DD97553C2E6EE7.quest_desc: ["Well, we are making an &7egg&r, so first, we need some &ewheat&r"]
@@ -4652,9 +4746,11 @@
 	]
 	quest.35DF9A15779E8AE4.quest_subtitle: "Master key"
 	quest.35EEAC9C37B1EEB4.quest_desc: [
-		"They swim"
+		"Kill any fish, yes, that simple"
 		""
-		"Any fish is recommended"
+		"Or squids, doesn't matter"
+		""
+		"Or slimes, any size"
 	]
 	quest.35F498CAE76F3C31.quest_desc: [
 		"Occultism is based around doing rituals and summoning these rituals can be found in the spirit guide and provide a build guide for you to follow."
@@ -4687,6 +4783,26 @@
 		"They have more &aslots&r for upgrades and now you can change from terminal to terminal in 1 click or still use the &ckeybinds&r if you used them"
 	]
 	quest.362FA7CD5737380B.quest_subtitle: "All in one"
+	quest.363581A91656F58E.quest_desc: [
+		"These aguments goes to the Catalyzers, one augment per tower."
+		""
+		"- Blazing Diode will use less fuel and increase speed, you shouldn't use this"
+		""
+		"- Shilding Apparatus will have a 10% chance to avoid damage and reduce instability but reduce the speed. You will get more ingots back that you put, so you don't have to worry."
+		""
+		"- Warping Engine will skip some of the time at the start of the recipe but will lower the effects of all stats and use more fuel"
+		"{@pagebreak}"
+		"- Impurity Stabilizer will make the weakess effect stronger at the cost of all others"
+		""
+		"- Mending Diffusser will have a chance to repair the impetus, but the normal repair is fine, so you should skip this one"
+		""
+		"- Intricate Assembly gives fortune at the cost of some recipe speed and damage to the impetus"
+		""
+		"- Accerelation Inlay will makes the recipe faster, but will consumes more fuel on the Catalyzer due to that recipe speed"
+		"{@pagebreak}"
+		"The best setup would probably be 8 Accerelation due to the long recipe time. Maybe adding some fortune while using Resonance Tuner since it deletes the damage cost."
+		"In all setups, you probably want to invest in some form of tick accerelation, like Industrial Foregoing Souls"
+	]
 	quest.363B4216992BD094.quest_desc: [
 		"The energy upgrade provides the router with an internal energy buffer and increases the maximum energy transfer per operation &4(not per tick)&r."
 		""
@@ -4709,9 +4825,9 @@
 	]
 	quest.364B91C3F2AC5C3C.title: "&lEnderic Compound"
 	quest.3686980DC39E762A.quest_desc: [
-		"Nether mobs"
+		"This spirit is based on the nether and all the things that goes on fire or explode, as simple as that."
 		""
-		"Creepers are recommended since they just drop that"
+		"Creepers only drop this spirits, or you can use blazes or zombified piglins too since scyths has AOE (aka hitting multiple mobs)"
 	]
 	quest.3689AFA62A2A1D46.quest_desc: [
 		"Generate &6Sewage&r fluid depending on the number of &cAnimals&r above it."
@@ -4876,6 +4992,11 @@
 		"These &dseeds&r need a machine to farm them!"
 	]
 	quest.39419E0E5E0E00B7.quest_subtitle: "Another one?!?"
+	quest.39437666EFEFA72C.quest_desc: [
+		"The well gives lots of power, but also lots of curses"
+		""
+		"Used as a crafting material"
+	]
 	quest.394D5F2C08A05B50.quest_desc: [
 		"The mod &l&6Mekanism&r adds a lot of new machines and some really good equipment."
 		""
@@ -5001,6 +5122,11 @@
 		"You &ecan&r select an &bslot&r if your drawer has &dmore&r than 1"
 	]
 	quest.3AE420164B082C74.quest_subtitle: "Redstone controller"
+	quest.3AF33E5437866CED.quest_desc: [
+		"Used a lot if you use Impetus, there is a quest part just for that!"
+		""
+		"You can already start doing those!"
+	]
 	quest.3B1AF89E06B178D4.quest_desc: [
 		"&5Parallels&r means doing more &bwork&r on the same machine, but without &cbuilding&r more."
 		"This &ameans&r you just need to &bchange&r a block and good to go"
@@ -5062,6 +5188,7 @@
 	quest.3BFAB6A6C6AB3B2A.quest_subtitle: "The Y level"
 	quest.3C007F533690A714.quest_desc: ["&eTechnological&r advancements have found some &5magical&r structures, capable of giving &6topaz&r"]
 	quest.3C007F533690A714.quest_subtitle: "Lapis flavo"
+	quest.3C0B42313844B4A1.quest_desc: ["Crafting material, made on the altar, not needed that much"]
 	quest.3C13FD15E06300E8.quest_desc: [
 		"Allows solar panels to work underground"
 		""
@@ -5161,6 +5288,19 @@
 	]
 	quest.3CDBC61BD4DAA7F6.quest_subtitle: "Updates"
 	quest.3CF21B494F821EFC.quest_desc: ["They have an IO of 1/4 of their capacity, they are relative cheap, so probably make a few of them"]
+	quest.3D147F258BF7975E.quest_desc: [
+		"These cores goes to the Crucible and has some interesting effects:"
+		""
+		"- Suspicious Device will explode the Crucible but generate the same as a Soulwood Rite"
+		""
+		"- Symphatic Drive will ignores the damage on the impetus, but not always, but when it occurs, it will avoid damage for 3 recipes"
+		"{@pagebreak}"
+		"- Resonance Tuner will delete instability, but will make the recipe to take a bit longer or sometimes makes the Catalyzers more powerful"
+		""
+		"- Caustic Catalyst will make your tunning with the fork more powerful when instability rises, so the higher the damage that takes the impetus, the more you can get"
+		""
+		"You need to choose one, but I would choose the Resonance Tuner, since it's the simplest one and the Suspecious Device for a friend"
+	]
 	quest.3D394FEA4D7724C6.quest_desc: [
 		"The Pipez Wrench."
 		"You wont get far without a way to configure your pipez."
@@ -5482,6 +5622,11 @@
 	quest.40703D01AED88444.quest_subtitle: "Yep, nerfed too"
 	quest.40732110998F3FF3.quest_desc: ["Basically, it &dallows&r you to &cstore&r 2 times more in each &6slots&r"]
 	quest.40732110998F3FF3.quest_subtitle: "More?"
+	quest.4088AEBAA544523C.quest_desc: [
+		"Ether has 3 uses, Geas, as invisible light source and as crafting material."
+		""
+		"All of them are powerful, even Geas, which are \"permanent\" upgrades"
+	]
 	quest.408C8DB7CD28AFA0.quest_desc: ["Another solar to upgrade"]
 	quest.409C2BEADCB1C3A9.quest_desc: [
 		"The Lava Generator's base production is 64FE/t."
@@ -5512,6 +5657,7 @@
 		"You can replace any blocks in the walls with valves and ports or windows or pressure chamber interfaces &4except for the outer edges and corners.&r"
 	]
 	quest.40FF3CEA25F2CB54.title: "pressure chamber"
+	quest.4117824973AB97C3.quest_desc: ["Crafting materials, has some important uses, like armor or runes"]
 	quest.411D065FF40241B5.quest_desc: ["Unlike the last tier, this one needs water to be used, and generates Dirty Water, which we can use to generate even more ores, I only see profits here"]
 	quest.412470C3AE1C84A9.quest_desc: [
 		"These &dtools&r are the more important ones from this mod, but there are also others, you should &echeck&r them out!"
@@ -5551,6 +5697,7 @@
 		"{image:catalyst:textures/quest_images/create/back_side.png width:100 height:100 align:center fit:true}"
 	]
 	quest.413A12D04AA827FB.quest_subtitle: "While(1)\\{\\}"
+	quest.416F14D42D4E6685.quest_desc: ["If you want to pass enchantments from your original scyth to this one, you can, although, there is a method using spirits too!"]
 	quest.417AEFA04AA2B40A.quest_desc: [
 		"You are &lnot&r allowed to use these quests in any public pack without &4&nexplicit permission&r from Catalyst Studios."
 		""
@@ -5762,6 +5909,7 @@
 		"- It has some useful stuff that AE2 one's doesn't like pulling the result directly to the autocrafter."
 	]
 	quest.445C903E107D3377.quest_subtitle: "Automation"
+	quest.446EB701F7FBEBD0.quest_desc: ["Allows to select a specific arcane, quanta and eterna in slicer bar"]
 	quest.447A36F0D55A6587.quest_desc: [
 		"Tier 4, the most &dexpensive&r machine casing."
 		""
@@ -5770,6 +5918,7 @@
 		"Needs &bprevious&r tier"
 	]
 	quest.447A36F0D55A6587.quest_subtitle: "Cuarto Tier"
+	quest.447A36F0D55A6587.title: "Supreme Machine Frame"
 	quest.448F99A9197C7EAD.quest_subtitle: "Don't use these"
 	quest.448F99A9197C7EAD.title: "Covered Cable"
 	quest.449AB0AB58F18D14.quest_desc: ["Well, another tricky one, some mobs has baby versions like zombies and other don't, so only apply this rune when you need the babies"]
@@ -5787,8 +5936,8 @@
 		""
 		"This is a crafting material"
 	]
-	quest.44B9580A098565F4.quest_desc: ["Zombies"]
-	quest.44B9A82A07B42089.quest_desc: ["Phantoms"]
+	quest.44B9580A098565F4.quest_desc: ["You can occasionally get them from zombies"]
+	quest.44B9A82A07B42089.quest_desc: ["Drops from phantoms, used on some misc craftings and for Impetus"]
 	quest.44C48011CDF0FB35.quest_desc: ["I have to balance both things"]
 	quest.44C48011CDF0FB35.quest_subtitle: "Sorry"
 	quest.44CC0C8C57F6BFCC.quest_desc: [
@@ -6128,6 +6277,15 @@
 		"Make sure to use a &zStasis Chamber&r"
 	]
 	quest.490D3C76D973668B.title: "Liquid Meat"
+	quest.4921A22866F9253C.quest_desc: [
+		"After you have collected some items, you will need some spirits, which is simpler than you think"
+		""
+		"You just need to kill some mobs with a specific weapon or make 1 big multiblock, here we will be talking about the weapon part."
+		""
+		"You can damage the mob until it has 1 Hearth and then kill them using this weapon to get the spirits."
+		""
+		"Some items from this questline can only be dropped by killing with a Scyth like Warp or Grim Talc"
+	]
 	quest.49286C762F383267.quest_desc: [
 		"&bDiamonds.&r..."
 		""
@@ -6229,6 +6387,15 @@
 		""
 		"This machine has different channels, to sort of separate different networks of machines"
 	]
+	quest.4A4F5DE5D43DE5E9.quest_desc: [
+		"This is a simple device that has 1 use, tune the Crucible"
+		""
+		"While holding it and looking at a Crucible, you will see new text"
+		""
+		"If you right click, one of these will be highlighted and numbers will chance, if you right click again, you will change to another stat or not tune the Crucible."
+		""
+		"If you upgrade one stat, you will decrease the others or increase the bad one!"
+	]
 	quest.4A63F037D66A7573.quest_desc: [
 		"This little grid will tell your cannon interfaces how it will behave."
 		""
@@ -6267,6 +6434,7 @@
 	quest.4ABC8789D7E4A93F.quest_subtitle: "First step"
 	quest.4ABC8789D7E4A93F.title: "Hand movements"
 	quest.4AD7CE8419514036.quest_subtitle: "Ποσειδώνας"
+	quest.4AE4D91089DA1035.quest_desc: ["Throw Blaze Powder inside the well"]
 	quest.4AF3718554C73E66.quest_desc: ["&dMagic&r and &etechonology&r are combined to get &6copper&r"]
 	quest.4AF3718554C73E66.quest_subtitle: "Cuprum"
 	quest.4B09911DB0E2C361.quest_desc: ["&dMagic&r and &etechonology&r are combined to get &9lapis&r"]
@@ -6480,6 +6648,15 @@
 	]
 	quest.4D3F2DA049C32098.quest_subtitle: "These amazing quests were made for &4Catalyst Studios&r"
 	quest.4D3F2DA049C32098.title: "&l&4Catalyst Studios Quests"
+	quest.4D66D768235961E9.quest_desc: [
+		"You feel something is looking at you on the well, you are tempted, and you jump..."
+		""
+		"You feel broken, with no soul, but a new spirit has been formed, your's"
+		"{@pagebreak}"
+		"If you haven't understood, jump into the well once, it will eject you up and drop an umbra spirit, after that, you won't receive more."
+		""
+		"To get more, you need to drop villagers inside or kill them with Veil, more info after you complete this quest"
+	]
 	quest.4D71091DD793653C.quest_desc: [
 		"You need honey in industrial quantities....."
 		""
@@ -6612,9 +6789,11 @@
 	]
 	quest.4EC581DCFFFD7E29.title: "&lMachine Hunter Addon"
 	quest.4ED1D6EA1C603BE0.quest_desc: [
-		"Magical creatures"
+		"Magical creatures, but not all of them"
 		""
-		"Phantoms are recommended or slime or blazes"
+		"The easiest ones are witches, blazes, slimes and phantoms"
+		""
+		"Or if you want to do Withers, you can also use Wither Skeletons"
 	]
 	quest.4F09224ECBE6AF12.quest_desc: [
 		"You would &cneed&r some &bwater&r to start with."
@@ -6622,7 +6801,18 @@
 		"And some &abig&r &dmachines&r!"
 	]
 	quest.4F4F69C0FE90C33B.quest_desc: [
-		"Each recipe takes 45 seconds"
+		"Impetus are a way to duplicate your materials for basically free, you just need a spirit farm and a coal farm, that's all."
+		""
+		"Each recipe takes 45 seconds and damaging the impetus by 2, but this can be reduced to 1 tick with a few tricks :p"
+		""
+		"{@pagebreak}"
+		"But first let's look at some important stats you want to know:"
+		""
+		"- Instability makes the impetus to take more damage, so we want to avoid that to min-max"
+		""
+		"- Fortune has a chance to give a few more nodes per recipe"
+		""
+		"- Warping ignores some recipe time, so basically skip some time"
 		""
 		"Instability makes more damage to the impetus"
 		""
@@ -6743,10 +6933,11 @@
 	quest.50FEE6D19ABFC8DF.quest_desc: [
 		"Yes, the mod speciality, &cstorage&r"
 		""
-		"There are a lot of &dfine&r &6details&r around it, you should &eread&r the quest"
+		"There are a lot of &dfine&r &6details&r around it, you should &eread&r the quests"
 	]
 	quest.50FEE6D19ABFC8DF.quest_subtitle: "[{\"text\":\"Pass the cursor over the \"},{\"text\":\"title\",\"color\":\"#29e6ca\"},{\"text\":\"!\",\"color\":\"#FFFFFF\"}]"
 	quest.50FEE6D19ABFC8DF.title: "[{\"text\":\"Welcome to \",\"color\":\"#FFFFFF\"},{\"text\":\"Functional\",\"color\":\"#29e6ca\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"The mod around mass storage\"}}},{\"text\":\" Storage!\",\"color\":\"#FFFFFF\"}]"
+	quest.510473AF470648A4.quest_desc: ["Throw Cthonic Gold inside the well"]
 	quest.511437D5945306E7.quest_desc: [
 		"These rings has some interesting effects if you use their <rainb f=0.5 w=1.0>schools</rainb>, aka elements, like fire or wind."
 		"Or some &apassive benefits&r that you might also be interested, like &cMax Health&r"
@@ -6801,6 +6992,7 @@
 	]
 	quest.51596947AF4C9BF1.quest_subtitle: "Cakes? WHERE?"
 	quest.51596947AF4C9BF1.title: "&#FF2438Blaze&r Cakes"
+	quest.51682E42C94E35C2.quest_desc: ["Right click it, I dare you"]
 	quest.516B2ED91CD19E2A.quest_desc: [
 		"The Stabilized Enchanter is a MUCH more powerful block for enchanting our items."
 		""
@@ -6855,6 +7047,13 @@
 		"- You can search in the patterns with &aExtended&r"
 	]
 	quest.51FE6BCEA111CD86.quest_subtitle: "The best one"
+	quest.521E589CAE9151B0.quest_desc: [
+		"Veil's Edge is a thrown weapon, like trident, but works with built-in loyalty enchantment."
+		""
+		"If you kill villagers or other players, you have a chance to get some spirits, 10% with villagers, 100% with players."
+		""
+		"You will need an Exposed Soulwood log first, then right click it with an axe and finally right click some glass bottle to get the sap. After that it's the same as you did before :)"
+	]
 	quest.52249CDB82582B27.quest_desc: [
 		"I Welcome thee to &l&bOritech&r!"
 		""
@@ -6968,9 +7167,9 @@
 	quest.53B435B6F12C773E.quest_subtitle: "It is infinite, but not quite"
 	quest.53B435B6F12C773E.title: "&lInfinite&r &4Blood"
 	quest.53F10B6BED6A9E77.quest_desc: [
-		"Hostile mobs"
+		"They are mainly dropped from hostile mobs like Zombies or Skeletons, but not all of the hostiles drops them."
 		""
-		"Phantoms are recommended or zombies"
+		"I would recommend zombies, since they are the easiest to contain"
 	]
 	quest.5404F37ADFC2FB5E.quest_desc: ["I think the &6pludger&r is the wrong type of &aarrow&r"]
 	quest.5404F37ADFC2FB5E.quest_subtitle: "Bow?"
@@ -7017,6 +7216,7 @@
 	quest.54A1827B28374C2A.quest_desc: ["The result of extracting a spawner with the spawner extractor used in the pressurized spawner"]
 	quest.54A3EA30D6865F70.quest_desc: ["You need &6honey treats&r, and here we have 2 bees, the resin bees is the one we are looking for"]
 	quest.54A3EA30D6865F70.quest_subtitle: "Bees"
+	quest.54B65FE4F8B29E9D.quest_desc: ["Or you can trade some speed for 2 slots, which is a decent trade, even more than health"]
 	quest.54B871DFAEAD338E.quest_desc: [
 		"This is a base material for all other items in this mod, there are 3 ways of producing them, each one being better and being basically free."
 		""
@@ -7175,6 +7375,7 @@
 	]
 	quest.563E95F9315B21CA.quest_subtitle: "no need for a storage system"
 	quest.563E95F9315B21CA.title: "&lWireless Transfer"
+	quest.564418D6BFA07392.quest_desc: ["Will need some iron nodes, but this axe will generate a few green light that will mine for you and bring those blocks."]
 	quest.5665980D3DA0F3CD.quest_desc: ["These are needed for most upgrades, so make sure to have them autocrafted!"]
 	quest.5665980D3DA0F3CD.quest_subtitle: "The base"
 	quest.5669679F0EEFFC97.quest_subtitle: "The best tier"
@@ -7403,9 +7604,9 @@
 		"On the left side, it will have 6 slots for putting the different tier materials, so you can upgrade them!"
 	]
 	quest.59B7B59384B13029.quest_desc: [
-		"Walks on the overworld"
+		"This is pretty simple to get, zombies, they are by far the easiest mob you can use to farm 2 spirits at the same time, you can use Kobolts from The Twilight Forest too."
 		""
-		"Zombies o Kobolts are recommended"
+		"Or Foxes to farm 3 spirits, or cows or sheeps (this last one, you should do it with HNN for AE2 cables ;) )"
 	]
 	quest.59D413BC45E63987.quest_desc: ["Allows to craft your drinkings!"]
 	quest.59DC06DEBAB70211.quest_desc: [
@@ -7436,7 +7637,7 @@
 		""
 		"- You need a &dbudding&r and 6 &5cluster&r of the same &ctype&r on the &bcenter&r"
 		""
-		"- It do&cesn't&r produce &eitems&r without some other &6item&r to help it"
+		"- It &cdoesn't&r produce &eitems&r without some other &6item&r to help it"
 		""
 		"To &6start&r getting &bshards&r, you would need the &efollowing&r (at least one):"
 		""
@@ -7536,6 +7737,15 @@
 	]
 	quest.5B4EF92DCC7E66F8.quest_subtitle: "Le charmander"
 	quest.5B4EF92DCC7E66F8.title: "Charms II"
+	quest.5B92ED10BCDB1CC6.quest_desc: [
+		"Geas are a powerful system allowing players to get extra effects at the cost of some others."
+		""
+		"Those effects are \"permanet\", that means even if you die, you will keep them."
+		""
+		"You will need the items listed on the book as well as an Ether. Put everything (no item pedestals needed) on this table and right click with an Ether."
+		""
+		"After that, right click with an empty hand to get the effect, but be quick or the ritual might turn off."
+	]
 	quest.5BB1C96280007519.quest_desc: ["This block allows you to store anything, from items to chemicals inside, except nuclear stuff."]
 	quest.5BB1C96280007519.quest_subtitle: "SFM: &cTriggered"
 	quest.5BBC3C0F5B59E7F8.quest_desc: [
@@ -7777,6 +7987,7 @@
 	quest.5E718194252CA698.quest_subtitle: "More water"
 	quest.5E81A419306A7840.quest_desc: ["Quartz + &4The Nether&r, perfect combo"]
 	quest.5E81A419306A7840.quest_subtitle: "The shiny bee"
+	quest.5E9BF96FD602AD97.quest_desc: ["Will need some iron nodes, but this pickaxe will generate a few green light that will mine for you and bring those blocks."]
 	quest.5EA2660475664A48.quest_desc: [
 		"[{\"text\":\"\"},{\"text\":\"\\\"Using great \"},{\"text\":\"power\",\"color\":\"#55FF55\"},{\"text\":\" and \"},{\"text\":\"magic\",\"color\":\"#FF55FF\"},{\"text\":\", we are able to \"},{\"text\":\"convert\",\"color\":\"#BEE07B\"},{\"text\":\" some \"},{\"text\":\"ancient\",\"color\":\"#A17BE0\"},{\"text\":\" rocks to \"},{\"text\":\"magical\",\"color\":\"#AA00AA\"},{\"text\":\" rocks, \"},{\"text\":\"but adadad eeew aaa\",\"obfuscated\":true},{\"text\":\"\\\" - \"},{\"text\":\"Magical\",\"color\":\"#FF55FF\"},{\"text\":\" Engineer 2\"}]"
 		""
@@ -7888,6 +8099,18 @@
 	quest.5F89D359B5B172FA.quest_subtitle: "Lapis rubrum"
 	quest.5F8B4DA147FFBF10.quest_desc: ["For example, you enter redstone dust on your network and this card convert it to redstone blocks"]
 	quest.5F8B4DA147FFBF10.quest_subtitle: "Compress"
+	quest.5F9B4D92EF2291EE.quest_desc: [
+		"Industrial Foregoing allows you to speed things up quite a bit."
+		""
+		"You will need the same setup as the Ether Gas, but with a Warden."
+		"The Warden will receive damage, so make sure to have more stasis chambers."
+		""
+		"Put the blue lens to generate souls, and after that, some pipes to transport them. Although AE2 as transport might be good. You always needs pipes!"
+		""
+		"{@pagebreak}"
+		"Put the surges on the machine you want, and it will go faster, but each surge will only add a bit less, so if the first one adds a x3, the second surge will only add a x2, so x5 and so on."
+	]
+	quest.5F9B4D92EF2291EE.title: "Tick Accerelation"
 	quest.5FD1675BDBA67959.quest_desc: [
 		"The chains are reacting with some of your materials, maybe they want to combine into something better."
 		""
@@ -7960,6 +8183,7 @@
 	quest.60BCCB2B8C9E42AB.quest_desc: ["Basically, it &dallows&r you to &cstore&r 16 times more in each &6slots&r"]
 	quest.60BCCB2B8C9E42AB.quest_subtitle: "Yes, more"
 	quest.60C2544AA1C3763B.quest_desc: ["Faster operation for the furnace when dealing with ingots"]
+	quest.60DFA72F65DCB947.quest_desc: ["Throw Brilliance inside the well"]
 	quest.60E25D5D198D589F.quest_desc: [
 		"This addon is the goat and another must!"
 		""
@@ -8131,6 +8355,13 @@
 		""
 		"you set a nbt filter simply by editing the nbt string thats set when you filter for an item with nbt"
 		"This is especially usefull for apothiosis gems where you can set the filter for any gem then just remove the nbt tag except for the gem tag and you now have a generic gem filter that will work for any gem."
+	]
+	quest.62DE9781C6440899.quest_desc: [
+		"This is a special table, it can disenchant lots of items in seconds, but has some caviats."
+		""
+		"It works similar to the altar, but will use all spirits, except umbra, at least 8 up to 64 of each spirit, so you want to max that out!"
+		""
+		"You need to place a book as the main item and all gear with enchantments on item pedestals, after some time, you will get the enchanted book, but it won't drop as item"
 	]
 	quest.62F77CA28BF9653C.quest_desc: [
 		"These &emultiblock&r are centered around &dresources&r generation"
@@ -8405,6 +8636,7 @@
 	]
 	quest.6547327236A3C8E1.quest_subtitle: "No mo' annoying dirt!"
 	quest.6547327236A3C8E1.title: "&l&dOnly Excavators"
+	quest.65614D7709B70C71.quest_desc: ["Throw Iron Block inside the well"]
 	quest.65695ADD5FFAAF00.quest_desc: [
 		"For the price of 4 solars, you get 2 in 1"
 		""
@@ -8651,6 +8883,16 @@
 	quest.68E0FE577DC5DBC3.quest_subtitle: "Third tier, HV"
 	quest.68F03CFFA6A021A8.quest_desc: ["Basically, adds a bigger energy capacity to supported tools"]
 	quest.68F03CFFA6A021A8.quest_subtitle: "POWAH!!!!"
+	quest.68F0F12785C2DE8A.quest_desc: [
+		"Soulwood, the next tier of Arcane, but it is all? Well, no, we have 1 tier to get."
+		""
+		"If you did the rite correctly, you will get a Blighter Earth platform with different materials."
+		""
+		"{@pagebreak}"
+		"You probably got a sapling, which you can use to replicate the Rite but a lot faster, just by planting and growing the tree."
+		""
+		"From time to time, there will be anomalies, and some part of the corruption will convert to Scarstone and Strange Crystals"
+	]
 	quest.68F7FC0D8265DE95.quest_desc: [
 		"This is how you can farm some spawners and some good scrolls from Ars, like the Atomic one."
 		""
@@ -8708,7 +8950,7 @@
 	quest.697A5E53CC53ADDB.quest_subtitle: "How to automate things"
 	quest.697A5E53CC53ADDB.title: "&6Autocrafting"
 	quest.697B9815FF380F6E.quest_desc: ["Machines are limited in energy capacity and energy transfer, but these little upgrades allows to change that"]
-	quest.69868BBC56DA8F95.quest_desc: ["Wind blazes"]
+	quest.69868BBC56DA8F95.quest_desc: ["Drops from Breezes, it's a bit rarer than the others, but after you get 4, you can get infinite amount of them"]
 	quest.6995F60A94673332.quest_desc: [
 		"Crush some &eitems&r into other."
 		""
@@ -9304,6 +9546,11 @@
 	]
 	quest.705D0129508997FA.quest_desc: ["Used in plastic production."]
 	quest.7060533FE885B7B7.quest_desc: ["Has 7 slots, and can work at 1 tick"]
+	quest.7061DB6C61BD30AA.quest_desc: [
+		"Well, time to get some better secrets, this time, mainly 2 things, better understanding of which mob will drop which spirit and more rites (but tbh they are not good enough)"
+		""
+		"Also it's the background of these quests :p"
+	]
 	quest.709E19F2CE7323DF.quest_desc: ["Do not make these, they are by far worst than Curvy Pipe or any other mod, since it can only move 10 buckets per tick"]
 	quest.70B4A9811B52D633.quest_desc: ["Who needs to chop those trees by hand when ye got this fancy machine to do it!"]
 	quest.70B4A9811B52D633.title: "&lTree Cutter"
@@ -9768,6 +10015,7 @@
 	quest.770D5933A5EF28E1.title: "Welcome to &cLaser&bIO&r"
 	quest.771543603CFE5506.quest_desc: ["The guide has a simpler explanation on how to use them."]
 	quest.771543603CFE5506.title: "More Export buses"
+	quest.7727303A95715645.quest_desc: ["Health can be easily recovered from and there are a few ways not to get damaged, so it's a good way"]
 	quest.7743458DF29237C3.quest_desc: [
 		"Now, what is a &abyte&r?"
 		""
@@ -9812,6 +10060,18 @@
 		"By doing shift+lmb we are able to cut down a single tree with ease, same protocol as the chainsaw."
 	]
 	quest.777F6A0F95BCF073.title: "&6&lPrometheum Battleaxe"
+	quest.77822FE077DEBE01.quest_desc: [
+		"Well, you have noticed (if you haven't used something like IF Souls), that crafting speeds are horrendous."
+		""
+		"There is a way to speed things up and other utils:"
+		""
+		"- Spirit Jar: A cheap way (and fashionable) to store spirits, can only hold 1 spirit but has lots of capacity (as a Max Drawer)"
+		""
+		"{@pagebreak}"
+		"- Runewood Obelisk: This allows to speed up your altar's crafting time, decreasing them by 1/4, so if you have a time of 10, first obelisk will reduce it to 7, then the second will do 5 and so on"
+		""
+		"- Brilliance Obelisk: Acts as a bookshelf, you can have up to 5 at the same time before the effect stops"
+	]
 	quest.779080C05BC7DC43.quest_desc: ["Step 2 of your &6ore&r processing"]
 	quest.779080C05BC7DC43.quest_subtitle: "Fermenting iron yeast"
 	quest.779918B7EF072B1A.quest_desc: ["Works like the Distributor Module, but with FE. Its base range is 8 blocks instead of 24, though it can still be increased up to a maximum of 48. The maximum throughput is determined by energy upgrades."]
@@ -9826,7 +10086,7 @@
 		"It will need &4Blood&r to operate and bring the dead back to the living."
 	]
 	quest.77BC1DE1D0D6D03B.title: "Bringing Spirits to Life"
-	quest.77D8CD1FB883BC36.quest_desc: ["Skeletons"]
+	quest.77D8CD1FB883BC36.quest_desc: ["Drops from skeletons, specially from variants from normal one"]
 	quest.77E4F1F6EEB85DBA.quest_desc: [
 		"In this quest section, we will talk about &ecertain&f modded items for you to achieve your goal."
 		""
@@ -10007,6 +10267,12 @@
 	]
 	quest.795FB25F7FE3F03C.quest_subtitle: "pressure regulation"
 	quest.79680024E102F068.title: "Basic Tier"
+	quest.79E2FB0410825C47.quest_desc: [
+		"Scythes has some uniques enchantments that you can apply, but the most important ones are Haunted (which increase Magical Damage) and Spirit Plunder, which allows you to loot more spirits"
+		""
+		"Higher levels gives you more spirits, SFM allows you to copy this book if you need, which is the easiest from all mods!"
+	]
+	quest.79E2FB0410825C47.title: "Enchantmets!"
 	quest.79E61E1354DF27A1.quest_desc: [
 		"The &6Centrifuge&r is the second machine we'll need to progress through this mod and we'll need &d2&r in total for the next recipes!"
 		""
@@ -10075,6 +10341,7 @@
 	]
 	quest.7AA0505F34FBEFD7.quest_subtitle: "Happy &cKaboom&r"
 	quest.7AA0505F34FBEFD7.title: "Fission Reactor"
+	quest.7AB051138D982881.quest_desc: ["Throw Refined Soulstone inside the well"]
 	quest.7AB09B6B6E9206C4.quest_desc: [
 		"Evilcraft adds plenty of stuff, including a way to store items and craft within it's inventory!"
 		""
@@ -10124,6 +10391,7 @@
 		"Also &6recipes&r if you have blank patterns on your inventory!"
 	]
 	quest.7B1F9C4F3E3A5504.quest_subtitle: "Remember"
+	quest.7B243684405FFB35.quest_desc: ["Allows to remove a Geas"]
 	quest.7B25CDB43EF20BEA.quest_desc: [
 		"The first real challenge lies here, invaders"
 		""
@@ -10133,6 +10401,7 @@
 	]
 	quest.7B25CDB43EF20BEA.quest_subtitle: "Just a little more durable"
 	quest.7B25CDB43EF20BEA.title: "Haven"
+	quest.7B507766424DD877.quest_desc: ["Crafting material, you won't need a lot of them"]
 	quest.7B598DB1E1571973.quest_desc: [
 		"In Base Oritech we'll need to mix 2 &6Nickel Ingots&r and 2 &bDiamonds&r to make 1 &3Adamant Ingot&r."
 		""
@@ -10317,7 +10586,13 @@
 		"If you are seeing this, it means you are in editing mode."
 	]
 	quest.7D4962777B170BCF.quest_desc: ["At this point, you should collect some clay, iron, gold, lapis and copper to continue, since it's used a lot in the mod"]
-	quest.7D4ECB54B96AFCA8.quest_desc: ["Passive mobs, any"]
+	quest.7D4ECB54B96AFCA8.quest_desc: [
+		"Drops from any passive mobs, I would recommend chicken since you can farm 2 spirits at the same time, Aerial and this one. Fishes doesn't count sadly"
+		""
+		"Or foxes for the same as chichen and Earthen too."
+		""
+		"Although some other mob with low health will do better, like a bee"
+	]
 	quest.7D5439BA46732CEB.quest_desc: [
 		"Before we start creating &cmachines&r and &6multiblocks&r, we'll need to craft this core first."
 		""
@@ -10528,7 +10803,15 @@
 		"If you are not ready yet, you can change to Haven to get the materials"
 	]
 	quest.7F4A8D072E6E422F.title: "Pinnacle"
-	quest.7F5D4C74576F702E.quest_desc: ["5 fundamental, 1 per log"]
+	quest.7F5D4C74576F702E.quest_desc: [
+		"Malum doesn't only have 1 type of magic, we have in world magic too, but it's pretty simple to understand."
+		""
+		"Put a Totem base and 5 rune wood on top, like a column. After that, you will need to right click on the logs using the spirits"
+		""
+		"For this rite (their name), you will need 5 arcane spirits, one on each log (you can't put 2 on the same log, don't worry)."
+		""
+		"Go to the mining dimension or somewhere with grass, that's important. After that, make the column and put the spirits. Right click on the base and it will start. It will start to corrupt itself to make the necessary items. You can't reuse this rite unlike the others"
+	]
 	quest.7F62A235078FFDBF.quest_desc: ["Combining all into one, allows you to make a pineapple juice on The Nether while also checking if any of your setups has failed"]
 	quest.7F62A235078FFDBF.quest_subtitle: "The best one!"
 	quest.7F64B800348E4694.quest_desc: ["3 &6chests&r in 1 blocks? And only some &egold&r?"]
@@ -10816,6 +11099,7 @@
 	task.6085E39EB0029CC6.title: "Tritium"
 	task.608D155E7BBD7068.title: "Emerald Node"
 	task.6128CE54B90DBC02.title: "Starting point"
+	task.614FBD5ADA126C13.title: "Any Structure Compass"
 	task.626F3BAAA66A2EAF.title: "Get a Glowing Bee"
 	task.639EAAE0D5405BB4.title: "If else"
 	task.6489568C7727BEFF.title: "A chest"
@@ -10831,7 +11115,7 @@
 	task.69F4F314723594F9.title: "Lapis Node"
 	task.6A590A66E66EE54A.title: "Tree farm"
 	task.6ADD8CA326D91C66.title: "Any Hammock"
-	task.6D55F4498F1DCA0E.title: "Any #curios:rune"
+	task.6D55F4498F1DCA0E.title: "Any Rune"
 	task.6E08378CF30A85D7.title: "Empowered Exalted Crafters"
 	task.6E5A4EBB9197750F.title: "Any Certus Dust"
 	task.6EEB18B1566985C0.title: "Block of Fluorite"

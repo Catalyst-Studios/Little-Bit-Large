@@ -47,6 +47,21 @@
 				"11CE5976BD92B743"
 			]
 			id: "4921A22866F9253C"
+			rewards: [{
+				id: "6749FD6FD27AA00E"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"malum:spirit_plunder": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1927E821093633C9"
 				item: { count: 1, id: "malum:crude_scythe" }
@@ -75,6 +90,9 @@
 		}
 		{
 			dependencies: ["2E5535BD9EF7C252"]
+			icon: {
+				id: "malum:refined_soulstone"
+			}
 			id: "0C5575BAC9933656"
 			tasks: [
 				{
@@ -207,6 +225,9 @@
 		}
 		{
 			dependencies: ["4921A22866F9253C"]
+			icon: {
+				id: "malum:spirit_altar"
+			}
 			id: "29369B6D0959E962"
 			tasks: [
 				{
@@ -318,6 +339,9 @@
 				"162F527B22AE40DD"
 				"4088AEBAA544523C"
 			]
+			icon: {
+				id: "malum:runewood_obelisk"
+			}
 			id: "77822FE077DEBE01"
 			tasks: [
 				{
@@ -431,8 +455,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["2E5535BD9EF7C252"]
-			hide_dependency_lines: true
+			dependencies: ["1DE9B2DB4E187973"]
 			id: "0FE9246E2A50B993"
 			tasks: [{
 				id: "337A78B8190C0D69"
@@ -440,7 +463,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0FE9246E2A50B993"]
@@ -450,11 +473,12 @@
 				item: { count: 1, id: "malum:glass_brooch" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -8.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7727303A95715645"]
+			dependencies: ["2E5535BD9EF7C252"]
+			hide_dependency_lines: true
 			id: "1DE9B2DB4E187973"
 			tasks: [{
 				id: "221173F2CFA44157"
@@ -462,10 +486,14 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -7.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["1DE9B2DB4E187973"]
+			dependencies: [
+				"7727303A95715645"
+				"54B65FE4F8B29E9D"
+			]
+			dependency_requirement: "one_completed"
 			id: "256819E8EA869BF7"
 			tasks: [{
 				id: "6D55F4498F1DCA0E"
@@ -642,6 +670,9 @@
 				"7B507766424DD877"
 				"3C0B42313844B4A1"
 			]
+			icon: {
+				id: "malum:runewood_totem_base"
+			}
 			id: "7F5D4C74576F702E"
 			tasks: [
 				{
@@ -667,6 +698,9 @@
 		}
 		{
 			dependencies: ["7F5D4C74576F702E"]
+			icon: {
+				id: "malum:soulwood_sapling"
+			}
 			id: "68F0F12785C2DE8A"
 			tasks: [
 				{
@@ -715,9 +749,13 @@
 		}
 		{
 			dependencies: ["68F0F12785C2DE8A"]
+			icon: {
+				id: "malum:arcana_pylon"
+			}
 			id: "1A372024C6D4839A"
 			tasks: [
 				{
+					count: 4L
 					id: "1D1718E1384B2964"
 					item: { count: 1, id: "malum:arcana_pylon" }
 					type: "item"
@@ -743,17 +781,27 @@
 				item: { count: 1, id: "malum:the_device" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1A372024C6D4839A"]
+			icon: {
+				id: "malum:encyclopedia_esoterica"
+			}
 			id: "33DA16E3CFBAE1BD"
-			tasks: [{
-				id: "0507D10F7C3DEBFE"
-				item: { count: 1, id: "malum:encyclopedia_esoterica" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0507D10F7C3DEBFE"
+					item: { count: 1, id: "malum:encyclopedia_esoterica" }
+					type: "item"
+				}
+				{
+					id: "614FBD5ADA126C13"
+					item: { components: { "ftbfiltersystem:filter": "or(item(explorerscompass:explorerscompass)item(structurecompass:structure_compass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: 2.5d
 		}
@@ -836,20 +884,6 @@
 		{
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
-			id: "0FA8B12E1DAF64C2"
-			preset: "normal"
-			shape: "diamond"
-			tasks: [{
-				id: "46F320D748975C22"
-				item: { count: 1, id: "malum:void_salts" }
-				type: "item"
-			}]
-			x: -17.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["33DA16E3CFBAE1BD"]
-			hide_dependency_lines: true
 			id: "0A00C8C55DE2D39C"
 			shape: "diamond"
 			tasks: [{
@@ -875,7 +909,7 @@
 				item: { count: 1, id: "malum:the_vessel" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 12.0d
 		}
 		{
@@ -935,6 +969,65 @@
 			}]
 			x: -24.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["4921A22866F9253C"]
+			id: "79E2FB0410825C47"
+			tasks: [{
+				id: "5668133CE866C8F5"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "malum:spirit_plunder": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33DA16E3CFBAE1BD"]
+			hide_dependency_lines: true
+			id: "3398E8F5A62508E3"
+			shape: "diamond"
+			tasks: [{
+				id: "666A5B5140C74903"
+				item: { count: 1, id: "malum:void_salts" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FE9246E2A50B993"]
+			id: "54B65FE4F8B29E9D"
+			tasks: [{
+				id: "6C54EABBDACA38B2"
+				item: { count: 1, id: "gaze:sluggish_brooch" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D66D768235961E9"]
+			hide_until_deps_complete: true
+			id: "521E589CAE9151B0"
+			tasks: [{
+				id: "2F835843689A4777"
+				item: { count: 1, id: "gaze:veil_dagger" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11CE5976BD92B743"]
+			id: "1A45200047BC1937"
+			tasks: [{
+				id: "7DCB0DAA69C34868"
+				item: { count: 1, id: "malum:runic_sapball" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 }
