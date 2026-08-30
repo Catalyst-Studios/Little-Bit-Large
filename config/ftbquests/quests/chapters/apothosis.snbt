@@ -11,85 +11,8 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "76B189F7C492BC9E"
-	images: [
-		{
-			click_action: "none:"
-			height: 20.0d
-			id: "65EC71A3399A5D0E"
-			image: "apotheosis:textures/gui/mountain.png"
-			rotation: 0.0d
-			width: 30.0d
-			x: 10.0d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			id: "15E520F4773AD534"
-			image: "minecraft:item/fishing_rod_cast"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.0d
-			y: 7.5d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
-			id: "259D88F102F06E35"
-			image: "biomesoplenty:block/stringy_cobweb"
-			rotation: 90.0d
-			width: 1.0d
-			x: 9.785714285714292d
-			y: 7.660714285714285d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
-			id: "47A9486DF388DA7A"
-			image: "biomesoplenty:block/stringy_cobweb"
-			rotation: 90.0d
-			width: 1.0d
-			x: 10.647959183673478d
-			y: 8.500000000000014d
-		}
-		{
-			click_action: "none:"
-			height: 0.75d
-			id: "0F82D8362C929C70"
-			image: "minecraft:textures/entity/fishing_hook.png"
-			rotation: 0.0d
-			width: 0.75d
-			x: 11.0d
-			y: 9.0d
-		}
-		{
-			height: 1.0d
-			id: "2AA6DED8E7118B6C"
-			image: "ftblibrary:textures/faces/minecraft/cod.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.5d
-			y: 8.5d
-		}
-		{
-			height: 1.0d
-			id: "5568BF9C5608815A"
-			image: "ftblibrary:textures/faces/minecraft/cod.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 21.5d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			id: "281DDB40A1BF8754"
-			image: "ftblibrary:textures/faces/minecraft/cod.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.5d
-			y: 9.0d
-		}
-	]
-	order_index: 2
+	images: [ ]
+	order_index: 3
 	quest_links: [
 		{
 			id: "5775BBA1FB82BAF2"
