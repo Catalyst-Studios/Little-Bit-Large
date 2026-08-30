@@ -15,41 +15,41 @@ MMREvents.machines(catalyst => {
             ])
             .keys({
             "a": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "b": [
                 '#productivebees:flowers/quarry'
             ],
             "c": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "d": [
-                '#minecraft:slabs',
+                'minecraft:stone_slab',
                 'modular_machinery_reborn:outputbus_tiny'
             ],
             "e": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "f": [
                 "minecraft:spruce_log"
             ],
             "g": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "h": [
                 "minecraft:lantern"
             ],
             "j": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "k": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "l": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "n": [
-                '#minecraft:walls'
+                'minecraft:cobblestone_wall'
             ],
             "o": [
                 "mcwlights:chain_wall_lantern"
@@ -58,7 +58,7 @@ MMREvents.machines(catalyst => {
                 "mcwlights:chain_wall_lantern"
             ],
             "q": [
-                '#minecraft:logs'
+                "minecraft:spruce_log"
             ],
             "r": [
                 "mcwlights:chain_wall_lantern"
