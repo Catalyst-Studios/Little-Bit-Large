@@ -98,3 +98,11 @@ chapter_button_offset_x:            -80
 chapter_button_offset_y:            -280
 
 quest_view_background:              ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=650
+
+# Apotheosis
+[76B189F7C492BC9E]
+background:                         apotheosis:textures/gui/mountain.png
+background_offset_x:                1
+background_offset_y:                1
+background_repeat:                  0
+quest_view_background:              ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=650
