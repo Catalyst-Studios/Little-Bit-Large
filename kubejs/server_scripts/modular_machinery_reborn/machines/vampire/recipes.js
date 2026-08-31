@@ -440,7 +440,8 @@ ServerEvents.recipes(catalyst => {
         {
             if(rs.inputs.length > 3) throw Error("Can't have more than 3 inputs!")
             rs.inputs.forEach(input => {
-                recipe.requireItem(Ingredient.of(input.id, input.count), input.chance || 1.0);
+                let chance = typeof input.chance !== "undefined" ? input.chance : 1.0
+                recipe.requireItem(Ingredient.of(input.id, input.count), chance);
             });
         }
 
@@ -448,7 +449,8 @@ ServerEvents.recipes(catalyst => {
         {
             if(rs.fluid_input.length > 1) throw Error("Can't have more than 1 input fluids!")
             rs.fluid_input.forEach(fluid => {
-                recipe.requireFluid(Fluid.of(fluid.id, fluid.amount), fluid.chance || 1.0);
+                let chance = typeof fluid.chance !== "undefined" ? fluid.chance : 1.0
+                recipe.requireFluid(Fluid.of(fluid.id, fluid.amount), chance);
             });
         }
 
@@ -456,14 +458,15 @@ ServerEvents.recipes(catalyst => {
         if(rs.outputs)
         {
             rs.outputs.forEach(output => {
+                let chance = typeof output.chance !== "undefined" ? output.chance : 1.0
                 total_output++;
                 if(output.ntb)
                 {
-                    recipe.produceItem(output.id, output.chance || 1.0);
+                    recipe.produceItem(output.id, chance);
                 }
                 else
                 {
-                    recipe.produceItem(Ingredient.of(output.id, output.count), output.chance || 1.0);
+                    recipe.produceItem(Ingredient.of(output.id, output.count), chance);
                 }
             });
         }
@@ -473,8 +476,9 @@ ServerEvents.recipes(catalyst => {
         if(rs.fluid_output)
         {
             rs.fluid_output.forEach(fluid => {
+                let chance = typeof fluid.chance !== "undefined" ? fluid.chance : 1.0
                 total_output++;
-                recipe.produceFluid(Fluid.of(fluid.id, fluid.amount), fluid.chance || 1.0);
+                recipe.produceFluid(Fluid.of(fluid.id, fluid.amount), chance);
             });
         }
 
@@ -490,7 +494,8 @@ ServerEvents.recipes(catalyst => {
             {
                 let input = rs.inputs[idx];
                 let slot = input_slots[slotIndex];
-                recipe.requireItem(Ingredient.of(input.id, input.count), input.chance || 1.0, slot.x, slot.y);
+                let chance = typeof input.chance !== "undefined" ? input.chance : 1.0
+                recipe.requireItem(Ingredient.of(input.id, input.count), chance, slot.x, slot.y);
                 slotIndex++;
             }
         }
@@ -504,7 +509,8 @@ ServerEvents.recipes(catalyst => {
         {
             let fluid = rs.fluid_input[0];
             let slot = input_slots[3];
-            recipe.requireFluid(Fluid.of(fluid.id, fluid.amount), fluid.chance || 1.0, slot.x, slot.y);
+            let chance = typeof fluid.chance !== "undefined" ? fluid.chance : 1.0
+            recipe.requireFluid(Fluid.of(fluid.id, fluid.amount), chance, slot.x, slot.y);
             slotIndex = 4;
         }
 
@@ -518,13 +524,14 @@ ServerEvents.recipes(catalyst => {
         {
             rs.outputs.forEach(output => {
                 let slot = output_slots[outputIdx];
+                let chance = typeof output.chance !== "undefined" ? output.chance : 1.0
                 if(output.ntb)
                 {
-                    recipe.produceItem(output.id, output.chance || 1.0, slot.x, slot.y);
+                    recipe.produceItem(output.id, chance, slot.x, slot.y);
                 }
                 else
                 {
-                    recipe.produceItem(Ingredient.of(output.id, output.count), output.chance || 1.0, slot.x, slot.y);
+                    recipe.produceItem(Ingredient.of(output.id, output.count), chance, slot.x, slot.y);
                 }
                 outputIdx++;
             });
@@ -534,7 +541,8 @@ ServerEvents.recipes(catalyst => {
         {
             rs.fluid_output.forEach(fluid => {
                 let slot = output_slots[outputIdx];
-                recipe.produceFluid(Fluid.of(fluid.id, fluid.amount), fluid.chance || 1.0, slot.x, slot.y);
+                let chance = typeof fluid.chance !== "undefined" ? fluid.chance : 1.0
+                recipe.produceFluid(Fluid.of(fluid.id, fluid.amount), chance, slot.x, slot.y);
                 outputIdx++;
             });
         }

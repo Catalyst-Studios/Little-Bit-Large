@@ -31,6 +31,7 @@ ServerEvents.recipes(event => {
         {
             name: "ocean_treasures",
             input: "minecraft:water_bucket",
+            chance: 0,
             time: 150,
             outputs: [
                 { id: "minecraft:cod", count: 7, chance: 0.9 },
@@ -72,11 +73,12 @@ ServerEvents.recipes(event => {
     ];
 
     fishing_recipes.forEach(r => {
+        let chance = typeof r.chance === "undefined" ? 1 : r.chance
         let recipe = event.recipes.modular_machinery_reborn.machine_recipe(machine_id, r.time)
             .width(140)
             .height(80)
             .progressData(ProgressData.create().x(progressArrow.x).y(progressArrow.y))
-            .requireItem(Item.of(r.input, 1));
+            .requireItem(Item.of(r.input, 1), chance);
 
         r.outputs.forEach(out => {
             recipe.produceItem(Item.of(out.id, out.count), out.chance);
@@ -84,7 +86,7 @@ ServerEvents.recipes(event => {
 
         recipe.jei();
 
-        recipe.requireItem(Item.of(r.input, 1), inputSlot.x, inputSlot.y);
+        recipe.requireItem(Item.of(r.input, 1), chance, inputSlot.x, inputSlot.y);
 
         for(let i = 0; i < 7; i++)
         {
