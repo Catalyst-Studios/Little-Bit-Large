@@ -8,7 +8,7 @@ ServerEvents.recipes(catalyst => {
         {id: "minecraft:zombie", liquid: "industrialforegoing:meat", time: 200, item: "minecraft:rotten_flesh"},
         {id: "minecraft:sheep", liquid: "industrialforegoing:pink_slime", time: 200, item: "minecraft:white_wool"},
         {id: "minecraft:villager", liquid: "integrateddynamics:menril_resin", time: 200, item: "minecraft:crafting_table"},
-        {id: "minecraft:warden", time: 40, item: 'industrialforegoingsouls:soul_network_pipe'}
+        {id: "minecraft:warden", time: 400, item: 'industrialforegoingsouls:soul_network_pipe'}
     ];
     
     mobTypes.forEach(mob => {
