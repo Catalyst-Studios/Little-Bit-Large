@@ -13,6 +13,26 @@ ServerEvents.recipes(catalyst => {
         ]
     )
     .id("catalyst:oritech/adamant_dust")
+
+    catalyst.custom({
+        type: "oritech:foundry",
+        ingredients: [
+            {
+                item: 'eternalores:charcoal_dust'
+            },
+            {
+                item: 'eternalores:wrought_iron_ingot'
+            }
+        ],
+        results: [
+            {
+                count: 1,
+                id: 'eternalores:steel_ingot'
+            }
+        ],
+        time: 80
+    }).id("catalyst:oritech/foundry/steel_ingot")
+
     console.log("[CatJS] Oritech Recipes");
 })
 
