@@ -34,6 +34,8 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "10EBB1A7D60224EF"
 				type: "checkmark"
@@ -1028,6 +1030,18 @@
 			}]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4AE4D91089DA1035"]
+			hide_until_deps_complete: true
+			id: "6D1ED42DEA8ECA02"
+			tasks: [{
+				id: "2764E920A25E3242"
+				item: { count: 1, id: "malum:catalyst_lobber" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -0.5d
 		}
 	]
 }

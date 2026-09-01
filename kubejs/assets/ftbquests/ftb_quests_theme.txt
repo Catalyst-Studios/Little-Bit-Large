@@ -106,3 +106,15 @@ background_offset_x:                1
 background_offset_y:                1
 background_repeat:                  0
 quest_view_background:              ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=650
+
+# Progressio
+[039F51BB5CCBEEB2]
+background:                         catalyst:textures/quest_images/background/progression.png
+background_offset_x:                1
+background_offset_y:                1
+background_repeat:                  0
+quest_view_background:              ftbquests:textures/gui/blue_background.png; color=#DCFFFFFF; tile_size=650
+
+chapter_button_background:          catalystcore:textures/gui/modopedia/books/catalyst_codex.png
+chapter_button_offset_x:            -650
+chapter_button_offset_y:            -187

@@ -1,4 +1,5 @@
 {
+	chapter.039F51BB5CCBEEB2.title: "Progression"
 	chapter.0701BDFECC9EA8CD.title: "Welcome!"
 	chapter.092F58C698EEBA75.title: "PneumaticCraft"
 	chapter.1287AC579F7832FE.title: "Occultism"
@@ -431,6 +432,7 @@
 		"There is a multiblock to allow generating Souls better than original method"
 	]
 	quest.0495529CBE5FF2A3.quest_subtitle: "Speeding up the machines"
+	quest.0495DFD9C2C58F6F.quest_desc: ["Carbon fiber is one of those items used in mass, I would make in batches"]
 	quest.04AA4C90B32A7AF6.quest_desc: ["Stores 32 &abuckets&r, but can store 2 &ddifferent&r type of &bfluids&r, 16 &ebuckets&r of each type."]
 	quest.04AA4C90B32A7AF6.quest_subtitle: "&aMekanism&r's Dynamos Tanks should have fear"
 	quest.04AC806D745E9AD0.quest_desc: ["Crafting material, needed for the next tier of rods"]
@@ -775,28 +777,6 @@
 		""
 		"It's basically only used for the next tier and a teleporter"
 	]
-	quest.093E6C933E18E5CB.quest_desc: [
-		"The &6Big Solar Panel&r is not different than the other energy generators Oritech offers, but its energy generation sure is affected by the &cMachine Core&r used to build it."
-		""
-		"And as the suggests, it needs a clear view of the sun to work properly."
-		""
-		"The higher the level of the core, the better its FE ratio."
-		""
-		"Primitive Core - 32FE/t "
-		""
-		"Basic Core - 64FE/t"
-		""
-		"Improved Core - 96FE/t "
-		""
-		"Advanced Core - 128FE/t"
-		""
-		"Elite Core - 166FE/t"
-		""
-		"Ultra Core - 192FE/t"
-		""
-		"Ultimate Core - 224FE/t"
-	]
-	quest.093E6C933E18E5CB.title: "&lBig Solar Panel"
 	quest.09491BB900209FF2.quest_desc: ["Basically an &aExtended&r &bInterface&r, but each slot allows to store more, 16 times more!"]
 	quest.09491BB900209FF2.quest_subtitle: "Now we are talking"
 	quest.0956324630429985.quest_desc: [
@@ -921,6 +901,14 @@
 	quest.0A691F71CA79DCB0.title: "Dark Tank"
 	quest.0A7679A16AFCFE50.quest_desc: ["It &dallows&r you to &cstore&r 8 times more in each &6slots&r"]
 	quest.0A7679A16AFCFE50.quest_subtitle: "A singularity"
+	quest.0A89941FEB91D334.quest_desc: ["Universium, a mix of magic and technology, so powerful, yet, there is something hiding behind it, something more"]
+	quest.0A89941FEB91D334.quest_subtitle: "99% - Failed simulation, civilization is being restored"
+	quest.0A94986A4230D076.quest_desc: [
+		"There is someone out there, they are watching me, in the deep dark of the Void, I don't know who can it be, but they are dangerous."
+		""
+		"I need to retrain them, or else I should destroy my own creation"
+	]
+	quest.0A94986A4230D076.quest_subtitle: "6 June XXXX, Day 1265, someone is watching me, someone wants to get rip of me"
 	quest.0AA2F1EDDCA7808C.quest_desc: [
 		"Not quite &duniversal&r, but almost."
 		""
@@ -967,6 +955,7 @@
 	]
 	quest.0AE5D4C43C7C4C8C.quest_subtitle: "Final NAS: &cON&r"
 	quest.0AE5D4C43C7C4C8C.title: "256M Storage Component"
+	quest.0AEB5AC31FEA0D86.quest_desc: ["Better fuel or can be used on a Ore processing step"]
 	quest.0B590548E1FA4E1A.title: "Chocolate Mining Bee"
 	quest.0B66741748BDAFCC.quest_desc: ["&5Magical&r creatures guides you to these &dbuddings&r, giving you &auraninite&r"]
 	quest.0B66741748BDAFCC.quest_subtitle: "Clara Uranium"
@@ -1102,6 +1091,7 @@
 		"&l&4Warning: It can break blocks and one-tap you if mishandled&f!"
 	]
 	quest.0C1ADC4C9F6E5921.title: "&lParticle Accelerator Guide Ring"
+	quest.0C2CD9900AA92976.quest_desc: ["Bees are another powerful way to farm materials, they have a much harder start, but it pays out"]
 	quest.0C2DE3DDB6BFD375.title: " "
 	quest.0C3D215FB092DC08.quest_desc: ["You won't get better &6bees&r than these, but you will need this for &clater&r, make a few!"]
 	quest.0C3D215FB092DC08.quest_subtitle: "The best bees"
@@ -1238,6 +1228,7 @@
 	]
 	quest.0D7F28967280B814.quest_desc: ["If you have followed the &6bees&r quests, you only need 2 &6bees&r to get this one and some materials ;)"]
 	quest.0D7F28967280B814.quest_subtitle: "Just 3 bees"
+	quest.0D8C28070FAC998F.quest_desc: ["One of the first multiblocks you can make, this little one needs a few mud blocks, but allows to get alloys at a much faster rate"]
 	quest.0D968517AACAB080.quest_subtitle: "Mega storage"
 	quest.0DACD6F3077FBD20.quest_desc: [
 		"Apothic Spawners allows you to modify spawners to make them faster and more efficient!"
@@ -1290,6 +1281,7 @@
 	quest.0DF7413E300B22CD.title: "&l&4Catalyst Studios Quests"
 	quest.0E00C461AF798658.quest_desc: ["Instead of getting 9 cables, we only get 6, but thats not a problem for now, with 1KFE/t is more than enough"]
 	quest.0E0502A4969D9406.quest_desc: ["An ingredient for Techological seeds, step 5"]
+	quest.0E07814D7267F671.quest_desc: ["Phytos allows to farm Mystical Agriculture seeds at a much faster peace than farmlands, and even includes some lag reduction"]
 	quest.0E0CE91A82A816EB.quest_desc: [
 		"Induction Smelter allows to use upgrades, so it will make them faster"
 		""
@@ -1502,8 +1494,9 @@
 	quest.1038B0243A3058E1.quest_subtitle: "Steam!?!"
 	quest.1040A7B9610C87CB.quest_desc: ["To &dimprove&r &bAE2&r"]
 	quest.1040A7B9610C87CB.quest_subtitle: "The concurrent beast"
+	quest.104632D15E3A3270.quest_desc: [""]
 	quest.104632D15E3A3270.quest_subtitle: "A mix of Netherite and Platinum"
-	quest.104632D15E3A3270.title: "&l&0Duratium Ingot"
+	quest.104632D15E3A3270.title: "&l&3Duratium Ingot"
 	quest.105C3E68750E1FFE.quest_desc: [
 		"This little block allows you to send signals across multiple dimensions and without a range limit, making it the perfect material saving in RS."
 		""
@@ -1757,6 +1750,8 @@
 		"And if I were you, I would install some addons to produce even more energy!"
 	]
 	quest.138B1E0670F27C35.title: "&lFuel Generator"
+	quest.13AA8A73A923DDB4.quest_desc: ["First, we will need a base, so find a place where you want to stay, a cave might be a good idea if you closed one"]
+	quest.13AA8A73A923DDB4.quest_subtitle: "You are being watched"
 	quest.13ABAD48193BB39E.quest_desc: [
 		"Well, for the 500th time, another &efurnace&r."
 		""
@@ -1784,6 +1779,12 @@
 	quest.13CA67D14B62120B.title: "Other mods"
 	quest.13E38108EE8D35E6.quest_desc: ["These kind of &cstorage&r component are used for storing lots of &dtypes&r, since they provide a balance between &dtypes&r and amount of items it can &cstore&r."]
 	quest.13E38108EE8D35E6.quest_subtitle: "NASv.3: ON"
+	quest.14384D2E8873E4F2.quest_desc: [
+		"Modularium is unique material, flexible and sturdy enough to fit in some machine, able to generate some casing strong enough for many uses."
+		""
+		"Check out Modular Machinery Reborn Chapter!"
+	]
+	quest.14384D2E8873E4F2.quest_subtitle: "Reached Old Civilization"
 	quest.14392B1AB523E1BF.quest_desc: ["Turn &eSewage&r into &6Fertilizer&r, they are used to make &dhydros&r!"]
 	quest.14392B1AB523E1BF.quest_subtitle: "Fertilizer producer"
 	quest.14457BC2EC4E43C4.quest_desc: [
@@ -1809,6 +1810,9 @@
 	]
 	quest.1448B00247CB440B.quest_subtitle: "Full power"
 	quest.1448B00247CB440B.title: "Steam Engine"
+	quest.144B221805C7C820.quest_desc: ["We will start with the basic ingots, these can be obtained from mining, as well as other resources, like gems, make sure to have good amount of these"]
+	quest.144B221805C7C820.quest_subtitle: "Simulation is running fine"
+	quest.144B221805C7C820.title: "Basic Materials"
 	quest.146104BABCD8DE9C.quest_desc: [
 		"Yet a better pickaxe, not electrical sadly, but fancy nancy looking!"
 		""
@@ -2242,6 +2246,7 @@
 	]
 	quest.1901D8DE0A627FE0.quest_subtitle: "To the &dvoid"
 	quest.190A7DE08C550C97.quest_desc: ["Please, use other thing more &dreliable&r than these."]
+	quest.1917FC346FD76B6A.title: "&l&3Adamant Ingot&r&l"
 	quest.195A72B60B87427F.quest_desc: [
 		"So, you want to have a &acontrol room&r?"
 		""
@@ -2344,7 +2349,7 @@
 		""
 		"Certain elements might pull the &cNether&r closer to the &aOverworld&r when traveling at 5,000 Joules, while others could bring the &dEnd&r dangerously near at 10,000 Joules... &4And whatever you do, do not let these items exceed 10,000 Joules.&r"
 		""
-		"Such reckless energy levels could trigger a &6Dimensional Incursion&r, attracting &4unwanted attention&r—or worse—creating a &0&lDilatation&r between &b&lSpace&r and &e&lTime&r... and trust me, you don't want to find out what happens next."
+		"Such reckless energy levels could trigger a &6Dimensional Incursion&r, attracting &4unwanted attention&r—or worse—creating a &3&lDilatation&r between &b&lSpace&r and &e&lTime&r... and trust me, you don't want to find out what happens next."
 	]
 	quest.1A7C2E3CEE6AC91C.quest_subtitle: "Don't say I didn't warned ya'"
 	quest.1A7C2E3CEE6AC91C.title: "&l&4Final Warning"
@@ -2584,6 +2589,12 @@
 		"[{\"text\":\"Stats\",\"color\":\"#FF55FF\"},{\"text\":\" are basically 2 \",\"color\":\"#FFFFFF\"},{\"text\":\"Copper Upgrades\",\"color\":\"#e69429\"},{\"text\":\" added together\",\"color\":\"#FFFFFF\"}]"
 	]
 	quest.1D7DA58D3763308B.quest_subtitle: "[{\"text\":\"aurum\",\"color\":\"#e6cd29\"}]"
+	quest.1D93FE453E81F63E.quest_desc: [
+		"The Nether is an important dimension, but you won't need to visit it for long time, just to gather some materials."
+		""
+		"Most of the stuff that it's found on it can be gathered other way"
+	]
+	quest.1D93FE453E81F63E.title: "Visit The Nether"
 	quest.1D94E0177CCC9F42.quest_desc: [
 		"You will need this, or at least &dDraconic dust&r."
 		""
@@ -2619,7 +2630,7 @@
 		""
 		"These resource nodes are &dINFINITE&r, no need to worry about these breaking as they are made of bedrock and we'll be extracting its contents with the correct machine."
 		""
-		"To complete this quest you only need observe every single each of these nodes!"
+		"But they are a bit slow in comparison to other methods"
 	]
 	quest.1DD215C9864E6026.title: "&l&6Infinite &bOre &eExtraction"
 	quest.1DE9B2DB4E187973.quest_desc: [
@@ -2867,7 +2878,7 @@
 	quest.20B90CB484A3AE7B.quest_desc: [
 		"The Synergy Matrix addon is a must!"
 		""
-		"It increases both speed and efficiency without affecting one or the other."
+		"It increases both speed by 1/3, but you need less efficiency addons"
 		""
 		"Its only avaible at later stages of Oritech, but it sure is the best addon for all of our machines."
 	]
@@ -3052,9 +3063,7 @@
 		""
 		"Now, I know 14 doesn’t sound that low, but once you understand this system, you’ll be able to craft &bBasic&r and &3Advanced&r Cores to make your machines faster and more efficient."
 		""
-		"The best part? You can craft both the Basic Core and the Advanced Core almost from the start—you can even skip the Primitive one entirely!"
-		""
-		"&o&8(...but this quest needs it, so... just roll with it.)&r"
+		"The best part? You can craft both the 3 first tiers of Cores without needing tons of setup, just materials found while mining and some micro craftings"
 	]
 	quest.22BE285408BF2C14.quest_subtitle: "we core for you... wait wasn't it care?"
 	quest.22BE285408BF2C14.title: "&lCores and You"
@@ -3271,6 +3280,8 @@
 		"Works more or less like the logistics system in factorio."
 	]
 	quest.24CBEE1570C4CCAD.quest_subtitle: "Factorio is that you?"
+	quest.24D08B59F6B965C8.quest_desc: ["Place one of these addons on a little face, so you can pump fluids to the Centrifuge"]
+	quest.24D08B59F6B965C8.title: "&lMachine Fluid Addon"
 	quest.24DD36335F53A8E3.quest_desc: [
 		"This is the &asimulated&r version, which doesn't need the plant &6growing&r outside!"
 		""
@@ -3315,6 +3326,11 @@
 		"You want to get 1 seed or more and mass produce &dessences&r"
 	]
 	quest.252CC4B31AA8EA09.quest_subtitle: "Honey on industrial scale"
+	quest.2533EC424651E685.quest_desc: [
+		"There is few ways to farm trees without planting them in-world."
+		""
+		"This multiblock uses power, some water and the sapling to get some logs back"
+	]
 	quest.254B7CA3BF8C296B.quest_desc: [
 		"The &6Beeshelf&r gives a &a-30 Eterna&r debuff, but in return gives &c+100% Quanta&r! "
 		""
@@ -3910,6 +3926,12 @@
 	]
 	quest.2BD85B6850F480A8.quest_subtitle: "Tier 7"
 	quest.2BD85B6850F480A8.title: "&5Magic&r Essence"
+	quest.2BDE5C2FAFB2AC76.quest_desc: [
+		"This little multiblock allows to farm some basic materials for building your base."
+		""
+		"To start the machine, you need the block you want to farm 2 block below the controller."
+		"Some blocks has a chance to give extras!"
+	]
 	quest.2BF5E236F6A8F252.quest_desc: [
 		"Allows for the transfer of items from the router's own buffer to the target inventory. It comes in 3 tiers, with each tier offering different capabilities."
 		""
@@ -4078,11 +4100,7 @@
 	]
 	quest.2DB9DE148A6A3E1F.quest_subtitle: "it also has a void world!"
 	quest.2DB9DE148A6A3E1F.title: "&lJust Another Mining Dimension"
-	quest.2DC19671FC685343.quest_desc: [
-		"This addon let our machines handle fluids inside of them."
-		""
-		"Perfect for the Centrifuge to start processing quite a lot of our Ores."
-	]
+	quest.2DC19671FC685343.quest_desc: ["This addon let our machines handle fluids inside of them."]
 	quest.2DC19671FC685343.title: "&lMachine Fluid Addon"
 	quest.2DE3EE4DFEF85889.quest_desc: [
 		"Dupe &dmobs&r?!?"
@@ -4177,7 +4195,7 @@
 		""
 		"Unlike most mods that go straight to the point, there is a bit of adivination here, but it's pretty much as easy as you it can get"
 		""
-		"The book contains a lot of secrets pacts and rites, so move around!"
+		"The book contains a lot of secrets pacts and rites that might be useful for you, check them out!"
 	]
 	quest.2E6E63F5C8849B56.quest_subtitle: "Organic"
 	quest.2EA4BF9A9B390F5F.quest_desc: [
@@ -4300,6 +4318,8 @@
 		"This also marks your end with &5Ars&r progression."
 	]
 	quest.30CF406EA2555881.quest_subtitle: "The master's toolbox"
+	quest.30D20E731E280641.quest_desc: ["Time to make mine some obsidian, here is a tip, a Force Pickaxe acts as a diamond pickaxe, saving you some of those early resources"]
+	quest.30D20E731E280641.title: "Obsidian"
 	quest.31028CC9083CE607.quest_desc: ["Instead of being near your base, having to render those particles and items, you can have your mobs on another dimension, without you being near"]
 	quest.312977962EF7DFA3.quest_desc: [
 		"Okay, if you haven't made a &acontroller&r, you don't want to waste &aresources&r here yet."
@@ -4370,6 +4390,11 @@
 		"Liquid Light and Lava will generate energy at the same rate, but those different liquid has different energy density."
 		""
 		"This means that if I want to generate 1MFE, I would need less Liquid Light compared to Lava"
+	]
+	quest.31E1FB302F37D49E.quest_desc: [
+		"Seems like using my old fission reactor wasn't efficient at all, I can use a better version to get more power out and even some anomalies."
+		""
+		"Is this the Anomalous Magnetic Dipole Moment of muons? Maybe, we can't know"
 	]
 	quest.31E43273BF407641.quest_desc: ["You would &cneed&r some &bwater&r from some &dsource&r, doesn't matter if its water or heavy water"]
 	quest.31EA0421A87FCB4E.quest_desc: [
@@ -4688,6 +4713,12 @@
 		"We have given a &cnerf&r to this generators, only generating &n&#FF1D8Chalf&r of their original SU capacity."
 		"You probably want to look at &aother&r methods!"
 	]
+	quest.35831BC985269B59.quest_desc: [
+		"Sculk can corrupt everything, but it gives power, enough power to launch some items to space."
+		""
+		"I should use it to get some stronger ingots "
+	]
+	quest.35831BC985269B59.quest_subtitle: "Corruption is front us"
 	quest.358E1592E123F2C1.quest_desc: ["These items basically has been given the same IO as their capacity"]
 	quest.359C9083E3B69D29.quest_desc: ["&cWarning&r! &eElectrical&r shock"]
 	quest.359C9083E3B69D29.quest_subtitle: "&cBottom&r"
@@ -5179,7 +5210,7 @@
 	quest.3BEA955788837733.title: "Disenchanting with &l&4Blood"
 	quest.3BF285CF0C810B22.quest_desc: ["This machine boosts the amount of Fluids or Items we are moving with the pipes from Oritech!"]
 	quest.3BF285CF0C810B22.quest_subtitle: "Pipe Booster"
-	quest.3BF285CF0C810B22.title: "&lPipe Booster?"
+	quest.3BF285CF0C810B22.title: "&lPipes?"
 	quest.3BFAB6A6C6AB3B2A.quest_desc: [
 		"They produce &aenergy&r all &dday&r, but &5depends&r on where you place them to &egenerate&r &aenergy&r."
 		""
@@ -5257,6 +5288,12 @@
 	]
 	quest.3C5127DBF60F0B95.quest_subtitle: "Why 20?"
 	quest.3C5127DBF60F0B95.title: "&bME Controller"
+	quest.3C610251DCF2FA0F.quest_desc: [
+		"There 4 main mods that can manage your storages, Refined Storage, Applied Energistics, Sophisticated Chests and Functional Storage."
+		""
+		"While you won't have a need in the start, pretty much it's mandatory to have some sort of big storage."
+	]
+	quest.3C610251DCF2FA0F.quest_subtitle: "10% Progress"
 	quest.3C7CDBEEA02180B0.quest_desc: [
 		"These items basically has been given the same IO as their capacity"
 		""
@@ -5277,6 +5314,7 @@
 		"We might have plenty of ways to create these blocks, but if I were you, I would stick into the aesthetics of Oritech!"
 	]
 	quest.3CAF5F8284FFC1BA.title: "&lIndustrial Chiller"
+	quest.3CB9E3F955F8D6F0.quest_desc: ["The void and the Sun, 2 opposite forces, what could go wrong"]
 	quest.3CD10CDC9E59A25E.quest_desc: ["Brew &2potions&r more efficiently"]
 	quest.3CDBC61BD4DAA7F6.quest_desc: [
 		"This is a simple \"multiblock\" hive."
@@ -5349,6 +5387,7 @@
 	quest.3DCC894DDE82C6DD.quest_subtitle: "The first real storage"
 	quest.3DE1714098569D6D.quest_desc: ["Well, maybe there is a molten salt or something, I haven't found yet, but I can reduce the lag by making higher tier of solar panels"]
 	quest.3DE1714098569D6D.quest_subtitle: "We can't even touch it"
+	quest.3DEC7AE475013992.quest_desc: ["I've got a revalation, a forge so powerful to get a piece of the Universe in my hands"]
 	quest.3DF1A6F2F4DE5EA3.quest_desc: [
 		"I'm pretty sure crafting these are much easier but..."
 		""
@@ -5398,6 +5437,12 @@
 		"The lifespan and speed of the demons also increase with the tier where the Marid will last forever."
 	]
 	quest.3E884D06714017F1.quest_subtitle: "Ore multiplication"
+	quest.3E9E501970A06220.quest_desc: ["Buds are also a great alternative, they have a much smaller numbers of options but when they have one, you should choose them"]
+	quest.3EAC603BD09EC99C.quest_desc: [
+		"Gravity is a strong force of nature, yet it delicate. Give to much force and it will rip space-time itself."
+		""
+		"I can use this to my advantage, but I should be careful when near the blackhole and my items"
+	]
 	quest.3EBCF14F021079E8.quest_desc: [
 		"Don't you want a &espawner&r that can change the mob using &dessences&r?"
 		""
@@ -5421,6 +5466,7 @@
 		""
 		"- &dGigantism&r"
 		""
+		"{@pagebreak}"
 		"- &2Step Assist&r"
 		""
 		"- &3Carbon-Reinforced Lungs&r"
@@ -5445,6 +5491,15 @@
 	quest.3F2F91F2AE568873.quest_desc: ["Mixing some ingredients, we are able to get some energy from it when exposed to the sun, maybe we can use it for somethign"]
 	quest.3F2F91F2AE568873.quest_subtitle: "Lapis + coal + silicon"
 	quest.3F2F91F2AE568873.title: "Photovoltaic Composite"
+	quest.3F4053275A5A1049.quest_desc: [
+		"This mod is about &cstorage&r, this time around &6chests&r and &abarrels&r."
+		""
+		"They provide &dupgrades&r, like more &eitems&r in a slot, &bfiltering&r and &cvoiding&r!"
+		""
+		"There are a lot of &5upgrades&r and &dstorage&r, check them out!"
+	]
+	quest.3F4053275A5A1049.quest_subtitle: "Storing the world"
+	quest.3F4053275A5A1049.title: "Backpacks"
 	quest.3F4117B3A4060A90.quest_desc: [
 		"Powah also adds new solar panels, but they are more expensive than alternatives, but also get you enough power for many uses."
 		""
@@ -5639,6 +5694,7 @@
 		""
 		"Each rune increases/decreases in 2 blocks each direction"
 	]
+	quest.40B2A5F2F7C8994F.quest_desc: ["Fishes are a good source of food, but there is also something hidden in the water"]
 	quest.40E18730E0B16FFE.quest_desc: [
 		"Your &abackpack&r, your personal c&6hest&r in your back."
 		""
@@ -5889,6 +5945,12 @@
 		""
 		"This quest is locked behind Apothic Enchanting, so make sure to complete this quest!"
 	]
+	quest.43F1AA4B7C89E714.quest_desc: [
+		"You don't actually need to find a blaze to get blaze rods!"
+		"You can use multiple other ways to gather them, or make them"
+		""
+		"Although a spawner with a blaze would be perfect"
+	]
 	quest.43F2B08E2C62EAE9.quest_desc: ["Tier 7 solar panels and future Tier 8, well, make a few of them!"]
 	quest.4415B28A2A0E8933.quest_desc: [
 		"The Neutron Reflectors will increase the energy production of our reactor, simply put these near one or many of our fuel rods to boost its production!"
@@ -6123,6 +6185,7 @@
 	]
 	quest.46F7FD24C0F56114.quest_subtitle: "Light it up!"
 	quest.46F7FD24C0F56114.title: "&5&lLuminax&r"
+	quest.472E9DA6FDF20B12.quest_desc: ["And that's all for now, stay tuned for more!"]
 	quest.473487EE12C5C9AF.quest_desc: [
 		"The &dCreative&r Essence is the pinacle of all creation"
 		""
@@ -6189,6 +6252,11 @@
 		"You can &econnect&r trees with logs and &6chain&r them!"
 	]
 	quest.47E66106BCE85324.quest_subtitle: "Early chopper"
+	quest.47F03F90D5F2CD8C.quest_desc: [
+		"Hostile Neural Network is another mod that allows to mass collect mobs drops, the only problem is that there is tons of mobs. "
+		""
+		"So instead of building tons of loot fabricators, you only need to do 1 multiblock "
+	]
 	quest.47F2997846F7A54C.quest_desc: [
 		"The Bedrock Extractor is yet another of my favourite machines!"
 		""
@@ -6477,6 +6545,7 @@
 		"They will be &acharged&r at a rate of max int / t (which is not &benough&r to fill the infinity tools...)"
 	]
 	quest.4B6190D9B1D27545.quest_subtitle: "Charger 60W"
+	quest.4B68946D3145AED0.quest_desc: ["Endermen, while rare in the Overworld, it's common on The Nether, specially on Warped forests, but make sure to have a good armor to defeat them"]
 	quest.4B80401F8F05318D.quest_desc: [
 		"One of the &lmost&r needed things around technological mods is the energy."
 		""
@@ -6655,7 +6724,7 @@
 		"{@pagebreak}"
 		"If you haven't understood, jump into the well once, it will eject you up and drop an umbra spirit, after that, you won't receive more."
 		""
-		"To get more, you need to drop villagers inside or kill them with Veil, more info after you complete this quest"
+		"To get more, you need to kill villagers with Veil, more info after you complete this quest"
 	]
 	quest.4D71091DD793653C.quest_desc: [
 		"You need honey in industrial quantities....."
@@ -6899,6 +6968,7 @@
 	quest.50975CD6F96E5A96.quest_subtitle: "We have made a sandwich"
 	quest.50A361EE2D5D4E7E.quest_desc: ["Natural &7string&r, from &aplants&r or &6animals&r"]
 	quest.50A361EE2D5D4E7E.quest_subtitle: "Sticky"
+	quest.50AC11629F325C60.quest_desc: ["The Universe itself, there is something deeper than the entity that's watching me, something more powerful"]
 	quest.50AE3C029FF3D36C.quest_desc: [
 		"Bees got a nerf from &bprevious&r version, now &ccosting&r a bit more"
 		""
@@ -6924,6 +6994,7 @@
 		"Sorry for the Inconvinience."
 	]
 	quest.50D47E8D224A8E89.title: "Questline Under Work"
+	quest.50DE8A7E8A444305.quest_desc: ["With the influx of resources, my old methods stays behind, so we need to bring a machine faster than before, yet it's linked to all dimensions"]
 	quest.50FBAF1B43BC733F.quest_desc: [
 		"Gets &6drops&r and &aexperience&r from &dmobs&r"
 		""
@@ -6938,6 +7009,11 @@
 	quest.50FEE6D19ABFC8DF.quest_subtitle: "[{\"text\":\"Pass the cursor over the \"},{\"text\":\"title\",\"color\":\"#29e6ca\"},{\"text\":\"!\",\"color\":\"#FFFFFF\"}]"
 	quest.50FEE6D19ABFC8DF.title: "[{\"text\":\"Welcome to \",\"color\":\"#FFFFFF\"},{\"text\":\"Functional\",\"color\":\"#29e6ca\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"The mod around mass storage\"}}},{\"text\":\" Storage!\",\"color\":\"#FFFFFF\"}]"
 	quest.510473AF470648A4.quest_desc: ["Throw Cthonic Gold inside the well"]
+	quest.5104DB4212EB337E.quest_desc: [
+		"Time to launch some material to space, Etherium ingots can be converted to Stellarium if I aim to the Sun and Replica ingots can simulate deep darkness of Space."
+		""
+		"There seems to be some species that can interact with Stellarium"
+	]
 	quest.511437D5945306E7.quest_desc: [
 		"These rings has some interesting effects if you use their <rainb f=0.5 w=1.0>schools</rainb>, aka elements, like fire or wind."
 		"Or some &apassive benefits&r that you might also be interested, like &cMax Health&r"
@@ -7144,6 +7220,11 @@
 	quest.53727553844F20E5.quest_subtitle: "Storing"
 	quest.537FEEE440E8F2F1.quest_desc: ["First step of the &6ore&r processing"]
 	quest.537FEEE440E8F2F1.quest_subtitle: "Cleaning some ores"
+	quest.5381C2B4F6E953D4.quest_desc: [
+		"Power is another issue in the long run, since you will need tons of it, for now, you can use some solar or Mekanism or similar to generate them."
+		""
+		"Later on, you can do other setups to get them"
+	]
 	quest.539D1A0A0DBD8361.quest_desc: ["Basically &binput&r and &coutput&r all the needed &eitems&r or &5results&r"]
 	quest.539D1A0A0DBD8361.quest_subtitle: "Auto blasting furnace"
 	quest.539F4FC5E88DECE2.quest_desc: ["Crafting material for Starter tier, you should skip this tier in many situations and skips to basic tier"]
@@ -7281,6 +7362,11 @@
 	quest.554390AA33A6774A.title: "Magical Essences"
 	quest.55488C2723B7CB12.quest_desc: ["These are a better version with more filters and faster!"]
 	quest.55488C2723B7CB12.title: "Elite versions"
+	quest.554B4EF287F6CAE5.quest_desc: [
+		"And with great resources, I need to improve the furnaces."
+		""
+		"It's even faster than my netherite furnaces"
+	]
 	quest.556E67EC57457744.quest_desc: [
 		"Before diving into Pipez, there are a few things you should know about the mod."
 		""
@@ -7323,6 +7409,7 @@
 		""
 		"For &binfinity&r tools, don't try to get to &cArtifact&r tier, you would need about &a7&r &4years&r to reach"
 	]
+	quest.5591F72EFC4C39BA.quest_desc: ["Time to save your coal! This furnace can replace up to 6 furnaces, taking less time than those 6 and not needing fuel at all to work!"]
 	quest.55AD0998EDFDC366.quest_desc: ["Allows cross dimensional power transfer to you, just need some innocent Enderman to be right clicked with a binding card"]
 	quest.55B5FB4DF51A59B7.quest_desc: [
 		"Want to filter out annoying/useless enchants like &bKnockback&r, &bRebounding,&r or &4Curses&r? "
@@ -7559,6 +7646,11 @@
 	quest.594A88E613C554B4.quest_subtitle: "The chest that does it all"
 	quest.5955BACB5F4570FA.quest_desc: ["Basically, it &dallows&r you to &cstore&r 8 times more in each &6slots&r"]
 	quest.5955BACB5F4570FA.quest_subtitle: "MOAR?!?!"
+	quest.59676DE2B5344C49.quest_desc: [
+		"Shadowsteel can only be made by 2 means, this machine and using the crafting table in dust form."
+		""
+		"Right now, you can only make this using this machine, so I would passive it as soon as you can"
+	]
 	quest.596F28EF0EB7002F.quest_desc: [
 		"\"These &6bees&r needs a &dmagical&r enviroment for them to &awork&r, yet it seems that they can &5work&r on &3parallel&r to each other\" - &5Magical&r Executor 1"
 		""
@@ -7696,6 +7788,11 @@
 		"They are used a lot"
 	]
 	quest.5ABD6ADBC06BAAB5.quest_desc: ["Next tier of machines, we are going faster than speed of light in water"]
+	quest.5AEC0BB5A048AC98.quest_desc: [
+		"Your mission is making the Catalyst, from Catalyst Core, right now, you can't do that, but you can get close to it. "
+		""
+		"This modpack relays on multiblocks for progression, these machines are based on multiple blocks, there is a whole chapter about them!"
+	]
 	quest.5AF5E6D9EAB19CAC.quest_desc: ["&dGenerates&r 2 buckets of &bwater&r every &n0.05&r &6seconds&r"]
 	quest.5AF5E6D9EAB19CAC.quest_subtitle: "Infinite watah"
 	quest.5B33740F16769AB9.quest_desc: [
@@ -7713,6 +7810,7 @@
 		""
 		"Well, first we need to create our &dLaser&r and a &bTarget Designator&r. Next, with our target designator we'll simply need to &eshift+rmb&r the &cun&r/wanted entity or block and then right-click the Laser with it and you're good to go!"
 		""
+		"{@pagebreak}"
 		"With this machine we're able to get Fluxite, simply set this laser on an Amethyst Bud and you're good to go!"
 		""
 		"It needs energy to work thought, but other than that, its a cool machine!"
@@ -7729,6 +7827,11 @@
 		"Found in &7Bastions&r or you will have to &5mine&r some ancient debris"
 	]
 	quest.5B384774B3BC919D.quest_subtitle: "From bastion too!"
+	quest.5B3AA86DE7CF8223.quest_desc: [
+		"Converts some of your excess plates and foils back to dust form"
+		""
+		"It has some mod compact, so check them out!"
+	]
 	quest.5B4289D140387AC8.title: "Nomad Bee"
 	quest.5B4EF92DCC7E66F8.quest_desc: [
 		"Well, these are other type of &#FF52DBcharms&r that you might found useful, like avoiding death when falling to the &#9AC0CDvoid&r or &anight vision&r."
@@ -8150,6 +8253,7 @@
 	]
 	quest.604CB2266FDF4098.quest_subtitle: "Teleportation at it's finest"
 	quest.604CB2266FDF4098.title: "&l&dEnderIO"
+	quest.6068BEE06CB76723.quest_desc: ["Blood is a impuse to the live, but also has some corruption to it, while minor, it can make some gems into a blood version"]
 	quest.6069D3860B38504C.quest_desc: ["Well, there is a ton of tool that uses energy, but what tool do you have than needs more than 32KFE/t?"]
 	quest.6069D3860B38504C.quest_subtitle: "Enough for now"
 	quest.6069D3860B38504C.title: "Solar Helmet &l&1V6"
@@ -8204,6 +8308,7 @@
 	]
 	quest.610C7735CF3C7BF5.quest_subtitle: "The Calm Before The Storm..."
 	quest.610C7735CF3C7BF5.title: "&lThe &eEntangled &5Spirit &4Agglomeratio"
+	quest.612E2B13CB930F93.quest_desc: ["Time to upgrade your mining equipment with this little tool, it can mine in a 3x3 area, and with Ultimine and a good food supply, you can mine faster than ever"]
 	quest.613B94C20D7E7072.quest_desc: [
 		"The mod &aUseful Slime&r adds very useful items, the &eSlime Sling&r being one of them."
 		""
@@ -8219,6 +8324,15 @@
 	]
 	quest.613B94C20D7E7072.quest_subtitle: "watch out for that tree..."
 	quest.613B94C20D7E7072.title: "&l&aUseful Slime"
+	quest.614E763FEFBB72DC.quest_desc: [
+		"At this point, you probably are going to need lots of resources for your setups, there is 2 ways mainly to do this, resource generation or mining."
+		""
+		"- Resource generation means any mod that generates resources from the void or by using a medium, like plants"
+		""
+		"- Mining, there is a whole mining dimension mean for that, you can mine anything from the overworld, the nether and the end"
+		""
+		"Both can scale to the endgame, so you won't need to worry about it, but at one point or another you should move to the first method, for simple logistics and avoiding lag"
+	]
 	quest.6157B827B57C10EA.quest_subtitle: "Some hot bases"
 	quest.6157B827B57C10EA.title: "Blaze Cake Base"
 	quest.617BBE7ACB125208.quest_desc: [
@@ -8435,6 +8549,7 @@
 	quest.639436196C0BE005.title: "&lFoundry"
 	quest.639C46C092A7BB58.quest_desc: ["Shining processor after some cooking"]
 	quest.639C46C092A7BB58.quest_subtitle: "The last one!"
+	quest.63B26FEBA47CC5D2.quest_desc: ["Now you can craft another core, allowing you to put more addons to your machines"]
 	quest.63CEA099F65CACDB.quest_desc: [
 		"Replaces some of your &abackpack&r's &cinventory&r to have a &6battery&r."
 		""
@@ -8455,6 +8570,7 @@
 		""
 		"Once installed, these augmentations require no upkeep or fuel!"
 		""
+		"{@pagebreak}"
 		"However, before you can apply an augment, it must first be researched using specialized Research Stations."
 		""
 		"A new keybind was also added. By default \"G\" will open a new GUI to enable or disable these augments with ease!"
@@ -8691,6 +8807,11 @@
 	]
 	quest.6609A4E0D6EE9C8D.quest_desc: ["useful for removing chalk"]
 	quest.6609A4E0D6EE9C8D.quest_subtitle: "Get scrubbing"
+	quest.662618872CD26CA2.quest_desc: [
+		"Nebulas contained in a strong glass, able to resists the impact of a dying star's core."
+		""
+		"But with a new death, there are 2 new lifes, that seems to be the case here, able to generate some gems in the process, some even attuned to the void"
+	]
 	quest.66426D5B6E54F737.quest_desc: ["Found on &cunderground&r mines, you can &amine&r these clusters to get silver"]
 	quest.66426D5B6E54F737.quest_subtitle: "Plattus"
 	quest.6648F6C005CB697D.quest_desc: ["Double the energy, double the machines, this is called exponential growth, but it's not exponential if you can't make them faster"]
@@ -8928,6 +9049,7 @@
 		""
 		"{image:catalyst:textures/quest_images/modular_machinery_reborn/arboretum.png width:200 height:200 align:center}"
 	]
+	quest.6953868916F81BE6.quest_desc: ["Unlike other versions, this reduces time by 1/4, and you can send more items at the same time. But you can't reuse the hatches, you have to get a bigger version one"]
 	quest.695D2D4B299452DA.quest_desc: [
 		"The Particle Accelerator Linear Motor is used to increase the particle speed."
 		""
@@ -9092,11 +9214,9 @@
 	quest.6B159418F332B368.quest_desc: [
 		"You've unleashed an unstoppable force..."
 		""
-		"Now if I were you I would start playing Super Massive Black Hole from Muse while looking at this beauty honestly, don't you even dare to touch it though."
+		"Now if I were you I would start playing Super Massive Black Hole from Muse while looking at this beauty honestly, don't you even dare to touch it though. I'm not kidding, your grave won't be there"
 		""
-		"&4&lThere is nothing you can do to stop it... &runless you cheat your way out of this trouble with &dCreative Mode&r."
-		""
-		"It can also dissapear without a trace depending on the value on the config file, but I don't suggest that honestly."
+		"&4&lThere is nothing you can do to stop it... &runless you make a Schröndiger Cage, which later you can delete using AE2 Spatial IO"
 		""
 		"You better take a look at the Tachyon Absorber quest if you haven't!"
 	]
@@ -9224,6 +9344,7 @@
 		"&e(any block will work as thermal lagging but they are neater and you can interact with the machine behind them.)&r"
 		" "
 	]
+	quest.6C80DF67224B3D91.quest_desc: ["Improved version of the Igneous Extruder, make sure to have tons of space"]
 	quest.6C84E327A38DEF44.quest_desc: [
 		"Running this &#FF4EDEritual&r near some buds or &5Ars&r' trees will generate a new entity:"
 		""
@@ -9276,6 +9397,7 @@
 	quest.6D00948588B44926.quest_desc: ["Vanilla &bcandles&r give &5+1.25% Arcana&r per candle while Occultism &blarge candles&r give &5+4% Arcana&r per candle."]
 	quest.6D00948588B44926.quest_subtitle: "What is pink sand even supposed to smell like?"
 	quest.6D00948588B44926.title: "&5More Arcana!"
+	quest.6D1ED42DEA8ECA02.quest_desc: ["Using some embers, you can launch some fireballs, it do 3 explosions, so items will be broken"]
 	quest.6D20BEE603706F69.quest_desc: [
 		"Yep, we are using a lot of &dsingularities&r, and &9water&r because are you making them with &9water&r, &1&lright&r?"
 		""
@@ -9318,6 +9440,11 @@
 	quest.6D93652BDFA881F0.quest_desc: ["Now that you've infused all your shelves into &412x Infused Hellshelves&r, craft them all into &4Glowing Hellshelves&r, you should have 12 in the end."]
 	quest.6D93652BDFA881F0.quest_subtitle: "At least we have light?"
 	quest.6D93652BDFA881F0.title: "&4Glowing Hellshelf"
+	quest.6D9E9DBF81C0842F.quest_desc: [
+		"Crops are also a harder way to farm them in mass without in-world farming."
+		""
+		"Under ideal conditions, some plants are able to produce more than their natural counterpart"
+	]
 	quest.6DA978E4D7B0B5F6.quest_desc: ["Upgraded vacuum pump this pump is a pipe module and will be able to handle as much pressure as the pipe its place onto you can further upgrade the pump with a module expansion card"]
 	quest.6DA9DA660374DDAC.quest_desc: [
 		"This is a regular &ecrafter&r from &aMinecraft&r but with a small &dchange&r, power!!!!"
@@ -9718,6 +9845,8 @@
 	]
 	quest.736D9DEE0F3E836C.quest_subtitle: "Toasty"
 	quest.736D9DEE0F3E836C.title: "heat 102"
+	quest.736E61A79AF167DF.quest_desc: ["Eternity, an infinite amount of time, yet I can't touch it, it's flying around me"]
+	quest.736E61A79AF167DF.quest_subtitle: "Simulation has been broken, shutting down"
 	quest.7384226141C8CE95.quest_desc: [
 		"This little block is all that you need to do every IO you can think of."
 		""
@@ -9800,6 +9929,11 @@
 	]
 	quest.747BCC83F4809BCB.quest_subtitle: "Just an example, read &call&r the text!"
 	quest.747BCC83F4809BCB.title: "Example &dnetwork"
+	quest.74F60A56B96706B6.quest_desc: [
+		"Automation is essential to any kind of modpack, even moving items from point A to B is a lot less effort you need to do."
+		""
+		"There is a few mods that can do this, faster or slower, but it will free you. AE2 and RS will make this the easiest from all"
+	]
 	quest.74FDB5EDE3024323.quest_desc: ["I &ahope&r you don't notice ;)"]
 	quest.7509E3311610BE2B.quest_subtitle: "November Rain?"
 	quest.7509E3311610BE2B.title: "Rain in a Bottle"
@@ -9860,7 +9994,14 @@
 		"Maybe some &credstone&r could help?"
 	]
 	quest.75A17B4F62BAB3A3.quest_subtitle: "The fluid drill base"
-	quest.75A4C6008C48EA66.quest_desc: ["Welcome to &lLittle Bit Large&f from &4Catalyst Studios&f! This is just the beginning and very much a WIP."]
+	quest.75A4C6008C48EA66.quest_desc: [
+		"Welcome to &lLittle Bit Large&f from &4Catalyst Studios&f!"
+		""
+		"The questbook serves as a sort of guide for the different mods, it's totally optional, but if you are stuck, you can use it."
+		""
+		"Have fun!"
+	]
+	quest.75A4C6008C48EA66.quest_subtitle: "In Beta"
 	quest.75A4C6008C48EA66.title: "Welcome to Little Bit Large!"
 	quest.75A711B13F99B44E.quest_desc: [
 		"Extracts &5enchantments&r from your &atools&r and &earmors&r."
@@ -9976,6 +10117,7 @@
 		""
 		"This is not a default recipe from &6Create&r!"
 	]
+	quest.7693727CE16BBC6C.quest_desc: ["Well, it seems like there are placed where neither methods can go to generate some resources, but there seems a multiblock that can do that"]
 	quest.76A5A2E984E8F630.quest_desc: [
 		"This addon lets us control most of our machines with a redstone pulse."
 		""
@@ -10005,6 +10147,7 @@
 	quest.76C1268FC04633AD.quest_subtitle: "I don't want that one"
 	quest.76C1268FC04633AD.title: "Disenchanting"
 	quest.76ED2E2F59D4E7BB.quest_desc: ["Works similarly to the Sender MK2 with the same range limitations. However, this version can have up to 8 targets."]
+	quest.76EFD340D2390FC3.quest_desc: ["Using souls, you can even speed the recipe time"]
 	quest.76F5953B70FC0E97.quest_desc: [""]
 	quest.770D5933A5EF28E1.quest_desc: [
 		"&cLaser&r&bIO&r is a powerful &dmod&r, allowing you to move &eitems&r, &9fluids&r, &credstone&r, &aenergy&r and even &dchemical&r from far away or even &eother&r dimensions!"
@@ -10291,6 +10434,7 @@
 		"Make this terminal and I will explain later."
 	]
 	quest.79EB6D948B0779CD.quest_subtitle: "Not the good one, next"
+	quest.79EE5189EBA26CCD.quest_desc: ["Another tier down, you are quick, aren't you?"]
 	quest.79FF22CAEE62FF38.quest_subtitle: "NASv7: ON"
 	quest.79FF22CAEE62FF38.title: "1M Storage Component"
 	quest.7A1436784F39477B.quest_desc: ["Please, use other thing more &dreliable&r than these."]
@@ -10406,8 +10550,6 @@
 		"In Base Oritech we'll need to mix 2 &6Nickel Ingots&r and 2 &bDiamonds&r to make 1 &3Adamant Ingot&r."
 		""
 		"But now you'll need 3 &bDiamond Dusts&r and 3 &6Nickel Dusts&r to get 3 &3Adamant Dusts&r!"
-		""
-		"This recipe was buffed in &l&9Little Bit Large&r using &5KubeJS&r so you can ramp up your factory!"
 		""
 		"Either way, you need this Ingot to make the Assembler."
 	]
@@ -10554,6 +10696,11 @@
 		""
 		"This is done in the thermopneumatic processing plant."
 	]
+	quest.7CE96B794E16F8FF.quest_desc: [
+		"If you haven't gone to The End, there is a few ways to generate your first end stone, for example, using Hostile Neural Networks or Ars Nouveau."
+		""
+		"Once you have your first block, you can use an Primitive Igneous Extruder to get the rest"
+	]
 	quest.7CEB48C4D541F7CB.quest_desc: ["This cable has received a buff in transfer rate, from 200000 FE/t to 8000000 FE/t"]
 	quest.7D01DD78B475DD0C.quest_desc: [
 		"&9Water&r tanks needs at least 2 &dsources&r of water (not flowing) to generate &9water&r."
@@ -10666,6 +10813,7 @@
 	quest.7DF7DE4654985DE5.quest_desc: ["&aArs Nouveau&r &cStorage&r for &dsource&r, what in the world needs 50000000000000 &dsource&r?"]
 	quest.7DF7DE4654985DE5.quest_subtitle: "Wait, source too?"
 	quest.7DF7F8287A48BEF6.quest_desc: ["The runes we have crafted before are calling to get another version, even more powerful "]
+	quest.7E1D3C5620943356.quest_desc: ["Extruders allows a much faster way to get plates, and even gives some of the original material back when it can"]
 	quest.7E1DD64F0353A803.quest_desc: [
 		"To make 4 &#FF2438Blaze&r Cakes, we need these ingredients."
 		""
@@ -10794,6 +10942,11 @@
 		"There will be a &5multiblock&r to solve the spam on the &6future&r"
 	]
 	quest.7EEBC24F85F89601.quest_subtitle: "NUCLEAR!!!!"
+	quest.7EF4F236ABF01FAB.quest_desc: [
+		"Light and Darkness, 2 opposite elements, yet they complement each other."
+		""
+		"You will need to passive them, since right now, there isn't a way to do with another methods"
+	]
 	quest.7F1A9B044B5F9703.quest_desc: ["These &bprocessors&r are not used a lot, compared to the others, 16 should be enough to start with"]
 	quest.7F1A9B044B5F9703.quest_subtitle: "We have made a sandwich"
 	quest.7F1A9B044B5F9703.title: "Engineering Processor"
@@ -10851,6 +11004,7 @@
 		""
 		"Using Water or Liquid Darkness to cool down the internal will give more energy (needs to pump the fluids inside), while using higher temperature blocks below the machine in world to generate even more power"
 	]
+	quest.7FB083690C070E1B.quest_desc: ["Crystals can be used to gather materials from different part of the universe, in a moment, like if they were waiting for me"]
 	quest.7FC6D58AD671FB46.quest_desc: [
 		"Yes, another tier 7, &bMystical&r Tier!"
 		""
@@ -10914,12 +11068,14 @@
 	reward_table.6EEF0BE14447C317.title: "Evilcraft Tier III Rewards"
 	reward_table.70E4B58B275C350D.title: "Productive Bees Rewards - Bee Archon"
 	task.0076D8B459B2FB30.title: "Input"
+	task.013C91DB9C7BAD06.title: "Power"
 	task.016D3E4B60878147.title: "Get a Leafcutter Bee"
 	task.017F472645EBB9F4.title: "Steel ingot"
 	task.02476F93B40D264E.title: "\"Infinite\" storage"
-	task.03D0FDF2D21557E1.title: "Any #c:plastics"
+	task.03D0FDF2D21557E1.title: "Any plastic"
 	task.0423499D8AB25B8F.title: "Oxygen"
 	task.05001251EFC0420F.title: "Click if you agree"
+	task.05356C3DBE3061CC.title: "Storage"
 	task.059A1D43410B91E7.title: "Redstone"
 	task.060E3DA4CBADE3A5.title: "Can it be done?"
 	task.063236CDD724A650.title: "Any MA leggings"
@@ -10931,11 +11087,10 @@
 	task.084BF4A248034160.title: "Constractions"
 	task.093E833D415B663B.title: "Centrifuges"
 	task.0945FABB3B320E12.title: "Get a Chocolate Minining Bee"
-	task.0958D9D8F5ADA273.title: "Any #c:silicon"
+	task.0958D9D8F5ADA273.title: "Any silicon"
 	task.09C3A3E606CF3AA6.title: "Any Arch Wood Sapling"
 	task.0A6E1D52E925AD03.title: "Interface"
 	task.0A71A43D33CC5CAE.title: "Silly Hat"
-	task.0A9B74996D9FFB00.title: "Coal Node"
 	task.0AA9589559572A2D.title: "Any log"
 	task.0AE87F3B61FE986E.title: "&6Rechiseled&r mod was created by: &bSuperMartijn642&r"
 	task.0B3156C02C8B98AB.title: "Observe a Reinforced Deepslate"
@@ -10947,7 +11102,6 @@
 	task.0D741B46E74CB17D.title: "Get a Green Carpenter"
 	task.0D92D306CDD4B4FF.title: "tooltips"
 	task.0E6C86F47586779B.title: "Tip #1"
-	task.0F4494E7392AEB9A.title: "Iron Node"
 	task.0F9F99806EBAA7D0.title: "Any #actuallyadditions:tiny_coals"
 	task.0FB415644DDFE671.title: "Click Here if you want OP stuff"
 	task.0FB5333C09230948.title: "Mining chunks"
@@ -10956,6 +11110,7 @@
 	task.1004A92C2890456F.title: "Get an Ender Bee"
 	task.108AD6436A85F52B.title: "Starter Energy"
 	task.10A460C2DED7364D.title: "What have i done.."
+	task.10C786795AC2313E.title: "A node"
 	task.10EBB1A7D60224EF.title: "Magical Monuments"
 	task.10F64B1DF8F5EAEB.title: "Welcome"
 	task.10FCCE450F48710B.title: "Resources Types"
@@ -10973,24 +11128,20 @@
 	task.188936236005F46F.title: "NBT"
 	task.19D7CBC40EFD5724.title: "Any Charm"
 	task.1A4353D42304B0D1.title: "Any Advanced Beehive"
-	task.1AA309F967A29DC0.title: "Uranium Node"
 	task.1C96F235C76AD42C.title: "Mob farm"
 	task.1DCD086A56EC3F0E.title: "Observe a KamikazBee"
 	task.1DD8E2B176690796.title: "Observe a Draconic Bee"
 	task.1DDB30F15F7C098D.title: "Harness the power of the &6&lsun"
 	task.1E564EB1A21CA8FC.title: "Click if you agree"
-	task.1F29A9E7F0E86420.title: "Redstone Node"
 	task.1F94E402EBB9E5B5.title: "Get a Crystalline Bee"
 	task.217051001936C522.title: "Any stripped logs"
-	task.21D5D46C2FC9CFFD.title: "Any #c:wires"
+	task.21D5D46C2FC9CFFD.title: "Any Wire"
 	task.21D9A15A46E97335.title: "Luminax"
 	task.225CE9D273BE90EB.title: "Starting the beeventure"
-	task.2322C67C87F9CD12.title: "Nickel Node"
 	task.24A3A188D11E65B5.title: "Fissile Fuel"
 	task.25324B772D5AD829.title: "Starting the solar adventure"
 	task.269564AE6E206897.title: "Any MA boots"
 	task.2697C0ACC15CD67E.title: "Don't forget about these!"
-	task.27675614E43E2D3E.title: "Diamond Node"
 	task.29747FBABCAEFA9D.title: "Warning"
 	task.299C01ECDE33FDF0.title: "Sulfur Dust"
 	task.2A40554066330DFC.title: "Needing some materials before"
@@ -11010,6 +11161,7 @@
 	task.30C4409247EBAC0C.title: "Blaze Cake"
 	task.30F9A7474D527EA6.title: "Did you catch all?"
 	task.3112F637804230E0.title: "Quartz Enriched Iron"
+	task.317328281619D7EE.title: "Resource Gathering"
 	task.31E4DD1C22484C84.title: "Check Please!"
 	task.31FD01691F6FAFDC.title: "OP Stuff?"
 	task.32471AE867A5F125.title: "Duping Ores"
@@ -11017,10 +11169,8 @@
 	task.32B2A31CC3561D0A.title: "Dense convered fluix cable"
 	task.32DD033AD8C7004F.title: "output"
 	task.32ED572856E9E020.title: "Yessir!"
-	task.3443EBD8AFE058C3.title: "Platinum Node"
 	task.352B0AD1E1EDA421.title: "Vertical Portal"
 	task.352FAB3838788030.title: "Uraninite"
-	task.36752FDC79DF62AE.title: "Copper Node"
 	task.37245969B8BF18C4.title: "Check Please!"
 	task.3738E290372CDA6E.title: "Round Robin"
 	task.37537FF9B0F013BE.title: "Mechanical Press"
@@ -11054,9 +11204,11 @@
 	task.48E5CDC1B655974D.title: "Lithium"
 	task.4A21DA9D580707EC.title: "Going Nuclear"
 	task.4B95D6163A48C9E4.title: "Any Elevator"
+	task.4BFE4AB77720358E.title: "Goal of the Pack"
 	task.4C16ECE209685FC4.title: "Any #c:exaltedcrafter/tier/1"
 	task.4C26EB3A3558B59F.title: "Dense smart cable"
 	task.4C3F506C674C4D3E.title: "Automation"
+	task.4C66BB4BAE3377DA.title: "Automation"
 	task.4CAC18EA6AA8D74A.title: "Crushing wheels"
 	task.4CC4125F5D13EE52.title: "Extended Pattern Provider"
 	task.4D1B372E1C51D2D6.title: "Best sugar producer"
@@ -11065,6 +11217,7 @@
 	task.4EF19C13078FF0E0.title: "Some useful tips"
 	task.4FA935E25C27CE0E.title: "Get a Resin Bee"
 	task.4FB02AD64754C89A.title: "Oil Cracking"
+	task.4FC87201515E26C6.title: "Starting the game"
 	task.504FC218552776C1.title: "Read this"
 	task.522BDA67BFD0F34D.title: "Useful Links and Tips"
 	task.525E3F6850DF6FB5.title: "&lClick Me! I dare you!"
@@ -11073,6 +11226,7 @@
 	task.542A0A5934FF7AE3.title: "Any #curios:crafting_on_a_stick"
 	task.542A6E72EE8BAE2F.title: "Metanocturnall"
 	task.554BC51447A6AEBE.title: "Welcome to &aFunctional&r Storage"
+	task.5570D2E40972D1A3.title: "Catalyst"
 	task.55E9EDA6BF0811B9.title: "Getting them"
 	task.5617B0C77478F67D.title: "Milling"
 	task.56252BC830BE12D4.title: "Safety Comes First"
@@ -11088,6 +11242,7 @@
 	task.5C94B5CB285419F9.title: "Hydrofluric Acid"
 	task.5D0957728FA7D785.title: "Eviliest of Mods..."
 	task.5D610984B50807B3.title: "Any Fish"
+	task.5D7CC9379707DFFD.title: "Any ore"
 	task.5DB4811C80BF9785.title: "Any fish rod"
 	task.5DF4B7FD0C9F725E.title: "Starting Digitally"
 	task.5DFF9AB17D5E48EC.title: "Welcome to Mekanism!"
@@ -11097,7 +11252,6 @@
 	task.5F2B50571D656D90.title: "Get a Yellow Carpenter"
 	task.5FEF4FA418386572.title: "Deuterium"
 	task.6085E39EB0029CC6.title: "Tritium"
-	task.608D155E7BBD7068.title: "Emerald Node"
 	task.6128CE54B90DBC02.title: "Starting point"
 	task.614FBD5ADA126C13.title: "Any Structure Compass"
 	task.626F3BAAA66A2EAF.title: "Get a Glowing Bee"
@@ -11112,7 +11266,6 @@
 	task.6981FB23B419FA3E.title: "Using Induction Smelter and Upgrades"
 	task.69DB7F2EA600E309.title: "Careful"
 	task.69E90AEF09035268.title: "Get a Mason Bee"
-	task.69F4F314723594F9.title: "Lapis Node"
 	task.6A590A66E66EE54A.title: "Tree farm"
 	task.6ADD8CA326D91C66.title: "Any Hammock"
 	task.6D55F4498F1DCA0E.title: "Any Rune"
@@ -11121,6 +11274,7 @@
 	task.6EEB18B1566985C0.title: "Block of Fluorite"
 	task.6F4B2913BA23765A.title: "Any Dowsing rod"
 	task.6F5267B5C653E25D.title: "Any range addon"
+	task.700771ADA3BB4DFC.title: "A Core"
 	task.7252ABEA2A23498A.title: "Information"
 	task.72AB69FAE7968DA3.title: "Sulfuric Acid"
 	task.73E88F63C1D5AE68.title: "Any Motor"

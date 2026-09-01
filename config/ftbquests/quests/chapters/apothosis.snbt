@@ -58,6 +58,11 @@
 		{
 			dependencies: ["0503B10D5B7684CC"]
 			id: "536BB27E729F6C32"
+			rewards: [{
+				id: "3416D264E45B816D"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/root"
 				criterion: ""
@@ -70,6 +75,11 @@
 		{
 			dependencies: ["536BB27E729F6C32"]
 			id: "7B25CDB43EF20BEA"
+			rewards: [{
+				id: "755FA8FB9099BCC1"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/haven"
 				criterion: ""
@@ -82,6 +92,11 @@
 		{
 			dependencies: ["43DE1DE0B078C7C0"]
 			id: "3F74D0E231E5F217"
+			rewards: [{
+				id: "01C847BF62CD1D64"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/frontier"
 				criterion: ""
@@ -94,6 +109,11 @@
 		{
 			dependencies: ["3F74D0E231E5F217"]
 			id: "3537AF275B6B3629"
+			rewards: [{
+				id: "618AA2DF32E8E603"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/ascent"
 				criterion: ""
@@ -124,6 +144,11 @@
 		{
 			dependencies: ["536BB27E729F6C32"]
 			id: "005390032411D7B0"
+			rewards: [{
+				id: "4A5B35310EF7F9FB"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				id: "395974A7FA55392D"
 				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
@@ -135,6 +160,15 @@
 		{
 			dependencies: ["27B00E4638615819"]
 			id: "43DE1DE0B078C7C0"
+			rewards: [{
+				count: 6
+				id: "167FA538C8AAA353"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 6L
 				id: "454139C5B3C0A8A8"
@@ -150,6 +184,15 @@
 				"7B25CDB43EF20BEA"
 			]
 			id: "5D26870BCFCC18CB"
+			rewards: [{
+				count: 4
+				id: "27BB89A5D34F9177"
+				item: {
+					count: 1
+					id: "apotheosis:timeworn_fabric"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D6E2DEDF663D0CD"
 				item: { count: 1, id: "apotheosis:timeworn_fabric" }
@@ -164,6 +207,15 @@
 				"6E66F904C8653FFD"
 			]
 			id: "66B930BBC5E2E9BD"
+			rewards: [{
+				count: 6
+				id: "25B778955E5B58E3"
+				item: {
+					count: 1
+					id: "apotheosis:luminous_crystal_shard"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "070AA4187386DC50"
 				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
@@ -178,6 +230,15 @@
 				"6E66F904C8653FFD"
 			]
 			id: "4C59B30D38E10434"
+			rewards: [{
+				count: 4
+				id: "16C75219613E5A04"
+				item: {
+					count: 1
+					id: "apotheosis:godforged_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6242C0702B2DF04A"
 				item: { count: 1, id: "apotheosis:godforged_pearl" }
@@ -193,6 +254,15 @@
 			]
 			hide_dependent_lines: true
 			id: "0210069504DDC9E7"
+			rewards: [{
+				count: 6
+				id: "13474485F40BF77E"
+				item: {
+					count: 1
+					id: "apotheosis:arcane_sands"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "680454047FBA74AB"
 				item: { count: 1, id: "apotheosis:arcane_sands" }
@@ -204,6 +274,15 @@
 		{
 			dependencies: ["43DE1DE0B078C7C0"]
 			id: "44AF313175A6CBCC"
+			rewards: [{
+				count: 12
+				id: "00BEC0F7F67E9288"
+				item: {
+					count: 1
+					id: "apotheosis:gem_fused_slate"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4791EFCC95B85B10"
 				item: { count: 1, id: "apotheosis:gem_fused_slate" }
@@ -215,6 +294,11 @@
 		{
 			dependencies: ["44AF313175A6CBCC"]
 			id: "6D57B5DB58D8A695"
+			rewards: [{
+				id: "57CD170E68507287"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				id: "056F675FA163224C"
 				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
@@ -226,6 +310,11 @@
 		{
 			dependencies: ["44AF313175A6CBCC"]
 			id: "560A1E072F7A7B1F"
+			rewards: [{
+				id: "106BC8A67E009702"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				id: "2AEF13E07318E74B"
 				item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
@@ -259,6 +348,11 @@
 		{
 			dependencies: ["44AF313175A6CBCC"]
 			id: "5323CFE6BB5A7139"
+			rewards: [{
+				id: "57EF516F54067B1B"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				id: "6F84F9F609EBE705"
 				item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
@@ -271,6 +365,15 @@
 			dependencies: ["44AF313175A6CBCC"]
 			hide_dependent_lines: true
 			id: "5AB5F3D50EB4A919"
+			rewards: [{
+				count: 6
+				id: "6A77EF1980F28D4E"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_rebirth"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "548F78A0396C2DAC"
 				item: { count: 1, id: "apotheosis:sigil_of_rebirth" }
@@ -282,6 +385,15 @@
 		{
 			dependencies: ["4C59B30D38E10434"]
 			id: "156B02D3B2B0D886"
+			rewards: [{
+				count: 4
+				id: "457A13B4675A7F1F"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_enhancement"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D69320B9C3F9C9A"
 				item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
@@ -297,6 +409,15 @@
 			]
 			hide_dependent_lines: true
 			id: "6E66F904C8653FFD"
+			rewards: [{
+				count: 6
+				id: "79740B72F741C813"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5ED26E82D72A6A31"
 				item: { count: 1, id: "apotheosis:salvaging_table" }
@@ -309,6 +430,14 @@
 			dependencies: ["43DE1DE0B078C7C0"]
 			hide_dependency_lines: true
 			id: "173BCF53A1BE1C25"
+			rewards: [{
+				id: "04726F131C2882C5"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A7596909326156D"
 				item: { count: 1, id: "apotheosis:gem_cutting_table" }
@@ -324,6 +453,25 @@
 				"5AB5F3D50EB4A919"
 			]
 			id: "3C19038AE81013A2"
+			rewards: [
+				{
+					count: 2
+					id: "7B1E18E876CD38E2"
+					item: {
+						count: 1
+						id: "apotheosis:arcane_sands"
+					}
+					type: "item"
+				}
+				{
+					id: "7AA19A8C90025630"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "18D0D4F267884ACA"
 				item: { count: 1, id: "apotheosis:reforging_table" }
@@ -336,6 +484,25 @@
 			dependencies: ["4C59B30D38E10434"]
 			hide_dependency_lines: true
 			id: "0C09AF11ABF74AEF"
+			rewards: [
+				{
+					id: "7A9654E5AA14054A"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "157925FD34D5A154"
+					item: {
+						count: 1
+						id: "apotheosis:godforged_pearl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A40B72E0934E7FB"
 				item: { count: 1, id: "apotheosis:augmenting_table" }
@@ -351,6 +518,14 @@
 			]
 			hide_dependency_lines: true
 			id: "62890DCC820A453C"
+			rewards: [{
+				id: "7E9D4C7DBF1A1B54"
+				item: {
+					count: 1
+					id: "minecraft:enchanting_table"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "638980BEB513C9F2"
 				item: { count: 1, id: "apotheosis:simple_reforging_table" }
@@ -362,6 +537,14 @@
 		{
 			dependencies: ["173BCF53A1BE1C25"]
 			id: "5971F3DFC257815D"
+			rewards: [{
+				id: "244238EB51EBA0FE"
+				item: {
+					count: 1
+					id: "minecraft:ender_chest"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59A4590735790DD0"
 				item: { count: 1, id: "apotheosis:gem_case" }
@@ -373,6 +556,11 @@
 		{
 			dependencies: ["5971F3DFC257815D"]
 			id: "183DDAEBB9FE53A7"
+			rewards: [{
+				id: "4F57C8D8E4318F3B"
+				type: "xp"
+				xp: 30000
+			}]
 			tasks: [{
 				id: "344A75F306555113"
 				item: { count: 1, id: "apotheosis:ender_gem_case" }
@@ -432,6 +620,15 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "63E7B113F2F2BEE2"
+			rewards: [{
+				count: 16
+				id: "01A3B6FC6A50D5C2"
+				item: {
+					count: 1
+					id: "apotheosis:timeworn_fabric"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2F0E35D382211B5A"
@@ -445,6 +642,15 @@
 		{
 			dependencies: ["63E7B113F2F2BEE2"]
 			id: "1323129B332A18BD"
+			rewards: [{
+				count: 16
+				id: "445092A2976BE6DA"
+				item: {
+					count: 1
+					id: "apotheosis:luminous_crystal_shard"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0787C4E65D6CCA68"
@@ -458,6 +664,15 @@
 		{
 			dependencies: ["1323129B332A18BD"]
 			id: "0FF3E356B7A9650C"
+			rewards: [{
+				count: 16
+				id: "4ECE4A16C67EC0B5"
+				item: {
+					count: 1
+					id: "apotheosis:arcane_sands"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2A5BBA5F63CC8C29"
@@ -471,6 +686,15 @@
 		{
 			dependencies: ["0FF3E356B7A9650C"]
 			id: "5BE39385A8898247"
+			rewards: [{
+				count: 4
+				id: "64CBEDE328846CD2"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_malice"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "31717F358C9BD7DE"
@@ -484,6 +708,14 @@
 		{
 			dependencies: ["5BE39385A8898247"]
 			id: "7E47E81705E0D3D2"
+			rewards: [{
+				id: "7A96FD0F3E154BEA"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_supremacy"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "175331320D7A43EA"
@@ -497,6 +729,25 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "7230DF604BEE97E5"
+			rewards: [
+				{
+					count: 5
+					id: "5AC525F95889C29F"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "41DA49B341E82FFA"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4B9E03DE65C9088F"
 				item: { components: { "gateways:gateway": "gateways:basic/blaze" }, count: 1, id: "gateways:gate_pearl" }
@@ -509,6 +760,17 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "671609B93255C9F3"
+			rewards: [{
+				id: "524795D35AE6BC6D"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:basic/enderman"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66D6000F3E762BD6"
 				item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" }
@@ -521,6 +783,17 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "60F4B028A863C021"
+			rewards: [{
+				id: "33A8BDB609D6A4C9"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:basic/slime"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58A344F08C77DBC1"
 				item: { components: { "gateways:gateway": "gateways:basic/slime" }, count: 1, id: "gateways:gate_pearl" }
@@ -533,6 +806,17 @@
 		{
 			dependencies: ["7230DF604BEE97E5"]
 			id: "5E51BD15B8011222"
+			rewards: [{
+				id: "28961DD7553972E3"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:endless/blaze"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6270AE351D4ED6F2"
 				item: { components: { "gateways:gateway": "gateways:endless/blaze" }, count: 1, id: "gateways:gate_pearl" }
@@ -545,6 +829,17 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "7772D276174EFD2A"
+			rewards: [{
+				id: "183DD89DE4B98BF3"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:emerald_grove"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FA929EFBFF1C6C9"
 				item: { components: { "gateways:gateway": "gateways:emerald_grove" }, count: 1, id: "gateways:gate_pearl" }
@@ -557,6 +852,17 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "68F7FC0D8265DE95"
+			rewards: [{
+				id: "3BCA0E0D3722F8E6"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:hellish_fortress"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "667717DFC61C6F91"
 				item: { components: { "gateways:gateway": "gateways:hellish_fortress" }, count: 1, id: "gateways:gate_pearl" }
@@ -569,6 +875,17 @@
 		{
 			dependencies: ["4565D4B2F9FD2553"]
 			id: "1BFB0822189B58E6"
+			rewards: [{
+				id: "2809811B0DE0C6D7"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:overworldian_nights"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E025BD9BC6FC570"
 				item: { components: { "gateways:gateway": "gateways:overworldian_nights" }, count: 1, id: "gateways:gate_pearl" }
@@ -582,6 +899,15 @@
 			dependencies: ["0503B10D5B7684CC"]
 			hide_dependency_lines: true
 			id: "1D22AB9C7748A4D0"
+			rewards: [{
+				count: 2
+				id: "01544E9B892C7F71"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "23E1A93A8499473B"
 				item: { count: 1, id: "minecraft:smithing_table" }
@@ -593,6 +919,14 @@
 		{
 			dependencies: ["7B25CDB43EF20BEA"]
 			id: "27B00E4638615819"
+			rewards: [{
+				id: "02351A39F9AAB1F8"
+				item: {
+					count: 1
+					id: "minecraft:anvil"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68B601DB09534C30"
 				item: { count: 1, id: "minecraft:anvil" }
@@ -623,6 +957,11 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4565D4B2F9FD2553"
+			rewards: [{
+				id: "1C18C539118994B9"
+				type: "xp"
+				xp: 600
+			}]
 			tasks: [{
 				id: "1C96F235C76AD42C"
 				type: "checkmark"

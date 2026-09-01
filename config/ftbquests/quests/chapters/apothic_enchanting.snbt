@@ -5,7 +5,7 @@
 	filename: "apothic_enchanting"
 	group: "7DB43C7557896446"
 	icon: {
-		id: "minecraft:enchanting_table"
+		id: "apothic_enchanting:apothic_enchanting_table"
 	}
 	id: "2BBFD07BC2C78262"
 	images: [
@@ -1437,6 +1437,15 @@
 			]
 			hide_dependent_lines: true
 			id: "2CEED480C5F876D6"
+			rewards: [{
+				count: 2
+				id: "17CD24CE86185CC1"
+				item: {
+					count: 1
+					id: "apotheosis:god_fused_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15E1FD70E6D41E6C"
 				item: { count: 1, id: "apotheosis:god_fused_pearl" }

@@ -1,0 +1,796 @@
+{
+	autofocus_id: "13AA8A73A923DDB4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: "18780F4E46895DDF"
+	icon: {
+		id: "catalystcore:universe_containment_cell"
+	}
+	id: "039F51BB5CCBEEB2"
+	images: [{
+		click_action: "none:"
+		height: 50.0d
+		id: "6986134B653BD968"
+		image: "catalyst:textures/quest_images/background/catalyst_codex.png"
+		rotation: 0.0d
+		width: 70.0d
+		x: 18.5d
+		y: -1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "13AA8A73A923DDB4"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4FC87201515E26C6"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B68946D3145AED0"]
+			hide_text_until_complete: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "614E763FEFBB72DC"
+			tasks: [{
+				id: "317328281619D7EE"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C610251DCF2FA0F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "74F60A56B96706B6"
+			tasks: [{
+				id: "4C66BB4BAE3377DA"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["614E763FEFBB72DC"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3C610251DCF2FA0F"
+			tasks: [{
+				id: "05356C3DBE3061CC"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13AA8A73A923DDB4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5AEC0BB5A048AC98"
+			tasks: [{
+				id: "4BFE4AB77720358E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AEC0BB5A048AC98"]
+			id: "144B221805C7C820"
+			tasks: [
+				{
+					id: "66978F2DB5D26BE5"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					id: "2E640FD48377F7FB"
+					item: { count: 1, id: "eternalores:aluminum_ingot" }
+					type: "item"
+				}
+				{
+					id: "32BC8BB7DE56591B"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "7DC314B00FF5F09A"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					id: "7CEC501503CF93D0"
+					item: { count: 1, id: "eternalores:nickel_ingot" }
+					type: "item"
+				}
+				{
+					id: "4284D38C13525499"
+					item: { count: 1, id: "eternalores:tin_ingot" }
+					type: "item"
+				}
+				{
+					id: "04A9A1E31BEBF875"
+					item: { count: 1, id: "eternalores:zinc_ingot" }
+					type: "item"
+				}
+				{
+					id: "6C7E717E6DB48B55"
+					item: { count: 1, id: "eternalores:lead_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D20E731E280641"]
+			id: "612E2B13CB930F93"
+			tasks: [{
+				id: "1FB5773AD4145DBA"
+				item: { count: 1, id: "onlyhammers:obsidian_hammer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["144B221805C7C820"]
+			id: "30D20E731E280641"
+			tasks: [{
+				count: 16L
+				id: "79B272EDDDB4504E"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D20E731E280641"]
+			id: "1D93FE453E81F63E"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "73DABF393AD57CFC"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D93FE453E81F63E"]
+			id: "43F1AA4B7C89E714"
+			tasks: [{
+				id: "48957B901C127B6C"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F1AA4B7C89E714"]
+			id: "4B68946D3145AED0"
+			tasks: [{
+				count: 16L
+				id: "2785044D47EA0B81"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["614E763FEFBB72DC"]
+			id: "7CE96B794E16F8FF"
+			tasks: [{
+				id: "54AC96F0307DB3D4"
+				item: { count: 1, id: "eternalores:teleporter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74F60A56B96706B6"]
+			id: "0D8C28070FAC998F"
+			tasks: [{
+				id: "62A2F8B5AD0DF101"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:primitive_alloy" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74F60A56B96706B6"]
+			id: "5591F72EFC4C39BA"
+			tasks: [{
+				id: "718527AE6C8F0328"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:primitive_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D8C28070FAC998F"]
+			id: "59676DE2B5344C49"
+			tasks: [{
+				id: "16C3FE6646FBC40F"
+				item: { count: 1, id: "eternalores:shadowsteel_ingot" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0D8C28070FAC998F"
+				"5591F72EFC4C39BA"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/check_inactive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5381C2B4F6E953D4"
+			tasks: [{
+				id: "013C91DB9C7BAD06"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5381C2B4F6E953D4"]
+			id: "7E1D3C5620943356"
+			tasks: [{
+				id: "50ECE62F5DEB1511"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:extruder" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5381C2B4F6E953D4"]
+			id: "5B3AA86DE7CF8223"
+			tasks: [{
+				id: "12E2CF491A18E499"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:macerator" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5591F72EFC4C39BA"]
+			id: "76EFD340D2390FC3"
+			tasks: [{
+				id: "7071BB7C17687F64"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:nether_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76EFD340D2390FC3"]
+			id: "6953868916F81BE6"
+			tasks: [{
+				id: "54FE4E18DE95E88A"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:end_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CE96B794E16F8FF"]
+			id: "2BDE5C2FAFB2AC76"
+			tasks: [{
+				id: "219B1FFC9AD5B159"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:primitive_extruder" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"50AC11629F325C60"
+				"736E61A79AF167DF"
+			]
+			id: "3DEC7AE475013992"
+			tasks: [{
+				id: "441DDBEA219CA277"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:advanced_multismelter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DEC7AE475013992"]
+			id: "0A89941FEB91D334"
+			tasks: [{
+				id: "269EAFDB13EAA94C"
+				item: { count: 1, id: "eternalores:universium_ingot" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A94986A4230D076"]
+			id: "50AC11629F325C60"
+			tasks: [{
+				count: 9L
+				id: "72228DC545782304"
+				item: { count: 1, id: "eternalores:universium_small_dust" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A94986A4230D076"]
+			id: "736E61A79AF167DF"
+			tasks: [{
+				id: "16D337AB46D9D32D"
+				item: { count: 1, id: "eternalores:eternity_ingot" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["662618872CD26CA2"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:portal"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "0A94986A4230D076"
+			tasks: [
+				{
+					id: "748FA72E13C9DB9E"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:portal" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "7D1B848C7153E20C"
+					item: { count: 1, id: "pastel:black_materia" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5104DB4212EB337E"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:hourglass"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "662618872CD26CA2"
+			tasks: [
+				{
+					id: "4D9B96093E20CCF2"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:hourglass" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3FC208ABDE9EC9AE"
+					item: { count: 1, id: "eternalores:gem_voiderite" }
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35831BC985269B59"
+				"6068BEE06CB76723"
+			]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:space"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "5104DB4212EB337E"
+			tasks: [
+				{
+					id: "539858605AE69FAC"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:space" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "54E4655069DC74EA"
+					item: { count: 1, id: "eternalores:etherium_nugget" }
+					type: "item"
+				}
+				{
+					id: "166FD968F21B3651"
+					item: { count: 1, id: "eternalores:cosmic_matter_ingot" }
+					type: "item"
+				}
+				{
+					id: "447F8AF29ACB39C2"
+					item: { count: 1, id: "eternalores:stellarium_ingot" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13AA8A73A923DDB4"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:vampire"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "6068BEE06CB76723"
+			tasks: [
+				{
+					id: "66A9CCFFF55A78DC"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:vampire" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "74469D3C2B602425"
+					item: { count: 1, id: "eternalores:gem_sanguis_vivus" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"16FD19642B02D708"
+				"554B4EF287F6CAE5"
+			]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:vat"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "35831BC985269B59"
+			tasks: [
+				{
+					id: "406E51EAF1227FBB"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:vat" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "710BF377767E9324"
+					item: { count: 1, id: "eternalores:sculkite_ingot" }
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3CB9E3F955F8D6F0"
+				"14384D2E8873E4F2"
+			]
+			id: "7EF4F236ABF01FAB"
+			tasks: [
+				{
+					id: "2258DCEDBDABF3AB"
+					item: { count: 1, id: "eternalores:eternal_dark_ingot" }
+					type: "item"
+				}
+				{
+					id: "62D4E309C7592D3D"
+					item: { count: 1, id: "eternalores:eternal_light_ingot" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13AA8A73A923DDB4"]
+			hide_dependency_lines: true
+			id: "16FD19642B02D708"
+			tasks: [{
+				id: "5D7CC9379707DFFD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"13AA8A73A923DDB4"
+				"6068BEE06CB76723"
+			]
+			hide_dependency_lines: true
+			id: "3CB9E3F955F8D6F0"
+			tasks: [
+				{
+					id: "669986ECE6FA2374"
+					item: { count: 1, id: "catalystcore:end_core" }
+					type: "item"
+				}
+				{
+					id: "660625E3D6D16E06"
+					item: { count: 1, id: "catalystcore:lava_orb" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7E1D3C5620943356"
+				"5B3AA86DE7CF8223"
+			]
+			id: "14384D2E8873E4F2"
+			tasks: [{
+				count: 72L
+				id: "676F9106F59FB409"
+				item: { count: 1, id: "eternalores:modularium_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5104DB4212EB337E"]
+			id: "3EAC603BD09EC99C"
+			tasks: [{
+				id: "08C9430BB8AFE21C"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:colider" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C610251DCF2FA0F"]
+			id: "40B2A5F2F7C8994F"
+			tasks: [{
+				id: "723277758331B39C"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:fisher" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EF4F236ABF01FAB"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:miner"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "7693727CE16BBC6C"
+			tasks: [
+				{
+					id: "12C532364A347FD2"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:miner" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "1F2C0DD7A1D2CEDC"
+					item: { count: 1, id: "replication:replica_ingot" }
+					type: "item"
+				}
+				{
+					id: "58A34030E1C90084"
+					item: { count: 1, id: "eternalores:ultimatitanium_ingot" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50DE8A7E8A444305"]
+			id: "554B4EF287F6CAE5"
+			tasks: [{
+				id: "41E8AB753236ED9E"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:multismelter" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7693727CE16BBC6C"]
+			id: "50DE8A7E8A444305"
+			tasks: [{
+				id: "534DD9335028A9FB"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:celestial_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50DE8A7E8A444305"]
+			id: "7FB083690C070E1B"
+			tasks: [{
+				id: "5B01E95D8A13FB42"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:geo_syntex" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["614E763FEFBB72DC"]
+			id: "0E07814D7267F671"
+			tasks: [{
+				id: "204BDD5AEBB06DB1"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:phytomorphic_synthesiszer" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["614E763FEFBB72DC"]
+			id: "0C2CD9900AA92976"
+			tasks: [{
+				id: "641E0B04979ADFD2"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:apis_mutandis" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["614E763FEFBB72DC"]
+			id: "3E9E501970A06220"
+			tasks: [{
+				id: "7531EE68F54370D1"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:crystalline_fabricator" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["614E763FEFBB72DC"]
+			id: "47F03F90D5F2CD8C"
+			tasks: [{
+				id: "67769441259F1C63"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:data_extractor" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7693727CE16BBC6C"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:fission"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "31E1FB302F37D49E"
+			tasks: [
+				{
+					id: "7ABAE67F65A47ECB"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:fission" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "2F80217549D0EF55"
+					item: { count: 1, id: "eternalores:missing_ingot" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A89941FEB91D334"]
+			icon: {
+				id: "catalystcore:complete_catalyst"
+			}
+			id: "472E9DA6FDF20B12"
+			tasks: [{
+				id: "5570D2E40972D1A3"
+				type: "checkmark"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C610251DCF2FA0F"]
+			id: "6D9E9DBF81C0842F"
+			tasks: [{
+				id: "36CB1841BEE50CDF"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:greenhouse" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C610251DCF2FA0F"]
+			id: "2533EC424651E685"
+			tasks: [{
+				id: "02FE8E5A177755FB"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:arboretum" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BDE5C2FAFB2AC76"]
+			id: "6C80DF67224B3D91"
+			tasks: [{
+				id: "610AFF422397DDC4"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:igneus_extruder" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+	]
+}

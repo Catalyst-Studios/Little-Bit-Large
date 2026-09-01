@@ -5,7 +5,7 @@
 	filename: "hostile_neural_networks"
 	group: "44E753EB6A5C541F"
 	icon: {
-		id: "hostilenetworks:deep_learner"
+		id: "hostilenetworks:data_center"
 	}
 	id: "33BD2251DF8E61AA"
 	images: [
