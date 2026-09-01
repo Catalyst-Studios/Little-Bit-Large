@@ -6,7 +6,7 @@
 	filename: "energized_power"
 	group: "799C57E4146F24A8"
 	icon: {
-		id: "energizedpower:energized_copper_ingot"
+		id: "energizedpower:energized_crystal_matrix"
 	}
 	id: "558E65AB78354674"
 	images: [ ]
