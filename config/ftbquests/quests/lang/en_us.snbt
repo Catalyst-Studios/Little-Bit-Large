@@ -6143,6 +6143,7 @@
 		"- Keep a certain amount in stock, so you don't have to constantly keep making them"
 	]
 	quest.46841515ABD31F9D.quest_subtitle: "More advance setups!"
+	quest.46841515ABD31F9D.title: "More useful item"
 	quest.468AE3AB91F19A3F.quest_desc: [
 		"Apotheosis has changed a few rules about spawners, now needing one to explode"
 		""
@@ -6200,6 +6201,7 @@
 	quest.474762067F687EC6.quest_desc: ["&dElectrolize&r some &9heavy&r water"]
 	quest.4755C24BF0872B7E.quest_desc: ["These are some essential items for some of the setups automation, for example, knowing if you have X amount of items before sending them to a machine to process or just knowing how much do you have in storage in a glance."]
 	quest.4755C24BF0872B7E.quest_subtitle: "Redstone on demand"
+	quest.4755C24BF0872B7E.title: "Useful items"
 	quest.47610F935B200FEA.quest_desc: [
 		"Well, time for &6elevators&r, something &afundamental&r to a big base."
 		"They are pretty &buseful&r, and can be done in multiple ways:"
