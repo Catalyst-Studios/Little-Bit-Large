@@ -41,6 +41,15 @@
 		{
 			dependencies: ["6073BA8A01393C9A"]
 			id: "63FB6D7D962088EC"
+			rewards: [{
+				count: 2
+				id: "4518DFB25BD445EF"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20C0EDF011CCACDC"
 				item: { count: 1, id: "energizedpower:cutter" }
@@ -52,6 +61,15 @@
 		{
 			dependencies: ["2F4E1ADE29C2972F"]
 			id: "07DAE2AC4660AEE3"
+			rewards: [{
+				count: 2
+				id: "6E08342CDB13603F"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E72E9E19E3A44F7"
 				item: { count: 1, id: "energizedpower:wrench" }
@@ -63,6 +81,15 @@
 		{
 			dependencies: ["07DAE2AC4660AEE3"]
 			id: "6F8BC77701F996A4"
+			rewards: [{
+				count: 2
+				id: "0FA45080DFE4DC6E"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "318536C02F3925B0"
 				item: { count: 1, id: "energizedpower:machine_configurator" }
@@ -74,6 +101,15 @@
 		{
 			dependencies: ["2F4E1ADE29C2972F"]
 			id: "6073BA8A01393C9A"
+			rewards: [{
+				count: 4
+				id: "4187674B3F1B0ED0"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2524411D8CFB420E"
 				item: { count: 1, id: "energizedpower:diamond_hammer" }
@@ -94,6 +130,11 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "7D4962777B170BCF"
+			rewards: [{
+				id: "237B33982BFC3503"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				id: "2A40554066330DFC"
 				type: "checkmark"
@@ -104,6 +145,15 @@
 		{
 			dependencies: ["7D4962777B170BCF"]
 			id: "14C1AEB2835E60A1"
+			rewards: [{
+				count: 12
+				id: "0DABFC021B8EF21C"
+				item: {
+					count: 1
+					id: "energizedpower:copper_fluid_pipe"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EF683D451B01573"
 				item: { count: 1, id: "energizedpower:copper_fluid_pipe" }
@@ -115,6 +165,15 @@
 		{
 			dependencies: ["14C1AEB2835E60A1"]
 			id: "7F310BF4068C46F8"
+			rewards: [{
+				count: 12
+				id: "3E5EBC5D3A55E0A7"
+				item: {
+					count: 1
+					id: "energizedpower:fluid_pipe"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D507CA665302ED1"
 				item: { count: 1, id: "energizedpower:fluid_pipe" }
@@ -126,6 +185,15 @@
 		{
 			dependencies: ["7F310BF4068C46F8"]
 			id: "48BCCE534E86904D"
+			rewards: [{
+				count: 12
+				id: "4723AB3083518B6E"
+				item: {
+					count: 1
+					id: "energizedpower:golden_fluid_pipe"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7009464003476B80"
 				item: { count: 1, id: "energizedpower:golden_fluid_pipe" }
@@ -137,6 +205,15 @@
 		{
 			dependencies: ["0BFA12DF02ED23C1"]
 			id: "6469FDB9E58A7131"
+			rewards: [{
+				count: 12
+				id: "4BBBE05714343879"
+				item: {
+					count: 1
+					id: "energizedpower:tin_cable"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "524708FD56CDCFF8"
 				item: { count: 1, id: "energizedpower:tin_cable" }
@@ -148,6 +225,15 @@
 		{
 			dependencies: ["6469FDB9E58A7131"]
 			id: "0E00C461AF798658"
+			rewards: [{
+				count: 12
+				id: "0A3D0F3A10E42EC4"
+				item: {
+					count: 1
+					id: "energizedpower:copper_cable"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5ADA58D4DFA2BA7C"
 				item: { count: 1, id: "energizedpower:copper_cable" }
@@ -159,6 +245,15 @@
 		{
 			dependencies: ["0E00C461AF798658"]
 			id: "12A223928F9A175E"
+			rewards: [{
+				count: 12
+				id: "7412ADBF4A9335C6"
+				item: {
+					count: 1
+					id: "energizedpower:gold_cable"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "010B827F12BA22EC"
 				item: { count: 1, id: "energizedpower:gold_cable" }
@@ -170,6 +265,15 @@
 		{
 			dependencies: ["7D4962777B170BCF"]
 			id: "2F378EA1329F8B27"
+			rewards: [{
+				count: 5
+				id: "437ED1FA7D3857C0"
+				item: {
+					count: 1
+					id: "minecraft:clay"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "095C9B722066F7FE"
 				item: { count: 1, id: "energizedpower:press_mold_maker" }
@@ -181,6 +285,15 @@
 		{
 			dependencies: ["7D4962777B170BCF"]
 			id: "710A60E3C18DEE07"
+			rewards: [{
+				count: 5
+				id: "2FF50ED23E290594"
+				item: {
+					count: 1
+					id: "minecraft:clay"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "44A553FB4074FAEB"
 				item: { count: 1, id: "energizedpower:alloy_furnace" }
@@ -212,6 +325,15 @@
 		{
 			dependencies: ["2F378EA1329F8B27"]
 			id: "1D43DEFCDE66C314"
+			rewards: [{
+				count: 5
+				id: "03AE1FE6622648B7"
+				item: {
+					count: 1
+					id: "minecraft:clay"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "729A62AF5023318D"
@@ -268,6 +390,14 @@
 		{
 			dependencies: ["710A60E3C18DEE07"]
 			id: "60F1626FEBB9A4C6"
+			rewards: [{
+				id: "4A018D7501A69336"
+				item: {
+					count: 1
+					id: "energizedpower:hardened_machine_frame"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D8B1CBB58B6912F"
 				item: { count: 1, id: "energizedpower:induction_smelter" }
@@ -426,6 +556,15 @@
 		{
 			dependencies: ["7D4962777B170BCF"]
 			id: "0BFA12DF02ED23C1"
+			rewards: [{
+				count: 6
+				id: "1FD871AD3CD811FE"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "445DD074AB90BC71"
 				item: { count: 1, id: "energizedpower:cable_insulator" }
@@ -1236,6 +1375,15 @@
 		{
 			dependencies: ["2F4E1ADE29C2972F"]
 			id: "43343CDB3AA914DA"
+			rewards: [{
+				count: 6
+				id: "731DAC7A75B7D848"
+				item: {
+					count: 1
+					id: "energizedpower:basic_solar_cell"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DF73D0314934854"
 				item: { count: 1, id: "energizedpower:basic_solar_cell" }

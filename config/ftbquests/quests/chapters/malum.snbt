@@ -75,6 +75,15 @@
 		{
 			dependencies: ["2E5535BD9EF7C252"]
 			id: "11CE5976BD92B743"
+			rewards: [{
+				count: 2
+				id: "36E8AA1F4693EC23"
+				item: {
+					count: 1
+					id: "malum:refined_soulstone"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E82CEC10AB496E3"
@@ -96,6 +105,11 @@
 				id: "malum:refined_soulstone"
 			}
 			id: "0C5575BAC9933656"
+			rewards: [{
+				id: "74749C388AEB0614"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [
 				{
 					id: "6EE77D8D964EF5C8"
@@ -125,6 +139,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "7D4ECB54B96AFCA8"
+			rewards: [{
+				count: 5
+				id: "0678E0295CDD9922"
+				item: {
+					count: 1
+					id: "malum:sacred_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1646F7D53733E04F"
@@ -138,6 +161,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "3686980DC39E762A"
+			rewards: [{
+				count: 5
+				id: "218AF35DEB35FAF8"
+				item: {
+					count: 1
+					id: "malum:infernal_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "43FFD68EDDBEECFA"
@@ -151,6 +183,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "59B7B59384B13029"
+			rewards: [{
+				count: 5
+				id: "224B694D7E185D7A"
+				item: {
+					count: 1
+					id: "malum:earthen_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6E73ECDD84779656"
@@ -164,6 +205,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "35EEAC9C37B1EEB4"
+			rewards: [{
+				count: 5
+				id: "76B80BF2FFD7B479"
+				item: {
+					count: 1
+					id: "malum:aqueous_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "58D21F0100B4625F"
@@ -177,6 +227,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "53F10B6BED6A9E77"
+			rewards: [{
+				count: 5
+				id: "2B9F1D3AB401D98C"
+				item: {
+					count: 1
+					id: "malum:wicked_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "100C72D89209FD4A"
@@ -190,6 +249,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "4ED1D6EA1C603BE0"
+			rewards: [{
+				count: 5
+				id: "66A088F4EE6FED61"
+				item: {
+					count: 1
+					id: "malum:arcane_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "455EC7AAB81C9E4D"
@@ -203,6 +271,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "0270173E2FE25CCA"
+			rewards: [{
+				count: 5
+				id: "4D1B2C04263561C6"
+				item: {
+					count: 1
+					id: "malum:eldritch_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7994918D3850ECC0"
@@ -216,6 +293,15 @@
 			dependencies: ["4921A22866F9253C"]
 			hide_dependency_lines: true
 			id: "1C54667EE66C6BCE"
+			rewards: [{
+				count: 5
+				id: "4FE59FA0264F0E79"
+				item: {
+					count: 1
+					id: "malum:aerial_spirit"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "52CF572C4CC1AFE4"
@@ -231,6 +317,15 @@
 				id: "malum:spirit_altar"
 			}
 			id: "29369B6D0959E962"
+			rewards: [{
+				count: 16
+				id: "4D1403B219AE6350"
+				item: {
+					count: 1
+					id: "malum:runewood_log"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "451396BDE9B04FFD"
@@ -250,6 +345,14 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "44B9580A098565F4"
+			rewards: [{
+				id: "7DF9F2A95DA9E819"
+				item: {
+					count: 1
+					id: "malum:block_of_rotting_essence"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AB527C6C4CE2C00"
 				item: { count: 1, id: "malum:rotting_essence" }
@@ -261,6 +364,14 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "77D8CD1FB883BC36"
+			rewards: [{
+				id: "599B241D91D0904D"
+				item: {
+					count: 1
+					id: "malum:block_of_grim_talc"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54AA65BE5D991988"
 				item: { count: 1, id: "malum:grim_talc" }
@@ -272,6 +383,15 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "44B9A82A07B42089"
+			rewards: [{
+				count: 2
+				id: "359862F0AF43AAAA"
+				item: {
+					count: 1
+					id: "malum:block_of_astral_weave"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43D09D8E46EDBA7E"
 				item: { count: 1, id: "malum:astral_weave" }
@@ -283,6 +403,15 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "69868BBC56DA8F95"
+			rewards: [{
+				count: 9
+				id: "3360930B3CD5CA48"
+				item: {
+					count: 1
+					id: "malum:wind_nucleus"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C9D399B7FC720AA"
 				item: { count: 1, id: "malum:wind_nucleus" }
@@ -294,6 +423,14 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "22A1DC5C3DBFF918"
+			rewards: [{
+				id: "393431141CC77109"
+				item: {
+					count: 1
+					id: "malum:block_of_warp_flux"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E2F2FCA9660FCF0"
 				item: { count: 1, id: "malum:warp_flux" }
@@ -305,6 +442,25 @@
 		{
 			dependencies: ["29369B6D0959E962"]
 			id: "4088AEBAA544523C"
+			rewards: [
+				{
+					count: 2
+					id: "7B2F7D5BA934BF75"
+					item: {
+						count: 1
+						id: "malum:infernal_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "7502566431FD42AB"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D1D73320E2660EC"
 				item: { count: 1, id: "malum:ether" }
@@ -316,6 +472,33 @@
 		{
 			dependencies: ["29369B6D0959E962"]
 			id: "162F527B22AE40DD"
+			rewards: [
+				{
+					id: "6FB132516030FA91"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E7D3268965F8339"
+					item: {
+						count: 1
+						id: "malum:wicked_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "775FD523A42F7840"
+					item: {
+						count: 1
+						id: "malum:earthen_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0084457D1D6E2199"
 				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
@@ -327,6 +510,25 @@
 		{
 			dependencies: ["29369B6D0959E962"]
 			id: "25EACF69F4AA5C28"
+			rewards: [
+				{
+					count: 2
+					id: "14708CF38E0460AA"
+					item: {
+						count: 1
+						id: "malum:sacred_spirit"
+					}
+					type: "item"
+				}
+				{
+					id: "50F57AA12E4CDD0C"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "469F7A3E9290ABBD"
 				item: { count: 1, id: "malum:hallowed_gold_ingot" }
@@ -345,6 +547,15 @@
 				id: "malum:runewood_obelisk"
 			}
 			id: "77822FE077DEBE01"
+			rewards: [{
+				count: 3
+				id: "1FD8ECE193B522ED"
+				item: {
+					count: 1
+					id: "malum:hallowed_gold_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3188DF4B3A1AC64D"
@@ -392,6 +603,15 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "3C0B42313844B4A1"
+			rewards: [{
+				count: 4
+				id: "64EC6B32D6AED86D"
+				item: {
+					count: 1
+					id: "malum:living_flesh"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BE69C135A01B37C"
 				item: { count: 1, id: "malum:living_flesh" }
@@ -403,6 +623,15 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "3AF33E5437866CED"
+			rewards: [{
+				count: 16
+				id: "6946E125AFF4D307"
+				item: {
+					count: 1
+					id: "malum:alchemical_calx"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "75FDDA31D847F7C0"
 				item: { count: 1, id: "malum:alchemical_calx" }
@@ -414,6 +643,15 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "4117824973AB97C3"
+			rewards: [{
+				count: 32
+				id: "0BD1C09641A30442"
+				item: {
+					count: 1
+					id: "malum:hex_ash"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58288999DB41CDB2"
 				item: { count: 1, id: "malum:hex_ash" }
@@ -425,6 +663,15 @@
 		{
 			dependencies: ["77822FE077DEBE01"]
 			id: "7B507766424DD877"
+			rewards: [{
+				count: 8
+				id: "7CEEA6AF362BB183"
+				item: {
+					count: 1
+					id: "malum:soulwoven_silk"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F4EAD129CD572D7"
 				item: { count: 1, id: "malum:soulwoven_silk" }
@@ -436,6 +683,26 @@
 		{
 			dependencies: ["5B92ED10BCDB1CC6"]
 			id: "7B243684405FFB35"
+			rewards: [
+				{
+					count: 8
+					id: "7A5A798C9F3D83E0"
+					item: {
+						count: 1
+						id: "malum:eldritch_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7EEA66CC0448A5F5"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7F2AD76F3CC68586"
 				item: { count: 1, id: "malum:paracausal_flame" }
@@ -448,6 +715,14 @@
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
 			id: "5B92ED10BCDB1CC6"
+			rewards: [{
+				id: "6FD0228F623A6878"
+				item: {
+					count: 1
+					id: "malum:ether"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2519F9CB36CF4EBD"
 				item: { count: 1, id: "malum:soulbinding_brazier" }
@@ -459,6 +734,15 @@
 		{
 			dependencies: ["1DE9B2DB4E187973"]
 			id: "0FE9246E2A50B993"
+			rewards: [{
+				count: 2
+				id: "357F52DD8AF41927"
+				item: {
+					count: 1
+					id: "malum:block_of_hallowed_gold"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "337A78B8190C0D69"
 				item: { count: 1, id: "malum:runic_brooch" }
@@ -470,6 +754,15 @@
 		{
 			dependencies: ["0FE9246E2A50B993"]
 			id: "7727303A95715645"
+			rewards: [{
+				count: 64
+				id: "0005E5E1382D6793"
+				item: {
+					count: 1
+					id: "malum:aqueous_spirit"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36045C32A5111A8B"
 				item: { count: 1, id: "malum:glass_brooch" }
@@ -482,6 +775,35 @@
 			dependencies: ["2E5535BD9EF7C252"]
 			hide_dependency_lines: true
 			id: "1DE9B2DB4E187973"
+			rewards: [
+				{
+					count: 16
+					id: "4491841205907AD5"
+					item: {
+						count: 1
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56F093D8ECA0A202"
+					item: {
+						count: 1
+						id: "malum:sacred_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39666289F8E6EB3B"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "221173F2CFA44157"
 				item: { count: 1, id: "malum:runic_workbench" }
@@ -497,6 +819,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "256819E8EA869BF7"
+			rewards: [{
+				id: "4AEBA37694B5594C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "6D55F4498F1DCA0E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:rune)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -509,6 +836,26 @@
 			dependencies: ["29369B6D0959E962"]
 			hide_dependency_lines: true
 			id: "08DD86F92927595D"
+			rewards: [
+				{
+					count: 32
+					id: "6473838E5AF1B7EF"
+					item: {
+						count: 1
+						id: "malum:tainted_rock"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "56B5B36783141FD0"
+					item: {
+						count: 1
+						id: "malum:twisted_rock"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "182F665FFAA3F114"
@@ -527,6 +874,35 @@
 		{
 			dependencies: ["08DD86F92927595D"]
 			id: "357A15AEF6A75E24"
+			rewards: [
+				{
+					count: 16
+					id: "254336FA7236F920"
+					item: {
+						count: 1
+						id: "malum:cthonic_gold"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A7325C2B3AEB9BE"
+					item: {
+						count: 1
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7DF896E3BE4A2D5B"
+					item: {
+						count: 1
+						id: "malum:infernal_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "777DF95F75FE3ED6"
 				item: { count: 1, id: "malum:repair_pylon" }
@@ -538,6 +914,35 @@
 		{
 			dependencies: ["4F4F69C0FE90C33B"]
 			id: "4A4F5DE5D43DE5E9"
+			rewards: [
+				{
+					count: 8
+					id: "5365D949C88C2FD9"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "547E8D884F71F70D"
+					item: {
+						count: 1
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2EE6F977D4CB5FE0"
+					item: {
+						count: 1
+						id: "malum:eldritch_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "25F45820C0720417"
 				item: { count: 1, id: "malum:tuning_fork" }
@@ -549,6 +954,11 @@
 		{
 			dependencies: ["4A4F5DE5D43DE5E9"]
 			id: "3D147F258BF7975E"
+			rewards: [{
+				id: "1F0BE2F888067D19"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "4F9291897878DE79"
@@ -570,6 +980,11 @@
 					item: { count: 1, id: "malum:caustic_catalyst" }
 					type: "item"
 				}
+				{
+					id: "1CD13FB1CF9D8988"
+					item: { count: 1, id: "malum:stellar_mechanism" }
+					type: "item"
+				}
 			]
 			x: -4.0d
 			y: -7.5d
@@ -577,6 +992,11 @@
 		{
 			dependencies: ["4A4F5DE5D43DE5E9"]
 			id: "363581A91656F58E"
+			rewards: [{
+				id: "14562B4C74A27797"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "35EFE132AE5D4D8B"
@@ -625,6 +1045,14 @@
 		{
 			dependencies: ["4A4F5DE5D43DE5E9"]
 			id: "5E9BF96FD602AD97"
+			rewards: [{
+				id: "11933BAFFAD143EC"
+				item: {
+					count: 1
+					id: "malum:block_of_soul_stained_steel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C7079459FDD05A5"
 				item: { count: 1, id: "malum:spellweaving_pickaxe" }
@@ -636,6 +1064,14 @@
 		{
 			dependencies: ["4A4F5DE5D43DE5E9"]
 			id: "564418D6BFA07392"
+			rewards: [{
+				id: "684D1EFFBB6569E6"
+				item: {
+					count: 1
+					id: "malum:block_of_soul_stained_steel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2749D58395A43737"
 				item: { count: 1, id: "malum:spellweaving_axe" }
@@ -650,6 +1086,11 @@
 				"5E9BF96FD602AD97"
 			]
 			id: "236F1EFEBED1B2E3"
+			rewards: [{
+				id: "589E7529366923FD"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [
 				{
 					id: "152373AE907FDAE6"
@@ -676,6 +1117,15 @@
 				id: "malum:runewood_totem_base"
 			}
 			id: "7F5D4C74576F702E"
+			rewards: [{
+				count: 5
+				id: "383B82254371D7F4"
+				item: {
+					count: 1
+					id: "malum:arcane_spirit"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "19221B1D18320EA4"
@@ -704,6 +1154,26 @@
 				id: "malum:soulwood_sapling"
 			}
 			id: "68F0F12785C2DE8A"
+			rewards: [
+				{
+					count: 4
+					id: "22430D21FC78AEC6"
+					item: {
+						count: 1
+						id: "malum:soulwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "22847FA7EB87747B"
+					item: {
+						count: 1
+						id: "malum:mass_of_blighted_gunk"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "59353D40C97FCCE5"
@@ -755,6 +1225,45 @@
 				id: "malum:arcana_pylon"
 			}
 			id: "1A372024C6D4839A"
+			rewards: [
+				{
+					count: 6
+					id: "2C5B2C78CE861F35"
+					item: {
+						count: 1
+						id: "malum:aerial_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2064ADFBF6C63668"
+					item: {
+						count: 1
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 6
+					id: "39A942008EC7DE85"
+					item: {
+						count: 1
+						id: "malum:earthen_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0C0071020AE55007"
+					item: {
+						count: 1
+						id: "malum:infernal_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 4L
@@ -792,6 +1301,11 @@
 				id: "malum:encyclopedia_esoterica"
 			}
 			id: "33DA16E3CFBAE1BD"
+			rewards: [{
+				id: "56621FCDBC1672C7"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [
 				{
 					id: "0507D10F7C3DEBFE"
@@ -810,6 +1324,14 @@
 		{
 			dependencies: ["4D66D768235961E9"]
 			id: "7061DB6C61BD30AA"
+			rewards: [{
+				id: "52FA54DF345CC7F6"
+				item: {
+					count: 1
+					id: "gaze:spirit_channel_pouch"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "556F5879DD296410"
 				item: { count: 1, id: "gaze:encyclopedia_unveiled" }
@@ -821,6 +1343,15 @@
 		{
 			dependencies: ["33DA16E3CFBAE1BD"]
 			id: "7AB051138D982881"
+			rewards: [{
+				count: 6
+				id: "028C928018536492"
+				item: {
+					count: 1
+					id: "malum:null_slate"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7025742DF4175982"
@@ -835,6 +1366,15 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "510473AF470648A4"
+			rewards: [{
+				count: 9
+				id: "4AD4F9501D3B5FEB"
+				item: {
+					count: 1
+					id: "malum:malignant_lead"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "070BBD6C0BDBD5D6"
@@ -848,6 +1388,15 @@
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
 			id: "60DFA72F65DCB947"
+			rewards: [{
+				count: 6
+				id: "076E675489131CCC"
+				item: {
+					count: 1
+					id: "malum:mnemonic_fragment"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5FABEF6ECE08D7CE"
@@ -861,6 +1410,15 @@
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
 			id: "4AE4D91089DA1035"
+			rewards: [{
+				count: 9
+				id: "455F88F256CEF373"
+				item: {
+					count: 1
+					id: "malum:auric_embers"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "293BFB57D40A92CA"
@@ -874,6 +1432,15 @@
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
 			id: "65614D7709B70C71"
+			rewards: [{
+				count: 2
+				id: "69FB5E8979F7A375"
+				item: {
+					count: 1
+					id: "malum:anomalous_design"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2F154D48BE4628C0"
@@ -887,6 +1454,15 @@
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
 			id: "0A00C8C55DE2D39C"
+			rewards: [{
+				count: 4
+				id: "680FDA2FFD1EEDBC"
+				item: {
+					count: 1
+					id: "malum:fused_consciousness"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3214E3D1577D5780"
@@ -917,6 +1493,14 @@
 		{
 			dependencies: ["2D58912C15CC42AF"]
 			id: "4D66D768235961E9"
+			rewards: [{
+				id: "75DEF85A2B2A78A9"
+				item: {
+					count: 1
+					id: "malum:umbral_spirit"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C1C721051B5CB05"
 				item: { count: 1, id: "malum:umbral_spirit" }
@@ -928,6 +1512,21 @@
 		{
 			dependencies: ["162F527B22AE40DD"]
 			id: "416F14D42D4E6685"
+			rewards: [{
+				id: "230FFC3E6A157EFB"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"malum:spirit_plunder": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "137B104498723F06"
 				item: { count: 1, id: "malum:soul_stained_steel_scythe" }
@@ -942,6 +1541,15 @@
 				"510473AF470648A4"
 			]
 			id: "39437666EFEFA72C"
+			rewards: [{
+				count: 2
+				id: "0CCB6CFBBF583A63"
+				item: {
+					count: 1
+					id: "malum:block_of_malignant_pewter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EC0DFD5F7E1C98F"
 				item: { count: 1, id: "malum:malignant_pewter_ingot" }
@@ -953,6 +1561,21 @@
 		{
 			dependencies: ["39437666EFEFA72C"]
 			id: "2D58912C15CC42AF"
+			rewards: [{
+				id: "35BAA0BCAC3C48DF"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"malum:spirit_plunder": 6
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3554BCE9C6452A74"
 				item: { count: 1, id: "malum:edge_of_deliverance" }
@@ -964,6 +1587,33 @@
 		{
 			dependencies: ["7061DB6C61BD30AA"]
 			id: "62DE9781C6440899"
+			rewards: [
+				{
+					id: "7DE58C467EAA46D9"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "03A2B91CA16FDBB4"
+					item: {
+						count: 1
+						id: "malum:umbral_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1A8C737AD9D03085"
+					item: {
+						count: 1
+						id: "malum:ornate_soulwood_item_pedestal"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "391BD0B0E2514AC6"
 				item: { count: 1, id: "gaze:enchantment_workbench" }
@@ -988,6 +1638,15 @@
 			dependencies: ["33DA16E3CFBAE1BD"]
 			hide_dependency_lines: true
 			id: "3398E8F5A62508E3"
+			rewards: [{
+				count: 6
+				id: "1FEEDD08E519260B"
+				item: {
+					count: 1
+					id: "malum:void_salts"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "666A5B5140C74903"
@@ -1000,6 +1659,14 @@
 		{
 			dependencies: ["0FE9246E2A50B993"]
 			id: "54B65FE4F8B29E9D"
+			rewards: [{
+				id: "248D40EA7338CC92"
+				item: {
+					count: 1
+					id: "malum:runic_brooch"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C54EABBDACA38B2"
 				item: { count: 1, id: "gaze:sluggish_brooch" }
@@ -1012,6 +1679,80 @@
 			dependencies: ["4D66D768235961E9"]
 			hide_until_deps_complete: true
 			id: "521E589CAE9151B0"
+			rewards: [
+				{
+					count: 64
+					id: "5DE39265B595A2F5"
+					item: {
+						count: 1
+						id: "malum:sacred_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74A64F58E51E6401"
+					item: {
+						count: 1
+						id: "malum:wicked_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CD9658A37EBD9CE"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "760AAF7C9A79FA65"
+					item: {
+						count: 1
+						id: "malum:eldritch_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2C4544F39F9209B2"
+					item: {
+						count: 1
+						id: "malum:aerial_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2045722DAE7E6D16"
+					item: {
+						count: 1
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E677486333EEF5D"
+					item: {
+						count: 1
+						id: "malum:earthen_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "62DA0BE9B97D1D5D"
+					item: {
+						count: 1
+						id: "malum:infernal_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2F835843689A4777"
 				item: { count: 1, id: "gaze:veil_dagger" }
@@ -1023,6 +1764,15 @@
 		{
 			dependencies: ["11CE5976BD92B743"]
 			id: "1A45200047BC1937"
+			rewards: [{
+				count: 6
+				id: "1E81CE33CF15415B"
+				item: {
+					count: 1
+					id: "malum:runic_sapball"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7DCB0DAA69C34868"
 				item: { count: 1, id: "malum:runic_sapball" }
@@ -1035,6 +1785,44 @@
 			dependencies: ["4AE4D91089DA1035"]
 			hide_until_deps_complete: true
 			id: "6D1ED42DEA8ECA02"
+			rewards: [
+				{
+					count: 16
+					id: "42B866AD51AA359D"
+					item: {
+						count: 1
+						id: "malum:auric_embers"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5C2154F84DAEAFEE"
+					item: {
+						count: 1
+						id: "malum:aqueous_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6B02BA6ED4F19EBE"
+					item: {
+						count: 1
+						id: "malum:infernal_spirit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "57EAC8B07A96B561"
+					item: {
+						count: 1
+						id: "malum:eldritch_spirit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2764E920A25E3242"
 				item: { count: 1, id: "malum:catalyst_lobber" }
