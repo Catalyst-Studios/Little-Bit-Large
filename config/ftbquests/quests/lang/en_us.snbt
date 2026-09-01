@@ -1408,6 +1408,7 @@
 		"How can this be good? Well, your storage is more powerful than some chests!"
 	]
 	quest.0F9E52B5BC4CB50A.quest_subtitle: "Compacts"
+	quest.0F9E52B5BC4CB50A.title: "RS addons"
 	quest.0FAEF05C5DB5F230.quest_desc: ["More &6filtering&r and &dallows&r you to compress 3x3 and 2x2 like &bice&r or &damethyst&r!"]
 	quest.0FAEF05C5DB5F230.quest_subtitle: "&bice&r.zip"
 	quest.0FB79B7ACDEDBA93.quest_desc: [
@@ -11033,6 +11034,7 @@
 	reward.5D5FB43173D8B851.title: "Curse of Breaking I"
 	reward_table.037CD8900A50DEEB.title: "Productive Bees Rewards -  Novice"
 	reward_table.045EA6DDCBFCB7C2.title: "Apoth Rewards - Enchant"
+	reward_table.0E0CC18E1B5EED99.title: "RS Rewards"
 	reward_table.0ECF2DFAFC1B7F2A.title: "Powah - Basic"
 	reward_table.130D7ED8172DE291.title: "Powah Rewards II - Energized"
 	reward_table.14D1A8DF7977473C.title: "Powah - Nitro"

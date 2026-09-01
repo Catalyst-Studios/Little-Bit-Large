@@ -31,7 +31,17 @@
 		{
 			dependencies: ["1EDBE9BF623A4C55"]
 			id: "217C4AC06B6EBEDF"
+			rewards: [{
+				count: 8
+				id: "70864664C2A2D322"
+				item: {
+					count: 1
+					id: "minecraft:slime_ball"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 32L
 				id: "3AB679D88246CA13"
 				item: { count: 1, id: "refinedstorage:processor_binding" }
 				type: "item"
@@ -45,6 +55,15 @@
 				id: "eternalores:quartz_enriched_iron_ingot"
 			}
 			id: "4E5755D94869E1D5"
+			rewards: [{
+				count: 15
+				id: "378D2F371256AA6B"
+				item: {
+					count: 1
+					id: "eternalores:quartz_enriched_iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "eternalores:quartz_enriched_iron_ingot"
@@ -62,6 +81,15 @@
 				id: "eternalores:quartz_enriched_copper_ingot"
 			}
 			id: "0587A48E22302D5A"
+			rewards: [{
+				count: 15
+				id: "71AAC5A2192F7105"
+				item: {
+					count: 1
+					id: "eternalores:quartz_enriched_copper_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "eternalores:quartz_enriched_copper_ingot"
@@ -76,7 +104,17 @@
 		{
 			dependencies: ["1EDBE9BF623A4C55"]
 			id: "2F3F84A04ECA4026"
+			rewards: [{
+				count: 8
+				id: "045259BB0D2B8541"
+				item: {
+					count: 1
+					id: "eternalores:certus_quartz_dust"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 64L
 				id: "16B89EEF2E12005C"
 				item: { count: 1, id: "eternalores:silicon" }
 				type: "item"
@@ -90,7 +128,17 @@
 				"217C4AC06B6EBEDF"
 			]
 			id: "245A46C88B6EF096"
+			rewards: [{
+				count: 16
+				id: "56DCB8BAC7E78F47"
+				item: {
+					count: 1
+					id: "eternalores:silicon"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "2EECEAEB20F47049"
 				item: { count: 1, id: "refinedstorage:raw_basic_processor" }
 				type: "item"
@@ -104,7 +152,17 @@
 				"217C4AC06B6EBEDF"
 			]
 			id: "6C0650C6DE97447E"
+			rewards: [{
+				count: 16
+				id: "2F8525867A31AA7B"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "7C19EF2942CDCC30"
 				item: { count: 1, id: "refinedstorage:raw_improved_processor" }
 				type: "item"
@@ -118,7 +176,17 @@
 				"217C4AC06B6EBEDF"
 			]
 			id: "4859B478F0087F85"
+			rewards: [{
+				count: 16
+				id: "11BB0BF34C2DD1D0"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "3B0F2F576C1CD9FE"
 				item: { count: 1, id: "refinedstorage:raw_advanced_processor" }
 				type: "item"
@@ -135,6 +203,12 @@
 				"639C46C092A7BB58"
 			]
 			id: "2B78719A7D55EF02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "444C8A1369F99BE4"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 2.6d
 			tasks: [{
@@ -149,6 +223,15 @@
 			dependencies: ["4E5755D94869E1D5"]
 			hide_dependent_lines: true
 			id: "7C884AC9E223B34F"
+			rewards: [{
+				count: 2
+				id: "2B285ED6A739139C"
+				item: {
+					count: 1
+					id: "refinedstorage:machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45EA1F1352EFFBB7"
 				item: { count: 1, id: "refinedstorage:machine_casing" }
@@ -194,7 +277,17 @@
 			dependencies: ["0587A48E22302D5A"]
 			hide_dependent_lines: true
 			id: "2D3EF621FB6C3C7E"
+			rewards: [{
+				count: 32
+				id: "2E005CC05FDB39A0"
+				item: {
+					count: 1
+					id: "refinedstorage:cable"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 64L
 				id: "3BE1B818D729E419"
 				item: { count: 1, id: "refinedstorage:cable" }
 				type: "item"
@@ -205,7 +298,17 @@
 		{
 			dependencies: ["5A20A1FFCED3AC6C"]
 			id: "58F046070EC97B14"
+			rewards: [{
+				count: 8
+				id: "518312DBE5C133A0"
+				item: {
+					count: 1
+					id: "refinedstorage:basic_processor"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "57CB408E6EC337B4"
 				item: { count: 1, id: "refinedstorage:destruction_core" }
 				type: "item"
@@ -216,7 +319,17 @@
 		{
 			dependencies: ["5A20A1FFCED3AC6C"]
 			id: "6C84F81FC79A86F1"
+			rewards: [{
+				count: 8
+				id: "38F5BB37EC6DD157"
+				item: {
+					count: 1
+					id: "refinedstorage:basic_processor"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "66A9EB6852519BCA"
 				item: { count: 1, id: "refinedstorage:construction_core" }
 				type: "item"
@@ -227,6 +340,12 @@
 		{
 			dependencies: ["2B78719A7D55EF02"]
 			id: "28E924449849D8DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AF651492E48260E"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "75E4E425D4ABF9B7"
 				item: { count: 1, id: "refinedstorage:disk_drive" }
@@ -238,6 +357,12 @@
 		{
 			dependencies: ["2B78719A7D55EF02"]
 			id: "2449BC8D9D70AEF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04375E88E24968F5"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2209AE5726822B17"
 				item: { count: 1, id: "refinedstorage:grid" }
@@ -249,6 +374,12 @@
 		{
 			dependencies: ["2449BC8D9D70AEF5"]
 			id: "7436E26E906DD1B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A315320755E303D"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5149815A78894240"
 				item: { count: 1, id: "refinedstorage:crafting_grid" }
@@ -260,6 +391,12 @@
 		{
 			dependencies: ["2B78719A7D55EF02"]
 			id: "4C7664721EB699C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AD9685D30C56434"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "03D5F1C23602947D"
 				item: { count: 1, id: "refinedstorage:pattern" }
@@ -271,6 +408,12 @@
 		{
 			dependencies: ["4C7664721EB699C2"]
 			id: "6CFF518A0B92A8B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "320F2AA03F0309CD"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2C2AEAE79C32E368"
 				item: { count: 1, id: "refinedstorage:pattern_grid" }
@@ -282,6 +425,12 @@
 		{
 			dependencies: ["6CFF518A0B92A8B2"]
 			id: "445C903E107D3377"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "666A978B96ACB532"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "29713F929103A63C"
 				item: { count: 1, id: "refinedstorage:autocrafter" }
@@ -293,6 +442,12 @@
 		{
 			dependencies: ["445C903E107D3377"]
 			id: "19A8F79F2E415847"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "469070AD386124BD"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1B956695B6E20A0C"
 				item: { count: 1, id: "cabletiers:elite_autocrafter" }
@@ -304,6 +459,12 @@
 		{
 			dependencies: ["19A8F79F2E415847"]
 			id: "77FBB304993FB622"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F8CC609874A1D18"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6092A5FABC3CD696"
 				item: { count: 1, id: "cabletiers:ultra_autocrafter" }
@@ -315,6 +476,12 @@
 		{
 			dependencies: ["77FBB304993FB622"]
 			id: "7ED4B34C4B6999BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E8E682AE994E089"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1E5E0AD4FDC682D4"
 				item: { count: 1, id: "cabletiers:mega_autocrafter" }
@@ -326,6 +493,12 @@
 		{
 			dependencies: ["4C7664721EB699C2"]
 			id: "3BBD56100AA2CE9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "770C1AA94925D47E"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6CC02605782AB0FC"
 				item: { count: 1, id: "refinedstorage:autocrafter_manager" }
@@ -337,6 +510,12 @@
 		{
 			dependencies: ["4C7664721EB699C2"]
 			id: "441776FD491161A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B9722E5865432B"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0CEF91FCA814DCA3"
 				item: { count: 1, id: "refinedstorage:autocrafting_monitor" }
@@ -348,6 +527,12 @@
 		{
 			dependencies: ["2B78719A7D55EF02"]
 			id: "7384226141C8CE95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "005973E01078F35D"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "66A832445839F8C9"
 				item: { count: 1, id: "refinedstorage:interface" }
@@ -359,6 +544,12 @@
 		{
 			dependencies: ["7384226141C8CE95"]
 			id: "1C39960D4E84A92B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0058165D0F2D8F29"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "5AD14FD11186A96A"
@@ -377,6 +568,12 @@
 		{
 			dependencies: ["7384226141C8CE95"]
 			id: "097A4211FC939AE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4748F8410A85B8"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "180B2523BC12369F"
 				item: { count: 1, id: "refinedstorage:external_storage" }
@@ -388,6 +585,12 @@
 		{
 			dependencies: ["7384226141C8CE95"]
 			id: "347632C49FE9FEC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57ED754FA34D0292"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "71E7A89632E0322C"
@@ -406,6 +609,12 @@
 		{
 			dependencies: ["20768C57F07A8F58"]
 			id: "2417436EE3CCEEFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0061B1CA008F815B"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "64C14F5E279EE7FF"
 				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
@@ -417,6 +626,12 @@
 		{
 			dependencies: ["02A1C699031C7DBD"]
 			id: "105C3E68750E1FFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C0F536832DA7612"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6CF51CB9B0F30C8D"
 				item: { count: 1, id: "interdimensionalwirelesstransmitter:interdimensional_wireless_transmitter" }
@@ -431,6 +646,12 @@
 				id: "refinedstorage:wireless_grid"
 			}
 			id: "1DB54CE030ED6B71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "099F6FCBDA5133E0"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "292C039A2A077D2C"
 				item: { count: 1, id: "refinedstorage:wireless_grid" }
@@ -442,6 +663,12 @@
 		{
 			dependencies: ["2417436EE3CCEEFD"]
 			id: "59D413BC45E63987"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55D3540CFCB3E0BC"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "43EF92B33BCBC8BB"
 				item: { count: 1, id: "refinedstorage_quartz_arsenal:wireless_crafting_grid" }
@@ -453,6 +680,12 @@
 		{
 			dependencies: ["2417436EE3CCEEFD"]
 			id: "5CCD2B888715B592"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7344C894B4632990"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "69FE3681A99129F0"
 				item: { count: 1, id: "refinedstorage:wireless_autocrafting_monitor" }
@@ -468,6 +701,12 @@
 				"1DB54CE030ED6B71"
 			]
 			id: "7F62A235078FFDBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EBD27331BEE15EB"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "720D03E069FAD319"
 				item: { count: 1, id: "universalgrid:wireless_universal_grid" }
@@ -482,6 +721,12 @@
 				id: "refinedstorage:security_manager"
 			}
 			id: "02A1C699031C7DBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D887FF6A4AEC1C4"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3E9ED9138CC5F505"
@@ -508,6 +753,12 @@
 				id: "stepcrafter:step_crafter"
 			}
 			id: "31811595C0106A95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "003BAEF60CE4BDE9"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3C073C6BDA552E17"
@@ -537,6 +788,12 @@
 		{
 			dependencies: ["1C39960D4E84A92B"]
 			id: "02B6E87C67A4BFFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A5BB39DEF0627EA"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "16AE75D29395320D"
@@ -555,6 +812,12 @@
 		{
 			dependencies: ["347632C49FE9FEC1"]
 			id: "55488C2723B7CB12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4290307035A3EFA3"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "7F939AA71EC2031B"
@@ -582,6 +845,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "051127715A95CF0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59D090C5DC2DA358"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5B4379F57F3E87CD"
 				type: "checkmark"
@@ -592,6 +861,12 @@
 		{
 			dependencies: ["28E924449849D8DC"]
 			id: "1A4F9BBCC78BB4CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DD21D02BF5925F6"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "572CC7D8D52E68F3"
 				item: { count: 1, id: "refinedstorage:1k_storage_part" }
@@ -603,6 +878,12 @@
 		{
 			dependencies: ["28E924449849D8DC"]
 			id: "57334B9B0D70FCE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44BC03670ECBA311"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4AB557EF164564C2"
 				item: { count: 1, id: "refinedstorage:64b_fluid_storage_part" }
@@ -614,6 +895,12 @@
 		{
 			dependencies: ["57334B9B0D70FCE4"]
 			id: "1F283A782C2B63FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6278B589ABE568CF"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0E8678E18C5AE9E7"
 				item: { count: 1, id: "refinedstorage:256b_fluid_storage_part" }
@@ -625,6 +912,12 @@
 		{
 			dependencies: ["1F283A782C2B63FB"]
 			id: "25D07D5C1BF155D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2152DA3C4F00038F"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7F6FC68E4A8B72B0"
 				item: { count: 1, id: "refinedstorage:1024b_fluid_storage_part" }
@@ -636,6 +929,12 @@
 		{
 			dependencies: ["25D07D5C1BF155D0"]
 			id: "534EEE3AD2AC01BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE999506974C98E"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "72ED26C9DE8FF982"
 				item: { count: 1, id: "refinedstorage:4096b_fluid_storage_part" }
@@ -647,6 +946,12 @@
 		{
 			dependencies: ["1A4F9BBCC78BB4CB"]
 			id: "5EA71FB2556C3A4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB5D1DF2FC51062"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7FCF5F04E7E668CA"
 				item: { count: 1, id: "refinedstorage:4k_storage_part" }
@@ -658,6 +963,12 @@
 		{
 			dependencies: ["5EA71FB2556C3A4B"]
 			id: "5315037AAE52D666"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5694205D2A7A584B"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5F32380C7B4EF148"
 				item: { count: 1, id: "refinedstorage:16k_storage_part" }
@@ -669,6 +980,12 @@
 		{
 			dependencies: ["5315037AAE52D666"]
 			id: "383079759AD50C01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A87800CB60F7D07"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "68076E1E664624CD"
 				item: { count: 1, id: "refinedstorage:64k_storage_part" }
@@ -680,6 +997,12 @@
 		{
 			dependencies: ["2B78719A7D55EF02"]
 			id: "0904759478C30258"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EB51D836F7CB158"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1C6F5006BBAD8E73"
 				item: { count: 1, id: "refinedstorage:configuration_card" }
@@ -691,6 +1014,12 @@
 		{
 			dependencies: ["2B78719A7D55EF02"]
 			id: "4E9606BD742698FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "087B4524A6F49AA1"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "46F319B56D47482D"
 				item: { count: 1, id: "refinedstorage:wrench" }
@@ -702,6 +1031,12 @@
 		{
 			dependencies: ["051127715A95CF0C"]
 			id: "5665980D3DA0F3CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08CB9D696F36A947"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0853946F1F0D160E"
 				item: { count: 1, id: "refinedstorage:upgrade" }
@@ -713,6 +1048,12 @@
 		{
 			dependencies: ["5665980D3DA0F3CD"]
 			id: "361A7FB71B620A7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D97229C873268A2"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6FADCEC69E9C256F"
 				item: { count: 1, id: "refinedstorage:speed_upgrade" }
@@ -724,6 +1065,12 @@
 		{
 			dependencies: ["361A7FB71B620A7D"]
 			id: "36C471AB6F800F71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A303A4FC969C29F"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "23DFBF24C4356A25"
 				item: { count: 1, id: "refinedstorage:stack_upgrade" }
@@ -735,6 +1082,12 @@
 		{
 			dependencies: ["5665980D3DA0F3CD"]
 			id: "016DD988006CE82F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3899CBAD502AEE08"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "67188F28E1A7E2B2"
 				item: { count: 1, id: "refinedstorage:regulator_upgrade" }
@@ -746,6 +1099,12 @@
 		{
 			dependencies: ["5665980D3DA0F3CD"]
 			id: "678A120F73A3FD25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78D332DBC930F121"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7F01DBBCE8883B9F"
 				item: { count: 1, id: "refinedstorage:autocrafting_upgrade" }
@@ -757,6 +1116,12 @@
 		{
 			dependencies: ["2417436EE3CCEEFD"]
 			id: "6BD3608816BBCB21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "326AE79A8532F8C3"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5DDCD9987F984EC7"
 				item: { count: 1, id: "refinedstorage:range_upgrade" }
@@ -768,6 +1133,12 @@
 		{
 			dependencies: ["31811595C0106A95"]
 			id: "5899235FAC01B0EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75EE95A07BDE077B"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "54BADACD47662D11"
@@ -791,6 +1162,12 @@
 		{
 			dependencies: ["7384226141C8CE95"]
 			id: "0F9E52B5BC4CB50A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "120EA5274D69EB34"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3F2F387A2AF9EDA2"
@@ -809,6 +1186,12 @@
 		{
 			dependencies: ["0F9E52B5BC4CB50A"]
 			id: "4A63F037D66A7573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01924BAE13045B98"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42AA7AD55E528489"
 				item: { count: 1, id: "refinedschematics:cannon_interface_grid" }
@@ -823,6 +1206,12 @@
 				id: "refinedstorage:network_card"
 			}
 			id: "20768C57F07A8F58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D9361675D643E64"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "7D6AAB016C120E8E"
@@ -846,6 +1235,12 @@
 		{
 			dependencies: ["0904759478C30258"]
 			id: "4755C24BF0872B7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21EAA898AAECFE17"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "4D8F5D0083997771"
@@ -864,6 +1259,12 @@
 		{
 			dependencies: ["4755C24BF0872B7E"]
 			id: "46841515ABD31F9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C054692FE0412E3"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "03D49A8D1BCE338A"
@@ -882,6 +1283,12 @@
 		{
 			dependencies: ["0904759478C30258"]
 			id: "2607CCE7E9B43E4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1976C6794CD66C39"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5E6153445A450F41"
 				item: { count: 1, id: "refinedtypes:network_energizer" }
@@ -894,6 +1301,12 @@
 			dependencies: ["28E924449849D8DC"]
 			hide_dependency_lines: true
 			id: "25514C1608CE1DB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C2FF687C6254F4"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "182E53171518E017"
 				item: { count: 1, id: "refinedstorage_mekanism_integration:64b_chemical_storage_part" }
@@ -906,6 +1319,12 @@
 			dependencies: ["28E924449849D8DC"]
 			hide_dependency_lines: true
 			id: "41F760033B93D949"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7947CEE94D03F8C0"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4B4AE29CE118AE5E"
 				item: { count: 1, id: "refinedtypes:64k_energy_storage_part" }
@@ -918,6 +1337,12 @@
 			dependencies: ["28E924449849D8DC"]
 			hide_dependency_lines: true
 			id: "0A353AC5FF2EE8C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "016E0025760ED99D"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "17B30F2B3BF005C2"
 				item: { count: 1, id: "refinedtypes:64b_source_storage_part" }
@@ -933,6 +1358,12 @@
 				id: "refinedtypes:1k_soul_storage_part"
 			}
 			id: "0495529CBE5FF2A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4879A043C45F0A97"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "52F10C409B293AAA"
@@ -951,6 +1382,12 @@
 		{
 			dependencies: ["6BD3608816BBCB21"]
 			id: "1B35CEDB1939C1D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AF980A12181DB79"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5FE1225C9A51004F"
 				item: { count: 1, id: "refinedstorage:creative_range_upgrade" }
@@ -968,6 +1405,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "7117DF54CD114272"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12DC5411C03861E8"
+				table_id: 1012396832340241817L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0762161F50CF8188"
 				type: "checkmark"

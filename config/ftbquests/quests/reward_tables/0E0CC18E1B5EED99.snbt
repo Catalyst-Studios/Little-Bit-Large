@@ -1,0 +1,134 @@
+{
+	icon: {
+		id: "refinedstorage:creative_controller"
+	}
+	id: "0E0CC18E1B5EED99"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			count: 8
+			id: "62818659CDE3352C"
+			item: {
+				count: 1
+				id: "refinedstorage:cable"
+			}
+			random_bonus: 8
+			weight: 2300.0f
+		}
+		{
+			id: "0AE1766ACC2C5E9A"
+			item: {
+				count: 1
+				id: "refinedstorage:disk_drive"
+			}
+			random_bonus: 1
+			weight: 1500.0f
+		}
+		{
+			id: "5B93CA42E032798D"
+			item: {
+				count: 1
+				id: "refinedstorage:importer"
+			}
+			random_bonus: 3
+			weight: 2300.0f
+		}
+		{
+			id: "4872B5B5BA61C67D"
+			item: {
+				count: 1
+				id: "refinedstorage:exporter"
+			}
+			random_bonus: 3
+			weight: 2300.0f
+		}
+		{
+			count: 8
+			id: "4F7F83845A23FEEF"
+			item: {
+				count: 1
+				id: "refinedstorage:improved_processor"
+			}
+			random_bonus: 5
+			weight: 4500.0f
+		}
+		{
+			count: 8
+			id: "77644E181BF5BCAA"
+			item: {
+				count: 1
+				id: "refinedstorage:advanced_processor"
+			}
+			random_bonus: 5
+			weight: 4500.0f
+		}
+		{
+			count: 16
+			id: "6DB6FFAB46221BDA"
+			item: {
+				count: 1
+				id: "refinedstorage:basic_processor"
+			}
+			random_bonus: 10
+			weight: 4500.0f
+		}
+		{
+			count: 4
+			id: "681A9BD8E19D0BDD"
+			item: {
+				count: 1
+				id: "refinedstorage:1k_storage_part"
+			}
+			random_bonus: 6
+			weight: 1500.0f
+		}
+		{
+			count: 4
+			id: "3BA8DAB80FC09724"
+			item: {
+				count: 1
+				id: "refinedstorage:64b_fluid_storage_part"
+			}
+			random_bonus: 6
+			weight: 1500.0f
+		}
+		{
+			count: 8
+			id: "23CC4746533CFD27"
+			item: {
+				count: 1
+				id: "refinedstorage:upgrade"
+			}
+			random_bonus: 4
+			weight: 1500.0f
+		}
+		{
+			count: 32
+			id: "6E39F401E3C55DA1"
+			item: {
+				count: 1
+				id: "refinedstorage:pattern"
+			}
+			random_bonus: 64
+			weight: 2100.0f
+		}
+		{
+			id: "4850DF8896DFC4F0"
+			item: {
+				count: 1
+				id: "refinedstorage:creative_controller"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "04519996DB8DDBAA"
+			item: {
+				count: 1
+				id: "refinedstorage:controller"
+			}
+			random_bonus: 1
+			weight: 1497.0f
+		}
+	]
+}
