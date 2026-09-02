@@ -39,6 +39,7 @@
 
   "catalyst.mmr.tooltip.primitive_extruder.item.1": "Needs to have a valid block placed 2 blocks below the controller to being able to work",
   "catalyst.mmr.tooltip.primitive_extruder.item.2": "Voids items if the hatches are full!",
+  "catalyst.mmr.tooltip.primitive_extruder.secret": "There are hidden items in this recipe",
   "catalyst.mmr.tooltip.primitive_extruder.gui.1": "Needs to have a valid block placed 2 blocks below the controller to being able to work",
   "catalyst.mmr.tooltip.primitive_extruder.gui.2": "Voids items if the hatches are full!",
 

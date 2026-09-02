@@ -67,6 +67,17 @@ ServerEvents.recipes(catalyst => {
 
     MINING_BLOCKS.forEach((blockEntry) => {
         let blockId = blockEntry[0];
+        let extraItems = blockEntry.slice(1);
+
+        let primitiveOutput = blockId;
+        if(extraItems.length > 0)
+        {
+            primitiveOutput = Item.of(blockId, 1, {
+                "minecraft:lore": [
+                    { "translate": "catalyst.mmr.tooltip.primitive_extruder.secret", "italic": false }
+                ]
+            });
+        }
 
         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_extruder", 120)
             .requireItem("minecraft:bedrock")
@@ -75,10 +86,10 @@ ServerEvents.recipes(catalyst => {
             .width(80)
             .height(40)
             .requireItem(blockId, 0, 10)
-            .produceItem(blockId, 60, 10)
+            .produceItem(primitiveOutput, 60, 10)
             .id(`catalyst:mmr/extruder/visual/${blockId.replace(":", "_")}`)
 
-        catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:igneus_extruder", 40)
+        let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:igneus_extruder", 40)
             .requireItem(Item.of(blockId, 1), 10, 10)
             .produceItem(Item.of(blockId, 16), 40, 10)
             .requireEnergy(10000, 0, 4)
@@ -89,7 +100,14 @@ ServerEvents.recipes(catalyst => {
             .requireEnergy(10000, 0, 4)
             .requireItem(blockId, 20, 20)
             .produceItem(Item.of(blockId, 16), 90, 20)
-            .id(`catalyst:mmr/extruder/real/${blockId.replace(":", "_")}`)
+
+        extraItems.forEach((bonus, index) => {
+            let chance = typeof bonus.chance !== "undefined" ? bonus.chance : 1.0
+            let bonusY = 20 + 18 * (index + 1);
+            recipe.produceItem(Item.of(bonus.item, 4). chance, 90, bonusY);
+        });
+            
+        recipe.id(`catalyst:mmr/extruder/real/${blockId.replace(":", "_")}`)
     });
 
     catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_extruder", 120)
