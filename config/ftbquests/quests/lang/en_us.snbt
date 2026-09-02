@@ -733,6 +733,11 @@
 		"Perfect for mass production of your setups"
 	]
 	quest.0904759478C30258.quest_subtitle: "Wrench 2.0"
+	quest.091C884AD3F5276E.quest_desc: [
+		"Final tier of hatches, while there aren't as many machines that accept these, they are so powerful, you won't ever need more machines."
+		""
+		"Or that what I would say if there wasn't so many bees"
+	]
 	quest.091E5C879772310D.quest_desc: [
 		"Have you ever gotten an &bUnbreaking X&r, &bThorns V&r, and &4Curse of Binding&r netherite chestplate that was impossible to break because you can't take it off? &oNo? Just me?&r"
 		""
@@ -3544,7 +3549,10 @@
 	]
 	quest.28CAF974575B6F8E.quest_desc: ["The &doriginal&r bud, making a need in many &amods&r, you should have &cat least&r one"]
 	quest.28CAF974575B6F8E.quest_subtitle: "The original, amethystus"
-	quest.28DBA40648A0ED54.quest_desc: ["[{\"text\":\"\"},{\"text\":\"Now, with 8 \"},{\"text\":\"parallels\",\"color\":\"#FFAA00\"},{\"text\":\", you should be able to do a \"},{\"text\":\"<wiggle a=1.0 f=1.0 w=1.0>lot</wiggle>\",\"color\":\"#8e29da\"},{\"text\":\" of recipes in no time.\\nYet this is not the \"},{\"text\":\"final\",\"color\":\"#da29b4\"},{\"text\":\" parallel hatch you will find.\\n\\nThere is a \"},{\"text\":\"higher parallel\",\"color\":\"#FFFF55\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"34B94E6DBEC34BCE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Click here to change quest\"}}},{\"text\":\" hatch, one per player/team, more \"},{\"text\":\"powerful\",\"color\":\"#FF55FF\"},{\"text\":\".\\n\\nFor now, thats the \"},{\"text\":\"best\",\"color\":\"#AA00AA\"},{\"text\":\" you can get, since there is a lot of \"},{\"text\":\"lag\",\"color\":\"#AA0000\",\"bold\":true},{\"text\":\" if you use higher ones.\\n\\nOnce it's \"},{\"text\":\"solved\",\"color\":\"#55FF55\"},{\"text\":\" or mitigated, we will \"},{\"text\":\"add\",\"color\":\"#5555FF\"},{\"text\":\" them.\"}]"]
+	quest.28DBA40648A0ED54.quest_desc: [
+		"Now, with 8 &6parallels&r, you should be able to do a &#8e29da<wiggle a=1.0 f=1.0 w=1.0>lot</wiggle>&r of recipes in no time."
+		"Yet this is not the &#da29b4final&r parallel hatch you will find."
+	]
 	quest.28DBA40648A0ED54.quest_subtitle: "We are going decently fast"
 	quest.28DBC2EA4DEB13C1.quest_desc: ["More &dfiltering&r!"]
 	quest.28E924449849D8DC.quest_desc: [
@@ -4015,6 +4023,11 @@
 		"Because the other bees are not normal, how can they produce diamonds of thin air :D"
 	]
 	quest.2D00BD62F5A81EF6.quest_subtitle: "We will need honey"
+	quest.2D1D76EBBE46D4FD.quest_desc: [
+		"Advanced parallels is a whole new level of recipes madness, able to do 32 recipes at the same time. "
+		""
+		"But only the same type, not different"
+	]
 	quest.2D31A67A30DD06D6.quest_desc: [
 		"Have you ever wondered, is there an actual way to fill up a machine that's thirsty of water?"
 		""
@@ -5589,7 +5602,6 @@
 		"{image:catalyst:textures/quest_images/modular_machinery_reborn/phytogenicsynthezicer.png width:200 height:200 align:center}"
 	]
 	quest.3F958599EBAEBFD8.quest_subtitle: "The farming simulator"
-	quest.3F958599EBAEBFD8.title: "Phytomorphic Synthesiszer"
 	quest.3FA9E1842C9810EB.quest_desc: ["This is basically an expensive requester"]
 	quest.3FA9E1842C9810EB.quest_subtitle: "Basically a requester"
 	quest.3FB4008DC4FE767C.quest_desc: [
@@ -5987,6 +5999,7 @@
 	quest.447A36F0D55A6587.title: "Supreme Machine Frame"
 	quest.448F99A9197C7EAD.quest_subtitle: "Don't use these"
 	quest.448F99A9197C7EAD.title: "Covered Cable"
+	quest.4494A127FE9F5B72.quest_desc: ["It takes an eternity to make these, but you will get them in no time"]
 	quest.449AB0AB58F18D14.quest_desc: ["Well, another tricky one, some mobs has baby versions like zombies and other don't, so only apply this rune when you need the babies"]
 	quest.449C8E185512C633.quest_desc: [
 		"\"RUN RUN, WE ARE &#FF045DUNABLE&r TO MAKE <grad from=#FF028D to=#ff050a hue=true f=0.25 sp=20.0 uni=true>DAM</grad>....\" - Lost logs from the &#8603A9ancient&r era."
@@ -8483,13 +8496,7 @@
 		""
 		"You need to place a book as the main item and all gear with enchantments on item pedestals, after some time, you will get the enchanted book, but it won't drop as item"
 	]
-	quest.62F77CA28BF9653C.quest_desc: [
-		"These &emultiblock&r are centered around &dresources&r generation"
-		""
-		"I would check the &bHNN&r and &aMA&r ones mainly for &efarming&r resources or if you are a &abuilder&r and need a lot of &6wood&r, the Arboletum."
-		""
-		"Or the &6bees&r...."
-	]
+	quest.62F77CA28BF9653C.quest_desc: ["These &emultiblock&r are centered around general &dresources&r generation, this mean any basic material to a bit more advanced"]
 	quest.62F77CA28BF9653C.quest_subtitle: "Farming on the go?"
 	quest.62F77CA28BF9653C.title: "Farming"
 	quest.62F972854AA43136.quest_desc: [
@@ -8888,9 +8895,10 @@
 		""
 		"But the &cmain&r key is to &dreduce&r the number of &bmachines&r you have in your world or just be a more &6efficient&r way to generate some &eresources&r!"
 		""
-		"You might like them or not, but it's &3worth&r giving them a try, and some of them are &erequired&r to progress in some mods. But those are &csmall&r, don't worry"
+		"You might like them or not, but it's &3worth&r giving them a try, and some of them are &erequired&r to progress in the modpack, those are specified on another set of quests"
 	]
 	quest.676F526FA911C55D.quest_subtitle: "There are a lot of things"
+	quest.676F526FA911C55D.title: "Before the multiblock madness"
 	quest.6774D37D0FE7FA7B.quest_desc: [
 		"Now we are talking, similar to normal &6relay&r, but this time &aallows&r multiple &eoutputs&r, but divinding the input."
 		""
@@ -11147,6 +11155,7 @@
 	task.225CE9D273BE90EB.title: "Starting the beeventure"
 	task.24A3A188D11E65B5.title: "Fissile Fuel"
 	task.25324B772D5AD829.title: "Starting the solar adventure"
+	task.25CC363BCA9B0730.title: "Progression"
 	task.269564AE6E206897.title: "Any MA boots"
 	task.2697C0ACC15CD67E.title: "Don't forget about these!"
 	task.29747FBABCAEFA9D.title: "Warning"
@@ -11256,6 +11265,7 @@
 	task.5E3DB1BC6B461008.title: "Mod created by: &aBlayTheNinth"
 	task.5E777A42A4FB1ACF.title: "Auto breeder"
 	task.5F0D26D3CACAD81F.title: "Any Expansion Box"
+	task.5F1A5E8D4FF3A775.title: "Utilities"
 	task.5F2B50571D656D90.title: "Get a Yellow Carpenter"
 	task.5FEF4FA418386572.title: "Deuterium"
 	task.6085E39EB0029CC6.title: "Tritium"
@@ -11266,6 +11276,7 @@
 	task.6489568C7727BEFF.title: "A chest"
 	task.649E7D2E9C9C9AAE.title: "Charms"
 	task.65DBCD6388F12F16.title: "Uranium"
+	task.67D3C6941E6CAE38.title: "Mod Based"
 	task.67FBA25503EC3D7D.title: "Temper"
 	task.68C325C0E97237A0.title: "Get a Magmatic Bee"
 	task.691A27B0C3409C91.title: "Black and white"
