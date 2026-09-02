@@ -59,7 +59,8 @@ MMREvents.machines(catalyst => {
                 "l":[
                     "modular_machinery_reborn:casing_plain",
                     '#modular_machinery_reborn:inputbus',
-                    '#modular_machinery_reborn:outputbus'
+                    '#modular_machinery_reborn:outputbus',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "n":["minecraft:spruce_stairs[facing=north+half=top+shape=straight]"],
                 "o":["minecraft:spruce_stairs[facing=south+half=top+shape=straight]"],

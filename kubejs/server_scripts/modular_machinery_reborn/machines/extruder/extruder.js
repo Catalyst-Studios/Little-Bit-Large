@@ -46,12 +46,14 @@ MMREvents.machines(catalyst => {
                 "c": [
                     "#modular_machinery_reborn:inputbus",
                     "#modular_machinery_reborn:outputbus",
-                    "#modular_machinery_reborn:energyinputhatch"
+                    "#modular_machinery_reborn:energyinputhatch",
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "d": [
                     "#modular_machinery_reborn:inputbus",
                     "#modular_machinery_reborn:outputbus",
-                    "#modular_machinery_reborn:energyinputhatch"
+                    "#modular_machinery_reborn:energyinputhatch",
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "e": [
                     "immersiveengineering:sheetmetal_constantan"

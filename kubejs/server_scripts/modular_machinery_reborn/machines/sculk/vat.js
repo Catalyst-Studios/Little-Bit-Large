@@ -41,7 +41,8 @@ MMREvents.machines(catalyst => {
                     '#modular_machinery_reborn:energyhatch',
                     '#modular_machinery_reborn:itembus',
                     '#modular_machinery_reborn:fluidhatch',
-                    '#modular_machinery_reborn_mekanism:chemicalhatch'
+                    '#modular_machinery_reborn_mekanism:chemicalhatch',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "f": [
                     "actuallyadditions:smooth_black_quartz_wall"

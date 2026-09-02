@@ -45,16 +45,46 @@ MMREvents.machines(catalyst => {
                 "b": ['chipped:quartz_block_bricks'],
                 "c": ["#minecraft:dirt"],
                 "d": ["minecraft:oak_wood"],
-                "e": ['#modular_machinery_reborn:energyinputhatch',
-                      'chipped:quartz_block_bricks'],
-                "i": ['#modular_machinery_reborn:fluidinputhatch',
-                      'chipped:quartz_block_bricks'],
-                "j": ['#modular_machinery_reborn:fluidoutputhatch',
-                      'chipped:quartz_block_bricks'],
-                "k": ['#modular_machinery_reborn:itembus',
-                      'chipped:quartz_block_bricks'],
-                "l": ['#modular_machinery_reborn:outputbus',
-                      'chipped:quartz_block_bricks'],
+                "e": [
+                        'chipped:quartz_block_bricks',
+                        '#modular_machinery_reborn:energyinputhatch',
+                        '#modular_machinery_reborn:parallelhatch',
+                        '#modular_machinery_reborn:fluidinputhatch',
+                        '#modular_machinery_reborn:fluidoutputhatch',
+                        '#modular_machinery_reborn:itembus'
+                  ],
+                "i": [
+                        'chipped:quartz_block_bricks',
+                        '#modular_machinery_reborn:energyinputhatch',
+                        '#modular_machinery_reborn:parallelhatch',
+                        '#modular_machinery_reborn:fluidinputhatch',
+                        '#modular_machinery_reborn:fluidoutputhatch',
+                        '#modular_machinery_reborn:itembus'
+                  ],
+                "j": [
+                        'chipped:quartz_block_bricks',
+                        '#modular_machinery_reborn:energyinputhatch',
+                        '#modular_machinery_reborn:parallelhatch',
+                        '#modular_machinery_reborn:fluidinputhatch',
+                        '#modular_machinery_reborn:fluidoutputhatch',
+                        '#modular_machinery_reborn:itembus'
+                  ],
+                "k": [
+                        'chipped:quartz_block_bricks',
+                        '#modular_machinery_reborn:energyinputhatch',
+                        '#modular_machinery_reborn:parallelhatch',
+                        '#modular_machinery_reborn:fluidinputhatch',
+                        '#modular_machinery_reborn:fluidoutputhatch',
+                        '#modular_machinery_reborn:itembus'
+                  ],
+                "l": [
+                        'chipped:quartz_block_bricks',
+                        '#modular_machinery_reborn:energyinputhatch',
+                        '#modular_machinery_reborn:parallelhatch',
+                        '#modular_machinery_reborn:fluidinputhatch',
+                        '#modular_machinery_reborn:fluidoutputhatch',
+                        '#modular_machinery_reborn:itembus'
+                  ],
                 "n": ["minecraft:oak_slab[type=bottom]"],
                 "o": ["minecraft:oak_slab[type=top]"],
                 "p": ["minecraft:oak_leaves[persistent=true]"],

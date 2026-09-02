@@ -20,7 +20,8 @@ MMREvents.machines(catalyst => {
                 .keys({
                     "b": ["modular_machinery_reborn:casing_plain",
                         '#modular_machinery_reborn:itembus',
-                        '#modular_machinery_reborn:energyinputhatch'
+                        '#modular_machinery_reborn:energyinputhatch',
+                        '#modular_machinery_reborn:parallelhatch'
                     ],
                     "c": ["modular_machinery_reborn:casing_firebox"],
                     "d": ["hostilenetworks:loot_fabricator[facing=south]"],

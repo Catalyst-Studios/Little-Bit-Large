@@ -28,7 +28,8 @@ MMREvents.machines(catalyst => {
                 "b": [
                     'minecraft:polished_blackstone_bricks',
                     '#modular_machinery_reborn:fluidhatch',
-                    '#modular_machinery_reborn:itembus'
+                    '#modular_machinery_reborn:itembus',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "c": [
                     "evilcraft:dark_brick"
@@ -36,17 +37,20 @@ MMREvents.machines(catalyst => {
                 "d": [
                     'minecraft:polished_blackstone_bricks',
                     '#modular_machinery_reborn:fluidhatch',
-                    '#modular_machinery_reborn:itembus'
+                    '#modular_machinery_reborn:itembus',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "e": [
                     'minecraft:polished_blackstone_bricks',
                     '#modular_machinery_reborn:fluidhatch',
-                    '#modular_machinery_reborn:itembus'
+                    '#modular_machinery_reborn:itembus',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "f": [
                     'minecraft:polished_blackstone_bricks',
                     '#modular_machinery_reborn:fluidhatch',
-                    '#modular_machinery_reborn:itembus'
+                    '#modular_machinery_reborn:itembus',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "g": [
                     "evilcraft:dark_brick_stairs"

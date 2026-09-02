@@ -40,7 +40,8 @@ MMREvents.machines(catalyst => {
         "f":[ 
             "modular_machinery_reborn:casing_plain",
             "#modular_machinery_reborn:itembus",
-            '#modular_machinery_reborn:energyhatch'
+            '#modular_machinery_reborn:energyhatch',
+            '#modular_machinery_reborn:parallelhatch'
         ],
         "g":"minecraft:magma_block",
         "h":"enderio:dark_steel_bars",

@@ -30,7 +30,8 @@ MMREvents.machines(catalyst => {
                 "b": [
                     "modular_machinery_reborn:casing_reinforced",
                     '#modular_machinery_reborn:energyhatch',
-                    '#modular_machinery_reborn:itembus'
+                    '#modular_machinery_reborn:itembus',
+                    '#modular_machinery_reborn:parallelhatch'
                 ],
                 "c": [
                     "eternalores:sculkite_block"
