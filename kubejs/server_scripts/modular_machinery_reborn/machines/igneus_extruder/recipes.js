@@ -104,7 +104,7 @@ ServerEvents.recipes(catalyst => {
         extraItems.forEach((bonus, index) => {
             let chance = typeof bonus.chance !== "undefined" ? bonus.chance : 1.0
             let bonusY = 20 + 18 * (index + 1);
-            recipe.produceItem(Item.of(bonus.item, 4). chance, 90, bonusY);
+            recipe.produceItem(Item.of(bonus.item, 4), chance, 90, bonusY);
         });
             
         recipe.id(`catalyst:mmr/extruder/real/${blockId.replace(":", "_")}`)
