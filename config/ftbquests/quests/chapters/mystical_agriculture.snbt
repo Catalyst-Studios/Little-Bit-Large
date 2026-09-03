@@ -1682,23 +1682,11 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "160FD686A62F18EC"
-					item: { count: 1, id: "mysticalagriculture:soulium_dagger" }
-					type: "item"
-				}
-				{
-					id: "5FD754943863DBF0"
-					item: { count: 1, id: "mysticalagriculture:passive_soulium_dagger" }
-					type: "item"
-				}
-				{
-					id: "36EDEC168B4A8F00"
-					item: { count: 1, id: "mysticalagriculture:hostile_soulium_dagger" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "52F370DF9FFDB4EC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:soulium_dagger)item(mysticalagriculture:passive_soulium_dagger)item(mysticalagriculture:hostile_soulium_dagger))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 10.5d
 			y: 4.5d
 		}

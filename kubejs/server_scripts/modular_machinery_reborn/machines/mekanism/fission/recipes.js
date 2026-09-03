@@ -35,7 +35,7 @@ ServerEvents.recipes(catalyst => {
         .progressData(ProgressData.create().x(arrowX).y(arrowY))
         .width(110)
         .height(76)
-        .requireFluid(Fluid.of("mekanism:sodium", 10000), inputX, inputY1)
+        .requireChemical("10000x mekanism:sodium", inputX, inputY1)
         .requireChemical(`1000x mekanism:fissile_fuel`, inputX, inputY2)
         .produceEnergyPerTick(500000, energyX, energyY)
         .produceItem(Item.of('eternalores:missing_ingot', 1), 0.4, outputX, outputY1)

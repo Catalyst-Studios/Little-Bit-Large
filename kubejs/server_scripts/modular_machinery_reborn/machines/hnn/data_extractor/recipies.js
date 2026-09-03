@@ -202,9 +202,9 @@ ServerEvents.recipes(catalyst => {
         ['zombified_piglin', 'minecraft:gold_ingot', 'minecraft:gold_ingot', 8],
 
         /* ars_nouveau - wilden prediction */
-        ['ars_nouveau/wilden', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_spike', 16],
-        ['ars_nouveau/wilden', 'ars_nouveau:wilden_wing', 'ars_nouveau:wilden_wing', 16],
-        ['ars_nouveau/wilden', 'ars_nouveau:wilden_horn', 'ars_nouveau:wilden_horn', 16],
+        ['ars_nouveau/wilden_mobs', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_spike', 16],
+        ['ars_nouveau/wilden_mobs', 'ars_nouveau:wilden_wing', 'ars_nouveau:wilden_wing', 16],
+        ['ars_nouveau/wilden_mobs', 'ars_nouveau:wilden_horn', 'ars_nouveau:wilden_horn', 16],
 
         /* twilight_forest - alpha yeti prediction */
         ['twilightforest/alpha_yeti', 'twilightforest:ice_bomb', 'twilightforest:ice_bomb', 32],

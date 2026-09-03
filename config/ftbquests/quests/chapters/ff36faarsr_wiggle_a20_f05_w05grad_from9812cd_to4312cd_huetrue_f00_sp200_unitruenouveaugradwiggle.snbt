@@ -887,12 +887,32 @@
 		{
 			dependencies: ["3E11AE50D4868884"]
 			id: "69C52B5841E4CA8F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "45E0C8DA514ED1BD"
-				table_id: 1619107266169054195L
-				type: "all_table"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45E0C8DA514ED1BD"
+					table_id: 1619107266169054195L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E10BEFDE54FED54"
+					table_id: 1619107266169054195L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46D73D5F978F6558"
+					table_id: 7722860157658462880L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D2B0F375D5A8F5B"
+					table_id: 2603984746984705958L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{

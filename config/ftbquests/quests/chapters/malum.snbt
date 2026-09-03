@@ -16,7 +16,13 @@
 	id: "670D99477C92AAE8"
 	images: [ ]
 	order_index: 6
-	quest_links: [ ]
+	quest_links: [{
+		id: "0D83A177A6D94C93"
+		linked_quest: "6B170BA05FDF56BF"
+		shape: "diamond"
+		x: 8.392857142857139d
+		y: 2.5535714285714306d
+	}]
 	quests: [
 		{
 			icon: {

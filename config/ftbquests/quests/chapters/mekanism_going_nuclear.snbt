@@ -28,14 +28,14 @@
 		{
 			id: "124E7CC0A90BF732"
 			linked_quest: "324DF9C2A54FF7D8"
-			x: -1.5d
-			y: 13.5d
+			x: 0.0d
+			y: 11.5d
 		}
 		{
 			id: "706018D752CD8C30"
 			linked_quest: "2A16DB89E273DC47"
-			x: -1.5d
-			y: 12.0d
+			x: -3.0d
+			y: 11.5d
 		}
 		{
 			id: "245E2911006F9276"
@@ -50,6 +50,12 @@
 			size: 2.0d
 			x: -1.5d
 			y: -3.0d
+		}
+		{
+			id: "5AC195C7696C1F03"
+			linked_quest: "3B63900D190DABF3"
+			x: -1.5d
+			y: 13.0d
 		}
 	]
 	quests: [

@@ -240,7 +240,6 @@
 		{
 			dependencies: ["52249CDB82582B27"]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
 			id: "72D5EC0F7E7D185C"
 			rewards: [
 				{
@@ -893,11 +892,21 @@
 			icon_scale: 2.0d
 			id: "7DA06F3048FD6038"
 			optional: true
-			rewards: [{
-				id: "016656C43BA09D06"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "016656C43BA09D06"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0490E25FB06AF837"
+					item: {
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5449A8195D9349E4"
 				item: { count: 1, id: "oritech:item_filter_block" }

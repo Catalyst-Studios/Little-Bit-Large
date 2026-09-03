@@ -54,7 +54,7 @@ MMREvents.machines(catalyst => {
         "p":"minecraft:polished_blackstone_brick_slab[type=bottom]",
         "q":"mekanismgenerators:fusion_reactor_frame",
         "r":"immersiveengineering:fluid_pipe",
-        "s":"modular_machinery_reborn:fluidinputhatch_vacuum",
+        "s":"minecraft:netherite_block",
         "t":"glassential:glass_ethereal",
         "u":["minecraft:water","minecraft:ice"],
         "v":"minecraft:netherite_block",

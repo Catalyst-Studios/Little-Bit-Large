@@ -85,7 +85,7 @@ ServerEvents.recipes(catalyst => {
             time: 100,
             inputs: [
                 { id: "eternalores:quartz_enriched_iron_ingot", count: 6, chance: 1.0 },
-                { id: 'eternalores:quartz_enriched_iron_ingot', count: 6, chance: 1.0 }
+                { id: "minecraft:quartz", count: 6, chance: 1.0 }
             ],
             output: { id: "minecraft:quartz", count: 32, chance: 1.0 },
             colorA: [0.9, 0.9, 0.9],
@@ -116,8 +116,11 @@ ServerEvents.recipes(catalyst => {
         },
         {
             time: 100,
-            inputs: [{ id: "minecraft:emerald", count: 4, chance: 1.0 }],
-            output: { id: "minecraft:emerald", count: 4, chance: 1.0 },
+            inputs: [
+                { id: "minecraft:emerald", count: 4, chance: 1.0 },
+                { id: 'eternalores:calcite_pebble', count: 14, chance: 1.0 }
+            ],
+            output: { id: "minecraft:emerald", count: 8, chance: 1.0 },
             colorA: [0.0, 0.8, 0.2],
             colorB: [0.2, 1.0, 0.4],
             mode: 1
@@ -438,7 +441,7 @@ ServerEvents.recipes(catalyst => {
                 { id: 'minecraft:netherrack', count: 64, chance: 1.0 },
                 { id: "eternalores:gem_necroticarite", count: 8, chance: 1.0 }
             ],
-            output: { id: "eternalores:gem_necroticarite", count: 16, chance: 0.75 },
+            output: { id: "eternalores:gem_necroticarite", count: 16, chance: 1.0 },
             colorA: [0.0, 0.4, 0.4],
             colorB: [0.1, 0.2, 0.2],
             mode: 1
