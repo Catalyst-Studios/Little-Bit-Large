@@ -8,7 +8,7 @@
     ],
     "quest.01B44B93CB2A52ED.quest_subtitle": "Geração de Powah",
     "quest.0209C80BAC1B7D62.quest_desc": [
-        "Isso é &aútil&r com o &eMinerador&r &bDigital&r se você quiser evitar buracos &bvazios&r no chão (o que pode &creduzir&r o &anascimento&r de mobs)"
+        "Isso é &aútil&r com o &eMinerador&r &bDigital&r se você quiser evitar buracos &bvazios&r no chão (o que pode &creduzir&r o &anascimento&r de criaturas)"
     ],
     "quest.026BC7F25AAF107D.quest_desc": [
         "Outro &dnível&r, você precisará de alguns &bdiamantes&r para progredir.",
@@ -49,7 +49,7 @@
         "",
         "- Mais &acabos&r &dconectados&r, mais &6capacidade&r eles têm",
         "",
-        "- Eles podem mover mais &benergia&r por tick se você &6conectar&r mais cabos",
+        "- Eles podem mover mais &benergia&r por tique se você &6conectar&r mais cabos",
         "",
         "Eles são bem &dbaratos&r e fornecem funções &bmelhores&r do que outros cabos &ebásicos&r de outros &amods&r"
     ],
@@ -194,7 +194,7 @@
     "quest.39525632F59E9C24.quest_desc": [
         "Diferente de &dtubos&r ou &bcabos&r, eles têm uma velocidade &6fixa&r e não podem ir mais &arápido&r a menos que você os &5aprimore&r.",
         "",
-        "Além disso, você não pode &econtrolar&r como os itens são &3enviados&r sem alguma ajuda externa, como com um &dClassificador Logístico&r.",
+        "Além disso, você não pode &econtrolar&r como os itens são &3enviados&r sem alguma ajuda externa, como com um &dSeparador Logístico&r.",
         "",
         "Se um &cinventário&r encher enquanto &eitens&r estão indo para lá, os itens &bvoltarão&r para o inventário original.",
         "",

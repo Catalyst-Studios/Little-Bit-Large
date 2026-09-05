@@ -19,7 +19,7 @@
     "quest.03F8DB89EBBE19F9.quest_subtitle": "Tempos de &6Abelha&r",
     "quest.03F8DB89EBBE19F9.title": "Abelha de &aInferium&r",
     "quest.076DB75CCEF71BB3.quest_desc": [
-        "Em vez de &cmatar&r mais mobs, você pode usar seus &adrops&r para encher os frascos mais rápido, especialmente os mais &bchatos&r!"
+        "Em vez de &cmatar&r mais criaturas, você pode usar seus &adrops&r para encher os frascos mais rápido, especialmente os mais &bchatos&r!"
     ],
     "quest.076DB75CCEF71BB3.quest_subtitle": "Chega de caçar?",
     "quest.0A023BB2FD68153A.quest_desc": [
@@ -76,7 +76,7 @@
     "quest.15D3EA775A53D557.quest_subtitle": "Nível 6",
     "quest.15D3EA775A53D557.title": "Essência de &5Insanium&r",
     "quest.1C19F475ABA24D0C.quest_desc": [
-        "Estes são os &ajarros&r mínimos necessários para fazer 1 semente de mob.",
+        "Estes são os &ajarros&r mínimos necessários para fazer 1 semente de criatura.",
         "",
         "Você deve deixar o &bAE2&r criá-los."
     ],
@@ -98,7 +98,7 @@
     "quest.1EAA5C42DC9F5254.quest_desc": [
         "Estes não têm utilidade, bem, sim, mas principalmente para armazenar muito &ainferium&r",
         "",
-        "{\"text\":\"E bem, crie tiers mais altos mais rápido com um \",\"extra\":[{\"text\":\"Master\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Clique para mudar para outra missão!\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57FE6873FF11D8B0\"}},{\"text\":\" Infusion Crystal\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Clique para mudar para outra missão!\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57FE6873FF11D8B0\"}}]}"
+        "{\"text\":\"E bem, crie tiers mais altos mais rápido com um \",\"extra\":[{\"text\":\"Cristal de Infusão\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Clique para mudar para outra missão!\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57FE6873FF11D8B0\"}},{\"text\":\" Mestre\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Clique para mudar para outra missão!\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57FE6873FF11D8B0\"}}]}"
     ],
     "quest.1EAA5C42DC9F5254.quest_subtitle": "Como armazenar",
     "quest.1EAA5C42DC9F5254.title": "Bloco de &aInferium&r",
@@ -142,11 +142,11 @@
     "quest.2381E03BF9EE9CA8.quest_subtitle": "Tier 2",
     "quest.2381E03BF9EE9CA8.title": "Essência de &2Prudentium&r",
     "quest.23D9830AF2B0CBCC.quest_desc": [
-        "Para obter sementes de mob, você precisa matá-los usando estas &6adagas&r, especialmente as outras versões &bmelhoradas&r",
+        "Para obter sementes de criatura, você precisa matá-las usando estas &6adagas&r, especialmente as outras versões &bmelhoradas&r",
         "",
         "Coloque os &dfrascos&r no seu &einventário&r e comece a matá-los!"
     ],
-    "quest.23D9830AF2B0CBCC.quest_subtitle": "Sementes de mob",
+    "quest.23D9830AF2B0CBCC.quest_subtitle": "Sementes de Criatura",
     "quest.248A196ADA004598.quest_desc": [
         "Você não encontrará &dsementes&r melhores que estas, mas precisará delas para &cmais tarde&r, faça algumas!"
     ],
@@ -252,7 +252,7 @@
     "quest.4699468FC07899DA.quest_desc": [
         "Este é o principal método de &dcultivo&r de &ainferium&r pelo criador do mod",
         "",
-        "Embora, eu não vou &breclamar&r se você conseguir mais da sua fazenda de mobs ;)"
+        "Embora, eu não vou &breclamar&r se você conseguir mais da sua fazenda de criaturas ;)"
     ],
     "quest.4699468FC07899DA.quest_subtitle": "Hora de &dPlantar&r",
     "quest.4699468FC07899DA.title": "Sementes de &aInferium&r",
@@ -411,7 +411,7 @@
     "quest.7FC6D58AD671FB46.quest_desc": [
         "Sim, outro nível 7, Nível &bMístico&r!",
         "",
-        "Este nível é um pouco mais fácil que o Nível &5Mágico&r, você precisa matar mobs, que são místicos....",
+        "Este nível é um pouco mais fácil que o Nível &5Mágico&r, você precisa matar criaturas, que são místicas....",
         "",
         "",
         "Eu sei, as piadas são ruins, mas bem, que comece a &afazenda&r de &cmobs&r!"

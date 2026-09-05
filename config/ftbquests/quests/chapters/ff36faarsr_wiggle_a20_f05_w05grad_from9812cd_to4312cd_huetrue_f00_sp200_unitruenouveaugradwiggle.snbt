@@ -912,6 +912,18 @@
 					table_id: 2603984746984705958L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB7062E8F225154"
+					table_id: 7722860157658462880L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C6EDCEA67A5C37E"
+					table_id: 2603984746984705958L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d

@@ -1,1 +1,375 @@
-{}
+{
+    "quest.02161A23ACEC1FF0.quest_desc": [
+        "Como o nome diz, permite enviar &bfonte&r para outras &djarras&r.",
+        "Essa pequena mudança reduz a necessidade de materiais e configurações mais complexas.",
+        "",
+        "Usando a &5Varinha do Domínio&r, você pode definir a &9entrada&r e a &6saída&r. Mas apenas 1 de cada.",
+        "Elas têm um alcance de &a30 blocos&r."
+    ],
+    "quest.02161A23ACEC1FF0.quest_subtitle": "1:1",
+    "quest.12EA8624E059C93E.quest_desc": [
+        "Estamos quase terminando a progressão do &5Ars Nouveau&r, agora para a parte mais poderosa, &c<shake a=1.0 f=1.0>RITUAIS!!!</shake>&r",
+        "",
+        "Em vez de ter um &5Aparato de Encantamento&r, você tem um &6Braseiro Ritualístico&r e um temporizador de &credstone&r. Só isso.",
+        "",
+        "Alguns &#FFE661rituais&r permitem adicionar itens extras para mudar seus &aefeitos&r, por exemplo, o ritual da próxima missão!"
+    ],
+    "quest.12EA8624E059C93E.quest_subtitle": "A parte final",
+    "quest.12EA8624E059C93E.title": "&c<shake a=1.0 f=1.0>RITUAIS!!!</shake>&r",
+    "quest.195A72B60B87427F.quest_desc": [
+        "Então, você quer ter uma &asala de controle&r?",
+        "",
+        "Bem, é possível atingir sua &2fazenda de árvores&r e ao &nmesmo&r tempo sua &cfazenda de criaturas&r no subsolo.",
+        "",
+        "Ele tem um &#A3BE8Cmecanismo&r simples, &bredireciona&r todos os feitiços para uma direção &6específica&r, que tem outra textura"
+    ],
+    "quest.195A72B60B87427F.quest_subtitle": "Redirecionar",
+    "quest.1CE4DE64296C4FE2.quest_desc": [
+        "Este ritual tem 2 modos, o normal e o &aaumentado&r:",
+        "",
+        "- Executá-lo normalmente invoca algumas &2criaturas wilden&r perto dele, nada de especial.",
+        "",
+        "- Mas se você clicar com o botão direito no &6Braseiro&r antes de usar um sinal de redstone com alguns &7espinhos wilden&r, &7asas&r e &7chifres&r, você vai invocar a &4Quimera&r, um chefe destrutivo, ao dar um sinal de redstone.",
+        "",
+        "[{\"text\":\"\"},{\"text\":\"Este chefe é \"},{\"text\":\"<pulse base=0.75 a=1.0 f=1.0 w=1.0>desafiador</pulse>\",\"color\":\"#FF5555\"},{\"text\":\", então faça um \"},{\"text\":\"Esmagador de Criaturas\",\"color\":\"#FF55FF\",\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"industrialforegoing:mob_crusher\",\"count\":1}}},{\"text\":\" e já era :p\\n\\nO chefe tem 3 \"},{\"text\":\"fases\",\"color\":\"#AA00AA\"},{\"text\":\", inicial, com \"},{\"text\":\"espinhos\",\"color\":\"#f28402\"},{\"text\":\" e com \"},{\"text\":\"espinhos\",\"color\":\"#f28402\"},{\"text\":\" e <shake a=0.33 f=0.5>chifres</shake>.\"}]"
+    ],
+    "quest.1CE4DE64296C4FE2.quest_subtitle": "&4Perigo!!!&r",
+    "quest.2970299C99099657.quest_desc": [
+        "Outra parte importante do Ars, &dgemas de <pulse base=0.6 a=1.0 f=0.5 w=1.0>fonte</pulse>&r.",
+        "",
+        "Você pode consegui-las facilmente com um pouco de &9lápis-lazúli&r ou &5ametista&r.",
+        "Faça o bloco, coloque-o e dê alguns desses itens e espere.",
+        "",
+        "Vai demorar um pouco, mas você pode &bacelerar o processo&r usando um pouco de fonte, o que vamos aprender a seguir"
+    ],
+    "quest.2970299C99099657.quest_subtitle": "O começo",
+    "quest.29B79BA6B084ED4A.quest_desc": [
+        "Bem, esta é a outra &6forma&r de que eu estava falando na missão anterior.",
+        "",
+        "Isso é basicamente um &5portal&r, &nagache e clique com o botão direito&r para definir o &6local&r. Depois vá até uma sala com pelo menos &a5x5&r e clique com o botão direito para &#FF38C2criar&r um portal \"permanente\" para aquele local.",
+        "",
+        "&4Quebrar&r qualquer parte do portal &cquebra tudo&r, então tome cuidado"
+    ],
+    "quest.29B79BA6B084ED4A.quest_subtitle": "TP estável",
+    "quest.29FC2B5E5D81ED9E.quest_desc": [
+        "É uma &6mini mochila&r, só que com &a27 slots&r, como um baú.",
+        "",
+        "Você pode colocá-la no &eslot de curios&r para abri-la como uma mochila e ela é bem barata, você deveria fazer uma"
+    ],
+    "quest.29FC2B5E5D81ED9E.quest_subtitle": "A bolsa",
+    "quest.2B81672E7193C2FF.quest_desc": [
+        "Este é um sistema &bAE2&r barateado, mas usando &5magia&r, é isso mesmo....",
+        "",
+        "Ele vem um pouco tarde na progressão, mas é útil se você começou sua aventura com o Ars.",
+        "O &6Atril de Armazenamento&r permite que você tenha armazenamentos diferentes, como baús, em um local centralizado.",
+        "",
+        "Usando uma &5Varinha do Domínio&r, &nagache e clique com o botão direito&r em um baú e depois clique com o botão direito no Atril de novo para vinculá-lo. Você pode vincular outros Atris para estender o &aalcance padrão de 30 blocos&r, mas eles não vão aceitar novos armazenamentos.",
+        "",
+        "Usando o &aBookwyrm&r você pode conectar mais inventários.",
+        "O &dÍndice do Portal&r é seu terminal sem fio :p"
+    ],
+    "quest.2B81672E7193C2FF.title": "Armazenamento do Ars",
+    "quest.2F58714652D93912.quest_desc": [
+        "Os &6colares&r são ainda mais simples que os anéis, só dão mais &bcapacidade de mana&r ou &aregeneração&r.",
+        "",
+        "Eu os faria quando você estiver começando, ou só siga as missões"
+    ],
+    "quest.2F58714652D93912.quest_subtitle": "Mais mana",
+    "quest.30CF406EA2555881.quest_desc": [
+        "Chegamos ao <grad from=#FFD700 to=#FFFF00 hue=false f=1.0 sp=20.0 uni=false>livro de feitiços mais poderoso</grad> de todo o &#ff36faArs&r <wiggle a=0.75 f=0.25 w=0.5><grad from=#9812cd to=#4312cd hue=true f=0.1 sp=20.0 uni=true>Nouveau</grad></wiggle>, capaz de lançar qualquer &acombinação&r de feitiços em todo o mod.",
+        "",
+        "Isso também marca o fim da sua progressão com &5Ars&r."
+    ],
+    "quest.30CF406EA2555881.quest_subtitle": "A caixa de ferramentas do mestre",
+    "quest.32CE02C42AB8A91A.quest_desc": [
+        "Se você tiver bons feitiços ou alguns &dPergaminhos de Teletransporte&r, você pode fazer 4 túneis &everticais&r para minerar bastante material de uma vez",
+        "",
+        "Coloque este &dritual&r em algum lugar que não seja sua base, execute-o e ele vai começar a &cminerar para baixo&r até chegar à &7pedra-base&r."
+    ],
+    "quest.32CE02C42AB8A91A.quest_subtitle": "O mineiro",
+    "quest.32CE02C42AB8A91A.title": "Ritual de mineração",
+    "quest.34EB9F310E694DA9.quest_desc": [
+        "Estes itens têm alguns efeitos malucos:",
+        "",
+        "- O &aAnel do Salto&r permite fazer mais pulos, mas usando uma quantidade considerável de &bfonte&r.",
+        "",
+        "- O &6Cinto&r te dá efeitos positivos aleatórios durante alguns segundos, não mais que 10s, mas é de graça.",
+        "",
+        "Quanto ao anel do salto, existem umas &etortas e rocamboles&r que te dão &bRegeneração de Mana 2&r só de comê-los, e é melhor que a maioria das comidas"
+    ],
+    "quest.34EB9F310E694DA9.quest_subtitle": "Para o End",
+    "quest.34EB9F310E694DA9.title": "Estranho e útil",
+    "quest.3A1E3EE6CCDBB560.quest_desc": [
+        "&nAgache e clique com o botão direito&r para salvar o local da sua &abase&r, depois, quando quiser ir para &dcasa&r, é só clicar com o botão direito em um desses e você será &dteletransportado de volta&r",
+        "",
+        "&cUso único&r, mas usando um &5Aparato de Encantamento&r é possível copiar o &elocal&r dele para uma cópia, talvez ter uma opção &#51FFDBmelhor&r ou &zpassiva&r seria ótimo"
+    ],
+    "quest.3A1E3EE6CCDBB560.quest_subtitle": "TP",
+    "quest.3E11AE50D4868884.quest_desc": [
+        "Ou foi o que pensamos....",
+        "",
+        "Bem, o último &dempurrão&r para terminar.",
+        "Você vai precisar &4matar&r mais tempo, mas agora vai conseguir fazer isso.",
+        "",
+        "Fazer o &cEsmagador de Criaturas&r ou lançar vários &5feitiços&r deve ser viável"
+    ],
+    "quest.3E11AE50D4868884.quest_subtitle": "Escola da Alma",
+    "quest.436069C5DE8BE5F8.quest_desc": [
+        "Estes 2 rituais têm 2 efeitos &zparticulares&r:",
+        "",
+        "- Mudam os &2biomas&r para o do ritual permanentemente",
+        "",
+        "- Fazem &aárvores&r nascerem",
+        "",
+        "Então temos uma boa fazenda de madeira logo no começo, mais ainda se usarmos as &6Torres de Feitiço&r ou o &6mod Create&r"
+    ],
+    "quest.436069C5DE8BE5F8.quest_subtitle": "Mudando os biomas",
+    "quest.436069C5DE8BE5F8.title": "Rituais da madeira",
+    "quest.449C8E185512C633.quest_desc": [
+        "\"CORRAM, CORRAM, NÃO CONSEGUIMOS &#FF045FAZER&r <grad from=#FF028D to=#ff050a hue=true f=0.25 sp=20.0 uni=true>A BARRAGEM</grad>....\" - Registros perdidos da era &#8603A9antiga&r.",
+        "",
+        "A &7Quimera&r &#FFCF12Wilden&r é um chefe &4desafiador&r, causando bastante dano e &n&4destruindo&r blocos ao seu redor.",
+        "Você vai ter uma batalha &#FF045Ddifícil&r se não for se preparar para derrotá-la"
+    ],
+    "quest.449C8E185512C633.quest_subtitle": "Destruição",
+    "quest.4845EE303D6E5DB6.quest_desc": [
+        "Estas pequenas &acriaturas&r permitem automação e um &bAE2&r barateado (por que o AE2 está em todo lugar?), aqui está um resumo do que elas fazem:",
+        "",
+        "- &5Wixie&r -> É uma estação de &6fabricação&r automática e um fabricante de poções.",
+        "",
+        "- &aWhirlisprig&r -> Gera &#FFE655recursos&r a partir de &aplantas&r e plantações ao redor desta criatura no mundo. Mais &cvariedade&r = mais &#FF4EDErecursos&r",
+        "",
+        "- &6Starbuncle&r -> É um funil automático que pode ser filtrado",
+        "",
+        "- &2Drygmy&r (o alce dançante) -> É como o &#9DFF4FWhirlisprig&r mas para criaturas, você pode usar &bpotes de contenção&r.",
+        "As criaturas podem ser pacíficas ou &chostis&r.",
+        "{@pagebreak}",
+        "- &aBookwyrm&r -> Permite acessar mais &#FF4A45inventários&r a partir de um Atril de &aArmazenamento&r.",
+        "",
+        "- Qualquer &7Golem&r -> Gera &zfragmentos&r a partir de seu broto correspondente. O de &dAmetista&r é o único capaz de gerar novos brotos.",
+        "",
+        "- &eAlakarkinos&r -> Basicamente uma escova para &#B33FFFArqueologia&r",
+        "",
+        "- &3Siren&r -> Parecida com &#97FF30Whirlisprig&r e &#FFA826Drygmy&r, mas desta vez para criaturas aquáticas. Precisa de espécies diferentes e plantas &#2C89FFbaseadas em água&r. Faça um aquário!",
+        "",
+        "- &cFlarecannon&r -> É basicamente um golem de ferro mas tem &#FF47ADprojéteis&r teleguiados que causam fogo.",
+        "{@pagebreak}",
+        "Para fazer essas criaturas funcionarem, você vai precisar de uma estação de &dtrabalho&r (que são blocos básicos) e um &bpote de fonte&r perto e um inventário",
+        "Se você &6matar&r essas criaturas, ou elas forem mortas, ou você usar &ddissipação&r, eles vão voltar a virar o &5amuleto&r"
+    ],
+    "quest.4845EE303D6E5DB6.quest_subtitle": "Ao resgate",
+    "quest.4845EE303D6E5DB6.title": "Amuletos I",
+    "quest.4C0E826CE13D9471.quest_desc": [
+        "Estas &#97FF30sementes&r têm alguns usos interessantes:",
+        "",
+        "- Fazer corante &drosa&r",
+        "",
+        "- Fazer fio &5<swing a=0.5 f=1.0 w=1.0>mágico</swing>&r -> Você pode &#FF418Ausá-los&r para várias fabricações, como novos tipos de &5armaduras&r ou &zteletransporte&r!",
+        "",
+        "- &eComida&r -> Esta é uma boa &ecomida&r em geral, dando bastante &#52FF7Dsaturação&r, com o benefício de dar &dRegeneração de Mana II&r",
+        "",
+        "Você pode consegui-las assim que tiver uma &#22A935esmeralda&r, sem precisar do &dAparato de Encantamento&r!"
+    ],
+    "quest.4C0E826CE13D9471.quest_subtitle": "O suprimento de comida",
+    "quest.4D178B3F79B07236.quest_desc": [
+        "Para automatizar essa &dmáquina&r, você vai precisar ter uma receita &6válida&r nos &apedestais&r, depois você pode adicionar o &dingrediente&r principal e começar a fabricação"
+    ],
+    "quest.4D178B3F79B07236.quest_subtitle": "A fábrica precisa crescer",
+    "quest.4DDEB897B37E1DD3.quest_desc": [
+        "Bem, uma versão mais cara, só para ter um &6baú duplo&r.",
+        "",
+        "Eu não &crecomendo&r fazer este item se você acabou de &#7A5CFF&ncomeçar&r o jogo, existem &eitens&r mais que valem seus recursos iniciais"
+    ],
+    "quest.4DDEB897B37E1DD3.quest_subtitle": "A segunda caixa de ferramentas",
+    "quest.4EB310109C1C7CFA.quest_desc": [
+        "Este &#FF80F9ritual&r permite &bconter&r a maioria das criaturas dentro de um pote, tornando-as pacíficas para os drygmics.",
+        "",
+        "Ou se você começou com &5Occultism&r, você pode usá-los no &eMarid&r para conseguir processamento automático de minério 6x!"
+    ],
+    "quest.4EB310109C1C7CFA.quest_subtitle": "No pote você vai",
+    "quest.4EB310109C1C7CFA.title": "Contendo o mal",
+    "quest.511437D5945306E7.quest_desc": [
+        "Estes anéis têm efeitos interessantes se você usar suas <rainb f=0.5 w=1.0>escolas</rainb>, ou seja, elementos, como fogo ou vento.",
+        "Ou alguns &abenefícios passivos&r que também podem te interessar, como &cVida Máxima&r"
+    ],
+    "quest.511437D5945306E7.quest_subtitle": "Quem o usa",
+    "quest.554390AA33A6774A.quest_desc": [
+        "Bem, a &areceita&r pede para você conseguir 4 itens, o que é verdade, mas essa não é a &#F46CFFhistória toda&r.",
+        "",
+        "A receita só &#FFDD5Aprecisa&r checar se os &e3 itens&r estão em &7pedestais&r por perto e &cconsome&r apenas a &dgema de fonte&r.",
+        "",
+        "Algumas dessas &#92FF30essências&r têm mais usos além da &#FF8A8Afabricação&r, o que pode te &dinteressar&r"
+    ],
+    "quest.554390AA33A6774A.quest_subtitle": "Mentiras por todo lado",
+    "quest.554390AA33A6774A.title": "Essências Mágicas",
+    "quest.5576BEE0F6A3EF10.quest_desc": [
+        "Já que estamos falando dos &#FF4EDErituais&r, vamos falar de um dos mais úteis, os &brituais do clima&r.",
+        "",
+        "Basicamente permite &acontrolar&r o clima como se você estivesse usando /weather.",
+        "O ritual da &9chuva&r pode ser &6ampliado&r para modificar seu comportamento"
+    ],
+    "quest.5576BEE0F6A3EF10.quest_subtitle": "Timus nas minhas mãos",
+    "quest.5576BEE0F6A3EF10.title": "Rituais do clima",
+    "quest.583875C52F398D2A.quest_desc": [
+        "Chegamos ao ápice do transporte de &dfonte&r, o &bAE2&r....",
+        "",
+        "Espera, &cde novo&r?!?",
+        "",
+        "Estes 2 blocos e células permitem mover &#FF3EE1fonte&r entre &adimensões&r e por mais de 30 blocos.",
+        "",
+        "- &bPote de Fonte&r &dME&r -> Extrai fonte da sua rede",
+        "",
+        "- &bConversor de Fonte&r &dME&r -> Transforma fonte em &#4AFAFFbytes&r (como isso é possível?)"
+    ],
+    "quest.583875C52F398D2A.quest_subtitle": "N:M",
+    "quest.583875C52F398D2A.title": "Complemento do AE2",
+    "quest.5B4EF92DCC7E66F8.quest_desc": [
+        "Bem, estes são outros tipos de &#FF52DBamuletos&r que você pode achar úteis, como evitar a morte ao cair no &#9AC0CDvazio&r ou ter &avisão noturna&r.",
+        "",
+        "Existem alguns &dinteressantes&r, então dê uma olhada!"
+    ],
+    "quest.5B4EF92DCC7E66F8.quest_subtitle": "Le charmander",
+    "quest.5B4EF92DCC7E66F8.title": "Amuletos II",
+    "quest.5E353ADF41AFCEF2.quest_desc": [
+        "&#FFE661Segundo&r nível, agora conseguimos fazer muito mais combinações de &6feitiços&r.",
+        "Este &#AF6747livro&r permite usar &z<neon p=10 r=1.5 a=0.15>Runas de Nível 2</neon>&r, que têm alguns feitiços &5interessantes&r.",
+        "",
+        "Então aqui está um &elegal&r, útil em várias situações"
+    ],
+    "quest.5E353ADF41AFCEF2.quest_subtitle": "A caixa de ferramentas refinada",
+    "quest.5EBE69501F030BF8.quest_desc": [
+        "&dGemas de Fonte&r são o item mais &dusado&r deste mod, você deveria fazer algumas &5sementes&r ou &6abelhas&r ou torná-las &zpassivas&r.",
+        "",
+        "É tão simples quanto colocar um pouco de &#5A83FFlápis-lazúli&r ou &5ametista&r (usar a versão em bloco é mais barato, ainda mais com &#A245FFametista&r) em uma &7Câmara de Impregnação&r.",
+        "",
+        "Colocar um &bpote de fonte&r com fonte vai &aacelerar&r o processo"
+    ],
+    "quest.5EBE69501F030BF8.quest_subtitle": "A gema mágica",
+    "quest.5EBE69501F030BF8.title": "&d<fade a=0.3 f=1.0 w=0.0>Gemas de Fonte</fade>&r",
+    "quest.5EE6704B98DFCD99.quest_desc": [
+        "Para começar com esse mod, você vai precisar de uma &6árvore especial&r, que você pode encontrar por &baí&r no seu mundo.",
+        "Pegue algumas &amudas&r e madeira, você vai precisar delas por enquanto.",
+        "",
+        "Além disso, essas árvores são uma boa &2fazenda de madeira&r para depois.",
+        "",
+        "Também estamos te dando algumas &dRunas&r, que você pode usar mais tarde!"
+    ],
+    "quest.5EE6704B98DFCD99.quest_subtitle": "Começando",
+    "quest.6469409AE1328B47.quest_desc": [
+        "Esta é sua &dferramenta multiuso&r, ou melhor dizendo, a melhor &zferramenta multiuso&r.",
+        "",
+        "Usando &5feitiços&r, você pode atingir criaturas com &cdano&r, criar &besferas&r, passar por paredes ou até criar luz. Ou viajar. A ordem das &dRunas&r importa.",
+        "",
+        "Quanto mais &eRunas&r você tiver, mais &bmana&r você vai ter.",
+        "Então faça as &nbásicas&r e as de nível 1.",
+        "",
+        "Existem 2 &ateclas de atalho&r para abrir o &#955745livro&r e mudar de feitiço, confira-as!"
+    ],
+    "quest.6469409AE1328B47.quest_subtitle": "A caixa de ferramentas",
+    "quest.647C0C1123704409.quest_desc": [
+        "Este &6aldeão&r é uma maravilha quando se trata de itens &#A81EFFdifíceis&r de encontrar, como sirenes ou alces dançantes, usando apenas algumas esmeraldas ou itens básicos.",
+        "",
+        "- &5Nível 1&r -> Fornece itens básicos para conseguir &aesmeraldas&r ou bolo",
+        "",
+        "- &5Nível 2&r -> Principalmente &bdecoração&r e pergaminhos de &dteletransporte&r, ou seja, tp",
+        "",
+        "- &5Nível 3&r -> Qualquer &eritual&r, só um infelizmente",
+        "",
+        "- &5Nível 4&r -> &zTokens&r das criaturas mais importantes do Ars Nouveau",
+        "",
+        "- &5Nível 5&r -> Um disco de &#EBCB8Bmúsica&r e mais bolo",
+        "",
+        "Precisa de um &bNúcleo Arcano&r como mesa"
+    ],
+    "quest.647C0C1123704409.quest_subtitle": "O comerciante",
+    "quest.647C0C1123704409.title": "Aldeão do Ars",
+    "quest.6774D37D0FE7FA7B.quest_desc": [
+        "Agora sim, parecido com o &6relé&r normal, mas desta vez &apermite&r várias &esaídas&r, mas dividindo a entrada.",
+        "",
+        "Leve isso em conta!",
+        "",
+        "Existem &#FF4AE0mais&r 2 níveis, mas eles têm usos de nicho"
+    ],
+    "quest.6774D37D0FE7FA7B.quest_subtitle": "1:N",
+    "quest.68BB89C9A1644C03.quest_desc": [
+        "Se você seguiu até aqui, vai ter 2 colares, o que ajuda bastante.",
+        "",
+        "Agora, em muitas &#FF8A30situações&r, você tem um ritual &dcaro&r que precisa de bastante &bfonte&r.",
+        "Então, usaríamos o &evínculo de fonte&r para gerar essa fonte, certo? &cErrado!&r",
+        "",
+        "Usaríamos o &5vínculo de fonte&r para gerar &dfonte&r, que seria armazenada em uma &dJarra de Fonte&r.",
+        "Essa pequena &#45FFFAmudança&r torna tudo mais eficiente a longo prazo, já que você não desperdiça &#BFFF00recursos&r"
+    ],
+    "quest.68BB89C9A1644C03.quest_subtitle": "Armazenando até o infinito",
+    "quest.692B9166D51F4B2A.quest_desc": [
+        "Vou te &aensinar&r do básico até as formas mais &#FF54EDinteressantes&r de entrar nesse mod",
+        "",
+        "À primeira vista, parece uma progressão normal do &5Ars&r, o que sim, é isso mesmo",
+        "",
+        "Vou tentar tornar isso o mais interessante possível para você",
+        "[{\"text\":\"\"},{\"text\":\"Então por enquanto, você pode ir até \"},{\"text\":\"esta missão\",\"color\":\"#55FFFF\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4C0E826CE13D9471\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Clique aqui para mudar de missão\"}}},{\"text\":\" para ver as coisas <grad from=#b838ff to=#f303ae hue=false f=1.0 sp=10.0 uni=true>legais</grad>!\"}]"
+    ],
+    "quest.692B9166D51F4B2A.quest_subtitle": "A terra mágica",
+    "quest.692B9166D51F4B2A.title": "Bem-vindo ao &#ff36faArs&r <wiggle a=0.75 f=0.25 w=0.5><grad from=#9812cd to=#4312cd hue=true f=0.1 sp=20.0 uni=true>Nouveau</grad></wiggle>",
+    "quest.69C52B5841E4CA8F.quest_desc": [
+        "\"No vasto &#10ACFFuniverso&r, existem 2 &zforças&r se &4destruindo&r uma à outra, mas elas não conseguem. Parece que esse &bcristal&r é o que está &cimpedindo&r isso de acontecer\" - &#FFAD0EArquimago&r #12",
+        "",
+        "Este &ccristal&r é necessário para invocar o próprio &#484848Universo&r, precisamos de alguns &4sacrifícios&r para isso, só para conseguir uma cópia da forma original.",
+        "",
+        "Se movermos o &#FF0000fragmento&r original, vamos acabar com o &#484848universo&r como o conhecemos"
+    ],
+    "quest.69C52B5841E4CA8F.quest_subtitle": "A sustentação do universo",
+    "quest.6C84E327A38DEF44.quest_desc": [
+        "Executar este &#FF4EDEritual&r perto de alguns brotos ou árvores do &5Ars&r vai gerar uma nova entidade:",
+        "",
+        "- Perto de &2árvores do Ars&r -> Gera uma cópia de um &7Golem de Ferro&r mas que pode se regenerar sozinho",
+        "",
+        "- Perto de &zbrotos&r -> Cria o &7golem&r correspondente àquele broto"
+    ],
+    "quest.6C84E327A38DEF44.quest_subtitle": "Acorde, minha criança",
+    "quest.6C84E327A38DEF44.title": "Rituais de despertar",
+    "quest.6E0312D6BEA4D623.quest_desc": [
+        "Estes anéis são bem simples, te dão mais &bmana&r de 3 formas:",
+        "",
+        "- Dão mais &bcapacidade de mana&r",
+        "",
+        "- &aRegeneram&r a capacidade mais rápido",
+        "",
+        "- Dão &e10% ou 20% de desconto&r em todos os feitiços que você lançar"
+    ],
+    "quest.6E0312D6BEA4D623.quest_subtitle": "Menos mana usada",
+    "quest.703123C7E3BE8E42.quest_desc": [
+        "Gerar &bfonte&r é bem &efácil&r, faça algo e ganhe fonte.",
+        "",
+        "Neste caso, o &cVínculo de Fonte Vulcânico&r vai gerar fonte queimando itens. Mas vai &4converter&r qualquer pedra em lava. É o mais fácil de fazer, mas &nnão&r o melhor.",
+        "",
+        "Coloque uma &dJarra de Fonte&r ao lado deste bloco!",
+        "",
+        "Se você quiser &#FF8D2Egerar&r bastante fonte, use o &aAgronômico&r, já que existem &5várias&r formas de fazer plantas crescerem em 1 tique e ele quase não tem espera"
+    ],
+    "quest.703123C7E3BE8E42.quest_subtitle": "Gerando inicialmente",
+    "quest.703123C7E3BE8E42.title": "Gerando fonte",
+    "quest.70BDE710C6EA8748.quest_desc": [
+        "Se você chegou até aqui, você chegou na parte mais interessante do Ars, os &5feitiços&r",
+        "",
+        "Cada feitiço pode ter várias combinações, por exemplo, um feitiço em você mesmo que te faz pular e quicar por aí, sem levar dano de queda.",
+        "",
+        "Bem, é isso que vamos fazer, criar a mesa e conseguir algumas &2bolas de slime&r, você vai precisar delas para criar a &aRuna de Quique&r.",
+        "",
+        "Você pode colocar um baú do lado da mesa para automatizá-la, se precisar."
+    ],
+    "quest.70BDE710C6EA8748.quest_subtitle": "Mágico",
+    "quest.767909C986FE0F09.quest_desc": [
+        "Para começar o ritual, você vai precisar de alguns &7itens dropados pelo wilden&r, então o ritual oferece uma boa forma de consegui-los."
+    ],
+    "quest.767909C986FE0F09.quest_subtitle": "Perigoso ao toque",
+    "quest.767909C986FE0F09.title": "Itens do Wilden",
+    "quest.7D5CAE3AB604B96B.quest_desc": [
+        "Agora estamos com metade da progressão do Ars Nouveau &apronta&r, sim, de verdade.",
+        "",
+        "Só faça alguns &#00FFFFpedestais&r, e esses 2 blocos. Coloque os &eitens&r nos pedestais e finalmente coloque o &eitem&r principal no &5Aparato&r e espere.",
+        "",
+        "Você precisa de um pouco de &dfonte&r, então é só colocar uma &dJarra de Fonte&r perto"
+    ],
+    "quest.7D5CAE3AB604B96B.quest_subtitle": "Gire!!!!!!"
+}

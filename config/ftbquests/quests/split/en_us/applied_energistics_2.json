@@ -603,7 +603,7 @@
     "quest.4B09BF91C8CBFBD3.quest_desc": [
         "[ \"You probably want to start \", { \"text\": \"bee quests\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"232345A9C9EFDC9B\" } }, \", before doing this one.\" ]",
         "",
-        "But if you did, congrats, you have another powerful way to generate &bcertus&r and &bcertus dust&r, which we will need in industrial quantities ;)"
+        "But if you did, &dcongrats&r, you have another &6powerful&r way to generate &bcertus&r and &bcertus dust&r, which we will need in industrial quantities ;)"
     ],
     "quest.4B09BF91C8CBFBD3.quest_subtitle": "bzzzzzzzz",
     "quest.4CB758202B13207D.quest_desc": [
@@ -712,6 +712,7 @@
         "You probably want to make a stack of both."
     ],
     "quest.545CECD192055BC0.quest_subtitle": "Silex, 14",
+    "quest.545CECD192055BC0.title": "Silicon",
     "quest.54F0F61ECC99DA21.quest_desc": [
         "Now, we can consider starting &bAE2&r.",
         "You might have seen words like network, channels and system around the quests.",

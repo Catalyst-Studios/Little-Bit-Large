@@ -1,4 +1,8 @@
 {
+    "quest.00FA2658B4F9B420.quest_desc": [
+        "Purferfish has been given a few other recipes to make it more accesible than regular fishing, check them out!"
+    ],
+    "quest.00FA2658B4F9B420.quest_subtitle": "Fishing method!",
     "quest.01B5A1E674D7AF1E.quest_desc": [
         "Having trouble getting a Trident from Ocean Monuments or Drowned? Well now you can craft an &bInert Trident&r and infuse it to a normal Trident!",
         "",
@@ -111,6 +115,10 @@
     ],
     "quest.29ABE9033578C179.quest_subtitle": "Its Warden Time",
     "quest.29ABE9033578C179.title": "&o&9Echoing Sculkshelf",
+    "quest.2CEED480C5F876D6.quest_desc": [
+        "This is a new item, meant to be an extra step for a better setup. Or maybe some magical stuff hides behind it"
+    ],
+    "quest.2CEED480C5F876D6.quest_subtitle": "The power of the infinity",
     "quest.2FE7E18D413274B6.quest_desc": [
         "Now you're on to the highest tier of shelves, &dEndshelves&r. However these shelves need a spcial ingredient, &dInfused Dragon's Breath&r. ",
         "",
@@ -168,6 +176,9 @@
     ],
     "quest.43A8D8D6947220F4.quest_subtitle": "Almost perfect",
     "quest.43A8D8D6947220F4.title": "&dPearlescent Endshelf",
+    "quest.446EB701F7FBEBD0.quest_desc": [
+        "Allows to select a specific arcane, quanta and eterna in slicer bar"
+    ],
     "quest.484B493059391887.quest_desc": [
         "The &bTome of Extraction&r will extract all enchants &oand&r keep your item.",
         "",

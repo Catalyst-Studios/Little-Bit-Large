@@ -1,1 +1,452 @@
-{}
+{
+    "quest.0028E63A8B93DB55.quest_desc": [
+        "Coloque isso na &asaída&r dos seus geradores de &#FFE661UT&r, um já é suficiente.",
+        "Ele &5permite&r ver quanto &#FFE661UT&r você está &eusando&r em relação à sua &ccapacidade&r total.",
+        "",
+        "Você pode usar os &zóculos&r para ver os números exatos."
+    ],
+    "quest.0028E63A8B93DB55.quest_subtitle": "Medindo",
+    "quest.014136E4D981B24E.quest_desc": [
+        "Esta é uma das &#AA88FFforças&r que guiam o universo, mas parece que....",
+        "",
+        "&#FF69B4Estranha&r",
+        "",
+        "Pode ter alguns usos com algumas das suas &#55FF55sementes&r, veremos no futuro"
+    ],
+    "quest.014136E4D981B24E.quest_subtitle": "Luz ancestral",
+    "quest.0587281F4BE08114.quest_desc": [
+        "Primeiro você vai precisar conseguir alguns &eitens&r, aqui está uma &6lista&r de &dingredientes&r que você precisa conseguir primeiro"
+    ],
+    "quest.0587281F4BE08114.quest_subtitle": "A primeira linha",
+    "quest.0587281F4BE08114.title": "Começando com alguns &6ingredientes&r!",
+    "quest.06F3205FC0167AA4.quest_desc": [
+        "É isso mesmo, este é o &6aprimoramento&r",
+        "",
+        "Dê um para um queimador de &#FF2438Blaze&r e você vai poder bombear &#FF7E30lava&r para eles.",
+        "E &#FF7E30lava&r pode ser gerada sem custo!"
+    ],
+    "quest.06F3205FC0167AA4.quest_subtitle": "Canudos",
+    "quest.06F3205FC0167AA4.title": "Ainda mais energia",
+    "quest.0956324630429985.quest_desc": [
+        "Esta é uma forma &abarata&r de fazer &eanotações&r, por exemplo, quais &dpassos&r você precisa seguir para uma receita, ou quais &bingredientes&r você precisa para algo.",
+        "",
+        "Você também pode &6marcar&r algo se já fez, ou até mesmo colocar no &dmundo&r!"
+    ],
+    "quest.0956324630429985.quest_subtitle": "\"Anote isso, anote isso Patrick\"",
+    "quest.09FCC8E992E23AFD.quest_desc": [
+        "Esta &6varinha&r pequena ganhou uma &anova receita&r, então você deveria &edar uma chance a ela&r!",
+        "",
+        "Basicamente &bespelha suas colocações&r, dependendo de quantas &ddireções&r você definir antes de colocar.",
+        "",
+        "Ela pode espelhar em &auma direção&r, &e2&r ou &5totalmente&r"
+    ],
+    "quest.09FCC8E992E23AFD.quest_subtitle": "Círculos no Minecraft",
+    "quest.0AB930872F01D796.quest_desc": [
+        "Por que 3 &dimplantadores&r se temos 2 &6ingredientes&r? Bem, porque você &aprecisa&r colocar o dobro de uma das hastes!"
+    ],
+    "quest.0AB930872F01D796.quest_subtitle": "As hastes e as chapas",
+    "quest.11CDFCDE525AE185.quest_desc": [
+        "Você já &aquis&r construir aquela &ecasa&r bonita mas não quer &bconstruí-la&r? Nós temos uma &dsolução&r para você!",
+        "",
+        "O &5Canhão de Esquemas&r permite &acopiar&r construções facilmente, compartilhar com seus &6amigos&r e muito mais!",
+        "",
+        "Ele precisa de um &cinventário&r como um baú ou cofre de itens para pegar os &eitens&r.",
+        "E um pouco de &7pólvora&r, claro :p"
+    ],
+    "quest.11CDFCDE525AE185.quest_subtitle": "Construindo uma casa a partir do telhado",
+    "quest.1448B00247CB440B.quest_desc": [
+        "Bem, esta é a &dmelhor&r forma de gerar &#FFE661UT&r no começo da sua &5fábrica&r, fácil e relativamente &abarata&r.",
+        "Ela só precisa basicamente de &6cobre&r e alguns &deixos&r.",
+        "",
+        "Coloque as 4 &#D1653Bfogueiras&r em um quadrado (2x2), depois coloque os tanques de &bfluido&r em cima delas.",
+        "Depois disso, coloque em um &elado&r (&l&cnão&r em cima dos tanques) o motor a vapor, e na frente dele um eixo.",
+        "{@pagebreak}",
+        "Por fim, dê um pouco de &9água&r, que você pode conseguir facilmente de várias formas, e você terá feito um ponto de partida decente para sua fábrica.",
+        "",
+        "Você pode colocar vários &#8AB3BFmotores a vapor&r, gerando cada um até &#FFE66132k UT&r a 64 RPM.",
+        "Mais sobre isso depois."
+    ],
+    "quest.1448B00247CB440B.quest_subtitle": "Energia máxima",
+    "quest.1448B00247CB440B.title": "Motor a Vapor",
+    "quest.150EC09F0D0097A5.quest_desc": [
+        "Embora seja &#FF5555impossível&r &#55AAFFconter&r essa força, você conseguiu fazer isso!",
+        "",
+        "Este é um &5<glitch>paradoxo</glitch>&r, você sabe disso, certo?"
+    ],
+    "quest.150EC09F0D0097A5.quest_subtitle": "Contenção: Kepler",
+    "quest.186035C4D00E370E.quest_desc": [
+        "Para usar os &#FF2438Bolos de Blaze&r nos seus queimadores, você precisaria de vários &dImplantadores&r, um para cada queimador, ou um &6Braço Mecânico&r, que consegue fazer &a9&r de uma vez!"
+    ],
+    "quest.186035C4D00E370E.quest_subtitle": "Um braço e uma perna",
+    "quest.18A91ACC72C7ED8E.quest_desc": [
+        "Estas têm &#A020F0vários&r usos, principalmente 2:",
+        "",
+        "- &dEngrenagens&r -> Conectam &avárias&r máquinas, como misturadoras ou dobradeiras",
+        "",
+        "- &dEngrenagens&r &aGrandes&r -> Permitem mudar de &adireção&r, de vertical para horizontal e vice-versa.",
+        "",
+        "Espera, também há &coutro&r benefício, não tão &6poderoso&r quanto o outro, basicamente permite &bmudar&r a velocidade. Existe &#7155FFoutro&r método mais à frente na sequência de missões mais fácil que este."
+    ],
+    "quest.18A91ACC72C7ED8E.quest_subtitle": "Mudando para outra direção",
+    "quest.19B0EC1218CEF060.quest_desc": [
+        "Você conteve a &5luz&r!",
+        "",
+        "Nós &apodemos&r conseguir usá-la para &dalgo&r mais..."
+    ],
+    "quest.19B0EC1218CEF060.quest_subtitle": "Conseguimos!",
+    "quest.1A1F8EAE3481F6C6.quest_desc": [
+        "\"A &#5D3FD3escuridão&r está em todo lugar, não podemos escapar, é &#FF5555poderosa&r demais, se você está lendo isso, &l&#FF0000CORRA&r\" - Engenheiro Mecânico #8534",
+        "",
+        "Este é um material &#FFAA00perigoso&r de conter, mas algumas das suas &#55FF55sementes&r parecem reagir ao &#55AAFFcubo&r que acabamos de fazer, talvez precisemos trazer algumas delas!"
+    ],
+    "quest.1A1F8EAE3481F6C6.quest_subtitle": "\"DESLIGUEM A LUZ!\"",
+    "quest.1A1F8EAE3481F6C6.title": "Ingredientes do Vazio",
+    "quest.1B35ADAA5B1669B0.quest_desc": [
+        "Permite mudar de &5direção&r ou dividir seu &#FFE661UT"
+    ],
+    "quest.1B35ADAA5B1669B0.quest_subtitle": "Movimentos",
+    "quest.1F376B8A31FF3A98.quest_desc": [
+        "Usando um &6Espremedor Mecânico&r da &7IE&r, você pode conseguir &amais açúcar&r.",
+        "",
+        "&eNão é necessário&r, só estou te dizendo a &dmelhor rota&r se você quiser &#A020F0otimizar ao máximo&r"
+    ],
+    "quest.226AE92086B0EE0B.quest_desc": [
+        "Bem, esta é uma forma bem boa de mover &6tensão&r do ponto A ao B.",
+        "Ou de mover itens também, mas isso é &eoutra&r história.",
+        "",
+        "Você vai precisar de 2 &7eixos&r e 1 correia por &alinha&r"
+    ],
+    "quest.226AE92086B0EE0B.quest_subtitle": "Movendo cinética",
+    "quest.242AA549FB8EAA8B.quest_desc": [
+        "&#74A1FFPrimeiro&r, você precisaria &aver&r quanto &#FFE661UT&r suas máquinas usam ou produzem.",
+        "Para isso, existem uns óculos &zespeciais&r que dizem exatamente isso.",
+        "",
+        "Podem ser usados no slot de &bcapacete&r ou no seu slot de &6Curios&r, tornando-os basicamente de graça para usar.",
+        "Fora isso, não há muito uso para o slot de &5Cabeça&r além do decorativo ou uso &eocasional&r"
+    ],
+    "quest.242AA549FB8EAA8B.quest_subtitle": "Visão: LIGADA",
+    "quest.25669046E438B028.quest_desc": [
+        "Bem, esta é a &cparte difícil&r, as &6Rodas Moedoras&r.",
+        "",
+        "Elas precisam girar em &ddireções diferentes&r, mas girando olhando para o &ecentro&r.",
+        "",
+        "Derrube o &4netherrack&r e você ganha &epó de cinzas&r!"
+    ],
+    "quest.25669046E438B028.quest_subtitle": "Açúcar do Nether",
+    "quest.26998517A9F47404.quest_desc": [
+        "Este pequeno &6item/bloco&r pode ser usado para &aproduzir em massa&r vários itens do seu inventário, só precisando de um &7autoclicker&r!",
+        "",
+        "Coloque a &ereceita&r que você quer, clique com o &bbotão direito&r nele com os ingredientes no seu inventário e você vai receber o &dresultado&r de volta.",
+        "&eÚtil&r se você precisar usar &9baldes&r!"
+    ],
+    "quest.26998517A9F47404.quest_subtitle": "Fabricação rápida",
+    "quest.2729E47FCCA9F1F3.quest_desc": [
+        "Isso basicamente te diz o quão &6rápido&r seus &7eixos&r e máquinas estão girando.",
+        "",
+        "Vai de 0 (parado) até 256 (bem rápido)."
+    ],
+    "quest.2729E47FCCA9F1F3.quest_subtitle": "MAIS VELOOOOOCIDADE!!!!",
+    "quest.2808FBA959230F52.quest_desc": [
+        "Um pouco de &#FF2438pó quente&r, não toque com as &7mãos nuas&r"
+    ],
+    "quest.2808FBA959230F52.quest_subtitle": "Piada à frente :p",
+    "quest.2808FBA959230F52.title": "Farinha de Cinzas",
+    "quest.2DFCFCE8C631C19B.quest_desc": [
+        "E eles também podem ser usados como &6combustível&r para suas fornalhas!"
+    ],
+    "quest.2DFCFCE8C631C19B.quest_subtitle": "Combustível ecológico alternativo",
+    "quest.2DFCFCE8C631C19B.title": "A melhor energia",
+    "quest.31FE3C95BDDA6496.quest_desc": [
+        "Troque aquelas &6fogueiras&r pelos &cqueimadores&r!",
+        "Sozinhos, eles não vão fazer muito mais que uma fogueira, mas dê um pouco de carvão ou qualquer combustível &#FF4045combustível&r para conseguir mais calor para sua Caldeira.",
+        "",
+        "Além disso, aqui estão mais &5dicas&r para você:",
+        "",
+        "- Você pode fazer um tanque de &bfluido&r 3x8x3, que é o tamanho &dmáximo&r de uma Caldeira.",
+        "",
+        "- Você pode começar a fazer bolo de &#FF454ABlaze&r, &apermitindo&r ainda mais calor (o que geralmente você não precisa &ea menos que&r use mais de 300k &#FFE661UT&r)"
+    ],
+    "quest.31FE3C95BDDA6496.quest_subtitle": "Mais energia",
+    "quest.31FE3C95BDDA6496.title": "Aumentando a energia",
+    "quest.3580A39C481777CB.quest_desc": [
+        "Bem, rodas d'água provavelmente são a forma mais &dfácil&r de começar com o &6Create&r, mas também não são tão &dboas&r a longo prazo.",
+        "É por isso que as pessoas &5reclamam&r do Create, por causa do problema de &bspam&r.",
+        "",
+        "Demos um &cnerf&r a esses geradores, gerando apenas &n&#FF1D8Cmetade&r da capacidade original de UT.",
+        "Você provavelmente vai querer olhar para &aoutros&r métodos!"
+    ],
+    "quest.35DD97553C2E6EE7.quest_desc": [
+        "Bem, estamos fazendo um &7ovo&r, então primeiro precisamos de um pouco de &etrigo&r"
+    ],
+    "quest.35DD97553C2E6EE7.quest_subtitle": "Cadê essa coisa?",
+    "quest.4070280EBF55F516.quest_desc": [
+        "Você provavelmente já ouviu falar do &dMecanismo de Precisão&r, onde você tem que fazer &a5 passos&r várias vezes para ter &680% de chance&r de conseguir um.",
+        "",
+        "Bem, isso &cacabou&r, você precisa fazer os &a3 passos&r com &d100% de chance&r, sem mais &eapostas&r aqui.",
+        "",
+        "Fora isso, é &6simples&r.",
+        "Consiste em uma série de &dreceitas individuais&r feitas &esequencialmente&r.",
+        "Porém, tem um &ctruque&r: uma vez iniciado, o processo precisa ser &6completado&r.",
+        "",
+        "O item de entrada se transforma em um estado '&7incompleto&r' ou &etransitório&r, e só vai virar o &aproduto final&r quando a sequência completa for &dterminada&r."
+    ],
+    "quest.4070280EBF55F516.quest_subtitle": "A dor",
+    "quest.413A12D04AA827FB.quest_desc": [
+        "Depois da &aprimeira&r vez, você vai &6precisar&r fazer o &eloop&r de novo, o que às vezes pode ser &ddifícil&r de fazer, mas aqui está uma configuração que você pode &eusar&r para qualquer tamanho!",
+        "",
+        "Esta &cnão&r é a melhor &5configuração&r que você pode fazer, mas é &auma&r entre várias!",
+        "",
+        "&2Próxima página para a configuração&r",
+        "{@pagebreak}",
+        "{image:catalyst:textures/quest_images/create/front_assembly.png width:100 height:100 align:center fit:true}",
+        "{@pagebreak}",
+        "{image:catalyst:textures/quest_images/create/side_assembly.png width:100 height:100 align:center fit:true}",
+        "{image:catalyst:textures/quest_images/create/back_side.png width:100 height:100 align:center fit:true}"
+    ],
+    "quest.413A12D04AA827FB.quest_subtitle": "While(1)\\{\\}",
+    "quest.420296203A9D13DF.quest_desc": [
+        "E agora você precisa colocar um pouco de &6lava&r dentro para deixá-los &cextra&r suculentos"
+    ],
+    "quest.420296203A9D13DF.quest_subtitle": "Derrame um pouco de lava",
+    "quest.4321371B79C30DE0.quest_desc": [
+        "Bem, a &dchave-inglesa&r é basicamente o coração do &6Create&r, além da geração de &#FFE661Tensão&r.",
+        "Ela permite &amudar&r várias máquinas, como canos ou &#FF89AEgirar&r blocos.",
+        "Ou até mesmo viajar!",
+        "",
+        "É isso mesmo, esta é uma ferramenta &5importante&r.... ou você pode usar &#E748FFoutra&r chave-inglesa de outro &amod&r...",
+        "",
+        "A partir deste &6ponto&r, vão existir 3 caminhos de geração de &#FFE661UT&r, eu &#62FFB5recomendaria&r combinar vários deles!"
+    ],
+    "quest.4321371B79C30DE0.quest_subtitle": "Mudando de direção",
+    "quest.43C633EDD20C7744.quest_desc": [
+        "Esta é uma forma &dbem legal&r de mover &eitens&r usando pacotes ou você.",
+        "Você só precisa de uma &6velocidade&r rápida em uma ponta e uma &echave-inglesa&r.",
+        "",
+        "Depois de ter energia, usando &6correntes&r do minecraft, conecte cada &bponto&r (clicando com o botão direito e selecionando 2 pontos)",
+        "",
+        "Você pode ter vários &ccaminhos&r no mesmo bloco.",
+        "Só olhe para a &ddireção&r que você quer &5seguir&r.",
+        "",
+        "Você também pode transportar &etensão&r com as correntes!"
+    ],
+    "quest.43C633EDD20C7744.quest_subtitle": "Movendo pacotes e se divertindo",
+    "quest.46BCDA9823887F6C.quest_desc": [
+        "Bem, isso é bem simples de entender.",
+        "Com um pouco de &6tensão&r, como uma &6manivela&r, você pode abaixá-lo, normalmente até o &bfundo&r se você quiser fluidos para fora",
+        "",
+        "Uma vez no nível que você quiser, existem &a2 modos&r:",
+        "",
+        "&aBombeamento&r -> Bombeia &dfluidos&r para o &emundo&r, que é inserido neste bloco",
+        "",
+        "&cSucção&r -> Pega &dfluidos&r do &emundo&r se você configurar os &7canos&r para &bextrair&r",
+        "",
+        "Este bloco tem uma particularidade, com &6lava&r ou &9água&r, se eles tiverem mais ou igual a &a10 mil blocos&r de fluido (seja fluindo ou fonte), você vai conseguir uma quantidade &dinfinita&r deles!"
+    ],
+    "quest.46BCDA9823887F6C.quest_subtitle": "Afundando e bombeando",
+    "quest.47610F935B200FEA.quest_desc": [
+        "Bem, hora dos &6elevadores&r, algo &afundamental&r para uma base grande.",
+        "Eles são bem &búteis&r, e podem ser feitos de várias formas:",
+        "",
+        "- Usando &credstone clássica&r",
+        "",
+        "- Usando uma &6polia de corda&r, para a qual você vai precisar de um pouco de &credstone&r para controlar a direção da rotação e alguns &7blocos grudentos&r :p",
+        "",
+        "- Usando um &aelevador&r, que é a forma &amais fácil&r, só precisa colar os blocos juntos com &bsuper cola&r, &7contatos de redstone&r e um &dcontrole de engenhoca&r"
+    ],
+    "quest.47610F935B200FEA.quest_subtitle": "Elevando",
+    "quest.47E66106BCE85324.quest_desc": [
+        "No começo, faça um destes, com uma &amanivela&r.",
+        "Depois &acoloque&r a parte da serra tocando uma &#C78958árvore&r e ligue-a.",
+        "",
+        "Toras de graça.",
+        "",
+        "Você pode &econectar&r árvores com toras e &6encadeá-las&r!"
+    ],
+    "quest.47E66106BCE85324.quest_subtitle": "Cortador inicial",
+    "quest.49D5C0B90F866E8A.quest_desc": [
+        "Esta é a forma &5simples&r de gerar &#FFE661UT&r para sua base, já que a maioria dos &amods&r inclui alguma geração de FE.",
+        "",
+        "Existem 2 tipos de &emotores&r:",
+        "",
+        "- Motor &aElétrico&r -> Tem uma capacidade fixa de &#FFE661UT&r, mas pode mudar velocidade e direção.",
+        "",
+        "- Motores &bbásico&r e &eavançado&r -> Têm velocidade e direção fixas, mas podem mudar a capacidade de &#FFE661UT&r com outro bloco, sua extensão.",
+        "",
+        "Eles são &#9FFF2Arelativamente&r baratos, mas o motor elétrico fica bloqueado atrás da mesa de fabricação mecânica por causa da sua velocidade, mais sobre isso depois"
+    ],
+    "quest.49D5C0B90F866E8A.quest_subtitle": "Tensão mecânica",
+    "quest.49D5C0B90F866E8A.title": "Motores",
+    "quest.4ABC8789D7E4A93F.quest_desc": [
+        "Este &aprovavelmente&r vai ser seu primeiro passo na geração de &#FFE661UT&r do Create.",
+        "É &esimples&r e poderoso, mas custa sua &afome&r.",
+        "",
+        "Existem 2 &dversões&r, a &6manivela&r que é mais rápida mas não pode ser controlada tão facilmente, e a &aválvula&r, que é mais lenta mas pode ser controlada com mais precisão.",
+        "{@pagebreak}",
+        "Demos um pequeno &abuff&r para ambas:",
+        "",
+        "- A &6Manivela&r consome menos fome e tem um pouco mais de capacidade de UT",
+        "",
+        "- A &aVálvula&r tem o dobro da capacidade de UT com menos fome",
+        "",
+        "Isso foi feito para dar um &bincentivo&r aos blocos úteis que o &6Create&r oferece quando você começa o jogo, como a &#B4FF17Serra&r Mecânica para cortar árvores rapidamente"
+    ],
+    "quest.4ABC8789D7E4A93F.quest_subtitle": "Primeiro passo",
+    "quest.4ABC8789D7E4A93F.title": "Movimentos com as mãos",
+    "quest.4D1D631C473A24CA.quest_desc": [
+        "Outro item de &eQoL&r que ganhou uma &anova receita&r.",
+        "Este tem um &6uso simples&r, coloque na sua &7segunda&r mão para &aestender&r seu alcance de interação, ou seja, você pode &9quebrar&r coisas de longe.",
+        "",
+        "Usá-lo sem uma &6mochila-tanque de cobre&r vai causar &cdano&r a ele."
+    ],
+    "quest.4D1D631C473A24CA.quest_subtitle": "Estenda o alcance",
+    "quest.50BAFB8D81E4BA63.quest_desc": [
+        "Este bloco tem alguns usos &dinteressantes&r que você pode querer explorar:",
+        "",
+        "Enquanto estiver em uma &6engenhoca&r, ele não vai usar nenhuma &etensão&r, mas vai &aminerar&r coisas, então você pode ter um minerador semiautomático logo no começo do jogo.",
+        "",
+        "Se você não tiver ele em uma &6engenhoca&r, você vai precisar dar &etensão&r, mas pode fazer um &7gerador de pedregulho&r, por exemplo"
+    ],
+    "quest.50BAFB8D81E4BA63.quest_subtitle": "Broca",
+    "quest.51596947AF4C9BF1.quest_desc": [
+        "Bolos de &#FF2438Blaze&r são necessários em algumas receitas do &6Create&r.",
+        "",
+        "Eles são &efacilmente&r obtidos e só precisam de uma automação &5simples&r.",
+        "",
+        "Fizemos uma &bpequena&r mudança para que você não precise procurar &6galinhas&r!"
+    ],
+    "quest.51596947AF4C9BF1.quest_subtitle": "Bolos? ONDE?",
+    "quest.51596947AF4C9BF1.title": "Bolos de &#FF2438Blaze&r",
+    "quest.51A357489DB7C340.quest_desc": [
+        "Mas primeiro, precisamos da &6farinha&r para fazer a &amassa&r"
+    ],
+    "quest.51A357489DB7C340.quest_subtitle": "Aviso! Poderoso demais",
+    "quest.51A357489DB7C340.title": "Farinha",
+    "quest.57C39342224119C8.quest_desc": [
+        "&6<bounce a=0.31 f=0.3 w=2><pulse base=0.75 a=1.0 f=1.0 w=0.25>Create</pulse></bounce>&r é amado e odiado por muita &dgente&r",
+        "Ou eles simplesmente não &#A7FF78entendem&r.",
+        "",
+        "Bem, vamos te dar uma introdução &#FFBA5Ejusta&r a este mod.",
+        "",
+        "[{\"text\":\"\"},{\"text\":\"Você \"},{\"text\":\"deveria\",\"color\":\"#FFAA00\"},{\"text\":\" dar uma olhada nessas \"},{\"text\":\"missões\",\"color\":\"#FF55FF\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"58F7844D5535727E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Clique aqui para mudar para a tela de missões\"}}},{\"text\":\" primeiro!\\nElas estão no mesmo capítulo\"}]",
+        "",
+        "Se você se sentir &dperdido&r em algum momento, o &6Create&r tem um mini guia com imagens!"
+    ],
+    "quest.57C39342224119C8.quest_subtitle": "A diversão apenas começou",
+    "quest.58F7844D5535727E.quest_desc": [
+        "Estas são mais &adicas&r &egerais&r que você pode aplicar no seu &5mundo&r, mesmo que você não esteja usando o &6Create&r.",
+        "",
+        "A maioria delas só precisa de uma &dmanivela&r ou nada, mas elas &beconomizam&r bastante tempo quando você está começando o &#EDFF5Djogo&r!"
+    ],
+    "quest.58F7844D5535727E.quest_subtitle": "Tornando sua experiência mais divertida",
+    "quest.58F7844D5535727E.title": "Dicas e blocos úteis",
+    "quest.5A8C2ED4C8489002.quest_desc": [
+        "Bem, outro pequeno &abuff&r se você planeja &6continuar&r por esse caminho.",
+        "",
+        "Em vez de ter que fazer &dblocos&r, você pode usar velas, que basicamente &bse prendem&r ao bloco central, sem precisar de &2Super Cola&r"
+    ],
+    "quest.5A8C2ED4C8489002.quest_subtitle": "Buff direto",
+    "quest.5E5DA509820E7E26.quest_desc": [
+        "Fizemos &eoutra&r receita para você!",
+        "",
+        "Agora você pode usar &cquase&r qualquer &amachado&r (exceto os do Oritech) para transformar 1 &6tora&r na sua versão &#FFEE73descascada&r.",
+        "",
+        "Ou &#C78958madeira&r, se preferir :p"
+    ],
+    "quest.5E5DA509820E7E26.quest_subtitle": "Create fácil",
+    "quest.5ED0B01C321BC245.quest_desc": [
+        "Usando um &dMoedor&r, você pode conseguir um pouco de &efarinha&r, para fazer massa"
+    ],
+    "quest.5ED0B01C321BC245.quest_subtitle": "Uma rotação ou 2?",
+    "quest.5EFA6AFCBAD892A0.quest_subtitle": "Velociiiiiidade!",
+    "quest.5EFA6AFCBAD892A0.title": "Um pouco de açúcar",
+    "quest.60917F32F27D5CE8.quest_desc": [
+        "\"Precisávamos reforçar aquela &#A020F0câmara de cristal&r de novo, &asuperestimamos&r seu &#FFAA00poder&r, quase rachou\" - Engenheiro Mecânico #4521",
+        "",
+        "Bem, parece que a &#FFAA00luz&r era &#FF5555poderosa&r demais para ser &#55AAFFcontida&r, mas vamos tentar, consiga alguns &#FFAA00materiais&r!"
+    ],
+    "quest.60917F32F27D5CE8.quest_subtitle": "\"Precisamos de um pouco de luz aqui embaixo!\"",
+    "quest.60917F32F27D5CE8.title": "Ingredientes de Radiância",
+    "quest.6157B827B57C10EA.quest_subtitle": "Bases bem quentes",
+    "quest.6157B827B57C10EA.title": "Base do Bolo de Blaze",
+    "quest.61F7A24311801E37.quest_desc": [
+        "&#FEFF7FMoinhos de vento&r geralmente são negligenciados porque ou não são &abons&r ou simplesmente não &dse encaixam&r bem.",
+        "Bem, demos outro &abuff&r aqui, dobramos sua capacidade de &#FFE661UT&r.",
+        "",
+        "E para começar, você só precisa de alguns &6blocos&r como pedregulho e &2Super Cola&r."
+    ],
+    "quest.61F7A24311801E37.quest_subtitle": "Eu disse que isso se move?",
+    "quest.61F7A24311801E37.title": "Moinho de vento",
+    "quest.6316A37DEC3C8117.quest_desc": [
+        "Bem, este é um dos &aprincipais&r motivos pelos quais as pessoas odeiam o &6Create&r, a &#C63BFFgeração de tensão&r, mas vamos ter um &#FF6142tutorial&r rápido primeiro.",
+        "",
+        "O &6Create&r usa &3UT&r ou &3Unidade de Tensão&r, elas são feitas nos &#7FFF7Fgeradores&r, dos quais existem vários tipos. Cada &cmáquina&r consome uma quantidade fixa de &dUT&r e só pode girar em 1 direção.",
+        "",
+        "Depois, cada máquina tem uma &dvelocidade&r, e dependendo da velocidade, a máquina consome mais ou menos &#FFE661UT&r. Isso significa que uma máquina que consome &#FFE6614 UT&r a 1 RPM, pode consumir &#FFE661512 UT&r a &#FFFF00256 RPM&r.",
+        "{@pagebreak}",
+        "Outra coisa a se levar em conta é que cada gerador tem uma &#AA00FFgeração máxima de UT&r, por exemplo:",
+        "",
+        "Um &7Motor a Vapor&r pode produzir &#FFE66132K UT&r por bloco, e você quer montar uma configuração de &#FFDD0033K UT&r.",
+        "Bem, sua rede vai &#FF5555parar&r porque ela &#FF5555não consegue mover isso&r.",
+        "Para resolver isso, é só &#00AA00adicionar mais geradores&r à sua rede.",
+        "",
+        "Então isso torna a &#FF8800escalabilidade&r bem mais difícil no geral, mas vamos te dar algumas &#00DD00dicas&r para facilitar"
+    ],
+    "quest.6316A37DEC3C8117.quest_subtitle": "Começando a gerar tensão",
+    "quest.6316A37DEC3C8117.title": "Geradores de Rotação",
+    "quest.6443CA2A5392ECC5.quest_desc": [
+        "Depois de colocar os &eitens&r, você vai precisar &6prensar&r o resultado em uma &dPrensa Mecânica&r, que é o último &apasso&r do ciclo"
+    ],
+    "quest.652CE69633CF38C7.quest_desc": [
+        "Depois de um posicionamento \"&ocuidadoso&r\", você vai receber uma &dcâmara de contenção&r, capaz de conter &eluz&r e &5essência das trevas&r, ambas &#A020F0forças primordiais&r que guiam o universo."
+    ],
+    "quest.652CE69633CF38C7.quest_subtitle": "A prisão",
+    "quest.65890A921AE60989.quest_desc": [
+        "Esta é uma máquina &5simples&r, coloque uma &dengrenagem grande&r e a &avelocidade&r que você quiser.",
+        "Depois disso, você pode colocar &#FFE661UT&r em um lado e conseguir a mesma &#FFE661UT&r mas com &avelocidade&r diferente no outro lado.",
+        "",
+        "O lado de &6entrada&r é na parte de latão, o lado de &esaída&r é na engrenagem.",
+        "",
+        "Esta &dmáquina&r recebeu um pequeno buff, não precisando mais do mecanismo de &bprecisão&r, mas é um pouco mais &#FF36B4cara&r de se fazer"
+    ],
+    "quest.65890A921AE60989.quest_subtitle": "Radar perto de você",
+    "quest.66AA59E314E96B28.quest_desc": [
+        "Esta é uma das &#AA88FFforças&r que guiam o universo, mas parece que ....",
+        "",
+        "&#FF69B4Estranho&r...",
+        "",
+        "Pode ter alguns usos com algumas das suas &#55FF55sementes&r, vamos ver no futuro"
+    ],
+    "quest.66AA59E314E96B28.quest_subtitle": "Escuridão ancestral",
+    "quest.764D8A9D77084BE7.quest_desc": [
+        "Permite mudar de &avertical&r para &6horizontal&r e vice-versa, mas também faz os &7eixos&r girarem na &dmesma&r direção"
+    ],
+    "quest.764D8A9D77084BE7.quest_subtitle": "Movendo entre dimensões",
+    "quest.7692A6BAFD29528B.quest_desc": [
+        "Combine com um pouco de &9água&r e temos &6massa&r.",
+        "",
+        "Agora, passe a massa em um &dventilador de chama das almas&r para conseguir um ovo.",
+        "",
+        "Esta não é uma receita padrão do &6Create&r!"
+    ],
+    "quest.7AB79F9B43234C96.quest_desc": [
+        "&7Eixos&r são a base do transporte de &#FFE661UT&r, e só conseguem girar em &n&dum&r eixo por vez.",
+        "Você pode combinar várias fontes de &#FFE661UT&r, como um &7motor a vapor&r e vários motores &delétricos&r.",
+        "",
+        "E claro, você pode &6mudar&r a &cdireção&r do eixo usando várias formas, mais sobre isso depois.",
+        "",
+        "Mas por enquanto, você sabia que você pode ter a capacidade de &#FFE661UT&r de um &7Motor a Vapor&r, mas a velocidade de um motor &6elétrico&r? Bem, agora você sabe.",
+        "Os &7eixos&r vão girar na &5maior&r velocidade que você definir, basicamente"
+    ],
+    "quest.7AB79F9B43234C96.quest_subtitle": "A pior forma a longa distância",
+    "quest.7AB79F9B43234C96.title": "Movendo UT por aí",
+    "quest.7E1DD64F0353A803.quest_desc": [
+        "Para fazer 4 Bolos de &#FF2438Blaze&r, precisamos desses ingredientes.",
+        "",
+        "Você pode usar várias formas &6automáticas&r de consegui-los!"
+    ],
+    "quest.7E1DD64F0353A803.quest_subtitle": "Coletando-os",
+    "quest.7E1DD64F0353A803.title": "Os ingredientes do chef",
+    "quest.7EB35C6B48BD1E63.quest_desc": [
+        "Em uma &6bacia&r com uma Prensa Mecânica, você pode conseguir a &dBase&r"
+    ]
+}

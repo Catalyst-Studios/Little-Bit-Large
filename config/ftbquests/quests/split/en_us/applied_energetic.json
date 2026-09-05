@@ -40,7 +40,7 @@
     "quest.30633D99588CAE94.quest_subtitle": "The CPU",
     "quest.30633D99588CAE94.title": "AdvancedAE CPU",
     "quest.35A559FBB356919D.quest_desc": [
-        "[ \"Do you remember that tower of &6pattern providers&r I've showed in this \", { \"text\": \"quest\", \"underlined\": true, \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"697A5E53CC53ADDB\" } }, \"?\" ]",
+        "[ \"Do you remember that tower of pattern providers I've showed in this \", { \"text\": \"quest\", \"underlined\": true, \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"697A5E53CC53ADDB\" } }, \"?\" ]",
         "",
         "Well, time to upgrade it to a &afaster&r and more &befficient&r one.",
         "",

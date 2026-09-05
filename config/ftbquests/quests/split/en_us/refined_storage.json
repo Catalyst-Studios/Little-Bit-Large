@@ -1,0 +1,413 @@
+{
+    "quest.016DD988006CE82F.quest_desc": [
+        "You will only need &#FF0000&lone&r per &#FF7F00exporter&r and &#00FF00importer&r.",
+        "",
+        "If you said that only send &#FFFF00500 cobblestone&r, it will only send those, no more.",
+        "",
+        "Well..., it depends if you have a &#FF1493stack upgrade&r or not, it can go a bit over your target"
+    ],
+    "quest.02A1C699031C7DBD.quest_desc": [
+        "This feature only works while playing with &#1E90FFsomeone&r. If you are playing alone, you can skip this long text.",
+        "",
+        "While playing with someone else, you probably won't allow them to access your network, because, well, they can &#FF0000steal&r from you.",
+        "",
+        "To combact this, there is &#00FF7Fsecurity manager&r and &#FF00FFsecurity cards&r to allows X person to do Y thing in your network, like &#FF4500breaking&r your network.",
+        "",
+        "Fallback cards is used for everyone else that you don't define. &#7FFF00Deny everyone&r to do anything on your network is the best advice if you don't know them"
+    ],
+    "quest.02A1C699031C7DBD.quest_subtitle": "&#FFD700&lSecurity first&r",
+    "quest.02B6E87C67A4BFFE.quest_desc": [
+        "Well, faster they are, but has a more expensive craft, &#8B00FFelite version&r of these are not needed since &#00FF00speed upgrades&r and &#FF7F00stack upgrades&r do a much better job"
+    ],
+    "quest.02B6E87C67A4BFFE.quest_subtitle": "&#FF69B4&oFaster and better?&r",
+    "quest.02B6E87C67A4BFFE.title": "&#00CED1&lElite versions&r",
+    "quest.0495529CBE5FF2A3.quest_desc": [
+        "Unlike normal Industrial Foregoing Souls, you can store a lot &#00FFFFmore souls&r in these disks.",
+        "Use a &#FFFF00regulator&r to avoid deleting it!",
+        "",
+        "You can only get souls from cables from &#7FFF00IF souls&r and send them to those!",
+        "",
+        "There is a &#FF1493multiblock&r to allow generating Souls better than original method"
+    ],
+    "quest.0495529CBE5FF2A3.quest_subtitle": "&#FF00FF&lSpeeding up the machines&r",
+    "quest.051127715A95CF0C.quest_desc": [
+        "There is &#FF4500more upgrades&r, not only to those 4 items, but for more of them!",
+        "",
+        "They have &#00FF7Ffaster operations&r or/and &#FFD700more filters&r"
+    ],
+    "quest.051127715A95CF0C.quest_subtitle": "&#1E90FF&lMega version?&r",
+    "quest.0587A48E22302D5A.quest_desc": [
+        "Using some &#FFFF00Quartz&r and some &#FF4500copper&r, we can get some &#00FF7Fconductive materials&r, enough for making &#00CED1disks&r or even some &#FF00FFcables&r!"
+    ],
+    "quest.0587A48E22302D5A.quest_subtitle": "&#FF7F00&lCopernium&r",
+    "quest.0904759478C30258.quest_desc": [
+        "Allows to &#00FFFFcopy information&r from one RS machine to another easily.",
+        "",
+        "Perfect for &#FFD700mass production&r of your setups"
+    ],
+    "quest.0904759478C30258.quest_subtitle": "&#7FFF00&lWrench 2.0&r",
+    "quest.097A4211FC939AE0.quest_desc": [
+        "&#FF7F00External storages&r makes visibles other inventories like your drawer wall or your starter chests",
+        "",
+        "These can &#FF1493mess your storage&r, so configure them before connecting to your network!",
+        "",
+        "They have &#00FF00priority&r, similar to AE2 ones, but can be configured independently. In this case, &#1E90FFhigher number&r goes first, unlike AE2 where lower and higher can go first"
+    ],
+    "quest.097A4211FC939AE0.quest_subtitle": "&#FF0000&lMessing your storages&r",
+    "quest.0A353AC5FF2EE8C8.quest_desc": [
+        "Stores &#00CED1Source&r for later use in multiblocks or any &#FF69B4Ars Source Jar&r"
+    ],
+    "quest.0A353AC5FF2EE8C8.quest_subtitle": "&#8B00FF&oIf magic can be digitalized, are we in a simulation?&r",
+    "quest.0F9E52B5BC4CB50A.quest_desc": [
+        "RS has few addons, but those are &#FF4500powerful&r, similar to AE2 ones!",
+        "",
+        "First block allows to connect &#1E90FFReplication network&r to RS",
+        "",
+        "And the second block allows the &#FF00FFSchematicannon&r from Create to use items from your network",
+        "",
+        "How can this be good? Well, your storage is &#7FFF00more powerful&r than some chests!"
+    ],
+    "quest.0F9E52B5BC4CB50A.quest_subtitle": "&#00FF7F&oCompacts&r",
+    "quest.0F9E52B5BC4CB50A.title": "&#FFD700&lRS addons&r",
+    "quest.105C3E68750E1FFE.quest_desc": [
+        "This little block allows you to send signals &#FFD700across multiple dimensions&r and without a range limit, making it the perfect &#00FF00material saving&r in RS.",
+        "",
+        "Consumes the same as a &#FF7F00wireless transmitter&r with &#FF14934 range upgrades&r"
+    ],
+    "quest.105C3E68750E1FFE.quest_subtitle": "&#00FFFF&lAcross the multiverse!&r",
+    "quest.19A8F79F2E415847.quest_desc": [
+        "&#FF0000Double the capacity&r and &#00FF7Ffaster&r.",
+        "",
+        "There are other versions of &#FF69B4autocrafters&r that is similar to these, but they don't allow chaining or doesn't do it correctly"
+    ],
+    "quest.1A4F9BBCC78BB4CB.quest_desc": [
+        "Allows to store &#00CED11K different items&r"
+    ],
+    "quest.1A4F9BBCC78BB4CB.quest_subtitle": "&#FFFF00&l1K items&r",
+    "quest.1B35CEDB1939C1D1.quest_desc": [
+        "&#1E90FF48 blocks&r seems little? Well, here is an upgraded version, which &#7FFF00infinite range&r. But no cross dimension range, thats for later!"
+    ],
+    "quest.1B35CEDB1939C1D1.quest_subtitle": "&#FF4500&lAll in 1 go&r",
+    "quest.1C39960D4E84A92B.quest_desc": [
+        "As simple as it can get, these little ones do 1 job of the &#FFD700interface&r, but saves space in some setups.",
+        "",
+        "The bad news is that is &#FF0000not as fast&r as an interface"
+    ],
+    "quest.1C39960D4E84A92B.quest_subtitle": "&#00FF7F&oThe Input and Output&r",
+    "quest.1C39960D4E84A92B.title": "&#FF00FF&lIn and Out&r",
+    "quest.1DB54CE030ED6B71.quest_desc": [
+        "Allows to &#00FF00pull&r and &#FF7F00put&r stuff easily"
+    ],
+    "quest.1EDBE9BF623A4C55.quest_desc": [
+        "Unlike Applied Energistics 2 (AE2), &#FFD700Refine Storage (RS)&r is simpler, with less \"yOU nEed ti Do thIS thiS WaY\".",
+        "",
+        "RS has less addons to it, but still &#FF4500powerful enough&r for most cases, like &#1E90FFEnergy storage&r or &#8B00FFSoul Energy&r.",
+        "",
+        "It needs a bit more space to do a setup, but a lot has changed since &#7FFF001.20.1&r, so give it a try!",
+        "",
+        "Lastly, RS has some &#FF69B4QoL&r that AE2 doesn't ;p"
+    ],
+    "quest.1EDBE9BF623A4C55.quest_subtitle": "&#00CED1&lEasy, yet powerful&r",
+    "quest.1F283A782C2B63FB.quest_desc": [
+        "Allows to store &#FF1493256 buckets&r of fluids"
+    ],
+    "quest.1F283A782C2B63FB.quest_subtitle": "&#00FFFF&lJust a drop of the ocean&r",
+    "quest.20768C57F07A8F58.quest_desc": [
+        "This is the best way to send your network &#FF00FFacross dimensions&r or long distances, saving in lag and loading chunks!",
+        "",
+        "Place the receiver in the place you want, sneak right click on it with a &#FFFF00network card&r, go to your base and place the card on a &#00FF00transmitter&r. And you have your network wirelessly connected.",
+        "",
+        "Can't be connected in a network separated with a &#FF0000Relay&r, due to loop!"
+    ],
+    "quest.20768C57F07A8F58.quest_subtitle": "&#FF7F00&lFar and beyond&r",
+    "quest.217C4AC06B6EBEDF.quest_desc": [
+        "Glue is an &#FF4500important material&r, holding the &#00FF7Fglass&r, &#1E90FFsilicon&r and the frame"
+    ],
+    "quest.217C4AC06B6EBEDF.quest_subtitle": "&#FFD700&lGlue&r",
+    "quest.2417436EE3CCEEFD.quest_desc": [
+        "Now that we are talking about wireless, here it's how you can access your network from \"far\", just &#7FFF0016 blocks&r, but we will improve it!",
+        "",
+        "Just place it somewhere near where you are going to need it"
+    ],
+    "quest.2417436EE3CCEEFD.quest_subtitle": "&#00CED1&lWireless inventory&r",
+    "quest.2449BC8D9D70AEF5.quest_desc": [
+        "This is your &#FF7F00first terminal&r, able to see all materials in your networks. It has low functionalities, perfect for just seeing what is doing a setup.",
+        "",
+        "You can &#00FF00extract&r and &#00FFFFinsert&r items to the network's storages"
+    ],
+    "quest.2449BC8D9D70AEF5.quest_subtitle": "&#FF69B4&lBase&r",
+    "quest.245A46C88B6EF096.quest_desc": [
+        "It's cheap, just made from &#FFFF00glue&r and &#00FF7Firon&r and some other materials"
+    ],
+    "quest.245A46C88B6EF096.quest_subtitle": "&#FF1493&lThe binding&r",
+    "quest.25514C1608CE1DB9.quest_desc": [
+        "Allows to store some of the &#FF00FFchemicals&r in your network.",
+        "",
+        "Doesn't store nuclear waste nor spent nuclear waste. But you can use &#FFD700interfaces&r from RS to delete them safely, without spreading &#FF0000radiation&r"
+    ],
+    "quest.25514C1608CE1DB9.quest_subtitle": "&#8B00FF&lFirst tier of madness &r",
+    "quest.25D07D5C1BF155D0.quest_desc": [
+        "Allows to store &#1E90FF1024 buckets&r of fluids"
+    ],
+    "quest.25D07D5C1BF155D0.quest_subtitle": "&#FF4500&lNot enough&r",
+    "quest.2607CCE7E9B43E4F.quest_desc": [
+        "Instead of having 10 controllers, lets have &#00CED11&r.",
+        "",
+        "Now, you would just need to store some energy in an &#FF69B4energy cell&r and it will automatically pull from it"
+    ],
+    "quest.2607CCE7E9B43E4F.quest_subtitle": "&#7FFF00&lEnergy on demand&r",
+    "quest.28E924449849D8DC.quest_desc": [
+        "Storage is a bit weirder in RS than AE2.",
+        "It has no type (except for &#FFFF00energy&r, &#8B00FFsouls&r and &#00CED1source&r), yet they are better than AE2.",
+        "",
+        "The disk information is stored as a &#00FF00file&r instead of NBT, so you won't be able to chunk ban your base. But that also means that you can edit the content of it externally or get corrupted.",
+        "",
+        "1 byte = 1 item / mb / fe / soul / ...",
+        "",
+        "Make &#FFD700backups&r of your world regulary!"
+    ],
+    "quest.28E924449849D8DC.quest_subtitle": "&#FF7F00&lMass storage or NAS&r",
+    "quest.2B78719A7D55EF02.quest_desc": [
+        "This is the &#FF1493main block&r in this entire mod, the controller.",
+        "",
+        "Stores energy and handle the network so everything can work.",
+        "",
+        "You can connect multiple of them in the same network, no need to touch. I wouldn't put a lot of them. I would say &#00FF7F10&r is a good number for any network.",
+        "Energy is per controller, doesn't share it with others.",
+        "",
+        "Speaking of energy, RS is &#1E90FFmore energy efficient&r than AE2!"
+    ],
+    "quest.2B78719A7D55EF02.quest_subtitle": "&#FF0000&lThe brain&r",
+    "quest.2D3EF621FB6C3C7E.quest_desc": [
+        "Unlike AE2 (by default), RS has &#FF00FFno channel limits&r, making your imagination go freely, without thinking \"Do i have a channel for the 9th import bus?\"",
+        "",
+        "You can connect different parts of your network with this block, althought, for dimensional transport or big distances, there will be another method &#7FFF00much better&r."
+    ],
+    "quest.2D3EF621FB6C3C7E.quest_subtitle": "&#00FFFF&lMoving data&r",
+    "quest.2F3F84A04ECA4026.quest_desc": [
+        "Even if you don't know, this is a &#FFD700fundamental material&r in your machines, able to flip from 1 to 0 and viceversa in rapid sucessions.",
+        "",
+        "We use it to calculate faster how fast your machine will consume your resources (Spoiler: Never!).",
+        "",
+        "You can get a lot of &#00FF00silicon&r from multiple places"
+    ],
+    "quest.2F3F84A04ECA4026.quest_subtitle": "&#FF4500&lSilica&r",
+    "quest.31811595C0106A95.quest_desc": [
+        "It basically allows you to do &#FF69B4recursive craftings&r, like the smithing patterns.",
+        "",
+        "Did you know that recursive can be &#FF0000bad for computers&r? Well, because it can need a lot of memory and processing, so make sure you don't abuse them!"
+    ],
+    "quest.31811595C0106A95.quest_subtitle": "&#8B00FF&oRecursive down to the recusive stack&r",
+    "quest.347632C49FE9FEC1.quest_desc": [
+        "These little machines are useful in some scenarios like automating &#00FF7Fore processing&r or some farms like &#1E90FFamethyst buddings&r.",
+        "",
+        "They have a &#FFFF00filter&r, no need for external storage one!"
+    ],
+    "quest.347632C49FE9FEC1.title": "&#FF7F00&lBuild and Destroy&r",
+    "quest.361A7FB71B620A7D.quest_desc": [
+        "&#00FF00Faster operations&r, up to &#FF00FF4 upgrades&r at the same time, yes, but it has a catch on some scenarios.",
+        "",
+        "If you only need constant items, for example, 2 per second, 4 speed upgrades is more than enough, but if you need, lets say, 128 items per second, you want to mix &#FF1493speed&r and &#00CED1stack upgrades&r!",
+        "",
+        "These are usually the ones that get chopped down to put other upgrades"
+    ],
+    "quest.36C471AB6F800F71.quest_desc": [
+        "These little upgrades sends or extract &#FF4500more in one operation&r.",
+        "",
+        "Here is the trick, you need &#FFFF004&r to do &#1E90FF1 Stack&r at the time, and the best tiers of importer/exporter has only 4 slots, so there will be a mix of upgrades in some setups"
+    ],
+    "quest.36C471AB6F800F71.quest_subtitle": "&#7FFF00&lMore in 1 operation&r",
+    "quest.383079759AD50C01.quest_desc": [
+        "Allows to store &#00FF7F64K different items&r"
+    ],
+    "quest.383079759AD50C01.quest_subtitle": "&#FFD700&oWell, cheaper than AE2 but less space&r",
+    "quest.3BBD56100AA2CE9F.quest_desc": [
+        "Allows to place a &#FF00FFpattern&r without going to the autocrafter itself.",
+        "",
+        "A more abstract way, but it will &#00FFFFsave you tons of time&r"
+    ],
+    "quest.3E597A49C08A0DD9.quest_desc": [
+        "Unlike AE2, this is a single block to create &oSUBNETS&r with tons of configuration, &#00FF00less resources needed&r in general.",
+        "",
+        "In a nutshell, you can give a &#FF7F00redstone signal&r to shut down or start a part of your network. Needs some time to perform the operation",
+        "",
+        "By default, it pass everything from your main network, although, this can be customized to only make the main network see 1 pattern or only 1 item or pass energy to the subnet.",
+        "",
+        "All configurable in &#1E90FFGUI&r."
+    ],
+    "quest.3E597A49C08A0DD9.quest_subtitle": "&#FF0000&l\"Chop the network!!!!!\"&r",
+    "quest.41F760033B93D949.quest_desc": [
+        "Stores &#FF14931 FE per byte&r. There is higher tiers versions. Needs to use "
+    ],
+    "quest.41F760033B93D949.quest_subtitle": "&#FFFF00&lHow does energy get stored&r",
+    "quest.441776FD491161A8.quest_desc": [
+        "It allows you to &#FF0000stop any recipe&r or see what the &#7FFF00autocrafters&r are doing"
+    ],
+    "quest.445C903E107D3377.quest_desc": [
+        "Put the &#FF69B4encoded pattern&r inside this machine and it will do its magic. There is a few things to consider:",
+        "",
+        "- It can only output to &#FF4500one directly&r, it has a point in the middle of the texture",
+        "",
+        "- You can connect &#00FF7Fmultiple of them&r! Just need to point another autocrafter to the back of another",
+        "",
+        "- It has some useful stuff that AE2 one's doesn't like &#00CED1pulling the result&r directly to the autocrafter."
+    ],
+    "quest.445C903E107D3377.quest_subtitle": "&#FFD700&lAutomation&r",
+    "quest.46841515ABD31F9D.quest_desc": [
+        "Although, you won't use the first block a lot in RS, the second one is handy:",
+        "",
+        "- Allows to pass content from &#FF7F00disk A&r to &#FFFF00disk B&r",
+        "",
+        "- Keep a &#FF1493certain amount in stock&r, so you don't have to constantly keep making them"
+    ],
+    "quest.46841515ABD31F9D.quest_subtitle": "&#00FF00&lMore advance setups!&r",
+    "quest.46841515ABD31F9D.title": "&#8B00FF&lMore useful item&r",
+    "quest.4755C24BF0872B7E.quest_desc": [
+        "These are some essential items for some of the &#00FFFFsetups automation&r, for example, knowing if you have &#7FFF00X amount&r of items before sending them to a machine to process or just knowing how much do you have in storage in a glance."
+    ],
+    "quest.4755C24BF0872B7E.quest_subtitle": "&#FF0000&lRedstone on demand&r",
+    "quest.4755C24BF0872B7E.title": "&#FF00FF&lUseful items&r",
+    "quest.4859B478F0087F85.quest_desc": [
+        "This is the &#FF4500most expensive raw&r, but has one particularity. It &#FFD700shines&r!"
+    ],
+    "quest.4859B478F0087F85.quest_subtitle": "&#1E90FF&lThe better version&r",
+    "quest.4A63F037D66A7573.quest_desc": [
+        "This little grid will tell your &#00FF7Fcannon interfaces&r how it will behave.",
+        "",
+        "For example, should the gunpowder be craftable and requestable or should it craft everything in &#FF69B4advanced&r or &#00CED1on demand&r?"
+    ],
+    "quest.4C7664721EB699C2.quest_desc": [
+        "&#FFFF00Patterns&r are an essential part of any game, allowing you to automate the some of the more tedious processes in a mod in &#00FF00just 1 click&r.",
+        "",
+        "You want to have RS automated first, so you can do anything you want easier, so &#FF1493make a lot of these&r!"
+    ],
+    "quest.4C7664721EB699C2.quest_subtitle": "&#FF7F00&lCrafting the world&r",
+    "quest.4E5755D94869E1D5.quest_desc": [
+        "Stronger than regular iron due to the presence of &#00FFFFQuartz&r, able to hold the inmense energy requirements.",
+        "",
+        "It is required in most buildings and items, so make sure you make some &#7FFF00seeds&r or &#FF00FFbees&r!"
+    ],
+    "quest.4E5755D94869E1D5.quest_subtitle": "&#8B00FF&lFerros&r",
+    "quest.4E9606BD742698FD.quest_desc": [
+        "With this little item, you can &#FFD700rotate any RS block&r and as well pick them up just by sneak right click, without using durability from your pickaxe.",
+        "",
+        "Or.... use it on the &#FF4500Chain Conveyor&r from Create to move around easily!"
+    ],
+    "quest.4E9606BD742698FD.quest_subtitle": "&#FF0000&lLess pickaxe use&r",
+    "quest.5315037AAE52D666.quest_desc": [
+        "Allows to store &#00FF7F16K different items&r"
+    ],
+    "quest.5315037AAE52D666.quest_subtitle": "&#1E90FF&lNow it's a decent storage&r",
+    "quest.534EEE3AD2AC01BA.quest_desc": [
+        "Allows to store &#00CED14096 buckets&r of fluids.",
+        "",
+        "Even if this is the highest one normally available in RS, you can do &#FFFF00higher tiers&r for fluids!"
+    ],
+    "quest.534EEE3AD2AC01BA.quest_subtitle": "&#FF69B4&lThis is the min size I would use!&r",
+    "quest.55488C2723B7CB12.quest_desc": [
+        "These are a better version with &#00FF00more filters&r and &#FF1493faster&r!"
+    ],
+    "quest.55488C2723B7CB12.title": "&#FF7F00&lElite versions&r",
+    "quest.5665980D3DA0F3CD.quest_desc": [
+        "These are needed for most upgrades, so make sure to have them &#7FFF00autocrafted&r!"
+    ],
+    "quest.5665980D3DA0F3CD.quest_subtitle": "&#00FFFF&lThe base&r",
+    "quest.57334B9B0D70FCE4.quest_desc": [
+        "Allows to store &#FFD70064 buckets&r of fluids"
+    ],
+    "quest.57334B9B0D70FCE4.quest_subtitle": "&#FF0000&lNot even a basic setup fits here&r",
+    "quest.5899235FAC01B0EE.quest_desc": [
+        "Controls your &#FF4500recursive patterns&r!"
+    ],
+    "quest.5899235FAC01B0EE.quest_subtitle": "&#FF00FF&lManaging the steps&r",
+    "quest.5899235FAC01B0EE.title": "&#8B00FF&lOne step at the time&r",
+    "quest.58F046070EC97B14.quest_desc": [
+        "Unlike AE2, this is a &#1E90FFcheaper version&r, and doesn't interfere with your progression that much."
+    ],
+    "quest.58F046070EC97B14.quest_subtitle": "&#00FF7F&l\"Destroy, Kill, Get Stronger\"&r",
+    "quest.59D413BC45E63987.quest_desc": [
+        "Allows to craft your &#FF69B4drinkings&r!"
+    ],
+    "quest.5A20A1FFCED3AC6C.quest_desc": [
+        "Burn some of the &#FFFF00raw&r to get this material"
+    ],
+    "quest.5A20A1FFCED3AC6C.quest_subtitle": "&#FF7F00&lFirst most used!&r",
+    "quest.5CCD2B888715B592.quest_desc": [
+        "Allows to view your autocrafters in &#00CED1real time&r, from your &#00FF00holiday place&r!"
+    ],
+    "quest.5EA71FB2556C3A4B.quest_desc": [
+        "Allows to store &#00FFFF4K different items&r"
+    ],
+    "quest.5EA71FB2556C3A4B.quest_subtitle": "&#FF1493&l4K items&r",
+    "quest.639C46C092A7BB58.quest_desc": [
+        "&#FFD700Shining processor&r after some cooking"
+    ],
+    "quest.639C46C092A7BB58.quest_subtitle": "&#7FFF00&lThe last one!&r",
+    "quest.6714C873B41C034B.quest_desc": [
+        "Althought it's improved, it can't run a &#8B00FFfamous game&r"
+    ],
+    "quest.6714C873B41C034B.quest_subtitle": "&#FF4500&lSecond most used!&r",
+    "quest.678A120F73A3FD25.quest_desc": [
+        "This little upgrade has some tricks you need to consider.",
+        "Yep, it allows you to craft the &#FF7F00500000th stone&r on demand.",
+        "",
+        "The problem is that you need to make sure you produce a lot of the &#FFFF00ingredients&r needed to craft that or .... ",
+        "",
+        "Well, here is a tip, a &#00FF00regulator&r will help you :p"
+    ],
+    "quest.678A120F73A3FD25.quest_subtitle": "&#FF0000&lON DEMAND!!!!!!&r",
+    "quest.6BD3608816BBCB21.quest_desc": [
+        "From &#1E90FF16 to 48 blocks&r, not bad, but we can do a lot better if we invest a bit more!"
+    ],
+    "quest.6C0650C6DE97447E.quest_desc": [
+        "Not that cheap in general, still it's used in a lot of &#FF00FFprocesses&r!"
+    ],
+    "quest.6C0650C6DE97447E.quest_subtitle": "&#00FF7F&lThe improved&r",
+    "quest.6C84F81FC79A86F1.quest_desc": [
+        "Used a bit more than destruction, so you probably want to make a few more of these, althought they are a bit more tedious to get due to the &#FF0000redstone&r"
+    ],
+    "quest.6C84F81FC79A86F1.quest_subtitle": "&#FFD700&l\"Build, improve and be better\"&r",
+    "quest.6CFF518A0B92A8B2.quest_desc": [
+        "Allows to set a recipe in a &#FF69B4pattern&r, so autocrafters can use them"
+    ],
+    "quest.6CFF518A0B92A8B2.quest_subtitle": "&#00CED1&lPatterting the world&r",
+    "quest.7117DF54CD114272.quest_desc": [
+        "Unlike AE2, where you can put &#7FFF00Fortune X&r on annihilation planes, the destructors are limited to &#FFFF00Fortune 3&r.",
+        "",
+        "To compensate this, we have made the recipes for these cards cheaper. The same for &#00FF00Silk Touch&r!"
+    ],
+    "quest.7117DF54CD114272.quest_subtitle": "&#FF4500&lYour base ore processing&r",
+    "quest.7384226141C8CE95.quest_desc": [
+        "This little block is all that you need to do &#8B00FFevery IO&r you can think of.",
+        "",
+        "There is 2 parts:",
+        "",
+        "- Top row -> Allows to set a filter, like setting &#FF7F00diamonds&r as a filter or &#FFFF00energy&r",
+        "",
+        "- Bottom row -> This is the IO part, if you have set a filter on the slot above, it will send that to the slot below or you can send anything there to store them in your network",
+        "",
+        "It allows to request items to be crafted &#FF0000ON demand&r"
+    ],
+    "quest.7384226141C8CE95.quest_subtitle": "&#1E90FF&lAll in 1&r",
+    "quest.7436E26E906DD1B4.quest_desc": [
+        "Now we are talking, you can do basic stuff with this, like &#FF00FFcrafting&r!",
+        "",
+        "It can do what a Grid can too!"
+    ],
+    "quest.7436E26E906DD1B4.quest_subtitle": "&#00FF7F&lThe Standard in this game&r",
+    "quest.77FBB304993FB622.quest_desc": [
+        "&#FF14934 rows&r and even &#00FFFFfaster&r"
+    ],
+    "quest.7C884AC9E223B34F.quest_desc": [
+        "Althought this is made from iron, it's extremely good at resisting hits. Good for &#FF4500most machines&r!"
+    ],
+    "quest.7C884AC9E223B34F.quest_subtitle": "&#FFD700&lBases&r",
+    "quest.7ED4B34C4B6999BF.quest_desc": [
+        "Do you need &#7FFF00faster&r and &#FF69B4more slots&r? Here is your solution"
+    ],
+    "quest.7ED4B34C4B6999BF.quest_subtitle": "&#00CED1&lMega as mega strong?&r",
+    "quest.7F62A235078FFDBF.quest_desc": [
+        "Combining all into one, allows you to make a &#FF7F00pineapple juice&r on The Nether while also checking if any of your setups has failed"
+    ],
+    "quest.7F62A235078FFDBF.quest_subtitle": "&#FF0000&lThe best one!&r"
+}

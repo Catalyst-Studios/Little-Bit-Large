@@ -321,6 +321,9 @@
         "Skip this upgrade"
     ],
     "quest.384F0AC89B484717.quest_subtitle": "Stronger",
+    "quest.3A698C3110C4E336.quest_desc": [
+        "An ingredient for Techological seeds, step 3"
+    ],
     "quest.3CD10CDC9E59A25E.quest_desc": [
         "Brew &2potions&r more efficiently"
     ],
@@ -348,6 +351,7 @@
         "Needs &bprevious&r tier"
     ],
     "quest.447A36F0D55A6587.quest_subtitle": "Cuarto Tier",
+    "quest.447A36F0D55A6587.title": "Supreme Machine Frame",
     "quest.490D3C76D973668B.quest_desc": [
         "[{\"text\":\"\"},{\"text\":\"This method uses a lot of Liquid \"},{\"text\":\"Meat\",\"color\":\"#9D4F2F\"},{\"text\":\" that comes from a \"},{\"text\":\"Slaugter factory\",\"color\":\"#FF55FF\",\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"industrialforegoing:mob_slaughter_factory\",\"count\":1}}}]",
         "",
@@ -424,6 +428,18 @@
         "Did you know that you can &cplace&r the &6Machine&r frames? The mod &bauthor&r added that :p"
     ],
     "quest.5D8CEA0C5F37F92C.quest_subtitle": "Cuarto Tier",
+    "quest.5F9B4D92EF2291EE.quest_desc": [
+        "&aIndustrial Foregoing&r allows you to &espeed things up&r quite a bit.",
+        "",
+        "You will need the same setup as the &bEther Gas&r, but with a &3Warden&r.",
+        "The &3Warden&r will receive &cdamage&r, so make sure to have more &6stasis chambers&r.",
+        "",
+        "Put the &9blue lens&r to generate &dsouls&r, and after that, some &6pipes&r to transport them. Although &aAE2&r as transport might be good. You always need &6pipes&r!",
+        "",
+        "{@pagebreak}",
+        "Put the &5surges&r on the machine you want, and it will go &afaster&r, but each surge will only add a bit less, so if the first one adds a &ex3&r, the second surge will only add a &ex2&r, so &ex5&r and so on."
+    ],
+    "quest.5F9B4D92EF2291EE.title": "Tick Accerelation",
     "quest.600A2047561A428B.quest_desc": [
         "From the &6first&r step, you get some other liquid",
         "",

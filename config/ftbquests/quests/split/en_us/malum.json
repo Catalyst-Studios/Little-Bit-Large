@@ -1,0 +1,392 @@
+{
+    "quest.0270173E2FE25CCA.quest_desc": [
+        "&#CE93D8Eldrith&r is by far the most simple of all &#B39DDBspirits&r, it drops from &#EF5350bosses&r or &#81C784endermen&r or &aendermites&r",
+        "",
+        "That's it, the simplest of all. I would recommend &bEndermite&r since they have low &cHP&r"
+    ],
+    "quest.08DD86F92927595D.quest_desc": [
+        "Used a lot in &#FFD54Fcrafting&r and &#4DD0E1decoration&r, probably have &e2000&r of each passived"
+    ],
+    "quest.0A00C8C55DE2D39C.quest_desc": [
+        "Throw a &#FFD54FComplete Design&r inside the &#4FC3F7well&r"
+    ],
+    "quest.0C5575BAC9933656.quest_desc": [
+        "And the all the &#FFD54Fmining items&r you will ever need, there are &a2 ways&r to get them, by mining and by mining...",
+        "",
+        "That doesn't makes sense, but here we go, the first mining is natural one, on any &eVanilla&r or &#81C784Biome O' Plenty&r biome, they are rare",
+        "",
+        "Or by using the &#FFAB91Deep Miner&r to mine some ores for you, more info of this machine on &#4FC3F7Modular Machinery Reborn&r tab! (7FFD86864E64AB0F)"
+    ],
+    "quest.0FE9246E2A50B993.quest_desc": [
+        "Each &#CE93D8rune&r needs a &#4FC3F7Curios slots&r, but there is only 2 ways to get them, via &ebrooms&r and &#B39DDBGeas&r, but as always, there is a catch.",
+        "",
+        "This one being the worst, reducing a &#EF5350ring slots&r, which you can use for other things"
+    ],
+    "quest.11CE5976BD92B743.quest_desc": [
+        "&#B39DDBRunewood&r is one of the main materials needed in the mod, you can get them by &#81C784exploring&r and finding the tree, which is pretty rare or by buying it directly from the &#FFD54Fseed market&r"
+    ],
+    "quest.162F527B22AE40DD.quest_desc": [
+        "Well, time to upgrade your equipment, speacially the &#FFD54Fweapons&r",
+        "",
+        "Weapons made with this material can collect &#B39DDBspirits&r too, so you won't have to relei on a &#FFAB91scyth&r anymore.",
+        "",
+        "Or it's used as a &#4DD0E1crafting material&r too"
+    ],
+    "quest.1A372024C6D4839A.quest_desc": [
+        "Since we got the &#B39DDBsoulwood&r, we can speed the &#FFD54Faltar&r quite a bit, but we will need a good supply of &#4FC3F7arcane spirits&r.",
+        "",
+        "Put &e4&r &#FFAB91arcane pylons&r near the altar, similar to the &aObelisks&r, after that, feed some &bspirits&r.",
+        "Now recipes are &#4DD0E1faster&r",
+        "",
+        "You can use other &#81C784spirits&r to &cdecor&r, since light changes"
+    ],
+    "quest.1A372024C6D4839A.title": "&#CE93D8Arcana Pylons",
+    "quest.1A45200047BC1937.quest_desc": [
+        "Right click an &#B39DDBExposed Runewood&r with an &#FFAB91axe&r, after that, right click with a &#4FC3F7glass bottle&r to get the &#FFD54Fsap&r",
+        "",
+        "You can use this as a subtitute of &#81C784slime balls&r at the early game"
+    ],
+    "quest.1C54667EE66C6BCE.quest_desc": [
+        "&#4DD0E1Aerial&r is a bit tricky, since you need something that should be able to fly, but there are 2 mobs that fits that category and are relative easy to farm:",
+        "",
+        "- &#81C784Phantoms&r: You can farm this spirit, &#B39DDBArcane&r and &#EF5350Wicked&r",
+        "",
+        "- &aChickens&r: &#CE93D8Sacred&r and this one",
+        "",
+        "For &#FFAB91Phantoms&r I would recommend disabling the AI with &#FFD54FSpawners&r, although &#4FC3F7Chickens&r are by far the easiest of them"
+    ],
+    "quest.1DE9B2DB4E187973.quest_desc": [
+        "&#CE93D8Runes&r are another way to improve your gameplay, some has minor effects like extra &#4DD0E1speed&r, while others has more complex mechanisms.",
+        "",
+        "It works the same as &#FFD54FAltar&r, but you won't need an &#FFAB91item pedestal&r this time, since we only have &e1 item&r"
+    ],
+    "quest.22A1DC5C3DBFF918.quest_desc": [
+        "Drops from &#81C784Endermans&r",
+        "",
+        "Some of it's uses are for a &#FFD54Fendgame gem&r as well as some stuff related to &#CE93D8Geas&r"
+    ],
+    "quest.236F1EFEBED1B2E3.quest_desc": [
+        "You only need an &#B39DDBenchantment&r, so this quest can be completed, this is mostly information.",
+        "",
+        "The first enchantment will generate more &#4DD0E1lights&r that will mine for you, while the other will make them &#4FC3F7faster&r.",
+        "",
+        "I would suggest against using with &#EF5350Ultimine&r, since it will &ccrash&r you game because it will generate &e4 or more&r lights per block mines.",
+        "",
+        "They do not care which block they mine, as long as it can with the tool it generated them"
+    ],
+    "quest.256819E8EA869BF7.quest_desc": [
+        "&#CE93D8Runes&r are &#81C784upgrades&r to your player or in some cases, to your &#EF5350enemies&r, choose carefully!"
+    ],
+    "quest.256819E8EA869BF7.title": "&#FFD54FAny Rune",
+    "quest.25EACF69F4AA5C28.quest_desc": [
+        "Fancier &#FFD54Fgold&r, &#B39DDBcrafting material&r needed for the mod"
+    ],
+    "quest.29369B6D0959E962.quest_desc": [
+        "The most important block in the entire mod, the &#FFD54Faltar&r, and as always, it's a bit tricky.",
+        "",
+        "All you will ever need is right click or using hoppers/&#4FC3F7SFM&r (even the first example program will work) to insert the &#B39DDBspirits&r and items",
+        "",
+        "The main item needs to go to the &#FFAB91altar&r by right clicking (the one that shows in the middle in &bEMI&r/&bJEI&r), then you need the &#CE93D8spirits&r, which you need to right click with them in the main hand (maximum is &e64&r per spirit).",
+        "",
+        "{@pagebreak}",
+        "If a recipe requires extra items (located on the right side of the recipe on &aEMI&r/&aJEI&r), they go into the &#4DD0E1item pedestals&r being 4 blocks (including center) radius.",
+        "",
+        "Now, finally, the important part, they only will work if you have the correct &#81C784spirits&r, with the spirits going up. You can put 64 spirits or 64 items at the same time for batch crafting, it just care about the ingredient being present and the minimum",
+        "",
+        "When the recipe is done, the result will drop into the world as an item, so you would need to use a &#EF5350item collector&r or similar",
+        "",
+        "All other tables from &dMalum&r works the same, but &cGaze&r do a bit different (more info later)"
+    ],
+    "quest.2D58912C15CC42AF.quest_desc": [
+        "The best &#FFD54FScyth&r from the mod, but still there is a lot to &#B39DDBuncover&r"
+    ],
+    "quest.2E5535BD9EF7C252.quest_desc": [
+        "&#B39DDBMalum&r is a &#CE93D8dark magic&r themed mod, with lots of useful tools and cool animations.",
+        "",
+        "Unlike most mods that go straight to the point, there is a bit of adivination here, but it's pretty much as easy as you it can get",
+        "",
+        "The &#FFD54Fbook&r contains a lot of secrets &#81C784pacts and rites&r that might be useful for you, check them out!"
+    ],
+    "quest.332901797E57E045.quest_desc": [
+        "&#FFAB91Click me more&r, &c&lI CHALLENGE YOU!&r"
+    ],
+    "quest.3398E8F5A62508E3.quest_desc": [
+        "Throw &#CE93D8Hex Ash&r inside the &#4FC3F7well&r"
+    ],
+    "quest.33DA16E3CFBAE1BD.quest_desc": [
+        "This part needs to be done on the &#81C784Overworld&r or in the multiblock.",
+        "",
+        "You need to find a &#CE93D8Weeping Well&r, and your starter &#B39DDBbook&r to it.",
+        "After some time it will returns with an upgraded version.",
+        "",
+        "Either &#FFD54Fcompass&r will point to a near location of the Well, you will need to search a bit"
+    ],
+    "quest.357A15AEF6A75E24.quest_desc": [
+        "You can repair your gear using this multiblocks, works similar to the &#FFD54FAltar&r.",
+        "",
+        "Put the item you want to repair on an &#FFAB91item pedestal&r, put the &#B39DDBspirits&r on the &#4FC3F7Pylon&r and some &eCthonic Gold Fragments&r, give it some time, and good to start again"
+    ],
+    "quest.35EEAC9C37B1EEB4.quest_desc": [
+        "Kill any &#81C784fish&r, yes, that simple",
+        "",
+        "Or &#4FC3F7squids&r, doesn't matter",
+        "",
+        "Or &aslimes&r, any size"
+    ],
+    "quest.363581A91656F58E.quest_desc": [
+        "These aguments goes to the &#FFD54FCatalyzers&r, one augment per tower.",
+        "",
+        "- &#FFAB91Blazing Diode&r will use less fuel and increase speed, you shouldn't use this",
+        "",
+        "- &eShielding Apparatus&r will have a &b10%&r chance to avoid damage and reduce &#EF5350instability&r but reduce the speed. You will get more ingots back that you put, so you don't have to worry.",
+        "",
+        "- &#4DD0E1Warping Engine&r will skip some of the time at the start of the recipe but will lower the effects of all stats and use more fuel",
+        "{@pagebreak}",
+        "- &#CE93D8Impurity Stabilizer&r will make the weakess effect stronger at the cost of all others",
+        "",
+        "- &#B39DDBMending Diffusser&r will have a chance to repair the impetus, but the normal repair is fine, so you should skip this one",
+        "",
+        "- &#81C784Intricate Assembly&r gives fortune at the cost of some recipe speed and damage to the impetus",
+        "",
+        "- &#4FC3F7Accerelation Inlay&r will makes the recipe faster, but will consumes more fuel on the Catalyzer due to that recipe speed",
+        "{@pagebreak}",
+        "The best setup would probably be &c8&r &aAccerelation&r due to the long recipe time. Maybe adding some fortune while using &dResonance Tuner&r since it deletes the damage cost.",
+        "In all setups, you probably want to invest in some form of tick accerelation, like &6Industrial Foregoing Souls&r"
+    ],
+    "quest.3686980DC39E762A.quest_desc": [
+        "This &#B39DDBspirit&r is based on the &#FFAB91nether&r and all the things that goes on &cfire&r or &eexplode&r, as simple as that.",
+        "",
+        "&#81C784Creepers&r only drop this spirits, or you can use &#FFD54Fblazes&r or &#CE93D8zombified piglins&r too since &#4FC3F7scyths&r has AOE (aka hitting multiple mobs)"
+    ],
+    "quest.39437666EFEFA72C.quest_desc": [
+        "The well gives lots of power, but also lots of &#EF5350curses&r",
+        "",
+        "Used as a &#FFD54Fcrafting material&r"
+    ],
+    "quest.3AF33E5437866CED.quest_desc": [
+        "Used a lot if you use &#FFD54FImpetus&r, there is a quest part just for that!",
+        "",
+        "You can already start doing those!"
+    ],
+    "quest.3C0B42313844B4A1.quest_desc": [
+        "&#B39DDBCrafting material&r, made on the &#FFD54Faltar&r, not needed that much"
+    ],
+    "quest.3D147F258BF7975E.quest_desc": [
+        "These cores goes to the &#FFD54FCrucible&r and has some interesting effects:",
+        "",
+        "- &#EF5350Suspicious Device&r will explode the Crucible but generate the same as a &#B39DDBSoulwood Rite&r",
+        "",
+        "- &#FFAB91Symphatic Drive&r will ignores the damage on the impetus, but not always, but when it occurs, it will avoid damage for &e3 recipes&r",
+        "{@pagebreak}",
+        "- &#4FC3F7Resonance Tuner&r will delete &cinstability&r, but will make the recipe to take a bit longer or sometimes makes the &aCatalyzers&r more powerful",
+        "",
+        "- &#81C784Caustic Catalyst&r will make your tunning with the fork more powerful when &dinstability&r rises, so the higher the damage that takes the impetus, the more you can get",
+        "{@pagebreak}",
+        "",
+        "- &#CE93D8Stellar Mechanism&r will make your manual tuning better",
+        "",
+        "You need to choose one, but I would choose the &#4DD0E1Resonance Tuner&r, since it's the simplest one and the &bSuspicious Device&r for a friend"
+    ],
+    "quest.4088AEBAA544523C.quest_desc": [
+        "&#CE93D8Ether&r has &e3 uses&r, &#B39DDBGeas&r, as invisible light source and as &#FFD54Fcrafting material&r.",
+        "",
+        "All of them are powerful, even &#4FC3F7Geas&r, which are \"&#81C784permanent&r\" upgrades"
+    ],
+    "quest.4117824973AB97C3.quest_desc": [
+        "&#FFD54FCrafting materials&r, has some important uses, like &#4FC3F7armor&r or &#CE93D8runes&r"
+    ],
+    "quest.416F14D42D4E6685.quest_desc": [
+        "If you want to pass enchantments from your original &#FFD54Fscyth&r to this one, you can, although, there is a method using &#B39DDBspirits&r too!"
+    ],
+    "quest.44B9580A098565F4.quest_desc": [
+        "You can occasionally get them from &#81C784zombies&r"
+    ],
+    "quest.44B9A82A07B42089.quest_desc": [
+        "Drops from &#81C784phantoms&r, used on some &#B39DDBmisc craftings&r and for &#FFD54FImpetus&r"
+    ],
+    "quest.4921A22866F9253C.quest_desc": [
+        "After you have collected some items, you will need some &#B39DDBspirits&r, which is simpler than you think",
+        "",
+        "You just need to kill some mobs with a specific weapon or make 1 big multiblock, here we will be talking about the weapon part.",
+        "",
+        "You can damage the mob until it has &c1 Hearth&r and then kill them using this weapon to get the spirits.",
+        "",
+        "Some items from this questline can only be dropped by killing with a &#FFD54FScyth&r like &#4DD0E1Warp&r or &#CE93D8Grim Talc&r"
+    ],
+    "quest.4A4F5DE5D43DE5E9.quest_desc": [
+        "This is a simple device that has 1 use, tune the &#FFD54FCrucible&r",
+        "",
+        "While holding it and looking at a &#FFAB91Crucible&r, you will see new text",
+        "",
+        "If you right click, one of these will be highlighted and numbers will chance, if you right click again, you will change to another &#81C784stat&r or not tune the Crucible.",
+        "",
+        "If you upgrade one stat, you will decrease the others or increase the bad one!"
+    ],
+    "quest.4AE4D91089DA1035.quest_desc": [
+        "Throw &#FFAB91Blaze Powder&r inside the &#4FC3F7well&r"
+    ],
+    "quest.4D66D768235961E9.quest_desc": [
+        "You feel something is looking at you on the &#4FC3F7well&r, you are tempted, and you jump...",
+        "",
+        "You feel broken, with no soul, but a new spirit has been formed, your's",
+        "{@pagebreak}",
+        "If you haven't understood, jump into the well once, it will eject you up and drop an &#CE93D8umbra spirit&r, after that, you won't receive more.",
+        "",
+        "To get more, you need to kill &#81C784villagers&r with &#B39DDBVeil&r, more info after you complete this quest"
+    ],
+    "quest.4ED1D6EA1C603BE0.quest_desc": [
+        "Magical creatures, but not all of them",
+        "",
+        "The easiest ones are &#CE93D8witches&r, &#FFAB91blazes&r, &#81C784slimes&r and &#4FC3F7phantoms&r",
+        "",
+        "Or if you want to do &cWithers&r, you can also use &eWither Skeletons&r"
+    ],
+    "quest.4F4F69C0FE90C33B.quest_desc": [
+        "&#FFD54FImpetus&r are a way to duplicate your materials for basically free, you just need a &#B39DDBspirit farm&r and a coal farm, that's all.",
+        "",
+        "Each recipe takes &e45 seconds&r and damaging the impetus by 2, but this can be reduced to &a1 tick&r with a few tricks :p",
+        "",
+        "{@pagebreak}",
+        "But first let's look at some important stats you want to know:",
+        "",
+        "- &#EF5350Instability&r makes the impetus to take more damage, so we want to avoid that to min-max",
+        "",
+        "- &#FFAB91Fortune&r has a chance to give a few more nodes per recipe",
+        "",
+        "- &#4DD0E1Warping&r ignores some recipe time, so basically skip some time",
+        "",
+        "&cInstability&r makes more damage to the impetus",
+        "",
+        "&#81C784Fortune&r has a chance to give more ",
+        "",
+        "&#4FC3F7Warping&r ignores time for the next recipe",
+        "",
+        "&dSus device&r makes an explosion",
+        "",
+        "&#CE93D8Shielding&r makes repairing the impetus "
+    ],
+    "quest.510473AF470648A4.quest_desc": [
+        "Throw &#FFD54FCthonic Gold&r inside the &#4FC3F7well&r"
+    ],
+    "quest.51682E42C94E35C2.quest_desc": [
+        "&#FFAB91Right click it&r, &c&lI dare you&r"
+    ],
+    "quest.521E589CAE9151B0.quest_desc": [
+        "&#CE93D8Veil's Edge&r is a thrown weapon, like &#4FC3F7trident&r, but works with built-in loyalty enchantment.",
+        "",
+        "If you kill &#81C784villagers&r or other &#FFAB91players&r, you have a chance to get some spirits, &e10%&r with villagers, &a100%&r with players.",
+        "",
+        "You will need an &#B39DDBExposed Soulwood log&r first, then right click it with an axe and finally right click some &#4DD0E1glass bottle&r to get the &#FFD54Fsap&r. After that it's the same as you did before :)"
+    ],
+    "quest.53F10B6BED6A9E77.quest_desc": [
+        "They are mainly dropped from hostile mobs like &#81C784Zombies&r or &#CE93D8Skeletons&r, but not all of the hostiles drops them.",
+        "",
+        "I would recommend &azombies&r, since they are the easiest to contain"
+    ],
+    "quest.54B65FE4F8B29E9D.quest_desc": [
+        "Or you can trade some &#4DD0E1speed&r for &e2 slots&r, which is a decent trade, even more than &#EF5350health&r"
+    ],
+    "quest.564418D6BFA07392.quest_desc": [
+        "Will need some &#FFD54Firon nodes&r, but this axe will generate a few &#81C784green light&r that will mine for you and bring those blocks."
+    ],
+    "quest.59B7B59384B13029.quest_desc": [
+        "This is pretty simple to get, &#81C784zombies&r, they are by far the easiest mob you can use to farm &e2 spirits&r at the same time, you can use &#CE93D8Kobolts&r from &#B39DDBThe Twilight Forest&r too.",
+        "",
+        "Or &#FFAB91Foxes&r to farm 3 spirits, or &acows&r or &bsheeps&r (this last one, you should do it with &#4FC3F7HNN&r for &#4DD0E1AE2&r cables ;) )"
+    ],
+    "quest.5B92ED10BCDB1CC6.quest_desc": [
+        "&#CE93D8Geas&r are a powerful system allowing players to get extra effects at the cost of some others.",
+        "",
+        "Those effects are \"permanet\", that means even if you die, you will keep them.",
+        "",
+        "You will need the items listed on the book as well as an &#4FC3F7Ether&r. Put everything (no item pedestals needed) on this table and right click with an &#B39DDBEther&r.",
+        "",
+        "After that, right click with an empty hand to get the effect, but be quick or the &#FFD54Fritual&r might turn off."
+    ],
+    "quest.5E9BF96FD602AD97.quest_desc": [
+        "Will need some &#FFD54Firon nodes&r, but this pickaxe will generate a few &#81C784green light&r that will mine for you and bring those blocks."
+    ],
+    "quest.60DFA72F65DCB947.quest_desc": [
+        "Throw &#4DD0E1Brilliance&r inside the &#4FC3F7well&r"
+    ],
+    "quest.62DE9781C6440899.quest_desc": [
+        "This is a special table, it can disenchant lots of items in seconds, but has some caviats.",
+        "",
+        "It works similar to the &#FFD54Faltar&r, but will use all &#B39DDBspirits&r, except &#CE93D8umbra&r, at least &e8 up to 64&r of each spirit, so you want to max that out!",
+        "",
+        "You need to place a &#4FC3F7book&r as the main item and all gear with enchantments on &#FFAB91item pedestals&r, after some time, you will get the &denchanted book&r, but it won't drop as item"
+    ],
+    "quest.65614D7709B70C71.quest_desc": [
+        "Throw &#FFD54FIron Block&r inside the &#4FC3F7well&r"
+    ],
+    "quest.68F0F12785C2DE8A.quest_desc": [
+        "&#B39DDBSoulwood&r, the next tier of &#4FC3F7Arcane&r, but it is all? Well, no, we have 1 tier to get.",
+        "",
+        "If you did the rite correctly, you will get a &#CE93D8Blighter Earth&r platform with different materials.",
+        "",
+        "{@pagebreak}",
+        "You probably got a sapling, which you can use to replicate the Rite but a lot faster, just by planting and growing the tree.",
+        "",
+        "From time to time, there will be anomalies, and some part of the corruption will convert to &#81C784Scarstone&r and &#FFD54FStrange Crystals&r"
+    ],
+    "quest.69868BBC56DA8F95.quest_desc": [
+        "Drops from &#81C784Breezes&r, it's a bit rarer than the others, but after you get &e4&r, you can get &#4FC3F7infinite&r amount of them"
+    ],
+    "quest.6D1ED42DEA8ECA02.quest_desc": [
+        "Using some &#FFAB91embers&r, you can launch some &cfireballs&r, it do &e3&r explosions, so items will be broken"
+    ],
+    "quest.7061DB6C61BD30AA.quest_desc": [
+        "Well, time to get some &#B39DDBbetter secrets&r, this time, mainly 2 things, better understanding of which mob will drop which &#CE93D8spirit&r and more &#FFD54Frites&r (but tbh they are not good enough)",
+        "",
+        "Also it's the background of these quests :p"
+    ],
+    "quest.7727303A95715645.quest_desc": [
+        "&#EF5350Health&r can be easily recovered from and there are a few ways not to get damaged, so it's a &#81C784good way&r"
+    ],
+    "quest.77822FE077DEBE01.quest_desc": [
+        "Well, you have noticed (if you haven't used something like &#4FC3F7IF Souls&r), that crafting speeds are horrendous.",
+        "",
+        "There is a way to speed things up and other utils:",
+        "",
+        "- &#FFD54FSpirit Jar&r: A cheap way (and fashionable) to store spirits, can only hold 1 spirit but has lots of capacity (as a Max Drawer)",
+        "",
+        "{@pagebreak}",
+        "- &#B39DDBRunewood Obelisk&r: This allows to speed up your altar's crafting time, decreasing them by 1/4, so if you have a time of 10, first obelisk will reduce it to 7, then the second will do 5 and so on",
+        "",
+        "- &#4DD0E1Brilliance Obelisk&r: Acts as a bookshelf, you can have up to &e5&r at the same time before the effect stops"
+    ],
+    "quest.77D8CD1FB883BC36.quest_desc": [
+        "Drops from &#81C784skeletons&r, specially from variants from normal one"
+    ],
+    "quest.79E2FB0410825C47.quest_desc": [
+        "&#FFD54FScythes&r has some uniques enchantments that you can apply, but the most important ones are &#B39DDBHaunted&r (which increase Magical Damage) and &#CE93D8Spirit Plunder&r, which allows you to loot more &#81C784spirits&r",
+        "",
+        "Higher levels gives you more spirits, &#4FC3F7SFM&r allows you to copy this book if you need, which is the easiest from all mods!"
+    ],
+    "quest.79E2FB0410825C47.title": "&dEnchantmets!",
+    "quest.7AB051138D982881.quest_desc": [
+        "Throw &#CE93D8Refined Soulstone&r inside the &#4FC3F7well&r"
+    ],
+    "quest.7B243684405FFB35.quest_desc": [
+        "Allows to remove a &#CE93D8Geas&r"
+    ],
+    "quest.7B507766424DD877.quest_desc": [
+        "&#FFD54FCrafting material&r, you won't need a lot of them"
+    ],
+    "quest.7D4ECB54B96AFCA8.quest_desc": [
+        "Drops from any passive mobs, I would recommend &#81C784chicken&r since you can farm &e2 spirits&r at the same time, &#4DD0E1Aerial&r and this one. Fishes doesn't count sadly",
+        "",
+        "Or &#FFAB91foxes&r for the same as chichen and &#CE93D8Earthen&r too.",
+        "",
+        "Although some other mob with low health will do better, like a &#FFD54Fbee&r"
+    ],
+    "quest.7F5D4C74576F702E.quest_desc": [
+        "Malum doesn't only have 1 type of magic, we have in world magic too, but it's pretty simple to understand.",
+        "",
+        "Put a &#FFD54FTotem base&r and &e5&r &#B39DDBrune wood&r on top, like a column. After that, you will need to right click on the logs using the &#CE93D8spirits&r",
+        "",
+        "For this rite (their name), you will need 5 &#4FC3F7arcane spirits&r, one on each log (you can't put 2 on the same log, don't worry).",
+        "",
+        "Go to the &#81C784mining dimension&r or somewhere with grass, that's important. After that, make the column and put the spirits. Right click on the base and it will start. It will start to corrupt itself to make the necessary items. You can't reuse this rite unlike the others"
+    ]
+}

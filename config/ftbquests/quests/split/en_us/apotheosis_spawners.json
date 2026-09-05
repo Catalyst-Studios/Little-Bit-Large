@@ -1,129 +1,124 @@
 {
-    "quest.06EA43B239BD0B56.quest_subtitle": "The Beginning",
-    "quest.06EA43B239BD0B56.title": "Your First Modifier!",
+    "quest.033D2539834A1790.quest_desc": [
+        "This is the standard for &#6441A5automation&r, &#FF512Fredstone controlled&r.",
+        "",
+        "This &#FFB75Esimple rune&r allows to &#F09819turn off and on&r your &#2A0845mob farm&r... in case of &#caccident&r"
+    ],
     "quest.0DACD6F3077FBD20.quest_desc": [
-        "Apothic Spawners allows you to modify spawners to make them faster and more efficient!",
+        "&#6441A5Apothic Spawners&r allows you to modify &#FF9966spawners&r to make them &#FFE259faster&r and &#FFA751more efficient&r!",
         "",
-        "Pick up any spawner using a &bSilk Touch&r pick!",
+        "Pick up any spawner using a &#FFB75ESilk Touch&r pick!",
         "",
-        "You can change the spawned mob by right-clicking the spawner with its spawn egg.",
+        "You can change the spawned mob by &#F09819right-clicking&r the spawner with its &#FF512Fspawn egg&r.",
         "",
-        "&aTip:&r You can also use &bMekanism Cardboard Boxes&r to pick spawners up!"
+        "&aTip:&r You can also use &#6441A5Mekanism Cardboard Boxes&r to pick spawners up!"
     ],
-    "quest.0DACD6F3077FBD20.title": "Apothic Spawners!",
+    "quest.0DACD6F3077FBD20.title": "&#6441A5Apothic Spawners!&r",
     "quest.0DC883B46880A03C.quest_desc": [
-        "Enchant a weapon with &bCapturing&r to have a chance of getting it's spawn egg!"
+        "Enchant a weapon with &#FF512FCapturing&r to have a chance of getting its &#FFB75Espawn egg&r!"
     ],
-    "quest.0DC883B46880A03C.quest_subtitle": "Which came first? The chicken or the egg?",
-    "quest.0DC883B46880A03C.title": "Getting Spawn Eggs",
-    "quest.1AD8C1337F69E1C5.quest_desc": [
-        "Makes the spawner require a &bredstone signal&r to function."
-    ],
-    "quest.1AD8C1337F69E1C5.title": "Redstone Toggle",
-    "quest.240552BBF5D94EB1.quest_desc": [
-        "Mobs ignore spawn conditions and spawn in any condition.",
+    "quest.0DC883B46880A03C.quest_subtitle": "&#FFE259&oWhich came first? The chicken or the egg?&r",
+    "quest.0DC883B46880A03C.title": "&#FF9966Getting Spawn Eggs&r",
+    "quest.196CBA611A663E3F.quest_desc": [
+        "Well, this is the &#FFE259&lmost important rune&r in the entire game, &#FF512Feliminating AI&r from mobs!",
         "",
-        "You don't need &bIgnore Light Level&r if you have this upgrade."
+        "Mobs, even falling ones, will do operations to see where they go, so if we can make them not do that, we are &a&lsaving on lag&r"
     ],
-    "quest.240552BBF5D94EB1.quest_subtitle": "This spot looks good enough",
-    "quest.240552BBF5D94EB1.title": "&bIgnore Spawn Conditions",
     "quest.26D7A8C7156AB1F6.quest_desc": [
-        "If you want to remove modifiers, just take that modifier item and hold a piece of &bNether Quartz&r in your &lOff-Hand&r to remove one level of modifier!"
+        "If you want to &#FF512Fremove modifiers&r, just take that modifier item and hold a piece of &#FFE259Nether Quartz&r in your &l&#FF9966Off-Hand&r to remove one level of modifier!"
     ],
-    "quest.26D7A8C7156AB1F6.quest_subtitle": "Everyone makes mistakes",
-    "quest.26D7A8C7156AB1F6.title": "Removing Modifiers",
-    "quest.328025E9BA01FBDC.quest_desc": [
-        "The spawner no longer needs &bplayer nearby&r to spawn mobs.",
+    "quest.26D7A8C7156AB1F6.quest_subtitle": "&#FFB75E&oEveryone makes mistakes&r",
+    "quest.26D7A8C7156AB1F6.title": "&#FF512FRemoving Modifiers&r",
+    "quest.31028CC9083CE607.quest_desc": [
+        "Instead of being near your &#FF9966base&r, having to render those particles and items, you can have your mobs on &#6441A5another dimension&r, without you being near"
+    ],
+    "quest.384E7E52EB0C42D2.quest_desc": [
+        "Improves &#FFE2594 stats&r of your spawners, but brings &#FF512F1 downside&r: spawns more enemies.",
+        "Isn't that the whole point? Well, yes, but you have to be prepared for the amount of &#FFA751loot&r and &c&ltrash&r",
         "",
-        "Great for farming while doing other things!"
+        "Only &#FFB75E1 upgrade rune&r is needed for each spawner. You can use &#6441A5higher tiers&r later on to upgrade them!"
     ],
-    "quest.328025E9BA01FBDC.quest_subtitle": "I don't need you",
-    "quest.328025E9BA01FBDC.title": "&dIgnore Players",
-    "quest.32E4322646FFF017.quest_desc": [
-        "Mobs ignore light level and will spawn in any light level."
-    ],
-    "quest.32E4322646FFF017.quest_subtitle": "I'm legally blind",
-    "quest.32E4322646FFF017.title": "Ignore Light Level",
-    "quest.40D0DEDD660A301E.quest_desc": [
-        "Decreases the amount of health mobs spawned with.",
+    "quest.40467A2FFEF2B77B.quest_desc": [
+        "This is basically &#FFE259looting&r, but instead of being tied to your weapon, it's tied to the &#FF9966mob&r.",
         "",
-        "Each dripstone will &b-5% to initial health&r to a &bmin of 20% health&r."
+        "Maybe it's useful for mobs that only drop 1, regardless of looting. Maximum is &#FF512F3 runes&r per spawner"
     ],
-    "quest.40D0DEDD660A301E.quest_subtitle": "Call an ambulance!",
-    "quest.40D0DEDD660A301E.title": "Less Initial Health",
-    "quest.45486AC8954F26C1.quest_desc": [
-        "Increases the range in which mobs spawn.",
+    "quest.40A80C86E6A46275.quest_desc": [
+        "This one is the &#FF512Ftrickiest&r and needs &#FFE2591 extra step&r: having a &#FFA751Quartz&r in your off hand while applying, so you can have your mob farm in as little space as you can.",
         "",
-        "Each piston will &b+2 spawn range&r to a &bmax of 32 blocks&r."
+        "Each rune increases/decreases by &#FF99662 blocks&r in each direction"
     ],
-    "quest.45486AC8954F26C1.quest_subtitle": "Plenty of room to stretch",
-    "quest.45486AC8954F26C1.title": "More Spawn Range",
-    "quest.49235AB18DFE6AD7.quest_desc": [
-        "Spawned mobs will always spawn as a baby if possible. "
-    ],
-    "quest.49235AB18DFE6AD7.quest_subtitle": "&4You Monster&r",
-    "quest.49235AB18DFE6AD7.title": "Youthful",
-    "quest.5760A1BA7C6CDA67.quest_desc": [
-        "Decreases the maximum tick time between spawns. ",
+    "quest.43F08ECBAEB2B88A.quest_desc": [
+        "The &#6441A5enchanting table&r is calling the runes, although it seems like I need to improve them with some &dmagical infusion&r.",
         "",
-        "Each clock will -20 ticks to the &bmax spawn delay&r.",
+        "Even some &#2A0845sculk&r will help me ",
         "",
-        "Minimum max spawn delay is &b20 ticks&r."
+        "This quest is locked behind &#6441A5Apothic Enchanting&r, so make sure to complete this quest!"
     ],
-    "quest.5760A1BA7C6CDA67.quest_subtitle": "Upper bound",
-    "quest.5760A1BA7C6CDA67.title": "Maximum Spawn Delay",
-    "quest.6B477C68C8D84A3D.quest_desc": [
-        "Spawns &6burning&r mobs. &oOuch&r."
+    "quest.449AB0AB58F18D14.quest_desc": [
+        "Well, another &#FF512Ftricky one&r, some mobs have &#FFB75Ebaby versions&r like zombies and others don't, so only apply this rune when you need the &#FFE259babies&r"
     ],
-    "quest.6B477C68C8D84A3D.quest_subtitle": "Let them burn",
-    "quest.6B477C68C8D84A3D.title": "Burning",
-    "quest.6C504AA720E7C1C3.quest_desc": [
-        "Decreases the minimum tick time between spawns. ",
+    "quest.45011A6392E04DB9.quest_desc": [
+        "Well, a &bpolar bear&r will only spawn under certain conditions, like being on ice or a wither being in a nether fortress. Well, this rune &#FF512Fdeletes that&r and &aautomatically spawns&r them"
+    ],
+    "quest.468AE3AB91F19A3F.quest_desc": [
+        "&#6441A5Apotheosis&r has changed a few rules about spawners, now needing one to &c&lexplode&r",
         "",
-        "Each sugar will -20 ticks to the &bmin spawn delay&r.",
+        "Maybe some &#FF512Ftnt&r above a spawner will do.",
         "",
-        "Minimum min spawn delay is &b20 ticks&r."
+        "Generates from &#FFE25948 to 64 chains&r in 1 go, although the explosion size will be &cbig&r and will deal a lot of &c&ldamage&r"
     ],
-    "quest.6C504AA720E7C1C3.quest_subtitle": "Lower bound",
-    "quest.6C504AA720E7C1C3.title": "Minimum Spawn Delay",
-    "quest.6FE1831C4E32CD9D.quest_desc": [
-        "Increases the amount of mobs spawned per wave.",
+    "quest.468AE3AB91F19A3F.quest_subtitle": "&#FF512F&l&o\"EXPLOSION!\"&r",
+    "quest.468AE3AB91F19A3F.title": "&#FF512FSpawner chains&r",
+    "quest.4B917FDB9F8FAD6C.quest_desc": [
+        "Did you hear that? No? Well, that's what the rune does: &#6441A5silencing mobs&r"
+    ],
+    "quest.573CA889D2CDF334.quest_desc": [
+        "Well, did you know that &#FF512Flava&r puts mobs into &#F09819flames&r? Well, they spawn with &#FF9966fire already set&r, so you can have an automatic &#FFB75Ecooked steak farm&r, no furnaces needed"
+    ],
+    "quest.57DDCA49B6BE7836.quest_desc": [
+        "Reduces enemies' health by &#FF512F5%&r per rune, up to &c&l20%&r",
         "",
-        "Each eye will &b+2 spawn count&r to a &bmax of 16 mobs&r in a single wave."
+        "You can't have enemies with more than &a100%&r"
     ],
-    "quest.6FE1831C4E32CD9D.quest_subtitle": "More Mobs!",
-    "quest.6FE1831C4E32CD9D.title": "Increase Spawn Count",
-    "quest.74F6B9592744EC7C.quest_desc": [
-        "Killed mobs drop more loot! ",
+    "quest.5FD1675BDBA67959.quest_desc": [
+        "The &#FF9966chains&r are reacting with some of your materials, maybe they want to combine into something &#FFE259better&r.",
         "",
-        "Each Echo Shard gives &b+1 level&r. Max level is &bEchoing V&r."
+        "These are the &#6441A5bases&r for all upgrades in the mod!"
     ],
-    "quest.74F6B9592744EC7C.quest_subtitle": "MOAR LOOT!",
-    "quest.74F6B9592744EC7C.title": "More Loot!",
+    "quest.6283EDCFB4288F57.quest_desc": [
+        "&#6441A5Purple rune&r, and it shines! Well, time to upgrade the &#FFE259100 spawners&r we have in the base",
+        "",
+        "Only &#FFB75E1 upgrade rune&r is needed for each spawner. You can use &#6441A5higher tiers&r later on to upgrade them!"
+    ],
+    "quest.66E433E2BF7A5FD4.quest_desc": [
+        "Now, you can put the spawner under &#FF512Flava&r or in front of the &#FFE259Sun&r, it will still &a&lgenerate the mobs&r"
+    ],
+    "quest.6CC472B4E968DC08.quest_desc": [
+        "The &#FFE259&lbest tier&r possible of upgrades",
+        "",
+        "Maybe some &#6441A5other upgrades&r will help you"
+    ],
+    "quest.76B0E4F2BBBE3B5F.quest_desc": [
+        "More expensive than the &a&lgreen one&r, but at least it's a bit &#FFE259faster&r. I should be able to combine upgrades",
+        "",
+        "Only &#FFB75E1 upgrade rune&r is needed for each spawner. You can use &#6441A5higher tiers&r later on to upgrade them!"
+    ],
     "quest.78C350866A75F0D0.quest_desc": [
-        "Now that you have all the pieces, it's time to create the &l&dUltimate Spawner&r&r. ",
+        "Now that you have all the pieces, it's time to create the &#6441A5&lUltimate Spawner&r.",
         "",
-        "It'll have &bMinimum Delays&r, &bRedstone Control&r, &bNo AI&r, &bIgnores Spawn Conditions&r, and &bIgnores Players&r."
+        "It'll have &#FF512FMinimum Delays&r, &#F09819Redstone Control&r, &#FF9966No AI&r, &#FFB75EIgnores Spawn Conditions&r, and &#FFE259Ignores Players&r."
     ],
-    "quest.78C350866A75F0D0.quest_subtitle": "Infinite loot!",
-    "quest.78C350866A75F0D0.title": "&o&l&dThe Ultimate Spawner&r&r&r",
-    "quest.7A71E1BAB8050192.quest_desc": [
-        "+2 total entities near by Max 32"
-    ],
-    "quest.7A71E1BAB8050192.quest_subtitle": "Getting Crowded",
-    "quest.7A71E1BAB8050192.title": "Max Nearby Entities",
+    "quest.78C350866A75F0D0.quest_subtitle": "&#FFE259Infinite loot!&r",
+    "quest.78C350866A75F0D0.title": "&#6441A5&o&lThe Ultimate Spawner&r",
     "quest.7D421F7F44B98A4F.quest_desc": [
-        "You are &lnot&r allowed to use these quests in any public pack without &4&nexplicit permission&r from Catalyst Studios.",
+        "You are &lnot allowed to use these quests in any public pack without &#FF512F&nexplicit permission&r from Catalyst Studios.",
         "",
-        "&bApothic Spawners&r questline made by: &5ArcTrooper&r",
+        "&#6441A5Apothic Spawners&r questline made by: &#FF9966ArcTrooper&r",
         "",
         "If you are seeing this, it means you are in editing mode."
     ],
-    "quest.7DDA8F8BFCB5F3EC.quest_desc": [
-        "Mobs spawn with no AI which means they won't do anything.",
-        "",
-        "&eWarning:&r This &omay&r break certain interactions with mobs."
-    ],
-    "quest.7DDA8F8BFCB5F3EC.quest_subtitle": "&oWhat am I?",
-    "quest.7DDA8F8BFCB5F3EC.title": "No Ai"
+    "quest.7DF7F8287A48BEF6.quest_desc": [
+        "The &#6441A5runes&r we have crafted before are calling to get another version, even &#FFE259&lmore powerful&r"
+    ]
 }

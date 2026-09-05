@@ -27,7 +27,7 @@
     "quest.02286BA0F16600B1.quest_subtitle": "Esta será longa",
     "quest.02286BA0F16600B1.title": "&dO começo de uma jornada",
     "quest.024A2075F924FE1C.quest_desc": [
-        "Imagine que você tem sua base no &aMundo Superior&r e você tem uma configuração no &dThe End&r e precisa mudar um &6padrão&r.",
+        "Imagine que você tem sua base no &aMundo Superior&r e você tem uma configuração no &dEnd&r e precisa mudar um &6padrão&r.",
         "",
         "Você teria que ir até lá e mudar os &6padrões&r manualmente, mas não mais com este terminal!"
     ],
@@ -83,7 +83,7 @@
         "",
         "Elas são feitas para manter &eitens&r, &9fluidos&r, &cgás&r, ... em estoque e inserir muitas coisas rapidamente na sua &drede&r, mas com um custo de &aenergia&r.",
         "",
-        "Elas podem mover 9 packs de &eitens&r por tick, então são rápidas"
+        "Elas podem mover 9 packs de &eitens&r por tique, então são rápidas"
     ],
     "quest.0B6D864866C886A0.quest_subtitle": "Como mover coisas rápido",
     "quest.0B6D864866C886A0.title": "Interface",
@@ -220,9 +220,9 @@
     "quest.14CB7FBA94CA9F72.quest_desc": [
         "Esta é a única geração de energia que você encontrará neste mod e, infelizmente, elas não podem ser usadas com outros mods.",
         "",
-        "- &dcâmara de vibração&r: Gera 80 &aFe&r por tick queimando combustível. Pode ser aprimorada.",
+        "- &dcâmara de vibração&r: Gera 80 &aFe&r por tique queimando combustível. Pode ser aprimorada.",
         "",
-        "- &dcâmara de ressonância de cristal&r: Gera 40 &aFe&r por tick de graça. Apenas 1 por &crede&r.",
+        "- &dcâmara de ressonância de cristal&r: Gera 40 &aFe&r por tique de graça. Apenas 1 por &crede&r.",
         "",
         "Mais tarde, explicarei o que é uma rede."
     ],
@@ -342,7 +342,7 @@
         "",
         "Agora, para a parte \"difícil\", &dtipos&r.",
         "",
-        "Tipos existem por uma razão principal, &4corrupção&r. Não permite que você armazene todo o lixo da sua &afazenda de mobs&r, como armaduras ou armas danificadas.",
+        "Tipos existem por uma razão principal, &4corrupção&r. Não permite que você armazene todo o lixo da sua &afazenda de criaturas&r, como armaduras ou armas danificadas.",
         "Essas ferramentas ou armaduras em grande quantidade podem causar um &cban&r do seu mundo.",
         "",
         "Como eu sei o que é considerado um &dtipo&r? Se você pode empilhar a mesma coisa em uma mochila com uma melhoria de pilha, então é o mesmo tipo, se não, é diferente."
@@ -407,7 +407,7 @@
         "Por exemplo, quando você fica sem combustível na sua geração de energia principal, estes fornecerão um pequeno buffer para você conseguir mais combustível.",
         "",
         "Outra coisa útil deles é permitir &doperações&r mais rápidas.",
-        "Quando você insere toneladas de itens, como 9 packs por tick, em uma interface, ela usará muita energia, então pode ajudar muito nesse tipo de cenário"
+        "Quando você insere toneladas de itens, como 9 packs por tique, em uma interface, ela usará muita energia, então pode ajudar muito nesse tipo de cenário"
     ],
     "quest.312977962EF7DFA3.quest_subtitle": "Armazenando energia?",
     "quest.313E0224222B0EAD.quest_desc": [

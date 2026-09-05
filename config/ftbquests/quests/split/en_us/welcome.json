@@ -1,6 +1,11 @@
 {
     "quest.75A4C6008C48EA66.quest_desc": [
-        "Welcome to &lLittle Bit Large&f from &4Catalyst Studios&f! This is just the beginning and very much a WIP."
+        "Welcome to &lLittle Bit Large&f&r from &#f2170c<glitch>Catalyst</glitch>&r &#ff9329Studios&f!",
+        "",
+        "The &#40916Cquestbook&r serves as a sort of &#74C69Dguide&r for the different mods, it's totally &l&#40916Coptional&r&r, but if you are stuck, you can use it.",
+        "",
+        "Have fun!"
     ],
+    "quest.75A4C6008C48EA66.quest_subtitle": "In Beta",
     "quest.75A4C6008C48EA66.title": "Welcome to Little Bit Large!"
 }

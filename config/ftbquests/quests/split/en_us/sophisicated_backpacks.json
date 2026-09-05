@@ -100,6 +100,15 @@
         "&6Feeding&r the player with &afood&r? What is this? A &dchest&r?"
     ],
     "quest.3E2EF442186980C3.quest_subtitle": "Not my food!!!",
+    "quest.3F4053275A5A1049.quest_desc": [
+        "This mod is about &cstorage&r, this time around &6chests&r and &abarrels&r.",
+        "",
+        "They provide &dupgrades&r, like more &eitems&r in a slot, &bfiltering&r and &cvoiding&r!",
+        "",
+        "There are a lot of &5upgrades&r and &dstorage&r, check them out!"
+    ],
+    "quest.3F4053275A5A1049.quest_subtitle": "Storing the world",
+    "quest.3F4053275A5A1049.title": "Backpacks",
     "quest.40621C71E36A7549.quest_desc": [
         "Basically, it &dallows&r you to &cstore&r 4 times more in each &6slots&r"
     ],

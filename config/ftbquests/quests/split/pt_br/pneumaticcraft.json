@@ -150,11 +150,11 @@
     "quest.13647F5B0F6745E5.quest_desc": [
         "Se você quiser fazer núcleos de gerador personalizados, vai precisar disso.",
         "",
-        "Eles precisam ser preenchidos com experiência na planta de processamento termopneumático para poderem ser preenchidos com mobs."
+        "Eles precisam ser preenchidos com experiência na planta de processamento termopneumático para poderem ser preenchidos com criaturas."
     ],
     "quest.13647F5B0F6745E5.quest_subtitle": "Estrutura",
     "quest.1A36052DF194B26A.quest_desc": [
-        "O drone de guarda atacará mobs em uma área de 31x31 e 8 para cima e 5 para baixo do inventário em que for colocado. Este inventário deve conter armas ou munição de minigun se a melhoria de minigun estiver instalada.",
+        "O drone de guarda atacará criaturas em uma área de 31x31 e 8 para cima e 5 para baixo do inventário em que for colocado. Este inventário deve conter armas ou munição de minigun se a melhoria de minigun estiver instalada.",
         "",
         "Observe que esses drones têm vida e podem morrer; existem melhorias de armadura и de regeneração para eles.",
         "",
@@ -225,11 +225,11 @@
     ],
     "quest.24CBEE1570C4CCAD.quest_subtitle": "Factorio, é você?",
     "quest.25081C81DD7C47E9.quest_desc": [
-        "O núcleo do gerador é inserido no gerador pressurizado para que ele gere quaisquer mobs que estejam no núcleo.",
+        "O núcleo do gerador é inserido no gerador pressurizado para que ele gere quaisquer criaturas que estejam no núcleo.",
         "",
         "Personalizados podem ser feitos na armadilha a vácuo com núcleos criados do zero.",
         "",
-        "O núcleo que você obteve ao extrair um gerador pode ser colocado de volta assim que você o transformar em um gerador pressurizado, se você quiser aquele mob em particular."
+        "O núcleo que você obteve ao extrair um gerador pode ser colocado de volta assim que você o transformar em um gerador pressurizado, se você quiser aquela criatura em particular."
     ],
     "quest.2794DEFAA6E8DD10.quest_desc": [
         "Versão melhorada, esta tem 2 coordenadas e pode até selecionar diferentes formas."
@@ -252,7 +252,7 @@
     "quest.2BA68052B62D7EBF.quest_desc": [
         "O gerador pressurizado é um gerador poderoso que rivaliza com o Gerador Apothic.",
         "",
-        "uma vez totalmente melhorado e funcionando a 20 bar, este gerador funcionará a taxas semelhantes às do gerador Apoth e é capaz de conter um núcleo com uma grande quantidade de mobs diferentes em um único gerador",
+        "uma vez totalmente melhorado e funcionando a 20 bar, este gerador funcionará a taxas semelhantes às do gerador Apoth e é capaz de conter um núcleo com uma grande quantidade de criaturas diferentes em um único gerador",
         "",
         "&4(NOTA! a pressão operacional mínima para o gerador é de 10 Bar, use com cuidado.)&r"
     ],
@@ -493,6 +493,7 @@
         "O plástico é usado em vários componentes e blocos no pnc, como placas de circuito e várias máquinas"
     ],
     "quest.6CA72FFE06D0D4A2.quest_subtitle": "Atalho",
+    "quest.6CA72FFE06D0D4A2.title": "Plástico",
     "quest.6DA978E4D7B0B5F6.quest_desc": [
         "Bomba de vácuo aprimorada, esta bomba é um módulo de tubo e será capaz de lidar com tanta pressão quanto o tubo em que for colocada. Você pode aprimorar ainda mais a bomba com uma carta de expansão de módulo"
     ],

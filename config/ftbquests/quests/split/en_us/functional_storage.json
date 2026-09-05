@@ -131,7 +131,7 @@
     "quest.50FEE6D19ABFC8DF.quest_desc": [
         "Yes, the mod speciality, &cstorage&r",
         "",
-        "There are a lot of &dfine&r &6details&r around it, you should &eread&r the quest"
+        "There are a lot of &dfine&r &6details&r around it, you should &eread&r the quests"
     ],
     "quest.50FEE6D19ABFC8DF.quest_subtitle": "[{\"text\":\"Pass the cursor over the \"},{\"text\":\"title\",\"color\":\"#29e6ca\"},{\"text\":\"!\",\"color\":\"#FFFFFF\"}]",
     "quest.50FEE6D19ABFC8DF.title": "[{\"text\":\"Welcome to \",\"color\":\"#FFFFFF\"},{\"text\":\"Functional\",\"color\":\"#29e6ca\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"The mod around mass storage\"}}},{\"text\":\" Storage!\",\"color\":\"#FFFFFF\"}]",

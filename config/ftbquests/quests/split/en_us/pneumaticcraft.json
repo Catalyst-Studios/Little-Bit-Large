@@ -256,6 +256,12 @@
         "",
         "&4(NOTE! minimum operating pressure for the spawner is 10 Bar use with care.)&r"
     ],
+    "quest.2C2A8116CA4A5430.quest_desc": [
+        "Able to interact with entities, like Apothic bosses.",
+        "",
+        "Able to steal your armor"
+    ],
+    "quest.2C2A8116CA4A5430.quest_subtitle": "Stealing",
     "quest.2E6E63F5C8849B56.quest_subtitle": "Organic",
     "quest.31A03D303C9D7543.quest_desc": [
         "This is the block that you use to charge your equipment in PNC.",

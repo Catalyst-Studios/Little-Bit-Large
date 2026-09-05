@@ -98,17 +98,14 @@
     ],
     "quest.0C513C2290CB94DA.quest_subtitle": "in the form of a bucket!",
     "quest.0C513C2290CB94DA.title": "&l&1Infinite Water",
-    "quest.0C7FFA80C1B2836F.quest_desc": [
-        "W.I.P"
-    ],
-    "quest.0C7FFA80C1B2836F.quest_subtitle": "Free loot",
-    "quest.0C7FFA80C1B2836F.title": "&lGateways to Eternity",
     "quest.116C52D690CC1551.quest_desc": [
         "&4Apotheosis&r mod adds quite a lot of new features. This mod is incredibly broken in the best of ways to achieve godhood, but just as everything in modded mc, we have to find our way!",
         "",
-        "In here, we will talk about &dThe Enchanting Module&r and &bThe Affixes&r. We will not cover the whole mod in this quest.",
+        "First, you need to kill some mobs and get a unnamed piece of armor, after that, it will tell you you need to press Ctrl + T to reveal it's stats. Here you will find 4 stages, each harder, but giving better loot.",
         "",
-        "&lNote&r: I suggest you take a look into our &eApotheosis Quests&r for more information.",
+        "When you feel confortable to go to the next level, you need to complete the objectives (which some of them its a bit of luck) and activate that world. World changes is for everyone!",
+        "",
+        "Here is everything needed to start with the mod!",
         "",
         "Mod created by: &4Shadows_of_Fire&r",
         "{@pagebreak}",
@@ -233,6 +230,17 @@
     ],
     "quest.2438C51737F1817B.quest_subtitle": "I may or may not shrunk maself...",
     "quest.2438C51737F1817B.title": "&l&2Shrink",
+    "quest.2456EE8234B18D05.quest_desc": [
+        "Xycraft is a collection of mods, for decorating to some useful stuff, like different rock generator to pumps.",
+        "",
+        "It has basic stuff, mostly kivi and xycraft stone are the most important, a part from the Extractor, able to generate lots of useful stuff, like snowballs, obsidian or dragon's breath.",
+        "",
+        "Some of the items and blocks are for fun",
+        "",
+        "Mods by: Soaryn"
+    ],
+    "quest.2456EE8234B18D05.quest_subtitle": "Machines",
+    "quest.2456EE8234B18D05.title": "Xycraft",
     "quest.273CC4D59C0D8731.quest_desc": [
         "The mod &n&l&6Only Hammers&r adds a variety of hammers for us to mine big areas quickly!",
         "",
@@ -568,6 +576,7 @@
         "",
         "We have the &apassive&r generators that will generate power without needing any type of fuel.",
         "",
+        "{@pagebreak}",
         "The other type of generators do require a type of &cfuel&r. They can use fluid fuels or solid fuels. The &8coal&r is commonly used over these type of generators, i do recommend using &6charcoal&r in case you haven't found any coal ores.",
         "",
         "Which mod to use to generate this energy? We got a variety of mods, &3Mekanism&r being of the best ones, due to it having the &eFusion Reactor&r, that can generate &4200MFE&r/t.",

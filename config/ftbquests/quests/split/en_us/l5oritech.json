@@ -6,6 +6,17 @@
         "Either we choose, it can only insert or extract from this addon, meaning that we'll have to check where are the original Input and Output sides of our machines."
     ],
     "quest.018A9B49A3D7066F.title": "&lMachine Inventory Proxy Addon",
+    "quest.02CF066A51FF4698.quest_desc": [
+        "Sulfuric acid can be used to in multiples places, like ore processing to making some basic material cheaper"
+    ],
+    "quest.045BCAD971CDD231.quest_desc": [
+        "While it does take more time than regular recipe, it also makes more. But it is worth it? NO.",
+        "",
+        "Why? Because you take a lot longer for little gain, because you can use that Quartz to make 6 silicon and get back 3 silicon waffers in 15 ticks vs 4 waffers in 200 ticks"
+    ],
+    "quest.0495DFD9C2C58F6F.quest_desc": [
+        "Carbon fiber is one of those items used in mass, I would make in batches"
+    ],
     "quest.05C7721E747E540C.quest_desc": [
         "Needs to be built on a machine frame to work.",
         "",
@@ -36,28 +47,11 @@
         "Perfect for an infinite water source or lava source."
     ],
     "quest.08CA4A967521AAC0.title": "&lPump",
-    "quest.093E6C933E18E5CB.quest_desc": [
-        "The &6Big Solar Panel&r is not different than the other energy generators Oritech offers, but its energy generation sure is affected by the &cMachine Core&r used to build it.",
+    "quest.0AEB5AC31FEA0D86.quest_desc": [
+        "Better fuel or can be used on a Ore processing step.",
         "",
-        "And as the suggests, it needs a clear view of the sun to work properly.",
-        "",
-        "The higher the level of the core, the better its FE ratio.",
-        "",
-        "Primitive Core - 32FE/t ",
-        "",
-        "Basic Core - 64FE/t",
-        "",
-        "Improved Core - 96FE/t ",
-        "",
-        "Advanced Core - 128FE/t",
-        "",
-        "Elite Core - 166FE/t",
-        "",
-        "Ultra Core - 192FE/t",
-        "",
-        "Ultimate Core - 224FE/t"
+        "Can convert ores from 1 raw to 2 clumps, which can be turn into 3 gems and later to 6 dusts, basically 12 ingots per raw"
     ],
-    "quest.093E6C933E18E5CB.title": "&lBig Solar Panel",
     "quest.0C1ADC4C9F6E5921.quest_desc": [
         "The Guide Ring is essential for directing particles in the accelerator.",
         "",
@@ -85,8 +79,16 @@
     "quest.0FEEF242CE736765.title": "&lChainsaw",
     "quest.101AB1B91E3FD48F.quest_subtitle": "The Best Tool",
     "quest.101AB1B91E3FD48F.title": "&lOritech Wrench",
+    "quest.104632D15E3A3270.quest_desc": [
+        ""
+    ],
     "quest.104632D15E3A3270.quest_subtitle": "A mix of Netherite and Platinum",
-    "quest.104632D15E3A3270.title": "&l&0Duratium Ingot",
+    "quest.104632D15E3A3270.title": "&l&3Duratium Ingot",
+    "quest.138A7C04CB62E30D.quest_desc": [
+        "Using Heavy Oil or Biodiesel, time to get a better fuel.",
+        "",
+        "You can use this fuel to get Blaze Burners to Heated, but biodiesel gives Super-Heated"
+    ],
     "quest.138B1E0670F27C35.quest_desc": [
         "The Fuel Generator is one of my go-to energy gens in Oritech. It uses &0Oil&r as its main fuel and also another fuel called &6Turbo Oil&r!",
         "",
@@ -126,6 +128,9 @@
         "We can also use a Redstone addon to control when our Items will depart."
     ],
     "quest.1462C9B3FF493EEB.title": "&lDrone Port",
+    "quest.14DFAAE9B577AFFF.quest_desc": [
+        "Well, you can now make more addons and machine and some Duratium"
+    ],
     "quest.1616B7F6050B98A3.quest_desc": [
         "These are the augments added by the Arcane Research Station:",
         "",
@@ -185,12 +190,14 @@
     ],
     "quest.182A11339EB59E7B.quest_subtitle": "this is not a drill!",
     "quest.182A11339EB59E7B.title": "&lHand Drill",
+    "quest.1917FC346FD76B6A.quest_subtitle": "Some diamonds and nickel",
+    "quest.1917FC346FD76B6A.title": "&l&3Adamant Ingot&r&l",
     "quest.1A7C2E3CEE6AC91C.quest_desc": [
         "We must be extremely careful when manipulating the Particle Accelerator...",
         "",
         "Certain elements might pull the &cNether&r closer to the &aOverworld&r when traveling at 5,000 Joules, while others could bring the &dEnd&r dangerously near at 10,000 Joules... &4And whatever you do, do not let these items exceed 10,000 Joules.&r",
         "",
-        "Such reckless energy levels could trigger a &6Dimensional Incursion&r, attracting &4unwanted attention&r—or worse—creating a &0&lDilatation&r between &b&lSpace&r and &e&lTime&r... and trust me, you don't want to find out what happens next."
+        "Such reckless energy levels could trigger a &6Dimensional Incursion&r, attracting &4unwanted attention&r—or worse—creating a &3&lDilatation&r between &b&lSpace&r and &e&lTime&r... and trust me, you don't want to find out what happens next."
     ],
     "quest.1A7C2E3CEE6AC91C.quest_subtitle": "Don't say I didn't warned ya'",
     "quest.1A7C2E3CEE6AC91C.title": "&l&4Final Warning",
@@ -206,6 +213,9 @@
         "It can only generate 32FE/t and can hold a total of 50k FE on its energy buffer."
     ],
     "quest.1BE5F0B57F46AC37.title": "&lBasic Generator",
+    "quest.1BE6C28C2692A343.quest_desc": [
+        "First you want to distill the crude oil into Heavy oil. Why? Well, you get the same extra output if you use heavy or crude route, but heavy oil gives more diesel"
+    ],
     "quest.1C1FE94DE8D48309.quest_desc": [
         "The Steam Engine might be a bit confusing.",
         "",
@@ -229,7 +239,7 @@
         "",
         "These resource nodes are &dINFINITE&r, no need to worry about these breaking as they are made of bedrock and we'll be extracting its contents with the correct machine.",
         "",
-        "To complete this quest you only need observe every single each of these nodes!"
+        "But they are a bit slow in comparison to other methods"
     ],
     "quest.1DD215C9864E6026.title": "&l&6Infinite &bOre &eExtraction",
     "quest.1E9B91AB1CD4463E.quest_desc": [
@@ -274,7 +284,7 @@
     "quest.20B90CB484A3AE7B.quest_desc": [
         "The Synergy Matrix addon is a must!",
         "",
-        "It increases both speed and efficiency without affecting one or the other.",
+        "It increases both speed by 1/3, but you need less efficiency addons",
         "",
         "Its only avaible at later stages of Oritech, but it sure is the best addon for all of our machines."
     ],
@@ -303,9 +313,7 @@
         "",
         "Now, I know 14 doesn’t sound that low, but once you understand this system, you’ll be able to craft &bBasic&r and &3Advanced&r Cores to make your machines faster and more efficient.",
         "",
-        "The best part? You can craft both the Basic Core and the Advanced Core almost from the start—you can even skip the Primitive one entirely!",
-        "",
-        "&o&8(...but this quest needs it, so... just roll with it.)&r"
+        "The best part? You can craft both the 3 first tiers of Cores without needing tons of setup, just materials found while mining and some micro craftings"
     ],
     "quest.22BE285408BF2C14.quest_subtitle": "we core for you... wait wasn't it care?",
     "quest.22BE285408BF2C14.title": "&lCores and You",
@@ -315,6 +323,10 @@
         "It increases their working area by a bit making these machines far better than any other similar machine or tool."
     ],
     "quest.23207ADB116913AB.title": "&lQuarry Addon",
+    "quest.24D08B59F6B965C8.quest_desc": [
+        "Place one of these addons on a little face, so you can pump fluids to the Centrifuge"
+    ],
+    "quest.24D08B59F6B965C8.title": "&lMachine Fluid Addon",
     "quest.26D44B4B4C66FC51.quest_desc": [
         "Oritech not only offers fancy nancy machines... But also offers us multiple ways to automate everything we have in sight!",
         "",
@@ -327,12 +339,18 @@
         "To use it, simply craft it, place it, and let the desired mob &3walk over&r the spawner. After that, we’re ready to start our mob farm!",
         "",
         "Depending on the type of creature, we need to create a cage made of Spawner Cages (&6this cage varies depending on the mob; for example, an Enderman requires a taller cage, not a wider one&r). The Spawner Controller will &bhighlight&r an area suitable for that specific mob. Keep in mind that the Spawner Controller must be placed before setting up the cage.",
+        "{@pagebreak}",
         "",
         "Once everything is correctly set up, the cage will display the mob's soul inside it.",
         "",
         "To activate it, we need to feed the Spawner Controller with &9Souls&r. Once enough souls have been provided, it will start spawning the mob with no issues!"
     ],
     "quest.2707AD39B9821F55.title": "&lSpawner Controller",
+    "quest.271B0CEB3AFADCB9.quest_desc": [
+        "Allows the refinery to output extra inputs, they are a must if you want to be the most efficient.",
+        "",
+        "You can use any core tier, it doesn't accept any addons nor it chances capacity"
+    ],
     "quest.278FFA052CCBD2F5.quest_desc": [
         "Not much that I can say about this fancy machine, it is a furnace, but &celectrical&r!"
     ],
@@ -363,9 +381,7 @@
     ],
     "quest.2CEAF24B0C9264D1.title": "&lMachine Efficiency Addon",
     "quest.2DC19671FC685343.quest_desc": [
-        "This addon let our machines handle fluids inside of them.",
-        "",
-        "Perfect for the Centrifuge to start processing quite a lot of our Ores."
+        "This addon let our machines handle fluids inside of them."
     ],
     "quest.2DC19671FC685343.title": "&lMachine Fluid Addon",
     "quest.2E15EDE995B7E44C.quest_desc": [
@@ -430,6 +446,9 @@
         "Yes you read that just fine!"
     ],
     "quest.32D7F45EEF23FB81.title": "&lCrop Filter Addon",
+    "quest.331A771B183536EF.quest_desc": [
+        "Light Naphtha can be used to get 4 ingredients for basically free or as a power source"
+    ],
     "quest.35A0BF8336B17F86.quest_desc": [
         "This is the core of our Particle Accelerator!",
         "",
@@ -444,6 +463,9 @@
         "Or be like me while learning about this thing... 2 Particle Accelerators near each other :D"
     ],
     "quest.35A0BF8336B17F86.title": "&lParticle Accelerator",
+    "quest.35B3C33EBC41E487.quest_desc": [
+        "Allows to transport energy from Point A to Point B across distance, from 50 blocks to 100 blocks."
+    ],
     "quest.363B4A5668EF9FFB.quest_desc": [
         "This is the controller of our Nulear Reactor.",
         "",
@@ -459,13 +481,16 @@
         "We could've crafted the compound earlier without any issues, but now that we have the Fragment Forge, it is advised to use this machine as it has the best recipe for it."
     ],
     "quest.364B91C3F2AC5C3C.title": "&lEnderic Compound",
+    "quest.384FB3A189A602DB.quest_desc": [
+        "Or you can convert the slurry into plastic, which is another pretty good option if you want"
+    ],
     "quest.3A075D348101ADDD.quest_subtitle": "Increases movement speed",
     "quest.3A075D348101ADDD.title": "&lExo Leggings",
     "quest.3BF285CF0C810B22.quest_desc": [
         "This machine boosts the amount of Fluids or Items we are moving with the pipes from Oritech!"
     ],
     "quest.3BF285CF0C810B22.quest_subtitle": "Pipe Booster",
-    "quest.3BF285CF0C810B22.title": "&lPipe Booster?",
+    "quest.3BF285CF0C810B22.title": "&lPipes?",
     "quest.3CAF5F8284FFC1BA.quest_desc": [
         "This machine sole purpose is to create Ice and Snow in a much easier yet fancier way!",
         "",
@@ -493,6 +518,7 @@
         "",
         "- &dGigantism&r",
         "",
+        "{@pagebreak}",
         "- &2Step Assist&r",
         "",
         "- &3Carbon-Reinforced Lungs&r",
@@ -536,6 +562,17 @@
         "But by boosting its production, it will need a better cooling system..."
     ],
     "quest.4415B28A2A0E8933.title": "&lReactor Neutron Reflector",
+    "quest.44C3967EBD0CEBC7.quest_desc": [
+        "Is this recipe worth? Also a NO. It takes too much time to get 4 when you can just use another recipe to make it"
+    ],
+    "quest.46DB0096F249958B.quest_desc": [
+        "A pretty decent way to make some plastic from crude oil and lava"
+    ],
+    "quest.4769471C0C370E7D.quest_desc": [
+        "Silicon Wash can be made using Quartz or Gravel.",
+        "",
+        "Quartz is faster than Gravel and gives more!"
+    ],
     "quest.47F2997846F7A54C.quest_desc": [
         "The Bedrock Extractor is yet another of my favourite machines!",
         "",
@@ -585,6 +622,21 @@
         "Third tier of components from oritech."
     ],
     "quest.4BD32A677BF0C516.title": "&l&eAdvanced Components",
+    "quest.4E19D68D42B1CFD2.quest_desc": [
+        "Tainted Refinery comes when you explode a Refinery (the block, not item) and an arcane Catalyst with at least 1 soul. Explosion must has visible both blocks.",
+        "",
+        "There is a few differences:",
+        "",
+        "- It can only do 1 fluid output, but you can change it on the GUI (slot means which output will do)",
+        "",
+        "- It can accept \"infinite\" (up to 500MFE/t) amount of energy while working to improve speed, but with diminishing returns (Progress += 0.2 * (energy ^ 0.45))",
+        "",
+        "{@pagebreak}",
+        "- You can put some blocks around it (on a 16 block radius) to increase efficiency and production. From x1 to x3 in production with sculk based items and x1 to x9 with Arcane blocks. They must have line of sight with the refinery for the buff to apply.",
+        "",
+        "A part from that, efficiency is applied before formula above, making it worth more.",
+        "You need to have 4 different types of each category and 16 blocks of each type to get the maximum effect. These effects are only applied when you first make the multiblock."
+    ],
     "quest.4EC581DCFFFD7E29.quest_desc": [
         "The perfect addon for the Enderic Laser!",
         "",
@@ -599,6 +651,11 @@
         "Why is it so special you ask? Well in short words, it &edoubles&r the amount of &6Byproducts&r given by each process from all of these machines."
     ],
     "quest.503295EA20A20B2E.title": "&lMachine Yield Addon",
+    "quest.510018A443343E24.quest_desc": [
+        "Allows to safely store a blakhole inside, while also working as energy storage.",
+        "",
+        "If you have messed up, you can use AE2 Spatial IO to delete the blackhole"
+    ],
     "quest.5157228531940A0C.quest_desc": [
         "Having energy generators we might want to store all of that produced energy...",
         "",
@@ -633,7 +690,7 @@
         "",
         "The things that we can create within this mod are wonderful! ",
         "",
-        "So fantastic that it comes with its own set of &bTools&f and&e Armor&r that are extremely op, it also has a way to &dProcess&f all of our ores and &aDupe&f them, multiple ways to generate &cenergy&r and... a [&0&mREDACTED&r]?",
+        "So fantastic that it comes with its own set of &bTools&f and&e Armor&r that are extremely op, it also has a way to &dProcess&f all of our ores and &aDupe&f them, multiple ways to generate &cenergy&r and... a [&9&mREDACTED&r]?",
         "",
         "As we mentioned, this mod adds a lot of stuff that doesn't fit in this sole quest, so I advice you to gather some &6resources&r before you start with this amazing mod!",
         "",
@@ -649,6 +706,9 @@
         "You can build your reactor without one of these, but better be safe than sorry!"
     ],
     "quest.529FB0C5407FB09B.title": "&lReactor Redstone Port",
+    "quest.52D353F64E1FE915.quest_desc": [
+        "And lastly, the best fuel of all"
+    ],
     "quest.532C4FFB18B50604.quest_desc": [
         "We have multiple types of fuels for our reactors, these are essential to make our reactor run and produce energy!",
         "",
@@ -667,6 +727,10 @@
         "It is suggested and advised to place some speed and efficiency addons to multiply its generation ratio!"
     ],
     "quest.5721FCF3AFC744DC.title": "&lBio Generator",
+    "quest.57CCE49963B67FE7.quest_desc": [
+        "Your firt battery!",
+        "It doesn't have much IO, but it has a decent capacity, maybe connect some solar panels to it when you start"
+    ],
     "quest.5A86360E5888389C.quest_desc": [
         "The last tier of components we'll ever use in Oritech...",
         "",
@@ -682,6 +746,7 @@
         "",
         "Well, first we need to create our &dLaser&r and a &bTarget Designator&r. Next, with our target designator we'll simply need to &eshift+rmb&r the &cun&r/wanted entity or block and then right-click the Laser with it and you're good to go!",
         "",
+        "{@pagebreak}",
         "With this machine we're able to get Fluxite, simply set this laser on an Amethyst Bud and you're good to go!",
         "",
         "It needs energy to work thought, but other than that, its a cool machine!",
@@ -714,6 +779,9 @@
         "Simply connect your energy pipe or wireless energy method directly into it!"
     ],
     "quest.5E46635CEBF05866.title": "&lMachine Acceptor Addon",
+    "quest.5EBECF112B07440E.quest_desc": [
+        "Then it can be turned into Quartz, which is a pretty decent source if you have tons of sand, clay and redstone"
+    ],
     "quest.5F3A317A8E8976EC.quest_desc": [
         "The Heat Vents will allow a proper cooling system within our reactors, there may be cases were these aren't needed... But they do come in handy when the temperature of our reactors are above 1,000."
     ],
@@ -739,6 +807,9 @@
     ],
     "quest.639436196C0BE005.quest_subtitle": "Alloy Smelter",
     "quest.639436196C0BE005.title": "&lFoundry",
+    "quest.63B26FEBA47CC5D2.quest_desc": [
+        "Now you can craft another core, allowing you to put more addons to your machines"
+    ],
     "quest.63F9CD64F568517E.quest_desc": [
         "The &eCybernetic Augmentation Center&r is where science meets the limits of the human body. This facility allows you to install cybernetic &daugmentations&r, permanently enhancing your physical capabilities.",
         "",
@@ -752,6 +823,7 @@
         "",
         "Once installed, these augmentations require no upkeep or fuel!",
         "",
+        "{@pagebreak}",
         "However, before you can apply an augment, it must first be researched using specialized Research Stations.",
         "",
         "A new keybind was also added. By default \"G\" will open a new GUI to enable or disable these augments with ease!",
@@ -761,6 +833,9 @@
         "On the next 3 quests we'll mentioned which augments are unlocked with each station, "
     ],
     "quest.63F9CD64F568517E.title": "&lCybernetic Augmentation Center",
+    "quest.64FAE31312934D7B.quest_desc": [
+        "More sulfuric acid!"
+    ],
     "quest.65041E2312518AE3.quest_desc": [
         "And to start creating this technological materials we'll need this waffer to create the Advanced Computing Engine for other machines!"
     ],
@@ -770,6 +845,9 @@
         "This block is important if we want to extract the energy produced on our reactor, you can place it anywhere over our reactor walls!"
     ],
     "quest.6575172F5CF3941F.title": "&lReactor Energy Port",
+    "quest.6742DC67AEA5AD78.quest_desc": [
+        "You can easily make the new ingredient, which is used a fair bit"
+    ],
     "quest.695D2D4B299452DA.quest_desc": [
         "The Particle Accelerator Linear Motor is used to increase the particle speed.",
         "",
@@ -785,11 +863,9 @@
     "quest.6B159418F332B368.quest_desc": [
         "You've unleashed an unstoppable force...",
         "",
-        "Now if I were you I would start playing Super Massive Black Hole from Muse while looking at this beauty honestly, don't you even dare to touch it though.",
+        "Now if I were you I would start playing Super Massive Black Hole from Muse while looking at this beauty honestly, don't you even dare to touch it though. I'm not kidding, your grave won't be there",
         "",
-        "&4&lThere is nothing you can do to stop it... &runless you cheat your way out of this trouble with &dCreative Mode&r.",
-        "",
-        "It can also dissapear without a trace depending on the value on the config file, but I don't suggest that honestly.",
+        "&4&lThere is nothing you can do to stop it... &runless you make a Schröndiger Cage, which later you can delete using AE2 Spatial IO",
         "",
         "You better take a look at the Tachyon Absorber quest if you haven't!"
     ],
@@ -821,6 +897,12 @@
         "Many of the most important components to grow our factory!"
     ],
     "quest.6E2E961DA7DAE824.title": "&l&bBetter Components",
+    "quest.6E34F79F419BE744.quest_desc": [
+        "Mineral Slurry comes mainly from Ore processing and Deep Miner"
+    ],
+    "quest.6F12757F2C25D51B.quest_desc": [
+        "It has 2 uses, as a bee flower and many unholy Intelligence"
+    ],
     "quest.70B4A9811B52D633.quest_desc": [
         "Who needs to chop those trees by hand when ye got this fancy machine to do it!"
     ],
@@ -856,6 +938,9 @@
         "By doing shift+lmb we are able to cut down a single tree with ease, same protocol as the chainsaw."
     ],
     "quest.777F6A0F95BCF073.title": "&6&lPrometheum Battleaxe",
+    "quest.77CF4A40F671E5D8.quest_desc": [
+        "While it doesn't have lots of uses, the ones that have are important, like allowing you to do multiple recipes at the same time"
+    ],
     "quest.7916318663251B93.quest_desc": [
         "Yes ye' did read the quest title right!",
         "",
@@ -876,12 +961,13 @@
         "        And craft the &bFluid Addon&r!"
     ],
     "quest.79E61E1354DF27A1.title": "&lCentrifuge",
+    "quest.79EE5189EBA26CCD.quest_desc": [
+        "Another tier down, you are quick, aren't you?"
+    ],
     "quest.7B598DB1E1571973.quest_desc": [
         "In Base Oritech we'll need to mix 2 &6Nickel Ingots&r and 2 &bDiamonds&r to make 1 &3Adamant Ingot&r.",
         "",
         "But now you'll need 3 &bDiamond Dusts&r and 3 &6Nickel Dusts&r to get 3 &3Adamant Dusts&r!",
-        "",
-        "This recipe was buffed in &l&9Little Bit Large&r using &5KubeJS&r so you can ramp up your factory!",
         "",
         "Either way, you need this Ingot to make the Assembler."
     ],
@@ -917,7 +1003,15 @@
     ],
     "quest.7D6063FFF0A68794.quest_subtitle": "The most complex thing",
     "quest.7D6063FFF0A68794.title": "&lThe Particle Accelerator",
+    "quest.7DA06F3048FD6038.quest_desc": [
+        "Allows to filter.",
+        "",
+        "You can use FTB Quest filters to have better control"
+    ],
     "quest.7DA06F3048FD6038.title": "&lItem Filter",
+    "quest.7DF0058AAB23E250.quest_desc": [
+        "Refining fluids is an important step to your mega factory, there are mainly 2 fluids, Crude Oil and Lava. You have 1 main tank, which has 8 buckets capacity."
+    ],
     "quest.7E4327903A20ADEC.quest_desc": [
         "You are &lnot&r allowed to use these quests in any public pack without &4&nexplicit permission&r from Catalyst Studios.",
         "",

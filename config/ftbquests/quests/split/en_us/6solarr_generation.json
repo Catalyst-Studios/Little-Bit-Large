@@ -1,63 +1,172 @@
 {
-    "quest.00BBFAADA2C905D4.quest_desc": [
-        "&e64&r... This thing now generates a whole stack of energy!"
+    "quest.001D53B6BF6FADC7.quest_desc": [
+        "A lot of microcrafting, but let me tell you, you can even &#37fa55tick accelerate&r them!!!",
+        "",
+        "Solar panels from Solar mod has another thing, in the tooltip, the best tier can produce &#fa37b8half a million&r, well, thats a lie",
+        "",
+        "You can generate &#bbfa371.31 MFE/t&r per panel and you can &#37fa55stack&r them, but you still need to use &#9a37faSFM&r for the maximum compactness"
     ],
-    "quest.00BBFAADA2C905D4.quest_subtitle": "Not Quite The Redstone Solar Panel",
-    "quest.00BBFAADA2C905D4.title": "&l&eRedstone Solar Panel",
-    "quest.0EB614A5D08D59BD.title": "Solar Helmet &l&5V7",
+    "quest.001D53B6BF6FADC7.quest_subtitle": "&#faa837Shhhh&r",
+    "quest.00BBFAADA2C905D4.quest_desc": [
+        "&e64&r... This thing now generates a &#bbfa37whole stack of energy&r!"
+    ],
+    "quest.00BBFAADA2C905D4.quest_subtitle": "Not Quite The &#cRedstone Solar Panel&r",
+    "quest.00BBFAADA2C905D4.title": "&l&cRedstone Solar Panel",
+    "quest.07EE0CA513E881D3.quest_desc": [
+        "Only generating &#bbfa3720FE per tick&r, but at least its &#37fa55cheaper&r than alternatives",
+        "",
+        "I don't know why it produces &#faa837sound&r...."
+    ],
+    "quest.07EE0CA513E881D3.title": "&#faa837Solar Generator&r",
+    "quest.0EB614A5D08D59BD.quest_desc": [
+        "&#faa837Solar power&r at your head, but at what cost..."
+    ],
+    "quest.0EB614A5D08D59BD.title": "Solar Helmet &l&#9a37faV7&r",
+    "quest.1510C06DC539DE2C.quest_desc": [
+        "Well, this is the &#fa37b8last tier&r, free &#bbfa37half a million FE per tick&r...",
+        "",
+        "I can't do better, maybe we need a better &#37a5fastorage&r, so we can store it, maybe digitally.",
+        "",
+        "At this point, if you can make a few of them, you won't need to worry about &#37a5faenergy&r ever... except in some recipes that consumes &c&lmillions per tick&r...",
+        "",
+        "But that's why we have a &#9a37fabattery&r..."
+    ],
+    "quest.1510C06DC539DE2C.quest_subtitle": "&#fa37b8Best Tier&r, yet not enough",
     "quest.15BA38377EA9D7A2.quest_desc": [
-        "Now that we are generating 4096FE/t we can begin to grow our factory with more machines..."
+        "Now that we are generating &#bbfa374096FE/t&r we can begin to grow our factory with more &#37fa55machines&r..."
     ],
     "quest.15BA38377EA9D7A2.quest_subtitle": "I'm Out of Subtitles",
-    "quest.15BA38377EA9D7A2.title": "&l&3Resonant Solar Panel",
+    "quest.15BA38377EA9D7A2.title": "&l&#37a5faResonant Solar Panel",
     "quest.1DB14DCD4CD04E24.quest_desc": [
-        "Now we are generating 8FE/t, which is not a lot I know. But it's better than generating 1FE/t.",
+        "Now we are generating &#bbfa378FE/t&r, which is not a lot I know. But it's better than generating &#bbfa371FE/t&r.",
         "",
         "But it should be more than enough to sustain at least &d1&r machine."
     ],
-    "quest.1DB14DCD4CD04E24.quest_subtitle": "Better Than The Leadstone Solar Panel",
+    "quest.1DB14DCD4CD04E24.quest_subtitle": "Better Than The &7Leadstone Solar Panel&r",
     "quest.1DB14DCD4CD04E24.title": "&l&7Hardened Solar Panel",
-    "quest.269D02D4BFFC0190.quest_desc": [
-        "If you thought this mod only added solar panels... then you are correct...",
+    "quest.209631E2F83A3671.quest_desc": [
+        "This is the point where you should worry about &#37a5faenergy storage&r, well, a few quests before :D",
         "",
-        "But we can flex a bit walking down the streets with this helmet to generate power while we recieve the &m&8deadly&r &llovely&r laser beams of our sun.",
+        "But if you can make this tier, you should be able to make a decent enough &#37a5fapower battery&r, for example, using some basic &#a562e5induction matrix&r or even, &#9a37faSFM&r + &#37a5faEnergy Cubes&r (because SFM bypass it's IO limits)"
+    ],
+    "quest.209631E2F83A3671.quest_subtitle": "Well, of course more &c&lred&r and &1&lblue&r",
+    "quest.269D02D4BFFC0190.quest_desc": [
+        "If you thought this mod only added &#faa837solar panels&r... then you are correct...",
+        "",
+        "But we can flex a bit walking down the streets with this &#fa37b8helmet&r to generate power while we recieve the &m&8deadly&r &l&#faa837lovely&r laser beams of our &#faa837sun&r.",
         "",
         "Honestly, i suggest you forget about sunbathing and become a sentient walking being that generates &l&cenergy&r!"
     ],
-    "quest.269D02D4BFFC0190.title": "Solar Helmet &lV1",
-    "quest.3822CD1546F0BC9B.quest_desc": [
-        "This is more than enough to start charging &djetpacks&r, &6gadgets&r and even sustain 2 or 4 machines!",
+    "quest.269D02D4BFFC0190.title": "Solar Helmet &l&#37fa55V1&r",
+    "quest.337C4348B7426EB7.quest_desc": [
+        "&#bbfa372 FE/t&r, good enough to start a serious base, but we can do better.",
         "",
-        "Depending if the machine has energy/speed upgrades of course..."
+        "These &#faa837solar panels&r is still cheap, so make a few of them... or steal them from some &#37fa55villages&r :p",
+        "",
+        "Or if you don't like autocrafing, you can get them passive with &#37fa55villagers&r!",
+        "",
+        "These can only be extracted by the &cbottom side&r"
+    ],
+    "quest.337C4348B7426EB7.quest_subtitle": "Reducing size",
+    "quest.35DB426ECA2FC374.quest_desc": [
+        "A bit expensive for what it does, but there is another catch that isn't told on the other quests.",
+        "",
+        "Some &#faa837solar panels&r work during the &#9a37fanight&r, like &#a562e5EnderIO&r ones if you use a &#a562e5Phantom Soul&r or some upgrades"
+    ],
+    "quest.35DB426ECA2FC374.quest_subtitle": "Pulses?",
+    "quest.3822CD1546F0BC9B.quest_desc": [
+        "This is more than enough to start charging &djetpacks&r, &6gadgets&r and even sustain &#37fa552 or 4 machines&r!",
+        "",
+        "Depending if the machine has &#37a5faenergy&r/&#bbfa37speed&r upgrades of course..."
     ],
     "quest.3822CD1546F0BC9B.quest_subtitle": "Now We Are Talking",
     "quest.3822CD1546F0BC9B.title": "&l&cSignalum Solar Panel",
+    "quest.3DE1714098569D6D.quest_desc": [
+        "Well, maybe there is a &#faa837molten salt&r or something, I haven't found yet, but I can reduce the &c&llag&r by making higher tier of &#faa837solar panels&r"
+    ],
+    "quest.3DE1714098569D6D.quest_subtitle": "We can't even touch it",
     "quest.3E24D52CA683A3F1.title": "Solar Helmet &l&cV4",
+    "quest.3F2F91F2AE568873.quest_desc": [
+        "Mixing some ingredients, we are able to get some &#37a5faenergy&r from it when exposed to the &#faa837sun&r, maybe we can use it for somethign"
+    ],
+    "quest.3F2F91F2AE568873.quest_subtitle": "&9Lapis&r + &8coal&r + &7silicon&r",
+    "quest.3F2F91F2AE568873.title": "&#37fa55Photovoltaic Composite&r",
+    "quest.3F4117B3A4060A90.quest_desc": [
+        "&#faa837Powah&r also adds new solar panels, but they are more expensive than alternatives, but also get you enough &#37a5fapower&r for many uses.",
+        "",
+        "But there is one thing that these kind of solars beats others, they can stay &#37fa55inside your home&r, check Powah quests!",
+        "",
+        "All solar panels have been given a &#bbfa37x10 energy generation&r"
+    ],
+    "quest.45E2B5AFB24DF288.quest_desc": [
+        "These are the minimum tier of &#37fa55casing&r that it's relative easy to get and generates enough &#37a5faenergy&r to get more",
+        "",
+        "Higher tier casing will generate more &#37a5fapower&r of course, but....."
+    ],
+    "quest.45E2B5AFB24DF288.quest_subtitle": "To the core",
     "quest.4BF589FF795C4125.quest_desc": [
-        "Now this is even better, 32768&rFE/t is a really good amount of FE generation to sustain a large &adigital storage&r!"
+        "Now this is even better, &#bbfa3732768FE/t&r is a really good amount of FE generation to sustain a large &adigital storage&r!"
     ],
     "quest.4BF589FF795C4125.quest_subtitle": "Almost There!",
     "quest.4BF589FF795C4125.title": "&l&1Advanced Solar Panel",
     "quest.4CDF67A932172054.quest_desc": [
         "We might've ran into some issues crafting these solar panels, but we finally done it...",
         "",
-        "              &4262144FE&r/t at last."
+        "              &#bbfa37262144FE/t&r at last."
     ],
-    "quest.4CDF67A932172054.quest_subtitle": "Unlimited Power...",
+    "quest.4CDF67A932172054.quest_subtitle": "&#fa37b8Unlimited Power...&r",
     "quest.4CDF67A932172054.title": "&l&5Ultimate Solar Panel",
+    "quest.501EA342320ED269.quest_desc": [
+        "Now, with 3 of these, you should be able to sustain most basic &#37a5faRS&r/&#9a37faAE2&r networks, even if it's just to store items and do basic operations"
+    ],
+    "quest.501EA342320ED269.quest_subtitle": "&cRed&r + &1Blue&r?",
+    "quest.560CD0CF5FDE3699.quest_desc": [
+        "Connecting panels, I see some future",
+        "",
+        "",
+        "These panels can connect to each other, forming a &#37fa55unique system&r, which means you only need a &#37a5facable&r to extract power, unlike other mods solars"
+    ],
+    "quest.560CD0CF5FDE3699.quest_subtitle": "Messing with modules",
+    "quest.5858DC9FC4A4272A.quest_desc": [
+        "Well, cooking seems to have given it some &#a562e5magical protection&r, but I will work with that",
+        "",
+        "It's not pure enough, but will work"
+    ],
+    "quest.5858DC9FC4A4272A.title": "&#37fa55Photovoltaic Plate&r",
+    "quest.59DC06DEBAB70211.quest_desc": [
+        "Did you know that some &#37a5fasteam turbines&r generate less than this solar can in 1 day? Well, now you know why they are better. ",
+        "",
+        "I wonder if there would be a &#a562e5multiblock&r to reduce the solar spam"
+    ],
+    "quest.59DC06DEBAB70211.quest_subtitle": "Did you know there is &#37a5fadigital energy&r?",
+    "quest.5CCF9C122B90F65C.quest_desc": [
+        "This is a cheap &#faa837solar cell&r, but there is a catch, you won't get far with this path"
+    ],
+    "quest.5CCF9C122B90F65C.quest_subtitle": "Your first solar, probably",
     "quest.5E635799470EEF47.quest_desc": [
-        "Welcome to &eSolar Generation&r mod where our main objective is generating energy... from the &6&lSUN&r!",
+        "Welcome to &eSolar Generation&r (a part from being a mod) where our main objective is generating energy... from the &6&lSUN&r!",
         "",
-        "This incredible mod adds &d7&r new solar panels that need quite a lot of materials to generate lots of energy.",
+        "This shows how progression with &#faa837solar power&r gets, and how crazy it can be if properly done!",
         "",
-        "These generators will recieve the daily those of &cUV&r rays we are supposed to recieve... But, why do everything manually when we can actually use a machine for it?",
+        "These generators will receive the daily dose of &cUV&r rays we are supposed to receive... But, why do everything manually when we can actually use a machine for it?",
         "",
-        "I recommend you start any &aresource&r &egeneration&r mod to craft all of these solar panels.",
+        "I recommend you start any &aresource&r &egeneration&r mod to craft all of these solar panels. And start progressing with other mods too!",
         "",
         "Mod created by: &63divad99"
     ],
     "quest.5E635799470EEF47.title": "&l&6Solar Generation",
+    "quest.6069D3860B38504C.quest_desc": [
+        "Well, there is a ton of tools that use energy, but what tool do you have that needs more than &#bbfa3732KFE/t&r?"
+    ],
+    "quest.6069D3860B38504C.quest_subtitle": "Enough for now",
     "quest.6069D3860B38504C.title": "Solar Helmet &l&1V6",
+    "quest.61913412655E0531.quest_desc": [
+        "After some minor solar tiers, you will find out that &#37a5fablue panes&r are not enough to get electricity, so, we need to make a better version!",
+        "",
+        "Although for some alternative solar panels, lower tiers are more than enough"
+    ],
+    "quest.61913412655E0531.quest_subtitle": "Better cells",
+    "quest.61913412655E0531.title": "&#37a5faPhotoelectric Pane&r",
     "quest.62F972854AA43136.quest_desc": [
         "These amazing quests were made for &l&4Catalyst Studios&r and it's a part of their project and belong to them.",
         "",
@@ -67,31 +176,53 @@
     ],
     "quest.62F972854AA43136.title": "&l&4Catalyst Studios Quests",
     "quest.64363D9756720A6B.title": "Solar Helmet &l&eV3",
+    "quest.65695ADD5FFAAF00.quest_desc": [
+        "For the price of 4 solars, you get 2 in 1",
+        "",
+        "&#bbfa37120 FE/t&r instead of &#bbfa3780FE/t&r and it can be used on evaporation to generate heat for free (and use the energy generated by solars to generate even more heat).",
+        "",
+        "You can get &#bbfa37720 FE/t&r in a &#37fa553x3x2&r"
+    ],
+    "quest.6648F6C005CB697D.quest_desc": [
+        "Double the &#37a5faenergy&r, double the &#37fa55machines&r, this is called &#fa37b8exponential growth&r, but it's not exponential if you can't make them faster"
+    ],
+    "quest.6648F6C005CB697D.quest_subtitle": "Back to the drawing board",
     "quest.6CBD797B715195F9.quest_desc": [
         "Being our very first solar panel it... will not generate an enormous amount of FE...",
         "",
-        "                      &4&lBUT!&r",
+        "                    &4&lBUT!&r",
         "",
-        "The further we dig into this mod the energy generation will become better, i promise.",
+        "The further we dig into this mod the &#37a5faenergy generation&r will become better, i promise.",
         "",
-        "Something important to note, is that the transfer rate will be much higher than the generation rate.",
+        "Something important to note, is that the &#37fa55transfer rate&r will be much higher than the generation rate.",
         "",
-        "Another thing to remember, is that these solar panels have an internal energy buffer, which is recommended to leave while it generates more energy!",
+        "Another thing to remember, is that these solar panels have an &#37a5fainternal energy buffer&r, which is recommended to leave while it generates more energy!",
         "",
-        "And more important, it needs a clear view of the sun."
+        "And more important, it needs a &#faa837clear view of the sun&r."
     ],
     "quest.6CBD797B715195F9.quest_subtitle": "The Beginning",
     "quest.6CBD797B715195F9.title": "&lLeadstone Solar Panel",
+    "quest.6D36292892EA5781.quest_desc": [
+        "We will give back the &#faa837solar panel&r, we aren't that bad..."
+    ],
     "quest.6D36292892EA5781.title": "Solar Helmet &l&7V2",
+    "quest.6F365DC5EC358354.quest_desc": [
+        "Now it can generate enough &#37a5faenergy&r for most mods tools"
+    ],
     "quest.6F365DC5EC358354.title": "Solar Helmet &l&3V5",
     "quest.72E024F538AAFA84.quest_desc": [
         "Before we can start crafting all of our solar panels we need some materials first.",
         "",
-        "For the first tier of solar panels, &lLeadstone&r Tier, we'll need &9lapis&r for our &dphotovoltaic&r cells, &4redstone&r dust and a &7leadstone&r core to assemble the whole thing!",
+        "For the first tier of solar panels, &lLeadstone&r Tier, we'll need &#37a5fa&lblue pane&r, some &#faa837tin cables&r to transfer the energy, some &#faa837copper&r to keep the electricity and some &#faa837aluminium&r for keeping all together.",
         "",
-        "Keep in mind that the very first tier of solar panels need the mentioned materials, where the other solar panels require &n&a8&r solar panels of the &n&cpast&r tier and their respective &n&5core&r. ",
-        "",
-        "And to upgrade the solar cores we need the past tier core as well."
+        "Keep in mind that the very first tier of solar panels need the mentioned materials, where the other solar panels require, at least 1 of the previous solar panel and some extra materials"
     ],
-    "quest.72E024F538AAFA84.title": "Needed Items"
+    "quest.72E024F538AAFA84.title": "Needed Items to Start",
+    "quest.7C6713EAB8FA84E6.quest_desc": [
+        "A &#a562e5multiblock&r, per &#9a37faOritech&r design",
+        "",
+        "This has a &#37fa55controller&r where you extra energy from (only 2 sides) and energy production depends on the tier of the cores.",
+        "",
+        "Higher tiers, better results, althought, its 6 &#faa837vibrant solar panels&r produces more than what the best core can produce"
+    ]
 }

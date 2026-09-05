@@ -34,6 +34,13 @@
         "[{\"text\":\"\"},{\"text\":\"This boss is a \"},{\"text\":\"<pulse base=0.75 a=1.0 f=1.0 w=1.0>challenging</pulse>\",\"color\":\"#FF5555\"},{\"text\":\" one, so make a \"},{\"text\":\"Mob Crusher\",\"color\":\"#FF55FF\",\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"industrialforegoing:mob_crusher\",\"count\":1}}},{\"text\":\" and call it a day :p\\n\\nThe boss has 3 \"},{\"text\":\"phases\",\"color\":\"#AA00AA\"},{\"text\":\", initial, with \"},{\"text\":\"spikes\",\"color\":\"#f28402\"},{\"text\":\" and with \"},{\"text\":\"spikes\",\"color\":\"#f28402\"},{\"text\":\" and <shake a=0.33 f=0.5>horns</shake>.\"}]"
     ],
     "quest.1CE4DE64296C4FE2.quest_subtitle": "&4Danger!!!&r",
+    "quest.1FC99D53AB93C9E2.quest_desc": [
+        "You can rotate the portal vertically, at the cost of some source, 90% of a normal source jar...",
+        "",
+        "Place a 7x7 hollow square vertically of Sourcestone, then put a 90% full (or a full one directly) touching the stone.",
+        "",
+        "After that, throw to the hole the warp scroll set with a destination, and you have a self made portal!"
+    ],
     "quest.2970299C99099657.quest_desc": [
         "Another important part of Ars, &d<pulse base=0.6 a=1.0 f=0.5 w=1.0>source gems</pulse>&r.",
         "",

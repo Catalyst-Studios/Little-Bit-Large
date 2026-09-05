@@ -7,10 +7,18 @@
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/abyssal_pump.png width:100 height:100 align:center fit:true}"
     ],
     "quest.03F51220CD6E38E1.quest_subtitle": "Pumping here we go",
+    "quest.091C884AD3F5276E.quest_desc": [
+        "Final tier of &5hatches&r, while there aren't as many &bmachines&r that accept these, they are so &cpowerful&r, you won't ever need more machines.",
+        "",
+        "Or that's what I would say if there wasn't so many &6bees&r!"
+    ],
+    "quest.09500DC5DC8EC110.quest_desc": [
+        "A &afaster&r version of the &6Primitive Furnace&r, still doesn't use &bpower&r, but reduces recipe times from &c400 ticks&r to &e350 ticks&r."
+    ],
     "quest.0FC0C0A568BF1BAB.quest_desc": [
         "The better recipe to get &6modularium&r, a passive way, on &aGT&r terms",
         "",
-        "It produces 56 &6modularium&r ingots per craft and an &ein-world&r craft, another 3x3x3 one, but you will need to &droute&r back some of the &coutput&r to get more!",
+        "It produces 72 &6modularium&r ingots per craft and an &ein-world&r craft, another 3x3x3 one, but you will need to &droute&r back some of the &coutput&r to get more!",
         "I would probably get started on some &amods&r to continue",
         "",
         "You would need the following &dmaterials&r:",
@@ -43,10 +51,27 @@
         "Well, you might &dneed&r these"
     ],
     "quest.1038B0243A3058E1.quest_subtitle": "Steam!?!",
+    "quest.1334CD2386C19B45.quest_desc": [
+        "&#005555Sculk&r is an infestation we have to deal with, but that doesn't mean we can't use it to our &aadvantage&r.",
+        "",
+        "This &6multiblock&r makes &#00aa00sculkite ore&r from any &eore&r and most items related to the &#0b4247deep dark&r biome."
+    ],
+    "quest.1515E056596DAF03.quest_desc": [
+        "It's a simple &6furnace&r that allows you to do &e8 recipes&r at the same time in &b400 ticks&r (20 seconds). It &adoesn't need&r fuel, but &cdoesn't&r give experience."
+    ],
     "quest.152EBD55C3003AE5.quest_desc": [
         "While it only has 1 &coutput&r slot, but it's &acheap&r, there are &dhigher&r slots counts!"
     ],
     "quest.152EBD55C3003AE5.quest_subtitle": "How to get items",
+    "quest.17753694BA72A00A.quest_desc": [
+        "&6Igneous Extruders&r allow you to collect &dmaterials&r directly from blocks.",
+        "",
+        "To make it work, build the structure and place the target block 2 blocks below the &bcontroller&r.",
+        "",
+        "It will &cvoid&r excess items!",
+        "",
+        "Some blocks yield &2bonus materials&r from their respective recipes."
+    ],
     "quest.196092FE5F1B24DC.quest_desc": [
         "Using some &bboards&r from your &dtrain&r, you can &6control&r your machines"
     ],
@@ -57,6 +82,9 @@
         "Maybe it used for &bengines&r? I can't say"
     ],
     "quest.20EC1F975386CB53.quest_subtitle": "Gears?",
+    "quest.25359F928F16C047.quest_desc": [
+        "&bFish&r are always in low supply, mainly because there aren't many ways to &afarm&r them efficiently. Here is a &6multiblock&r designed to solve that while cleaning the water of &ediamonds&r!"
+    ],
     "quest.25CED87D758A6D0C.quest_desc": [
         "\"Using &elost&r knowlegde, we were able to &dtransform&r bees into different &ctypes&r, once thought to be lost &6forever&r\" - &dMagical&r Engineer 1256",
         "",
@@ -68,7 +96,8 @@
     ],
     "quest.25CED87D758A6D0C.quest_subtitle": "One for another",
     "quest.28DBA40648A0ED54.quest_desc": [
-        "[{\"text\":\"\"},{\"text\":\"Now, with 8 \"},{\"text\":\"parallels\",\"color\":\"#FFAA00\"},{\"text\":\", you should be able to do a \"},{\"text\":\"<wiggle a=1.0 f=1.0 w=1.0>lot</wiggle>\",\"color\":\"#8e29da\"},{\"text\":\" of recipes in no time.\\nYet this is not the \"},{\"text\":\"final\",\"color\":\"#da29b4\"},{\"text\":\" parallel hatch you will find.\\n\\nThere is a \"},{\"text\":\"higher parallel\",\"color\":\"#FFFF55\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"34B94E6DBEC34BCE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Click here to change quest\"}}},{\"text\":\" hatch, one per player/team, more \"},{\"text\":\"powerful\",\"color\":\"#FF55FF\"},{\"text\":\".\\n\\nFor now, thats the \"},{\"text\":\"best\",\"color\":\"#AA00AA\"},{\"text\":\" you can get, since there is a lot of \"},{\"text\":\"lag\",\"color\":\"#AA0000\",\"bold\":true},{\"text\":\" if you use higher ones.\\n\\nOnce it's \"},{\"text\":\"solved\",\"color\":\"#55FF55\"},{\"text\":\" or mitigated, we will \"},{\"text\":\"add\",\"color\":\"#5555FF\"},{\"text\":\" them.\"}]"
+        "Now, with 8 &6parallels&r, you should be able to do a &#8e29da<wiggle a=1.0 f=1.0 w=1.0>lot</wiggle>&r of recipes in no time.",
+        "Yet this is not the &#da29b4final&r parallel hatch you will find."
     ],
     "quest.28DBA40648A0ED54.quest_subtitle": "We are going decently fast",
     "quest.2A16DB89E273DC47.quest_desc": [
@@ -81,6 +110,14 @@
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/osmotic.png width:100 height:100 align:center fit:true}"
     ],
     "quest.2A16DB89E273DC47.quest_subtitle": "Thermal Evaporation Tower",
+    "quest.2D1D76EBBE46D4FD.quest_desc": [
+        "&dAdvanced parallels&r take recipe speed to a whole new level, processing up to &e32 recipes&r simultaneously.",
+        "",
+        "Note: They must all be of the &csame recipe type&r!"
+    ],
+    "quest.31886AC82442D7FE.quest_desc": [
+        "These are &6general-purpose&r multiblocks designed for everyday factory needs, from making &acheaper plates&r to processing recipes in &ebulk&r."
+    ],
     "quest.324DF9C2A54FF7D8.quest_desc": [
         "This &6multiblock&r sustitute the &eSolar&r &bNeutron Inyector&r for a &d\"all day\"&r one.",
         "",
@@ -103,12 +140,12 @@
         "",
         "- &#e6eba8The End&r -> Gives x4 (the best of the best)",
         "",
-        "It needs a lot of &1water&r, which is easy to get, 5 buckets of &#b4e2e2ether gas&r and &#9c6833meat&r and some &asulfuric acid&r.",
+        "It needs a lot of &bwater&r, which is easy to get, 5 buckets of &#b4e2e2ether gas&r and &#9c6833meat&r and some &asulfuric acid&r.",
         "While it seems a lot, water can be &eeasily&r obtained, and there is another &dmultiblock&r that gets a lot of &#b4e2e2ether gas&r and &#9c6833meat&r.",
         "",
         "For the &asulfuric acid&r, its not as big as it seems",
         "{@pagebreak}",
-        "Now, here is the &acool&r part, this &#29dab4multiblock&r &5lies&r a lot. There are 2 &#dada29hidden&r recipes, they are the &dsame&r, but the only difference is the input and output item",
+        "Now, here is the &acool&r part, this &#29dab4multiblock&r &5lies&r a lot. There are &#dada29hidden&r recipes, they are the &dsame&r, but the only difference is the input and output item",
         "",
         "For example, let's say that we have 289 &#e0e090raw iron&r and we use it on the &8void&r dimension, well, the machine will do 3 &5recipes&r instead of 289 &drecipes&r, one doing 256 &#e0e090raw iron&r to 256 iron ingot, another doing 32, and last one doing 1.",
         "",
@@ -133,6 +170,22 @@
         "It can only have 100 mb or 1/10 of a &6bucket&r, you can &dupgrade&r them!"
     ],
     "quest.3B233A03E5BDA0C8.quest_subtitle": "Fluid in",
+    "quest.3B63900D190DABF3.quest_desc": [
+        "While standard fission reactors are good enough for most, handling &cnuclear waste&r is a pain (limited to 1400 mb/t with a Sodium Max setup).",
+        "",
+        "This advanced &2Nuclear Reactor&r features 3 powerful modes:",
+        "",
+        "- &#29dab4Heavy Water&r: Yields high &cnuclear waste&r, but consumes fewer side materials.",
+        "",
+        "- &#ffc400Sodium&r: Gives the &ahighest power output&r alongside superheated sodium for boilers/turbines in a closed loop.",
+        "",
+        "- &#8e29daSpent Nuclear Waste&r: Safely &cdeletes waste&r without needing thousands of barrels, while maximizing rare ingot chances!"
+    ],
+    "quest.3D0E018ED7E528D3.quest_desc": [
+        "The &6Extruder&r is an essential multiblock that yields much &abetter resource rates&r when crafting plates, foils, gears, wires, and rods.",
+        "",
+        "After just 3 operations, you earn back enough &dsmall dusts&r to form a &efree ingot&r!"
+    ],
     "quest.3D67D9948E936DC4.quest_desc": [
         "You are &lnot&r allowed to use these quests in any public pack without &4&nexplicit permission&r from Catalyst Studios.",
         "",
@@ -162,7 +215,14 @@
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/phytogenicsynthezicer.png width:200 height:200 align:center}"
     ],
     "quest.3F958599EBAEBFD8.quest_subtitle": "The farming simulator",
-    "quest.3F958599EBAEBFD8.title": "Phytomorphic Synthesiszer",
+    "quest.425A78620821A956.quest_desc": [
+        "From time to time, &6bees&r need a place to deposit their honey.",
+        "",
+        "This multiblock gives you easy access to starter &ehoney&r without relying on random luck or standard beehive mechanics."
+    ],
+    "quest.4494A127FE9F5B72.quest_desc": [
+        "It takes an &#dada29eternity&r to craft these normally, but this multiblock will churn them out in &ano time&r!"
+    ],
     "quest.44CC0C8C57F6BFCC.quest_desc": [
         "Another &ebuilding&r block, but this one is a bit more important",
         "",
@@ -171,16 +231,82 @@
         "Some &eblocks&r &cdon't&r have an &ause&r yet, but I needed to tell you about it"
     ],
     "quest.44CC0C8C57F6BFCC.quest_subtitle": "GT approved",
+    "quest.45E20853E7B9B611.quest_desc": [
+        "These &6multiblocks&r are strictly tailored for &dprogression chapters&r. If you are not playing progression, feel free to &cskip&r them."
+    ],
     "quest.45F55CEE9207B7BF.quest_desc": [
         "It only has 1 &ainput&r slot, but it's &acheap&r, there are &dhigher&r slots counts!"
     ],
     "quest.45F55CEE9207B7BF.quest_subtitle": "Items goes in",
+    "quest.4617EEB6FEF26DC7.quest_desc": [
+        "Under optimal conditions, certain &aplants&r produce &3far more&r resources than wild crops, making this a great alternative &eresource generator&r."
+    ],
+    "quest.489452EB62355D26.quest_desc": [
+        "These &6multiblocks&r streamline setups across multiple &amods&r. Be sure to check them out for &2better efficiency&r!"
+    ],
+    "quest.4A45AD963A4F6469.quest_desc": [
+        "The &6Multismelter&r is a high-speed furnace that processes &e16 recipes simultaneously&r at the cost of some &bpower&r.",
+        "",
+        "While it takes up more space, it easily outpaces netherite furnaces with full speed/factory upgrades.",
+        "",
+        "When handling &ebulk smelting&r, this machine truly &dshines&r!"
+    ],
     "quest.4CAE0BA4CDDDA49A.quest_desc": [
         "Basically, get &aenergy&r out of the multiblock",
         "",
         "Not the ones that is &einserted&r, just the result"
     ],
     "quest.4CAE0BA4CDDDA49A.quest_subtitle": "Energy out",
+    "quest.4FBB56F6CEE6DBAC.quest_desc": [
+        "A colossal furnace alternative capable of processing &e16 recipes&r simultaneously in &dparallel&r.",
+        "",
+        "With a Max Parallel hatch (255), this monstrosity reaches &#ff004b4,000 recipes per 50 ticks&r!",
+        "",
+        "Requires massive amounts of &bpower&r and physical footprint.",
+        "",
+        "Exclusively smelts &#dada29Eternity&r and &#8e29daUniversium&r for progression.",
+        "{@pagebreak}",
+        "To obtain &#00ff19Solid Curium&r, place Create New Age Reactor Rods and feed Nuclear Fuel through an acceptor and funnel.",
+        "",
+        "Wait for curium to smelt, then wait a bit longer for it to finalize into &#00ff19Solid Curium&r (Curium destroys blocks under it until solid!)."
+    ],
+    "quest.51E4C99D8D034E27.quest_desc": [
+        "The &aautomatic tier&r of Igneous Extruders. Uses &bFE power&r to yield &ehigher quantities&r at &dfaster speeds&r!"
+    ],
+    "quest.545B2F0F72BA68BA.quest_desc": [
+        "&#8e29daNebulas&r contain raw cosmic materials waiting to be harvested.",
+        "",
+        "Allows you to craft most in-game &egems&r through unique &arecipes&r!"
+    ],
+    "quest.5475DF21C1310F69.quest_desc": [
+        "Launch materials directly into &#29dab4Space&r! (Impact warning: landing gear not included).",
+        "",
+        "Crafts &#ffd00cStellarium&r and &#ec3e64Cosmic Matter&r.",
+        "",
+        "Key features:",
+        "",
+        "- Higher &#44ccffPlutonium&r inputs lower total power usage and increase speed.",
+        "",
+        "- &eBlock recipes&r grant vastly superior yields.",
+        "",
+        "- Using &dsmall dusts&r of opposing metals gives a chance to recover input blocks!",
+        "",
+        "Pro tip: Always stack block recipes with small dust catalysts for optimal returns."
+    ],
+    "quest.5475DF21C1310F69.quest_subtitle": "&cKeter Level&r",
+    "quest.56DEFAA19EE44DB7.quest_desc": [
+        "A versatile extraction &6multiblock&r:",
+        "",
+        "- Generates random &7junk&r (higher quality &bfluids&r increase yield).",
+        "",
+        "- Produces &8mineral slurry&r and water as byproducts.",
+        "",
+        "- Yields random &eores&r in varied amounts.",
+        "",
+        "- Fluid-based recipes provide guaranteed outputs + &abonus yields&r.",
+        "",
+        "Best used in the &5Mining Dimension&r for special dimension-specific recipes!"
+    ],
     "quest.596F28EF0EB7002F.quest_desc": [
         "\"These &6bees&r needs a &dmagical&r enviroment for them to &awork&r, yet it seems that they can &5work&r on &3parallel&r to each other\" - &5Magical&r Executor 1",
         "",
@@ -205,7 +331,7 @@
         "   -> &dMetaturnal&r -> Works at any &6time&r of the day. If you put &3nocturnal&r, it will work only for the &anight&r",
         "",
         "   -> &dAny&r -> Works on any &aweather&r. If you put &3rain&r, it will work only during a &brainstorm&r",
-        "",
+        "{@pagebreak}",
         "- &5Omega upgrades&r -> If you put up to 4 &aupgrades&r, it will produce an &n&cextra&r 64 combs blocks",
         "",
         "- &5Sugarbag comb&r -> Produce an &n&cextra&r 16 combs block. Because of that &aextra sugar&r ;)",
@@ -223,7 +349,7 @@
         "",
         "- You need a &dbudding&r and 6 &5cluster&r of the same &ctype&r on the &bcenter&r",
         "",
-        "- It do&cesn't&r produce &eitems&r without some other &6item&r to help it",
+        "- It &cdoesn't&r produce &eitems&r without some other &6item&r to help it",
         "",
         "To &6start&r getting &bshards&r, you would need the &efollowing&r (at least one):",
         "",
@@ -248,20 +374,26 @@
         "{image:catalyst:textures/quest_images/geore/maker.png width:200 height:100 align:center fit:true}"
     ],
     "quest.5EA2660475664A48.quest_subtitle": "Crushing power",
+    "quest.60AFCAF8C89D416D.quest_desc": [
+        "&cMob farms&r can be tedious to optimize and often cause severe lag.",
+        "",
+        "This &6multiblock alternative&r processes mob drops cleanly with cheaper recipes!",
+        "",
+        "Requires a &#b42222Living Blood Bucket&r and initial mod progression."
+    ],
+    "quest.6227BE64E1F2A705.quest_desc": [
+        "A taller variant featuring &e2 major upgrades&r: requires &d1 tier higher&r of hatches and cuts craft times from &c400 ticks&r down to &a300 ticks&r."
+    ],
     "quest.628C96098631C123.quest_desc": [
         "It has the same &afunctions&r as a &6Loot&r &7Fabricator&r from &bHNN&r but it's 20 times &cfaster&r, while using the same &aenergy&r and giving more &dresources&r.",
         "",
         "You will need the &bprediction&r and a &dcatalyst&r a.k.a a starting item to start with the craft.",
-        "This &6catalyst&r determines which item you can get. There are few ways to get the catalyst &eback&r to the input ;)",
+        "This &6catalyst&r determines which item you can get.",
         "",
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/dataextractor.png width:200 height:200 align:center}"
     ],
     "quest.62F77CA28BF9653C.quest_desc": [
-        "These &emultiblock&r are centered around &dresources&r generation",
-        "",
-        "I would check the &bHNN&r and &aMA&r ones mainly for &efarming&r resources or if you are a &abuilder&r and need a lot of &6wood&r, the Arboletum.",
-        "",
-        "Or the &6bees&r...."
+        "These &emultiblocks&r are centered around general &dresource generation&r, ranging from basic raw items to advanced components."
     ],
     "quest.62F77CA28BF9653C.quest_subtitle": "Farming on the go?",
     "quest.62F77CA28BF9653C.title": "Farming",
@@ -270,7 +402,9 @@
         "",
         "Celestial forge can even &5support&r a lot of &ageodes&r and a quarry going, giving up to&#F727FF <shake a=1.0 f=1.0>x4</shake> ",
         "",
-        "The furnaces can do up to 2K recipes at the same time! \\nOr 8x for the primitive one"
+        "The furnaces can do up to 4K recipes at the same time! \\nOr 8x for the primitives one",
+        "",
+        "And lastly the 2 last multis gives an assistance to the others multis"
     ],
     "quest.64F9B0F0FA57D7F2.quest_subtitle": "We are &bstarting&r to get multiblocked",
     "quest.64F9B0F0FA57D7F2.title": "&#ffd00cOre&r <bounce a=1.0 f=0.5 w=1.0>processing</bounce>",
@@ -279,9 +413,10 @@
         "",
         "But the &cmain&r key is to &dreduce&r the number of &bmachines&r you have in your world or just be a more &6efficient&r way to generate some &eresources&r!",
         "",
-        "You might like them or not, but it's &3worth&r giving them a try, and some of them are &erequired&r to progress in some mods. But those are &csmall&r, don't worry"
+        "You might like them or not, but it's &3worth&r giving them a try, and some of them are &erequired&r to progress in the modpack, those are specified on another set of quests"
     ],
     "quest.676F526FA911C55D.quest_subtitle": "There are a lot of things",
+    "quest.676F526FA911C55D.title": "&6Before the multiblock madness&r",
     "quest.6943723147A58727.quest_desc": [
         "Grows &calmost&r every &6tree&r from the game, making &elogs&r and saplings.",
         "Optionally, you can also get &2leaves&r if you put a &bfrozen&r shear as input",
@@ -289,6 +424,25 @@
         "You will need some &9water&r, the &esapling&r you want to farm and &aenergy&r, at least 10k FE per &btick&r",
         "",
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/arboretum.png width:200 height:200 align:center}"
+    ],
+    "quest.6A93859FAFD312AA.quest_desc": [
+        "Accumulated too many &6plates&r? Convert them back into &d dust form&r to smelt them into ingots again!",
+        "",
+        "Includes integration with several major mods."
+    ],
+    "quest.6B170BA05FDF56BF.quest_desc": [
+        "Opening &5portals&r can be dangerous—keep your distance while active! :p",
+        "",
+        "This massive &6multiblock&r is crucial for progression and integrates with &#ec3e64Pastel&r and &#8e29daMalum&r.",
+        "",
+        "Includes great QoL upgrades like automated mob handling and &aenhanced recipe yields&r!"
+    ],
+    "quest.6FECCB3E5EF74865.quest_desc": [
+        "&6Alloys&r are crucial to technology mods. Here is a way to mass-produce them!",
+        "",
+        "Cheaper than standard methods but takes &c400 ticks&r per operation. Handles up to &e16 recipes simultaneously&r per multiblock.",
+        "",
+        "Tip: Apply &bTick Acceleration&r to the controller to speed things up!"
     ],
     "quest.70398E97AAD8E677.quest_desc": [
         "&dReinforced&r Deepslate can be obtained from 2 sources, &anatural&r spawning or &bcrafting&r them!",
@@ -316,6 +470,13 @@
     ],
     "quest.70398E97AAD8E677.quest_subtitle": "Reinforcement!!",
     "quest.70398E97AAD8E677.title": "Get Reinforced Deepslate",
+    "quest.74D8835E79740437.quest_desc": [
+        "The &6Collider&r requires massive energy (up to &c100MFE/t&r!), but condenses complex multimod setups into a single structure.",
+        "",
+        "Note: You cannot steal the &#8e29daBlack Hole&r :D",
+        "",
+        "Also functions as an item void/trashcan that collects ground items within 5 blocks."
+    ],
     "quest.75A17B4F62BAB3A3.quest_desc": [
         "Well, this is simple, put a &dmob&r inside and get a &6liquid&r",
         "",
@@ -325,6 +486,7 @@
         "- &#FFA248Villager&r -> &9Menril&r resing",
         "- <rainb f=0.25 w=1.0>Sheep</rainb> -> &dPink slime&r",
         "- <grad from=#663b2a to=#28b425 hue=true f=0.25 sp=20.0 uni=false>Zombie</grad> -> Liquid &#9D4F2FMeat&r",
+        "- &#005555Warden&r -> Use an IF Souls pipe instead of a gearbox to farm &5souls&r!",
         "",
         "Maybe some &credstone&r could help?"
     ],
@@ -367,12 +529,21 @@
         "Maybe it used for &7steam&r powered &dmachines&r? I can't say"
     ],
     "quest.7CC0BCB656C937C6.quest_subtitle": "Building material",
+    "quest.7E03BD54BF704CF5.quest_desc": [
+        "A &#00ff19cross-dimensional beacon&r that stays active as long as its chunk remains loaded!",
+        "",
+        "- &eNametags&r must match the player's exact name.",
+        "",
+        "- &aPositive effects&r are applied continuously per tick.",
+        "",
+        "- &cNegative effects&r are triggered at recipe completion.",
+        "",
+        "Outputting conduit or dolphin spawn items grants those specific status effects to the player."
+    ],
     "quest.7E35C161848F343F.quest_desc": [
-        "These &emultiblock&r are centered around saving &clag&r from later &aMekanism&r gameplay.",
+        "These &emultiblocks&r are centered around saving &clag&r from later &aMekanism&r gameplay.",
         "",
-        "Or to solve the &aspam&r issue.",
-        "",
-        "These &6multiblocks&r uses a lot of &7steel&r and &cmodularium&r. You should &apassive&r it"
+        "Or to solve the &aspam&r issue."
     ],
     "quest.7E35C161848F343F.quest_subtitle": "Pumping",
     "quest.7E35C161848F343F.title": "Mekanism",
@@ -395,7 +566,9 @@
         "",
         "These &emultiblocks&r have a special characteristics, they are kind of &bmodular&r, thats why the name.",
         "",
-        "They allow some &dflexibilty&r in terms of &ainput&r and &coutput&r while being a lot more &6powerful&r than singleblock machines"
+        "They allow some &dflexibilty&r in terms of &ainput&r and &coutput&r while being a lot more &6powerful&r than singleblock machines.",
+        "",
+        "You can autobuild them!"
     ],
     "quest.7FFD86864E64AB0F.quest_subtitle": "GregTech approved",
     "quest.7FFD86864E64AB0F.title": "Modular Machines"

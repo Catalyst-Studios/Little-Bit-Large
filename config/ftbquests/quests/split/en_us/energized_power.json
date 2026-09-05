@@ -1,8 +1,369 @@
 {
-    "quest.595C57935DCCD08E.quest_desc": [
-        "&6Energized Power Questline&r is still in the works, for further information join our discord to see its current status!",
-        "",
-        "Sorry for the Inconvinience."
+    "quest.000CE1F489C73737.quest_desc": [
+        "After this point, you will need lots of &#f1c40fpower&r, since we would need &#f9e79f8MFE/t&r to continue, but that's easy to get with some &#3498dbthermal&r or just &#2ecc71solar power&r"
     ],
-    "quest.595C57935DCCD08E.title": "Questline Under Work"
+    "quest.001E685F62DE940B.quest_desc": [
+        "All &#a9dfbfbone meals&r will improve &#2ecc71speed&r but consume more &#f1c40fpower&r, though it doesn't change how much &#85c1e9water&r/&#e74c3clava&r is consumed"
+    ],
+    "quest.009D351EDE9AD400.quest_desc": [
+        "&#1abc9cEnergized Power&r provides a way to &#8e44adteleport&r from point A to point B, more details later"
+    ],
+    "quest.01634B782B178153.quest_desc": [
+        "Needs a &#8d6e63lightning rod&r on top, and &#f1c40flightning&r needs to hit the top side to generate &#e74c3cpower&r"
+    ],
+    "quest.01A7DBE9B125EC6E.quest_desc": [
+        "Last tier of &#2ecc71solar cell&r, able to generate just some &#f1c40fpower&r"
+    ],
+    "quest.033A1AB627084E6C.quest_desc": [
+        "These are similar to &#8d6e63Iron Furnaces&r's ones, but only have &#3498db3 tiers&r, and are much &#2ecc71faster&r and consume &#f1c40fless power&r. No &#5d4037carbon&r is produced, so we can call it &#a9dfbfeco-friendly&r",
+        "",
+        "Only has &#ff6b6b1 slot&r"
+    ],
+    "quest.03971ACD2EAC5B45.quest_desc": [
+        "This is a &#e74c3cslow machine&r compared to other types, even speaking with the best &#a93226fertilizer&r (&#ff6b6bred one&r), and the best &#8e44adupgrades&r.",
+        "",
+        "And you have to consider that some &#5d4037soils&r slow down the process..."
+    ],
+    "quest.070DAA1B0BDC0CBC.quest_desc": [
+        "If you have read the quests, I have told you to make these in advance, why?",
+        "",
+        "The first one takes around &#e74c3c1200 SECONDS&r fully upgraded, not &#3498dbblue upgrades&r, just the best &#2ecc71green ones&r we have available",
+        "",
+        "You should use the &#1abc9cCollider&r to farm these! Why? Well, it's a lot &#2ecc71faster&r and gives you &#f1c40fmore!&r"
+    ],
+    "quest.071D42E954EFFC38.quest_desc": [
+        "With &#2ecc71energized copper&r, you have new &#3498dbcables&r, time to change them"
+    ],
+    "quest.078AB7F6FDF2A111.quest_desc": [
+        "While they are the &#8e44adlast tier&r, they are as important as the others, or even &#ff6b6bmore!&r"
+    ],
+    "quest.07DAE2AC4660AEE3.quest_desc": [
+        "First, the mighty &#d4ac0dwrench&r, which basically allows you to do some stuff with the mod &#85c1e9pipes&r, you won't need it a lot"
+    ],
+    "quest.0939C9E8A0274912.quest_desc": [
+        "And &#8e44adTier 4 machine casing&r, now you can make a part of the &#1abc9cCollider&r.",
+        "",
+        "It's basically only used for the &#d2b4denext tier&r and a &#3498dbteleporter&r"
+    ],
+    "quest.09805FB4A6C0959B.quest_desc": [
+        "&#2ecc71Press&r those ingots, beware of the &#f1c40flightning&r &o:p&r"
+    ],
+    "quest.0BA4F7A8D9D87BDE.quest_desc": [
+        "And another &#8e44admodule&r to upgrade your machines. You can do &#2ecc712 tiers&r at the same time now, go for &#f1c40fenergized gold&r and then &#85c1e9energized crystal cables&r",
+        "",
+        "&oHere is a tip: you can sneak right-click on the machine GUI to change upgrades&r"
+    ],
+    "quest.0BE9319D07EB4EA3.quest_desc": [
+        "Decreases the &#f1c40fenergy needed&r for a recipe in &#2ecc71%&r",
+        "",
+        "This means that if you have a recipe needing &#f9e79f100 FE&r and you insert this tier, you will only need &#2ecc7190 FE&r",
+        "",
+        "Here is the catch: &#8e44adspeed upgrades&r will affect the recipe consumption"
+    ],
+    "quest.0BFA12DF02ED23C1.quest_desc": [
+        "Instead of shocking your tips, we will use some &#d2b4dewool&r"
+    ],
+    "quest.0E00C461AF798658.quest_desc": [
+        "Instead of getting &#ff6b6b9 cables&r, we only get &#3498db6&r, but that's not a problem for now, &#f1c40f1KFE/t&r is more than enough"
+    ],
+    "quest.0E0CE91A82A816EB.quest_desc": [
+        "&#1abc9cInduction Smelter&r allows you to use &#8e44adupgrades&r, so it will make them &#2ecc71faster&r",
+        "",
+        "Or you can use a handy &#3498dbmultiblock&r that only does it in &#f1c40f400 ticks&r &o:P&r"
+    ],
+    "quest.0E160ED6B780FE5E.quest_desc": [
+        "&#f1c40f16MFE per tick&r, that's a decent &#3498dbcable&r if we compare it to the energy needs of this modpack, but there is something better: its own &#a9dfbfmini battery&r, with &#f9e79f16MFE&r of capacity.",
+        "",
+        "Not all cables will have that, but if you put some &#f1c40fpower&r inside one piece, you will upgrade your energy capacity for &#2ecc71free&r"
+    ],
+    "quest.0E4920A6EB713AFB.quest_desc": [
+        "We only need &#2ecc712 ingots&r, no more, since this machine has one of the &#e74c3cworst conversion rates&r"
+    ],
+    "quest.0E628626CF8245D5.quest_desc": [
+        "Needs &#e74c3clava&r on &#ff6b6b5 sides&r to generate some &#f1c40fpower&r, but at least it won't get consumed.",
+        "",
+        "The more sides you have covered, the &#2ecc71more it will produce&r"
+    ],
+    "quest.0E8F22B3E0D200F3.quest_desc": [
+        "Now, with a ratio of &#f1c40f32KFE/t&r per &#8d6e63copper&r, it's a much &#2ecc71better deal&r"
+    ],
+    "quest.0EA99797A43CC2D1.quest_desc": [
+        "A better &#3498dbcable&r, the second best of this mod. It will take a bit before you can make the better ones, but &#2ecc71one step at a time&r"
+    ],
+    "quest.10795916D54A6137.quest_desc": [
+        "&#f1c40fSolar panels&r can work during the &#8e44adnight&r now!"
+    ],
+    "quest.12A223928F9A175E.quest_desc": [
+        "These are the &#2ecc71good cables&r that we want to start our base.",
+        "",
+        "&#e74c3cCables of different types won't connect&r"
+    ],
+    "quest.146EA2D8FE69527B.quest_desc": [
+        "You can use the &#1abc9ccompressor&r to get the plate, or you can use the &#3498dbExtruder&r, a &#8e44admultiblock&r"
+    ],
+    "quest.14C1AEB2835E60A1.quest_desc": [
+        "&#f9e79f100mB/t&r, you should &#e74c3cnot use these pipes&r, use others from other mods"
+    ],
+    "quest.14F3F984A31226BA.quest_desc": [
+        "From &#85c1e9liquid&r to &#8d6e63solid&r, but consuming both liquids, &#e74c3cno cobble farm&r &o:(&r"
+    ],
+    "quest.14F55DF8897A481B.quest_desc": [
+        "Well, convert them to &#2ecc71plates&r"
+    ],
+    "quest.1C19795D0CB80D14.quest_desc": [
+        "And the &#3498dbsecond tier&r, you can make these in &#2ecc711 go&r, no need to wait."
+    ],
+    "quest.1D43DEFCDE66C314.quest_desc": [
+        "After selecting the mold on the GUI, you can cook them to &#8d6e63harden it&r, and after that, you can basically &#8e44adupgrade them&r to have higher &#2ecc71durability&r"
+    ],
+    "quest.1DABCD81B6E3A9F4.quest_desc": [
+        "More &#8e44adupgrades&r &o:(&r",
+        "",
+        "&oWhen will the endless upgrading factory stop?&r"
+    ],
+    "quest.1E1F4F88D5714E12.quest_desc": [
+        "The &#3498dbfirst casing&r, although you will need a lot of these, because they are used to &#8e44adupgrade&r to better tiers"
+    ],
+    "quest.1EDB5B9EBE40E2A0.quest_desc": [
+        "Now that you have your first &#f1c40fenergy producers&r, you will need &#f9e79f8MFE/t&r to start; first, you should go to the &#1abc9cleft branch&r"
+    ],
+    "quest.1F2ADE67CE1B4446.quest_desc": [
+        "Basically turns some blocks to other types, like &#8d6e63stone&r to &#5d4037cobblestone&r"
+    ],
+    "quest.20B5AE21DCACBD3B.quest_desc": [
+        "Is the &#85c1e9electron&r here or there? We can't know, but we know that we can use that to compute &#f1c40f1+1 faster!&r"
+    ],
+    "quest.20BB01E5595D22E2.quest_desc": [
+        "This machine needs the &#1e8449dirty water&r, &#f1c40fpower&r, and you must select which raw material you are aiming for, since it won't work directly without that filter",
+        "",
+        "You will get tons of &#8d6e63pebbles&r, you can trash them"
+    ],
+    "quest.21EEC2D538889EE6.quest_desc": [
+        "&#2ecc71Faster operations&r but consumes &#e74c3cmore power&r.",
+        "",
+        "This upgrade should be inserted with an &#1abc9cefficiency one&r"
+    ],
+    "quest.238702C6F6C1F3EB.quest_desc": [
+        "And you have ended &#8e44adtier 4&r, it wasn't that hard",
+        "",
+        "Well, here is something: if you haven't picked up the optional quests, you can get &#f1c40fhalf a million energy&r for some &#a9dfbfsnowballs&r and just waiting &#2ecc713 seconds&r"
+    ],
+    "quest.25E9A0725C280FE9.quest_desc": [
+        "Basically puts &#8d6e63blocks&r in the world, but uses &#f1c40fenergy&r to do so"
+    ],
+    "quest.266389E4252F36B4.quest_desc": [
+        "First &#1abc9ccircuits!&r",
+        "",
+        "Time to &#8e44adupgrade&r those machines"
+    ],
+    "quest.2E2F858D10F4CEA4.quest_desc": [
+        "This is a pretty easy way to generate &#85c1e9ice&r or in contrast, &#3498dbblue ice&r"
+    ],
+    "quest.2F378EA1329F8B27.quest_desc": [
+        "While there is an &#8e44adadvanced version&r, there won't be a need to make a lot of these"
+    ],
+    "quest.2F4E1ADE29C2972F.quest_desc": [
+        "&#1abc9cEnergized Power&r is one of its kind, similar to some famous 2D automation game; this mod doesn't have much to it, just &#2ecc71pure logistics&r.",
+        "",
+        "The goal is to make as much &#f1c40fpower&r as you can, but to do that, we are going to need some &#8d6e63materials&r first"
+    ],
+    "quest.301EF0AAD3DC8F9F.quest_desc": [
+        "Basically, it allows you to automatically make &#8d6e63concrete&r from powder form, without placing it"
+    ],
+    "quest.30B424AB178FF23C.quest_desc": [
+        "I would &#2ecc71passive these&r, they are used everywhere, especially on some &#f1c40fenergy hatches&r to start the madness"
+    ],
+    "quest.3831701C09E3CC03.quest_desc": [
+        "Allows the furnaces from the mod to act as a &#e74c3csmoker&r"
+    ],
+    "quest.39F13C2725B3176A.quest_desc": [
+        "New &#1abc9ccircuits&r, new headaches, now we need &#ff6b6b4 of the last tier&r to progress"
+    ],
+    "quest.3D7AD4420DA21D23.quest_desc": [
+        "Generates &#f1c40f2.5KFE/t&r but consumes &#e74c3clava&r to do so.",
+        "",
+        "&#ff6b6bNot recommended&r unless you have a fast lava generation setup"
+    ],
+    "quest.3DC846B8C02E58F5.quest_desc": [
+        "Allows you to &#8e44adwirelessly charge&r your items, it accepts &#3498dbrange upgrades&r to extend its radius of influence"
+    ],
+    "quest.408C8DB7CD28AFA0.quest_desc": [
+        "Another &#f1c40fsolar&r to &#8e44adupgrade&r"
+    ],
+    "quest.411D065FF40241B5.quest_desc": [
+        "Unlike the last tier, this one needs &#85c1e9water&r to be used, and generates &#1e8449Dirty Water&r, which we can use to generate even more &#a9dfbfores&r. I only see &#2ecc71profits&r here"
+    ],
+    "quest.43343CDB3AA914DA.quest_desc": [
+        "Your first &#f1c40fsolar cells&r are used to upgrade to other solar cells, or to make the upgrade later on"
+    ],
+    "quest.43F2B08E2C62EAE9.quest_desc": [
+        "&#f1c40fTier 7 solar panels&r and future &#f9e79fTier 8&r, well, make a few of them!"
+    ],
+    "quest.45265EBD8B665E30.quest_desc": [
+        "A perfect machine to cut down your &#8d6e63logs&r into &#5d4037planks&r... or that's what I would say if it only did that, but this machine also disassembles some wooden stuff.",
+        "",
+        "Converts &#8d6e631 log&r into &#2ecc716 planks&r, &#5d40371 plank&r to &#f1c40f3 sticks&r, and &#d4ac0d1 stick&r to &#a9dfbf1 sawdust&r. You can also recycle all vanilla variants!"
+    ],
+    "quest.4528478FC879FB28.quest_desc": [
+        "You would need at least 2 teleporters, one at &#3498dbPoint A&r and another at &#1abc9cPoint B&r.",
+        "",
+        "First you link a matrix on each teleporter by &#2ecc71sneak right-clicking&r on the teleporter with it in your main hand, then the matrix from Point A goes inside the teleporter from Point B and vice versa.",
+        "",
+        "After that, give it &#f1c40fenergy&r and press &#f9e79fV&r (by default) to teleport; you must be on top of the block, touching it, not half a block above."
+    ],
+    "quest.48BCCE534E86904D.quest_desc": [
+        "&#ff6b6b1B/t&r, not good...",
+        "",
+        "&#e74c3cDon't use these&r"
+    ],
+    "quest.4CA86A033479FF03.quest_desc": [
+        "We would need some &#3498dbstorage&r, but the mod has it covered, though it's a bit &#e74c3cexpensive&r.",
+        "",
+        "So, what can we do? Well, use the &#1abc9ccables as buffers!&r",
+        "They store some energy, and machines use little energy per tick, so you won't be needing a lot of these or even better, &#2ecc71not at all with digital storage&r"
+    ],
+    "quest.4E6720A4DA9C8D6A.quest_desc": [
+        "&#f1c40f8MFE per tick&r is a steal when we have &#2ecc71energized alloy&r at home, and even &#8e44adparallel recipes!&r"
+    ],
+    "quest.50AFAF555C575CD7.quest_desc": [
+        "&#1abc9cSuperconductors&r open the door to new cables, better than &#85c1e9crystal ones&r",
+        "",
+        "It costs a ton, but here is the good part: we are in the last part of the factory growth, able to make the &#2ecc71best upgrades!&r"
+    ],
+    "quest.52E30ACB2E6FE14D.quest_desc": [
+        "Allows &#1abc9cEnergizer&r to put more &#f1c40fenergy&r on the materials inside, meaning &#2ecc71faster production&r"
+    ],
+    "quest.56DFE3E7B60578CD.quest_desc": [
+        "You would need some &#85c1e9water&r to even start the machine, but it gives a precious fluid back, &#1e8449Dirty Water&r",
+        "",
+        "Did you know that you can macerate some ingots to get dust, then burn that dust to get the ingot back? Well, that's a &#3498dbclosed loop&r",
+        "",
+        "Is it good? No, but it's basically &#2ecc71free&r once you have started, and you can even skip some machines if you don't like them"
+    ],
+    "quest.582E5067CD375F18.quest_desc": [
+        "But first, we will need some bases for those.",
+        "",
+        "Take a look at the &#8e44adupgrades&r, the first tier of each one will explain how it works"
+    ],
+    "quest.585AB13F5D314998.quest_desc": [
+        "And the last &#3498dbmachine frame&r, congrats, you have finished the mod.",
+        "",
+        "Now time to go back to the mines, &#8d6e63copper supply&r is low &o:(&r"
+    ],
+    "quest.58CCB6A80CA794B4.quest_desc": [
+        "And lastly, the &#e74c3cfuel&r, you will get back the &#85c1e9water&r, but no need since we have infinite water at a good rate"
+    ],
+    "quest.5A52085AF24968DC.quest_desc": [
+        "We need some &#3498dbbatteries&r due to cable low capacity. It will charge fast but slowly discharge, so a &#2ecc71perfect block&r for our needs"
+    ],
+    "quest.5ABD6ADBC06BAAB5.quest_desc": [
+        "&#d2b4deNext tier of machines&r, we are going faster than the &#2ecc71speed of light in water&r"
+    ],
+    "quest.5C026BB395242F83.quest_desc": [
+        "Or you can avoid being 100% above the block with this item; it works similar to the teleporter, just that you need to &#2ecc71sneak right-click&r while looking at the air with this item to open the GUI.",
+        "",
+        "It consumes the &#f1c40f8MFE in 1 go&r, like the teleporter"
+    ],
+    "quest.5C51BA9406B66C78.quest_desc": [
+        "&#3498dbChambers&r are one of those machines that you should invest in early on to avoid waiting later, mainly for &#85c1e9crystallized lapis&r and &#d2b4deamethyst buds&r"
+    ],
+    "quest.6073BA8A01393C9A.quest_desc": [
+        "&#8d6e63Steel plates&r are made cheaper with these, but we will find a &#2ecc71better deal&r later"
+    ],
+    "quest.608EA780A280CBAE.quest_desc": [
+        "The &#8e44adlast tier of battery&r, able to supply the entire factory; yes, 1 single battery can support the energy needed for all passive processes.",
+        "",
+        "Just don't expect it to go fast"
+    ],
+    "quest.60C2544AA1C3763B.quest_desc": [
+        "&#2ecc71Faster operation&r for the furnace when dealing with ingots"
+    ],
+    "quest.60F1626FEBB9A4C6.quest_desc": [
+        "This is an &#8e44adupgraded version&r, with more functions to it, like &#2ecc71upgrades!&r"
+    ],
+    "quest.61D5D85468049267.quest_desc": [
+        "Compacting some &#2ecc71alloy&r to be spread"
+    ],
+    "quest.63FB6D7D962088EC.quest_desc": [
+        "Did you think we wouldn't need power? Well, we need the &#3498dbwire&r, we aren't sending it wirelessly"
+    ],
+    "quest.6469FDB9E58A7131.quest_desc": [
+        "First &#3498dbwires!&r",
+        "",
+        "Not the best, but they are &#2ecc71cheap&r"
+    ],
+    "quest.64829F0BBF337F81.quest_desc": [
+        "There is a &#2ecc71better alternative&r around the corner, &#e74c3cdon't make these en masse&r"
+    ],
+    "quest.697B9815FF380F6E.quest_desc": [
+        "Machines are limited in energy capacity and energy transfer, but these little &#8e44adupgrades&r allow you to change that"
+    ],
+    "quest.6C4A7CEBB5475A5E.quest_desc": [
+        "Some insane pressing later, we have a &#2ecc71good plate&r"
+    ],
+    "quest.6E0E46869A5D99A5.quest_desc": [
+        "You can sort of see this as: ingot goes in, dust goes out, but that's not all; you can use this for &#a9dfbfore processing&r too!"
+    ],
+    "quest.6F8BC77701F996A4.quest_desc": [
+        "It will basically save machine status, but you won't need it much"
+    ],
+    "quest.6FB7F2DD8C7E6ADF.quest_desc": [
+        "Has &#2ecc713 slots&r for working at the same time"
+    ],
+    "quest.6FB9C604FEDE6EDA.quest_desc": [
+        "Well, first we need some &#1abc9cfilters&r, you need &#3498db2 inside the machine&r when it's running"
+    ],
+    "quest.7060533FE885B7B7.quest_desc": [
+        "Has &#2ecc717 slots&r, and can work at &#f1c40f1 tick&r"
+    ],
+    "quest.709E19F2CE7323DF.quest_desc": [
+        "&#e74c3cDo not make these&r, they are by far worse than Curvy Pipe or any other mod, since it can only move &#ff6b6b10 buckets per tick&r"
+    ],
+    "quest.710A60E3C18DEE07.quest_desc": [
+        "Combines multiple inputs, up to &#3498db3&r, to generate &#2ecc711 output&r.",
+        "",
+        "At this point, start making some &#1abc9cadvanced alloy&r ahead, at least &#f1c40f2&r"
+    ],
+    "quest.713BFD843CFFF5CF.quest_desc": [
+        "Using &#8d6e63plates&r, you are able to generate different materials, like &#d2b4defoils&r, &#85c1e9rods&r, or even &#f1c40fgears!&r"
+    ],
+    "quest.730A771A3BC6CC70.quest_desc": [
+        "A better way to get plates: &#8d6e631 ingot&r goes in, &#2ecc711 plate&r goes out"
+    ],
+    "quest.730DAFEC67BD0508.quest_desc": [
+        "And the second biggest machine in the mod: &#1abc9cassembling machine&r.",
+        "",
+        "Given up to &#3498db4 inputs&r, it will produce &#2ecc711 output&r; this machine is used a lot, so make a few of them!"
+    ],
+    "quest.736BB1909D736310.quest_desc": [
+        "And the other reason why I've suggested passiving &#1abc9cadvanced alloy&r: it takes a lot of time to get these, but the &#2ecc71reward is huge&r"
+    ],
+    "quest.73C118CB7B874FAF.quest_desc": [
+        "I've been hiding a secret from you: your &#f1c40fsolar panels&r can generate even more power than you would ever need, up to &#f9e79f1.3MFE/t&r, unless you have read the hidden tip in this quest (&o001D53B6BF6FADC7&r)"
+    ],
+    "quest.745C35450FE2865B.quest_desc": [
+        "Another card tier, this time &#2ecc71green&r. Did you remember to &#1abc9cpassive&r some of those materials?"
+    ],
+    "quest.7660CBB51C6ECE71.quest_desc": [
+        "Turns different products, like &#8d6e63stone&r, back to &#e74c3clava form&r, but with different amounts"
+    ],
+    "quest.76627B9D3393441C.quest_desc": [
+        "A bit more expensive than &#8d6e63copper&r, but at least it gives you better &#3498dbcables&r and other utilities"
+    ],
+    "quest.76F5953B70FC0E97.quest_desc": [
+        ""
+    ],
+    "quest.7D4962777B170BCF.quest_desc": [
+        "At this point, you should collect some &#8d6e63clay&r, &#5d4037iron&r, &#f1c40fgold&r, &#3498dblapis&r, and &#e74c3ccopper&r to continue, since it's used a lot in the mod"
+    ],
+    "quest.7DA3D260E022D398.quest_desc": [
+        "We will need an &#85c1e9ice farm&r to make these, &#ff6b6b81 ice per blue ice...&r",
+        "",
+        "Well, maybe some machine from this mod will help you",
+        "",
+        "Or from another mod"
+    ],
+    "quest.7EB8977A7A05AEA8.quest_desc": [
+        "&#1abc9cAdvanced alloy&r, &#3498db3rd tier ingot&r, we will need a few of them, so I would suggest making them &#2ecc71passively&r"
+    ]
 }

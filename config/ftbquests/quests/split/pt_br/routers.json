@@ -20,7 +20,7 @@
         "Adiciona opções de distribuição mais detalhadas. Permite configuração Round Robin, Mais Próximo Primeiro, Mais Distante Primeiro e distribuição Aleatória."
     ],
     "quest.05FAEBA8E296FE54.quest_desc": [
-        "aumenta o atraso de coleta em 10 ticks por augment."
+        "aumenta o atraso de coleta em 10 tiques por augment."
     ],
     "quest.0BC89903FE272EF2.quest_desc": [
         "As melhorias são usadas para aprimorar o desempenho de todo o router. Todos os módulos aplicáveis receberão o efeito, desde que não tenham um augment que o anule."
@@ -50,7 +50,7 @@
         "Aumenta o alcance máximo do módulo especificado. O número máximo de aumentos depende do módulo; veja o livro para mais informações."
     ],
     "quest.252B224EE93878E6.quest_desc": [
-        "A melhoria de velocidade reduz o tempo entre as ativações. O intervalo padrão é uma vez a cada 20 ticks (1 segundo), e cada melhoria encurta este intervalo em 2 ticks. Com um máximo de 9 melhorias, o intervalo pode ser encurtado para até uma vez a cada 2 ticks (10 vezes por segundo)."
+        "A melhoria de velocidade reduz o tempo entre as ativações. O intervalo padrão é uma vez a cada 20 tiques (1 segundo), e cada melhoria encurta este intervalo em 2 tiques. Com um máximo de 9 melhorias, o intervalo pode ser encurtado para até uma vez a cada 2 tiques (10 vezes por segundo)."
     ],
     "quest.252B224EE93878E6.quest_subtitle": "Eu sou a velocidade",
     "quest.286161478F4107E8.quest_desc": [
@@ -71,9 +71,9 @@
         "MK3: Não tem limitação de alcance e pode transferir para qualquer dimensão, desde que o alvo esteja carregado."
     ],
     "quest.363B4216992BD094.quest_desc": [
-        "A melhoria de energia fornece ao roteador um buffer de energia interno e aumenta a transferência máxima de energia por operação &4(não por tick)&r.",
+        "A melhoria de energia fornece ao roteador um buffer de energia interno e aumenta a transferência máxima de energia por operação &4(não por tique)&r.",
         "",
-        "Cada melhoria adiciona 50kFE de armazenamento e aumenta a taxa de transferência em 1.000 FE por operação, com um máximo de 64 melhorias. Isso resulta em um armazenamento máximo de 3.2MFE e uma taxa de transferência máxima de 64kFE por operação (32kFE por tick com 9 melhorias de velocidade)."
+        "Cada melhoria adiciona 50kFE de armazenamento e aumenta a taxa de transferência em 1.000 FE por operação, com um máximo de 64 melhorias. Isso resulta em um armazenamento máximo de 3.2MFE e uma taxa de transferência máxima de 64kFE por operação (32kFE por tique com 9 melhorias de velocidade)."
     ],
     "quest.363B4216992BD094.quest_subtitle": "Empolgante",
     "quest.3C33DFE38E9097FA.quest_desc": [
@@ -106,7 +106,7 @@
         "Permite que o módulo tenha seu próprio comportamento de redstone, sobrepondo-se ao comportamento dos roteadores."
     ],
     "quest.54A17337948A2448.quest_desc": [
-        "Se você quer que todos os seus roteadores sejam ativados no mesmo tick exato, esta é a melhoria para você. Não só garante a ativação simultânea, mas também oferece 19 ticks diferentes para escolher. Todos os roteadores com o mesmo valor de melhoria de sincronização (e o mesmo número de melhorias de velocidade) serão ativados ao mesmo tempo.",
+        "Se você quer que todos os seus roteadores sejam ativados no mesmo tique exato, esta é a melhoria para você. Não só garante a ativação simultânea, mas também oferece 19 tiques diferentes para escolher. Todos os roteadores com o mesmo valor de melhoria de sincronização (e o mesmo número de melhorias de velocidade) serão ativados ao mesmo tempo.",
         "",
         "defina o valor clicando com o botão direito com a melhoria na mão"
     ],

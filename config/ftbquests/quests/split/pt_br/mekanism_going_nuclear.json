@@ -56,12 +56,11 @@
         "",
         "&4NOJENTO&r!"
     ],
-    "quest.33006B1CA6F4551A.title": " ",
     "quest.3DB72482CFC08930.quest_desc": [
         "&bEletrolise&r um pouco de &9água&r para obter um pouco de &aoxigênio&r, você vai &dusá-lo&r muito"
     ],
     "quest.3FB4008DC4FE767C.quest_desc": [
-        "O melhor reator de &5fusão&r pode te dar 400M FE por tick, mas ele &dprecisa&r de muitas &bturbinas&r para &6processar&r todo o &7vapor&r que pode produzir.",
+        "O melhor reator de &5fusão&r pode te dar 400M FE por tique, mas ele &dprecisa&r de muitas &bturbinas&r para &6processar&r todo o &7vapor&r que pode produzir.",
         "",
         "A única &6coisa&r que pode &bconsumir&r essa quantidade é um &dSPS&r, que você &aprovavelmente&r já tem.",
         "",
@@ -92,13 +91,13 @@
         "E algumas &dmáquinas&r &agrandes&r!"
     ],
     "quest.4F74130EBAF02EFF.quest_desc": [
-        "[{\"text\":\"\"},{\"text\":\"Em uma câmara de \"},{\"text\":\"enriquecimento\",\"color\":\"#FF55FF\"},{\"text}\", jogue um pouco de \"},{\"text\":\"urânio\",\"color\":\"#48cf63\"},{\"text\":\" para obter \"},{\"text\":\"bolo de urânio\",\"color\":\"#FFFF55\"},{\"text\":\".\"}]",
+        "[{\"text\":\"\"},{\"text\":\"Em uma câmara de \"},{\"text\":\"enriquecimento\",\"color\":\"#FF55FF\"},{\"text\":\", jogue um pouco de \"},{\"text\":\"urânio\",\"color\":\"#48cf63\"},{\"text\":\" para obter \"},{\"text\":\"bolo de urânio\",\"color\":\"#FFFF55\"},{\"text\":\".\"}]",
         "",
         "&4Não&r coma, eu sei que parece &6delicioso&r"
     ],
     "quest.4F74130EBAF02EFF.title": "[{\"text\":\"\"},{\"text\":\"Bolo\",\"color\":\"#FFFF55\"},{\"text\":\" de \"},{\"text\":\"Urânio\",\"color\":\"#48cf63\"},{\"text\":\" Amarelo\"}]",
     "quest.50015003F884A788.quest_desc": [
-        "[{\"text\":\"\"},{\"text\":\"A maneira \"},{\"text\":\"mais fácil\",\"color\":\"#FF55FF\"},{\"text\":\" de \"},{\"text\":\"eliminar\",\"color\":\"#FF5555\"},{\"text\":\" o \"},{\"text\":\"lixo nuclear\",\"color\":\"#48cf63\"},{\"text\":\" ou o lixo \"},{\"text\":\"nuclear\",\"color\":\"#48cf63\"},{\"text\":\" gasto é colocá-lo em um \"},{\"text\":\"barril\",\"color\":\"#FFAA00\"},{\"text\":\" e \"},{\"text\":\"quebrá-lo\",\"color\":\"#FF55FF\"},{\"text}\", colocar o \"},{\"text\":\"barril\",\"color\":\"#FF55FF\"},{\"text\":\" novamente e repetir.\"}]",
+        "[{\"text\":\"\"},{\"text\":\"A maneira \"},{\"text\":\"mais fácil\",\"color\":\"#FF55FF\"},{\"text\":\" de \"},{\"text\":\"eliminar\",\"color\":\"#FF5555\"},{\"text\":\" o \"},{\"text\":\"lixo nuclear\",\"color\":\"#48cf63\"},{\"text\":\" ou o lixo \"},{\"text\":\"nuclear\",\"color\":\"#48cf63\"},{\"text\":\" gasto é colocá-lo em um \"},{\"text\":\"barril\",\"color\":\"#FFAA00\"},{\"text\":\" e \"},{\"text\":\"quebrá-lo\",\"color\":\"#FF55FF\"},{\"text\":\", colocar o \"},{\"text\":\"barril\",\"color\":\"#FF55FF\"},{\"text\":\" novamente e repetir.\"}]",
         "",
         "Isso deve ser feito em uma &adimensão&r de &bbolso&r ou &clonge&r da sua base....",
         "",

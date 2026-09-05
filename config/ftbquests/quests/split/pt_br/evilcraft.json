@@ -45,11 +45,11 @@
     "quest.0FB79B7ACDEDBA93.quest_subtitle": "Eu sou Indestrutível!",
     "quest.0FB79B7ACDEDBA93.title": "Criadores Potencializados",
     "quest.16359AA62D3FE75B.quest_desc": [
-        "A Fornalha Espiritual é uma forma de farmar drops de mobs usando um espírito aprisionado na Caixa de Espíritos, algo semelhante a uma &dCâmara de Simulação&r do Hostile Neural Networks. A única diferença aqui é que este é um multiblock e usa &4sangue&r em vez de &cenergia&r!",
+        "A Fornalha Espiritual é uma forma de farmar drops de criaturas usando um espírito aprisionado na Caixa de Espíritos, algo semelhante a uma &dCâmara de Simulação&r do Hostile Neural Networks. A única diferença aqui é que este é um multiblock e usa &4sangue&r em vez de &cenergia&r!",
         "",
         "Para construir este multiblock, você precisará fazer um 3x3x3 usando Tijolos de Sangue e a Fornalha Espiritual (ou seja, o controlador do multiblock), como mostrado na imagem abaixo. Uma coisa importante sobre este multiblock é que seu interior deve estar vazio.",
         "{image:catalyst:textures/quest_images/evilcraft/spirit_furnace_1.png width:100 height:100 align:center}",
-        "Às vezes, alguns mobs que colocamos dentro deste multiblock exigirão uma fornalha espiritual mais alta, então, em vez de construí-la com 5 blocos de altura, aumentaremos seu tamanho em 2 ou 3 blocos.",
+        "Às vezes, algumas criaturas que colocamos dentro deste multiblock exigirão uma fornalha espiritual mais alta, então, em vez de construí-la com 5 blocos de altura, aumentaremos seu tamanho em 2 ou 3 blocos.",
         "{@pagebreak}",
         "Podemos até usar o SFM para automatizar nossa Fornalha Espiritual facilmente, sem usar o Cálice Entrelaçado para inserir Sangue e retirar os itens gerados!",
         "",
@@ -58,7 +58,7 @@
         "Recomendo o seguinte 'script' para esta configuração.",
         "{image:catalyst:textures/quest_images/evilcraft/spirit_furnace_4.png width:200 height:125 align:center}"
     ],
-    "quest.16359AA62D3FE75B.quest_subtitle": "Farm de Mobs",
+    "quest.16359AA62D3FE75B.quest_subtitle": "Fazenda de Criaturas",
     "quest.16359AA62D3FE75B.title": "A Fornalha dos Espíritos",
     "quest.165A7D91617BACC0.quest_desc": [
         "Naturalmente, podemos usar o &aAcumulador de Clima Ambiental&r que encontramos no &ctemplo escuro&r para obter esses climas dentro de garrafas.",
@@ -123,11 +123,11 @@
     "quest.27E705A8E21A5236.title": "Nossa Primeira &lPromessa",
     "quest.295B9BC524CA6E40.title": "Pedra Preciosa Ardente",
     "quest.2ABDA47F00454485.quest_desc": [
-        "Este Item só pode ser obtido matando um &despírito da vingança&r... Sim, eu sei que soa estranho, já que este mob é um espírito, então tecnicamente está morto, mas você tem que matá-lo para obter este Item específico?",
+        "Este Item só pode ser obtido matando um &despírito da vingança&r... Sim, eu sei que soa estranho, já que esta criatura é um espírito, então tecnicamente está morta, mas você tem que matá-lo para obter este Item específico?",
         "",
         "Ah... e também um pouco de exp aparentemente...",
         "",
-        "Mas para matar este mob você precisa do &4Foco da Vingança Perfurante&r, mas caso você não queira farmar este mob manualmente, sugiro que dê uma olhada na segunda missão de Dica dentro desta linha de missões!",
+        "Mas para matar esta criatura você precisa do &4Foco da Vingança Perfurante&r, mas caso você não queira farmar esta criatura manualmente, sugiro que dê uma olhada na segunda missão de Dica dentro desta linha de missões!",
         "",
         "&8&opssst... Está acima desta, caso você não a tenha encontrado&r"
     ],
@@ -152,9 +152,9 @@
         "",
         "Este item não pode ser fabricado no momento, mas pode se tornar fabricável em um futuro próximo... Fique atento para futuras atualizações e até a próxima!"
     ],
-    "quest.2FE1CD6DDFDF2F31.title": "&lO &4Fim&r?",
+    "quest.2FE1CD6DDFDF2F31.title": "&lO &4End&r?",
     "quest.348C191492897716.quest_desc": [
-        "Para obter estas &4Gemas&r, simplesmente precisamos colocar pelo menos 5 baldes de sangue e jogar nossas &0Gemas Escuras&r na poça de sangue.",
+        "Para obter estas &4Gemas&r, simplesmente precisamos colocar pelo menos 5 baldes de sangue e jogar nossas &0Gemas Sombrias&r na poça de sangue.",
         "",
         "Pode ou não demorar um pouco para se transformar, mas assim que as conseguirmos, eu realmente aconselho a fazer o Infusor de Sangue, com ele, a criação dessas gemas será mais fácil e rápida!"
     ],
@@ -190,13 +190,13 @@
     "quest.47C942BC0BD3D01E.title": "&lDica do Evilcraft&r #1",
     "quest.4B3625968F4E4331.quest_subtitle": "Ande Mais Rápido e de Forma Mais Eficiente sem Esforço",
     "quest.4B9C8F1028E7BAEB.quest_desc": [
-        "Para começar nossa aventura com o Evilcraft, precisamos cavar fundo no &8subsolo&r para encontrar algumas &0Gemas Negras&r.",
+        "Para começar nossa aventura com o Evilcraft, precisamos cavar fundo no &8subsolo&r para encontrar algumas &0Gemas Sombrias&r.",
         "",
-        "Essas gemas são a coisa mais valiosa em todo o Evilcraft, então sugiro que você encontre 18 delas e crie uma Abelha de Gema Negra!"
+        "Essas gemas são a coisa mais valiosa em todo o Evilcraft, então sugiro que você encontre 18 delas e crie uma Abelha de Gema Sombria!"
     ],
     "quest.4B9C8F1028E7BAEB.title": "A Gema Mais Essencial",
     "quest.4C1A7052ABFCCF72.quest_desc": [
-        "Este livro é o guia do jogo para o Evilcraft. Podemos descobrir tudo que este mod adiciona com este livro, mas para obtê-lo, talvez queiramos criar uma &8maçã escurecida&r e alimentá-la a qualquer mob... Depois disso, o comportamento deste mob mudará completamente, então sugiro que você jogue um livro nele para acalmá-lo!",
+        "Este livro é o guia do jogo para o Evilcraft. Podemos descobrir tudo que este mod adiciona com este livro, mas para obtê-lo, talvez queiramos criar uma &8maçã escurecida&r e alimentá-la a qualquer criatura... Depois disso, o comportamento dessa criatura mudará completamente, então sugiro que você jogue um livro nele para acalmá-lo!",
         "",
         "Quem sabe, talvez algo apareça depois disso..."
     ],
@@ -221,7 +221,7 @@
         "Este item pode ser bastante útil de vez em quando."
     ],
     "quest.522CADC3ADB94B74.quest_subtitle": "que usa sangue",
-    "quest.522CADC3ADB94B74.title": "Pérola do Fim &lInfinita&r",
+    "quest.522CADC3ADB94B74.title": "Pérola de Ender &lInfinita&r",
     "quest.53B435B6F12C773E.quest_subtitle": "É infinito, mas não exatamente",
     "quest.53B435B6F12C773E.title": "&4Sangue&r &lInfinito",
     "quest.54EFAC2D8A37689C.quest_desc": [
@@ -240,7 +240,7 @@
         "",
         "Pode ou não funcionar, mas para mim, ao fazer o Ritual do Relâmpago do Ars Nouveau, o aldeão se transformou em um wolverian! Mas caso esta tábua/ritual não esteja disponível, tente a sua sorte com o &6Cetro do Trovão&r.",
         "",
-        "E depois encapsule este mob (uma vez que ele se transforme em um lobisomem) em âmbar para o Wannabee ou em um frasco de contenção para os Drygmys."
+        "E depois encapsule esta criatura (uma vez que ela se transforme em um lobisomem) em âmbar para o Wannabee ou em um frasco de contenção para os Drygmys."
     ],
     "quest.5571630621763AA6.title": "&lDica de Evilcraft&r #3",
     "quest.5C5BF198EA21687B.quest_desc": [
@@ -270,7 +270,7 @@
     "quest.6CA5C21D757AA820.quest_desc": [
         "O anel da Vingança é o primeiro passo para lutar contra esses Espíritos da Vingança!",
         "",
-        "Precisaremos de um pouco de Ferro e um pouco de pó de Gema Negra para fabricá-lo, mas esta versão atrairá espíritos da vingança..."
+        "Precisaremos de um pouco de Ferro e um pouco de pó de Gema Sombria para fabricá-lo, mas esta versão atrairá espíritos da vingança..."
     ],
     "quest.70DB2794CED4718C.quest_desc": [
         "A &cMuda Morta-Viva&r é uma das muitas maneiras de gerar Sangue do Evilcraft.",
@@ -319,9 +319,9 @@
     ],
     "quest.76890D74EE32B4CF.title": "&l&4EvilCraft",
     "quest.77BC1DE1D0D6D03B.quest_desc": [
-        "Esta máquina pode ser bastante útil para trazer alguns mobs de volta à vida...",
+        "Esta máquina pode ser bastante útil para trazer algumas criaturas de volta à vida...",
         "",
-        "Precisaremos de um &dEspírito de Vingança&r aprisionado de qualquer tipo de mob em uma &6Caixa de Confinamento Eterno&r dentro desta máquina para fazê-la funcionar.",
+        "Precisaremos de um &dEspírito de Vingança&r aprisionado de qualquer tipo de criatura em uma &6Caixa de Confinamento Eterno&r dentro desta máquina para fazê-la funcionar.",
         "",
         "{ \"text\": \"Nesta missão, falamos sobre a Caixa de Confinamento Eterno.\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1AF45B00853ADE5F\" } }",
         "",
@@ -370,7 +370,7 @@
         "",
         "Então, sugiro que você crie esta... &cadaga&r!",
         "",
-        "Ao matar mobs com a Espada Venosa, extrairemos mais sangue, muito mais conveniente do que usar uma arma 'vanilla'. A única desvantagem desta espada é sua durabilidade, eu realmente sugiro que você a encante com &areparação&r e &dafiação&r!",
+        "Ao matar criaturas com a Espada Venosa, extrairemos mais sangue, muito mais conveniente do que usar uma arma 'vanilla'. A única desvantagem desta espada é sua durabilidade, eu realmente sugiro que você a encante com &areparação&r e &dafiação&r!",
         "",
         "Mas, sendo um item encantado, só podemos aplicar mais encantamentos usando uma bigorna... Podemos encontrar uma maneira de &bdesencantar&r itens usando sangue em breve™..."
     ],

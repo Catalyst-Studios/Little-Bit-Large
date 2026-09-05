@@ -1,10 +1,596 @@
 {
-    "quest.6B4C6BEDD35D7F0F.quest_desc": [
-        "This questline was made with the intent of having the &bgrid scale&r at &b0.15&r.",
+    "quest.00ED783AEC4A68A6.quest_desc": [
+        "&#4DD0E1Ender cells&r consumes other cells to &#81C784increases their capacity&r. This means if you put a &#EF5350Nitro Cell&r or a &#81C784Hardened Cell&r in a channel, the channel will have the &#CE93D8capacity of both&r, but &#FF8A65IO rate&r will stay the same, since it's tier specific.",
         "",
-        "You can change grid scale by going &bSettings > Edit File > Grid Scale 0.15&r",
+        "This machine has &#FFD54Fdifferent channels&r, to sort of separate different &#4DB6ACnetworks of machines&r"
+    ],
+    "quest.04AC806D745E9AD0.quest_desc": [
+        "&#B0BEC5Crafting material&r, needed for the &#81C784next tier of rods&r"
+    ],
+    "quest.067B8D40D818AF31.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "&#81C784Charges items&r inside an &einventory&r"
+    ],
+    "quest.06D83D24A4B2AAA8.quest_desc": [
+        "Using some &#EF5350redstone&r to tink and a &#4DD0E1nether star&r, we are able to get a &#FFD54Fstronger than copper&r conductor!",
+        "",
+        "You can also farm these with &#81C784bees&r or &#AED581seeds&r, this one has been changed not to use &#4FC3F7nether star&r, but gives a bit less"
+    ],
+    "quest.070F44D1535CD1DC.quest_desc": [
+        "Instead of doing low numbers, we have increased a &#81C784x100&r the &#4DD0E1IO rate&r, to compete with &#CE93D8Flux Networks&r"
+    ],
+    "quest.07F61E7545D24BDF.quest_desc": [
+        "&#FFB74DBlazing crystals&r can be obtained mainly by 2 means, &#FF8A65blaze powder&r or &#FFAB91blaze rods&r, which one to choose? Well, most recipes generate less than &#FFD54F4 powder&r, except 1, which is basically at the &#EF5350endgame&r (SAG mill and Catalyrium Grinding Ball), so use &#FFB74Dblaze rods&r",
+        "",
+        "You can also farm these with &#81C784bees&r or &#AED581seeds&r"
+    ],
+    "quest.080FDAD438B7A6CE.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.0B9CDD400ED99FB2.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.0DF127272C9A98EC.quest_desc": [
+        "With some &#FFD54Fgold&r and some &#B0BEC5iron&r, in 1:1 ratio, we get some &#4DD0E1energized steel&r.",
+        "",
+        "Or if you use &#B0BEC5steel&r and &#4FC3F7energetic blend&r, you will get a &#81C784better ratio&r.",
+        "",
+        "You can also farm these with &#AED581bees&r or &#81C784seeds&r"
+    ],
+    "quest.0E0502A4969D9406.quest_desc": [
+        "An ingredient for &#4DD0E1Techological seeds&r, &#FFB74Dstep 5&r"
+    ],
+    "quest.0F1133387BA03769.title": "&#CE93D8Spirited Tier",
+    "quest.0F5BE6965B11755F.quest_desc": [
+        "&#B0BEC5Crafting material&r, needed for the &#81C784next tier of rods&r"
+    ],
+    "quest.1117A4279E5C2C55.quest_desc": [
+        "&#B0BEC5X4&r than &#4DD0E1niotic tier&r IO capacity, you are able to generate &#CE93D8tons of materials&r, but how will my &#EF5350power network&r work?"
+    ],
+    "quest.12433029BC2365C2.quest_desc": [
+        "&#4DD0E1Ender cells&r consumes other cells to &#81C784increases their capacity&r. This means if you put a &#EF5350Nitro Cell&r or a &#81C784Hardened Cell&r in a channel, the channel will have the &#CE93D8capacity of both&r, but &#FF8A65IO rate&r will stay the same, since it's tier specific.",
+        "",
+        "This machine has &#FFD54Fdifferent channels&r, to sort of separate different &#4DB6ACnetworks of machines&r"
+    ],
+    "quest.12CB84FD4CB36D60.quest_desc": [
+        "&#81C784Green crystals&r means I can pass with my car? Yes? :D",
+        "",
+        "You can also farm these with &#AED581bees&r or &#81C784seeds&r"
+    ],
+    "quest.1339787B23CC8CB3.quest_desc": [
+        "&#4DD0E1Ender cells&r consumes other cells to &#81C784increases their capacity&r. This means if you put a &#EF5350Nitro Cell&r or a &#81C784Hardened Cell&r in a channel, the channel will have the &#CE93D8capacity of both&r, but &#FF8A65IO rate&r will stay the same, since it's tier specific.",
+        "",
+        "This machine has &#FFD54Fdifferent channels&r, to sort of separate different &#4DB6ACnetworks of machines&r"
+    ],
+    "quest.13B836062192AACF.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.15111D35F4D7FF58.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.1571B6DDBFC7CCDB.title": "&#EF5350Nitro Tier",
+    "quest.158671F0AE6C45B1.quest_desc": [
+        "Instead of doing low numbers, we have increased a &#81C784x100&r the &#4DD0E1IO rate&r, to compete with &#CE93D8Flux Networks&r"
+    ],
+    "quest.15A0A6C21C55F3D8.quest_desc": [
+        "They have an IO of &#81C7841/4 of their capacity&r, they are &#FFD54Frelative cheap&r, so probably make a &#4FC3F7few of them&r"
+    ],
+    "quest.171426E057F3CAEF.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.1726774AA947748B.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "&#81C784Charges items&r inside an &einventory&r"
+    ],
+    "quest.1BCB56D05E796071.quest_desc": [
+        "Instead of transferring &#B0BEC550000 FE/t&r, it now transfers &#EF53502000000 FE/t&r"
+    ],
+    "quest.1C57811E44381FAC.quest_desc": [
+        "&#B0BEC5Crafting material&r, needed for the &#81C784next tier of rods&r"
+    ],
+    "quest.1FF1BF79BF0CB27A.quest_desc": [
+        "This has been changed from &#B0BEC5500&r to &#81C78420000&r.",
+        "",
+        "You should &#FFD54Fstart from this tier&r for cables, as they provides &#4DD0E1more cables/resources&r than alternative recipe for later tiers"
+    ],
+    "quest.2136AE0BD5E5F194.quest_desc": [
+        "Instead of transferring &#B0BEC52000 FE/t&r, it now transfers &#4DD0E180000 FE/t&r"
+    ],
+    "quest.218E0748AEC35C42.quest_desc": [
+        "They have an IO of &#81C7841/4 of their capacity&r, they are &#FFD54Frelative cheap&r, so probably make a &#4FC3F7few of them&r"
+    ],
+    "quest.2194DA74AAC9048F.quest_desc": [
+        "You can farm these at &#81C784bulk with blocks&r!",
+        "",
+        "Maybe &#FFB74Dskipping some tiers&r using the &#CE93D8Collider&r is a good option"
+    ],
+    "quest.22EDBC86484EDCAE.quest_desc": [
+        "This is basically a &#B0BEC5crafting material&r used to get &#4DD0E1wireless energy&r on your items"
+    ],
+    "quest.243A42A5D2D1E112.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.249FD9BEEFB68785.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "Allows to &#FF8A65extract energy&r from charged items"
+    ],
+    "quest.250F6919F4CD9CAF.quest_desc": [
+        "Instead of generating &#B0BEC5800FE&r, it generated &#81C7848000FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.25736C2EAF0B2BEA.title": "&#4DD0E1Niotic Tier",
+    "quest.25CC37303D20706D.quest_desc": [
+        "You can farm these at &#81C784bulk with blocks&r!"
+    ],
+    "quest.26343D71E76E9890.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.284743F81045D5B9.quest_desc": [
+        "Instead of generating &#B0BEC58000FE&r, it generated &#4DD0E180000FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.28C46E44D880B70E.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.2936AA3F0E3A1922.quest_desc": [
+        "&#4FC3F7Charged Snowball&r has 1 use, generate &#FFD54Flightning&r at your will",
+        "",
+        "There is only 3 methods to do that, &#CE93D8Mystical Agriculture&r awakening altar, &#B39DDBIncarna Warping Portal&r and this ball.",
+        "",
+        "Useful to get &#4DD0E1storm stones&r from Pastel"
+    ],
+    "quest.29467D742A8AF815.quest_desc": [
+        "Instead of doing low numbers, we have increased a &#81C784x100&r the &#4DD0E1IO rate&r, to compete with &#CE93D8Flux Networks&r"
+    ],
+    "quest.297BEBAA7F5B410A.quest_desc": [
+        "This is the &#FFD54Freal point&r where you start &#81C784scaling your power&r and basically everything related to &#4DD0E1Powah&r"
+    ],
+    "quest.299C2EA2F2DB0DA3.quest_desc": [
+        "They have an IO of &#81C7841/4 of their capacity&r, they are &#FFD54Frelative cheap&r, so probably make a &#4FC3F7few of them&r"
+    ],
+    "quest.2AC3BC72A0F08E64.quest_desc": [
+        "The &#B0BEC5orb&r, the nightmare of &#81C784automation&r",
+        "",
+        "It will only work if you have the &#FFB74Dexact amount&r of a recipe, for example, &#CE93D8spirited crystals&r, which needs &#81C7841 emerald&r exactly, if you put 2, it won't work.",
+        "",
+        "To solve this issue, it's as simple as putting &#4DD0E1locking mode&r on your autocrafters or pattern providers and don't send more until the result is done.",
+        "Here is a neat part, you can try to &#CE93D8extract as much as you want&r, because it will only allow recipes output to exit.",
+        "",
+        "Players can clean with &#B0BEC5empty hand&r, ofc, but machines can't. There are &#EF5350multiple recipes&r for different items, so check them out!"
+    ],
+    "quest.2AC3BC72A0F08E64.quest_subtitle": "&#4DD0E1Main mechanism",
+    "quest.2B52AF8E3AC9FCB8.quest_desc": [
+        "&#FFD54FBatteries&r can hold energy for your items, while also &#81C784charging at half the speed&r of their capacity"
+    ],
+    "quest.2B62EBD63CFC7BD4.quest_desc": [
+        "Instead of generating &#B0BEC540000FE&r, it generated &#CE93D8400000FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.2B799FA622DC09FC.quest_desc": [
+        "Instead of doing low numbers, we have increased a &#81C784x100&r the &#4DD0E1IO rate&r, to compete with &#CE93D8Flux Networks&r"
+    ],
+    "quest.2C2052C94B493A86.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.2C9D4DD2D97265B7.quest_desc": [
+        "&#4DD0E1Ender cells&r consumes other cells to &#81C784increases their capacity&r. This means if you put a &#EF5350Nitro Cell&r or a &#81C784Hardened Cell&r in a channel, the channel will have the &#CE93D8capacity of both&r, but &#FF8A65IO rate&r will stay the same, since it's tier specific.",
+        "",
+        "This machine has &#FFD54Fdifferent channels&r, to sort of separate different &#4DB6ACnetworks of machines&r"
+    ],
+    "quest.2DE815630D76792D.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.2DF8C3D2FEF3956E.quest_desc": [
+        "You can do &#81C784more than 1 ingot&r at the time! Or even &#EF535081 ingots&r at the same time with &#4DD0E1Compressed block&r!"
+    ],
+    "quest.2E1685321D5A1E0E.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.31D2EED5A820D2AF.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.31EA0421A87FCB4E.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.32C8A56E6324AE2F.quest_desc": [
+        "&#B0BEC5Crafting material&r, needed for the &#81C784next tier of rods&r"
+    ],
+    "quest.32E8C389995F64FA.quest_desc": [
+        "You can farm these at &#81C784bulk with blocks&r!",
+        "",
+        "Or use them to &#FFB74Dskip some Powah tiers&r"
+    ],
+    "quest.333D257605BE55B1.quest_desc": [
+        "&#B0BEC5Crafting material&r, needed for the &#81C784next tier of rods&r"
+    ],
+    "quest.358E1592E123F2C1.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.374578984AB11A4E.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "&#81C784Charges items&r inside an &einventory&r"
+    ],
+    "quest.38B976EA83BEFE6F.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.3910A0308E12837D.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.39E1F80D9E823CB2.quest_desc": [
+        "&#4FC3F7Dry ice&r is used in 1 place, &#FFB74Dreactors&r, they basically cool down them to &#81C784produce more power&r, but here is a trick, you don't need them, since you can use other materials like &#4DD0E1snow&r.",
+        "",
+        "There is a few more stuff added, but take note that you won't need &#CE93D8more than 2&r at the same time on each reactor"
+    ],
+    "quest.3BC34A2E25E9EEC1.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "&#81C784Charges items&r inside an &einventory&r"
+    ],
+    "quest.3C13FD15E06300E8.quest_desc": [
+        "Allows &#FFD54Fsolar panels&r to work &#4DD0E1underground&r",
+        "",
+        "&oIronic, isn't it?&r",
+        "",
+        "&#81C784Right click&r a solar cell on an &#CE93D8Enderman&r to get this item"
+    ],
+    "quest.3C24E10EA743A837.quest_desc": [
+        "Instead of generating &#B0BEC52000FE&r, it generated &#FFB74D20000FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.3C7CDBEEA02180B0.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "Allows to &#FF8A65extract energy&r from charged items"
+    ],
+    "quest.3CF21B494F821EFC.quest_desc": [
+        "They have an IO of &#81C7841/4 of their capacity&r, they are &#FFD54Frelative cheap&r, so probably make a &#4FC3F7few of them&r"
+    ],
+    "quest.3F7F94C59E4CDD70.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.424BAFF11370F99E.quest_desc": [
+        "Now, the second part, the &#B0BEC5orb&r needs power, which depends on the &#81C784recipe&r.",
+        "",
+        "They must be within a &#FFB74D9x9x9 box&r, being the center of that box the orb, so effectivily, &#4DD0E14 rods for each axis&r.",
+        "",
+        "Lastly, they must be &#CE93D8touching a cable&r, you can't have Logistical Network or similar do wireless transfer. Any cable work, as long as it &#EF5350has energy&r"
+    ],
+    "quest.437366B0B7F56647.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.44E6D2451637735E.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.456881D4FC8EF392.quest_desc": [
+        "You should &#FFB74Dskip this tier&r and go for &#CE93D8Spirited one&r, since it's a bit &#81C784cheaper in general&r"
+    ],
+    "quest.466E6E599616279B.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "&#81C784Charges items&r inside an &einventory&r"
+    ],
+    "quest.476E08BA9E404903.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r",
+        "",
+        "&#81C784Charges items&r inside an &einventory&r"
+    ],
+    "quest.47AE0A3FB8E62C8D.quest_desc": [
+        "Instead of generating &#B0BEC5200FE&r, it generated &#81C7842000FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.49094456D433D41C.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.4A3545B6D2D3AB95.quest_desc": [
+        "&#4DD0E1Ender cells&r consumes other cells to &#81C784increases their capacity&r. This means if you put a &#EF5350Nitro Cell&r or a &#81C784Hardened Cell&r in a channel, the channel will have the &#CE93D8capacity of both&r, but &#FF8A65IO rate&r will stay the same, since it's tier specific.",
+        "",
+        "This machine has &#FFD54Fdifferent channels&r, to sort of separate different &#4DB6ACnetworks of machines&r"
+    ],
+    "quest.4C3B9A6678E15E43.quest_desc": [
+        "&#4DD0E1Ender cells&r consumes other cells to &#81C784increases their capacity&r. This means if you put a &#EF5350Nitro Cell&r or a &#81C784Hardened Cell&r in a channel, the channel will have the &#CE93D8capacity of both&r, but &#FF8A65IO rate&r will stay the same, since it's tier specific.",
+        "",
+        "This machine has &#FFD54Fdifferent channels&r, to sort of separate different &#4DB6ACnetworks of machines&r"
+    ],
+    "quest.4FDD265CBAFBEFE7.title": "&#81C784Hardened Tier",
+    "quest.539F4FC5E88DECE2.quest_desc": [
+        "&#B0BEC5Crafting material&r for Starter tier, you should &#FFD54Fskip this tier&r in many situations and skips to &#81C784basic tier&r"
+    ],
+    "quest.5433B1AF13AFAC6C.quest_desc": [
+        "These are the &#B0BEC5items needed&r for some machines"
+    ],
+    "quest.5433B1AF13AFAC6C.title": "&#B0BEC5Starter Tier",
+    "quest.54B871DFAEAD338E.quest_desc": [
+        "This is a &#B0BEC5base material&r for all other items in this mod, there are &#81C7843 ways of producing them&r, each one being better and being &#FFB74Dbasically free&r.",
+        "",
+        "I would recommend starting with the &#4DD0E1lava bucket recipe&r and later one change to the &#CE93D8blend recipe&r, since it has a &#EF5350better cost for materials&r"
+    ],
+    "quest.54E0303F40FAB6D0.quest_desc": [
+        "Still having &#FFD54Fpower&r? Well, you will need to &#EF5350ramp up that fast&r"
+    ],
+    "quest.55AD0998EDFDC366.quest_desc": [
+        "Allows &#CE93D8cross dimensional power transfer&r to you, just need some innocent &#4DD0E1Enderman&r to be right clicked with a &#81C784binding card&r"
+    ],
+    "quest.55F7EBFBC65B0D8D.quest_desc": [
+        "Instead of doing low numbers, we have increased a &#81C784x100&r the &#4DD0E1IO rate&r, to compete with &#CE93D8Flux Networks&r"
+    ],
+    "quest.5A5767A21252D0E2.quest_desc": [
+        "This should be your &#B0BEC5first rods&r to be used, since the last tier ones won't last you longer.",
+        "",
+        "If you use &#81C784Powah cables&r, you are able to &#FFB74Dwalk throught them&r",
+        "",
+        "Make some &#4DD0E1energized steel&r so we can progress in this &#CE93D8relative quick mod&r to &#EF5350complete&r"
+    ],
+    "quest.5A7AC88F7D638EF5.quest_desc": [
+        "&#B0BEC5Crafting item&r for other tiers capacitors, &#81C784basic battery&r and &#FFD54Fbasic reactor&r"
+    ],
+    "quest.5C1EF35BBD830E17.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.5C6BD27CAD08767F.quest_desc": [
+        "There is no bulk way to generate these, but you can use these on the &#CE93D8Collider&r to &#FFB74Dskip some tiers&r!",
+        "",
+        "Or it's required in some other craftings, like &#AED581bees&r"
+    ],
+    "quest.5CE5F4D42935BD90.quest_desc": [
+        "Well, time for the &#EF5350last tier&r, able to do &#CE93D85M IO&r or &#4DD0E11 tick&r some recipes!"
+    ],
+    "quest.5EA7FF1366FAAAC5.quest_desc": [
+        "This cable has received a &#81C784buff in transfer rate&r, from &#B0BEC55000 FE/t&r to &#CE93D8200000 FE/t&r"
+    ],
+    "quest.61F133DBC0D7BE19.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.62BC86817A93F2C4.quest_desc": [
+        "Some &#4FC3F7diamonds&r goes in, some &#4DD0E1crystals&r goes out, fantasty, can I do the other way? No? Oh... :(",
+        "",
+        "You can also farm these with &#81C784bees&r or &#AED581seeds&r"
+    ],
+    "quest.64B82AA0A4BCEF03.title": "&#FFB74DBlazing Tier",
+    "quest.64F3DD91888E427C.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.659B9847A53ED0EB.quest_desc": [
+        "They have an IO of &#81C7841/4 of their capacity&r, they are &#FFD54Frelative cheap&r, so probably make a &#4FC3F7few of them&r"
+    ],
+    "quest.672695B82C8E34B8.quest_desc": [
+        "Basically, allows the &#CE93D8Player Transmitter&r to send energy to a player.",
+        "",
+        "&#81C784Right click&r on the air with this item on your main hand to &#FFD54Fbind to your player&r, after that, put it on the transmitter"
+    ],
+    "quest.674EAD591F90FB28.quest_desc": [
+        "Able to &#81C784store some energy&r, this is &#B0BEC5base material&r for Basic tier"
+    ],
+    "quest.6A8971E96045CBA2.quest_desc": [
+        "&#B0BEC5Uraninite&r is one of the base materials for this mod, although, &#81C784uranium&r, its near cousin, also works.",
+        "",
+        "&#FFB74DPowah mod&r is just about 1 single thing, &#4DD0E1generating lots of power&r, and in &#CE93D8industrial scale&r.",
+        "",
+        "It's divided in &#EF53507 tiers&r, each one needing &#FF8A65more energy than before&r.",
+        "",
+        "The mod has received some adjustment not to fall behind others or having alternative energy sources, some of the quests for those machines has more details, mostly, you can ignore most of them"
+    ],
+    "quest.6A8971E96045CBA2.title": "&#81C784Urananite",
+    "quest.6AE8325772D14EA0.quest_desc": [
+        "Some &#B0BEC5iron&r and some &#FFD54Fdieletric&r later, this is the casing for most if not all machines"
+    ],
+    "quest.6B4C6BEDD35D7F0F.quest_desc": [
+        "This questline was made with the intent of having the &b&lgrid scale&r at &b&l0.15&r.",
+        "",
+        "You can change grid scale by going &b&lSettings > Edit File > Grid Scale 0.15&r",
         "",
         "Note for other future worker (Titop54 here), you dont need to change the grid scale, you can shift to freely move. If not, you can set the coord to any floating values that is in range of the IEEE 754"
     ],
-    "quest.6B4C6BEDD35D7F0F.title": "Note to future quest author"
+    "quest.6B4C6BEDD35D7F0F.title": "&#4DD0E1Note to future quest author",
+    "quest.6BCBCA0C3BAF3EFC.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.6DAF481D655C9437.quest_desc": [
+        "Instead of generating &#B0BEC520FE&r, it generated &#81C784200FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.6DD321C5F6F51A23.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.6E69C1073997F65B.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.6F83EAA79E9A3C00.quest_desc": [
+        "This has been changed from &#B0BEC520000&r to &#EF5350800000&r"
+    ],
+    "quest.70CAFF75B51ADC7B.quest_desc": [
+        "&#FFD54FLiquid Light&r and &#FF8A65Lava&r will generate energy at the &#81C784same rate&r, but those different liquid has &#4DD0E1different energy density&r.",
+        "",
+        "This means that if I want to generate &#CE93D81MFE&r, I would need &#4FC3F7less Liquid Light&r compared to &#EF5350Lava&r"
+    ],
+    "quest.7104028C90741141.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.71690B7C99EAB006.quest_desc": [
+        "The &#EF5350best tier&r, able to transfer &#CE93D840MFE/t&r, compating with other cables"
+    ],
+    "quest.72FA18545EB22F0A.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.744E47BC1500C7A4.quest_desc": [
+        "Instead of generating &#B0BEC580FE&r, it generated &#81C784800FE/t&r",
+        "",
+        "&#FF8A65Burns fuel&r to generate energy"
+    ],
+    "quest.755A6E4BBA55C564.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ],
+    "quest.78E0F8B45298533E.quest_desc": [
+        "Instead of doing low numbers, we have increased a &#81C784x100&r the &#4DD0E1IO rate&r, to compete with &#CE93D8Flux Networks&r"
+    ],
+    "quest.79123708E4E57D7A.quest_desc": [
+        "&#FFB74DReactors&r needs &#AED58136 blocks&r to be &#81C784assembled&r (just need to &b&nplace&r&r one and it will place the rest), they have 6 &#4DD0E1IO ports&r with auto output for energy, differanciated by a dot, but here is a &#FFAB91summary&r of what a &#FFD54Freactor&r can do:",
+        "",
+        "- &#B0BEC5Auto mode&r: Similar to &#81C784Save mode&r in phones, it will stop when &#AED581full&r and when it reaches 70% of its &#4DD0E1internal&r energy capacity, it will &#4FC3F7start&r again",
+        "",
+        "- &#FFD54FCarbon&r: Increases &#81C784efficiency&r but adds a flat &#FF8A65+180ºC&r. Can use any &#FFB74Dcarbon&r",
+        "{@pagebreak}",
+        "- &#FF8A65Redstone&r: Increases &#4DD0E1production&r, but consumes &#FFAB91more&r and adds a flat &#EF5350+120ºC&r",
+        "",
+        "- &#AED581Fuel&r: Different kinds of &#FF8A65fuels&r to use, higher &#FFB74Dtiers&r ones will &#FFD54Frequires&r less to fill. If you fill it &#AED581more&r than 1000, it will &#EF5350waste&r fuel. Each fuel has a &#CE93D8different&r heat output",
+        "",
+        "- &#EF5350Heat&r: &#81C784Basically&r you want to keep this &n&#4DD0E1as low as possible&r&r to generate more &#4FC3F7power&r per fuel mb",
+        "",
+        "- &#4FC3F7Coolant&r: This basically affects &#FF8A65temperature&r, decreasing them each second, lower temps also means &#81C784lower&r fuel consumption!",
+        "",
+        "- &#B39DDBLiquid&r: You can put &#CE93D8Liquid Darkness&r, so you won't need use &#FFD54Fsolid&r &#4DD0E1coolant&r like ice, or &#4FC3F7water&r, which you would need. It &#AED581won't be consumed&r, so 1 bucket per Reactor multiblock is more than enough"
+    ],
+    "quest.7919E716E5A10132.quest_desc": [
+        "These items basically has been given the &#4FC3F7same IO&r as their &#CE93D8capacity&r"
+    ],
+    "quest.79680024E102F068.title": "&#B0BEC5Basic Tier",
+    "quest.7A65FA4E33A2EC99.quest_desc": [
+        "Using &#81C784right click&r with an &#4FC3F7Aerial Pearl&r on the main hand on a zombie or Husk, you can get this item, used to craft &#CE93D8Player Transmitters&r, aka, &#FFD54Fwireless energy&r"
+    ],
+    "quest.7A65FA4E33A2EC99.quest_subtitle": "&#4FC3F7Wireless, using light?",
+    "quest.7CEB48C4D541F7CB.quest_desc": [
+        "This cable has received a &#81C784buff in transfer rate&r, from &#B0BEC5200000 FE/t&r to &#EF53508000000 FE/t&r"
+    ],
+    "quest.7D1BAF718D707433.quest_desc": [
+        "They have an IO of &#81C7841/4 of their capacity&r, they are &#FFD54Frelative cheap&r, so probably make a &#4FC3F7few of them&r"
+    ],
+    "quest.7F6D1078D043B2E2.quest_desc": [
+        "You can convert &#81C784uranium&r to &#4DD0E1urananite&r, but needs some &#FFD54Fpower&r to do so.",
+        "",
+        "Or if you have a surplus of &#4DD0E1urananite&r, you can convert to &#81C784uranium&r using power too.",
+        "",
+        "Or used as &#FF8A65fuel&r..."
+    ],
+    "quest.7FADFD8001BCE335.quest_desc": [
+        "This machine has been given a &#81C784x10 production rate&r, while also given &#4DD0E1new resources&r to generate energy from.",
+        "",
+        "Using &#4FC3F7Water&r or &#B39DDBLiquid Darkness&r to cool down the internal will give &#FFD54Fmore energy&r (needs to pump the fluids inside), while using &#EF5350higher temperature blocks&r below the machine in world to generate even more power"
+    ]
 }

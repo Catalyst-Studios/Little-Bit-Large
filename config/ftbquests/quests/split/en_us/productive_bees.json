@@ -239,8 +239,6 @@
     ],
     "quest.398E698C66EAA005.quest_subtitle": "ANOTHER ONE?!?",
     "quest.3BB43614E1AD8E65.quest_desc": [
-        "Okay, this is really expensive unless you have Mystical Agriculture.",
-        "",
         "They acts as &aProductivity&r upgrades, &eblock&r upgrades and simulation upgrades, and you can put 4 on each hive.",
         "",
         "They are the best you can make and no, don't use &bspeed&r upgrades, not worth it "
@@ -348,7 +346,7 @@
     "quest.57DC578CF4D74936.title": "Digger Bee",
     "quest.5B4289D140387AC8.title": "Nomad Bee",
     "quest.5BBC3C0F5B59E7F8.quest_desc": [
-        "Give a redstone signal like a lever to this machine and it will start to fuse genes.",
+        "Put genes inside, and it will automatically start to combine them into higher % up to 100%",
         "",
         "More info later, when we have all hives and bees"
     ],

@@ -11,7 +11,7 @@
     "quest.1C5A9415B7E978DD.quest_subtitle": "Os chips",
     "quest.1C5A9415B7E978DD.title": "Chips lógicos",
     "quest.1D1B37E4BD8AB4BB.quest_desc": [
-        "Permite mover &eitens&r de um &binventário&r para outro, até 64 &eitens&r por tick.",
+        "Permite mover &eitens&r de um &binventário&r para outro, até 64 &eitens&r por tique.",
         "Este é o uso mais &6comum&r de lasers.",
         "",
         "Você pode querer verificar os &dfiltros&r, já que você pode ter muito &clixo&r em um baú."
@@ -61,7 +61,7 @@
     ],
     "quest.5504C0B47F099F02.quest_subtitle": "Não é o mesmo",
     "quest.5B33740F16769AB9.quest_desc": [
-        "Permite mover &bfluidos&r, até 40 &9baldes&r por tick",
+        "Permite mover &bfluidos&r, até 40 &9baldes&r por tique",
         "",
         "Por &bfluidos&r, quero dizer como &9água&r ou &clava&r ou &7vapor&r &blíquido&r"
     ],
@@ -77,13 +77,13 @@
     "quest.5F2DA93190331483.quest_subtitle": "Longas distâncias",
     "quest.5F2DA93190331483.title": "Conector Laser \\& Chave",
     "quest.5FDA7D01FC747349.quest_desc": [
-        "Permite enviar gases do &aMekanism&r, até 240 &9baldes&r por tick",
+        "Permite enviar gases do &aMekanism&r, até 240 &9baldes&r por tique",
         "",
         "Bem, &dgases&r são a maioria das coisas que o Mekanism tem, como &eSalmoura&r ou &7Vapor&r (você também tem &7Vapor&r &bLíquido&r, que é um fluido) "
     ],
     "quest.5FDA7D01FC747349.quest_subtitle": "Reator Químico",
     "quest.65054A0EF38A2273.quest_desc": [
-        "Pode mover até 100k &aFE&r por tick",
+        "Pode mover até 100k &aFE&r por tique",
         "",
         "Também adiciona uma &averificação&r de %, mas só funciona com &dbaterias&r que são &emenores&r ou &biguais&r a 2147483647 &aFE&r "
     ],

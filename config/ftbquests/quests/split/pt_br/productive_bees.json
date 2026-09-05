@@ -89,7 +89,7 @@
     "quest.16B81EAF3EE2090F.title": "Obtenha uma Abelha de Ouro",
     "quest.1C966B51149B598F.title": "Abelha Magmática",
     "quest.1D94E0177CCC9F42.quest_desc": [
-        "Você vai precisar disso, ou pelo menos do &pó Dracônico&r.",
+        "Você vai precisar disso, ou pelo menos do &dpó Dracônico&r.",
         "",
         "Eles serão muito usados para fazer aprimoramentos."
     ],
@@ -169,7 +169,7 @@
         "",
         "Esta abelha é agressiva, e vai te atacar. Se você for atingido, ela morrerá.",
         "",
-        "Precisa de &dHálito de Dragão&r e estar no &dThe End&r"
+        "Precisa de &dHálito de Dragão&r e estar no &dEnd&r"
     ],
     "quest.27B08107951639AF.quest_subtitle": "Traga uma bala de menta",
     "quest.2A4E391D344BCAEA.quest_desc": [
@@ -225,7 +225,7 @@
         "",
         "Então, como podemos acelerar esse processo? Usando mais guloseimas de mel!",
         "",
-        "Esta é a maneira pretendida no mod, mas você sabe, isso fica entre nós, você pode usar aceleradores de tick, como o &aDyre things&r ;)",
+        "Esta é a maneira pretendida no mod, mas você sabe, isso fica entre nós, você pode usar aceleradores de tique, como o &aDyre things&r ;)",
         "",
         "Além disso, verifique as outras missões primeiro, elas serão úteis mais tarde"
     ],
@@ -259,7 +259,7 @@
         "{image:catalyst:textures/quest_images/productive_bees/hives.png width:100 height:100 align:center fit:true}"
     ],
     "quest.3CDBC61BD4DAA7F6.quest_subtitle": "Atualizações",
-    "quest.3E044FFF56666C0A.title": "Abelha Sugarbag",
+    "quest.3E044FFF56666C0A.title": "Abelha Saco-de-Açúcar",
     "quest.421B57E27B2E9F61.quest_desc": [
         "Você pode usar uma vara em uma colmeia para fazer as abelhas saírem, mas elas não vão gostar....",
         "",
@@ -447,7 +447,7 @@
     "quest.7858ED4167EE74F1.quest_subtitle": "Estas missões incríveis foram feitas para a &4Catalyst Studios&r",
     "quest.7858ED4167EE74F1.title": "&l&4Missões da Catalyst Studios",
     "quest.7BEE8EE60FBFF628.quest_desc": [
-        "Prenda um mob hostil que não cause muito dano, como um zumbi.",
+        "Prenda uma criatura hostil que não cause muito dano, como um zumbi.",
         "",
         "Coloque o chapéu bobo e seja atingido pelo zumbi.",
         "Você tem 30% de chance de obter uma &dKamikazBee&r.",
@@ -463,7 +463,7 @@
         "O apanhador só pegará abelhas adultas, útil para fazer abelhas &2desperdiçadas&r, já que elas só podem ser produzidas a partir de abelhas &aradioativas&r adultas."
     ],
     "quest.7C2EAAFC6414BA33.quest_subtitle": "Apenas adultos",
-    "quest.7DB4270301980965.title": "Abelha Mineira de Cinzas",
+    "quest.7DB4270301980965.title": "Abelha Mineradora Cinzenta",
     "quest.7DD1FD32851C81F5.quest_desc": [
         "Você vai querê-las em todas as máquinas, exceto nas colmeias",
         "Por quê? Porque as colmeias se beneficiam muito mais de outras melhorias"

@@ -6,12 +6,12 @@
     ],
     "quest.01B5A1E674D7AF1E.quest_subtitle": "Garfo de plástico",
     "quest.02D23779EC7C72E4.quest_desc": [
-        "Assim como as &4Hellshelves&r, as &9Estantes de Ardosiabissal Tocadas pela Alma&r fornecem mais &aEterna&r e &cQuanta&r!",
+        "Assim como as &4Estantes Infernais&r, as &9Estantes das Profundezas Tocadas por Almas&r fornecem mais &aEterna&r e &cQuanta&r!",
         "",
-        "Você precisará criar &95x Estantes de Ardosiabissal Tocadas pela Alma&r."
+        "Você precisará criar &95x Estantes das Profundezas Tocadas por Almas&r."
     ],
-    "quest.02D23779EC7C72E4.quest_subtitle": "Hellshelf 2.0",
-    "quest.02D23779EC7C72E4.title": "&9Estante de Ardosiabissal Tocada pela Alma",
+    "quest.02D23779EC7C72E4.quest_subtitle": "Estante Infernal 2.0",
+    "quest.02D23779EC7C72E4.title": "&9Estante das Profundezas Tocada por Almas",
     "quest.04787EFC50B743C2.quest_desc": [
         "A &dEstante de End Dracônica&r é a última peça do quebra-cabeça da configuração de encantamento perfeita.",
         "",
@@ -26,14 +26,14 @@
     ],
     "quest.0539774D6FEBD2D4.title": "&3Pistas de Encantamento",
     "quest.06193F4FCFE796C6.quest_desc": [
-        "Você pode criar a &9Estante de Sculk Tocada pela Alma&r somente depois de derrotar o chefe mais difícil do Minecraft vanilla, o &9Warden&r!",
+        "Você pode criar a &9Estante de Sculk Tocada por Almas&r somente depois de derrotar o chefe mais difícil do Minecraft vanilla, o &9Warden&r!",
         "",
-        "Você precisará atualizar todas as 5 de suas &9Estantes de Ardosiabissal Tocadas pela Alma&r para esta variante de &9Estante de Sculk&r.",
+        "Você precisará atualizar todas as 5 de suas &9Estantes das Profundezas Tocadas por Almas&r para esta variante de &9Estante de Sculk&r.",
         "",
         "A variante de &9Estante de Sculk&r também fornece &3+1 Pistas de Encantamento&r, além de ter um máximo de &aEterna&r de &a80&r!"
     ],
     "quest.06193F4FCFE796C6.quest_subtitle": "É Hora do Warden",
-    "quest.06193F4FCFE796C6.title": "&o&9Estante de Sculk Tocada pela Alma",
+    "quest.06193F4FCFE796C6.title": "&o&9Estante de Sculk Tocada por Almas",
     "quest.091E5C879772310D.quest_desc": [
         "Você já conseguiu um peitoral de netherita com &bInquebrável X&r, &bEspinhos V&r e &4Maldição da Ligação&r que era impossível de quebrar porque você não conseguia tirá-lo? &oNão? Só eu?&r",
         "",
@@ -53,12 +53,12 @@
     "quest.0E96A0AEBFCAD34D.title": "&5Estante de Livros de Estabilidade Encapsulada em Geodo",
     "quest.102001E8C574EFD3.quest_subtitle": "Garfo de metal",
     "quest.162694C7F0BA16A9.quest_desc": [
-        "&9Estantes de Ardosiabissal Adormecidas&r são praticamente inúteis por si só, então você precisará \"despertá-las\" (ou seja, infundi-las)",
+        "&9Estantes das Profundezas Adormecidas&r são praticamente inúteis por si só, então você precisará \"despertá-las\" (ou seja, infundi-las)",
         "",
-        "Crie &910x Estantes de Ardosiabissal Adormecidas&r e passe para o próximo passo."
+        "Crie &910x Estantes das Profundezas Adormecidas&r e passe para o próximo passo."
     ],
     "quest.162694C7F0BA16A9.quest_subtitle": "&oBocejo...",
-    "quest.162694C7F0BA16A9.title": "&9Estante de Livros de Ardosiabissal Adormecida",
+    "quest.162694C7F0BA16A9.title": "&9Estante das Profundezas Adormecida",
     "quest.170499F17B55FDCD.quest_desc": [
         "&bCristais Sintonizados com Espírito&r do Occultism dão &a+3 Eterna&r até um máximo de &a45 Eterna&r."
     ],
@@ -73,19 +73,19 @@
     "quest.1C2725141CCA39D7.quest_desc": [
         "O &bTomo da Desmontagem Superior&r extrai todos os encantamentos, mas &odestrói&r o item.",
         "",
-        "Você precisará de &93x Estantes de Sculk Tocadas pela Alma&r e &d1x Estante do Fim Dracônica&r para esta configuração de infusão e ter pelo menos o &bnível 50&r."
+        "Você precisará de &93x Estantes de Sculk Tocadas por Almas&r e &d1x Estante do End Dracônica&r para esta configuração de infusão e ter pelo menos o &bnível 50&r."
     ],
     "quest.1C2725141CCA39D7.quest_subtitle": "Eu sempre posso criar outro...",
     "quest.1C2725141CCA39D7.title": "Tomo da Desmontagem Superior",
     "quest.1EE93E4C80945A97.quest_desc": [
         "Agora que você tem todas as estantes, é hora de fazer a melhor configuração de encantamentos. ",
         "",
-        "Terá &95x Soul-Touched Sculkshelf&r, &95x Echoing Sculkshelf&r, &d1x Draconic Endshelf&r, &61x Deepshelf of Arcane Treasures&r, e &51x Geode-Encased Bookshelf of Stability&r.",
+        "Terá &95x Estantes de Sculk Tocadas por Almas&r, &95x Estantes de Sculk Ecoantes&r, &d1x Estante do End Dracônica&r, &61x Estante das Profundezas de Tesouros Arcanos&r, e &51x Estante de Livros de Estabilidade Envolta em Geodo&r.",
         "",
         "&e&o_Lembre-se que esta configuração também incluirá maldições!_&r",
         "",
         "&bOpcional:&r Você pode filtrar qualquer encantamento encaixando o livro dele em uma ",
-        "{ \"text\": \"Seashelf of Aquatic Filtration\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55B5FB4DF51A59B7\" } }"
+        "{ \"text\": \"Estante Marinha de Filtragem Aquática\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55B5FB4DF51A59B7\" } }"
     ],
     "quest.1EE93E4C80945A97.quest_subtitle": "Apenas os melhores encantamentos!",
     "quest.1EE93E4C80945A97.title": "&a&l&oConfiguração Máxima de Encantamento",
@@ -96,35 +96,35 @@
     ],
     "quest.254B7CA3BF8C296B.quest_subtitle": "Buzz Buzz",
     "quest.2818BDCD7EDDDDDB.quest_desc": [
-        "A &bHeart-Forged Seashelf&r dá muita &aEterna&r e &5Arcana&r e pode ser usada em outras configurações de encantamento.",
+        "A &bEstante Marinha Forjada pelo Coração&r dá muita &aEterna&r e &5Arcana&r e pode ser usada em outras configurações de encantamento.",
         "",
         "Sinta-se à vontade para experimentar outras configurações se quiser!"
     ],
     "quest.2818BDCD7EDDDDDB.quest_subtitle": "Atingido no coração!",
-    "quest.2818BDCD7EDDDDDB.title": "&bHeart-Forged Seashelf",
+    "quest.2818BDCD7EDDDDDB.title": "&bEstante Marinha Forjada pelo Coração",
     "quest.29ABE9033578C179.quest_desc": [
-        "Você pode criar a &9Echoing Sculkshelf&r somente depois de derrotar o chefe mais difícil do Minecraft vanilla, o &9Warden&r! ",
+        "Você pode criar a &9Estante de Sculk Ecoante&r somente depois de derrotar o chefe mais difícil do Minecraft vanilla, o &9Warden&r! ",
         "",
-        "Você precisará melhorar todas as suas 5 &9Echoing Deepshelves&r para esta variante de &9Sculkshelf&r.",
+        "Você precisará melhorar todas as suas 5 &9Estantes das Profundezas Ecoantes&r para esta variante de &9Estante de Sculk&r.",
         "",
-        "A variante &9Sculkshelf&r também fornece &3+1 Pistas de Encantamento&r, além de ter uma &aEterna&r máxima de &a80&r!"
+        "A variante &9Estante de Sculk&r também fornece &3+1 Pistas de Encantamento&r, além de ter uma &aEterna&r máxima de &a80&r!"
     ],
     "quest.29ABE9033578C179.quest_subtitle": "É hora do Warden",
-    "quest.29ABE9033578C179.title": "&o&9Echoing Sculkshelf",
+    "quest.29ABE9033578C179.title": "&o&9Estante de Sculk Ecoante",
     "quest.2FE7E18D413274B6.quest_desc": [
-        "Agora você está no nível mais alto de estantes, as &dEstantes do Fim&r. No entanto, essas estantes precisam de um ingrediente especial, o &dBafo de Dragão Infundido&r.",
+        "Agora você está no nível mais alto de estantes, as &dEstantes do End&r. No entanto, essas estantes precisam de um ingrediente especial, o &dBafo de Dragão Infundido&r.",
         "",
-        "Você pode infundir o Bafo de Dragão normal usando &95x Estantes de Sculk Ecoante&r, &a5x Estantes de Melancia&r, &25x Estantes de Livros Normais&r, &92x Estantes de Sculk Tocada pela Alma&r e &51x Estante de Geodo da Estabilidade&r."
+        "Você pode infundir o Bafo de Dragão normal usando &95x Estantes de Sculk Ecoantes&r, &a5x Estantes de Melancia&r, &25x Estantes de Livros Normais&r, &92x Estantes de Sculk Tocadas por Almas&r e &51x Estante de Livros de Estabilidade Envolta em Geodo&r."
     ],
     "quest.2FE7E18D413274B6.quest_subtitle": "Você precisa ver um dentista",
     "quest.2FE7E18D413274B6.title": "&dBafo de Dragão Infundido",
     "quest.3292668B69E6A25D.quest_desc": [
-        "As &dEstantes do Fim&r são o nível mais alto de estantes e fornecem no máximo &a90 Eterna&r, perfeito para encantamentos do dia a dia.",
+        "As &dEstantes do End&r são o nível mais alto de estantes e fornecem no máximo &a90 Eterna&r, perfeito para encantamentos do dia a dia.",
         "",
-        "Você também pode usá-las para criar &dEstantes do Fim Dracônicas&r."
+        "Você também pode usá-las para criar &dEstantes do End Dracônicas&r."
     ],
-    "quest.3292668B69E6A25D.quest_subtitle": "O Fim?",
-    "quest.3292668B69E6A25D.title": "&dEstante do Fim",
+    "quest.3292668B69E6A25D.quest_subtitle": "O End?",
+    "quest.3292668B69E6A25D.title": "&dEstante do End",
     "quest.35052C9371FE6843.quest_desc": [
         "A &4Estante Infernal Ardente&r não é normalmente usada em encantamentos normais, pois tem um &cdebuff de -1 Pista de Encantamento&r. É normalmente usada em configurações de infusão.",
         "",
@@ -135,7 +135,7 @@
     "quest.35570C818FB1333F.quest_desc": [
         "Para obter a &bBiblioteca de Alexandria&r, você precisará infundi-la em vez de fabricá-la. Ela pode conter mais encantamentos do que a Biblioteca de Encantamentos.",
         "",
-        "Você precisará de &96x Estantes de Sculk Ecoante&r, &a3x Estantes de Melancia&r, &d2x Estantes do Fim Dracônicas&r e &b2x Estantes Marinhas Infundidas&r e estar pelo menos no &bnível 100&r."
+        "Você precisará de &96x Estantes de Sculk Ecoantes&r, &a3x Estantes de Melancia&r, &d2x Estantes do End Dracônicas&r e &b2x Estantes Marinhas Infundidas&r e estar pelo menos no &bnível 100&r."
     ],
     "quest.35570C818FB1333F.quest_subtitle": "&oEspero que esta não pegue fogo...",
     "quest.3A651E06C7FBF861.quest_desc": [
@@ -213,23 +213,23 @@
     "quest.55B5FB4DF51A59B7.quest_desc": [
         "Quer filtrar encantamentos irritantes/inúteis como &bRepulsão&r, &bRicochete,&r ou &4Maldições&r? ",
         "",
-        "A &bSeashelf of Aquatic Filtration&r permite que você insira até &b6 livros de encantamento único&r para adicioná-los à sua lista negra de encantamentos.",
+        "A &bEstante Marinha de Filtragem Aquática&r permite que você insira até &b6 livros de encantamento único&r para adicioná-los à sua lista negra de encantamentos.",
         "",
         "&aLembre-se:&r Só pode haver &o&61 encantamento&r por livro para que funcione!"
     ],
     "quest.55B5FB4DF51A59B7.quest_subtitle": "Encantador exigente",
     "quest.55B5FB4DF51A59B7.title": "Filtragem de &bEncantamentos",
     "quest.5CF3600A45D365F5.quest_desc": [
-        "Você vai querer fazer &912x Deepshelves&r ",
+        "Você vai querer fazer &912x Estantes das Profundezas&r ",
         "",
-        "Se você seguiu o caminho da &bSeashelf&r, coloque &b12x Crystalline Seashelves&r e infunda-as",
+        "Se você seguiu o caminho da &bEstante Marinha&r, coloque &b12x Estantes Marinhas Cristalinas&r e infunda-as",
         "",
-        "Se você seguiu o caminho da &4Hellshelf&r, coloque &412x Glowing Hellshelves&r e infunda-as.",
+        "Se você seguiu o caminho da &4Estante Infernal&r, coloque &412x Estantes Infernais Brilhantes&r e infunda-as.",
         "",
         "O próximo passo tem 2 partes."
     ],
     "quest.5CF3600A45D365F5.quest_subtitle": "Agora que está acordado...",
-    "quest.5CF3600A45D365F5.title": "&9Deepshelf",
+    "quest.5CF3600A45D365F5.title": "&9Estante das Profundezas",
     "quest.617BBE7ACB125208.quest_desc": [
         "O &bApothic Enchanting&r reformula todo o sistema de encantamento, permitindo que você obtenha exatamente o que deseja. Ele também introduz uma mecânica chamada &bInfusão&r que você pode usar para fazer itens mais poderosos!",
         "",
@@ -283,7 +283,7 @@
         "",
         "Você só pode retirar o livro de encantamento de &bnível mais alto&r que você colocou. Por exemplo, se você colocar um livro de &bAfiação V&r, você &onão pode&r retirar um livro de Afiação VI, apenas nível V e abaixo",
         "",
-        "Você pode &bShift-Click&r para retirar o nível mais alto de encantamento."
+        "Você pode &bShift-Clique&r para retirar o nível mais alto de encantamento."
     ],
     "quest.6C10C757F924E1DD.quest_subtitle": "Armazenamento de Encantamentos!",
     "quest.6D00948588B44926.quest_desc": [
@@ -336,7 +336,7 @@
     "quest.774EF435A320B705.quest_desc": [
         "&bApothic Attributes&r adiciona amuletos de poção que são muito convenientes e quebram com bastante facilidade, mas você pode &binfundi-los&r para torná-los &bInquebráveis.&r",
         "",
-        "Você precisará de &d5x Estantes do Fim Dracônicas&r, &92x Estantes de Ardosiabissal Ecoantes&r, &a1x Estante de Melancia&r, e &d1x Estante do Fim&r."
+        "Você precisará de &d5x Estantes do End Dracônicas&r, &92x Estantes das Profundezas Ecoantes&r, &a1x Estante de Melancia&r, e &d1x Estante do End&r."
     ],
     "quest.774EF435A320B705.quest_subtitle": "Efeitos de poção infinitos!"
 }

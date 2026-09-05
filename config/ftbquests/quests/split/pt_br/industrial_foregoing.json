@@ -1,1 +1,530 @@
-{}
+{
+    "quest.0039BEDA264F3F41.quest_desc": [
+        "Plante &2plantações&r em uma área. Você pode usar até 9 tipos &6diferentes&r de plantações e ele tem um &dalcance&r, que pode ser aumentado com complementos de &5alcance&r"
+    ],
+    "quest.0039BEDA264F3F41.quest_subtitle": "Fazendeiro",
+    "quest.00FA35F606E085BB.quest_desc": [
+        "Brocas a laser, talvez para conseguir um pouco de &#b4e2e2Gás de Éter&r?",
+        "",
+        "Ou talvez para &6acelerar&r as coisas com a base de &claser&r, acho que é por isso."
+    ],
+    "quest.00FA35F606E085BB.quest_subtitle": "Acelerando as bases de laser",
+    "quest.0484C8EB60C677FF.quest_desc": [
+        "Este é o &6nível&r que você quer usar para &dcomeçar&r, já que o &bprimeiro&r é basicamente inútil",
+        "",
+        "Ele dá múltiplas &6saídas&r usando os mesmos &eingredientes&r de 1 receita. Nem todas as máquinas aceitam esse aprimoramento.",
+        "",
+        "Apenas um &daprimoramento&r vai funcionar, não &amúltiplos&r, mesmo que seja &dpermitido&r adicionar 2 ou mais"
+    ],
+    "quest.0484C8EB60C677FF.quest_subtitle": "Mais forte v2",
+    "quest.0541FBEFBA1DFDAB.quest_desc": [
+        "Encanta &6ferramentas&r e &aarmaduras&r usando essência do Esmagador de Criaturas.",
+        "",
+        "Se o tanque &dinterno&r não for suficiente, você pode colocar &6outro&r tanque de fluido, como um tanque do &aMekanism&r, em cima dessa &6máquina&r, encostando um no outro.",
+        "Há um &alimite&r, você não pode fazer nível 300000000 :p",
+        "",
+        "Apenas nível 189, que &6consome&r 2M mb de essência...."
+    ],
+    "quest.0541FBEFBA1DFDAB.quest_subtitle": "Mesa de encantamento v2",
+    "quest.057C99B5F125499F.quest_desc": [
+        "O processamento de &6minério&r do &aIndustrial Foregoing&r costuma ser &esubestimado&r, já que precisa de uma fazenda de &acriaturas&r e um &#857E87Wither&r, mas é um dos mais &dpoderosos&r.",
+        "",
+        "Ele pode &cconverter&r 1 &ebruto&r em 5 &alingotes&r, apenas se o &alingote&r puder ser &6convertido&r em &2pó&r e vice-versa.",
+        "",
+        "Vamos precisar de alguns minérios &ebrutos&r, um pouco de &6carne líquida&r e uma &dFábrica de Lavagem&r.",
+        "E &aenergia&r, claro :p"
+    ],
+    "quest.057C99B5F125499F.quest_subtitle": "Primeiro passo",
+    "quest.061F107553FC9B32.quest_desc": [
+        "Industrial Foregoing precisa de muitas toras para começar, aqui está a melhor, em ordem:",
+        "",
+        "- &cMangue&r / &6Acácia&r -> Gera 4 mb de látex por tique",
+        "- &dCerejeira&r / &6Carvalho Escuro&r -> Gera 3 mb de látex por tique",
+        "- &7Abeto&r -> Gera 2 mb de látex por tique",
+        "",
+        "Coloque o extrator de látex, depois coloque uma tora na frente da máquina, que é o lado oposto de onde você a coloca, e ele vai começar a gerar látex.",
+        "",
+        "Eu pegaria &cMangue&r e &6Carvalho Escuro&r para látex só por um motivo, 4 &amudas&r produzem muitas &6toras&r.",
+        "{@pagebreak}",
+        "Como funciona:",
+        "",
+        "- Ele vai &aproduzir&r látex enquanto tiver uma &6tora&r na frente.",
+        "",
+        "- Lentamente, ele vai começar a &cdestruir&r a &6tora&r, você não vai &csalvar&r a tora mesmo se você &dquebrá-la&r e &5colocá-la&r de novo",
+        "",
+        "- Ele vai &bconverter&r elas para a versão &edescascada&r, você não precisa removê-las, mas vai produzir &cmenos&r látex",
+        "",
+        "- Ele vai começar a &dquebrar&r a tora &edescascada&r até apagar a tora",
+        "",
+        "Se você der um pouco de &aenergia&r, você vai conseguir mais!"
+    ],
+    "quest.061F107553FC9B32.quest_subtitle": "Extraindo látex",
+    "quest.09F09BCB24E56AAC.quest_desc": [
+        "Separa filhotes de animais dos adultos"
+    ],
+    "quest.09F09BCB24E56AAC.quest_subtitle": "Dê um tempo a eles....",
+    "quest.0BB6D8A60F9F4211.quest_desc": [
+        "Ordena &5encantamentos&r"
+    ],
+    "quest.0BB6D8A60F9F4211.quest_subtitle": "Ordenando em O(n log n)",
+    "quest.0D52FD4F4D3F30BE.quest_desc": [
+        "Mineração do &7vazio&r!",
+        "",
+        "Dependendo das &alentes&r que você usa, do &6bioma&r e da &d&naltura da GUI&r, você pode conseguir um minério ou outro.",
+        "Mais &6lentes&r significam mais &echances&r de conseguir os minérios que você quer.",
+        "",
+        "Elas não &bproduzem&r &nexatamente&r 1 minério, mas uma &cfaixa&r com % diferentes"
+    ],
+    "quest.0F684223F54887E2.quest_desc": [
+        "Energia a partir de &aplantas&r?"
+    ],
+    "quest.0F684223F54887E2.quest_subtitle": "Talvez um pouco de hidros ajude?",
+    "quest.0F88BADEA47DDFAC.quest_desc": [
+        "Este é basicamente um substituto para &aslime&r"
+    ],
+    "quest.0F88BADEA47DDFAC.quest_subtitle": "Sorridente",
+    "quest.106495D8162A193F.quest_desc": [
+        "Espero que isso &cdure&r bastante tempo, certo? &lCERTO&r?"
+    ],
+    "quest.106495D8162A193F.quest_subtitle": ":)",
+    "quest.12D67E0652C01B3F.quest_desc": [
+        "O passo &6final&r precisa de bastante &eareia&r para conseguir o resultado, que você pode conseguir &afacilmente&r de várias &dfontes&r.",
+        "",
+        "Só que cada &6máquina&r só pode aceitar 4 &bpilhas&r de areia cada..."
+    ],
+    "quest.12D67E0652C01B3F.quest_subtitle": "Caindo do céu",
+    "quest.12D67E0652C01B3F.title": "Areia",
+    "quest.135F2701909EA488.quest_desc": [
+        "Pesca para você",
+        "",
+        "Precisa de uma área de 3x3x3 de &9água&r &clogo abaixo&r dele para funcionar"
+    ],
+    "quest.135F2701909EA488.quest_subtitle": "Pescando na cápsula",
+    "quest.13ACD101BDB6BD73.quest_desc": [
+        "Gera &cogumelos&r",
+        "",
+        "Precisa de &9água&r, &aenergia&r e 1 &6cogumelo&r para começar a duplicá-los"
+    ],
+    "quest.13ACD101BDB6BD73.quest_subtitle": "Esporos nos cogumelos?",
+    "quest.14392B1AB523E1BF.quest_desc": [
+        "Transforme &eResíduo Orgânico&r em &6Fertilizante&r, eles são usados para fazer &dhidros&r!"
+    ],
+    "quest.14392B1AB523E1BF.quest_subtitle": "Produtor de fertilizante",
+    "quest.149F4C62572ECF11.quest_desc": [
+        "Embora algumas delas tenham características &despeciais&r, a maioria é usada para uma &ecoisa&r, &6mineração&r do &bvazio&r!",
+        "",
+        "Coloque algumas &alentes&r em algumas &dmáquinas&r e você ganha &arecursos&r de graça, mais sobre isso depois.",
+        "Eu colocaria uma &alente&r na &dCâmara de Dissolução&r e usaria corantes para conseguir as outras, seria um &epouco&r mais rápido."
+    ],
+    "quest.149F4C62572ECF11.quest_subtitle": "A lente",
+    "quest.168630C2D2A7577F.quest_desc": [
+        "Coleta &9água&r.",
+        "",
+        "Precisa de pelo menos 2 fontes de &9água&r tocando nele"
+    ],
+    "quest.168630C2D2A7577F.quest_subtitle": "ÁGUA infinita!!!",
+    "quest.18F425B48A025625.quest_desc": [
+        "Quebra &6blocos&r"
+    ],
+    "quest.18F425B48A025625.quest_subtitle": "PEDREGULHO infinito!!!",
+    "quest.1CC9E80B9ADF7D3C.quest_desc": [
+        "Você vai precisar de &emolduras de máquina&r, a primeira precisa de algumas &6toras&r, &credstone&r e ferro."
+    ],
+    "quest.1CC9E80B9ADF7D3C.quest_subtitle": "Primeiro Nível",
+    "quest.1D4E7409195E5B70.quest_desc": [
+        "Agora, combine o &6líquido&r de &9saída&r do último passo com um pouco de &eareia&r para conseguir os &após&r",
+        "",
+        "Em alguns &6minérios&r, você quer terminar o processamento de &6minério&r aqui, mas geralmente você quer a versão em &alingote&r"
+    ],
+    "quest.1D4E7409195E5B70.quest_subtitle": "Terceiro passo",
+    "quest.1D4E7409195E5B70.title": "Peneiramento",
+    "quest.1F911419B6FC32F6.quest_desc": [
+        "Impede &dcriaturas&r de se mover e &6te deixa mais lento&r"
+    ],
+    "quest.1F911419B6FC32F6.quest_subtitle": "Parado aí!",
+    "quest.2073EE32F3217CD5.quest_desc": [
+        "Coleta &6recursos&r de animais, como &llã&r, &7leite&r ou &dcorantes&r de lulas"
+    ],
+    "quest.2073EE32F3217CD5.quest_subtitle": "Fazendeiro v2",
+    "quest.2130A8EEC5F51105.quest_desc": [
+        "Espera um segundo, &a25MFE&r por &c&lTIQUE&r?",
+        "",
+        "E só por ter todos os reatores do Industrial Foregoing perto dessa máquina?"
+    ],
+    "quest.2299E953A9A2DD3F.quest_desc": [
+        "Com este maravilhoso &eitem&r, você não vai mais precisar &ccomer&r, se você tiver &blíquido&r &6de carne&r, é claro.",
+        "Age como um &abalde&r",
+        "",
+        "Também usado na fabricação de 1 &dmáquina&r"
+    ],
+    "quest.2299E953A9A2DD3F.quest_subtitle": "Chega de comida, só almas",
+    "quest.22E2F44C5CA270E0.quest_desc": [
+        "&#b4e2e2Éter&r, provavelmente um dos fluidos mais &bbaratos&r de se produzir :P"
+    ],
+    "quest.22E2F44C5CA270E0.title": "Balde de &#b4e2e2gás de Éter&r",
+    "quest.24DD36335F53A8E3.quest_desc": [
+        "Esta é a versão &asimulada&r, que não precisa da planta &6crescendo&r lá fora!",
+        "",
+        "Para &acomeçar&r, você vai precisar de &dhidros&r normais e um &bprocessador de simulação&r dentro, com a &2planta&r que você quer simular.",
+        "",
+        "Você vai precisar de muitas &dinterações&r para conseguir uma boa taxa, porque tem um crescimento &6logarítmico&r.",
+        "",
+        "Depois disso, você pode começar a &asimular&r o crescimento, economizando uma tonelada de &clag&r!",
+        "{@pagebreak}",
+        "Tem um &ctruque&r, você não vai precisar de &9água&r e &#b4e2e2Gás de Éter&r, mas vai precisar de mais &bpotência&r e tempo.",
+        "",
+        "Vou te dar um &6exemplo&r de por que você precisa de muitas &ainterações&r como recompensa..."
+    ],
+    "quest.24DD36335F53A8E3.quest_subtitle": "Economizando o lag",
+    "quest.2502D9522831EA3E.quest_desc": [
+        "Se você já jogou com &aIndustrial Foregoing&r, vai notar que a maioria das &dmáquinas&r e &6coisas&r são feitas neste &ebloco&r.",
+        "",
+        "Preciso dizer que você vai querer fazer &c&lvárias&r delas?"
+    ],
+    "quest.2502D9522831EA3E.quest_subtitle": "Você vai precisar de mais de 1",
+    "quest.250AB1CE07085055.quest_desc": [
+        "Este é o &esegundo&r &anível&r de revestimento de máquina, ou seja, máquinas mais &dpoderosas&r!"
+    ],
+    "quest.250AB1CE07085055.quest_subtitle": "Segundo Nível",
+    "quest.2737067F33B824AB.quest_desc": [
+        "Gera &6materiais&r diferentes usando &clava&r e &9água&r"
+    ],
+    "quest.285F23F90D6EEDF6.quest_desc": [
+        "&5Wither&r para você, &5Wither&r para mim",
+        "",
+        "Coloca todos os elementos necessários para invocar um &5Wither&r"
+    ],
+    "quest.297E2082FE572D17.quest_desc": [
+        "Coleta &afluidos&r que são colocados na frente dele"
+    ],
+    "quest.297E2082FE572D17.quest_subtitle": "ÁGUA infinita!!!!",
+    "quest.2A452E4F795543EE.quest_subtitle": "Hora do martelo!",
+    "quest.2B300A89D1239D5A.quest_subtitle": "Machado em esteroides",
+    "quest.2B4ADD57AB31DD47.quest_desc": [
+        "Gera mais criaturas usando &6carne&r &blíquida&r e energia.",
+        "",
+        "Várias &amáquinas&r podem compartilhar uma entrada"
+    ],
+    "quest.2BC39E600F41F587.quest_desc": [
+        "Aqui está a parte &claggy&r deste mod, precisamos fazer uma fazenda de criaturas.",
+        "",
+        "Ela vai matar qualquer entidade que tiver na frente, dos seus &ecachorros&r aos seus &bgatos&r aos seus &6zumbis&r",
+        "",
+        "É assim que funciona:",
+        "",
+        "- Mata uma criatura",
+        "",
+        "- Enche tanques e usa &aenergia&r",
+        "",
+        "Mas aqui está uma coisa:",
+        "",
+        "- Se ela matar uma criatura que não é um &aanimal&r como o zumbi, vai encher o &6líquido de carne&r mais rápido.",
+        "",
+        "- Se a criatura é um &aanimal&r como uma vaca, vai encher mais rápido o slime &drosa&r",
+        "",
+        "O quanto ela enche os tanques depende da &cvida&r da criatura, então leve isso em conta"
+    ],
+    "quest.2BC39E600F41F587.quest_subtitle": "slime rosa?",
+    "quest.2BCDA36E83CA7353.quest_desc": [
+        "Esta é provavelmente uma das configurações mais &4perigosas&r que você pode fazer no &amod&r, já que, bem, precisa de um &5Wither&r.",
+        "",
+        "Mas existe uma &esolução&r para esse problema, para deixá-lo seguro, se você tiver &aenergia&r, é claro.",
+        "",
+        "Consiga uma &dcâmara de estase&r primeiro!",
+        "",
+        "Como funciona:",
+        "",
+        "- A base de &9fluido&r do &5laser&r vai precisar de algumas brocas a laser para progredir. Você pode ter até &c143&r brocas",
+        "",
+        "- Quando chegar a &a100&r&e%&r, vai dar um pouco de &béter&r.",
+        "",
+        "Para isso funcionar, a &6base&r precisa estar em cima do &5Wither&r.",
+        "&dBrocas a laser&r e a &dcâmara de estase&r precisam de energia."
+    ],
+    "quest.2BCDA36E83CA7353.quest_subtitle": "Hora de perfurar o Wither",
+    "quest.2CAE57805EF8BDBB.quest_desc": [
+        "&eTerra Fértil&r em esteroides",
+        "",
+        "Precisa de &#b4e2e2Gás de Éter&r, &aenergia&r e água, mas os resultados são impressionantes.",
+        "",
+        "Também existe uma &6melhoria&r para esta &dmáquina&r, mas você vai precisar &ecoletar&r alguns dados primeiro.",
+        "",
+        "Agache e clique com o botão direito para &6plantar&r uma plantação."
+    ],
+    "quest.2CAE57805EF8BDBB.quest_subtitle": "Plantando no verão",
+    "quest.2DE3EE4DFEF85889.quest_desc": [
+        "Duplicar &dcriaturas&r?!?",
+        "",
+        "Para &6duplicar&r criaturas, você vai precisar de um pouco de &aEssência&r do Esmagador de Criaturas, depois, usando uma ferramenta de &daprisionamento&r de criaturas com uma criatura &ndentro&r e um pouco de &aenergia&r, você finalmente pode começar a &eduplicar&r essa criatura.",
+        "",
+        "Nós &cnão somos responsáveis&r pelo &4lag&r que isso pode causar se a população da criatura &6clonada&r não for &dcontrolada&r :p"
+    ],
+    "quest.2DE3EE4DFEF85889.quest_subtitle": "Clone #4532",
+    "quest.2E1D12B0E2593D50.quest_desc": [
+        "Passo 3 do seu processamento de &6minério&r"
+    ],
+    "quest.2E1D12B0E2593D50.quest_subtitle": "Peneirando, minha atividade favorita",
+    "quest.2FAA099DF8EC8513.quest_desc": [
+        "Mineração do &9vazio&r com fluidos",
+        "",
+        "Para Gás de Éter, você vai precisar ter a cabeça do &8Wither&r por perto, basicamente &atocando&r nela."
+    ],
+    "quest.305F48B4B25D69EF.quest_desc": [
+        "Bem, uma &epequena&r mentira :p",
+        "",
+        "Este é o &creal&r passo final, &6fundir&r o pó para conseguir o &blingote&r. O que em &n&dalguns&r&r casos você não vai querer fazer, já que alguns &bmods&r usam a forma de pó.",
+        "",
+        "&6Parabéns&r, você terminou seu processamento de &6minério&r!"
+    ],
+    "quest.305F48B4B25D69EF.title": "Conseguiu?",
+    "quest.31630C84E83890D7.quest_desc": [
+        "As máquinas do <pulse base=0.75 a=1.0 f=1.0 w=1.0>Industrial</pulse> &#26b7ecForegoing&r não têm um status &dsalvo&r se você as &cquebrar&r.",
+        "E se você não tiver um &amod&r como &2Mekanism&r ou &cSFM&r para &6expandir&r facilmente sua configuração, este é seu &bamigo&r.",
+        "",
+        "Permite &6copiar&r as configurações da máquina, da configuração de &blados&r aos &5aprimoramentos&r, e depois &daplicar&r em outras máquinas"
+    ],
+    "quest.31630C84E83890D7.quest_subtitle": "Copiando as máquinas",
+    "quest.3189F95366CFF579.quest_desc": [
+        "Coleta &aplantas&r.",
+        "",
+        "Você pode usar complementos de &dalcance&r para aumentar a área de &6coleta&r. Ela funciona uma &afileira&r por vez"
+    ],
+    "quest.3189F95366CFF579.quest_subtitle": "O quê? Cadê o trigo?",
+    "quest.33C3F20CCC8C10FB.quest_desc": [
+        "Nível 3, isso significa máquinas mais &6poderosas&r &d&r, o que significa configurações mais &clouca&r!",
+        "",
+        "Precisa do nível &danterior&r",
+        "",
+        "Você sabia que você pode &ccolocar&r as molduras da &6Máquina&r? O &bautor&r do mod adicionou isso :p"
+    ],
+    "quest.33C3F20CCC8C10FB.quest_subtitle": "T3",
+    "quest.341F249B7228D3CD.quest_subtitle": "Armazenamento sofisticado?!?",
+    "quest.3689AFA62A2A1D46.quest_desc": [
+        "Gera fluido de &6Resíduo Orgânico&r dependendo do número de &cAnimais&r acima dele.",
+        "",
+        "Pode usar complementos de &dalcance&r"
+    ],
+    "quest.3689AFA62A2A1D46.quest_subtitle": "Como na vida real?",
+    "quest.370A83BF9CCEC3E3.quest_desc": [
+        "Sim, você não está &dficando louco&r, tem um rosto &6feliz&r :) .",
+        "",
+        "Útil para 3 coisas:",
+        "",
+        "- Gerador de &drosa&r",
+        "",
+        "- Como &asubstituto&r para alguns lingotes",
+        "",
+        "- Para processamento de &6minério&r, só para fabricar 1 &5máquina&r"
+    ],
+    "quest.370A83BF9CCEC3E3.quest_subtitle": ":)",
+    "quest.384F0AC89B484717.quest_desc": [
+        "Pule este aprimoramento"
+    ],
+    "quest.384F0AC89B484717.quest_subtitle": "Mais forte",
+    "quest.3CD10CDC9E59A25E.quest_desc": [
+        "Prepara &2poções&r com mais eficiência"
+    ],
+    "quest.42ECB9AEEB5E148A.quest_desc": [
+        "Esses &dcomplementos&r ou &5aprimoramentos&r são usados em algumas &emáquinas&r, como o Esmagador de Criaturas.",
+        "",
+        "Basicamente &aaumentam&r o alcance de operação, algumas &emáquinas&r não aceitam eles.",
+        "",
+        "Eles usam basicamente os mesmos &6materiais&r mas mudam 2 deles, que determinam o &7alcance&r"
+    ],
+    "quest.42ECB9AEEB5E148A.quest_subtitle": "MAIS ALCANCE",
+    "quest.4331065A0DFB716A.quest_desc": [
+        "Este é o &6nível&r que você quer usar para &dcomeçar&r, já que o &bprimeiro&r é basicamente inútil",
+        "",
+        "Ele economiza &erecursos&r e &aenergia&r. Nem todas as máquinas aceitam esse aprimoramento.",
+        "",
+        "Apenas um &daprimoramento&r vai funcionar, não &amúltiplos&r, mesmo que seja &dpermitido&r adicionar 2 ou mais"
+    ],
+    "quest.4331065A0DFB716A.quest_subtitle": "Melhor v2",
+    "quest.447A36F0D55A6587.quest_desc": [
+        "Nível 4, o revestimento de máquina mais &dcaro&r.",
+        "",
+        "Embora não ofereça muitos &dusos&r, ele tem uma &ecoisa&r, é necessário para a geração de &aenergia&r!",
+        "",
+        "Precisa do nível &banterior&r"
+    ],
+    "quest.447A36F0D55A6587.quest_subtitle": "Quarto Nível",
+    "quest.490D3C76D973668B.quest_desc": [
+        "[{\"text\":\"\"},{\"text\":\"Este método usa bastante Carne \"},{\"text\":\"Líquida\",\"color\":\"#9D4F2F\"},{\"text\":\" que vem de uma \"},{\"text\":\"Fábrica de Abate\",\"color\":\"#FF55FF\",\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"industrialforegoing:mob_slaughter_factory\",\"count\":1}}}]",
+        "",
+        "Para o &#b4e2e2Gás de Éter&r, existe apenas 1 fonte, &#484848o Wither&r. Você vai precisar de uma Broca a Laser de &bFluido&r com uma Lente &5Roxa&r.",
+        "Certifique-se de usar uma &zCâmara de Estase&r"
+    ],
+    "quest.490D3C76D973668B.title": "Carne Líquida",
+    "quest.4AD7CE8419514036.quest_subtitle": "Ποσειδώνας",
+    "quest.4B5D3F2185AF84D5.quest_desc": [
+        "Este é o &esegundo&r &anível&r de revestimento de máquina, ou seja, máquinas mais &dpoderosas&r!",
+        "",
+        "Você sabia que você pode &ccolocar&r as molduras da &6Máquina&r? O &bautor&r do mod adicionou isso :p"
+    ],
+    "quest.4B5D3F2185AF84D5.quest_subtitle": "Segundo Nível",
+    "quest.4B6190D9B1D27545.quest_desc": [
+        "Carrega suas ferramentas &dinfinity&r",
+        "",
+        "Elas vão ser &acarregadas&r a uma taxa de int máximo / tique (o que não é &bsuficiente&r para encher as ferramentas infinity...)"
+    ],
+    "quest.4B6190D9B1D27545.quest_subtitle": "Carregador 60W",
+    "quest.4FC8274D966F288E.quest_desc": [
+        "Misture corante &cvermelho&r, &averde&r e &9azul&r para conseguir outros &zcorantes&r."
+    ],
+    "quest.4FC8274D966F288E.quest_subtitle": "Misturando corantes",
+    "quest.4FC8274D966F288E.title": "Misturador de &zCorante&r",
+    "quest.50FBAF1B43BC733F.quest_desc": [
+        "Pega &6itens dropados&r e &aexperiência&r de &dcriaturas&r",
+        "",
+        "Mas nada de Carne Líquida ou Slime Rosa :("
+    ],
+    "quest.50FBAF1B43BC733F.quest_subtitle": "A automação do Dragão Ender",
+    "quest.5120F9857859A492.quest_desc": [
+        "Esta é uma ferramenta &bfácil&r de conseguir, mas &6poderosa&r",
+        "",
+        "Permite &acapturar&r uma criatura e depois &dsoltá-la&r em outro lugar.",
+        "Existe uma pequena &7lista de bloqueio&r :p"
+    ],
+    "quest.5120F9857859A492.quest_subtitle": "Pegue todos",
+    "quest.537FEEE440E8F2F1.quest_desc": [
+        "Primeiro passo do processamento de &6minério&r"
+    ],
+    "quest.537FEEE440E8F2F1.quest_subtitle": "Limpando alguns minérios",
+    "quest.5404F37ADFC2FB5E.quest_desc": [
+        "Acho que o &6êmbolo&r é o tipo errado de &aflecha&r"
+    ],
+    "quest.5404F37ADFC2FB5E.quest_subtitle": "Arco?",
+    "quest.5580F434FC019D30.quest_desc": [
+        "Estas máquinas são as principais do IF, mas elas não são tão rápidas quanto você veria em outros mods, mas isso tem uma solução fácil.",
+        "",
+        "Mais máquinas!",
+        "",
+        "Para as ferramentas &binfinity&r, não tente chegar ao nível &cArtifact&r, você vai precisar de uns &a7&r &4anos&r para chegar lá"
+    ],
+    "quest.55E1DAB1759592B4.quest_desc": [
+        "Detecta uma &acriatura&r"
+    ],
+    "quest.55E1DAB1759592B4.quest_subtitle": "E emite um sinal de redstone!",
+    "quest.588981D06CD1A762.quest_desc": [
+        "Coloca &9fluidos&r no mundo"
+    ],
+    "quest.588981D06CD1A762.quest_subtitle": "Colocando fluidos",
+    "quest.5C7678525D872EFB.quest_desc": [
+        "Transforma &aplantas&r em &bLodo&r"
+    ],
+    "quest.5C7678525D872EFB.quest_subtitle": "Reciclagem",
+    "quest.5D8CEA0C5F37F92C.quest_desc": [
+        "Nível 4, o revestimento de máquina mais &dcaro&r.",
+        "",
+        "Embora não ofereça muitos &dusos&r, ele tem uma &ecoisa&r, é necessário para a geração de &aenergia&r!",
+        "",
+        "Precisa do nível &banterior&r.",
+        "",
+        "",
+        "Você sabia que você pode &ccolocar&r as molduras da &6Máquina&r? O &bautor&r do mod adicionou isso :p"
+    ],
+    "quest.5D8CEA0C5F37F92C.quest_subtitle": "Quarto Nível",
+    "quest.600A2047561A428B.quest_desc": [
+        "A partir do &6primeiro&r passo, você consegue outro líquido",
+        "",
+        "Bombeie esse &9líquido&r com um pouco de &bÉter&r (para conseguir 5 lingotes) ou slime &drosa&r (para conseguir 4 lingotes) e alguns &daprimoramentos&r.",
+        "",
+        "Aqui, os &daprimoramentos&r fazem bastante diferença na &avelocidade&r e &6eficiência&r, então faça-os!"
+    ],
+    "quest.600A2047561A428B.quest_subtitle": "Segundo passo",
+    "quest.600A2047561A428B.title": "Fermentando",
+    "quest.647CD87765E68CED.quest_desc": [
+        "Este é o &6nível&r que você quer usar para &dcomeçar&r, já que o &bprimeiro&r é basicamente inútil.",
+        "",
+        "Ele &aacelera&r receitas basicamente. Nem todas as &dmáquinas&r aceitam esse aprimoramento.",
+        "",
+        "Apenas um &daprimoramento&r vai funcionar, não &amúltiplos&r, mesmo que seja &dpermitido&r adicionar 2 ou mais"
+    ],
+    "quest.647CD87765E68CED.quest_subtitle": "Mais rápido v2",
+    "quest.6853C9783DAF95E6.quest_desc": [
+        "&dGatos&r não se machucam!",
+        "",
+        "A menos que tenha &clava&r no &aburaco&r que ele faz, é claro...."
+    ],
+    "quest.6853C9783DAF95E6.quest_subtitle": "O míssil",
+    "quest.6903879F94810373.quest_desc": [
+        "&f<pulse base=0.75 a=1.0 f=1.0 w=1.0>Industrial</pulse> &#26b7ecForegoing&r, o canivete suíço dos &dmods&r.",
+        "",
+        "De capturar &cinimigos&r a processar &6minério&r, produzir &aenergia&r e mais, ele permite fazer configurações &binteressantes&r",
+        "",
+        "Para começar com este mod, você vai precisar de &emolduras de máquina&r, a primeira precisa de &6toras&r, &credstone&r e ferro."
+    ],
+    "quest.6903879F94810373.quest_subtitle": "Você precisa automatizar <grad from=#eca726 to=#26e2ec hue=true f=0.2 sp=10.0 uni=true>tudo</grad>!",
+    "quest.6903879F94810373.title": "&6Bem-vindo&r &fao <pulse base=0.75 a=1.0 f=1.0 w=1.0>Industrial</pulse> &#26b7ecForegoing&r!",
+    "quest.6B1734299D45AFD3.quest_desc": [
+        "Transforma &bLodo&r em materiais úteis, como areia &cvermelha&r, cascalho ou areia das almas.",
+        "",
+        "Ou argila, que é argila &#77D0FFbalanceada&r :p"
+    ],
+    "quest.6B1734299D45AFD3.quest_subtitle": "Argila balanceada",
+    "quest.6B43DA8A8EFAC636.quest_desc": [
+        "Pule este aprimoramento"
+    ],
+    "quest.6B43DA8A8EFAC636.quest_subtitle": "Mais rápido",
+    "quest.6D60F71290F3554C.quest_desc": [
+        "Isso é para o seu &5Wither&r, para que ele não &afuja&r.",
+        "",
+        "Também pode ser usado para outras &ecriaturas&r.",
+        "",
+        "Se você ficar &dpreso&r dentro, é só &6pular&r e &bse mover&r ao mesmo tempo"
+    ],
+    "quest.6E4A5ED78748BE12.quest_desc": [
+        "É isso mesmo, este &blíquido&r é necessário para o processamento de &6minério&r.",
+        "",
+        "Ou para te &6alimentar&r..."
+    ],
+    "quest.6E4A5ED78748BE12.quest_subtitle": "Processamento de minério",
+    "quest.6F8DBC421490EE25.quest_desc": [
+        "&cFunda&r essas bolas de látex e consiga &dplástico&r, essa é sua base neste mod.",
+        "",
+        "Além disso, você vai &anotar&r que aquele &eplástico&r é de outro mod. Isso é por causa da &6unificação&r!",
+        "Você pode usar qualquer &#A5A0FFplástico&r, sem se preocupar"
+    ],
+    "quest.6F8DBC421490EE25.quest_subtitle": "Finalmente!",
+    "quest.70443611E50881A8.quest_desc": [
+        "Pule este aprimoramento"
+    ],
+    "quest.70443611E50881A8.quest_subtitle": "Melhor",
+    "quest.72DC1F282D732727.quest_desc": [
+        "Aplica encantamentos, como uma &cbigorna&r"
+    ],
+    "quest.72DC1F282D732727.quest_subtitle": "Bigorna v2",
+    "quest.7596A863C942D7D6.quest_desc": [
+        "Esta picareta pequena consegue minerar bastante sozinha, só &colhe para baixo&r ao cair :p"
+    ],
+    "quest.7596A863C942D7D6.quest_subtitle": "Picareta em esteroides",
+    "quest.75A711B13F99B44E.quest_desc": [
+        "Extrai &5encantamentos&r das suas &aferramentas&r e &earmaduras&r.",
+        "",
+        "Você pode conseguir os &aencantamentos&r em um livro (um livro por &dencantamento&r) ou como &aessência&r.",
+        "A produção de essência é baixa."
+    ],
+    "quest.75A711B13F99B44E.quest_subtitle": "Extrator",
+    "quest.779080C05BC7DC43.quest_desc": [
+        "Passo 2 do seu processamento de &6minério&r"
+    ],
+    "quest.779080C05BC7DC43.quest_subtitle": "Fermentando fermento de ferro",
+    "quest.77E6C9CDC5D0BF75.quest_desc": [
+        "Nível 3, isso significa máquinas mais &6poderosas&r &d&r, o que significa configurações mais &clouca&r!",
+        "",
+        "Precisa do nível &danterior&r"
+    ],
+    "quest.77E6C9CDC5D0BF75.quest_subtitle": "T3",
+    "quest.77F1F397BDEAD7FB.quest_desc": [
+        "Precisamos &aprocessar&r o látex que você conseguiu das &6toras&r",
+        "",
+        "O quão &cruim&r isso pode ser? Um pouco de &apotência&r, &9água&r e látex, só isso.",
+        "",
+        "Você pode conseguir &apotência&r de um gerador &dpiedoso&r e &9água&r usando &bbaldes&r ou outra &dmáquina&r!"
+    ],
+    "quest.77F1F397BDEAD7FB.quest_subtitle": "Mais um passo",
+    "quest.7E3DEEDFF6803B35.quest_desc": [
+        "Fertilize algumas &aplantas&r usando &7farinha de osso&r ou &6Fertilizante&r"
+    ],
+    "quest.7E3DEEDFF6803B35.quest_subtitle": "No lado da agricultura!"
+}

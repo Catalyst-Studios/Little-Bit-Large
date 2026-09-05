@@ -36,28 +36,6 @@
         "Perfeito para uma fonte de água infinita ou fonte de lava."
     ],
     "quest.08CA4A967521AAC0.title": "&lBomba",
-    "quest.093E6C933E18E5CB.quest_desc": [
-        "O &6Painel Solar Grande&r não é diferente dos outros geradores de energia que o Oritech oferece, mas sua geração de energia certamente é afetada pelo &cNúcleo de Máquina&r usado para construí-lo.",
-        "",
-        "E como o nome sugere, ele precisa de uma visão clara do sol para funcionar corretamente.",
-        "",
-        "Quanto maior o nível do núcleo, melhor sua taxa de FE.",
-        "",
-        "Núcleo Primitivo - 32FE/t",
-        "",
-        "Núcleo Básico - 64FE/t",
-        "",
-        "Núcleo Melhorado - 96FE/t",
-        "",
-        "Núcleo Avançado - 128FE/t",
-        "",
-        "Núcleo de Elite - 166FE/t",
-        "",
-        "Núcleo Ultra - 192FE/t",
-        "",
-        "Núcleo Supremo - 224FE/t"
-    ],
-    "quest.093E6C933E18E5CB.title": "&lPainel Solar Grande",
     "quest.0C1ADC4C9F6E5921.quest_desc": [
         "O Anel Guia é essencial para direcionar as partículas no acelerador.",
         "",
@@ -113,7 +91,7 @@
         "",
         "1.- Área de efeito. Facilitando a quebra de blocos.",
         "",
-        "2.- Toque de Seda. Não há muito o que dizer sobre este efeito, já que todos nós já sabemos o que ele faz!",
+        "2.- Toque Suave. Não há muito o que dizer sobre este efeito, já que todos nós já sabemos o que ele faz!",
         "",
         "Para alternar entre os modos, simplesmente faça shift+rmb enquanto olha para o ar."
     ],
@@ -324,20 +302,20 @@
     "quest.2707AD39B9821F55.quest_desc": [
         "O Controlador de Gerador é mais um método disponível para gerar qualquer tipo de criatura que queiramos farmar.",
         "",
-        "Para usá-lo, basta criá-lo, colocá-lo e deixar o mob desejado &3andar sobre&r o gerador. Depois disso, estamos prontos para começar nossa fazenda de mobs!",
+        "Para usá-lo, basta criá-lo, colocá-lo e deixar a criatura desejada &3andar sobre&r o gerador. Depois disso, estamos prontos para começar nossa fazenda de criaturas!",
         "",
-        "Dependendo do tipo de criatura, precisamos criar uma Gaiola feita de Gaiolas de Geração (&6esta Gaiola varia dependendo do mob; por exemplo, um Enderman requer uma Gaiola mais alta, não mais larga&r). O Controlador de Gerador irá &bdestacar&r uma área adequada para aquele mob específico. Lembre-se que o Controlador de Gerador deve ser colocado antes de montar a Gaiola.",
+        "Dependendo do tipo de criatura, precisamos criar uma Gaiola feita de Gaiolas de Geração (&6esta Gaiola varia dependendo da criatura; por exemplo, um Enderman requer uma Gaiola mais alta, não mais larga&r). O Controlador de Gerador irá &bdestacar&r uma área adequada para aquela criatura específica. Lembre-se que o Controlador de Gerador deve ser colocado antes de montar a Gaiola.",
         "",
-        "Uma vez que tudo esteja configurado corretamente, a Gaiola exibirá a alma do mob dentro dela.",
+        "Uma vez que tudo esteja configurado corretamente, a Gaiola exibirá a alma da criatura dentro dela.",
         "",
-        "Para ativá-lo, precisamos alimentar o Controlador de Gerador com &9Almas&r. Uma vez que almas suficientes tenham sido fornecidas, ele começará a gerar o mob sem problemas!"
+        "Para ativá-lo, precisamos alimentar o Controlador de Gerador com &9Almas&r. Uma vez que almas suficientes tenham sido fornecidas, ele começará a gerar a criatura sem problemas!"
     ],
     "quest.2707AD39B9821F55.title": "&lControlador de Gerador",
     "quest.278FFA052CCBD2F5.quest_desc": [
         "Não há muito que eu possa dizer sobre esta máquina chique, é uma fornalha, mas &celétrica&r!"
     ],
     "quest.278FFA052CCBD2F5.quest_subtitle": "Uma fornalha, mas elétrica",
-    "quest.278FFA052CCBD2F5.title": "&lFornalha Elétrica",
+    "quest.278FFA052CCBD2F5.title": "&lFornalha Energizada",
     "quest.2AF4E2ACA37140A7.quest_desc": [
         "As Portas Absorvedoras de Refrigerante são uma das muitas coisas necessárias para formar completamente um reator nuclear, sem elas não conseguimos introduzir nossos blocos de refrigerante.",
         "",
@@ -373,7 +351,7 @@
         "",
         "Primeiro de tudo, esta máquina precisa de &9almas&r para funcionar! Essas almas podem ser coletadas de duas maneiras:",
         "",
-        "- &cMatando&r mobs ao redor do Catalisador Arcano.",
+        "- &cMatando&r criaturas ao redor do Catalisador Arcano.",
         "",
         "- Criando a &3Flor da Alma&r. Toda vez que você colhe esta flor, ela libera algumas almas, prontas para serem coletadas pelo Catalisador Arcano.",
         "",
@@ -454,11 +432,11 @@
     ],
     "quest.363B4A5668EF9FFB.title": "&l&4Painel de Controle do Reator Nuclear",
     "quest.364B91C3F2AC5C3C.quest_desc": [
-        "O &5Composto Êndrico&r é um dos itens necessários para criar as próximas máquinas.",
+        "O &5Composto Endérico&r é um dos itens necessários para criar as próximas máquinas.",
         "",
         "Poderíamos ter criado o composto antes sem problemas, mas agora que temos a Forja de Fragmentos, é aconselhável usar esta máquina, pois ela tem a melhor receita para ele."
     ],
-    "quest.364B91C3F2AC5C3C.title": "&lComposto Êndrico",
+    "quest.364B91C3F2AC5C3C.title": "&lComposto Endérico",
     "quest.3A075D348101ADDD.quest_subtitle": "Aumenta a velocidade de movimento",
     "quest.3A075D348101ADDD.title": "&lExo-Calças",
     "quest.3BF285CF0C810B22.quest_desc": [
@@ -652,21 +630,21 @@
     "quest.532C4FFB18B50604.quest_desc": [
         "Temos múltiplos tipos de combustíveis para nossos reatores, estes são essenciais para fazer nosso reator funcionar e produzir energia!",
         "",
-        "Para começar, criaremos as Pellets de &aUrânio&r, que têm uma duração de &6200&r ticks (100s) cada. Sabendo disso, talvez precisemos adicionar mais varetas de combustível em nosso reator.",
+        "Para começar, criaremos as Pellets de &aUrânio&r, que têm uma duração de &6200&r tiques (100s) cada. Sabendo disso, talvez precisemos adicionar mais varetas de combustível em nosso reator.",
         "",
         "Assim que tivermos materiais suficientes, sugiro que você crie as Pellets de &9Plutônio&r, estas são de longe o MELHOR tipo de combustível que podemos usar em nossos reatores... ",
         "",
-        "Por quê? Simplesmente porque cada pellet tem uma duração de &620.000&r ticks (1000s)!"
+        "Por quê? Simplesmente porque cada pellet tem uma duração de &620.000&r tiques (1000s)!"
     ],
     "quest.532C4FFB18B50604.title": "&lCombustíveis do Reator",
     "quest.5448EAA6F02667A4.quest_subtitle": "Previne Dano de Queda",
     "quest.5448EAA6F02667A4.title": "&lExo-Botas",
     "quest.5721FCF3AFC744DC.quest_desc": [
-        "A produção base do Bio-Gerador é de 64FE/t.",
+        "A produção base do Biogerador é de 64FE/t.",
         "",
         "É sugerido e aconselhado colocar alguns addons de velocidade e eficiência para multiplicar sua taxa de geração!"
     ],
-    "quest.5721FCF3AFC744DC.title": "&lBio-Gerador",
+    "quest.5721FCF3AFC744DC.title": "&lBiogerador",
     "quest.5A86360E5888389C.quest_desc": [
         "O último nível de componentes que usaremos no Oritech...",
         "",

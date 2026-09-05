@@ -1,12 +1,10 @@
 {
-    "quest.06EA43B239BD0B56.quest_subtitle": "O Começo",
-    "quest.06EA43B239BD0B56.title": "Seu Primeiro Modificador!",
     "quest.0DACD6F3077FBD20.quest_desc": [
         "Os Geradores Apóticos permitem que você modifique Geradores para torná-los mais rápidos e eficientes!",
         "",
         "Pegue qualquer Gerador usando uma picareta com &bToque Suave&r!",
         "",
-        "Você pode mudar o mob gerado clicando com o botão direito no gerador com seu ovo de geradores.",
+        "Você pode mudar a criatura gerada clicando com o botão direito no gerador com seu ovo de geradores.",
         "",
         "&aDica:&r Você também pode usar as &bCaixas de Papelão do Mekanism&r para pegar geradores!"
     ],
@@ -16,90 +14,11 @@
     ],
     "quest.0DC883B46880A03C.quest_subtitle": "Quem veio primeiro? A galinha ou o ovo?",
     "quest.0DC883B46880A03C.title": "Obtendo Ovos de Geradores",
-    "quest.1AD8C1337F69E1C5.quest_desc": [
-        "Faz o gerador exigir um &bsinal de redstone&r para funcionar."
-    ],
-    "quest.1AD8C1337F69E1C5.title": "Alternador de Redstone",
-    "quest.240552BBF5D94EB1.quest_desc": [
-        "Mobs ignoram as condições de geração e aparecem em qualquer condição.",
-        "",
-        "Você não precisa de &bIgnorar Nível de Luz&r se tiver esta melhoria."
-    ],
-    "quest.240552BBF5D94EB1.quest_subtitle": "Este lugar parece bom o suficiente",
-    "quest.240552BBF5D94EB1.title": "&bIgnorar Condições de Geração",
     "quest.26D7A8C7156AB1F6.quest_desc": [
         "Se você quiser remover modificadores, basta pegar o item modificador e segurar um pedaço de &bQuartzo do Nether&r na sua &lmão secundária&r para remover um nível de modificador!"
     ],
     "quest.26D7A8C7156AB1F6.quest_subtitle": "Todo mundo comete erros",
     "quest.26D7A8C7156AB1F6.title": "Removendo Modificadores",
-    "quest.328025E9BA01FBDC.quest_desc": [
-        "O gerador não precisa mais de um &bjogador por perto&r para gerar criaturas.",
-        "",
-        "Ótimo para farmar enquanto faz outras coisas!"
-    ],
-    "quest.328025E9BA01FBDC.quest_subtitle": "Eu não preciso de você",
-    "quest.328025E9BA01FBDC.title": "&dIgnorar Jogadores",
-    "quest.32E4322646FFF017.quest_desc": [
-        "As criaturas ignoram o nível de luz e aparecerão em qualquer nível de luz."
-    ],
-    "quest.32E4322646FFF017.quest_subtitle": "Sou legalmente cego",
-    "quest.32E4322646FFF017.title": "Ignorar Nível de Luz",
-    "quest.40D0DEDD660A301E.quest_desc": [
-        "Diminui a quantidade de vida com que os mobs nascem.",
-        "",
-        "Cada dripstone dará &b-5% de vida inicial&r até um &bmínimo de 20% de vida&r."
-    ],
-    "quest.40D0DEDD660A301E.quest_subtitle": "Chame uma ambulância!",
-    "quest.40D0DEDD660A301E.title": "Menos Vida Inicial",
-    "quest.45486AC8954F26C1.quest_desc": [
-        "Aumenta o alcance em que os mobs nascem.",
-        "",
-        "Cada pistão dará &b+2 de alcance de geração&r até um &bmáximo de 32 blocos&r."
-    ],
-    "quest.45486AC8954F26C1.quest_subtitle": "Muito espaço para se esticar",
-    "quest.45486AC8954F26C1.title": "Mais Alcance de Geração",
-    "quest.49235AB18DFE6AD7.quest_desc": [
-        "Mobs gerados sempre nascerão como bebês, se possível."
-    ],
-    "quest.49235AB18DFE6AD7.quest_subtitle": "&4Seu Monstro&r",
-    "quest.49235AB18DFE6AD7.title": "Jovem",
-    "quest.5760A1BA7C6CDA67.quest_desc": [
-        "Diminui o tempo máximo de tick entre as gerações.",
-        "",
-        "Cada relógio irá -20 ticks para o &batraso máximo de geração&r.",
-        "",
-        "O atraso máximo de geração mínimo é de &b20 ticks&r."
-    ],
-    "quest.5760A1BA7C6CDA67.quest_subtitle": "Limite superior",
-    "quest.5760A1BA7C6CDA67.title": "Atraso Máximo de Geração",
-    "quest.6B477C68C8D84A3D.quest_desc": [
-        "Gera mobs &6em chamas&r. &oAi&r."
-    ],
-    "quest.6B477C68C8D84A3D.quest_subtitle": "Deixe-os queimar",
-    "quest.6B477C68C8D84A3D.title": "Em Chamas",
-    "quest.6C504AA720E7C1C3.quest_desc": [
-        "Diminui o tempo mínimo em ticks entre as gerações.",
-        "",
-        "Cada açúcar irá -20 ticks para o &batraso mínimo de geração&r.",
-        "",
-        "O atraso mínimo de geração é de &b20 ticks&r."
-    ],
-    "quest.6C504AA720E7C1C3.quest_subtitle": "Limite inferior",
-    "quest.6C504AA720E7C1C3.title": "Atraso Mínimo de Geração",
-    "quest.6FE1831C4E32CD9D.quest_desc": [
-        "Aumenta a quantidade de mobs gerados por onda.",
-        "",
-        "Cada olho adiciona &b+2 à contagem de geração&r até um &bmáximo de 16 mobs&r em uma única onda."
-    ],
-    "quest.6FE1831C4E32CD9D.quest_subtitle": "Mais Mobs!",
-    "quest.6FE1831C4E32CD9D.title": "Aumentar Contagem de Geração",
-    "quest.74F6B9592744EC7C.quest_desc": [
-        "Mobs mortos dropam mais loot!",
-        "",
-        "Cada Caco de Eco dá &b+1 nível&r. O nível máximo é &bEcoante V&r."
-    ],
-    "quest.74F6B9592744EC7C.quest_subtitle": "MAIS LOOT!",
-    "quest.74F6B9592744EC7C.title": "Mais Loot!",
     "quest.78C350866A75F0D0.quest_desc": [
         "Agora que você tem todas as peças, é hora de criar o &l&dGerador Supremo&r&r. ",
         "",
@@ -107,23 +26,11 @@
     ],
     "quest.78C350866A75F0D0.quest_subtitle": "Loot infinito!",
     "quest.78C350866A75F0D0.title": "&o&l&dO Gerador Supremo&r&r&r",
-    "quest.7A71E1BAB8050192.quest_desc": [
-        "+2 entidades totais próximas Máx 32"
-    ],
-    "quest.7A71E1BAB8050192.quest_subtitle": "Ficando Lotado",
-    "quest.7A71E1BAB8050192.title": "Máximo de Entidades Próximas",
     "quest.7D421F7F44B98A4F.quest_desc": [
         "Você &lnão&r tem permissão para usar estas missões em qualquer pacote público sem &4&npermissão explícita&r da Catalyst Studios.",
         "",
         "Linha de missões &bGeradores Apóticos&r feita por: &5ArcTrooper&r",
         "",
         "Se você está vendo isso, significa que está no modo de edição."
-    ],
-    "quest.7DDA8F8BFCB5F3EC.quest_desc": [
-        "Mobs geram sem IA, o que significa que não farão nada.",
-        "",
-        "&eAviso:&r Isso &opode&r quebrar certas interações com mobs."
-    ],
-    "quest.7DDA8F8BFCB5F3EC.quest_subtitle": "&oO que eu sou?",
-    "quest.7DDA8F8BFCB5F3EC.title": "Sem IA"
+    ]
 }

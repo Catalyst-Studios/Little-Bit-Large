@@ -48,7 +48,7 @@
     "quest.12794490993D0EA2.quest_desc": [
         "&cRedstone&r é muito limitada com S&6FM&r, mas você pode fazer algumas coisas &alegais&r com ela.",
         "",
-        "- Você pode &devitar&r o uso de \"a ca&bda&r 20 ticks faça\" e ir &amais rápido&r, até intervalos de 2 ticks -> a cada pulso de &credstone&r faça",
+        "- Você pode &devitar&r o uso de \"a ca&bda&r 20 tiques faça\" e ir &amais rápido&r, até intervalos de 2 tiques -> a cada pulso de &credstone&r faça",
         "",
         "- Verifica com declarações &aSE&r -> se &credstone&r for igual a 15, então ....",
         "",
@@ -145,7 +145,7 @@
         "Alguns &emods&r permitem que você &6os veja&r, mas são limitados, como &aProductive&r&6Bees&r.",
         "Você pode &bverificar&r os slots com a &dcombinação de teclas&r de CTRL+I, mas isso não é 100% verdadeiro",
         "",
-        "Você pode &bespecificar&r uma lista de &6slots&r ou &um&r slot ou um &aintervalo&r",
+        "Você pode &bespecificar&r uma lista de &6slots&r ou &dum&r slot ou um &aintervalo&r",
         "",
         "Sintaxe: saída para <rótulo> slots <lista, número do slot ou intervalo>",
         "",
@@ -191,7 +191,7 @@
     "quest.59E3899D372E1089.title": "&cSuper&r Factory Manager",
     "quest.62412CB349BDB687.quest_desc": [
         "Pegue &ctodos&r os &dblocos&r que você precisaria para sua &aconfiguração&r. ",
-        "Por exemplo, digamos uma &6fazenda de mobs&r, bem, você coloca os &bcoletores&r de itens, as &blixeiras&r e as &emáquinas&r para reciclar e armazenar.",
+        "Por exemplo, digamos uma &6fazenda de criaturas&r, bem, você coloca os &bcoletores&r de itens, as &blixeiras&r e as &emáquinas&r para reciclar e armazenar.",
         "",
         "Bem, depois disso &dpense&r em como funciona, como \"Ok, eu preciso &emover&r os itens dos &bcoletores&r para os &brecicladores&r, então inserir o &6resultado&r e finalmente enviar para o &carmazenamento&r. Se o &darmazenamento&r estiver cheio, então vai para o &alixo&r. Também para o lixo, qualquer &bexcesso&r de armadura\"",
         "",
@@ -235,14 +235,14 @@
         "",
         "Ela tem a &bseguinte&r estrutura:",
         "",
-        "&devery&r X <ticks ou seconds> do",
+        "&devery&r X <ticks or seconds> do",
         "  --código aqui",
         "end",
         "",
-        "Onde X é o &enúmero&r de ticks ou segundos. Você só pode &6escolher&r ticks ou segundos, mas &cnão&r ambos.",
+        "Onde X é o &enúmero&r de tiques ou segundos. Você só pode &6escolher&r tiques ou segundos, mas &cnão&r ambos.",
         "Por padrão, apenas a &aenergia&r pode ser feita em um \"&devery&r 1 ticks do\" e o &bresto&r pode ser &6feito&r em \"every 20 ticks do\" ou &esuperior&r",
         "",
-        "Há um truque para &6evitar&r o atraso de 20 ticks usando um \"every &credstone&r pulse do\", mas você precisa de um relógio de redstone de 2 &bticks&r, como com 2 &eobservadores&r, no bloco &6gerenciador&r"
+        "Há um truque para &6evitar&r o atraso de 20 tiques usando um \"every &credstone&r pulse do\", mas você precisa de um relógio de redstone de 2 &btiques&r, como com 2 &eobservadores&r, no bloco &6gerenciador&r"
     ],
     "quest.6AA8B7AE8A952909.title": "Palavra-chave Every",
     "quest.6DB4CDB6DF44FFFF.quest_desc": [
@@ -250,7 +250,7 @@
         "",
         "Para a maioria das configurações, isso é &dinútil&r porque &5reter&r faz um trabalho muito &6melhor&r para distribuir &eitens&r ou &bfluidos&r ou &5gases&r através de &6múltiplos&r inventários.",
         "",
-        "&dPor exemplo&r, digamos que você tenha um \"a cada 1 tick\", então, em um &6segundo&r, você pode fazer 20 &dmáquinas&r, enquanto com &5reter&r você pode fazer mais do que isso (100+) a cada tick.",
+        "&dPor exemplo&r, digamos que você tenha um \"a cada 1 tique\", então, em um &6segundo&r, você pode fazer 20 &dmáquinas&r, enquanto com &5reter&r você pode fazer mais do que isso (100+) a cada tique.",
         "Você também pode usar \"&cpor rótulo&r\", mas você &aprecisaria&r de 2 rótulos nas &bdeclarações&r",
         "",
         "Você pode usar &eround robin&r de 2 maneiras, &apor bloco&r e &cpor rótulo&r",

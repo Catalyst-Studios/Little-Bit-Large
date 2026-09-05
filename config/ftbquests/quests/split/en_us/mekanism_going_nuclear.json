@@ -56,7 +56,6 @@
         "",
         "&4GROSS&r!"
     ],
-    "quest.33006B1CA6F4551A.title": " ",
     "quest.3DB72482CFC08930.quest_desc": [
         "&bElectrolize&r some &9water&r to get some &aoxygen&r, you are going to &duse&r it a lot"
     ],
@@ -77,6 +76,7 @@
     "quest.474762067F687EC6.quest_desc": [
         "&dElectrolize&r some &9heavy&r water"
     ],
+    "quest.4A047F5899833C2A.title": " ",
     "quest.4BE4DEF7BE609CED.quest_desc": [
         "The &dmain&r uses are the following:",
         "",
@@ -152,6 +152,7 @@
         "",
         "- &eQIO&r stuff related"
     ],
+    "quest.6DC5821F6D927EDA.title": "Polonium Pellet",
     "quest.73693A4E319A9E8F.quest_desc": [
         "This &dquestline&r guides you across the &cendgame&r of &aMekanism&r, &efission&r and &5fusion&r.",
         "",

@@ -21,6 +21,7 @@
 			}
 			id: "1EDBE9BF623A4C55"
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "5DF4B7FD0C9F725E"
 				type: "checkmark"

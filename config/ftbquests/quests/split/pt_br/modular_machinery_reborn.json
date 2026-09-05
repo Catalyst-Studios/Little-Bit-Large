@@ -67,6 +67,10 @@
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/apis.png width:100 height:100 align:center fit:true}"
     ],
     "quest.25CED87D758A6D0C.quest_subtitle": "Um por outro",
+    "quest.28DBA40648A0ED54.quest_desc": [
+        "[{\"text\":\"\"},{\"text\":\"Agora, com 8 \"},{\"text\":\"paralelos\",\"color\":\"#FFAA00\"},{\"text\":\", você deve conseguir fazer \"},{\"text\":\"<wiggle a=1.0 f=1.0 w=1.0>muitas</wiggle>\",\"color\":\"#8e29da\"},{\"text\":\" receitas rapidinho.\\nMas essa não é a \"},{\"text\":\"última\",\"color\":\"#da29b4\"},{\"text\":\" escotilha de paralelos que você vai encontrar.\\n\\nExiste uma \"},{\"text\":\"escotilha de paralelo maior\",\"color\":\"#FFFF55\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"34B94E6DBEC34BCE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Clique aqui para mudar de missão\"}}},{\"text\":\", uma por jogador/equipe, mais \"},{\"text\":\"poderosa\",\"color\":\"#FF55FF\"},{\"text\":\".\\n\\nPor enquanto, isso é o \"},{\"text\":\"melhor\",\"color\":\"#AA00AA\"},{\"text\":\" que você consegue, já que tem muito \"},{\"text\":\"lag\",\"color\":\"#AA0000\",\"bold\":true},{\"text\":\" se você usar as maiores.\\n\\nUma vez que isso for \"},{\"text\":\"resolvido\",\"color\":\"#55FF55\"},{\"text\":\" ou amenizado, nós vamos \"},{\"text\":\"adicioná-las\",\"color\":\"#5555FF\"},{\"text\":\".\"}]"
+    ],
+    "quest.28DBA40648A0ED54.quest_subtitle": "Estamos indo bem rápido",
     "quest.2A16DB89E273DC47.quest_desc": [
         "&6Torres de Evaporação Térmica&r têm uma desvantagem, a &cquantidade&r de &dquímicos&r que você pode obter por segundo.",
         "",
@@ -88,15 +92,37 @@
         "{image:catalyst:textures/quest_images/modular_machinery_reborn/neutron_inyector.png width:100 height:100 align:center fit:true}"
     ],
     "quest.324DF9C2A54FF7D8.quest_subtitle": "Energia solar... ou energia laser",
+    "quest.34B94E6DBEC34BCE.quest_desc": [
+        "Converte qualquer &6minério&r, bruto ou fragmento para o resultado correspondente",
+        "",
+        "Esta &amáquina&r usa bastante &bpotência&r e recursos, mas dependendo de onde você a coloca, ela pode te dar mais &drecursos&r",
+        "",
+        "- Qualquer &5dimensão&r -> Dá x1 (não é o ideal)",
+        "",
+        "- &#ec3e64O Nether&r -> Dá x2 (não é o melhor, mas estamos perto)",
+        "",
+        "- &#e6eba8O End&r -> Dá x4 (o melhor dos melhores)",
+        "",
+        "Ela precisa de bastante &1água&r, que é fácil de conseguir, 5 baldes de &#b4e2e2gás de éter&r e &#9c6833carne&r e um pouco de &aácido sulfúrico&r.",
+        "Embora pareça muito, a água pode ser &efacilmente&r obtida, e existe outro &dmultibloco&r que consegue bastante &#b4e2e2gás de éter&r e &#9c6833carne&r.",
+        "",
+        "Quanto ao &aácido sulfúrico&r, não é tão grande quanto parece",
+        "{@pagebreak}",
+        "Agora, aqui está a parte &alegal&r, este &#29dab4multibloco&r &5mente&r bastante. Existem 2 receitas &#dada29ocultas&r, elas são &diguais&r, mas a única diferença é o item de entrada e saída",
+        "",
+        "Por exemplo, digamos que temos 289 &#e0e090ferro bruto&r e usamos na dimensão &8vazio&r, bem, a máquina vai fazer 3 &5receitas&r em vez de 289 &dreceitas&r, uma fazendo 256 &#e0e090ferro bruto&r para 256 lingotes de ferro, outra fazendo 32, e a última fazendo 1.",
+        "",
+        "Isso é &#ff004bimplementado&r em vez de paralelos, então você não precisa se preocupar &#ffc400&otanto&r com isso."
+    ],
+    "quest.34B94E6DBEC34BCE.quest_subtitle": "A fornalha glorificada, a maior de todas",
+    "quest.34B94E6DBEC34BCE.title": "Forja &#00ff19Celestial&r",
     "quest.3AA097774DBE736A.quest_desc": [
-        "Embora só possa &carmazenar&r meros 2k &aFE&r e &eentrar&r 128 &aFE&r por tick, você precisará de muito mais.",
+        "Embora só possa &carmazenar&r meros 2k &aFE&r e &eentrar&r 128 &aFE&r por tique, você precisará de muito mais.",
         "",
         "Então você precisa &6aprimorá-los&r, mas precisa destes para &5começar&r"
     ],
     "quest.3AA097774DBE736A.quest_subtitle": "Slot minúsculo",
     "quest.3B1AF89E06B178D4.quest_desc": [
-        "Por enquanto, o &6apiário&r é o único &amultibloco&r que pode suportar &dparalelos&r.",
-        "",
         "&5Paralelos&r significa fazer mais &btrabalho&r na mesma máquina, mas sem &cconstruir&r mais.",
         "Isso &asignifica&r que você só precisa &btrocar&r um bloco e está pronto"
     ],
@@ -166,7 +192,7 @@
         "",
         "- &bParalelismo&r -> Várias &6abelhas&r do mesmo &atipo&r podem trabalhar ao mesmo tempo",
         "",
-        "- Age como uma &bcolmeia&r normal, mas com necessidades de &aenergia&r (20kfe por tick)",
+        "- Age como uma &bcolmeia&r normal, mas com necessidades de &aenergia&r (20kfe por tique)",
         "",
         "&2Mais informações na próxima página&r",
         "{@pagebreak}",
@@ -239,6 +265,15 @@
     ],
     "quest.62F77CA28BF9653C.quest_subtitle": "Cultivando em movimento?",
     "quest.62F77CA28BF9653C.title": "Cultivo",
+    "quest.64F9B0F0FA57D7F2.quest_desc": [
+        "Elas são bem poderosas por si só, mas você vai conseguir fazê-las funcionar?",
+        "",
+        "A Forja Celestial consegue até &5sustentar&r várias &ageodos&r e uma pedreira funcionando, dando até &#F727FF <shake a=1.0 f=1.0>x4</shake>",
+        "",
+        "As fornalhas conseguem fazer até 2 mil receitas ao mesmo tempo! \\nOu 8x para a primitiva"
+    ],
+    "quest.64F9B0F0FA57D7F2.quest_subtitle": "Estamos &bcomeçando&r a fazer multiblocos",
+    "quest.64F9B0F0FA57D7F2.title": "&#ffd00cProcessamento&r <bounce a=1.0 f=0.5 w=1.0>de minério</bounce>",
     "quest.676F526FA911C55D.quest_desc": [
         "Existem muitos &emultiblocos&r, alguns deles mais &abelos&r do que outros, é claro",
         "",
@@ -281,6 +316,19 @@
     ],
     "quest.70398E97AAD8E677.quest_subtitle": "Reforço!!",
     "quest.70398E97AAD8E677.title": "Obter Ardosiabissal Reforçada",
+    "quest.75A17B4F62BAB3A3.quest_desc": [
+        "Bem, isso é simples, coloque uma &dcriatura&r dentro e ganhe um &6líquido&r",
+        "",
+        "Existem 4 receitas:",
+        "",
+        "- &#7A7A7AWither&r&r -> Gás de Éter",
+        "- &#FFA248Aldeão&r -> Resina de &9Menril&r",
+        "- <rainb f=0.25 w=1.0>Ovelha</rainb> -> &dSlime Rosa&r",
+        "- <grad from=#663b2a to=#28b425 hue=true f=0.25 sp=20.0 uni=false>Zumbi</grad> -> &#9D4F2FCarne&r Líquida",
+        "",
+        "Talvez um pouco de &credstone&r possa ajudar?"
+    ],
+    "quest.75A17B4F62BAB3A3.quest_subtitle": "A base da broca de fluido",
     "quest.75C6A646E2DB4905.quest_desc": [
         "&6Modularium&r, a barra",
         "",
@@ -332,7 +380,7 @@
         "Há muitos &amultiblocos&r que podem ser feitos, mas eles variam de &dtamanho&r a &6materiais&r.",
         "Para resolver isso, existe uma pequena &bferramenta&r que pode formar o multibloco, o &9projeto&r!",
         "",
-        "- &bAgachar e clicar&r no &ncontrolador&r do multibloco enquanto segura este item mostrará o tamanho e uma &pré-visualização&r do multibloco",
+        "- &bAgachar e clicar&r no &ncontrolador&r do multibloco enquanto segura este item mostrará o tamanho e uma &apré-visualização&r do multibloco",
         "",
         "Além disso, você pode &econstruir&r essas máquinas &bautomaticamente&r, sem precisar colocar 5000 blocos, você precisa abrir a interface do controlador para fazer isso. Ou &cexcluí-lo&r.....",
         "",
