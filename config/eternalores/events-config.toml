@@ -1,0 +1,36 @@
+# Eternal Ores Events config.
+#
+# This config allows you to disable item or block events.
+#
+# Like the Unstable Ingot explosion or EO's Redstone Block emitting signal, etc.
+#
+# Each change requires a game restart. Preferably.
+#
+[events]
+
+	[events.redstone_block]
+		#[Server] Defines if Eternal Ores Redstone Block emmit a redstone signal
+		doesRedstoneBlockEmmitSignal = true
+		#[Server] Defines the Redstone level emission of Eternal Ores Redstone Block
+		# Default: 15
+		# Range: 0 ~ 30
+		redstoneLevelEmission = 15
+		#[Server] Defines if Eternal Ores Redstone Block can connect to redstone
+		doesRedstoneBlockConnectToRedstone = true
+
+	[events.unstable_ingot]
+		#[Server] Defines if the Unstable Ingot should explode. False by default.
+		isUnstableExplosionEnable = true
+		#[Server] Defines if the Unstable Ingot should get deleted after being crafted by external sources, aka autocrafting or crafters
+		#This ingot has a special data component, which gets assigned if the item was crafted or not.
+		isUnstableDeletionEnable = true
+		#[Server] Defines if the Unstable Ingot can be stored in any container block, chests, bundles, etc.
+		isUnstableStorageEnable = false
+
+	[events.pebbles]
+		#[Server] Defines if players can throw pebbles at anyone... yep, thrown em at your buddies hehe.
+		canPebblesBeThrown = true
+		#[Server] Defines the amount of damage pebbles can deal... nope, max damage will not go past 10, and I will not be convinced by anything or anyone to increase it.
+		# Default: 1
+		# Range: 0 ~ 10
+		pebbleDamage = 2

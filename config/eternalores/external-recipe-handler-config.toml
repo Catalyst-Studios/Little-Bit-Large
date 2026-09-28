@@ -1,0 +1,90 @@
+# Eternal Ores Duplicate Recipe Handler Config.
+#
+# This config allows you to toggle duplicate/overlapping recipes.
+#
+# Designed to help modpack developers clean up duplicate recipes with a few toggles,
+# without having to hunt each duplicate recipe down one by one manually.
+#
+# We've provided two methods to fully toggle these duplicate/overlapping recipes.
+#
+# Basic only toggles recipes that are, unwanted, not unified, or that smart system didn't
+# fully toggled, that may collide with Eternal Ores, and other mods recipes. Like Oritech's steel/electrum recipes,
+# Create Crafts and Additions electrum charger recipe, Mekanism slurry recipes (as they are not supported by Almost Unified yet), etc.
+#
+# Smart compares recipe input ingredients across every supported recipe type, and where
+# it can also resolve BOTH recipes' outputs, requires those outputs to overlap too before
+# removing anything. If Smart can't confidently resolve a recipe's output, it leaves that
+# recipe untouched rather than risk removing something unrelated. Which acts as a safety net
+# for duplicate recipes that Almost Unified may not catch/hide.
+#
+# These recipes are not necessarily conflicting, but in certain cases Eternal Ores'
+# outputs differ enough from the original recipe (in item, count, or time) that
+# Almost Unified can't recognize them as the same recipe.
+#
+# [Only recipe types explicitly supported are affected]
+#
+# [
+#    Minecraft: Smelting and Blasting
+#    Immersive Engineering: Crusher, Arc Furnace and Alloy
+#    Oritech: Grinder, Pulverizer, Refinery, Atomic Forge, Centrifuge, Centrifuge Fluid and Foundry
+#    Integrated Dynamics: Squeezer and Mechanical Squeezer
+#    Mekanism More Machine: Stamper // BTW it's real recipe type id is Mekanism:Stamping for some reason
+#    Railcraft: Crusher
+#    Ender IO: Sag Milling and Alloy Smelting
+#    Actually Additions: Crushing
+#    Energized Power: Alloy Furnace and Pulverizer
+#    Create: Splashing, Mixing and Crushing
+# ]
+#
+# No core progression recipes are touched, and no mod functionality is affected in any way whatsoever.
+#
+# Runs after Almost Unified finishes its own tag, item and recipe unification. If said Eternal Ores recipe
+# was unified, it is left as is.
+#
+# Almost Unified is a MUST to use alongside this config. You've been warned.
+# See: https://www.curseforge.com/minecraft/mc-mods/almost-unified
+#
+# Additionally, KubeJS or CraftTweaker are highly suggested in case we missed any duplicate recipe.
+# See: https://www.curseforge.com/minecraft/mc-mods/crafttweaker
+# See: https://www.curseforge.com/minecraft/mc-mods/kubejs
+#
+# Each config change requires a /reload (or a server restart) to take effect - Eternal Ores
+# re-runs both Basic and Smart automatically whenever datapacks are (re)synced, so a plain
+# /reload is enough, no restart needed.
+#
+[external_recipe_handler]
+	#[Server] Disables all whitelisted duplicate/overlapping Oritech recipes that conflict with Eternal Ores.
+	areOritechRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Mekanism recipes that conflict with Eternal Ores.
+	areMekanismRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Mekanism More Machine recipes that conflict with Eternal Ores.
+	areMekanism_more_machineRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Create recipes that conflict with Eternal Ores.
+	areCreateRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Create Crafts And Additions recipes that conflict with Eternal Ores.
+	areCreate_crafts_and_additionsRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Immersive Engineering recipes that conflict with Eternal Ores.
+	areImmersive_engineeringRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Enderio recipes that conflict with Eternal Ores.
+	areEnderioRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Railcraft recipes that conflict with Eternal Ores.
+	areRailcraftRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Energizedpower recipes that conflict with Eternal Ores.
+	areEnergizedpowerRecipesDisabled = true
+	#[Server] Disables all whitelisted duplicate/overlapping Actuallyadditions recipes that conflict with Eternal Ores.
+	areActuallyadditionsRecipesDisabled = true
+
+[smart]
+	# [Server] Defines if Eternal Ores should compare recipe input ingredients, and outputs, in favor of EO's own implemented recipes.
+	isSmartRecipeHandlerEnabled = true
+	# [Server] Defines if Eternal Ores should replace overlapping recipes.
+	# ALWAYS_EO: EO's recipe always wins, regardless of output yield.
+	# PREFER_HIGHER_YIELD: EO's recipe only wins if its output count is >= the other recipe's.
+	# PREFER_LOWER_YIELD: EO's recipe only wins if its output count is <= the other recipe's.
+	#
+	#Allowed Values: ALWAYS_EO, PREFER_HIGHER_YIELD, PREFER_LOWER_YIELD
+	mode = "ALWAYS_EO"
+
+[debug]
+	#[Server] Only used for Debug.
+	shouldLogsAppear = false

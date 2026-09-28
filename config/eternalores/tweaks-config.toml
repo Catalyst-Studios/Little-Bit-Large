@@ -1,0 +1,21 @@
+# Eternal Ores Mixins and Tweaks Config.
+#
+# This config allows you to tweak the behaviour of certain recipes.
+#
+# Tweaks;
+# Empty at the moment, but soon.
+#
+# Mixins;
+# Immersive Engineering
+# - Tweaks the Metal Press Machine to use both IE and EO molds as a single input via Tag instead of a hardcoded Item.
+# - Displays 'c:tools/molds/mold_type' over their JEI Recipe Category, so players know they can use both molds equally.
+#
+# Each change requires a Game Restart. Preferably.
+#
+[mixin_config]
+
+	#Mixins
+	[mixin_config.mixins]
+		#Defines if the Metal Press Machine can use Tags as a Mold Input.
+		#This also defines if the tag 'c:tools/molds/mold_type' is shown over the Metal Press recipe category.
+		isIEMoldTagCompatEnabled = true

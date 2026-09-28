@@ -1,0 +1,342 @@
+# Eternal Ores Tools Config.
+#
+# Toggles and settings for all Eternal Ores tools:
+# Hammers, Wire Cutters, Gem Cutter, Molds, Teleporter and Prospectors.
+#
+# This config does NOT unregister any tools - it only hides them
+# and disables their functionality. If they had one.
+#
+# Each change requires a game restart. Except Prospector Lists, they update immediately.
+#
+[tools]
+
+	#Prospector Settings
+	[tools.prospectors]
+
+		#Basic Prospector
+		[tools.prospectors.basic]
+			#[Server] Enable the Basic Prospector item.
+			enabled = true
+			#[Server/Client] Scan radius in blocks. Default 48.
+			# Default: 48
+			# Range: 8 ~ 96
+			scanRadius = 48
+			#[Server] How often (in ticks) the overlay refreshes. Default 40 (2s).
+			# Default: 40
+			# Range: 20 ~ 100
+			overlayUpdateInterval = 40
+			#[Client] Show the prospector overlay. Default true.
+			showOverlay = true
+			#[Client] Color-code distances in the overlay. Default true.
+			showDistanceColors = true
+
+		#Advanced Prospector
+		[tools.prospectors.advanced]
+			#[Server] Enable the Advanced Prospector item.
+			enabled = true
+			#[Client] X-ray scan radius in blocks. Default 32.
+			# Default: 32
+			# Range: 8 ~ 128
+			scanRadius = 32
+			#[Client] How long (in ms) the X-ray overlay stays visible. Default 10000 (10s).
+			# Default: 10000
+			# Range: 2000 ~ 30000
+			overlayDurationMs = 10000
+
+		#Prospector Ore List and Colors
+		[tools.prospectors.listAndColors]
+			# Detectable ores and their outline colors.
+			#
+			# Format: 'material_name:RRGGBB' (6-digit hex, no # symbol).
+			# Example: 'iron:DCDCDC'
+			# The ore is found via the tag 'c:ores/<material_name>', so any ore should be accepted into the list.
+			# Edit carefully, each entry separated by a comma inside the brackets.
+			#
+			# If ya wonder why the unholy tarnation this section of the config looks horrible,
+			# I blame .TOML cuz' it looks like it should over github and IDE, but hey at least it works right? RIGHT?
+			#
+			ores = ["aluminum:C8C8C8", "amber:FFA040", "anthracite_coal:141414", "antimony:d2d2d2", "apatite:64C8FF", "arcane_crystal:a6e4ff", "ardite:C83200", "bauxite:C8C8C8", "beryllium:8acaa8", "bituminous_coal:1E1E1E", "black_quartz:87b1b5", "cinnabar:FF3232", "coal:222222", "cobalt:bffbfb", "copper:B8733B", "diamond:00CFFF", "dimensional_shard:d0f7f6", "draconium:8c62b2", "emerald:00FF6A", "fluorite:e8f9fa", "gallium:e2e1e0", "garnet:ff8eb3", "gold:FFD700", "inferium:17a600", "iridium:ebe1bd", "iron:DCDCDC", "jade:00C850", "lapis:1B4CC0", "lead:646478", "lignite_coal:896a6a", "molybdenum:B8C4D0", "monazite:FFD264", "necroticarite:6400C8", "neodymium:C89CFF", "netherite_scrap:4A3B3B", "nickel:C8C896", "niter:F0F0E0", "obsidian:896a6a", "onyx:63949a", "osmium:aeced8", "palladium:deb4db", "pearl:FFF5EE", "peat_coal:8e4747", "peridot:96E600", "platinum:E0E0F0", "power:fff733", "prosperity:E6FFF7", "pyrolite:FF6400", "quartz:F5F0E8", "redstone:FF2200", "replica:6373ca", "ruby:FF0040", "runic:cbcfe2", "sal_ammonia:f0b5ff", "salt:F5F5F5", "salt_peter:a6e4ff", "sapphire:8aefff", "sculkite:00C8C8", "silver:E6E6E6", "soulium:885d3e", "spinel:FF5A8A", "stellarite:aab59f", "sulfur:f5e458", "tanzanite:b8a7ef", "tin:969696", "titanium:eda7ea", "tungsten:6e8be5", "ultimatitanium:cba0d8", "uraninite:78C878", "uranium:00FF64", "vanadium:9da1b4", "xychrorium:87c4f0", "zinc:B4B4C8", "zircon:ff2f27"]
+
+		[tools.prospectors.blacklist]
+			# Ores excluded from both prospectors.
+			#
+			# Format: plain material names, one per entry, e.g. 'iesnium'.
+			# These cannot be linked, scanned, or added to the ore list above.
+			#
+			# 'iesnium' ships blacklisted by default to protect Occultism's Divination Rod usage - remove it here if you want prospectors
+			# to be able to track it.
+			#
+			# Edit carefully, each entry separated by a comma inside the brackets.
+			#
+			# Once said entry was deleted, you may now add it to list and colors.
+			#
+			blacklist = ["iesnium"]
+
+	#Teleporter
+	[tools.teleporter]
+
+		#Mining Dimension Teleporter Settings
+		[tools.teleporter.teleporter]
+			#[Server] Enable the Mining Dimension Teleporter.
+			enabled = true
+
+	#Tool Settings
+	[tools.tools]
+
+		#Hammer Settings
+		[tools.tools.hammers]
+
+			#Cobalt Hammer
+			[tools.tools.hammers.cobalt_hammer]
+				#[Server] Enable the Cobalt Hammer.
+				enabled = true
+				#[Server] Max durability. Default 1024.
+				# Default: 1024
+				# Range: 32 ~ 4096
+				durability = 1024
+				#[Server] Allow this hammer to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this hammer to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Copper Hammer
+			[tools.tools.hammers.copper_hammer]
+				#[Server] Enable the Copper Hammer.
+				enabled = true
+				#[Server] Max durability. Default 128.
+				# Default: 128
+				# Range: 32 ~ 4096
+				durability = 128
+				#[Server] Allow this hammer to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this hammer to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Stone Hammer
+			[tools.tools.hammers.stone_hammer]
+				#[Server] Enable the Stone Hammer.
+				enabled = true
+				#[Server] Max durability. Default 64.
+				# Default: 64
+				# Range: 32 ~ 4096
+				durability = 64
+				#[Server] Allow this hammer to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this hammer to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Diamond Hammer
+			[tools.tools.hammers.diamond_hammer]
+				#[Server] Enable the Diamond Hammer.
+				enabled = true
+				#[Server] Max durability. Default 512.
+				# Default: 512
+				# Range: 32 ~ 4096
+				durability = 512
+				#[Server] Allow this hammer to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this hammer to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Iron Hammer
+			[tools.tools.hammers.iron_hammer]
+				#[Server] Enable the Iron Hammer.
+				enabled = true
+				#[Server] Max durability. Default 256.
+				# Default: 256
+				# Range: 32 ~ 4096
+				durability = 256
+				#[Server] Allow this hammer to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this hammer to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+		#Wire Cutter Settings
+		[tools.tools.wire_cutters]
+
+			#Copper Cutter
+			[tools.tools.wire_cutters.copper_cutter]
+				#[Server] Enable the Copper Wire Cutter.
+				enabled = true
+				#[Server] Max durability. Default 64.
+				# Default: 64
+				# Range: 32 ~ 4096
+				durability = 64
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Iron Cutter
+			[tools.tools.wire_cutters.iron_cutter]
+				#[Server] Enable the Iron Wire Cutter.
+				enabled = true
+				#[Server] Max durability. Default 128.
+				# Default: 128
+				# Range: 32 ~ 4096
+				durability = 128
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Gold Cutter
+			[tools.tools.wire_cutters.gold_cutter]
+				#[Server] Enable the Gold Wire Cutter.
+				enabled = true
+				#[Server] Max durability. Default 256.
+				# Default: 256
+				# Range: 32 ~ 4096
+				durability = 256
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Diamond Cutter
+			[tools.tools.wire_cutters.diamond_cutter]
+				#[Server] Enable the Diamond Wire Cutter.
+				enabled = true
+				#[Server] Max durability. Default 512.
+				# Default: 512
+				# Range: 32 ~ 4096
+				durability = 512
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Cobalt Cutter
+			[tools.tools.wire_cutters.cobalt_cutter]
+				#[Server] Enable the Cobalt Wire Cutter.
+				enabled = true
+				#[Server] Max durability. Default 1024.
+				# Default: 1024
+				# Range: 32 ~ 4096
+				durability = 1024
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+		#Gem Cutter Settings
+		[tools.tools.gem_cutter]
+
+			#Copper Cutter
+			[tools.tools.gem_cutter.copper_cutter]
+				#[Server] Enable the Copper Gem Cutter.
+				enabled = true
+				#[Server] Max durability. Default 64.
+				# Default: 64
+				# Range: 32 ~ 4096
+				durability = 64
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Stone Cutter
+			[tools.tools.gem_cutter.stone_cutter]
+				#[Server] Enable the Stone Gem Cutter.
+				enabled = true
+				#[Server] Max durability. Default 128.
+				# Default: 128
+				# Range: 32 ~ 4096
+				durability = 128
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Iron Cutter
+			[tools.tools.gem_cutter.iron_cutter]
+				#[Server] Enable the Iron Gem Cutter.
+				enabled = true
+				#[Server] Max durability. Default 256.
+				# Default: 256
+				# Range: 32 ~ 4096
+				durability = 256
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+			#Netherite Cutter
+			[tools.tools.gem_cutter.netherite_cutter]
+				#[Server] Enable the Netherite Gem Cutter.
+				enabled = true
+				#[Server] Max durability. Default 512.
+				# Default: 512
+				# Range: 32 ~ 4096
+				durability = 512
+				#[Server] Allow this gem cutter to be repaired in a crafting table.
+				repairEnabled = true
+				#[Server] Allow this gem cutter to be repaired.
+				isNormalRepairEnabled = true
+				#[Server] Durability restored per repair material. Default 30.
+				# Default: 30
+				# Range: 1 ~ 512
+				durabilityPerMaterial = 30
+
+		#Mold Settings
+		[tools.tools.molds]
+			#[Server] Enable the Plate Mold.
+			plate_mold_enabled = true
+			#[Server] Enable the Foil Mold.
+			foil_mold_enabled = true
+			#[Server] Enable the Rod Mold.
+			rod_mold_enabled = true
+			#[Server] Enable the Gear Mold.
+			gear_mold_enabled = true

@@ -1,0 +1,41 @@
+#Eternal Ores - Catalyrium Furnace Settings.
+#
+#This is a separate config for Iron Furnace Mod and Eternal Ores Mod Compatibility.
+#
+#It follows the same rules as Iron Furnace Mod Config.
+#
+#This only allows you to edit the Catalyrium Furnace Settings.
+#
+[catalyrium_furnace]
+
+	[catalyrium_furnace.speed]
+		#Ticks per operation. Vanilla furnace = 200. Default: 2
+		# Default: 2
+		# Range: 1 ~ 72000
+		normal = 2
+		#Ticks per operation for the factory variant. Default: 1
+		# Default: 1
+		# Range: 0 ~ 72000
+		factory = 1
+
+	[catalyrium_furnace.smelting]
+		#Items smelted at once. Vanilla = 1. Default: 16
+		# Default: 16
+		# Range: 1 ~ 64
+		normal_mult = 32
+		#Items smelted at once in factory variant. Default: 32
+		# Default: 32
+		# Range: 1 ~ 64
+		factory_mult = 64
+
+	[catalyrium_furnace.energy]
+		#Energy generated per tick. Default: 2000
+		# Default: 2000
+		# Range: 1 ~ 100000
+		generation = 100000
+
+	[catalyrium_furnace.tier]
+		#Catalyrium Furnace tier. Default: 2
+		# Default: 2
+		# Range: 0 ~ 2
+		tier = 2
