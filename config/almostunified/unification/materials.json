@@ -63,7 +63,15 @@
   "ignored_tags": [],
   "ignored_items": [
     "ae2:charged_certus_quartz_crystal",
-    "eternalores:prismarine_dust"
+    "eternalores:prismarine_dust",
+    "pastel:blackslag_gold_ore",
+    "pastel:blackslag_lapis_ore",
+    "pastel:blackslag_iron_ore",
+    "pastel:blackslag_diamond_ore",
+    "pastel:blackslag_redstone_ore",
+    "pastel:blackslag_copper_ore",
+    "pastel:blackslag_coal_ore",
+    "pastel:blackslag_emerald_ore"
   ],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"

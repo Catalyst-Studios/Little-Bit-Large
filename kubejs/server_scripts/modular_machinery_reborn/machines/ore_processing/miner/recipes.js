@@ -260,7 +260,15 @@ let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
         { id: "pastel:blackslag_azurite_ore" },
         { id: "pastel:blackslag_shimmerstone_ore" },
         { id: "pastel:blackslag_moonstone_ore" },
-        { id: "pastel:blackslag_malachite_ore" }
+        { id: "pastel:blackslag_malachite_ore" },
+
+        { id: "pastel:blackslag_emerald_ore" },
+        { id: "pastel:blackslag_diamond_ore" },
+        { id: "pastel:blackslag_gold_ore" },
+        { id: "pastel:blackslag_iron_ore" },
+        { id: "pastel:blackslag_copper_ore" },
+        { id: "pastel:blackslag_coal_ore" },
+        { id: "pastel:blackslag_lapis_ore" },
     ];
 
     let trash = [

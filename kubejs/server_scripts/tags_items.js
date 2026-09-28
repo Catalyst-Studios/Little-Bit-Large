@@ -378,6 +378,10 @@ ServerEvents.tags('item', catalyst => {
 
     catalyst.add("productivebees:flowers/quarry", 'ae2:sky_dust')
 
+    catalyst.add("ae2:all_fluix", 'eternalores:gem_fluix')
+    catalyst.add("ae2:all_certus_quartz", 'eternalores:gem_certus_quartz')
+    catalyst.add("ae2:all_certus", 'eternalores:gem_certus_quartz')
+
     catalyst.add("catalyst:tiny_coal",'utilitarian:tiny_coal')
     catalyst.add("catalyst:tiny_coal",'actuallyadditions:tiny_coal')
     catalyst.add("catalyst:tiny_coal",'malum:coal_fragment')
@@ -387,6 +391,37 @@ ServerEvents.tags('item', catalyst => {
     catalyst.add("catalyst:tiny_charcoal",'utilitarian:tiny_charcoal')
     catalyst.add("catalyst:tiny_charcoal",'pickletweaks:charcoal_piece')
     catalyst.add("catalyst:tiny_charcoal",'actuallyadditions:tiny_charcoal')
+
+    catalyst.remove("c:ores/diamond", "pastel:blackslag_diamond_ore")
+    catalyst.add("c:ores/blackslag_diamond", "pastel:blackslag_diamond_ore")
+    //catalyst.add("minecraft:diamond_ores", "pastel:blackslag_diamond_ore")
+
+    catalyst.remove("c:ores/lapis", "pastel:blackslag_lapis_ore")
+    catalyst.add("c:ores/blackslag_lapis", "pastel:blackslag_lapis_ore")
+    catalyst.add("minecraft:lapis_ores", "pastel:blackslag_lapis_ore")
+
+    catalyst.remove("c:ores/copper", "pastel:blackslag_copper_ore")
+    catalyst.add("c:ores/blackslag_copper", "pastel:blackslag_copper_ore")
+    catalyst.add("minecraft:copper_ores", "pastel:blackslag_copper_ore")
+
+    catalyst.remove("c:ores/fluorite", "eternalores:end_fluorite_ore_block")
+    catalyst.add("c:ores/end_fluorite", "eternalores:end_fluorite_ore_block")
+
+    catalyst.remove("c:ores/platinum", "eternalores:end_platinum_ore_block")
+    catalyst.add("c:ores/end_platinum", "eternalores:end_platinum_ore_block")
+
+    catalyst.remove("c:ores/tin", "eternalores:end_tin_ore_block")
+    catalyst.add("c:ores/end_tin", "eternalores:end_tin_ore_block")
+
+    catalyst.remove("c:ores/uranium", "eternalores:end_uranium_ore_block")
+    catalyst.remove("c:ores/lead", "eternalores:end_uranium_ore_block")
+    catalyst.add("c:ores/end_uranium", "eternalores:end_uranium_ore_block")
+
+    catalyst.remove("c:ores/lead", "eternalores:end_lead_ore_block")
+    catalyst.add("c:ores/end_tin", "eternalores:end_lead_ore_block")
+
+    catalyst.add("c:dusts/saltpeter", 'railcraft:saltpeter_dust')
+    catalyst.add("c:dusts/niter", 'railcraft:saltpeter_dust')
 
     catalyst.add('c:bismuth', 'pastel:bismuth_crystal')
 
