@@ -454,7 +454,8 @@ ServerEvents.recipes(event => {
                 { id: "minecraft:copper_ingot", count: 3 },
                 { id: "eternalores:silver_ingot", count: 1 },
                 { id: "minecraft:redstone", count: 4 }
-            ]
+            ],
+            priority: 10
         },
         //steel
         {
@@ -619,7 +620,16 @@ ServerEvents.recipes(event => {
                 .width(110)
                 .height(60)
                 .progressData(ProgressData.create().x(64).y(23))
-                .priority(parallel);
+                
+
+            if(r.priority)
+            {
+                recipe.priority(parallel + r.priority);
+            }
+            else
+            {
+                recipe.priority(parallel);
+            }
 
             r.inputs.forEach(input => {
                 recipe.requireItem(Item.of(input.id, input.count * parallel));

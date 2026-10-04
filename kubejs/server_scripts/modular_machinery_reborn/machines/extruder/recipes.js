@@ -129,6 +129,7 @@ ServerEvents.recipes(catalyst => {
 
         if(parallel > 1)
         {
+            recipe.priority(parallel)
             recipe.hide()
         }
 
@@ -144,7 +145,7 @@ ServerEvents.recipes(catalyst => {
     // Foils
     eternalFoilIds.forEach(id => {
         let material = id.path.replace('_foil', '');
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(material, i, id.toString(), 2 * i, 'eternalores:mold_foil', i);
         }
@@ -153,7 +154,7 @@ ServerEvents.recipes(catalyst => {
     // Gears
     eternalGearIds.forEach(id => {
         let material = id.path.replace('gear_', '');
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(material, 4 * i, id.toString(), 1 * i, 'eternalores:mold_gear', i);
         }
@@ -162,7 +163,7 @@ ServerEvents.recipes(catalyst => {
     // Plates
     eternalPlateIds.forEach(id => {
         let material = id.path.replace('plate_', '');
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(material, 1 * i, id.toString(), 1 * i, 'eternalores:mold_plate', i);
         }
@@ -171,28 +172,28 @@ ServerEvents.recipes(catalyst => {
     // Rods
     eternalRodIds.forEach(id => {
         let material = id.path.replace('rod_', '');
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(material, 1 * i, id.toString(), 2 * i, 'eternalores:mold_rod', i);
         }
     });
 
     energized_plates.forEach(pair => {
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(pair.input, 1 * i, pair.output, 1 * i, 'eternalores:mold_plate', i);
         }
     });
 
     standard_wires.forEach(wire => {
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(wire.material, 1 * i, wire.output, 3 * i, 'immersiveengineering:mold_wire', i)
         }
     });
 
     energized_wires.forEach(wire => {
-        for(let i = 1; i <= 16; i++)
+        for(let i = 1; i <= 64; i++)
         {
             createRecipe(wire.input, 1 * i, wire.output, 3 * i, 'immersiveengineering:mold_wire', i)
         }

@@ -27,6 +27,20 @@ ServerEvents.recipes(catalyst => {
         return r;
     };
 
+    const getModPriority = (itemId) => {
+        if(itemId.startsWith('eternalores:')) return 100;
+        return 0;
+    };
+
+    const getScaledDuration = (number, maxParallel, baseTicks, minTicks) => {
+        if(number <= 1) return baseTicks;
+        if(number >= maxParallel) return minTicks;
+        let progress = Math.log2(number) / Math.log2(maxParallel);
+        return Math.max(minTicks, Math.round(baseTicks - (baseTicks - minTicks) * progress));
+    };
+
+    const parallelNumbers = [1, 4, 6, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
+
     let custom_recipes = [
         {
             input: 'enderio:photovoltaic_composite',
@@ -48,7 +62,19 @@ ServerEvents.recipes(catalyst => {
             input: 'eternalores:universium_dust',
             output: 'eternalores:universium_ingot',
             tier: 5
-        }
+        },
+        {
+            input: 'eternalores:titanium_dust',
+            in_amount: 1,
+            output: 'eternalores:titanium_ingot',
+            out_amount: 1
+        },
+        {
+            input: 'eternalores:tungsten_dust',
+            in_amount: 1,
+            output: 'eternalores:tungsten_ingot',
+            out_amount: 1
+        },
     ]
 
     custom_recipes.forEach(cr => {
@@ -57,214 +83,292 @@ ServerEvents.recipes(catalyst => {
         let in_amount = cr.in_amount !== undefined ? cr.in_amount : 1;
         let out_amount = cr.out_amount !== undefined ? cr.out_amount : 1;
         let recipe_tier = cr.tier !== undefined ? cr.tier : 0;
-        let energy = cr.energy;
+        let energy = cr.energy !== undefined ? cr.energy : 10000;
 
-        let input_item = Item.of(input_id, in_amount);
-        let output_item = Item.of(output_id, out_amount);
-
-        if(recipe_tier <= 0) catalyst.smelting(output_item, input_item);
+        if(recipe_tier <= 0)
+        {
+            catalyst.smelting(Item.of(output_id, out_amount), Item.of(input_id, in_amount));
+        }
 
         processedRecipes.add(input_id);
 
         let clean_input = input_id.replace(":", "-");
         let clean_output = output_id.replace(":", "-");
 
-        if(recipe_tier <= 1)
-        {
-            let primitive = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", 400)
-                .requireItem(input_item, 5, 10)
-                .produceItem(output_item, 60, 10)
-                .id(`catalyst:mmr/primitive_furnace/custom/${clean_input}_to_${clean_output}`);
-            addFurnaceRequirements(primitive);
-        }
+        parallelNumbers.forEach(number => {
+            let input_item = Item.of(input_id, in_amount * number);
+            let output_item = Item.of(output_id, out_amount * number);
 
-        if(recipe_tier <= 2)
-        {
-            let nether = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", 350)
-                .requireItem(input_item, 5, 10)
-                .produceItem(output_item, 60, 10)
-                .id(`catalyst:mmr/primitive_soul_furnace/custom/${clean_input}_to_${clean_output}`);
-            addFurnaceRequirements(nether);
-        }
+            let timePrimitive = getScaledDuration(number, 8, 400, 200);
+            let timeNether = getScaledDuration(number, 16, 350, 100);
+            let timeEnd = getScaledDuration(number, 32, 300, 50);
+            let timeMulti = getScaledDuration(number, 256, 150, 20);
+            let timeAdv = getScaledDuration(number, 2048, 50, 1);
 
-        if(recipe_tier <= 3)
-        {
-            let end = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", 300)
-                .requireItem(input_item, 5, 10)
-                .produceItem(output_item, 60, 10)
-                .id(`catalyst:mmr/primitive_end_furnace/custom/${clean_input}_to_${clean_output}`);
-            addFurnaceRequirements(end);
-        }
+            if(number === 1)
+            {
+                if(recipe_tier <= 1)
+                {
+                    let primitive = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", timePrimitive)
+                        .requireItem(input_item, 5, 10)
+                        .produceItem(output_item, 60, 10)
+                        .id(`catalyst:mmr/primitive_furnace/custom/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements(primitive);
+                }
 
-        if(recipe_tier <= 4)
-        {
-            let multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", 150)
-                .requireItem(input_item, 20, 20)
-                .produceItem(output_item, 90, 20)
-            
-            if(energy !== undefined) multi.requireEnergyPerTick(energy)
-            else multi.requireEnergyPerTick(10000)
-            
-            addFurnaceRequirements2(multi);
+                if(recipe_tier <= 2)
+                {
+                    let nether = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", timeNether)
+                        .requireItem(input_item, 5, 10)
+                        .produceItem(output_item, 60, 10)
+                        .id(`catalyst:mmr/primitive_soul_furnace/custom/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements(nether);
+                }
 
-            multi.id(`catalyst:mmr/multismelter/custom/${clean_input}_to_${clean_output}`)
-        }
+                if(recipe_tier <= 3)
+                {
+                    let end = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", timeEnd)
+                        .requireItem(input_item, 5, 10)
+                        .produceItem(output_item, 60, 10)
+                        .id(`catalyst:mmr/primitive_end_furnace/custom/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements(end);
+                }
 
-        if(recipe_tier <= 5)
-        {
-            let adv_multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 50)
-                .requireItem(input_item, 20, 20)
-                .produceItem(output_item, 90, 20)
-            
-            if(energy !== undefined) adv_multi.requireEnergyPerTick(energy)
-            else adv_multi.requireEnergyPerTick(10000)
+                if(recipe_tier <= 4)
+                {
+                    let multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", timeMulti)
+                        .requireItem(input_item, 20, 20)
+                        .produceItem(output_item, 90, 20)
+                        .requireEnergyPerTick(energy)
+                        .id(`catalyst:mmr/multismelter/custom/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements2(multi);
+                }
 
-            addFurnaceRequirements2(adv_multi);
+                if(recipe_tier <= 5)
+                {
+                    let adv_multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", timeAdv)
+                        .requireItem(input_item, 20, 20)
+                        .produceItem(output_item, 90, 20)
+                        .requireEnergyPerTick(energy)
+                        .id(`catalyst:mmr/adv_multismelter/custom/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements2(adv_multi);
+                }
+            }
+            else
+            {
+                if(recipe_tier <= 1 && number <= 8)
+                {
+                    let primitive = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", timePrimitive)
+                        .requireItem(input_item, 0, 10)
+                        .produceItem(output_item, 40, 10)
+                        .priority(number)
+                        .hide()
+                        .id(`catalyst:mmr/primitive_furnace/custom/${number}/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements(primitive);
+                }
 
-            adv_multi.id(`catalyst:mmr/adv_multismelter/custom/${clean_input}_to_${clean_output}`);
-        }
+                if(recipe_tier <= 2 && number <= 16)
+                {
+                    let nether = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", timeNether)
+                        .requireItem(input_item, 0, 10)
+                        .produceItem(output_item, 40, 10)
+                        .priority(number)
+                        .hide()
+                        .id(`catalyst:mmr/primitive_soul_furnace/custom/${number}/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements(nether);
+                }
+
+                if(recipe_tier <= 3 && number <= 32)
+                {
+                    let end = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", timeEnd)
+                        .requireItem(input_item, 0, 10)
+                        .produceItem(output_item, 40, 10)
+                        .priority(number)
+                        .hide()
+                        .id(`catalyst:mmr/primitive_end_furnace/custom/${number}/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements(end);
+                }
+
+                if(recipe_tier <= 4 && number <= 256)
+                {
+                    let multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", timeMulti)
+                        .requireItem(input_item, 0, 10)
+                        .produceItem(output_item, 40, 10)
+                        .requireEnergyPerTick(energy)
+                        .priority(number)
+                        .hide()
+                        .id(`catalyst:mmr/multismelter/custom/${number}/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements2(multi);
+                }
+
+                if(recipe_tier <= 5)
+                {
+                    let adv_multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", timeAdv)
+                        .requireItem(input_item, 0, 10)
+                        .produceItem(output_item, 40, 10)
+                        .requireEnergyPerTick(energy)
+                        .priority(number)
+                        .hide()
+                        .id(`catalyst:mmr/adv_multismelter/custom/${number}/${clean_input}_to_${clean_output}`);
+                    addFurnaceRequirements2(adv_multi);
+                }
+            }
+        });
     });
+
+    let candidateRecipes = new Map();
 
     catalyst.forEachRecipe({ type: 'minecraft:smelting' }, recipe => {
         let outputItemRaw = recipe.originalRecipeResult;
         
-        if (outputItemRaw.isEmpty() || outputItemRaw.id === "minecraft:barrier") return;
-
-        let original_count = outputItemRaw.count;
-        let multiplier = 1;
+        if(outputItemRaw.isEmpty() || outputItemRaw.id === "minecraft:barrier") return;
 
         recipe.originalRecipeIngredients.forEach(ingredient => {
             ingredient.getItemIds().forEach(inputId => {
-                try
+                if(blacklist.includes(inputId) || processedRecipes.has(inputId)) return;
+
+                let currentPriority = candidateRecipes.has(inputId)
+                    ? getModPriority(candidateRecipes.get(inputId).id)
+                    : -1;
+
+                let newPriority = getModPriority(outputItemRaw.id);
+
+                if(!candidateRecipes.has(inputId) || newPriority > currentPriority)
                 {
-                    if(blacklist.includes(inputId)) return;
-                    if(processedRecipes.has(inputId)) return;
-
-                    processedRecipes.add(inputId);
-
-                    [1, 4, 6, 8, 16, 32, 64, 128, 256, 512, 1024, 2048].forEach(number => {
-                        let inputItem = Item.of(inputId, number);
-                        if(number > 1)
-                        {
-                            
-                            let outOverworld = outputItemRaw.copy();
-                            outOverworld.setCount(original_count * multiplier * number);
-                            let recipe;
-                            if(number < 16)
-                            {
-                                recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", 400)
-                                    .requireItem(inputItem, 0, 10) 
-                                    .produceItem(outOverworld, 40, 10)
-                                    .priority(number)
-                                    .hide()
-                                    .id(`catalyst:mmr/primitive_furnace/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                                addFurnaceRequirements(recipe);
-
-                                recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", 350)
-                                    .requireItem(inputItem, 0, 10) 
-                                    .produceItem(outOverworld, 40, 10)
-                                    .priority(number)
-                                    .hide()
-                                    .id(`catalyst:mmr/primitive_soul_furnace/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                                addFurnaceRequirements(recipe);
-
-                                recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", 300)
-                                    .requireItem(inputItem, 0, 10) 
-                                    .produceItem(outOverworld, 40, 10)
-                                    .priority(number)
-                                    .hide()
-                                    .id(`catalyst:mmr/primitive_end_furnace/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                                addFurnaceRequirements(recipe);
-                            }
-
-                            if(number < 512)
-                            {
-                                recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", 150)
-                                    .requireItem(inputItem, 0, 10) 
-                                    .produceItem(outOverworld, 40, 10)
-                                    .requireEnergyPerTick(10000)
-                                    .priority(number)
-                                    .hide()
-                                    .id(`catalyst:mmr/multismelter/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                                addFurnaceRequirements2(recipe);
-                            }
-
-                            recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 50)
-                                .requireItem(inputItem, 0, 10) 
-                                .produceItem(outOverworld, 40, 10)
-                                .requireEnergyPerTick(10000)
-                                .priority(number)
-                                .hide()
-                                .id(`catalyst:mmr/adv_multismelter/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                            addFurnaceRequirements2(recipe);
-                        }
-                        else
-                        {
-                            let outOverworld = outputItemRaw.copy();
-                            outOverworld.setCount(original_count * multiplier * number);
-
-                            let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", 400)
-                                .requireItem(inputItem, 5, 10) 
-                                .produceItem(outOverworld, 60, 10)
-                                .id(`catalyst:mmr/primitive_furnace/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                            addFurnaceRequirements(recipe);
-
-                            recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", 350)
-                                .requireItem(inputItem, 5, 10) 
-                                .produceItem(outOverworld, 60, 10)
-                                .id(`catalyst:mmr/primitive_soul_furnace/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                            addFurnaceRequirements(recipe);
-
-                            recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", 300)
-                                .requireItem(inputItem, 5, 10) 
-                                .produceItem(outOverworld, 60, 10)
-                                .id(`catalyst:mmr/primitive_end_furnace/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                            addFurnaceRequirements(recipe);
-
-                            recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", 150)
-                                .requireItem(inputItem, 5, 10) 
-                                .produceItem(outOverworld, 60, 10)
-                                .requireEnergyPerTick(10000)
-                                .jei()
-                                .requireItem(inputItem, 20, 20) 
-                                .produceItem(outOverworld, 90, 20)
-                                .requireEnergyPerTick(10000)
-                                .id(`catalyst:mmr/multismelter/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                            addFurnaceRequirements2(recipe);
-
-                            recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", 50)
-                                .requireItem(inputItem, 5, 10) 
-                                .produceItem(outOverworld, 60, 10)
-                                .requireEnergyPerTick(50000)
-                                .jei()
-                                .requireItem(inputItem, 20, 20) 
-                                .produceItem(outOverworld, 90, 20)
-                                .requireEnergyPerTick(50000)
-                                .id(`catalyst:mmr/adv_multismelter/${number}/${inputId.replace(":", "-")}_to_${outOverworld.id.replace(":", "-")}`)
-
-                            addFurnaceRequirements2(recipe);
-                        }
-                    })
-
-                }
-                catch(error)
-                {
-                    console.error(`[CatJS] Error creating recipe for item ${inputId}: ${error}`);
+                    candidateRecipes.set(inputId, outputItemRaw);
                 }
             });
         });
     });
 
-    console.log("[CatJS] Added Furnaces recipes from smelting")
+    candidateRecipes.forEach((outputItemRaw, inputId) => {
+        try
+        {
+            processedRecipes.add(inputId);
+
+            let original_count = outputItemRaw.count;
+            let multiplier = 1;
+            let cleanInput = inputId.replace(":", "-");
+
+            parallelNumbers.forEach(number => {
+                let inputItem = Item.of(inputId, number);
+                let outOverworld = outputItemRaw.copy();
+                outOverworld.setCount(original_count * multiplier * number);
+                let cleanOutput = outOverworld.id.replace(":", "-");
+
+                let timePrimitive = getScaledDuration(number, 8, 400, 200);// 1 item = 400, 8 items = 200
+                let timeNether = getScaledDuration(number, 16, 350, 100);// 1 item = 350, 16 items = 100
+                let timeEnd = getScaledDuration(number, 32, 300, 50);// 1 item = 300, 32 items = 50
+                let timeMulti = getScaledDuration(number, 256, 150, 20);// 1 item = 150, 256 items = 20
+                let timeAdv = getScaledDuration(number, 2048, 50, 1);// 1 item = 50, 2048 items = 1
+
+                if(number > 1)
+                {
+                    if(number <= 8)
+                    {
+                        let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", timePrimitive)
+                            .requireItem(inputItem, 0, 10) 
+                            .produceItem(outOverworld, 40, 10)
+                            .priority(number)
+                            .hide()
+                            .id(`catalyst:mmr/primitive_furnace/${number}/${cleanInput}_to_${cleanOutput}`);
+                        addFurnaceRequirements(recipe);
+                    }
+
+                    if(number <= 16)
+                    {
+                        let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", timeNether)
+                            .requireItem(inputItem, 0, 10) 
+                            .produceItem(outOverworld, 40, 10)
+                            .priority(number)
+                            .hide()
+                            .id(`catalyst:mmr/primitive_soul_furnace/${number}/${cleanInput}_to_${cleanOutput}`);
+                        addFurnaceRequirements(recipe);
+                    }
+
+                    if(number <= 32)
+                    {
+                        let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", timeEnd)
+                            .requireItem(inputItem, 0, 10) 
+                            .produceItem(outOverworld, 40, 10)
+                            .priority(number)
+                            .hide()
+                            .id(`catalyst:mmr/primitive_end_furnace/${number}/${cleanInput}_to_${cleanOutput}`);
+                        addFurnaceRequirements(recipe);
+                    }
+
+                    if(number <= 256)
+                    {
+                        let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", timeMulti)
+                            .requireItem(inputItem, 0, 10) 
+                            .produceItem(outOverworld, 40, 10)
+                            .requireEnergyPerTick(10000)
+                            .priority(number)
+                            .hide()
+                            .id(`catalyst:mmr/multismelter/${number}/${cleanInput}_to_${cleanOutput}`);
+                        addFurnaceRequirements2(recipe);
+                    }
+
+                    let advRecipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", timeAdv)
+                        .requireItem(inputItem, 0, 10) 
+                        .produceItem(outOverworld, 40, 10)
+                        .requireEnergyPerTick(10000)
+                        .priority(number)
+                        .hide()
+                        .id(`catalyst:mmr/adv_multismelter/${number}/${cleanInput}_to_${cleanOutput}`);
+                    addFurnaceRequirements2(advRecipe);
+                }
+                else
+                {
+                    let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", timePrimitive)
+                        .requireItem(inputItem, 5, 10) 
+                        .produceItem(outOverworld, 60, 10)
+                        .id(`catalyst:mmr/primitive_furnace/${number}/${cleanInput}_to_${cleanOutput}`);
+                    addFurnaceRequirements(recipe);
+
+                    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", timeNether)
+                        .requireItem(inputItem, 5, 10) 
+                        .produceItem(outOverworld, 60, 10)
+                        .id(`catalyst:mmr/primitive_soul_furnace/${number}/${cleanInput}_to_${cleanOutput}`);
+                    addFurnaceRequirements(recipe);
+
+                    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", timeEnd)
+                        .requireItem(inputItem, 5, 10) 
+                        .produceItem(outOverworld, 60, 10)
+                        .id(`catalyst:mmr/primitive_end_furnace/${number}/${cleanInput}_to_${cleanOutput}`);
+                    addFurnaceRequirements(recipe);
+
+                    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", timeMulti)
+                        .requireItem(inputItem, 5, 10) 
+                        .produceItem(outOverworld, 60, 10)
+                        .requireEnergyPerTick(10000)
+                        .jei()
+                        .requireItem(inputItem, 20, 20) 
+                        .produceItem(outOverworld, 90, 20)
+                        .requireEnergyPerTick(10000)
+                        .id(`catalyst:mmr/multismelter/${number}/${cleanInput}_to_${cleanOutput}`);
+                    addFurnaceRequirements2(recipe);
+
+                    recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", timeAdv)
+                        .requireItem(inputItem, 5, 10) 
+                        .produceItem(outOverworld, 60, 10)
+                        .requireEnergyPerTick(50000)
+                        .jei()
+                        .requireItem(inputItem, 20, 20) 
+                        .produceItem(outOverworld, 90, 20)
+                        .requireEnergyPerTick(50000)
+                        .id(`catalyst:mmr/adv_multismelter/${number}/${cleanInput}_to_${cleanOutput}`);
+                    addFurnaceRequirements2(recipe);
+                }
+            });
+        }
+        catch(error)
+        {
+            console.error(`[CatJS] Error creating recipe for item ${inputId}: ${error}`)
+        }
+    });
+
+    console.log("[CatJS] Added Furnaces recipes from smelting");
 
 });
 

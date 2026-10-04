@@ -298,7 +298,7 @@ ServerEvents.recipes(catalyst => {
         },
         {
             beeType: "minecraft:bee_spawn_egg",
-            output: '128x minecraft:honeycomb_block',
+            output: '192x minecraft:honeycomb_block',
             onEnd: "apiary_recipe_end_bee"
         }
     ];
@@ -527,7 +527,7 @@ MMREvents.recipeFunction("apiary_recipe_each", catalyst => {
 
 const BONUS_VALUES = {
     STANDARD: { sugarbag: 16, medium: 32, high: 64, very_high: 128 },
-    VANILLA:  { sugarbag: 64, medium: 64, high: 128, very_high: 192 } //normal bee
+    VANILLA:  { sugarbag: 64, medium: 128, high: 192, very_high: 256 } //normal bee
 };
 
 /**
