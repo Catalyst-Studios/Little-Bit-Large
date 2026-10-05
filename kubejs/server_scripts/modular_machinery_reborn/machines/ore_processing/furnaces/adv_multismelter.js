@@ -38,7 +38,8 @@ MMREvents.machines(catalyst => {
         "a":[
         "modular_machinery_reborn:casing_reinforced",
         '#modular_machinery_reborn:itembus',
-        '#modular_machinery_reborn:energyhatch'],
+        '#modular_machinery_reborn:energyhatch',
+        '#modular_machinery_reborn:parallelhatch'],
         "b":"create_new_age:reactor_casing",
         "c":"mob_grinding_utils:entity_conveyor",
         "d":"mob_grinding_utils:entity_conveyor",
