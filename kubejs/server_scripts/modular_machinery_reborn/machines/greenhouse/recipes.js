@@ -1253,6 +1253,8 @@ ServerEvents.recipes(event => {
         crop.outputs.forEach(out => {
             recipe.produceItem(Item.of(out.id, out.count), out.chance);
         });
+
+        recipe.requireFunctionOnEnd("greenhouse_processor", [crop.id, JSON.stringify(crop.outputs)]);
         
         recipe.jei();
         
@@ -1287,6 +1289,222 @@ ServerEvents.recipes(event => {
 
         recipe.id(`catalyst:mmr/greenhouse/${i}/${crop.id.replace(':', '_')}`);
     });
+});
+
+MMREvents.recipeFunction("greenhouse_processor", catalyst =>
+{
+    const max_processors = 5;
+    const executions_to_add = 1;
+
+    const clean_id = (value) =>
+    {
+        if(value === null || value === undefined)
+        {
+            return "";
+        }
+        let s = ("" + value).trim();
+        let changed = true;
+        while(changed && s.length >= 2)
+        {
+            changed = false;
+            let first = s.charAt(0);
+            let last = s.charAt(s.length - 1);
+            if((first === '"' && last === '"') || (first === "'" && last === "'"))
+            {
+                s = s.substring(1, s.length - 1);
+                changed = true;
+            }
+            else if(first === '\\')
+            {
+                s = s.substring(1);
+                changed = true;
+            }
+            else if(last === '\\')
+            {
+                s = s.substring(0, s.length - 1);
+                changed = true;
+            }
+        }
+        return "" + s;
+    };
+
+    const calculate_multiplier = (n) =>
+    {
+        if(n <= 0)
+        {
+            return 1.0;
+        }
+        if(n <= 50)
+        {
+            return 1.0 + (n / 50.0);
+        }
+        if(n <= 100)
+        {
+            return 2.0 + ((n - 50.0) / 50.0);
+        }
+
+        return 3.0 + 0.1 * (Math.log(n / 100.0) / Math.log(120.0));
+    };
+
+    const get_n_from_executions = (e) =>
+    {
+        if(!e || e <= 200)
+        {
+            return 0;
+        }
+        let mult = Math.log(e) / Math.log(200);
+        if(mult <= 2.0)
+        {
+            return Math.round((mult - 1.0) * 50.0);
+        }
+        else if(mult <= 3.0)
+        {
+            return Math.round(50.0 + (mult - 2.0) * 50.0);
+        }
+        else
+        {
+            return Math.round(100.0 * Math.pow(120, (mult - 3.0) / 0.1));
+        }
+    };
+
+    const make_stack = (id, count) =>
+    {
+        let stack_tag = NBT.compoundTag();
+        stack_tag.putString("id", "" + id);
+        stack_tag.putInt("count", count);
+        return stack_tag;
+    };
+
+    const make_entry = (id, count, total) =>
+    {
+        let entry_tag = NBT.compoundTag();
+        entry_tag.put("Stack", make_stack(id, count));
+        entry_tag.putLong("Count", total);
+        return entry_tag;
+    };
+
+    let crop_id = clean_id(catalyst.get(0));
+    let outputs = JSON.parse("" + catalyst.get(1));
+
+    let controller = catalyst.machine;
+    let input_items = controller.getItemsStored(IOType.INPUT);
+    let processed_count = 0;
+    let proc_key = "industrialforegoing:hydroponic_simulation_processor";
+
+    for(let i = 0; i < input_items.size() && processed_count < max_processors; i++)
+    {
+        let item = input_items.get(i);
+        if(!item || item.id !== 'industrialforegoing:hydroponic_simulation_processor')
+        {
+            continue;
+        }
+
+        let proc_data = item.componentMap.get(proc_key);
+        if(!proc_data)
+        {
+            proc_data = NBT.compoundTag();
+        }
+
+        let crop_tag = proc_data.getCompound("Crop");
+        let current_crop_id = crop_tag ? clean_id(crop_tag.getString("id")) : "";
+
+        if(!current_crop_id || current_crop_id.length === 0)
+        {
+            proc_data.put("Crop", make_stack(crop_id, 1));
+
+            let new_n = executions_to_add;
+            let mult = calculate_multiplier(new_n);
+            let if_executions = Math.ceil(Math.pow(200, mult));
+            
+            proc_data.putLong("Executions", if_executions);
+
+            let stats = NBT.compoundTag();
+            for(let idx = 0; idx < outputs.length; idx++)
+            {
+                let out_id = clean_id(outputs[idx].id);
+                let out_count = Number(outputs[idx].count) || 1;
+                let total = Math.floor(out_count * if_executions);
+                stats.put("" + idx, make_entry(out_id, out_count, total));
+            }
+            proc_data.put("Stats", stats);
+
+            processed_count++;
+        }
+        else if(current_crop_id === crop_id)
+        {
+            proc_data.put("Crop", make_stack(crop_id, 1));
+
+            let current_e = proc_data.getLong("Executions");
+            let current_n = get_n_from_executions(current_e);
+
+            let new_n = current_n + executions_to_add;
+            let mult = calculate_multiplier(new_n);
+            let if_executions = Math.ceil(Math.pow(200, mult));
+
+            proc_data.putLong("Executions", if_executions);
+
+            let entries = [];
+            let old_stats = proc_data.getCompound("Stats");
+            if(old_stats)
+            {
+                let old_keys = old_stats.getAllKeys().toArray();
+                for(let k = 0; k < old_keys.length; k++)
+                {
+                    let entry_tag = old_stats.getCompound("" + old_keys[k]);
+                    if(!entry_tag)
+                    {
+                        continue;
+                    }
+                    let stack_tag = entry_tag.getCompound("Stack");
+                    if(!stack_tag)
+                    {
+                        continue;
+                    }
+                    entries.push({
+                        id: clean_id(stack_tag.getString("id")),
+                        count: stack_tag.getInt("count"),
+                        total: entry_tag.getLong("Count")
+                    });
+                }
+            }
+
+            for(let idx = 0; idx < outputs.length; idx++)
+            {
+                let out_id = clean_id(outputs[idx].id);
+                let out_count = Number(outputs[idx].count) || 1;
+                let found = null;
+                for(let entry_index = 0; entry_index < entries.length; entry_index++)
+                {
+                    if(entries[entry_index].id === out_id)
+                    {
+                        found = entries[entry_index];
+                        break;
+                    }
+                }
+
+                let total_amount = Math.floor(out_count * if_executions);
+
+                if(found)
+                {
+                    found.count = out_count;
+                    found.total = total_amount;
+                }
+                else
+                {
+                    entries.push({ id: out_id, count: out_count, total: total_amount });
+                }
+            }
+
+            let stats = NBT.compoundTag();
+            for(let n = 0; n < entries.length; n++)
+            {
+                stats.put("" + n, make_entry(entries[n].id, entries[n].count, entries[n].total));
+            }
+            proc_data.put("Stats", stats);
+
+            processed_count++;
+        }
+    }
 });
 /* 
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
