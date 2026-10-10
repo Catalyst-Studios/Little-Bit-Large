@@ -62,6 +62,13 @@ ServerEvents.recipes(catalyst => {
             return;
         }
 
+        let greenhouseOutputs = [{ id: logId, count: 64 }];
+        if(Item.exists(leavesId))
+        {
+            greenhouseOutputs.push({ id: leavesId, count: 64 });
+        }
+        let greenhousePayload = [saplingId, JSON.stringify(greenhouseOutputs)];
+
         catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:arboretum", 200)
             .progressData(ProgressData.create().x(54).y(20))
             .width(110).height(60)
@@ -70,6 +77,7 @@ ServerEvents.recipes(catalyst => {
             .requireFluid('10000x minecraft:water', 25, 40)
             .produceItem(`64x ${logId}`, 90, 0)
             .produceItem(`2x ${saplingId}`, 90, 20)
+            .requireFunctionOnEnd("greenhouse_processor", greenhousePayload)
             .jei()
             .requireEnergy(10000, 0, 0)
             .requireItem(`1x ${saplingId}`, 25, 0)
@@ -81,7 +89,7 @@ ServerEvents.recipes(catalyst => {
             .id(`catalyst:mmr/arboretrum/${saplingId.replace(":", "/")}_${mod}`);
 
         //if the leaves exists, make the recipe
-        if(Item.of(leavesId))
+        if(Item.exists(leavesId))
         {
             catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:arboretum", 200)
                 .progressData(ProgressData.create().x(54).y(20))
@@ -93,6 +101,7 @@ ServerEvents.recipes(catalyst => {
                 .produceItem(`64x ${logId}`, 90, 0)
                 .produceItem(`64x ${leavesId}`, 90, 20)
                 .produceItem(`2x ${saplingId}`, 90, 40)
+                .requireFunctionOnEnd("greenhouse_processor", greenhousePayload)
                 .id(`catalyst:mmr/arboretrum/leaves_${saplingId.replace(":", "/")}_${mod}`)
                 .priority(1);
         }
