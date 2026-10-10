@@ -8,84 +8,125 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 const cropRegistry3 = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
 ServerEvents.recipes(catalyst => {
     const time = 20
-    const base_production_essence= 4
-    const fertelizer_production_multiplier= 1
+    const base_production_essence = 4
     let modifiedItemNames = [];
     let crops = cropRegistry3.getInstance().getCrops()
 
     let seeds = [
-        "cobalt", 
-        "lumium", 
-        "signalum", 
-        "rose_gold", 
-        "pig_iron", 
+        "cobalt",
+        "lumium",
+        "signalum",
+        "rose_gold",
+        "pig_iron",
         "enderium"
     ]
 
     crops.forEach(crop => {
         if(!crop.isEnabled() && !seeds.includes(crop.getName())) return;
-        
-        // Get the crop name (using the 'id' or 'registry name' of the crop)
-        let itemName = `${crop.getId().toString()}`;  // This gives you the raw ID like 'mysticalagriculture:x_seeds'
-        // Remove specific parts of the name (e.g., removing 'seeds' from the name)
+
+        let itemName = `${crop.getId().toString()}`;
         let modifiedName = itemName.replace('seeds', '').replace('mysticalcustomization', 'mysticalagriculture')
-                                    .replace('mysticalagradditions', 'mysticalagriculture'); // Modify name (e.g., "seeds" => "")
-        // Add the modified name to the array
+                                    .replace('mysticalagradditions', 'mysticalagriculture');
         modifiedItemNames.push(modifiedName);
     });
 
-    // Loop through the modifiedItemNames to create machine recipes dynamically
+    let variants = [
+        {
+            id: "base",
+            timeMultiplier: 1,
+            essenceMultiplier: 1,
+            fertilizerChance: 0.02,
+            fertilizerCount: 1,
+            priority: 0,
+            extra: null,
+            fluid: { id: "minecraft:water", amount: 100 }
+        },
+        {
+            id: "bone_meal",
+            timeMultiplier: 1.5,
+            essenceMultiplier: 2,
+            fertilizerChance: 0.05,
+            fertilizerCount: 1,
+            priority: 1,
+            extra: { item: "minecraft:bone_meal", count: 1, chance: 0.5, x: 25, y: 20 },
+            fluid: { id: "minecraft:water", amount: 1000 }
+        },
+        {
+            id: "mystical_fertilizer",
+            timeMultiplier: 2,
+            essenceMultiplier: 4,
+            fertilizerChance: 0.1,
+            fertilizerCount: 1,
+            priority: 2,
+            extra: { item: "mysticalagriculture:mystical_fertilizer", count: 5, chance: 0.1, x: 25, y: 20 },
+            fluid: { id: "minecraft:water", amount: 5000 }
+        },
+        {
+            id: "fertilizer",
+            timeMultiplier: 2,
+            essenceMultiplier: 6,
+            fertilizerChance: 1,
+            fertilizerCount: 30,
+            priority: 3,
+            extra: { item: "energizedpower:advanced_fertilizer", count: 5, chance: 0.1, x: 25, y: 20 },
+            fluid: { id: "minecraft:water", amount: 10000 }
+        }
+    ];
+
     modifiedItemNames.forEach(modifiedName => {
-        // Common recipe configuration
-        const baseRecipeConfig = (recipe) => recipe
-            .progressData(ProgressData.create().x(54).y(20))
-            .width(110)
-            .height(60)
-            .requireEnergy(10000, 0, 4)
-            .requireItem(`1x ${modifiedName}_seeds`, 25, 0)
-            .requireFluid('1000x minecraft:water', 25, 40);
+        let isCognizant = modifiedName === "mysticalagriculture:cognizian";
+        let isInsanium  = modifiedName === "mysticalagriculture:insanium";
+        let essenceOutput = isCognizant
+            ? "mysticalagriculture:cognizant_dust"
+            : (isInsanium ? "mysticalagradditions:insanium_essence" : `${modifiedName}_essence`);
 
-        // Special case for cognizant
-        
-        const isCognizant = modifiedName === "mysticalagriculture:cognizian";
-        const isInsanium = modifiedName === "mysticalagriculture:insanium"
-        const essenceOutput = isCognizant 
-            ? `mysticalagriculture:cognizant_dust`
-            : (isInsanium ? `mysticalagradditions:insanium_essence` : `${modifiedName}_essence`);
-        
-        // Base recipe (no fertilizer)
-        const idPath = modifiedName.replace(':', '/');
+        let idPath = modifiedName.replace(':', '/');
+        let seedId = `${modifiedName}_seeds`;
 
-        baseRecipeConfig(
-            catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:phytomorphic_synthesiszer", time)
-        )
-        .produceItem(`${base_production_essence*1}x ${essenceOutput}`, 90, 20)
-        .produceItem(`1x ${modifiedName}_seeds`, 90, 0)
-        .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.02, 90, 40)
-        .id(`catalyst:mmr/phytomorphic/${idPath}/base`);
+        let greenhouseOutputs = [
+            { id: essenceOutput, count: base_production_essence }
+        ];
+        let greenhousePayload = [seedId, JSON.stringify(greenhouseOutputs)];
 
-        // Bone meal recipe
-        baseRecipeConfig(
-            catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:phytomorphic_synthesiszer", time*1.5)
-        )
-        .requireItem(`1x minecraft:bone_meal`, 0.5, 25, 20)
-        .produceItem(`${base_production_essence*2}x ${essenceOutput}`, 90, 20)
-        .produceItem(`1x ${modifiedName}_seeds`, 90, 0)
-        .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.05, 90, 40)
-        .priority(1)
-        .id(`catalyst:mmr/phytomorphic/${idPath}/bone_meal`);
+        variants.forEach(variant => {
+            let recipe = catalyst.recipes.modular_machinery_reborn
+                .machine_recipe("mmr:phytomorphic_synthesiszer", time * variant.timeMultiplier)
+                .progressData(ProgressData.create().x(54).y(20))
+                .width(110)
+                .height(60)
+                .requireEnergy(10000, 0, 4)
+                .requireItem(Item.of(seedId, 1), 25, 0)
+                .requireFluid(Fluid.of(variant.fluid.id, variant.fluid.amount), 25, 40)
+                .requireFunctionOnEnd("greenhouse_processor", greenhousePayload);
 
-        // Mystical fertilizer recipe
-        baseRecipeConfig(
-            catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:phytomorphic_synthesiszer", time*2)
-        )
-        .requireItem(`5x mysticalagriculture:mystical_fertilizer`, 0.1, 25, 20)
-        .produceItem(`${base_production_essence*4}x ${essenceOutput}`, 90, 20)
-        .produceItem(`1x ${modifiedName}_seeds`, 90, 0)
-        .produceItem(`${fertelizer_production_multiplier}x mysticalagriculture:fertilized_essence`, 0.1, 90, 40)
-        .priority(2)
-        .id(`catalyst:mmr/phytomorphic/${idPath}/mystical_fertilizer`);
-    })
+            if(variant.extra)
+            {
+                recipe.requireItem(
+                    Item.of(variant.extra.item, variant.extra.count),
+                    variant.extra.chance,
+                    variant.extra.x,
+                    variant.extra.y
+                );
+            }
+
+            recipe
+                .produceItem(
+                    Item.of(essenceOutput, base_production_essence * variant.essenceMultiplier),
+                    90, 20
+                )
+                .produceItem(
+                    Item.of(seedId, 1),
+                    90, 0
+                )
+                .produceItem(
+                    Item.of("mysticalagriculture:fertilized_essence", variant.fertilizerCount),
+                    variant.fertilizerChance,
+                    90, 40
+                )
+                .priority(variant.priority)
+                .id(`catalyst:mmr/phytomorphic/${idPath}/${variant.id}`);
+        });
+    });
 
     console.log("[CatJS] Added Phytonator recipes");
 });
