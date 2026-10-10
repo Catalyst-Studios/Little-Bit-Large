@@ -1399,6 +1399,11 @@ MMREvents.recipeFunction("greenhouse_processor", catalyst =>
             continue;
         }
 
+        if(item.count > 1)
+        {
+            continue;
+        }
+
         let proc_data = item.componentMap.get(proc_key);
         if(!proc_data)
         {
