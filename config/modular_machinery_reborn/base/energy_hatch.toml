@@ -2,7 +2,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 2048
 	# Range: > 1
-	size = 2048
+	size = 8192
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 128
@@ -13,7 +13,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 4096
 	# Range: > 1
-	size = 4096
+	size = 16384
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 512
@@ -24,7 +24,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 8192
 	# Range: > 1
-	size = 8192
+	size = 32768
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 512
@@ -35,7 +35,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 16384
 	# Range: > 1
-	size = 16384
+	size = 40960
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 2048
@@ -46,7 +46,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 32768
 	# Range: > 1
-	size = 32768
+	size = 51200
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 8192
@@ -57,7 +57,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 131072
 	# Range: > 1
-	size = 131072
+	size = 524288
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 32768
@@ -68,7 +68,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 524288
 	# Range: > 1
-	size = 524288
+	size = 4194304
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 131072
@@ -79,7 +79,7 @@
 	#Energy storage size of the energy hatch.
 	# Default: 2097152
 	# Range: > 1
-	size = 2097152
+	size = 16384000
 	#Defines the transfer limit for RF/FE things. 
 	#IC2's transfer limit is defined by the voltage tier.
 	# Default: 131072

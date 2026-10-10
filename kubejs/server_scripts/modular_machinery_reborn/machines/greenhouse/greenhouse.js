@@ -57,7 +57,11 @@ MMREvents.machines(catalyst => {
                 'create:cut_scorchia_stairs',
                 'create:cut_tuff_brick_stairs'
             ],
-            "g":["minecraft:farmland"],
+            "g":[
+                "minecraft:farmland",
+                "minecraft:dirt",
+                "minecraft:grass_block"
+            ],
             "h":[
                 "minecraft:stone_brick_slab",
                 '#modular_machinery_reborn:parallelhatch'

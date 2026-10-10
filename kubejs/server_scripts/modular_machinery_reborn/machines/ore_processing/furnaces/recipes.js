@@ -7,29 +7,132 @@ ServerEvents.recipes(catalyst => {
     let processedRecipes = new Set();
     let blacklist = [
         //emptiness list
-    ]
+    ];
+
+    const modPriorityList = [
+        "minecraft",
+        "eternalores",
+        "kubejs",
+        "mekanism",
+        "railcraft",
+        "forcecraft",
+        "pneumaticcraft",
+        "immersiveengineering",
+        "extendedae",
+        "oritech",
+        "create",
+        "powah",
+        "enderio",
+        "energizedpower",
+        "actuallyadditions",
+        "modular_machinery_reborn"
+    ];
+
+    const materialsList = [
+        "aeternium", "alumite", "aluminum", "amber", "americium", "ancient_debris", "andesite", 
+        "annealed_copper", "anthracite_coal", "antimatter", "apatite", "arcanum", "ardite", 
+        "armadillo_scute", "aurorium", "basalt", "battery_alloy", "beryllium", "bio", "biomass", 
+        "biosteel", "bismuth", "bitumen", "bituminous_coal", "black_bronze", "black_quartz", 
+        "black_steel", "blackstone", "blaze", "blue_steel", "brass", "brick", "britannia_silver", 
+        "bronze", "cadmium", "calcite", "calcium", "californium", "cast_iron", "cast_steel", 
+        "catalyrium", "certus_quartz", "cerium", "charcoal", "chrome", "chromium", "cinnabar", 
+        "clay", "coal", "coal_coke", "cobalt", "constantan", "copper", "cosmic_matter", 
+        "crystalline_alloy", "cupronickel", "deepslate", "diamond", "diorite", "dripstone", 
+        "dust", "electrum", "elementium", "emerald", "end_stone", "ender", "ender_eye", 
+        "ender_pearl", "enderium", "eternal_dark", "eternal_light", "eternity", "etherium", 
+        "exotic_matter", "flint", "fluix", "fluorite", "francium", "gallium", "garnet", 
+        "glowstone", "gold", "granite", "graphite", "gravel", "gravitronium", "hafnium", 
+        "hepatizon", "indium", "invar", "iridium", "iron", "jade", "kanthal", "lapis", 
+        "lapis_lazuli", "lead", "lignite_coal", "lumium", "magnesium", "manganese", "melodic_alloy", 
+        "mithril", "modularium", "molybdenum", "monazite", "morphite", "nanite", "nautilus", 
+        "necroticarite", "neodymium", "neptunium", "nether_brick", "nether_star", "nether_wart", 
+        "netherite", "netherrack", "nethersteel", "nickel", "niobium", "niter", "novalloy", 
+        "obsidian", "onyx", "osgloglas", "osmium", "palladium", "peat_coal", "pearl", "peridot", 
+        "pewter", "phantom_membrane", "phosphorus", "pig_iron", "platinum", "plutonium", 
+        "potassium_nitrate", "primornium", "prismarine", "purpur", "pyrolite", "quantiquarite", 
+        "quartz", "quartz_enriched_copper", "quartz_enriched_iron", "rare_earth", "red_sand", 
+        "red_steel", "redstone", "rhodium", "rose_gold", "rotten_flesh", "rubidium", "ruby", 
+        "ruthenium", "salt", "saltpeter", "samarium", "sand", "sanguis_vivus", "sapphire", 
+        "sawdust", "sculk", "sculkite", "selenium", "shadowsteel", "shulker_shell", "signalum", 
+        "silicon", "silver", "soul_sand", "source", "spectral_sky_bluerite", "spinel", 
+        "stainless_steel", "steel", "stellar_alloy", "stellarium", "stone", "strange_matter", 
+        "sugar", "sulfur", "tachyarite", "tantalum", "tanzanite", "temictetl", "tin", "titanium", 
+        "tuff", "tungsten", "turtle_scute", "ultimatitanium", "universium", "unstable", 
+        "unstable_stable", "uraninite", "uranium", "vanadium", "vivid_alloy", "voiderite", 
+        "warped_nether_wart", "wrought_iron", "yttrium", "zinc", "zircon", "wheat", "amethyst", 
+        "wood", "redstone_alloy", "plastic"
+    ];
+
+    const getModPriority = (itemId) => {
+        if(!itemId) return -1;
+        let modId = itemId.split(':')[0];
+        let index = modPriorityList.indexOf(modId);
+        return index !== -1 ? (modPriorityList.length - index) : 0;
+    };
+
+    const getPreferredItemForTag = (tag) => {
+        try
+        {
+            let items = Ingredient.of('#' + tag).getItemIds();
+            if(!items || items.length === 0) return null;
+            let bestItem = items[0];
+            let bestPrio = getModPriority(bestItem);
+            for(let i = 1; i < items.length; i++)
+            {
+                let prio = getModPriority(items[i]);
+                if(prio > bestPrio)
+                {
+                    bestPrio = prio;
+                    bestItem = items[i];
+                }
+            }
+            return bestItem;
+        }
+        catch(e)
+        {
+            return null;
+        }
+    };
+
+    const resolveUnifiedOutput = (itemStack) => {
+        if(!itemStack || itemStack.isEmpty()) return itemStack;
+        let tags = itemStack.tags.toArray();
+        for(let tagLoc of tags)
+        {
+            let tagStr = tagLoc.toString().replace('#', '');
+            if(
+                tagStr.startsWith('c:ingots/') || 
+                tagStr.startsWith('c:gems/') || 
+                tagStr.startsWith('c:dusts/') || 
+                tagStr.startsWith('c:raw_materials/') || 
+                tagStr === 'c:silicon' || 
+                tagStr === 'c:coal_coke'
+            )
+            {
+                let preferredId = getPreferredItemForTag(tagStr);
+                if(preferredId)
+                {
+                    let unifiedItem = Item.of(preferredId, itemStack.count);
+                    if (itemStack.nbt) unifiedItem.setNbt(itemStack.nbt);
+                    return unifiedItem;
+                }
+            }
+        }
+        return itemStack;
+    };
 
     const addFurnaceRequirements = (recipeBuilder) => {
-        let r = recipeBuilder
+        return recipeBuilder
             .progressData(ProgressData.create().x(30).y(10))
             .width(80)
-            .height(40)
-
-        return r;
+            .height(40);
     };
 
     const addFurnaceRequirements2 = (recipeBuilder) => {
-        let r = recipeBuilder
+        return recipeBuilder
             .progressData(ProgressData.create().x(54).y(20))
             .width(110)
-            .height(60)
-
-        return r;
-    };
-
-    const getModPriority = (itemId) => {
-        if(itemId.startsWith('eternalores:')) return 100;
-        return 0;
+            .height(60);
     };
 
     const getScaledDuration = (number, maxParallel, baseTicks, minTicks) => {
@@ -63,18 +166,18 @@ ServerEvents.recipes(catalyst => {
             output: 'eternalores:universium_ingot',
             tier: 5
         },
-        {
-            input: 'eternalores:titanium_dust',
-            in_amount: 1,
-            output: 'eternalores:titanium_ingot',
-            out_amount: 1
-        },
-        {
-            input: 'eternalores:tungsten_dust',
-            in_amount: 1,
-            output: 'eternalores:tungsten_ingot',
-            out_amount: 1
-        },
+        // {
+        //     input: 'eternalores:titanium_dust',
+        //     in_amount: 1,
+        //     output: 'eternalores:titanium_ingot',
+        //     out_amount: 1
+        // },
+        // {
+        //     input: 'eternalores:tungsten_dust',
+        //     in_amount: 1,
+        //     output: 'eternalores:tungsten_ingot',
+        //     out_amount: 1
+        // },
     ]
 
     custom_recipes.forEach(cr => {
@@ -219,9 +322,11 @@ ServerEvents.recipes(catalyst => {
     let candidateRecipes = new Map();
 
     catalyst.forEachRecipe({ type: 'minecraft:smelting' }, recipe => {
-        let outputItemRaw = recipe.originalRecipeResult;
+        let rawOutput = recipe.originalRecipeResult;
         
-        if(outputItemRaw.isEmpty() || outputItemRaw.id === "minecraft:barrier") return;
+        if(rawOutput.isEmpty() || rawOutput.id === "minecraft:barrier") return;
+
+        let outputItemRaw = resolveUnifiedOutput(rawOutput);
 
         recipe.originalRecipeIngredients.forEach(ingredient => {
             ingredient.getItemIds().forEach(inputId => {
@@ -256,11 +361,11 @@ ServerEvents.recipes(catalyst => {
                 outOverworld.setCount(original_count * multiplier * number);
                 let cleanOutput = outOverworld.id.replace(":", "-");
 
-                let timePrimitive = getScaledDuration(number, 8, 400, 200);// 1 item = 400, 8 items = 200
-                let timeNether = getScaledDuration(number, 16, 350, 100);// 1 item = 350, 16 items = 100
-                let timeEnd = getScaledDuration(number, 32, 300, 50);// 1 item = 300, 32 items = 50
-                let timeMulti = getScaledDuration(number, 256, 150, 20);// 1 item = 150, 256 items = 20
-                let timeAdv = getScaledDuration(number, 2048, 50, 1);// 1 item = 50, 2048 items = 1
+                let timePrimitive = getScaledDuration(number, 8, 400, 200);
+                let timeNether = getScaledDuration(number, 16, 350, 100);
+                let timeEnd = getScaledDuration(number, 32, 300, 50);
+                let timeMulti = getScaledDuration(number, 256, 150, 20);
+                let timeAdv = getScaledDuration(number, 2048, 50, 1);
 
                 if(number > 1)
                 {
