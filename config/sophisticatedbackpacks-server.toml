@@ -20,6 +20,8 @@
 	tickDedupeLogicDisabled = false
 	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
 	canBePlacedInContainerItems = false
+	#If true, disallows all blocks from connecting to backpacks
+	allBlockConnectionsDisallowed = false
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
@@ -30,7 +32,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Copper Backpack Settings
 	[server.copperBackpack]
@@ -41,14 +43,14 @@
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Iron Backpack Settings
 	[server.ironBackpack]
 		#Number of inventory slots in the backpack
 		# Default: 54
 		# Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 63
 		#Number of upgrade slots in the backpack
 		# Default: 2
 		# Range: 0 ~ 10
@@ -59,7 +61,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 81
 		# Range: 1 ~ 144
-		inventorySlotCount = 81
+		inventorySlotCount = 90
 		#Number of upgrade slots in the backpack
 		# Default: 3
 		# Range: 0 ~ 10
@@ -70,7 +72,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 108
 		# Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 117
 		#Number of upgrade slots in the backpack
 		# Default: 5
 		# Range: 0 ~ 10
@@ -81,7 +83,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 120
 		# Range: 1 ~ 144
-		inventorySlotCount = 120
+		inventorySlotCount = 144
 		#Number of upgrade slots in the backpack
 		# Default: 7
 		# Range: 0 ~ 10
@@ -97,6 +99,10 @@
 		# Default: 3
 		# Range: 1 ~ 6
 		slotsInRow = 3
+		#List of additional crafting shapes compacting and compression upgrades will try when checking if items can be compacted. Shapes are expected as rows of 1s and 0s separated by / where 1 means the tested item is present and 0 means the slot is empty. Example: "111/101/111" checks a hollow 3x3 shape with 8 items.
+		additionalCompactingShapes = ["111/101/111"]
+		#List of item-specific additional crafting shapes compacting and compression upgrades will try when checking if items can be compacted. Entries are expected in format of "mod:item=shape", for example "some_mod:tiny_coal=111/101/111".
+		additionalCompactingShapeOverrides = []
 
 	#Advanced Compacting Upgrade Settings
 	[server.advancedCompactingUpgrade]
@@ -281,8 +287,8 @@
 		# Default: 3
 		# Range: 1 ~ 6
 		slotsInRow = 3
-		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = true
+		#Determines whether void upgrade allows voiding always or it only has overflow options
+		voidAlwaysEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[server.advancedVoidUpgrade]
@@ -294,8 +300,8 @@
 		# Default: 4
 		# Range: 1 ~ 6
 		slotsInRow = 4
-		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = true
+		#Determines whether void upgrade allows voiding always or it only has overflow options
+		voidAlwaysEnabled = true
 
 	#Stack Upgrade Settings
 	[server.stackUpgrade]
@@ -440,7 +446,7 @@
 		# Default: 4000
 		# Range: 500 ~ 20000
 		capacityPerSlotRow = 4000
-		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
+		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to tank capacity. Value lower than 1 makes stack multiplier affect the capacity less, higher makes it affect the capacity more. 0 turns off stack multiplier affecting tank capacity
 		# Default: 1.0
 		# Range: 0.0 ~ 5.0
 		stackMultiplierRatio = 1.0
@@ -448,14 +454,10 @@
 		# Default: 20
 		# Range: 1 ~ 100
 		autoFillDrainContainerCooldown = 20
-		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
+		#How much mB can be transfered in / out per operation. This is a base transfer rate and same as max tank capacity gets multiplied by number of rows in storage and stack multiplier.
 		# Default: 20
 		# Range: 1 ~ 1000
 		maxInputOutput = 20
-		#Energy in FE the battery upgrade will have per row of storage slots
-		# Default: 10000
-		# Range: 500 ~ 50000
-		energyPerSlotRow = 10000
 
 	#Pump Upgrade Settings
 	[server.pumpUpgrade]
@@ -518,16 +520,16 @@
 		buffWithPotionEffects = true
 		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
 		buffHealth = true
-		#Turns on/off equiping the entity that wears backpack with armor. What armor material and how enchanted is scaled based on backpack tier the mob wears.
+		#Turns on/off equipping the entity that wears backpack with armor. What armor material and how enchanted it is scales based on backpack tier the mob wears.
 		equipWithArmor = true
 		#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
 		entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
 		#List of music discs that are not supposed to be played by entities
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
-		playJukebox = true
+		playJukebox = false
 		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
-		dropToFakePlayers = false
+		dropToFakePlayers = true
 		#Chance of mob dropping backpack when killed by player
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
@@ -573,7 +575,7 @@
 
 	[server.nerfs]
 		#Determines if too many backpacks in player's inventory cause slowness to the player
-		tooManyBackpacksSlowness = false
+		tooManyBackpacksSlowness = true
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		# Default: 3
 		# Range: 1 ~ 27
@@ -581,8 +583,50 @@
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
-		slownessLevelsPerAdditionalBackpack = 1.0
+		slownessLevelsPerAdditionalBackpack = 2.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
-		onlyWornBackpackTriggersUpgrades = false
+		onlyWornBackpackTriggersUpgrades = true
 		#Effect that is applied to player when they have too many backpacks. Can be any effect including modded ones like overencumbered effect some mods have.
 		nerfEffect = "minecraft:slowness"
+
+	#Battery Upgrade Settings
+	[server.batteryUpgrade]
+		#Energy in FE the battery upgrade will have per row of storage slots
+		# Default: 10000
+		# Range: 500 ~ 50000
+		energyPerSlotRow = 10000
+		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		stackMultiplierRatio = 1.0
+		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
+		# Default: 20
+		# Range: 1 ~ 1000
+		maxInputOutput = 20
+
+	#Mob Catcher Upgrade Settings
+	[server.mobCatcherUpgrade]
+		#Maximum slot cost a mob may have to be captured by the basic mob catcher. This is a hard limit, not a clamp.
+		# Default: 18
+		# Range: 1 ~ 120
+		basicMaxSlotCost = 18
+		#Maximum slot cost a mob may have to be captured by the advanced mob catcher. This is a hard limit, not a clamp.
+		# Default: 72
+		# Range: 1 ~ 120
+		advancedMaxSlotCost = 72
+		#Multiplier applied to animal mob slot cost.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		animalMultiplier = 1.0
+		#Multiplier applied to hostile mob slot cost.
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		hostileMultiplier = 2.0
+		#When true, mobs that expose inventories or container menus are not capturable.
+		disallowInventoryEntities = false
+		#Entity types or entity tags prefixed with # that cannot be captured.
+		entityBlockList = []
+		#Entity types or entity tags prefixed with # treated as hostile by mob catcher slot cost and tier rules.
+		hostileOverrides = []
+		#Entity types or entity tags prefixed with # treated as passive by mob catcher slot cost and tier rules.
+		passiveOverrides = []
