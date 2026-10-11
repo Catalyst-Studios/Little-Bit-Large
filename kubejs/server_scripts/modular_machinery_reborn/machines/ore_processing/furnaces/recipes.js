@@ -166,6 +166,20 @@ ServerEvents.recipes(catalyst => {
             output: 'eternalores:universium_ingot',
             tier: 5
         },
+        {
+            input: 'eternalores:universium_dust',
+            output: 'eternalores:universium_ingot',
+            tier: 4,
+            only_tier: 4,
+            chance: 0.25
+        },
+        {
+            input: 'eternalores:eternity_dust',
+            output: 'eternalores:eternity_ingot',
+            tier: 4,
+            only_tier: 4,
+            chance: 0.25
+        },
         // {
         //     input: 'eternalores:titanium_dust',
         //     in_amount: 1,
@@ -187,6 +201,8 @@ ServerEvents.recipes(catalyst => {
         let out_amount = cr.out_amount !== undefined ? cr.out_amount : 1;
         let recipe_tier = cr.tier !== undefined ? cr.tier : 0;
         let energy = cr.energy !== undefined ? cr.energy : 10000;
+        let chance = cr.chance !== undefined ? cr.chance : 1.0;
+        let only_tier = cr.only_tier !== undefined ? cr.only_tier : null;
 
         if(recipe_tier <= 0)
         {
@@ -210,48 +226,48 @@ ServerEvents.recipes(catalyst => {
 
             if(number === 1)
             {
-                if(recipe_tier <= 1)
+                if(recipe_tier <= 1 && (only_tier === null || only_tier === 1))
                 {
                     let primitive = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", timePrimitive)
                         .requireItem(input_item, 5, 10)
-                        .produceItem(output_item, 60, 10)
+                        .produceItem(output_item, chance, 60, 10)
                         .id(`catalyst:mmr/primitive_furnace/custom/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements(primitive);
                 }
 
-                if(recipe_tier <= 2)
+                if(recipe_tier <= 2 && (only_tier === null || only_tier === 2))
                 {
                     let nether = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", timeNether)
                         .requireItem(input_item, 5, 10)
-                        .produceItem(output_item, 60, 10)
+                        .produceItem(output_item, chance, 60, 10)
                         .id(`catalyst:mmr/primitive_soul_furnace/custom/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements(nether);
                 }
 
-                if(recipe_tier <= 3)
+                if(recipe_tier <= 3 && (only_tier === null || only_tier === 3))
                 {
                     let end = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", timeEnd)
                         .requireItem(input_item, 5, 10)
-                        .produceItem(output_item, 60, 10)
+                        .produceItem(output_item, chance, 60, 10)
                         .id(`catalyst:mmr/primitive_end_furnace/custom/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements(end);
                 }
 
-                if(recipe_tier <= 4)
+                if(recipe_tier <= 4 && (only_tier === null || only_tier === 4))
                 {
                     let multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", timeMulti)
                         .requireItem(input_item, 20, 20)
-                        .produceItem(output_item, 90, 20)
+                        .produceItem(output_item, chance, 90, 20)
                         .requireEnergyPerTick(energy)
                         .id(`catalyst:mmr/multismelter/custom/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements2(multi);
                 }
 
-                if(recipe_tier <= 5)
+                if(recipe_tier <= 5 && (only_tier === null || only_tier === 5))
                 {
                     let adv_multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", timeAdv)
                         .requireItem(input_item, 20, 20)
-                        .produceItem(output_item, 90, 20)
+                        .produceItem(output_item, chance, 90, 20)
                         .requireEnergyPerTick(energy)
                         .id(`catalyst:mmr/adv_multismelter/custom/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements2(adv_multi);
@@ -259,44 +275,44 @@ ServerEvents.recipes(catalyst => {
             }
             else
             {
-                if(recipe_tier <= 1 && number <= 8)
+                if(recipe_tier <= 1 && number <= 8 && (only_tier === null || only_tier === 1))
                 {
                     let primitive = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:primitive_furnace", timePrimitive)
                         .requireItem(input_item, 0, 10)
-                        .produceItem(output_item, 40, 10)
+                        .produceItem(output_item, chance, 40, 10)
                         .priority(number)
                         .hide()
                         .id(`catalyst:mmr/primitive_furnace/custom/${number}/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements(primitive);
                 }
 
-                if(recipe_tier <= 2 && number <= 16)
+                if(recipe_tier <= 2 && number <= 16 && (only_tier === null || only_tier === 2))
                 {
                     let nether = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:nether_furnace", timeNether)
                         .requireItem(input_item, 0, 10)
-                        .produceItem(output_item, 40, 10)
+                        .produceItem(output_item, chance, 40, 10)
                         .priority(number)
                         .hide()
                         .id(`catalyst:mmr/primitive_soul_furnace/custom/${number}/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements(nether);
                 }
 
-                if(recipe_tier <= 3 && number <= 32)
+                if(recipe_tier <= 3 && number <= 32 && (only_tier === null || only_tier === 3))
                 {
                     let end = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:end_furnace", timeEnd)
                         .requireItem(input_item, 0, 10)
-                        .produceItem(output_item, 40, 10)
+                        .produceItem(output_item, chance, 40, 10)
                         .priority(number)
                         .hide()
                         .id(`catalyst:mmr/primitive_end_furnace/custom/${number}/${clean_input}_to_${clean_output}`);
                     addFurnaceRequirements(end);
                 }
 
-                if(recipe_tier <= 4 && number <= 256)
+                if(recipe_tier <= 4 && number <= 256 && (only_tier === null || only_tier === 4))
                 {
                     let multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:multismelter", timeMulti)
                         .requireItem(input_item, 0, 10)
-                        .produceItem(output_item, 40, 10)
+                        .produceItem(output_item, chance, 40, 10)
                         .requireEnergyPerTick(energy)
                         .priority(number)
                         .hide()
@@ -304,11 +320,11 @@ ServerEvents.recipes(catalyst => {
                     addFurnaceRequirements2(multi);
                 }
 
-                if(recipe_tier <= 5)
+                if(recipe_tier <= 5 && (only_tier === null || only_tier === 5))
                 {
                     let adv_multi = catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:advanced_multismelter", timeAdv)
                         .requireItem(input_item, 0, 10)
-                        .produceItem(output_item, 40, 10)
+                        .produceItem(output_item, chance, 40, 10)
                         .requireEnergyPerTick(energy)
                         .priority(number)
                         .hide()
