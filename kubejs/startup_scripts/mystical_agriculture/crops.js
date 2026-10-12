@@ -535,6 +535,228 @@ StartupEvents.init(catalyst => {
             .dontPlant()
             .translationKey('catalyst.crop.dire')
             .register()
+        
+        CropBuilder('gem_tachyarite', 'Tachyarite')
+        .tier('4')
+        .pattern('gem')
+        .color(0x242b45)
+        .register();
+
+        CropBuilder('gallium', 'Gallium')
+            .tier('2')
+            .pattern('ingot')
+            .color(0xcaf6f1)
+            .register();
+
+        CropBuilder('replica', 'Replica')
+            .tier('4')
+            .pattern('ingot')
+            .color(0x9a9da1)
+            .register();
+
+        CropBuilder('etherium', 'Etherium')
+            .tier('4')
+            .pattern('ingot')
+            .color(0x546173)
+            .register();
+
+        CropBuilder('eternal_dark', 'Eternal Dark')
+            .tier('5')
+            .pattern('ingot')
+            .color(0x9e96d0)
+            .register();
+
+        CropBuilder('eternal_light', 'Eternal Light')
+            .tier('5')
+            .pattern('ingot')
+            .color(0xf9f9f9)
+            .register();
+
+        CropBuilder('britannia_silver', 'Britannia Silver')
+            .tier('3')
+            .pattern('ingot')
+            .color(0xcacdce)
+            .register();
+
+        CropBuilder('cast_iron', 'Cast Iron')
+            .tier('3')
+            .pattern('ingot')
+            .color(0xd4d4d4)
+            .register();
+
+        CropBuilder('cast_steel', 'Cast Steel')
+            .tier('4')
+            .pattern('ingot')
+            .color(0x758698)
+            .register();
+
+        CropBuilder('catalyrium', 'Catalyrium')
+            .tier('technology')
+            .pattern('ingot')
+            .color(0x717473)
+            .register();
+
+        CropBuilder('cosmic_matter', 'Cosmic Matter')
+            .tier('6')
+            .pattern('ingot')
+            .color(0x000000)
+            .register();
+
+        CropBuilder('eternity', 'Eternity')
+            .tier('6')
+            .pattern('ingot')
+            .color(0xe796a5)
+            .register();
+
+        CropBuilder('missing', 'Missing')
+            .tier('4')
+            .pattern('ingot')
+            .color(0xfc00cf)
+            .register();
+
+        CropBuilder('modularium', 'Modularium')
+            .tier('technology')
+            .pattern('ingot')
+            .color(0xce3f09)
+            .register();
+
+        CropBuilder('neodymium', 'Neodymium')
+            .tier('3')
+            .pattern('ingot')
+            .color(0xa0788f)
+            .register();
+
+        CropBuilder('neptunium', 'Neptunium')
+            .tier('4')
+            .pattern('ingot')
+            .color(0x88b29d)
+            .register();
+
+        CropBuilder('nethersteel', 'Nethersteel')
+            .tier('4')
+            .pattern('ingot')
+            .color(0xc74648)
+            .register();
+
+        CropBuilder('pewter', 'Pewter')
+            .tier('3')
+            .pattern('ingot')
+            .color(0x757b77)
+            .register();
+
+        CropBuilder('plutonium', 'Plutonium')
+            .tier('5')
+            .pattern('ingot')
+            .color(0xe8d0c8)
+            .register();
+
+        CropBuilder('sculkite', 'Sculkite')
+            .tier('mystic')
+            .pattern('ingot')
+            .color(0x084f55)
+            .register();
+
+        CropBuilder('shadowsteel', 'Shadowsteel')
+            .tier('4')
+            .pattern('ingot')
+            .color(0x070509)
+            .register();
+
+        CropBuilder('titanium', 'Titanium')
+            .tier('4')
+            .pattern('ingot')
+            .color(0xdba4dd)
+            .register();
+
+        CropBuilder('tungsten', 'Tungsten')
+            .tier('4')
+            .pattern('ingot')
+            .color(0x677cc1)
+            .register();
+
+        CropBuilder('ultimatitanium', 'Ultimatitanium')
+            .tier('5')
+            .pattern('ingot')
+            .color(0x9265ad)
+            .register();
+
+        CropBuilder('wrought_iron', 'Wrought Iron')
+            .tier('3')
+            .pattern('ingot')
+            .color(0xa7a793)
+            .register();
+
+        CropBuilder('biomass', 'Biomass')
+            .tier('1')
+            .pattern('dust')
+            .color(0x65621f)
+            .register();
+
+        CropBuilder('gem_obsidian', 'Obsidian Gem')
+            .tier('3')
+            .pattern('gem')
+            .color(0x8057cb)
+            .register();
+
+        CropBuilder('gem_pyrolite', 'Pyrolite Gem')
+            .tier('4')
+            .pattern('gem')
+            .color(0xba4a2a)
+            .register();
+
+        CropBuilder('gem_quantiquarite', 'Quantiquarite Gem')
+            .tier('5')
+            .pattern('gem')
+            .color(0x847999)
+            .register();
+
+        CropBuilder('gem_sanguis_vivus', 'Sanguis Vivus Gem')
+            .tier('5')
+            .pattern('gem')
+            .color(0xc0000d)
+            .register();
+
+        CropBuilder('gem_spectral_sky_bluerite', 'Spectral Sky Bluerite Gem')
+            .tier('5')
+            .pattern('gem')
+            .color(0xa2ebed)
+            .register();
+
+        CropBuilder('gem_tanzanite', 'Tanzanite Gem')
+            .tier('3')
+            .pattern('gem')
+            .color(0xa593e1)
+            .register();
+
+        CropBuilder('gem_voiderite', 'Voiderite Gem')
+            .tier('5')
+            .pattern('gem')
+            .color(0x826bda)
+            .register();
+
+        CropBuilder('antimatter_pellet', 'Antimatter Pellet')
+            .tier('technology')
+            .pattern('dust')
+            .color(0xb571bf)
+            .register();
+
+        CropBuilder('exotic_matter_pellet', 'Exotic Matter Pellet')
+            .tier('technology')
+            .pattern('dust')
+            .color(0xb3b18f)
+            .register();
+
+        CropBuilder('strange_matter_pellet', 'Strange Matter Pellet')
+            .tier('technology')
+            .pattern('dust')
+            .color(0x9cc29b)
+            .register();
+
+        CropBuilder('gem_necroticarite', 'Necroticarite Gem')
+            .tier('4')
+            .pattern('gem')
+            .color(0x53017c)
+            .register();
 
         registryInstance.setAllowRegistration(false)
 

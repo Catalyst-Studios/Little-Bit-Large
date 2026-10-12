@@ -55,6 +55,21 @@ ServerEvents.recipes(catalyst => {
     });
 
     console.log("[CatJS] Changes to the Fluids of centrifuge")
+
+    catalyst.shaped(Item.of('productivebees:powered_centrifuge', 1), [
+        "IBI",
+        "CAC",
+        "IBI"
+    ],
+    {
+        I: 'minecraft:iron_ingot',
+        B: 'energizedpower:battery_2',
+        C: 'energizedpower:copper_cable',
+        A: 'productivebees:centrifuge'
+    })
+    .id("catalyst:powered_centrifuge");
+    console.log("[CatJS] Added recipes");
+    
 });
 
 /* 
