@@ -1,0 +1,41 @@
+# Eternal Ores tooltip config.
+#
+# This config allows you to disable all assigned Material or Tool tooltips or descriptions.
+#
+# Each change requires a world restart.
+#
+[tooltips]
+
+	[tooltips.prospectors]
+		isProspectorTooltipsEnabled = true
+		isAdvancedProspectorTooltipsEnabled = true
+
+	[tooltips.finder]
+		isFinderTooltipsEnabled = true
+
+	[tooltips.teleporter]
+		isTeleporterTooltipEnabled = true
+
+	[tooltips.unstable_ingot]
+		isUnstableWarningsEnabled = true
+		isUnstableTimerEnabled = true
+
+	[tooltips.temictetl]
+		isTemictetlGemDescEnabled = true
+		isTemictetlGemShardDescEnabled = true
+		isTemictetlRodDescEnabled = true
+		isTemictetlPlateDescEnabled = true
+		isTemictetlGearDescEnabled = true
+		isTemictetlEnrichedDescEnabled = true
+		isTemictetlDustDescEnabled = true
+		isTemictetlSmallDustDescEnabled = true
+		isTemictetlBlockDescEnabled = true
+		isTemictetlDustBlockDescEnabled = true
+
+	[tooltips.not_so_funny]
+		isMetalGearReferenceEnabled = true
+		isExoticButterEnabled = true
+		isNickelbackEnabled = true
+
+	[tooltips.compressed]
+		isCompressionAmountEnabled = true

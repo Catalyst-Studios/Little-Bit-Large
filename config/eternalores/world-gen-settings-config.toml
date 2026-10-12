@@ -1,0 +1,3827 @@
+# Eternal Ores World Generation Config
+#
+# This config allows you to Disable Eternal Ores ores, change the ore min/max spawn Heights, define if the ore
+# is rare or not, the possible amount of veins per chunk, whether the generation is uniform or triangle, and the vein size.
+#
+# Overworld, Nether, End and Mining Dimension values are separated. So if you change aluminum in the overworld, the
+# one over the Mining Dimension will be left intact, and so forth.
+#
+# Ancient Debris, Copper, Coal, Diamond, Emerald, Gold, Lapis, Quartz and Redstone values only affect the Mining Dimension.
+#
+# Each change requires a Game Restart.
+#
+[world_generation]
+
+	#Ore Generation Toggles
+	[world_generation.ores]
+		#[Server] Enable Aluminum_overworld ore generation.
+		aluminum_overworld = true
+		#[Server] Enable Aluminum_mining ore generation.
+		aluminum_mining = true
+		#[Server] Enable Amber_overworld ore generation.
+		amber_overworld = true
+		#[Server] Enable Amber_mining ore generation.
+		amber_mining = true
+		#[Server] Enable Anthracite_overworld ore generation.
+		anthracite_overworld = true
+		#[Server] Enable Anthracite_mining ore generation.
+		anthracite_mining = true
+		#[Server] Enable Ancient_debris_mining ore generation.
+		ancient_debris_mining = true
+		#[Server] Enable Apatite_overworld ore generation.
+		apatite_overworld = true
+		#[Server] Enable Apatite_mining ore generation.
+		apatite_mining = true
+		#[Server] Enable Ardite_nether ore generation.
+		ardite_nether = true
+		#[Server] Enable Ardite_mining ore generation.
+		ardite_mining = true
+		#[Server] Enable Beryllium_overworld ore generation.
+		beryllium_overworld = true
+		#[Server] Enable Beryllium_mining ore generation.
+		beryllium_mining = true
+		#[Server] Enable Bituminous_overworld ore generation.
+		bituminous_overworld = true
+		#[Server] Enable Bituminous_mining ore generation.
+		bituminous_mining = true
+		#[Server] Enable Cinnabar_overworld ore generation.
+		cinnabar_overworld = true
+		#[Server] Enable Cinnabar_nether ore generation.
+		cinnabar_nether = true
+		#[Server] Enable Cinnabar_mining ore generation.
+		cinnabar_mining = true
+		#[Server] Enable Coal_mining ore generation.
+		coal_mining = true
+		#[Server] Enable Cobalt_overworld ore generation.
+		cobalt_overworld = true
+		#[Server] Enable Cobalt_nether ore generation.
+		cobalt_nether = true
+		#[Server] Enable Cobalt_mining ore generation.
+		cobalt_mining = true
+		#[Server] Enable Copper_mining ore generation.
+		copper_mining = true
+		#[Server] Enable Diamond_mining ore generation.
+		diamond_mining = true
+		#[Server] Enable Emerald_mining ore generation.
+		emerald_mining = true
+		#[Server] Enable Fluorite_overworld ore generation.
+		fluorite_overworld = true
+		#[Server] Enable Fluorite_end ore generation.
+		fluorite_end = true
+		#[Server] Enable Fluorite_mining ore generation.
+		fluorite_mining = true
+		#[Server] Enable Gallium_overworld ore generation.
+		gallium_overworld = true
+		#[Server] Enable Gallium_nether ore generation.
+		gallium_nether = true
+		#[Server] Enable Gallium_mining ore generation.
+		gallium_mining = true
+		#[Server] Enable Garnet_overworld ore generation.
+		garnet_overworld = true
+		#[Server] Enable Garnet_nether ore generation.
+		garnet_nether = true
+		#[Server] Enable Garnet_mining ore generation.
+		garnet_mining = true
+		#[Server] Enable Gold_mining ore generation.
+		gold_mining = true
+		#[Server] Enable Iridium_overworld ore generation.
+		iridium_overworld = true
+		#[Server] Enable Iridium_end ore generation.
+		iridium_end = true
+		#[Server] Enable Iridium_mining ore generation.
+		iridium_mining = true
+		#[Server] Enable Iron_mining ore generation.
+		iron_mining = true
+		#[Server] Enable Jade_overworld ore generation.
+		jade_overworld = true
+		#[Server] Enable Jade_nether ore generation.
+		jade_nether = true
+		#[Server] Enable Jade_mining ore generation.
+		jade_mining = true
+		#[Server] Enable Lapis_mining ore generation.
+		lapis_mining = true
+		#[Server] Enable Lead_overworld ore generation.
+		lead_overworld = true
+		#[Server] Enable Lead_end ore generation.
+		lead_end = true
+		#[Server] Enable Lead_mining ore generation.
+		lead_mining = true
+		#[Server] Enable Lignite_overworld ore generation.
+		lignite_overworld = true
+		#[Server] Enable Lignite_mining ore generation.
+		lignite_mining = true
+		#[Server] Enable Molybdenum_overworld ore generation.
+		molybdenum_overworld = true
+		#[Server] Enable Molybdenum_nether ore generation.
+		molybdenum_nether = true
+		#[Server] Enable Molybdenum_end ore generation.
+		molybdenum_end = true
+		#[Server] Enable Molybdenum_mining ore generation.
+		molybdenum_mining = true
+		#[Server] Enable Necroticarite_nether ore generation.
+		necroticarite_nether = true
+		#[Server] Enable Necroticarite_mining ore generation.
+		necroticarite_mining = true
+		#[Server] Enable Neodymium_overworld ore generation.
+		neodymium_overworld = true
+		#[Server] Enable Neodymium_end ore generation.
+		neodymium_end = true
+		#[Server] Enable Neodymium_mining ore generation.
+		neodymium_mining = true
+		#[Server] Enable Niter_overworld ore generation.
+		niter_overworld = true
+		#[Server] Enable Niter_mining ore generation.
+		niter_mining = true
+		#[Server] Enable Nickel_overworld ore generation.
+		nickel_overworld = true
+		#[Server] Enable Nickel_nether ore generation.
+		nickel_nether = true
+		#[Server] Enable Nickel_mining ore generation.
+		nickel_mining = true
+		#[Server] Enable Onyx_overworld ore generation.
+		onyx_overworld = true
+		#[Server] Enable Onyx_nether ore generation.
+		onyx_nether = true
+		#[Server] Enable Onyx_mining ore generation.
+		onyx_mining = true
+		#[Server] Enable Obsidian_nether ore generation.
+		obsidian_nether = true
+		#[Server] Enable Obsidian_mining ore generation.
+		obsidian_mining = true
+		#[Server] Enable Osmium_overworld ore generation.
+		osmium_overworld = true
+		#[Server] Enable Osmium_nether ore generation.
+		osmium_nether = true
+		#[Server] Enable Osmium_mining ore generation.
+		osmium_mining = true
+		#[Server] Enable Palladium_overworld ore generation.
+		palladium_overworld = true
+		#[Server] Enable Palladium_end ore generation.
+		palladium_end = true
+		#[Server] Enable Palladium_mining ore generation.
+		palladium_mining = true
+		#[Server] Enable Peat_overworld ore generation.
+		peat_overworld = true
+		#[Server] Enable Peat_mining ore generation.
+		peat_mining = true
+		#[Server] Enable Pearl_overworld ore generation.
+		pearl_overworld = true
+		#[Server] Enable Pearl_mining ore generation.
+		pearl_mining = true
+		#[Server] Enable Peridot_overworld ore generation.
+		peridot_overworld = true
+		#[Server] Enable Peridot_nether ore generation.
+		peridot_nether = true
+		#[Server] Enable Peridot_mining ore generation.
+		peridot_mining = true
+		#[Server] Enable Platinum_overworld ore generation.
+		platinum_overworld = true
+		#[Server] Enable Platinum_end ore generation.
+		platinum_end = true
+		#[Server] Enable Platinum_mining ore generation.
+		platinum_mining = true
+		#[Server] Enable Pyrolite_nether ore generation.
+		pyrolite_nether = true
+		#[Server] Enable Pyrolite_end ore generation.
+		pyrolite_end = true
+		#[Server] Enable Pyrolite_mining ore generation.
+		pyrolite_mining = true
+		#[Server] Enable Quartz_mining ore generation.
+		quartz_mining = true
+		#[Server] Enable Redstone_mining ore generation.
+		redstone_mining = true
+		#[Server] Enable Ruby_overworld ore generation.
+		ruby_overworld = true
+		#[Server] Enable Ruby_nether ore generation.
+		ruby_nether = true
+		#[Server] Enable Ruby_mining ore generation.
+		ruby_mining = true
+		#[Server] Enable Salt_overworld ore generation.
+		salt_overworld = true
+		#[Server] Enable Salt_mining ore generation.
+		salt_mining = true
+		#[Server] Enable Sapphire_overworld ore generation.
+		sapphire_overworld = true
+		#[Server] Enable Sapphire_end ore generation.
+		sapphire_end = true
+		#[Server] Enable Sapphire_mining ore generation.
+		sapphire_mining = true
+		#[Server] Enable Sculkite_overworld ore generation.
+		sculkite_overworld = true
+		#[Server] Enable Sculkite_mining ore generation.
+		sculkite_mining = true
+		#[Server] Enable Silver_overworld ore generation.
+		silver_overworld = true
+		#[Server] Enable Silver_nether ore generation.
+		silver_nether = true
+		#[Server] Enable Silver_mining ore generation.
+		silver_mining = true
+		#[Server] Enable Sulfur_overworld ore generation.
+		sulfur_overworld = true
+		#[Server] Enable Sulfur_nether ore generation.
+		sulfur_nether = true
+		#[Server] Enable Sulfur_mining ore generation.
+		sulfur_mining = true
+		#[Server] Enable Spinel_overworld ore generation.
+		spinel_overworld = true
+		#[Server] Enable Spinel_nether ore generation.
+		spinel_nether = true
+		#[Server] Enable Spinel_mining ore generation.
+		spinel_mining = true
+		#[Server] Enable Tanzanite_overworld ore generation.
+		tanzanite_overworld = true
+		#[Server] Enable Tanzanite_nether ore generation.
+		tanzanite_nether = true
+		#[Server] Enable Tanzanite_mining ore generation.
+		tanzanite_mining = true
+		#[Server] Enable Titanium_overworld ore generation.
+		titanium_overworld = true
+		#[Server] Enable Titanium_end ore generation.
+		titanium_end = true
+		#[Server] Enable Titanium_mining ore generation.
+		titanium_mining = true
+		#[Server] Enable Tin_overworld ore generation.
+		tin_overworld = true
+		#[Server] Enable Tin_end ore generation.
+		tin_end = true
+		#[Server] Enable Tin_mining ore generation.
+		tin_mining = true
+		#[Server] Enable Tungsten_overworld ore generation.
+		tungsten_overworld = true
+		#[Server] Enable Tungsten_end ore generation.
+		tungsten_end = true
+		#[Server] Enable Tungsten_mining ore generation.
+		tungsten_mining = true
+		#[Server] Enable Ultimatitanium_end ore generation.
+		ultimatitanium_end = true
+		#[Server] Enable Ultimatitanium_mining ore generation.
+		ultimatitanium_mining = true
+		#[Server] Enable Uraninite_overworld ore generation.
+		uraninite_overworld = true
+		#[Server] Enable Uraninite_nether ore generation.
+		uraninite_nether = true
+		#[Server] Enable Uraninite_mining ore generation.
+		uraninite_mining = true
+		#[Server] Enable Uranium_overworld ore generation.
+		uranium_overworld = true
+		#[Server] Enable Uranium_nether ore generation.
+		uranium_nether = true
+		#[Server] Enable Uranium_end ore generation.
+		uranium_end = true
+		#[Server] Enable Uranium_mining ore generation.
+		uranium_mining = true
+		#[Server] Enable Vanadium_overworld ore generation.
+		vanadium_overworld = true
+		#[Server] Enable Vanadium_end ore generation.
+		vanadium_end = true
+		#[Server] Enable Vanadium_mining ore generation.
+		vanadium_mining = true
+		#[Server] Enable Zinc_overworld ore generation.
+		zinc_overworld = true
+		#[Server] Enable Zinc_mining ore generation.
+		zinc_mining = true
+		#[Server] Enable Zircon_overworld ore generation.
+		zircon_overworld = true
+		#[Server] Enable Zircon_nether ore generation.
+		zircon_nether = true
+		#[Server] Enable Zircon_mining ore generation.
+		zircon_mining = true
+
+	#Ore Placement Values
+	[world_generation.ore_values]
+
+		[world_generation.ore_values.ALUMINUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 90
+			# Range: -512 ~ 512
+			maxY = 90
+
+		[world_generation.ore_values.ALUMINUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 155
+			# Range: -512 ~ 512
+			maxY = 155
+
+		[world_generation.ore_values.AMBER_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 3
+			# Range: 0 ~ 16
+			veinsPerChunk = 3
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 68
+			# Range: -512 ~ 512
+			maxY = 68
+
+		[world_generation.ore_values.AMBER_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 3
+			# Range: 0 ~ 16
+			veinsPerChunk = 3
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 124
+			# Range: -512 ~ 512
+			maxY = 124
+
+		[world_generation.ore_values.ANCIENT_DEBRIS_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: -65
+			# Range: -512 ~ 512
+			maxY = -65
+
+		[world_generation.ore_values.ANTHRACITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 85
+			# Range: -512 ~ 512
+			maxY = 85
+
+		[world_generation.ore_values.ANTHRACITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.APATITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 77
+			# Range: -512 ~ 512
+			maxY = 77
+
+		[world_generation.ore_values.APATITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.ARDITE_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.ARDITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: -65
+			# Range: -512 ~ 512
+			maxY = -65
+
+		[world_generation.ore_values.BERYLLIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 84
+			# Range: -512 ~ 512
+			maxY = 84
+
+		[world_generation.ore_values.BERYLLIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 94
+			# Range: -512 ~ 512
+			maxY = 94
+
+		[world_generation.ore_values.BITUMINOUS_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 94
+			# Range: -512 ~ 512
+			maxY = 94
+
+		[world_generation.ore_values.BITUMINOUS_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.CINNABAR_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -61
+			# Range: -512 ~ 512
+			minY = -61
+			#Maximum generation height
+			# Default: 75
+			# Range: -512 ~ 512
+			maxY = 75
+
+		[world_generation.ore_values.CINNABAR_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.CINNABAR_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 129
+			# Range: -512 ~ 512
+			maxY = 129
+
+		[world_generation.ore_values.COAL_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.COBALT_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 46
+			# Range: -512 ~ 512
+			maxY = 46
+
+		[world_generation.ore_values.COBALT_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.COBALT_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 100
+			# Range: -512 ~ 512
+			maxY = 100
+
+		[world_generation.ore_values.COPPER_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.DIAMOND_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 102
+			# Range: -512 ~ 512
+			maxY = 102
+
+		[world_generation.ore_values.EMERALD_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 102
+			# Range: -512 ~ 512
+			maxY = 102
+
+		[world_generation.ore_values.FLUORITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -61
+			# Range: -512 ~ 512
+			minY = -61
+			#Maximum generation height
+			# Default: 94
+			# Range: -512 ~ 512
+			maxY = 94
+
+		[world_generation.ore_values.FLUORITE_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 102
+			# Range: -512 ~ 512
+			maxY = 102
+
+		[world_generation.ore_values.FLUORITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 120
+			# Range: -512 ~ 512
+			maxY = 120
+
+		[world_generation.ore_values.GALLIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -59
+			# Range: -512 ~ 512
+			minY = -59
+			#Maximum generation height
+			# Default: 89
+			# Range: -512 ~ 512
+			maxY = 89
+
+		[world_generation.ore_values.GALLIUM_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.GALLIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.GARNET_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 65
+			# Range: -512 ~ 512
+			maxY = 65
+
+		[world_generation.ore_values.GARNET_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.GARNET_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 106
+			# Range: -512 ~ 512
+			maxY = 106
+
+		[world_generation.ore_values.GOLD_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 108
+			# Range: -512 ~ 512
+			maxY = 108
+
+		[world_generation.ore_values.JADE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -52
+			# Range: -512 ~ 512
+			minY = -52
+			#Maximum generation height
+			# Default: 51
+			# Range: -512 ~ 512
+			maxY = 51
+
+		[world_generation.ore_values.JADE_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 76
+			# Range: -512 ~ 512
+			maxY = 76
+
+		[world_generation.ore_values.JADE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 94
+			# Range: -512 ~ 512
+			maxY = 94
+
+		[world_generation.ore_values.IRIDIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 89
+			# Range: -512 ~ 512
+			maxY = 89
+
+		[world_generation.ore_values.IRIDIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 95
+			# Range: -512 ~ 512
+			maxY = 95
+
+		[world_generation.ore_values.IRIDIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 124
+			# Range: -512 ~ 512
+			maxY = 124
+
+		[world_generation.ore_values.IRON_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.LAPIS_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 129
+			# Range: -512 ~ 512
+			maxY = 129
+
+		[world_generation.ore_values.LEAD_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 79
+			# Range: -512 ~ 512
+			maxY = 79
+
+		[world_generation.ore_values.LEAD_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 98
+			# Range: -512 ~ 512
+			maxY = 98
+
+		[world_generation.ore_values.LEAD_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 139
+			# Range: -512 ~ 512
+			maxY = 139
+
+		[world_generation.ore_values.LIGNITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 91
+			# Range: -512 ~ 512
+			maxY = 91
+
+		[world_generation.ore_values.LIGNITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.MOLYBDENUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 138
+			# Range: -512 ~ 512
+			maxY = 138
+
+		[world_generation.ore_values.MOLYBDENUM_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.MOLYBDENUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 129
+			# Range: -512 ~ 512
+			maxY = 129
+
+		[world_generation.ore_values.MOLYBDENUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 120
+			# Range: -512 ~ 512
+			maxY = 120
+
+		[world_generation.ore_values.NECROTICARITE_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.NECROTICARITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: -65
+			# Range: -512 ~ 512
+			maxY = -65
+
+		[world_generation.ore_values.NEODYMIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 81
+			# Range: -512 ~ 512
+			maxY = 81
+
+		[world_generation.ore_values.NEODYMIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 120
+			# Range: -512 ~ 512
+			maxY = 120
+
+		[world_generation.ore_values.NEODYMIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 101
+			# Range: -512 ~ 512
+			maxY = 101
+
+		[world_generation.ore_values.NITER_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 84
+			# Range: -512 ~ 512
+			maxY = 84
+
+		[world_generation.ore_values.NITER_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.NICKEL_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 102
+			# Range: -512 ~ 512
+			maxY = 102
+
+		[world_generation.ore_values.NICKEL_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 124
+			# Range: -512 ~ 512
+			maxY = 124
+
+		[world_generation.ore_values.NICKEL_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.OBSIDIAN_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.OBSIDIAN_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: -65
+			# Range: -512 ~ 512
+			maxY = -65
+
+		[world_generation.ore_values.ONYX_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 98
+			# Range: -512 ~ 512
+			maxY = 98
+
+		[world_generation.ore_values.ONYX_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 120
+			# Range: -512 ~ 512
+			maxY = 120
+
+		[world_generation.ore_values.ONYX_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 107
+			# Range: -512 ~ 512
+			maxY = 107
+
+		[world_generation.ore_values.OSMIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 101
+			# Range: -512 ~ 512
+			maxY = 101
+
+		[world_generation.ore_values.OSMIUM_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 118
+			# Range: -512 ~ 512
+			maxY = 118
+
+		[world_generation.ore_values.OSMIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 142
+			# Range: -512 ~ 512
+			maxY = 142
+
+		[world_generation.ore_values.PALLADIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 89
+			# Range: -512 ~ 512
+			maxY = 89
+
+		[world_generation.ore_values.PALLADIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 129
+			# Range: -512 ~ 512
+			maxY = 129
+
+		[world_generation.ore_values.PALLADIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 107
+			# Range: -512 ~ 512
+			maxY = 107
+
+		[world_generation.ore_values.PEAT_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 8
+			# Range: 0 ~ 16
+			veinsPerChunk = 8
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 120
+			# Range: -512 ~ 512
+			maxY = 120
+
+		[world_generation.ore_values.PEAT_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 7
+			# Range: 0 ~ 32
+			veinSize = 7
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.PEARL_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: 40
+			# Range: -512 ~ 512
+			minY = 40
+			#Maximum generation height
+			# Default: 90
+			# Range: -512 ~ 512
+			maxY = 90
+
+		[world_generation.ore_values.PEARL_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: 64
+			# Range: -512 ~ 512
+			minY = 64
+			#Maximum generation height
+			# Default: 109
+			# Range: -512 ~ 512
+			maxY = 109
+
+		[world_generation.ore_values.PERIDOT_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 71
+			# Range: -512 ~ 512
+			maxY = 71
+
+		[world_generation.ore_values.PERIDOT_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 117
+			# Range: -512 ~ 512
+			maxY = 117
+
+		[world_generation.ore_values.PERIDOT_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 109
+			# Range: -512 ~ 512
+			maxY = 109
+
+		[world_generation.ore_values.PLATINUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 76
+			# Range: -512 ~ 512
+			maxY = 76
+
+		[world_generation.ore_values.PLATINUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 70
+			# Range: -512 ~ 512
+			maxY = 70
+
+		[world_generation.ore_values.PLATINUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 138
+			# Range: -512 ~ 512
+			maxY = 138
+
+		[world_generation.ore_values.PYROLITE_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 105
+			# Range: -512 ~ 512
+			maxY = 105
+
+		[world_generation.ore_values.PYROLITE_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 70
+			# Range: -512 ~ 512
+			maxY = 70
+
+		[world_generation.ore_values.PYROLITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: -65
+			# Range: -512 ~ 512
+			maxY = -65
+
+		[world_generation.ore_values.QUARTZ_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: -65
+			# Range: -512 ~ 512
+			maxY = -65
+
+		[world_generation.ore_values.REDSTONE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 134
+			# Range: -512 ~ 512
+			maxY = 134
+
+		[world_generation.ore_values.RUBY_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -60
+			# Range: -512 ~ 512
+			minY = -60
+			#Maximum generation height
+			# Default: 75
+			# Range: -512 ~ 512
+			maxY = 75
+
+		[world_generation.ore_values.RUBY_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -60
+			# Range: -512 ~ 512
+			minY = -60
+			#Maximum generation height
+			# Default: 90
+			# Range: -512 ~ 512
+			maxY = 90
+
+		[world_generation.ore_values.RUBY_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 109
+			# Range: -512 ~ 512
+			maxY = 109
+
+		[world_generation.ore_values.SALT_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: 40
+			# Range: -512 ~ 512
+			minY = 40
+			#Maximum generation height
+			# Default: 90
+			# Range: -512 ~ 512
+			maxY = 90
+
+		[world_generation.ore_values.SALT_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: 64
+			# Range: -512 ~ 512
+			minY = 64
+			#Maximum generation height
+			# Default: 129
+			# Range: -512 ~ 512
+			maxY = 129
+
+		[world_generation.ore_values.SAPPHIRE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -61
+			# Range: -512 ~ 512
+			minY = -61
+			#Maximum generation height
+			# Default: 71
+			# Range: -512 ~ 512
+			maxY = 71
+
+		[world_generation.ore_values.SAPPHIRE_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 99
+			# Range: -512 ~ 512
+			maxY = 99
+
+		[world_generation.ore_values.SAPPHIRE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 105
+			# Range: -512 ~ 512
+			maxY = 105
+
+		[world_generation.ore_values.SCULKITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 3
+			# Range: 0 ~ 16
+			veinsPerChunk = 3
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -61
+			# Range: -512 ~ 512
+			minY = -61
+			#Maximum generation height
+			# Default: 0
+			# Range: -512 ~ 512
+			maxY = 0
+
+		[world_generation.ore_values.SCULKITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 3
+			# Range: 0 ~ 16
+			veinsPerChunk = 3
+			#Define Ore vein size
+			# Default: 3
+			# Range: 0 ~ 32
+			veinSize = 3
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 63
+			# Range: -512 ~ 512
+			maxY = 63
+
+		[world_generation.ore_values.SILVER_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -61
+			# Range: -512 ~ 512
+			minY = -61
+			#Maximum generation height
+			# Default: 90
+			# Range: -512 ~ 512
+			maxY = 90
+
+		[world_generation.ore_values.SILVER_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.SILVER_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 139
+			# Range: -512 ~ 512
+			maxY = 139
+
+		[world_generation.ore_values.SULFUR_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 81
+			# Range: -512 ~ 512
+			maxY = 81
+
+		[world_generation.ore_values.SULFUR_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.SULFUR_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 139
+			# Range: -512 ~ 512
+			maxY = 139
+
+		[world_generation.ore_values.SPINEL_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 79
+			# Range: -512 ~ 512
+			maxY = 79
+
+		[world_generation.ore_values.SPINEL_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 139
+			# Range: -512 ~ 512
+			maxY = 139
+
+		[world_generation.ore_values.SPINEL_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 139
+			# Range: -512 ~ 512
+			maxY = 139
+
+		[world_generation.ore_values.TANZANITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 64
+			# Range: -512 ~ 512
+			maxY = 64
+
+		[world_generation.ore_values.TANZANITE_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 94
+			# Range: -512 ~ 512
+			maxY = 94
+
+		[world_generation.ore_values.TANZANITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 108
+			# Range: -512 ~ 512
+			maxY = 108
+
+		[world_generation.ore_values.TIN_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 91
+			# Range: -512 ~ 512
+			maxY = 91
+
+		[world_generation.ore_values.TIN_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 71
+			# Range: -512 ~ 512
+			maxY = 71
+
+		[world_generation.ore_values.TIN_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.TITANIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 77
+			# Range: -512 ~ 512
+			maxY = 77
+
+		[world_generation.ore_values.TITANIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 65
+			# Range: -512 ~ 512
+			maxY = 65
+
+		[world_generation.ore_values.TITANIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 115
+			# Range: -512 ~ 512
+			maxY = 115
+
+		[world_generation.ore_values.TUNGSTEN_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: -1
+			# Range: -512 ~ 512
+			maxY = -1
+
+		[world_generation.ore_values.TUNGSTEN_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 64
+			# Range: -512 ~ 512
+			maxY = 64
+
+		[world_generation.ore_values.TUNGSTEN_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 5
+			# Range: 0 ~ 16
+			veinsPerChunk = 5
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 119
+			# Range: -512 ~ 512
+			maxY = 119
+
+		[world_generation.ore_values.ULTIMATITANIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 64
+			# Range: -512 ~ 512
+			maxY = 64
+
+		[world_generation.ore_values.ULTIMATITANIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 4
+			# Range: 0 ~ 32
+			veinSize = 4
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: -129
+			# Range: -512 ~ 512
+			maxY = -129
+
+		[world_generation.ore_values.URANINITE_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 89
+			# Range: -512 ~ 512
+			maxY = 89
+
+		[world_generation.ore_values.URANINITE_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.URANINITE_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 138
+			# Range: -512 ~ 512
+			maxY = 138
+
+		[world_generation.ore_values.URANIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 84
+			# Range: -512 ~ 512
+			maxY = 84
+
+		[world_generation.ore_values.URANIUM_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 128
+			# Range: -512 ~ 512
+			maxY = 128
+
+		[world_generation.ore_values.URANIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 69
+			# Range: -512 ~ 512
+			maxY = 69
+
+		[world_generation.ore_values.URANIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 134
+			# Range: -512 ~ 512
+			maxY = 134
+
+		[world_generation.ore_values.VANADIUM_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 79
+			# Range: -512 ~ 512
+			maxY = 79
+
+		[world_generation.ore_values.VANADIUM_END]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 121
+			# Range: -512 ~ 512
+			maxY = 121
+
+		[world_generation.ore_values.VANADIUM_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 7
+			# Range: 0 ~ 16
+			veinsPerChunk = 7
+			#Define Ore vein size
+			# Default: 5
+			# Range: 0 ~ 32
+			veinSize = 5
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -191
+			# Range: -512 ~ 512
+			minY = -191
+			#Maximum generation height
+			# Default: 115
+			# Range: -512 ~ 512
+			maxY = 115
+
+		[world_generation.ore_values.ZINC_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 98
+			# Range: -512 ~ 512
+			maxY = 98
+
+		[world_generation.ore_values.ZINC_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 6
+			# Range: 0 ~ 16
+			veinsPerChunk = 6
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = false
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 154
+			# Range: -512 ~ 512
+			maxY = 154
+
+		[world_generation.ore_values.ZIRCON_OVERWORLD]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 3
+			# Range: 0 ~ 16
+			veinsPerChunk = 3
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -60
+			# Range: -512 ~ 512
+			minY = -60
+			#Maximum generation height
+			# Default: 46
+			# Range: -512 ~ 512
+			maxY = 46
+
+		[world_generation.ore_values.ZIRCON_NETHER]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = true
+			#Veins per chunk
+			# Default: 3
+			# Range: 0 ~ 16
+			veinsPerChunk = 3
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -64
+			# Range: -512 ~ 512
+			minY = -64
+			#Maximum generation height
+			# Default: 80
+			# Range: -512 ~ 512
+			maxY = 80
+
+		[world_generation.ore_values.ZIRCON_MINING]
+			#Chance to discard ore block when exposed to air
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Use rare placement instead of common
+			rare = false
+			#Veins per chunk
+			# Default: 4
+			# Range: 0 ~ 16
+			veinsPerChunk = 4
+			#Define Ore vein size
+			# Default: 6
+			# Range: 0 ~ 32
+			veinSize = 6
+			#Use triangular height distribution
+			triangular = true
+			#Minimum generation height
+			# Default: -128
+			# Range: -512 ~ 512
+			minY = -128
+			#Maximum generation height
+			# Default: 104
+			# Range: -512 ~ 512
+			maxY = 104

@@ -1,0 +1,228 @@
+# Eternal Ores Chemicals Config.
+#
+# This config allows you to disable any of Eternal Ores added Chemicals, like Slurries and Infusion Types.
+#
+# Disabling the Slurries, will cause the Chemical Crystallizer to ignore the recipes added by Eternal Ores of
+# each material. Also, it will disable both Clean and Dirty versions of said slurry. Can be disabled individually
+# or generally.
+#
+# Disabling the Infusions, will cause the Metallurgic Infuser, and Chemical Oxidizer to ignore the added
+# recipes by Eternal Ores. These can be disabled individually or generally.
+#
+# This config DOES NOT unregister any of these chemicals in any way, it only hides them and toggles any function they had, if they had one.
+#
+# Additionally, once you toggle said Infusion/Slurry, it will be hidden automatically from JEI/EMI recipe viewers.
+#
+# Each change requires a Game Restart.
+#
+[chemicals_config]
+
+	#Material Infusions
+	[chemicals_config.infusions]
+		#[Server] Enable/Disable All Infusions Infusion.
+		isAll_infusionsEnabled = true
+		#[Server] Enable/Disable Aluminum Infusion.
+		isAluminumEnabled = true
+		#[Server] Enable/Disable Amber Infusion.
+		isAmberEnabled = true
+		#[Server] Enable/Disable Amethyst Infusion.
+		isAmethystEnabled = true
+		#[Server] Enable/Disable Apatite Infusion.
+		isApatiteEnabled = true
+		#[Server] Enable/Disable Arcanum Infusion.
+		isArcanumEnabled = true
+		#[Server] Enable/Disable Ardite Infusion.
+		isArditeEnabled = true
+		#[Server] Enable/Disable Aurorium Infusion.
+		isAuroriumEnabled = true
+		#[Server] Enable/Disable Bismuth Infusion.
+		isBismuthEnabled = true
+		#[Server] Enable/Disable Blaze Infusion.
+		isBlazeEnabled = true
+		#[Server] Enable/Disable Catalyrium Infusion.
+		isCatalyriumEnabled = true
+		#[Server] Enable/Disable Certus Quartz Infusion.
+		isCertus_quartzEnabled = true
+		#[Server] Enable/Disable Chromium Infusion.
+		isChromiumEnabled = true
+		#[Server] Enable/Disable Cinnabar Infusion.
+		isCinnabarEnabled = true
+		#[Server] Enable/Disable Cobalt Infusion.
+		isCobaltEnabled = true
+		#[Server] Enable/Disable Copper Infusion.
+		isCopperEnabled = true
+		#[Server] Enable/Disable Cosmic Matter Infusion.
+		isCosmic_matterEnabled = true
+		#[Server] Enable/Disable Electrum Infusion.
+		isElectrumEnabled = true
+		#[Server] Enable/Disable Emerald Infusion.
+		isEmeraldEnabled = true
+		#[Server] Enable/Disable Ender Infusion.
+		isEnderEnabled = true
+		#[Server] Enable/Disable Endergetic Infusion.
+		isEndergeticEnabled = true
+		#[Server] Enable/Disable Enderium Infusion.
+		isEnderiumEnabled = true
+		#[Server] Enable/Disable Energetic Infusion.
+		isEnergeticEnabled = true
+		#[Server] Enable/Disable Highly Enriched Carbon Infusion.
+		isHighly_enriched_carbonEnabled = true
+		#[Server] Enable/Disable Eternal Dark Infusion.
+		isEternal_darkEnabled = true
+		#[Server] Enable/Disable Eternal Light Infusion.
+		isEternal_lightEnabled = true
+		#[Server] Enable/Disable Eternity Infusion.
+		isEternityEnabled = true
+		#[Server] Enable/Disable Etherium Infusion.
+		isEtheriumEnabled = true
+		#[Server] Enable/Disable Fluix Infusion.
+		isFluixEnabled = true
+		#[Server] Enable/Disable Gallium Infusion.
+		isGalliumEnabled = true
+		#[Server] Enable/Disable Garnet Infusion.
+		isGarnetEnabled = true
+		#[Server] Enable/Disable Graphite Infusion.
+		isGraphiteEnabled = true
+		#[Server] Enable/Disable Invar Infusion.
+		isInvarEnabled = true
+		#[Server] Enable/Disable Iridium Infusion.
+		isIridiumEnabled = true
+		#[Server] Enable/Disable Iron Infusion.
+		isIronEnabled = true
+		#[Server] Enable/Disable Jade Infusion.
+		isJadeEnabled = true
+		#[Server] Enable/Disable Lapis Infusion.
+		isLapisEnabled = true
+		#[Server] Enable/Disable Lead Infusion.
+		isLeadEnabled = true
+		#[Server] Enable/Disable Low Carbon Infusion.
+		isLow_carbonEnabled = true
+		#[Server] Enable/Disable Lumium Infusion.
+		isLumiumEnabled = true
+		#[Server] Enable/Disable Monazite Infusion.
+		isMonaziteEnabled = true
+		#[Server] Enable/Disable Manganese Infusion.
+		isManganeseEnabled = true
+		#[Server] Enable/Disable Molybdenum Infusion.
+		isMolybdenumEnabled = true
+		#[Server] Enable/Disable Necroticarite Infusion.
+		isNecroticariteEnabled = true
+		#[Server] Enable/Disable Nether Enriched Infusion.
+		isNether_enrichedEnabled = true
+		#[Server] Enable/Disable Nether Star Infusion.
+		isNether_starEnabled = true
+		#[Server] Enable/Disable Nickel Infusion.
+		isNickelEnabled = true
+		#[Server] Enable/Disable Niter Infusion.
+		isNiterEnabled = true
+		#[Server] Enable/Disable Obsidian Infusion.
+		isObsidianEnabled = true
+		#[Server] Enable/Disable Onyx Infusion.
+		isOnyxEnabled = true
+		#[Server] Enable/Disable Pearl Infusion.
+		isPearlEnabled = true
+		#[Server] Enable/Disable Peridot Infusion.
+		isPeridotEnabled = true
+		#[Server] Enable/Disable Platinum Infusion.
+		isPlatinumEnabled = true
+		#[Server] Enable/Disable Plutonium Infusion.
+		isPlutoniumEnabled = true
+		#[Server] Enable/Disable Prismarine Infusion.
+		isPrismarineEnabled = true
+		#[Server] Enable/Disable Pyrolite Infusion.
+		isPyroliteEnabled = true
+		#[Server] Enable/Disable Quantiquarite Infusion.
+		isQuantiquariteEnabled = true
+		#[Server] Enable/Disable Quartz Infusion.
+		isQuartzEnabled = true
+		#[Server] Enable/Disable Ruby Infusion.
+		isRubyEnabled = true
+		#[Server] Enable/Disable Sanguis Vivus Infusion.
+		isSanguis_vivusEnabled = true
+		#[Server] Enable/Disable Sapphire Infusion.
+		isSapphireEnabled = true
+		#[Server] Enable/Disable Sculkite Infusion.
+		isSculkiteEnabled = true
+		#[Server] Enable/Disable Shadow Infusion.
+		isShadowEnabled = true
+		#[Server] Enable/Disable Signalum Infusion.
+		isSignalumEnabled = true
+		#[Server] Enable/Disable Silicon Infusion.
+		isSiliconEnabled = true
+		#[Server] Enable/Disable Silver Infusion.
+		isSilverEnabled = true
+		#[Server] Enable/Disable Spectral Sky Bluerite Infusion.
+		isSpectral_sky_blueriteEnabled = true
+		#[Server] Enable/Disable Source Infusion.
+		isSourceEnabled = true
+		#[Server] Enable/Disable Stellarium Infusion.
+		isStellariumEnabled = true
+		#[Server] Enable/Disable Tachyarite Infusion.
+		isTachyariteEnabled = true
+		#[Server] Enable/Disable Tanzanite Infusion.
+		isTanzaniteEnabled = true
+		#[Server] Enable/Disable Temictetl Infusion.
+		isTemictetlEnabled = true
+		#[Server] Enable/Disable Titanium Infusion.
+		isTitaniumEnabled = true
+		#[Server] Enable/Disable Tungsten Infusion.
+		isTungstenEnabled = true
+		#[Server] Enable/Disable Ultimatitanium Infusion.
+		isUltimatitaniumEnabled = true
+		#[Server] Enable/Disable Universium Infusion.
+		isUniversiumEnabled = true
+		#[Server] Enable/Disable Uraninite Infusion.
+		isUraniniteEnabled = true
+		#[Server] Enable/Disable Uranium Infusion.
+		isUraniumEnabled = true
+		#[Server] Enable/Disable Vanadium Infusion.
+		isVanadiumEnabled = true
+		#[Server] Enable/Disable Voiderite Infusion.
+		isVoideriteEnabled = true
+		#[Server] Enable/Disable Zinc Infusion.
+		isZincEnabled = true
+		#[Server] Enable/Disable Zircon Infusion.
+		isZirconEnabled = true
+
+	#Material Slurries
+	[chemicals_config.slurries]
+		#[Server] Enable All Slurries Slurries.
+		isAll_slurriesEnabled = true
+		#[Server] Enable Aluminum Slurries.
+		isAluminumEnabled = true
+		#[Server] Enable Ardite Slurries.
+		isArditeEnabled = true
+		#[Server] Enable Beryllium Slurries.
+		isBerylliumEnabled = true
+		#[Server] Enable Catalyrium Slurries.
+		isCatalyriumEnabled = true
+		#[Server] Enable Cobalt Slurries.
+		isCobaltEnabled = true
+		#[Server] Enable Gallium Slurries.
+		isGalliumEnabled = true
+		#[Server] Enable Iridium Slurries.
+		isIridiumEnabled = true
+		#[Server] Enable Molybdenum Slurries.
+		isMolybdenumEnabled = true
+		#[Server] Enable Neodymium Slurries.
+		isNeodymiumEnabled = true
+		#[Server] Enable Nickel Slurries.
+		isNickelEnabled = true
+		#[Server] Enable Platinum Slurries.
+		isPlatinumEnabled = true
+		#[Server] Enable Sculkite Slurries.
+		isSculkiteEnabled = true
+		#[Server] Enable Silver Slurries.
+		isSilverEnabled = true
+		#[Server] Enable Titanium Slurries.
+		isTitaniumEnabled = true
+		#[Server] Enable Tungsten Slurries.
+		isTungstenEnabled = true
+		#[Server] Enable Ultimatitanium Slurries.
+		isUltimatitaniumEnabled = true
+		#[Server] Enable Uraninite Slurries.
+		isUraniniteEnabled = true
+		#[Server] Enable Vanadium Slurries.
+		isVanadiumEnabled = true
+		#[Server] Enable Zinc Slurries.
+		isZincEnabled = true

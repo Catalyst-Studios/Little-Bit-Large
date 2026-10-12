@@ -1,0 +1,58 @@
+#Eternal Ores Mining Dimension Config.
+#
+#Controls the world generation layout of the Mining Dimension.
+#Layer order (bottom to top): Bedrock → End Stone → Nether → Deepslate → Stone → Dirt → Grass → Air
+#
+#Each change requires a game restart AND either deleting the dimension data
+#from the save folder or creating a new world.
+#
+[mining_dimension]
+
+	#World Generation Settings
+	[mining_dimension.generation]
+		#[Server] Maximum build height of the Mining Dimension.
+		#Default: 191
+		# Default: 191
+		# Range: 64 ~ 320
+		worldTop = 191
+		#[Server] Y level of the grass block.
+		#Players spawn at grassLevel + 1 (first air block above grass).
+		#Default: 160
+		# Default: 160
+		# Range: -64 ~ 320
+		grassLevel = 160
+		#[Server] Y level where the Dirt layer begins.
+		#Dirt fills from dirtStart up to grassLevel - 1.
+		#Default: 155  →  Dirt layer: 155 to 159 (5 blocks)
+		# Default: 155
+		# Range: -256 ~ 320
+		dirtStart = 155
+		#[Server] Y level where the Stone layer begins.
+		#Stone fills from stoneStart up to dirtStart - 1.
+		#Default: 0  →  Stone layer: 0 to 154 (155 blocks)
+		# Default: 150
+		# Range: -256 ~ 320
+		stoneStart = 150
+		#[Server] Y level where the Deepslate layer begins.
+		#Deepslate fills from deepslateStart up to stoneStart - 1.
+		#Default: 0  →  Deepslate layer: -64 to -1 (64 blocks)
+		# Default: 64
+		# Range: -256 ~ 128
+		deepslateStart = 64
+		#[Server] Y level where the Netherrack layer begins.
+		#Netherrack fills from netherStart up to deepslateStart - 1.
+		#Default: -64  →  Nether layer: -128 to -65 (64 blocks)
+		# Default: -64
+		# Range: -256 ~ 64
+		netherStart = -64
+		#[Server] Y level where the End Stone layer begins.
+		#End Stone fills from endStart up to netherStart - 1.
+		#Default: -128  →  End Stone layer: -191 to -129 (63 blocks)
+		# Default: -128
+		# Range: -256 ~ 0
+		endStart = -128
+		#[Server] Y level of the bedrock floor.
+		#Default: -192
+		# Default: -192
+		# Range: -512 ~ -64
+		bedrockLevel = -192

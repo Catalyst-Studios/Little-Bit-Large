@@ -19,45 +19,45 @@
 		#[Server] Enable Aluminum_mining ore generation.
 		aluminum_mining = true
 		#[Server] Enable Amber_overworld ore generation.
-		amber_overworld = false
+		amber_overworld = true
 		#[Server] Enable Amber_mining ore generation.
-		amber_mining = false
+		amber_mining = true
 		#[Server] Enable Anthracite_overworld ore generation.
-		anthracite_overworld = false
+		anthracite_overworld = true
 		#[Server] Enable Anthracite_mining ore generation.
-		anthracite_mining = false
+		anthracite_mining = true
 		#[Server] Enable Ancient_debris_mining ore generation.
 		ancient_debris_mining = true
 		#[Server] Enable Apatite_overworld ore generation.
-		apatite_overworld = false
+		apatite_overworld = true
 		#[Server] Enable Apatite_mining ore generation.
-		apatite_mining = false
+		apatite_mining = true
 		#[Server] Enable Ardite_nether ore generation.
-		ardite_nether = false
+		ardite_nether = true
 		#[Server] Enable Ardite_mining ore generation.
-		ardite_mining = false
+		ardite_mining = true
 		#[Server] Enable Beryllium_overworld ore generation.
-		beryllium_overworld = false
+		beryllium_overworld = true
 		#[Server] Enable Beryllium_mining ore generation.
-		beryllium_mining = false
+		beryllium_mining = true
 		#[Server] Enable Bituminous_overworld ore generation.
 		bituminous_overworld = true
 		#[Server] Enable Bituminous_mining ore generation.
 		bituminous_mining = true
 		#[Server] Enable Cinnabar_overworld ore generation.
-		cinnabar_overworld = false
+		cinnabar_overworld = true
 		#[Server] Enable Cinnabar_nether ore generation.
-		cinnabar_nether = false
+		cinnabar_nether = true
 		#[Server] Enable Cinnabar_mining ore generation.
-		cinnabar_mining = false
+		cinnabar_mining = true
 		#[Server] Enable Coal_mining ore generation.
 		coal_mining = true
 		#[Server] Enable Cobalt_overworld ore generation.
-		cobalt_overworld = false
+		cobalt_overworld = true
 		#[Server] Enable Cobalt_nether ore generation.
-		cobalt_nether = false
+		cobalt_nether = true
 		#[Server] Enable Cobalt_mining ore generation.
-		cobalt_mining = false
+		cobalt_mining = true
 		#[Server] Enable Copper_mining ore generation.
 		copper_mining = true
 		#[Server] Enable Diamond_mining ore generation.
@@ -71,33 +71,33 @@
 		#[Server] Enable Fluorite_mining ore generation.
 		fluorite_mining = true
 		#[Server] Enable Gallium_overworld ore generation.
-		gallium_overworld = false
+		gallium_overworld = true
 		#[Server] Enable Gallium_nether ore generation.
-		gallium_nether = false
+		gallium_nether = true
 		#[Server] Enable Gallium_mining ore generation.
-		gallium_mining = false
+		gallium_mining = true
 		#[Server] Enable Garnet_overworld ore generation.
-		garnet_overworld = false
+		garnet_overworld = true
 		#[Server] Enable Garnet_nether ore generation.
-		garnet_nether = false
+		garnet_nether = true
 		#[Server] Enable Garnet_mining ore generation.
-		garnet_mining = false
+		garnet_mining = true
 		#[Server] Enable Gold_mining ore generation.
 		gold_mining = true
 		#[Server] Enable Iridium_overworld ore generation.
-		iridium_overworld = false
+		iridium_overworld = true
 		#[Server] Enable Iridium_end ore generation.
-		iridium_end = false
+		iridium_end = true
 		#[Server] Enable Iridium_mining ore generation.
-		iridium_mining = false
+		iridium_mining = true
 		#[Server] Enable Iron_mining ore generation.
 		iron_mining = true
 		#[Server] Enable Jade_overworld ore generation.
-		jade_overworld = false
+		jade_overworld = true
 		#[Server] Enable Jade_nether ore generation.
-		jade_nether = false
+		jade_nether = true
 		#[Server] Enable Jade_mining ore generation.
-		jade_mining = false
+		jade_mining = true
 		#[Server] Enable Lapis_mining ore generation.
 		lapis_mining = true
 		#[Server] Enable Lead_overworld ore generation.
@@ -107,17 +107,17 @@
 		#[Server] Enable Lead_mining ore generation.
 		lead_mining = true
 		#[Server] Enable Lignite_overworld ore generation.
-		lignite_overworld = false
+		lignite_overworld = true
 		#[Server] Enable Lignite_mining ore generation.
-		lignite_mining = false
+		lignite_mining = true
 		#[Server] Enable Necroticarite_nether ore generation.
-		necroticarite_nether = false
+		necroticarite_nether = true
 		#[Server] Enable Necroticarite_mining ore generation.
-		necroticarite_mining = false
+		necroticarite_mining = true
 		#[Server] Enable Niter_overworld ore generation.
-		niter_overworld = false
+		niter_overworld = true
 		#[Server] Enable Niter_mining ore generation.
-		niter_mining = false
+		niter_mining = true
 		#[Server] Enable Nickel_overworld ore generation.
 		nickel_overworld = true
 		#[Server] Enable Nickel_nether ore generation.
@@ -125,11 +125,11 @@
 		#[Server] Enable Nickel_mining ore generation.
 		nickel_mining = true
 		#[Server] Enable Onyx_overworld ore generation.
-		onyx_overworld = false
+		onyx_overworld = true
 		#[Server] Enable Onyx_nether ore generation.
-		onyx_nether = false
+		onyx_nether = true
 		#[Server] Enable Onyx_mining ore generation.
-		onyx_mining = false
+		onyx_mining = true
 		#[Server] Enable Obsidian_nether ore generation.
 		obsidian_nether = true
 		#[Server] Enable Obsidian_mining ore generation.
@@ -141,19 +141,19 @@
 		#[Server] Enable Osmium_mining ore generation.
 		osmium_mining = true
 		#[Server] Enable Peat_overworld ore generation.
-		peat_overworld = false
+		peat_overworld = true
 		#[Server] Enable Peat_mining ore generation.
-		peat_mining = false
+		peat_mining = true
 		#[Server] Enable Pearl_overworld ore generation.
-		pearl_overworld = false
+		pearl_overworld = true
 		#[Server] Enable Pearl_mining ore generation.
-		pearl_mining = false
+		pearl_mining = true
 		#[Server] Enable Peridot_overworld ore generation.
-		peridot_overworld = false
+		peridot_overworld = true
 		#[Server] Enable Peridot_nether ore generation.
-		peridot_nether = false
+		peridot_nether = true
 		#[Server] Enable Peridot_mining ore generation.
-		peridot_mining = false
+		peridot_mining = true
 		#[Server] Enable Platinum_overworld ore generation.
 		platinum_overworld = true
 		#[Server] Enable Platinum_end ore generation.
@@ -161,35 +161,35 @@
 		#[Server] Enable Platinum_mining ore generation.
 		platinum_mining = true
 		#[Server] Enable Pyrolite_nether ore generation.
-		pyrolite_nether = false
+		pyrolite_nether = true
 		#[Server] Enable Pyrolite_end ore generation.
-		pyrolite_end = false
+		pyrolite_end = true
 		#[Server] Enable Pyrolite_mining ore generation.
-		pyrolite_mining = false
+		pyrolite_mining = true
 		#[Server] Enable Quartz_mining ore generation.
 		quartz_mining = true
 		#[Server] Enable Redstone_mining ore generation.
 		redstone_mining = true
 		#[Server] Enable Ruby_overworld ore generation.
-		ruby_overworld = false
+		ruby_overworld = true
 		#[Server] Enable Ruby_nether ore generation.
-		ruby_nether = false
+		ruby_nether = true
 		#[Server] Enable Ruby_mining ore generation.
-		ruby_mining = false
+		ruby_mining = true
 		#[Server] Enable Salt_overworld ore generation.
 		salt_overworld = true
 		#[Server] Enable Salt_mining ore generation.
 		salt_mining = true
 		#[Server] Enable Sapphire_overworld ore generation.
-		sapphire_overworld = false
+		sapphire_overworld = true
 		#[Server] Enable Sapphire_end ore generation.
-		sapphire_end = false
+		sapphire_end = true
 		#[Server] Enable Sapphire_mining ore generation.
-		sapphire_mining = false
+		sapphire_mining = true
 		#[Server] Enable Sculkite_overworld ore generation.
-		sculkite_overworld = true
+		sculkite_overworld = false
 		#[Server] Enable Sculkite_mining ore generation.
-		sculkite_mining = true
+		sculkite_mining = false
 		#[Server] Enable Silver_overworld ore generation.
 		silver_overworld = true
 		#[Server] Enable Silver_nether ore generation.
@@ -203,17 +203,17 @@
 		#[Server] Enable Sulfur_mining ore generation.
 		sulfur_mining = true
 		#[Server] Enable Tanzanite_overworld ore generation.
-		tanzanite_overworld = false
+		tanzanite_overworld = true
 		#[Server] Enable Tanzanite_nether ore generation.
-		tanzanite_nether = false
+		tanzanite_nether = true
 		#[Server] Enable Tanzanite_mining ore generation.
-		tanzanite_mining = false
+		tanzanite_mining = true
 		#[Server] Enable Titanium_overworld ore generation.
-		titanium_overworld = false
+		titanium_overworld = true
 		#[Server] Enable Titanium_end ore generation.
-		titanium_end = false
+		titanium_end = true
 		#[Server] Enable Titanium_mining ore generation.
-		titanium_mining = false
+		titanium_mining = true
 		#[Server] Enable Tin_overworld ore generation.
 		tin_overworld = true
 		#[Server] Enable Tin_end ore generation.
@@ -229,7 +229,7 @@
 		#[Server] Enable Ultimatitanium_end ore generation.
 		ultimatitanium_end = false
 		#[Server] Enable Ultimatitanium_mining ore generation.
-		ultimatitanium_mining = false
+		ultimatitanium_mining = true
 		#[Server] Enable Uraninite_overworld ore generation.
 		uraninite_overworld = true
 		#[Server] Enable Uraninite_nether ore generation.
@@ -249,11 +249,11 @@
 		#[Server] Enable Zinc_mining ore generation.
 		zinc_mining = true
 		#[Server] Enable Zircon_overworld ore generation.
-		zircon_overworld = false
+		zircon_overworld = true
 		#[Server] Enable Zircon_nether ore generation.
-		zircon_nether = false
+		zircon_nether = true
 		#[Server] Enable Zircon_mining ore generation.
-		zircon_mining = false
+		zircon_mining = true
 
 	#Ore Placement Values
 	[world_generation.ore_values]
@@ -294,11 +294,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -346,11 +346,11 @@
 			#Veins per chunk
 			# Default: 3
 			# Range: 0 ~ 16
-			veinsPerChunk = 3
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -372,11 +372,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -424,11 +424,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -476,11 +476,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -528,11 +528,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -580,11 +580,11 @@
 			#Veins per chunk
 			# Default: 8
 			# Range: 0 ~ 16
-			veinsPerChunk = 8
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -632,11 +632,11 @@
 			#Veins per chunk
 			# Default: 8
 			# Range: 0 ~ 16
-			veinsPerChunk = 8
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -710,11 +710,11 @@
 			#Veins per chunk
 			# Default: 8
 			# Range: 0 ~ 16
-			veinsPerChunk = 8
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -736,11 +736,11 @@
 			#Veins per chunk
 			# Default: 8
 			# Range: 0 ~ 16
-			veinsPerChunk = 8
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -814,11 +814,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -840,11 +840,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -866,11 +866,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -892,11 +892,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -970,11 +970,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1048,11 +1048,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1126,11 +1126,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -1152,11 +1152,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1230,11 +1230,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -1308,11 +1308,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1334,11 +1334,11 @@
 			#Veins per chunk
 			# Default: 8
 			# Range: 0 ~ 16
-			veinsPerChunk = 8
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1360,11 +1360,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1438,11 +1438,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1490,11 +1490,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1542,11 +1542,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1594,11 +1594,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1672,11 +1672,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1724,11 +1724,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1802,11 +1802,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -1880,11 +1880,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1932,11 +1932,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 7
 			# Range: 0 ~ 32
-			veinSize = 7
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -1984,11 +1984,11 @@
 			#Veins per chunk
 			# Default: 4
 			# Range: 0 ~ 16
-			veinsPerChunk = 4
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 3
 			# Range: 0 ~ 32
-			veinSize = 3
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -2062,11 +2062,11 @@
 			#Veins per chunk
 			# Default: 4
 			# Range: 0 ~ 16
-			veinsPerChunk = 4
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -2140,11 +2140,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2218,11 +2218,11 @@
 			#Veins per chunk
 			# Default: 4
 			# Range: 0 ~ 16
-			veinsPerChunk = 4
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 3
 			# Range: 0 ~ 32
-			veinSize = 3
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -2244,11 +2244,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2270,11 +2270,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2348,11 +2348,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2400,11 +2400,11 @@
 			#Veins per chunk
 			# Default: 4
 			# Range: 0 ~ 16
-			veinsPerChunk = 4
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2478,11 +2478,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2530,11 +2530,11 @@
 			#Veins per chunk
 			# Default: 3
 			# Range: 0 ~ 16
-			veinsPerChunk = 3
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 3
 			# Range: 0 ~ 32
-			veinSize = 3
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2608,11 +2608,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2686,11 +2686,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2764,11 +2764,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
@@ -2842,11 +2842,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2920,11 +2920,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -2998,11 +2998,11 @@
 			#Veins per chunk
 			# Default: 5
 			# Range: 0 ~ 16
-			veinsPerChunk = 5
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -3050,11 +3050,11 @@
 			#Veins per chunk
 			# Default: 4
 			# Range: 0 ~ 16
-			veinsPerChunk = 4
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 4
 			# Range: 0 ~ 32
-			veinSize = 4
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -3128,11 +3128,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -3232,11 +3232,11 @@
 			#Veins per chunk
 			# Default: 7
 			# Range: 0 ~ 16
-			veinsPerChunk = 7
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 5
 			# Range: 0 ~ 32
-			veinSize = 5
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -3284,11 +3284,11 @@
 			#Veins per chunk
 			# Default: 6
 			# Range: 0 ~ 16
-			veinsPerChunk = 6
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = false
 			#Minimum generation height
@@ -3362,11 +3362,11 @@
 			#Veins per chunk
 			# Default: 4
 			# Range: 0 ~ 16
-			veinsPerChunk = 4
+			veinsPerChunk = 16
 			#Define Ore vein size
 			# Default: 6
 			# Range: 0 ~ 32
-			veinSize = 6
+			veinSize = 32
 			#Use triangular height distribution
 			triangular = true
 			#Minimum generation height
