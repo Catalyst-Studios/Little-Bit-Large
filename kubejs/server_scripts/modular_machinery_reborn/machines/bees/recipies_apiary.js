@@ -230,7 +230,7 @@ ServerEvents.recipes(catalyst => {
                 .requireItem(inputEgg, 0, 25, 0)
                 .requireItem(`32x minecraft:honeycomb`, 25, 20)
                 .produceItem(outputComb, 90, 0)
-                .requireFunctionEachTick("apiary_recipe_each")
+                .requireFunctionOnStart("apiary_recipe_each")
                 .requireFunctionOnEnd("apiary_recipe_end")
                 .id(`catalyst:mmr/apiary/${keyword}`)
             }
@@ -246,7 +246,7 @@ ServerEvents.recipes(catalyst => {
                 .requireItem(inputEgg, 0, 25, 0)
                 .requireItem(`32x minecraft:honeycomb`, 25, 20)
                 .produceItem('1x minecraft:rotten_flesh', 90, 0)
-                .requireFunctionEachTick("apiary_recipe_each")
+                .requireFunctionOnStart("apiary_recipe_each")
                 .requireFunctionOnEnd("apiary_recipe_end_wanna")
                 .id(`catalyst:mmr/apiary/${keyword}`)
             }
@@ -261,7 +261,7 @@ ServerEvents.recipes(catalyst => {
                     .requireItem(inputEgg, 0, 25, 0)
                     .requireItem('32x minecraft:honeycomb', 25, 20)
                     .produceItem('1x minecraft:stone', 90, 0)
-                    .requireFunctionEachTick("apiary_recipe_each")
+                    .requireFunctionOnStart("apiary_recipe_each")
                     .requireFunctionOnEnd("apiary_recipe_end_quarry")
                     .id(`catalyst:mmr/apiary/${keyword}`);
                 return;
@@ -312,7 +312,7 @@ ServerEvents.recipes(catalyst => {
         .requireFluid(honey, 25, 40)
         .requireItem(`1x ${recipe.beeType}`, 0, 25, 0)
         .requireItem(`32x minecraft:honeycomb`, 25, 20)
-        .requireFunctionEachTick("apiary_recipe_each")
+        .requireFunctionOnStart("apiary_recipe_each")
         .produceItem(recipe.output, 90, 0)
         .requireFunctionOnEnd(recipe.onEnd)
         .id(`catalyst:mmr/apiary/${recipe.beeType.replace(":", "_")}`);

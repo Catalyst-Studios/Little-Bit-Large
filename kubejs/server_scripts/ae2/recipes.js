@@ -213,6 +213,27 @@ ServerEvents.recipes(catalyst => {
     })
     .id('catalyst:ae2/fluid_xp/inf_cell');
 
+    catalyst.custom({
+        type: "ae2:inscriber",
+        ingredients:
+        {
+            middle:
+            {
+                item: "eternalores:gem_certus_quartz"
+            },
+            top:
+            {
+                item: "ae2:calculation_processor_press"
+            }
+        },
+        mode: "inscribe",
+        result:
+        {
+            count: 1,
+            id: "ae2:printed_calculation_processor"
+        }
+    }).id("ae2:inscriber/calculation_processor_print")
+
     console.log("[CatJS] Added AE2 recipes")
 });
 
