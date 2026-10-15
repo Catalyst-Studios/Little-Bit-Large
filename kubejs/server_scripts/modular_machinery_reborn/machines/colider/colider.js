@@ -72,7 +72,10 @@ MMREvents.machines(catalyst => {
                 'modular_machinery_reborn_mekanism:chemicalinputhatch_vacuum',
                 'modular_machinery_reborn_mekanism:chemicaloutputhatch_huge',
                 'modular_machinery_reborn_mekanism:chemicaloutputhatch_ludicrous',
-                'modular_machinery_reborn_mekanism:chemicaloutputhatch_vacuum'
+                'modular_machinery_reborn_mekanism:chemicaloutputhatch_vacuum',
+                "modular_machinery_reborn:energyinputhatch_ultimate",
+                "modular_machinery_reborn:energyinputhatch_huge",
+                "modular_machinery_reborn:energyinputhatch_ludicrous"
             ],
             "s": ["mekanism:ultimate_induction_provider"],
             "t": ["mekanism:sps_casing"],
