@@ -6,6 +6,7 @@ MMREvents.machines(catalyst => {
     catalyst.create("mmr:celestial_forge")
         .color('#FF6fff00')
         .name(Component.translatable("catalyst.mmr.machine.celestial_forge"))
+        .forceLoad(true)
         .structure(
             MMRStructureBuilder.create()
                 .pattern([

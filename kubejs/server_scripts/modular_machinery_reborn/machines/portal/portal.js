@@ -6,6 +6,7 @@ MMREvents.machines(catalyst => {
     catalyst.create("mmr:portal")
         .color('#00202020')
         .name(Component.translatable("catalyst.mmr.machine.portal"))
+        .forceLoad(true)
         .structure(
             MMRStructureBuilder.create()
             .pattern([
