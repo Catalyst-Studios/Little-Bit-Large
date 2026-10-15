@@ -246,6 +246,9 @@
 		}
 		{
 			dependencies: ["703123C7E3BE8E42"]
+			icon: {
+				id: "eternalores:gem_source"
+			}
 			id: "5EBE69501F030BF8"
 			rewards: [
 				{
@@ -268,7 +271,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "4E1BD238D2DE2F43"
-				item: { count: 1, id: "ars_nouveau:source_gem" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/source)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 7.5d

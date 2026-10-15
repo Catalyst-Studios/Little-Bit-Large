@@ -66,6 +66,12 @@
 			x: 2.0d
 			y: 3.0d
 		}
+		{
+			id: "14DCD077B47DC3BB"
+			linked_quest: "425A78620821A956"
+			x: 0.0d
+			y: 21.0d
+		}
 	]
 	quests: [
 		{
@@ -1803,7 +1809,7 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["7C2EAAFC6414BA33"]
+			dependencies: ["6C8BF92697A6F3AF"]
 			id: "49BCF1CF622DE723"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1816,8 +1822,8 @@
 				item: { count: 1, id: "productivelib:upgrade_entity_filter" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 27.0d
+			x: -5.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["49BCF1CF622DE723"]
@@ -1833,11 +1839,11 @@
 				item: { count: 1, id: "productivelib:upgrade_range" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 27.0d
+			x: -6.5d
+			y: 30.0d
 		}
 		{
-			dependencies: ["073DE2F2007E5403"]
+			dependencies: ["6C8BF92697A6F3AF"]
 			id: "2172EDCAEFA96592"
 			rewards: [
 				{
@@ -1860,8 +1866,8 @@
 				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 28.5d
+			x: -5.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["34E20FB41656A81A"]
