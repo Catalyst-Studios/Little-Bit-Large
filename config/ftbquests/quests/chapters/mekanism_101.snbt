@@ -403,7 +403,7 @@
 			}]
 			tasks: [{
 				id: "37B4D374A0211221"
-				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:pellets/antimatter)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 18.0d

@@ -1171,7 +1171,7 @@
 			id: "3F502A343332B9DB"
 			tasks: [{
 				id: "4A6651078AFA8D1F"
-				item: { count: 1, id: "pneumaticcraft:plastic" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plastics)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.2d
@@ -1291,18 +1291,10 @@
 				id: "pneumaticcraft:oil_bucket"
 			}
 			id: "5C98018C9726E9D7"
-			tasks: [
-				{
-					id: "7479D3E75CFD06DF"
-					item: { count: 1, id: "pneumaticcraft:oil_bucket" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "594482B9102FE963"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "594482B9102FE963"
+				type: "checkmark"
+			}]
 			x: -1.4d
 			y: 4.8999999999999995d
 		}

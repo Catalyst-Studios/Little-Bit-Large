@@ -24,8 +24,9 @@
 				type: "loot"
 			}]
 			tasks: [{
-				id: "21B64FC350CDEB70"
-				item: { count: 1, id: "extendedae:entro_cluster" }
+				count: 16L
+				id: "3062CC708BDB9318"
+				item: { count: 1, id: "extendedae:entro_crystal" }
 				type: "item"
 			}]
 			x: 2.5d
