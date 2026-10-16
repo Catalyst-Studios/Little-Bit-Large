@@ -4036,13 +4036,11 @@
 	quest.2DB9DE148A6A3E1F.quest_desc: [
 		"Tired of ruining the &aoverworld&r using auto miners like the quarry?"
 		""
-		"You can now destroy these new dimensions to get our resources!"
+		"&#9AFF5EEternalOres&r adds a new dimension with the only purpose to mine in the 3 main dimensions"
 		""
-		"&eJust Another Mining Dimension&r or &eJAMD&r (abreviated) adds 3 dimensions for each vanilla dimension, giving us the opportunity to mine without setting the overworld on fire."
+		"And also, &dJust Another Void Dimension&r adds a &#DF63FFvoid&r dimension for us to build our base without changing the whole landscape of the beautiful overworld."
 		""
-		"And also, &dJust Another Void Dimension&r adds a &0void&r dimension for us to build our base without changing the whole landscape of the beautiful overworld."
-		""
-		"Note: Being a void dimension, means you can &cfall&r into your doom, so i suggest you find a way of &5creative flight&r."
+		"Note: Being a void dimension, means you can &cfall&r into your doom, but don't worry, you will be TP to the Y=200 and fall to your base."
 		""
 		"Mods created by: &2UnRealDinnerone"
 	]

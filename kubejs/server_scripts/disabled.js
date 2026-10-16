@@ -189,7 +189,11 @@ ServerEvents.recipes(catalyst => {
 
         //powah
         {id: "eternalores:compat/powah/energizing_orb/item/uraninite_ore"}, 
-        {id: "mysticalagradditions:essence/nitro_crystal"}
+        {id: "mysticalagradditions:essence/nitro_crystal"},
+
+        {output: 'jamd:portal_block'},
+        {output: 'jamd:nether_portal'},
+        {output: 'jamd:end_portal'}
 
     ]
 

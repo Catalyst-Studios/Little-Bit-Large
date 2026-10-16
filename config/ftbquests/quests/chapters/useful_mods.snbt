@@ -1179,23 +1179,13 @@
 			}]
 			tasks: [
 				{
-					id: "05D7342EB6F1265B"
-					item: { count: 1, id: "jamd:portal_block" }
-					type: "item"
-				}
-				{
-					id: "0824132361F8F213"
-					item: { count: 1, id: "jamd:nether_portal" }
-					type: "item"
-				}
-				{
-					id: "24EED8CFEBC9E672"
-					item: { count: 1, id: "jamd:end_portal" }
-					type: "item"
-				}
-				{
 					id: "77F882F965A38D8F"
 					item: { count: 1, id: "javd:portal_block" }
+					type: "item"
+				}
+				{
+					id: "4EE8CAEC9B29ED52"
+					item: { count: 1, id: "eternalores:teleporter" }
 					type: "item"
 				}
 			]
