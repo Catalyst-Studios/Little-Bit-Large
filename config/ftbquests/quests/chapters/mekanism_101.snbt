@@ -439,7 +439,7 @@
 			id: "050FD0FD25FB652B"
 			tasks: [{
 				id: "7E23CB9E866CC677"
-				item: { count: 1, id: "mekanism:enriched_diamond" }
+				item: { count: 1, id: "eternalores:enriched_diamond" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -449,11 +449,18 @@
 			dependencies: ["68E0FE577DC5DBC3"]
 			hide_dependency_lines: true
 			id: "0BEF4D86A933CE47"
-			tasks: [{
-				id: "7B17CE820E03E387"
-				item: { count: 1, id: "mekanism:enriched_refined_obsidian" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B17CE820E03E387"
+					item: { count: 1, id: "mekanism:enriched_refined_obsidian" }
+					type: "item"
+				}
+				{
+					id: "36C472D1CF10B936"
+					item: { count: 1, id: "eternalores:enriched_obsidian" }
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: 2.0d
 		}
@@ -536,7 +543,7 @@
 			}]
 			tasks: [{
 				id: "1CC97327DCD994F5"
-				item: { count: 1, id: "mekanism:bio_fuel" }
+				item: { count: 1, id: "eternalores:biomass" }
 				type: "item"
 			}]
 			x: 11.5d
