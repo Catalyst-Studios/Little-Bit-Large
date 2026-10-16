@@ -2,9 +2,9 @@
     "branch": "dev",
     "git": "https://github.com/Catalyst-Studios/Little-Bit-Large.git",
     "loader": "neoforge",
-    "loader_version": "21.1.250",
+    "loader_version": "21.1.262",
     "mc_version": "1.21.1",
     "name": "Little Bit Large",
-    "version": "0.8.1",
+    "version": "0.8.2",
     "author": "CatalystStudios"
 }
