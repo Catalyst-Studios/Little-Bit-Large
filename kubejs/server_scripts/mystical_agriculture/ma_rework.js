@@ -529,7 +529,6 @@ ServerEvents.recipes(catalyst => {
         type: "ars_nouveau:enchanting_apparatus",
         keepNbtOfReagent: false,
         pedestalItems: [
-            { item: "ars_nouveau:wilden_tribute" },
             { item: "ars_nouveau:fire_essence" },
             { item: "ars_nouveau:abjuration_essence" },
             { item: "ars_nouveau:conjuration_essence" },
@@ -538,14 +537,10 @@ ServerEvents.recipes(catalyst => {
             { item: "ars_nouveau:manipulation_essence" },
             { item: "ars_nouveau:water_essence" },
             { item: "ars_elemental:anima_essence" },
-            { item: "ars_elemental:firenando_charm" },
-            { item: "ars_elemental:siren_charm" },
-            { item: "ars_nouveau:bookwyrm_charm" },
-            { item: "ars_nouveau:amethyst_golem_charm" }
         ],
         reagent: { item: "mysticalagriculture:inferium_seeds" },
         result: { count: 1, id: "mysticalagriculture:magic_seeds" },
-        sourceCost: 10000
+        sourceCost: 1000
     }).id('catalyst:ars_nouveau/enchanting_apparatus/magic_seeds');
 
     // Enriched seeds
