@@ -1,18 +1,22 @@
 [Logs]
 	#If true, all missing optional properties
 	#and their default values will be logged
-	#when parsing custom machines jsons.
+	#when parsing custom multiblock jsons.
 	log_missing_optional = false
 	#When parsing custom machines json files,
 	#some properties can be read with 2 serializers.
 	#Set this to true to log when the first serializer throw an error,
 	#even if the second succeed.
 	log_first_either_error = false
-	#Configure what logs will be printed in the custommachinery.log file.
+	#Configure what logs will be printed in the modular_machinery_reborn/mmr.log file.
 	#Only logs with level higher or equal than selected will be printed.
 	#FATAL > ERROR > WARN > INFO > DEBUG > ALL
 	#Allowed Values: FATAL, ERROR, WARN, INFO, DEBUG, ALL
-	debug_level = "INFO"
+	debug_level = "WARN"
+	#If true and debugLevel is DEBUG or ALL, this will log the full parsed structure in the modular_machinery_reborn/mmr.log file
+	log_debug_structure = false
+	#If true and debugLevel is DEBUG or ALL, this will log the full parsed recipe in the modular_machinery_reborn/mmr.log file
+	logDebugRecipe = false
 
 [General]
 	#Defines the _default_ color for machine casings as items or blocks. (Hex color with alpha at start) Has to be defined both server and clientside!
@@ -33,6 +37,10 @@
 	# Default: 256
 	# Range: > 1
 	maxParallel = 2048
+	#Defines the time between updates in dynamic extra tooltips
+	# Default: 20
+	# Range: > 1
+	dynamic_tooltip_interval = 20
 
 [Structure]
 	#Defines if it should break and place the non-matching blocks on trying to place structure. Default: true
@@ -43,6 +51,12 @@
 	missingBlockMessage = true
 	#Defines if should sent a message to the player for each error on place block. Default: true
 	errorMessage = true
+	#Determines if structure tools should force air as block or change it to ANY state. Default: true
+	force_air = true
+	#Defines the max value that can be chained in vein mode in structure tool. Use at your own risk. Default: 64
+	# Default: 64
+	# Range: > 1
+	max_vein_number = 64
 
 [Rendering]
 	#The time in milliseconds the structure requirement
