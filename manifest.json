@@ -3,7 +3,7 @@
     "version": "1.21.1",
     "modLoaders": [
       {
-        "id": "neoforge-21.1.250",
+        "id": "neoforge-21.1.262",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Little Bit Large",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "author": "CatalystStudios",
   "files": [
     {
@@ -260,7 +260,7 @@
       "required": true
     },
     {
-      "fileID": 9101819,
+      "fileID": 7966801,
       "projectID": 530544,
       "required": true
     },
@@ -712,11 +712,6 @@
     {
       "fileID": 9199297,
       "projectID": 1152849,
-      "required": true
-    },
-    {
-      "fileID": 8778582,
-      "projectID": 1676502,
       "required": true
     },
     {
@@ -2012,11 +2007,6 @@
     {
       "fileID": 7797302,
       "projectID": 227639,
-      "required": true
-    },
-    {
-      "fileID": 6533725,
-      "projectID": 1104882,
       "required": true
     },
     {
