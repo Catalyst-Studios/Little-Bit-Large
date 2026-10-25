@@ -79,19 +79,6 @@ ServerEvents.recipes(catalyst => {
         return undefined
     }
 
-    let getDust = (material) => {
-        if(material.includes(':')) return undefined
-
-        let id = mod_id + material + "_small_dust"
-        if(Item.exists(id)) return { item: Item.of(id, 3), is_small: true }
-        id = mod_id + material + "_dust"
-        if(Item.exists(id)) return { item: Item.of(id, 1), is_small: false }
-
-        if(material === "redstone") return { item: Item.of("minecraft:redstone", 1), is_small: false }
-        if(material === "wooden") return { item: Item.of('eternalores:sawdust', 1), is_small: false }
-        return undefined
-    }
-
     let createRecipe = (material, amount_input, output, amount, mold, parallel) => {
         let item = getItem(material, amount_input)
         if(item === undefined)
@@ -106,26 +93,6 @@ ServerEvents.recipes(catalyst => {
         recipe.requireItem(Item.of(mold, 1), 0, input_slots[1].x, input_slots[1].y);
         let output_id = output.includes(':') ? output : mod_id + output
         recipe.produceItem(Item.of(output_id, amount), output_slots[0].x, output_slots[0].y)
-
-        let dust = getDust(material)
-        if(dust !== undefined)
-        {
-            if(dust.is_small)
-            {
-                recipe.produceItem(dust.item, output_slots[1].x, output_slots[1].y)
-            }
-            else
-            {
-                recipe.produceItem(dust.item, 0.3, output_slots[1].x, output_slots[1].y)
-            }
-        }
-        else
-        {
-            if(!material.includes(':'))
-            {
-                console.warn(`Incorrect dust for item ${material} for extruder!`)
-            }
-        }
 
         if(parallel > 1)
         {

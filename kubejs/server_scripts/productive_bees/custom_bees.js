@@ -4,7 +4,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 ServerEvents.generateData('after_mods', event => {
 
-/**
+    /**
      * @typedef {Object} BeeAttributes
      * @property {number} [temper] - Bee temper attribute.
      * @property {number} [endurance] - Bee endurance attribute.
@@ -51,6 +51,8 @@ ServerEvents.generateData('after_mods', event => {
         let _attackResponse = "sting";
         /** @type {string|null} */
         let _flowerTag = null;
+        /** @type {string|null} */
+        let _flowerBlock = null;
         /** @type {string|null} */
         let _nestingPreference = null;
         /** @type {number} */
@@ -145,6 +147,7 @@ ServerEvents.generateData('after_mods', event => {
             attackResponse: function(a) { _attackResponse = a; return this; },
             /** @param {string} f - Flower tag required for pollination */
             flowerTag: function(f) { _flowerTag = f; return this; },
+            flowerBlock: function(f) { _flowerBlock = f; return this; },
             /** @param {string} n - Nesting preference block/tag */
             nestingPreference: function(n) { _nestingPreference = n; return this; },
             /** @param {number} s - Bee model scale factor */
@@ -301,6 +304,7 @@ ServerEvents.generateData('after_mods', event => {
                 if (_particleColor) beeJson.particleColor = _particleColor;
                 if (_description) beeJson.description = _description;
                 if (_attackResponse) beeJson.attackResponse = _attackResponse;
+                if (_flowerBlock && !_flowerTag) beeJson.flowerBlock = _flowerBlock
                 if (_flowerTag) beeJson.flowerTag = _flowerTag;
                 if (_nestingPreference) beeJson.nestingPreference = _nestingPreference;
                 if (_teleporting) beeJson.teleporting = _teleporting;
@@ -408,325 +412,326 @@ ServerEvents.generateData('after_mods', event => {
     BeeBuilder('gem_tachyarite', 'Tachyarite Bee')
         .primaryColor('#242b45')
         .secondaryColor('#ac320f')
-        
+        .flowerBlock('eternalores:tachyarite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_tachyarite" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_tachyarite" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:gem_tachyarite" }, max: 3, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:gem_tachyarite" }, max: 12, min: 1 }])
         .register();
 
     BeeBuilder('gallium_ingot', 'Gallium Bee')
         .primaryColor('#caf6f1')
         .secondaryColor('#3b6c68')
-        
+        .flowerBlock('eternalores:gallium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gallium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gallium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:raw_gallium" }, max: 7, min: 3 }])
+        .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:raw_gallium" }, max: 28, min: 3 }])
         .register();
 
     BeeBuilder('replica_ingot', 'Replica Bee')
         .primaryColor('#9a9da1')
         .secondaryColor('#4f4647')
-        
+        .flowerBlock('replication:replica_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "replication:replica_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "replication:replica_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.2, item: { item: "replication:raw_replica" }, max: 5, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.2, item: { item: "replication:raw_replica" }, max: 20, min: 1 }])
         .register();
 
     BeeBuilder('etherium_ingot', 'Etherium Bee')
         .primaryColor('#546173')
         .secondaryColor('#333544')
-        
+        .flowerBlock('eternalores:etherium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:etherium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:etherium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.5, item: { item: "eternalores:etherium_nugget" }, max: 15, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 0.5, item: { item: "eternalores:etherium_nugget" }, max: 60, min: 12 }])
         .register();
 
     BeeBuilder('eternal_dark_ingot', 'Eternal Dark Bee')
         .primaryColor('#9e96d0')
         .secondaryColor('#5b4a80')
-        
+        .flowerBlock('eternalores:eternal_dark_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:eternal_dark_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:eternal_dark_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:eternal_dark_nugget" }, max: 12, min: 9 }])
+        .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:eternal_dark_nugget" }, max: 48, min: 9 }])
         .register();
 
     BeeBuilder('eternal_light_ingot', 'Eternal Light Bee')
         .primaryColor('#f9f9f9')
         .secondaryColor('#130b0c')
-        
+        .flowerBlock('eternalores:eternal_light_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:eternal_light_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:eternal_light_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:eternal_light_nugget" }, max: 12, min: 9 }])
+        .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:eternal_light_nugget" }, max: 48, min: 9 }])
         .register();
 
     BeeBuilder('britannia_silver_ingot', 'Britannia Silver Bee')
         .primaryColor('#cacdce')
         .secondaryColor('#7a7a7c')
-        
+        .flowerBlock('eternalores:britannia_silver_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:britannia_silver_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:britannia_silver_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.75, item: { item: "eternalores:britannia_silver_nugget" }, max: 28, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 0.75, item: { item: "eternalores:britannia_silver_nugget" }, max: 112, min: 12 }])
         .register();
 
     BeeBuilder('cast_iron_ingot', 'Cast Iron Bee')
         .primaryColor('#d4d4d4')
         .secondaryColor('#6b6d70')
-        
+        .flowerBlock('eternalores:cast_iron_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cast_iron_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cast_iron_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cast_iron_nugget" }, max: 18, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cast_iron_nugget" }, max: 72, min: 12 }])
         .register();
 
     BeeBuilder('cast_steel_ingot', 'Cast Steel Bee')
         .primaryColor('#758698')
         .secondaryColor('#374651')
-        
+        .flowerBlock('eternalores:cast_steel_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cast_steel_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cast_steel_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cast_steel_nugget" }, max: 17, min: 13 }])
+        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cast_steel_nugget" }, max: 68, min: 13 }])
         .register();
 
     BeeBuilder('catalyrium_ingot', 'Catalyrium Bee')
         .primaryColor('#717473')
         .secondaryColor('#3f403f')
-        
+        .flowerBlock('eternalores:catalyrium_block')
         .size(6)
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:catalyrium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:catalyrium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.05, item: { item: "eternalores:raw_catalyrium" }, max: 2, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.05, item: { item: "eternalores:raw_catalyrium" }, max: 8, min: 1 }])
         .register();
 
     BeeBuilder('cosmic_matter_ingot', 'Cosmic Matter Bee')
         .primaryColor('#000000')
         .secondaryColor('#ffffff')
-        
+        .flowerBlock('eternalores:cosmic_matter_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cosmic_matter_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cosmic_matter_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.15, item: { item: "eternalores:cosmic_matter_nugget" }, max: 12, min: 5 }])
+        .centrifugeHoneycomb([{ chance: 0.15, item: { item: "eternalores:cosmic_matter_nugget" }, max: 48, min: 5 }])
         .register();
 
     BeeBuilder('eternity_ingot', 'Eternity Bee')
         .primaryColor('#e796a5')
         .secondaryColor('#42141b')
-        
+        .flowerBlock('eternalores:eternity_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:eternity_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:eternity_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.15, item: { item: "eternalores:eternity_nugget" }, max: 9, min: 5 }])
+        .centrifugeHoneycomb([{ chance: 0.15, item: { item: "eternalores:eternity_nugget" }, max: 36, min: 5 }])
         .register();
 
     BeeBuilder('missing_ingot', 'Missing Bee')
         .primaryColor('#fc00cf')
         .secondaryColor('#000000')
-        
+        .flowerBlock('eternalores:missing_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:missing_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:missing_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:missing_ingot" }, max: 2, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:missing_ingot" }, max: 8, min: 1 }])
         .register();
 
     BeeBuilder('modularium_ingot', 'Modularium Bee')
         .primaryColor('#ce3f09')
         .secondaryColor('#5e1a06')
-        
+        .flowerBlock('eternalores:modularium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:modularium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:modularium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.55, item: { item: "eternalores:modularium_nugget" }, max: 6, min: 2 }])
+        .centrifugeHoneycomb([{ chance: 0.55, item: { item: "eternalores:modularium_nugget" }, max: 24, min: 2 }])
         .register();
 
     BeeBuilder('neodymium_ingot', 'Neodymium Bee')
         .primaryColor('#a0788f')
         .secondaryColor('#4d3040')
-        
+        .flowerBlock('eternalores:neodymium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:neodymium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:neodymium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:raw_neodymium" }, max: 7, min: 3 }])
+        .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:raw_neodymium" }, max: 28, min: 3 }])
         .register();
 
     BeeBuilder('neptunium_ingot', 'Neptunium Bee')
         .primaryColor('#88b29d')
         .secondaryColor('#43604f')
-        
+        .flowerBlock('eternalores:neptunium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:neptunium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:neptunium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.2, item: { item: "eternalores:neptunium_nugget" }, max: 3, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.2, item: { item: "eternalores:neptunium_nugget" }, max: 12, min: 1 }])
         .register();
 
     BeeBuilder('nethersteel_ingot', 'Nethersteel Bee')
         .primaryColor('#c74648')
         .secondaryColor('#531519')
-        
+        .flowerBlock('eternalores:nethersteel_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:nethersteel_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:nethersteel_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:nethersteel_nugget" }, max: 3, min: 2 }])
+        .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:nethersteel_nugget" }, max: 12, min: 2 }])
         .register();
 
     BeeBuilder('pewter_ingot', 'Pewter Bee')
         .primaryColor('#757b77')
         .secondaryColor('#3d4c44')
-        
+        .flowerBlock('eternalores:pewter_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:pewter_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:pewter_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:raw_pewter" }, max: 7, min: 3 }])
+        .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:raw_pewter" }, max: 28, min: 3 }])
         .register();
 
     BeeBuilder('plutonium_ingot', 'Plutonium Bee')
         .primaryColor('#e8d0c8')
         .secondaryColor('#88674c')
-        
+        .flowerBlock('eternalores:plutonium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:plutonium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:plutonium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.35, item: { item: "eternalores:plutonium_nugget" }, max: 6, min: 4 }])
+        .centrifugeHoneycomb([{ chance: 0.35, item: { item: "eternalores:plutonium_nugget" }, max: 24, min: 4 }])
         .register();
 
     BeeBuilder('quartz_enriched_copper_ingot', 'Quartz Enriched Copper Bee')
         .primaryColor('#e28e6c')
         .secondaryColor('#823b21')
-        
+        .flowerBlock('eternalores:quartz_enriched_copper_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:quartz_enriched_copper_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:quartz_enriched_copper_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:quartz_enriched_copper_nugget" }, max: 25, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:quartz_enriched_copper_nugget" }, max: 100, min: 12 }])
         .register();
 
     BeeBuilder('sculkite_ingot', 'Sculkite Bee')
         .primaryColor('#084f55')
         .secondaryColor('#f17256')
-        
+        .flowerBlock('eternalores:sculkite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:sculkite_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:sculkite_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.2, item: { item: "eternalores:raw_sculkite" }, max: 4, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.2, item: { item: "eternalores:raw_sculkite" }, max: 16, min: 1 }])
         .register();
 
     BeeBuilder('shadowsteel_ingot', 'Shadowsteel Bee')
         .primaryColor('#070509')
         .secondaryColor('#3c2f48')
-        
+        .flowerBlock('eternalores:shadowsteel_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:shadowsteel_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:shadowsteel_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.6, item: { item: "eternalores:shadowsteel_nugget" }, max: 20, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 0.6, item: { item: "eternalores:shadowsteel_nugget" }, max: 80, min: 12 }])
         .register();
 
     BeeBuilder('silicon_ingot', 'Silicon Bee')
         .primaryColor('#595583')
         .secondaryColor('#25111d')
-        
+        .flowerBlock('eternalores:silicon_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:silicon_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:silicon_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.4, item: { item: "eternalores:silicon_nugget" }, max: 30, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 0.4, item: { item: "eternalores:silicon_nugget" }, max: 120, min: 12 }])
         .register();
 
     BeeBuilder('ultimatitanium_ingot', 'Ultimatitanium Bee')
         .primaryColor('#9265ad')
         .secondaryColor('#42214c')
-        
+        .flowerBlock('eternalores:ultimatitanium_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:ultimatitanium_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:ultimatitanium_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:raw_ultimatitanium" }, max: 5, min: 2 }])
+        .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:raw_ultimatitanium" }, max: 20, min: 2 }])
         .register();
 
     BeeBuilder('wrought_iron_ingot', 'Wrought Iron Bee')
         .primaryColor('#a7a793')
         .secondaryColor('#5a573f')
-        
+        .flowerBlock('eternalores:wrought_iron_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:wrought_iron_ingot" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:wrought_iron_ingot" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:wrought_iron_nugget" }, max: 18, min: 9 }])
+        .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:wrought_iron_nugget" }, max: 72, min: 9 }])
         .register();
 
     BeeBuilder('biomass', 'Biomass Bee')
         .primaryColor('#65621f')
         .secondaryColor('#241f08')
-        
+        .flowerBlock('eternalores:biomass_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:biomass" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:biomass" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:biomass" }, max: 35, min: 12 }])
+        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:biomass" }, max: 140, min: 12 }])
         .register();
 
     BeeBuilder('gem_obsidian', 'Obsidian Gem Bee')
         .primaryColor('#8057cb')
         .secondaryColor('#1c0846')
-        
+        .flowerBlock('eternalores:obsidian_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_obsidian" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_obsidian" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_obsidian" }, max: 3, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_obsidian" }, max: 12, min: 1 }])
         .register();
 
     BeeBuilder('gem_pyrolite', 'Pyrolite Gem Bee')
         .primaryColor('#ba4a2a')
         .secondaryColor('#fce4bc')
-        
+        .flowerBlock('eternalores:pyrolite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_pyrolite" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_pyrolite" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_pyrolite" }, max: 5, min: 2 }])
+        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_pyrolite" }, max: 20, min: 2 }])
         .register();
 
     BeeBuilder('gem_quantiquarite', 'Quantiquarite Gem Bee')
         .primaryColor('#847999')
         .secondaryColor('#15201f')
-        
+        .flowerBlock('eternalores:quantiquarite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_quantiquarite" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_quantiquarite" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.35, item: { item: "eternalores:gem_quantiquarite" }, max: 6, min: 4 }])
+        .centrifugeHoneycomb([{ chance: 0.35, item: { item: "eternalores:gem_quantiquarite" }, max: 24, min: 4 }])
         .register();
 
     BeeBuilder('gem_sanguis_vivus', 'Sanguis Vivus Gem Bee')
         .primaryColor('#c0000d')
         .secondaryColor('#5f0010')
-        
+        .flowerBlock('eternalores:sanguis_vivus_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_sanguis_vivus" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_sanguis_vivus" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.19, item: { item: "eternalores:gem_sanguis_vivus" }, max: 1, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.19, item: { item: "eternalores:gem_sanguis_vivus" }, max: 4, min: 1 }])
         .register();
 
     BeeBuilder('gem_spectral_sky_bluerite', 'Spectral Sky Bluerite Gem Bee')
         .primaryColor('#a2ebed')
         .secondaryColor('#299484')
-        
+        .flowerBlock('eternalores:spectral_sky_bluerite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_spectral_sky_bluerite" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_spectral_sky_bluerite" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.5, item: { item: "eternalores:gem_spectral_sky_bluerite" }, max: 1, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.5, item: { item: "eternalores:gem_spectral_sky_bluerite" }, max: 4, min: 1 }])
         .register();
 
     BeeBuilder('gem_voiderite', 'Voiderite Gem Bee')
         .primaryColor('#826bda')
         .secondaryColor('#261143')
-        
+        .flowerBlock('eternalores:voiderite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_voiderite" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_voiderite" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:gem_voiderite" }, max: 1, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:gem_voiderite" }, max: 4, min: 1 }])
         .register();
 
     BeeBuilder('antimatter_pellet', 'Antimatter Pellet Bee')
         .primaryColor('#b571bf')
         .secondaryColor('#45224f')
-        
+        .flowerBlock('eternalores:antimatter_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:antimatter_pellet" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:antimatter_pellet" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:antimatter_pellet" }, max: 1, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:antimatter_pellet" }, max: 4, min: 1 }])
         .register();
 
     BeeBuilder('exotic_matter_pellet', 'Exotic Matter Pellet Bee')
         .primaryColor('#b3b18f')
         .secondaryColor('#3b3231')
-        
+        .flowerBlock('eternalores:exotic_matter_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:exotic_matter_pellet" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:exotic_matter_pellet" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:exotic_matter_pellet" }, max: 1, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:exotic_matter_pellet" }, max: 4, min: 1 }])
         .register();
 
     BeeBuilder('strange_matter_pellet', 'Strange Matter Pellet Bee')
         .primaryColor('#9cc29b')
         .secondaryColor('#2b6a22')
-        
+        .flowerBlock('eternalores:strange_matter_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:strange_matter_pellet" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:strange_matter_pellet" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:strange_matter_pellet" }, max: 1, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:strange_matter_pellet" }, max: 4, min: 1 }])
         .register();
 
     BeeBuilder('gem_necroticarite', 'Necroticarite Gem Bee')
         .primaryColor('#53017c')
         .secondaryColor('#26033e')
+        .flowerBlock('eternalores:necroticarite_block')
         .produce()
-        .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_necroticarite" }, max: 1, min: 1 }])
-        .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_necroticarite" }, max: 4, min: 1 }])
+        .centrifugeComb([{ chance: 0.4, item: { item: "eternalores:gem_necroticarite" }, max: 2, min: 1 }])
+        .centrifugeHoneycomb([{ chance: 0.4, item: { item: "eternalores:gem_necroticarite" }, max: 8, min: 1 }])
         .register();
 
     console.log("[CatJS] Added Custom bees!");
