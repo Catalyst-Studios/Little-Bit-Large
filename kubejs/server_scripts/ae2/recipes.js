@@ -234,6 +234,12 @@ ServerEvents.recipes(catalyst => {
         }
     }).id("ae2:inscriber/calculation_processor_print")
 
+    catalyst.shapeless(Item.of('extendedae:entro_budding_fully', 1), [
+        'eternalores:fluix_crystal_block',
+        'extendedae:entro_seed'
+    ])
+    .id("catalyst:entro_budding_fully");
+
     console.log("[CatJS] Added AE2 recipes")
 });
 
