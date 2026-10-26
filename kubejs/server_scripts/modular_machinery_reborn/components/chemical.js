@@ -29,8 +29,8 @@ ServerEvents.recipes(catalyst => {
             'ACA'
         ],
         {
-            A: 'eternalores:plate_biosteel',
-            B: 'eternalores:plate_cast_iron',
+            B: 'eternalores:plate_biosteel',
+            A: 'eternalores:plate_cast_iron',
             C: 'pipez:gas_pipe',
             D: 'pipez:gas_pipe',
             E: 'eternalores:biosteel_foil',

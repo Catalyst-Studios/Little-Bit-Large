@@ -236,7 +236,7 @@ ServerEvents.recipes(catalyst => {
                 { id: "eternalores:gem_sanguis_vivus", count: 1, chance: 0.25 }
             ],
             inputs: [
-                { id: "minecraft:diamond", count: 16, chance: 1.0 },
+                { id: "minecraft:gold_ingot", count: 16, chance: 1.0 },
                 { id: "evilcraft:promise_tier_1", count: 1, chance: 0.0 }
             ],
             fluid_input: [{ id: "catalystcore:liquid_blood", amount: 1000 }],
