@@ -287,11 +287,11 @@ ServerEvents.recipes(catalyst => {
     console.log("[CatJS] Added Beacon effects recipes");
 })
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:personal_beacon", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:personal_beacon", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.personal_beacon.item"))
 
-    event.create("mmr:personal_beacon", 'gui')
+    catalyst.create("mmr:personal_beacon", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.personal_beacon.gui"))
 })
 
@@ -314,21 +314,21 @@ function getTargetPlayerName(machine)
     return null;
 }
 
-MMREvents.recipeFunction("beacon_start", event => {
-    let targetName = getTargetPlayerName(event.machine);
+MMREvents.recipeFunction("beacon_start", catalyst => {
+    let targetName = getTargetPlayerName(catalyst.machine);
 
     if(!targetName || skip.includes(targetName))
     {
-        return event.error("There is an invalid name (@a, @e, @n, @p, @r, @s) or no name on name tag");
+        return catalyst.error("There is an invalid name (@a, @e, @n, @p, @r, @s) or no name on name tag");
     }
 
 });
 
-MMREvents.recipeFunction("beacon_tick", event => {
-    let machine = event.machine;
-    let level = event.getBlock().getLevel();
+MMREvents.recipeFunction("beacon_tick", catalyst => {
+    let machine = catalyst.machine;
+    let level = catalyst.getBlock().getLevel();
     let server = level.server;
-    let effectId = event.get(0);
+    let effectId = catalyst.get(0);
 
     let currentTargetName = getTargetPlayerName(machine);
     if(!currentTargetName || skip.includes(currentTargetName))
@@ -351,11 +351,11 @@ MMREvents.recipeFunction("beacon_tick", event => {
     }
 });
 
-MMREvents.recipeFunction("beacon_end", event => {
-    let machine = event.machine;
-    let level = event.getBlock().getLevel();
+MMREvents.recipeFunction("beacon_end", catalyst => {
+    let machine = catalyst.machine;
+    let level = catalyst.getBlock().getLevel();
     let server = level.server;
-    let effectId = event.get(0);
+    let effectId = catalyst.get(0);
 
     let targetName = getTargetPlayerName(machine);
     if(!targetName || skip.includes(targetName))

@@ -493,35 +493,35 @@ ServerEvents.recipes(catalyst => {
 
 });
 
-MMREvents.extraTooltips(event => {
+MMREvents.extraTooltips(catalyst => {
   // Primitive Furnace
-  event.create("mmr:primitive_furnace", 'item')
+  catalyst.create("mmr:primitive_furnace", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_furnace.item"))
-  event.create("mmr:primitive_furnace", 'gui')
+  catalyst.create("mmr:primitive_furnace", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_furnace.gui"))
 
   // Nether Furnace
-  event.create("mmr:nether_furnace", 'item')
+  catalyst.create("mmr:nether_furnace", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.nether_furnace.item"))
-  event.create("mmr:nether_furnace", 'gui')
+  catalyst.create("mmr:nether_furnace", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.nether_furnace.gui"))
 
   // End Furnace
-  event.create("mmr:end_furnace", 'item')
+  catalyst.create("mmr:end_furnace", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.end_furnace.item"))
-  event.create("mmr:end_furnace", 'gui')
+  catalyst.create("mmr:end_furnace", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.end_furnace.gui"))
 
   // Multismelter (16 recetas)
-  event.create("mmr:multismelter", 'item')
+  catalyst.create("mmr:multismelter", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.multismelter.item"))
-  event.create("mmr:multismelter", 'gui')
+  catalyst.create("mmr:multismelter", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.multismelter.gui"))
 
   // Advanced Multismelter
-  event.create("mmr:advanced_multismelter", 'item')
+  catalyst.create("mmr:advanced_multismelter", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_multismelter.item"))
-  event.create("mmr:advanced_multismelter", 'gui')
+  catalyst.create("mmr:advanced_multismelter", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_multismelter.gui"))
 })
 

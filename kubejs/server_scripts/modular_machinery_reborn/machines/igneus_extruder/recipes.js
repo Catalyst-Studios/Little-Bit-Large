@@ -120,34 +120,34 @@ ServerEvents.recipes(catalyst => {
     console.log("[CatJS] Finished Igneous Extruder recipes")
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:primitive_extruder", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:primitive_extruder", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_extruder.item.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_extruder.item.2"))
 
-    event.create("mmr:primitive_extruder", 'gui')
+    catalyst.create("mmr:primitive_extruder", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_extruder.gui.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_extruder.gui.2"))
 })
 
-MMREvents.recipeFunction("mining_start", event => {
-    let level = event.getTile().getLevel();
-    let pos = event.getTile().getBlockPos().below(2);
+MMREvents.recipeFunction("mining_start", catalyst => {
+    let level = catalyst.getTile().getLevel();
+    let pos = catalyst.getTile().getBlockPos().below(2);
     let blockId = level.getBlockState(pos).getBlock().id;
 
     let exists = MINING_BLOCKS.some(e => e[0] === blockId);
 
     if(!exists)
     {
-        event.error("Error: There is no valid block below!");
+        catalyst.error("Error: There is no valid block below!");
     }
 });
 
-MMREvents.recipeFunction("mining_end", event => {
-    let level = event.getTile().getLevel();
-    let pos = event.getTile().getBlockPos().below(2);
+MMREvents.recipeFunction("mining_end", catalyst => {
+    let level = catalyst.getTile().getLevel();
+    let pos = catalyst.getTile().getBlockPos().below(2);
     let blockId = level.getBlockState(pos).getBlock().id;
-    let machine = event.machine;
+    let machine = catalyst.machine;
     let entry = MINING_BLOCKS.find(e => e[0] === blockId);
 
     if(entry)
@@ -165,7 +165,7 @@ MMREvents.recipeFunction("mining_end", event => {
     }
     else
     {
-        event.error("Error: Block removed!");
+        catalyst.error("Error: Block removed!");
     }
 });
 

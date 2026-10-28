@@ -3,7 +3,7 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(catalyst => {
     let machine_id = "mmr:greenhouse";
     
     let inputSlot = { x: 19, y: 19 };
@@ -1233,7 +1233,7 @@ ServerEvents.recipes(event => {
         i++;
         let totalEnergy = crop.energyPerTick * crop.time;
 
-        let recipe = event.recipes.modular_machinery_reborn.machine_recipe(machine_id, crop.time)
+        let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe(machine_id, crop.time)
             .width(140)
             .height(80)
             .progressData(ProgressData.create().x(progressArrow.x).y(progressArrow.y));

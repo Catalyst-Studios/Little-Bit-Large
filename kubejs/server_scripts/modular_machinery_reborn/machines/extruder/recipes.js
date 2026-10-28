@@ -169,11 +169,11 @@ ServerEvents.recipes(catalyst => {
     console.log(`[CatJS] Finished extruder recipes (${recipe_counter} total)`)
 })
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:extruder", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:extruder", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.extruder.item"))
 
-    event.create("mmr:extruder", 'gui')
+    catalyst.create("mmr:extruder", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.extruder.gui"))
 })
 /* 

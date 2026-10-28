@@ -19,12 +19,12 @@ ServerEvents.recipes(catalyst => {
     console.log("[CatJS] Finished Primitive Apiary recipes")
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:primitive_apiary", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:primitive_apiary", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_apiary.item.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_apiary.item.2"))
 
-    event.create("mmr:primitive_apiary", 'gui')
+    catalyst.create("mmr:primitive_apiary", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_apiary.gui.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_apiary.gui.2"))
 })

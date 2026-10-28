@@ -409,15 +409,15 @@ ServerEvents.recipes(catalyst => {
     console.log("[CatJS] Finished centrifuges recipes")
 })
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:advanced_apiary", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:advanced_apiary", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.item.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.item.2"))
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.item.3"))
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.item.4"))
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.item.5"))
 
-    event.create("mmr:advanced_apiary", 'gui')
+    catalyst.create("mmr:advanced_apiary", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.gui.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.gui.2"))
     .add(Component.translatable("catalyst.mmr.tooltip.advanced_apiary.gui.3"))

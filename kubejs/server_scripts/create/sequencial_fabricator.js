@@ -84,7 +84,7 @@ ServerEvents.recipes(catalyst => {
         }
     }
 
-    const SequencedAssemblyBuilder = (event) => {
+    const SequencedAssemblyBuilder = (catalyst) => {
         let _ingredient = {}
         let _transitionalItem = 'minecraft:stone'
         let _loops = 1
@@ -160,7 +160,7 @@ ServerEvents.recipes(catalyst => {
                     finalId = `catalyst:create/sequencial_assembly/${inName}_${_loops}_${transName}_${outName}`
                 }
 
-                event.custom({
+                catalyst.custom({
                     type: "create:sequenced_assembly",
                     ingredient: _ingredient,
                     transitional_item: { 

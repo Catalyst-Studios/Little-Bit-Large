@@ -70,8 +70,8 @@ ServerEvents.recipes(catalyst => {
     console.log("[CatJS] Geode multi recipe added (JEI Fake Cross + Real Hidden)");
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:geo_syntex", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:geo_syntex", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.item.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.item.2"))
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.item.3"))
@@ -79,7 +79,7 @@ MMREvents.extraTooltips(event => {
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.item.5"))
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.item.6"))
 
-    event.create("mmr:geo_syntex", 'gui')
+    catalyst.create("mmr:geo_syntex", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.gui.1"))
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.gui.2"))
     .add(Component.translatable("catalyst.mmr.tooltip.geo_syntex.gui.3"))

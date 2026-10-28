@@ -55,7 +55,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
   "megacells:sky_osmium_ingot"
 ]*/
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(catalyst => {
     const machine_id = "mmr:primitive_alloy";
     const base_time = 400;
 
@@ -616,7 +616,7 @@ ServerEvents.recipes(event => {
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].forEach(parallel => {
             i++;
 
-            let recipe = event.recipes.modular_machinery_reborn.machine_recipe(machine_id, base_time)
+            let recipe = catalyst.recipes.modular_machinery_reborn.machine_recipe(machine_id, base_time)
                 .width(110)
                 .height(60)
                 .progressData(ProgressData.create().x(64).y(23))
@@ -665,11 +665,11 @@ ServerEvents.recipes(event => {
     console.log("[CatJS] Finished Alloy Maker recipes")
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:primitive_alloy", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:primitive_alloy", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_alloy.item"))
 
-    event.create("mmr:primitive_alloy", 'gui')
+    catalyst.create("mmr:primitive_alloy", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.primitive_alloy.gui"))
 })
 

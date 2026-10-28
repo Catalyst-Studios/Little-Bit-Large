@@ -50,11 +50,11 @@ ServerEvents.recipes(catalyst => {
     console.log("[CatJS] Finished Head Drill multi recipes")
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:drill_miner", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:drill_miner", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.drill_miner.item"))
 
-    event.create("mmr:drill_miner", 'gui')
+    catalyst.create("mmr:drill_miner", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.drill_miner.gui"))
 })
 

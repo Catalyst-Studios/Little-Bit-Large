@@ -293,11 +293,11 @@ ServerEvents.recipes(catalyst => {
     */
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:data_extractor", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:data_extractor", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.data_extractor.item"))
 
-    event.create("mmr:data_extractor", 'gui')
+    catalyst.create("mmr:data_extractor", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.data_extractor.gui"))
 })
 

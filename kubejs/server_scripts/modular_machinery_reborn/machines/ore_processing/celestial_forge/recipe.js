@@ -430,17 +430,17 @@ ServerEvents.recipes(catalyst => {
 
 });
 
-MMREvents.extraTooltips(event => {
-    event.create("mmr:celestial_forge", 'item')
+MMREvents.extraTooltips(catalyst => {
+    catalyst.create("mmr:celestial_forge", 'item')
     .add(Component.translatable("catalyst.mmr.tooltip.celestial_forge.item"))
 
-    event.create("mmr:celestial_forge", 'gui')
+    catalyst.create("mmr:celestial_forge", 'gui')
     .add(Component.translatable("catalyst.mmr.tooltip.celestial_forge.gui"))
 })
 
-MMREvents.recipeFunction("celestial_end", event => {
-    let rolls = event.get(0);
-    let machine = event.machine;
+MMREvents.recipeFunction("celestial_end", catalyst => {
+    let rolls = catalyst.get(0);
+    let machine = catalyst.machine;
 
     for(let i = 0; i < rolls; i++)
     {

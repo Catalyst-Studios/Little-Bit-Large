@@ -2,7 +2,7 @@
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
-ServerEvents.generateData('after_mods', event => {
+ServerEvents.generateData('after_mods', catalyst => {
 
     /**
      * @typedef {Object} BeeAttributes
@@ -40,7 +40,11 @@ ServerEvents.generateData('after_mods', event => {
         /** @type {string} */
         let _secondaryColor = "#ffffff";
         /** @type {string|null} */
+        let _tertiaryColor = null;
+        /** @type {string|null} */
         let _particleColor = null;
+        /** @type {string|null} */
+        let _particleType = null;
         /** @type {string|null} */
         let _description = null;
         /** @type {string|null} */
@@ -54,9 +58,39 @@ ServerEvents.generateData('after_mods', event => {
         /** @type {string|null} */
         let _flowerBlock = null;
         /** @type {string|null} */
+        let _flowerFluid = null;
+        /** @type {string|null} */
+        let _flowerItem = null;
+        /** @type {string|null} */
+        let _flowerType = null;
+        /** @type {string|null} */
         let _nestingPreference = null;
+        /** @type {string|null} */
+        let _postPollination = null;
+        /** @type {string|null} */
+        let _model = null;
+        /** @type {string|null} */
+        let _animation = null;
+        /** @type {string|null} */
+        let _breedingItem = null;
+        /** @type {number|null} */
+        let _breedingItemCount = null;
+        /** @type {string|null} */
+        let _renderTransform = null;
         /** @type {number} */
         let _size = 1.0;
+        /** @type {number|null} */
+        let _pollinatedSize = null;
+        /** @type {number|null} */
+        let _speed = null;
+        /** @type {number|null} */
+        let _attack = null;
+        /** @type {boolean} */
+        let _colorCycle = false;
+        /** @type {boolean} */
+        let _useGlowLayer = false;
+
+        // Trait Booleans
         /** @type {boolean} */
         let _teleporting = false;
         /** @type {boolean} */
@@ -75,6 +109,23 @@ ServerEvents.generateData('after_mods', event => {
         let _blinding = false;
         /** @type {boolean} */
         let _munchies = false;
+        /** @type {boolean|null} */
+        let _selfbreed = null;
+        /** @type {boolean} */
+        let _selfheal = false;
+        /** @type {boolean} */
+        let _stringy = false;
+        /** @type {boolean} */
+        let _stingless = false;
+        /** @type {boolean} */
+        let _waterproof = false;
+        /** @type {boolean} */
+        let _coldResistant = false;
+        /** @type {boolean} */
+        let _irradiated = false;
+
+        /** @type {Array<string>} */
+        let _invulnerability = [];
         /** @type {string|null} */
         let _renderer = null;
         /** @type {Array<Object>} */
@@ -148,11 +199,28 @@ ServerEvents.generateData('after_mods', event => {
             /** @param {string} f - Flower tag required for pollination */
             flowerTag: function(f) { _flowerTag = f; return this; },
             flowerBlock: function(f) { _flowerBlock = f; return this; },
-            /** @param {string} n - Nesting preference block/tag */
+            flowerFluid: function(f) { _flowerFluid = f; return this; },
+            flowerItem: function(f) { _flowerItem = f; return this; },
+            flowerType: function(ft) { _flowerType = ft; return this; },
             nestingPreference: function(n) { _nestingPreference = n; return this; },
-            /** @param {number} s - Bee model scale factor */
+            postPollination: function(p) { _postPollination = p; return this; },
+            model: function(m) { _model = m; return this; },
+            animation: function(a) { _animation = a; return this; },
+            breedingItem: function(item, count) { 
+                _breedingItem = item; 
+                if (count !== undefined) _breedingItemCount = count;
+                return this; 
+            },
+            breedingItemCount: function(c) { _breedingItemCount = c; return this; },
+            renderTransform: function(rt) { _renderTransform = rt; return this; },
             size: function(s) { _size = s; return this; },
-            /** @param {boolean} [v=true] - Enable teleporting trait */
+            pollinatedSize: function(s) { _pollinatedSize = s; return this; },
+            speed: function(sp) { _speed = sp; return this; },
+            attack: function(at) { _attack = at; return this; },
+            colorCycle: function(v) { _colorCycle = v !== undefined ? v : true; return this; },
+            useGlowLayer: function(v) { _useGlowLayer = v !== undefined ? v : true; return this; },
+
+            // Traits
             teleporting: function(v) { _teleporting = v !== undefined ? v : true; return this; },
             /** @param {boolean} [v=true] - Enable translucent model rendering */
             translucent: function(v) { _translucent = v !== undefined ? v : true; return this; },
@@ -170,7 +238,18 @@ ServerEvents.generateData('after_mods', event => {
             blinding: function(v) { _blinding = v !== undefined ? v : true; return this; },
             /** @param {boolean} [v=true] - Enable munchies trait */
             munchies: function(v) { _munchies = v !== undefined ? v : true; return this; },
-            /** @param {string} r - Custom bee entity renderer */
+            selfbreed: function(sb) { _selfbreed = sb !== undefined ? sb : true; return this; },
+            selfheal: function(sh) { _selfheal = sh !== undefined ? sh : true; return this; },
+            stringy: function(v) { _stringy = v !== undefined ? v : true; return this; },
+            stingless: function(v) { _stingless = v !== undefined ? v : true; return this; },
+            waterproof: function(v) { _waterproof = v !== undefined ? v : true; return this; },
+            coldResistant: function(v) { _coldResistant = v !== undefined ? v : true; return this; },
+            irradiated: function(v) { _irradiated = v !== undefined ? v : true; return this; },
+            
+            invulnerability: function(inv) { 
+                _invulnerability = Array.isArray(inv) ? inv : [inv]; 
+                return this; 
+            },
             renderer: function(r) { _renderer = r; return this; },
 
             /**
@@ -298,15 +377,36 @@ ServerEvents.generateData('after_mods', event => {
                     size: _size
                 };
 
+                if (_tertiaryColor) beeJson.tertiaryColor = _tertiaryColor;
                 if (_beeTexture) beeJson.beeTexture = _beeTexture;
                 if (_renderer) beeJson.renderer = _renderer;
                 if (_attributes !== null) beeJson.attributes = _attributes;
                 if (_particleColor) beeJson.particleColor = _particleColor;
+                if (_particleType) beeJson.particleType = _particleType;
                 if (_description) beeJson.description = _description;
                 if (_attackResponse) beeJson.attackResponse = _attackResponse;
-                if (_flowerBlock && !_flowerTag) beeJson.flowerBlock = _flowerBlock
-                if (_flowerTag) beeJson.flowerTag = _flowerTag;
                 if (_nestingPreference) beeJson.nestingPreference = _nestingPreference;
+
+                // Flower configurations
+                if (_flowerTag) beeJson.flowerTag = _flowerTag;
+                if (_flowerBlock) beeJson.flowerBlock = _flowerBlock;
+                if (_flowerFluid) beeJson.flowerFluid = _flowerFluid;
+                if (_flowerItem) beeJson.flowerItem = _flowerItem;
+                if (_flowerType) beeJson.flowerType = _flowerType;
+
+                if (_postPollination) beeJson.postPollination = _postPollination;
+                if (_model) beeJson.model = _model;
+                if (_animation) beeJson.animation = _animation;
+                if (_breedingItem) beeJson.breedingItem = _breedingItem;
+                if (_breedingItemCount !== null) beeJson.breedingItemCount = _breedingItemCount;
+                if (_renderTransform) beeJson.renderTransform = _renderTransform;
+                if (_pollinatedSize !== null) beeJson.pollinatedSize = _pollinatedSize;
+                if (_speed !== null) beeJson.speed = _speed;
+                if (_attack !== null) beeJson.attack = _attack;
+                if (_colorCycle) beeJson.colorCycle = _colorCycle;
+                if (_useGlowLayer) beeJson.useGlowLayer = _useGlowLayer;
+
+                // Traits
                 if (_teleporting) beeJson.teleporting = _teleporting;
                 if (_translucent) beeJson.translucent = _translucent;
                 if (_redstoned) beeJson.redstoned = _redstoned;
@@ -316,15 +416,24 @@ ServerEvents.generateData('after_mods', event => {
                 if (_withered) beeJson.withered = _withered;
                 if (_blinding) beeJson.blinding = _blinding;
                 if (_munchies) beeJson.munchies = _munchies;
+                if (_selfbreed !== null) beeJson.selfbreed = _selfbreed;
+                if (_selfheal) beeJson.selfheal = _selfheal;
+                if (_stringy) beeJson.stringy = _stringy;
+                if (_stingless) beeJson.stingless = _stingless;
+                if (_waterproof) beeJson.waterproof = _waterproof;
+                if (_coldResistant) beeJson.coldResistant = _coldResistant;
+                if (_irradiated) beeJson.irradiated = _irradiated;
+
+                if (_invulnerability && _invulnerability.length > 0) beeJson.invulnerability = _invulnerability;
                 if (_conditions && _conditions.length > 0) beeJson.conditions = _conditions;
 
                 // 1. Bee definition JSON file
-                event.json(`productivebees:productivebees/${_id}`, beeJson);
+                catalyst.json(`productivebees:productivebees/${_id}`, beeJson);
 
                 // 2. Conversion, Breeding, and Production recipe files
-                if (_conversion) event.json(`productivebees:recipe/bee_conversion/${_id}_bee`, _conversion);
-                if (_breeding) event.json(`productivebees:recipe/bee_breeding/${_id}_bee`, _breeding);
-                if (_produce) event.json(`productivebees:recipe/bee_produce/${_id}_bee`, _produce);
+                if (_conversion) catalyst.json(`productivebees:recipe/bee_conversion/${_id}_bee`, _conversion);
+                if (_breeding) catalyst.json(`productivebees:recipe/bee_breeding/${_id}_bee`, _breeding);
+                if (_produce) catalyst.json(`productivebees:recipe/bee_produce/${_id}_bee`, _produce);
 
                 // 3. Single comb centrifuge recipe (configurable_comb)
                 if (_centrifugeComb) {
@@ -362,7 +471,7 @@ ServerEvents.generateData('after_mods', event => {
                         processingTime: _centrifugeComb.processingTime
                     };
 
-                    event.json(`productivebees:recipe/centrifuge/${_id}_comb`, combRecipe);
+                    catalyst.json(`productivebees:recipe/centrifuge/${_id}_comb`, combRecipe);
                 }
 
                 // 4. Honeycomb block centrifuge recipe (configurable_honeycomb)
@@ -401,7 +510,7 @@ ServerEvents.generateData('after_mods', event => {
                         processingTime: _centrifugeHoneycomb.processingTime
                     };
 
-                    event.json(`productivebees:recipe/centrifuge/${_id}_honeycomb`, honeycombRecipe);
+                    catalyst.json(`productivebees:recipe/centrifuge/${_id}_honeycomb`, honeycombRecipe);
                 }
             }
         };
@@ -413,6 +522,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#242b45')
         .secondaryColor('#ac320f')
         .flowerBlock('eternalores:tachyarite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:gem_tachyarite" }, max: 3, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:gem_tachyarite" }, max: 12, min: 1 }])
@@ -422,6 +533,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#caf6f1')
         .secondaryColor('#3b6c68')
         .flowerBlock('eternalores:gallium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:raw_gallium" }, max: 7, min: 3 }])
         .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:raw_gallium" }, max: 28, min: 3 }])
@@ -431,6 +544,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#9a9da1')
         .secondaryColor('#4f4647')
         .flowerBlock('replication:replica_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.2, item: { item: "replication:raw_replica" }, max: 5, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.2, item: { item: "replication:raw_replica" }, max: 20, min: 1 }])
@@ -440,6 +555,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#546173')
         .secondaryColor('#333544')
         .flowerBlock('eternalores:etherium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.5, item: { item: "eternalores:etherium_nugget" }, max: 15, min: 12 }])
         .centrifugeHoneycomb([{ chance: 0.5, item: { item: "eternalores:etherium_nugget" }, max: 60, min: 12 }])
@@ -449,6 +566,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#9e96d0')
         .secondaryColor('#5b4a80')
         .flowerBlock('eternalores:eternal_dark_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:eternal_dark_nugget" }, max: 12, min: 9 }])
         .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:eternal_dark_nugget" }, max: 48, min: 9 }])
@@ -458,6 +577,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#f9f9f9')
         .secondaryColor('#130b0c')
         .flowerBlock('eternalores:eternal_light_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:eternal_light_nugget" }, max: 12, min: 9 }])
         .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:eternal_light_nugget" }, max: 48, min: 9 }])
@@ -467,6 +588,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#cacdce')
         .secondaryColor('#7a7a7c')
         .flowerBlock('eternalores:britannia_silver_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.75, item: { item: "eternalores:britannia_silver_nugget" }, max: 28, min: 12 }])
         .centrifugeHoneycomb([{ chance: 0.75, item: { item: "eternalores:britannia_silver_nugget" }, max: 112, min: 12 }])
@@ -476,6 +599,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#d4d4d4')
         .secondaryColor('#6b6d70')
         .flowerBlock('eternalores:cast_iron_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cast_iron_nugget" }, max: 18, min: 12 }])
         .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cast_iron_nugget" }, max: 72, min: 12 }])
@@ -485,6 +610,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#758698')
         .secondaryColor('#374651')
         .flowerBlock('eternalores:cast_steel_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:cast_steel_nugget" }, max: 17, min: 13 }])
         .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:cast_steel_nugget" }, max: 68, min: 13 }])
@@ -494,6 +621,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#717473')
         .secondaryColor('#3f403f')
         .flowerBlock('eternalores:catalyrium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .size(6)
         .produce()
         .centrifugeComb([{ chance: 0.05, item: { item: "eternalores:raw_catalyrium" }, max: 2, min: 1 }])
@@ -504,6 +633,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#000000')
         .secondaryColor('#ffffff')
         .flowerBlock('eternalores:cosmic_matter_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.15, item: { item: "eternalores:cosmic_matter_nugget" }, max: 12, min: 5 }])
         .centrifugeHoneycomb([{ chance: 0.15, item: { item: "eternalores:cosmic_matter_nugget" }, max: 48, min: 5 }])
@@ -513,6 +644,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#e796a5')
         .secondaryColor('#42141b')
         .flowerBlock('eternalores:eternity_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.15, item: { item: "eternalores:eternity_nugget" }, max: 9, min: 5 }])
         .centrifugeHoneycomb([{ chance: 0.15, item: { item: "eternalores:eternity_nugget" }, max: 36, min: 5 }])
@@ -521,7 +654,9 @@ ServerEvents.generateData('after_mods', event => {
     BeeBuilder('missing_ingot', 'Missing Bee')
         .primaryColor('#fc00cf')
         .secondaryColor('#000000')
-        .flowerBlock('eternalores:missing_block')
+        .flowerItem('eternalores:missing_ingot')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:missing_ingot" }, max: 2, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:missing_ingot" }, max: 8, min: 1 }])
@@ -531,6 +666,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#ce3f09')
         .secondaryColor('#5e1a06')
         .flowerBlock('eternalores:modularium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.55, item: { item: "eternalores:modularium_nugget" }, max: 6, min: 2 }])
         .centrifugeHoneycomb([{ chance: 0.55, item: { item: "eternalores:modularium_nugget" }, max: 24, min: 2 }])
@@ -540,6 +677,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#a0788f')
         .secondaryColor('#4d3040')
         .flowerBlock('eternalores:neodymium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:raw_neodymium" }, max: 7, min: 3 }])
         .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:raw_neodymium" }, max: 28, min: 3 }])
@@ -549,6 +688,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#88b29d')
         .secondaryColor('#43604f')
         .flowerBlock('eternalores:neptunium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.2, item: { item: "eternalores:neptunium_nugget" }, max: 3, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.2, item: { item: "eternalores:neptunium_nugget" }, max: 12, min: 1 }])
@@ -558,6 +699,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#c74648')
         .secondaryColor('#531519')
         .flowerBlock('eternalores:nethersteel_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:nethersteel_nugget" }, max: 3, min: 2 }])
         .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:nethersteel_nugget" }, max: 12, min: 2 }])
@@ -567,6 +710,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#757b77')
         .secondaryColor('#3d4c44')
         .flowerBlock('eternalores:pewter_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:raw_pewter" }, max: 7, min: 3 }])
         .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:raw_pewter" }, max: 28, min: 3 }])
@@ -576,6 +721,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#e8d0c8')
         .secondaryColor('#88674c')
         .flowerBlock('eternalores:plutonium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.35, item: { item: "eternalores:plutonium_nugget" }, max: 6, min: 4 }])
         .centrifugeHoneycomb([{ chance: 0.35, item: { item: "eternalores:plutonium_nugget" }, max: 24, min: 4 }])
@@ -585,6 +732,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#e28e6c')
         .secondaryColor('#823b21')
         .flowerBlock('eternalores:quartz_enriched_copper_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:quartz_enriched_copper_nugget" }, max: 25, min: 12 }])
         .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:quartz_enriched_copper_nugget" }, max: 100, min: 12 }])
@@ -594,6 +743,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#084f55')
         .secondaryColor('#f17256')
         .flowerBlock('eternalores:sculkite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.2, item: { item: "eternalores:raw_sculkite" }, max: 4, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.2, item: { item: "eternalores:raw_sculkite" }, max: 16, min: 1 }])
@@ -603,6 +754,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#070509')
         .secondaryColor('#3c2f48')
         .flowerBlock('eternalores:shadowsteel_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.6, item: { item: "eternalores:shadowsteel_nugget" }, max: 20, min: 12 }])
         .centrifugeHoneycomb([{ chance: 0.6, item: { item: "eternalores:shadowsteel_nugget" }, max: 80, min: 12 }])
@@ -612,6 +765,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#595583')
         .secondaryColor('#25111d')
         .flowerBlock('eternalores:silicon_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.4, item: { item: "eternalores:silicon_nugget" }, max: 30, min: 12 }])
         .centrifugeHoneycomb([{ chance: 0.4, item: { item: "eternalores:silicon_nugget" }, max: 120, min: 12 }])
@@ -621,6 +776,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#9265ad')
         .secondaryColor('#42214c')
         .flowerBlock('eternalores:ultimatitanium_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.3, item: { item: "eternalores:raw_ultimatitanium" }, max: 5, min: 2 }])
         .centrifugeHoneycomb([{ chance: 0.3, item: { item: "eternalores:raw_ultimatitanium" }, max: 20, min: 2 }])
@@ -630,6 +787,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#a7a793')
         .secondaryColor('#5a573f')
         .flowerBlock('eternalores:wrought_iron_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.8, item: { item: "eternalores:wrought_iron_nugget" }, max: 18, min: 9 }])
         .centrifugeHoneycomb([{ chance: 0.8, item: { item: "eternalores:wrought_iron_nugget" }, max: 72, min: 9 }])
@@ -639,6 +798,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#65621f')
         .secondaryColor('#241f08')
         .flowerBlock('eternalores:biomass_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:biomass" }, max: 35, min: 12 }])
         .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:biomass" }, max: 140, min: 12 }])
@@ -648,6 +809,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#8057cb')
         .secondaryColor('#1c0846')
         .flowerBlock('eternalores:obsidian_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_obsidian" }, max: 3, min: 1 }])
         .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_obsidian" }, max: 12, min: 1 }])
@@ -657,6 +820,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#ba4a2a')
         .secondaryColor('#fce4bc')
         .flowerBlock('eternalores:pyrolite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 1.0, item: { item: "eternalores:gem_pyrolite" }, max: 5, min: 2 }])
         .centrifugeHoneycomb([{ chance: 1.0, item: { item: "eternalores:gem_pyrolite" }, max: 20, min: 2 }])
@@ -666,6 +831,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#847999')
         .secondaryColor('#15201f')
         .flowerBlock('eternalores:quantiquarite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.35, item: { item: "eternalores:gem_quantiquarite" }, max: 6, min: 4 }])
         .centrifugeHoneycomb([{ chance: 0.35, item: { item: "eternalores:gem_quantiquarite" }, max: 24, min: 4 }])
@@ -675,6 +842,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#c0000d')
         .secondaryColor('#5f0010')
         .flowerBlock('eternalores:sanguis_vivus_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.19, item: { item: "eternalores:gem_sanguis_vivus" }, max: 1, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.19, item: { item: "eternalores:gem_sanguis_vivus" }, max: 4, min: 1 }])
@@ -684,6 +853,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#a2ebed')
         .secondaryColor('#299484')
         .flowerBlock('eternalores:spectral_sky_bluerite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.5, item: { item: "eternalores:gem_spectral_sky_bluerite" }, max: 1, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.5, item: { item: "eternalores:gem_spectral_sky_bluerite" }, max: 4, min: 1 }])
@@ -693,6 +864,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#826bda')
         .secondaryColor('#261143')
         .flowerBlock('eternalores:voiderite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:gem_voiderite" }, max: 1, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:gem_voiderite" }, max: 4, min: 1 }])
@@ -702,6 +875,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#b571bf')
         .secondaryColor('#45224f')
         .flowerBlock('eternalores:antimatter_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:antimatter_pellet" }, max: 1, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:antimatter_pellet" }, max: 4, min: 1 }])
@@ -711,6 +886,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#b3b18f')
         .secondaryColor('#3b3231')
         .flowerBlock('eternalores:exotic_matter_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:exotic_matter_pellet" }, max: 1, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:exotic_matter_pellet" }, max: 4, min: 1 }])
@@ -720,6 +897,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#9cc29b')
         .secondaryColor('#2b6a22')
         .flowerBlock('eternalores:strange_matter_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.1, item: { item: "eternalores:strange_matter_pellet" }, max: 1, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.1, item: { item: "eternalores:strange_matter_pellet" }, max: 4, min: 1 }])
@@ -729,6 +908,8 @@ ServerEvents.generateData('after_mods', event => {
         .primaryColor('#53017c')
         .secondaryColor('#26033e')
         .flowerBlock('eternalores:necroticarite_block')
+        .description("productivebees.ingredient.description.only_spawnegg")
+        .selfbreed(false)
         .produce()
         .centrifugeComb([{ chance: 0.4, item: { item: "eternalores:gem_necroticarite" }, max: 2, min: 1 }])
         .centrifugeHoneycomb([{ chance: 0.4, item: { item: "eternalores:gem_necroticarite" }, max: 8, min: 1 }])
