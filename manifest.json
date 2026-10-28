@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Little Bit Large",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "author": "CatalystStudios",
   "files": [
     {
@@ -805,8 +805,18 @@
       "required": true
     },
     {
-      "fileID": 9239422,
-      "projectID": 1127715,
+      "fileID": 7272413,
+      "projectID": 318551,
+      "required": true
+    },
+    {
+      "fileID": 8589035,
+      "projectID": 1640625,
+      "required": true
+    },
+    {
+      "fileID": 9332811,
+      "projectID": 1384060,
       "required": true
     },
     {
@@ -1292,11 +1302,6 @@
     {
       "fileID": 7768445,
       "projectID": 890755,
-      "required": true
-    },
-    {
-      "fileID": 9205121,
-      "projectID": 238222,
       "required": true
     },
     {
@@ -1802,11 +1807,6 @@
     {
       "fileID": 8020541,
       "projectID": 1070541,
-      "required": true
-    },
-    {
-      "fileID": 8922060,
-      "projectID": 1381503,
       "required": true
     },
     {
