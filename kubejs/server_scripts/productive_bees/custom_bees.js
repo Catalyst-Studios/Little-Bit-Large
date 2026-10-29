@@ -15,8 +15,16 @@ ServerEvents.generateData('after_mods', catalyst => {
      */
 
     /**
-     * @param {string} id - The unique identifier of the bee.
-     * @param {string} displayName - The display name of the bee.
+     * @typedef {Object} PassiveEffect
+     * @property {string} effect - ResourceLocation string of the potion effect.
+     * @property {number} duration - Duration in ticks.
+     */
+
+    /**
+     * Builder for generating Productive Bees definitions and recipes via KubeJS.
+     * 
+     * @param {string} id - Unique identifier for the bee.
+     * @param {string} displayName - Display name of the bee.
      */
     let BeeBuilder = (id, displayName) => {
         let _id = id;
@@ -63,6 +71,8 @@ ServerEvents.generateData('after_mods', catalyst => {
         let _flowerItem = null;
         /** @type {string|null} */
         let _flowerType = null;
+        /** @type {boolean} */
+        let _inverseFlower = false;
         /** @type {string|null} */
         let _nestingPreference = null;
         /** @type {string|null} */
@@ -88,9 +98,9 @@ ServerEvents.generateData('after_mods', catalyst => {
         /** @type {boolean} */
         let _colorCycle = false;
         /** @type {boolean} */
-        let _useGlowLayer = false;
+        let _useGlowLayer = true;
 
-        // Trait Booleans
+        // Traits
         /** @type {boolean} */
         let _teleporting = false;
         /** @type {boolean} */
@@ -124,6 +134,8 @@ ServerEvents.generateData('after_mods', catalyst => {
         /** @type {boolean} */
         let _irradiated = false;
 
+        /** @type {Array<PassiveEffect>} */
+        let _passiveEffects = [];
         /** @type {Array<string>} */
         let _invulnerability = [];
         /** @type {string|null} */
@@ -131,7 +143,7 @@ ServerEvents.generateData('after_mods', catalyst => {
         /** @type {Array<Object>} */
         let _conditions = [];
 
-        // Recipe objects
+        // Recipes
         /** @type {Object|null} */
         let _conversion = null;
         /** @type {Object|null} */
@@ -144,16 +156,19 @@ ServerEvents.generateData('after_mods', catalyst => {
         let _centrifugeHoneycomb = null;
 
         /**
-         * Normalizes output item definitions into standard centrifuge output objects.
+         * Normalizes output item definitions into formatted centrifuge output objects.
          *
-         * @param {Array<Object|string>|string} resultItems - Item(s) or tag(s) to convert into recipe output format.
-         * @returns {Array<Object>} Formatted output items array with chances and amounts.
+         * @param {Array<Object|string>|string} resultItems - Item(s) or tag(s) to convert.
+         * @returns {Array<Object>} Formatted output objects array with chance and min/max ranges.
          */
         function parseOutputs(resultItems) {
             let outputsList = [];
-            if (!resultItems) {
+            if(!resultItems)
+            {
                 outputsList.push({ chance: 1.0, item: { item: "minecraft:stone" }, max: 1, min: 1 });
-            } else if (typeof resultItems === "string") {
+            }
+            else if(typeof resultItems === "string")
+            {
                 let isTag = resultItems.startsWith("#");
                 let itemId = isTag ? resultItems.slice(1) : resultItems;
                 outputsList.push({
@@ -162,9 +177,12 @@ ServerEvents.generateData('after_mods', catalyst => {
                     max: 1,
                     min: 1
                 });
-            } else if (Array.isArray(resultItems)) {
+            }
+            else if(Array.isArray(resultItems))
+            {
                 resultItems.forEach(out => {
-                    if (typeof out === "string") {
+                    if(typeof out === "string")
+                    {
                         let isTag = out.startsWith("#");
                         let itemId = isTag ? out.slice(1) : out;
                         outputsList.push({
@@ -173,7 +191,9 @@ ServerEvents.generateData('after_mods', catalyst => {
                             max: 1,
                             min: 1
                         });
-                    } else {
+                    }
+                    else
+                    {
                         outputsList.push(out);
                     }
                 });
@@ -186,91 +206,199 @@ ServerEvents.generateData('after_mods', catalyst => {
             primaryColor: function(c) { _primaryColor = c; return this; },
             /** @param {string} c - Secondary HEX color code */
             secondaryColor: function(c) { _secondaryColor = c; return this; },
+            /** @param {string} c - Tertiary HEX color code */
+            tertiaryColor: function(c) { _tertiaryColor = c; return this; },
             /** @param {string} c - Particle HEX color code */
             particleColor: function(c) { _particleColor = c; return this; },
-            /** @param {string} d - Bee description key or text */
+            /** @param {string} t - Particle render type (e.g., "pop", "lava", "portal") */
+            particleType: function(t) { _particleType = t; return this; },
+            /** @param {string} d - Localization key or description text */
             description: function(d) { _description = d; return this; },
-            /** @param {string} t - Resource location for custom bee texture */
+            /** Sets description for spawn-egg only bees */
+            onlySpawnegg: function() { _description = "productivebees.ingredient.description.only_spawnegg"; return this; },
+            /** @param {string} t - Custom texture resource location */
             beeTexture: function(t) { _beeTexture = t; return this; },
-            /** @param {boolean} [cc=true] - Whether to automatically create a honeycomb variant */
+            /** @param {boolean} [cc=true] - Whether to automatically generate a comb variant */
             createComb: function(cc) { _createComb = cc !== undefined ? cc : true; return this; },
-            /** @param {string} a - Bee attack response type (e.g., "sting", "none") */
+            /** Disables honeycomb variant generation */
+            noComb: function() { _createComb = false; return this; },
+            /** @param {string} a - Attack response type (e.g., "sting", "lava", "fire", "none") */
             attackResponse: function(a) { _attackResponse = a; return this; },
-            /** @param {string} f - Flower tag required for pollination */
+            /** @param {string} f - Required flower tag */
             flowerTag: function(f) { _flowerTag = f; return this; },
+            /** @param {string} f - Required flower block ID */
             flowerBlock: function(f) { _flowerBlock = f; return this; },
+            /** @param {string} f - Required flower fluid ID or tag */
             flowerFluid: function(f) { _flowerFluid = f; return this; },
+            /** @param {string} f - Required flower item ID */
             flowerItem: function(f) { _flowerItem = f; return this; },
+            /** @param {string} ft - Flower type (e.g., "blocks", "entity_types") */
             flowerType: function(ft) { _flowerType = ft; return this; },
+            /** @param {boolean} [v=true] - Inverts the specified flower requirement */
+            inverseFlower: function(v) { _inverseFlower = v !== undefined ? v : true; return this; },
+            /** @param {string} n - Nesting block/tag requirement */
             nestingPreference: function(n) { _nestingPreference = n; return this; },
+            /** @param {string} p - Post-pollination action/effect */
             postPollination: function(p) { _postPollination = p; return this; },
+            /** @param {string} m - Custom Geckolib model path (.geo.json) */
             model: function(m) { _model = m; return this; },
+            /** @param {string} a - Geckolib animation path */
             animation: function(a) { _animation = a; return this; },
+            /** 
+             * @param {string} item - Item used for breeding
+             * @param {number} [count] - Required item count
+             */
             breedingItem: function(item, count) { 
                 _breedingItem = item; 
-                if (count !== undefined) _breedingItemCount = count;
+                if(count !== undefined) _breedingItemCount = count;
                 return this; 
             },
+            /** @param {number} c - Required breeding item count */
             breedingItemCount: function(c) { _breedingItemCount = c; return this; },
+            /** @param {string} rt - Render transform (e.g., "flipped") */
             renderTransform: function(rt) { _renderTransform = rt; return this; },
+            /** Applies flipped render transformation */
+            flipped: function() { _renderTransform = "flipped"; return this; },
+            /** @param {number} s - Bee scale factor */
             size: function(s) { _size = s; return this; },
+            /** @param {number} s - Bee scale when pollinated */
             pollinatedSize: function(s) { _pollinatedSize = s; return this; },
+            /** @param {number} sp - Flying speed multiplier */
             speed: function(sp) { _speed = sp; return this; },
+            /** @param {number} at - Attack damage points */
             attack: function(at) { _attack = at; return this; },
+            /** @param {boolean} [v=true] - Enables color cycling */
             colorCycle: function(v) { _colorCycle = v !== undefined ? v : true; return this; },
+            /** @param {boolean} [v=true] - Enables or disables the glow layer */
             useGlowLayer: function(v) { _useGlowLayer = v !== undefined ? v : true; return this; },
+            /** Disables glowing rendering layer */
+            noGlow: function() { _useGlowLayer = false; return this; },
 
-            // Traits
+            //Traits
+            /** @param {boolean} [v=true] - Enables teleportation trait */
             teleporting: function(v) { _teleporting = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable translucent model rendering */
+            /** @param {boolean} [v=true] - Enables translucent rendering */
             translucent: function(v) { _translucent = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable redstone emission/interaction trait */
+            /** @param {boolean} [v=true] - Enables redstone interaction trait */
             redstoned: function(v) { _redstoned = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable slimy trait */
+            /** @param {boolean} [v=true] - Enables slimy trait */
             slimy: function(v) { _slimy = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable fireproof trait */
+            /** @param {boolean} [v=true] - Grants fire and lava immunity */
             fireproof: function(v) { _fireproof = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable draconic trait */
+            /** @param {boolean} [v=true] - Enables draconic trait */
             draconic: function(v) { _draconic = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable withered trait */
+            /** @param {boolean} [v=true] - Enables withered trait */
             withered: function(v) { _withered = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable blinding trait */
+            /** @param {boolean} [v=true] - Enables blinding trait */
             blinding: function(v) { _blinding = v !== undefined ? v : true; return this; },
-            /** @param {boolean} [v=true] - Enable munchies trait */
+            /** @param {boolean} [v=true] - Enables munchies trait */
             munchies: function(v) { _munchies = v !== undefined ? v : true; return this; },
+            /** @param {boolean} [sb=true] - Enables or disables self-breeding */
             selfbreed: function(sb) { _selfbreed = sb !== undefined ? sb : true; return this; },
+            /** Disables self-breeding */
+            noSelfBreed: function() { _selfbreed = false; return this; },
+            /** @param {boolean} [sh=true] - Enables self-healing trait */
             selfheal: function(sh) { _selfheal = sh !== undefined ? sh : true; return this; },
+            /** Enables self-healing trait */
+            selfHeal: function() { _selfheal = true; return this; },
+            /** @param {boolean} [v=true] - Enables stringy/cobweb trait */
             stringy: function(v) { _stringy = v !== undefined ? v : true; return this; },
+            /** @param {boolean} [v=true] - Removes sting attack */
             stingless: function(v) { _stingless = v !== undefined ? v : true; return this; },
+            /** @param {boolean} [v=true] - Grants water/rain immunity */
             waterproof: function(v) { _waterproof = v !== undefined ? v : true; return this; },
+            /** @param {boolean} [v=true] - Cold temperature resistance */
             coldResistant: function(v) { _coldResistant = v !== undefined ? v : true; return this; },
+            /** @param {boolean} [v=true] - Applies radiation/irradiated trait */
             irradiated: function(v) { _irradiated = v !== undefined ? v : true; return this; },
-            
+
+            //Passive Effects
+            /**
+             * Adds an individual passive aura effect emitted by the bee.
+             * @param {string} effect - Effect ResourceLocation (e.g., "minecraft:regeneration")
+             * @param {number} duration - Duration in ticks (e.g., 400)
+             */
+            passiveEffect: function(effect, duration) {
+                _passiveEffects.push({ effect: effect, duration: duration });
+                return this;
+            },
+            /**
+             * Sets multiple passive aura effects.
+             * @param {Array<PassiveEffect>} effects - Array of passive effect objects.
+             */
+            passiveEffects: function(effects) {
+                if(Array.isArray(effects))
+                {
+                    effects.forEach(e => _passiveEffects.push(e));
+                }
+                return this;
+            },
+
+            /**
+             * Specifies damage source immunities.
+             * @param {Array<string>|string} inv - Damage source ID or list (e.g., "mekanism.radiation")
+             */
             invulnerability: function(inv) { 
                 _invulnerability = Array.isArray(inv) ? inv : [inv]; 
                 return this; 
             },
+            /** @param {string} r - Special renderer (e.g., "thicc", "default_crystal", "tiny", "translucent_with_center") */
             renderer: function(r) { _renderer = r; return this; },
 
             /**
-             * Sets bee attribute values, overriding defaults.
-             * @param {BeeAttributes} a - Attribute overrides.
+             * Sets bee gene attribute values, overriding defaults.
+             * @param {BeeAttributes} a - Attributes object.
              */
             attributes: function(a) {
                 _attributes = Object.assign({}, FULL_DEFAULT_ATTRIBUTES, a);
                 return this;
             },
 
-            /**
-             * Sets NeoForge load conditions for the bee JSON.
-             * @param {Array<Object>} conds - Condition array.
-             */
+            // NeoForge Load Conditions
+            /** @param {Array<Object>} conds - Array of JSON load condition objects */
             conditions: function(conds) { _conditions = conds; return this; },
+            /** Requires a specific mod to be loaded */
+            requireMod: function(modId) {
+                _conditions.push({ type: "neoforge:mod_loaded", modid: modId });
+                return this;
+            },
+            /** Loads the bee only if the specified mod is NOT present */
+            missingMod: function(modId) {
+                _conditions.push({ type: "neoforge:not", value: { type: "neoforge:mod_loaded", modid: modId } });
+                return this;
+            },
+            /** Requires at least one of two mods to be loaded */
+            requireEitherMod: function(modId1, modId2) {
+                _conditions.push({
+                    type: "neoforge:or",
+                    values: [
+                        { type: "neoforge:mod_loaded", modid: modId1 },
+                        { type: "neoforge:mod_loaded", modid: modId2 }
+                    ]
+                });
+                return this;
+            },
+            /** Requires a item/block tag to not be empty */
+            requireTag: function(tag) {
+                _conditions.push({ type: "neoforge:not", value: { type: "neoforge:tag_empty", tag: tag } });
+                return this;
+            },
+            /** Requires a tag to be empty */
+            missingTag: function(tag) {
+                _conditions.push({ type: "neoforge:tag_empty", tag: tag });
+                return this;
+            },
+            /** Requires a fluid tag to not be empty */
+            requireFluidTag: function(namespace, tag) {
+                let fluidTag = namespace ? `${namespace}:${tag}` : tag;
+                _conditions.push({ type: "neoforge:not", value: { type: "productivelib:fluid_tag_empty", tag: fluidTag } });
+                return this;
+            },
 
             /**
-             * Configures a conversion recipe for this bee.
+             * Configures conversion recipe to obtain this bee.
              * @param {string} sourceBee - Source bee ID.
-             * @param {string|Object} catalystItem - Catalyst item needed for conversion.
+             * @param {string|Object} catalystItem - Catalyst item required.
              * @param {Array<Object>} [customConditions] - Optional recipe conditions.
              */
             conversion: function(sourceBee, catalystItem, customConditions) {
@@ -281,14 +409,14 @@ ServerEvents.generateData('after_mods', catalyst => {
                     result: `productivebees:${_id}`,
                     item: typeof catalystItem === "string" ? { item: catalystItem } : catalystItem
                 };
-                if (customConditions) _conversion.conditions = customConditions;
+                if(customConditions) _conversion.conditions = customConditions;
                 return this;
             },
 
             /**
-             * Configures a breeding recipe for this bee.
-             * @param {string} parent1 - First parent bee ID.
-             * @param {string} parent2 - Second parent bee ID.
+             * Configures breeding recipe for this bee.
+             * @param {string} parent1 - Parent 1 bee ID.
+             * @param {string} parent2 - Parent 2 bee ID.
              * @param {Array<Object>} [customConditions] - Optional recipe conditions.
              */
             breeding: function(parent1, parent2, customConditions) {
@@ -300,12 +428,12 @@ ServerEvents.generateData('after_mods', catalyst => {
                     parent2: p2,
                     offspring: `productivebees:${_id}`
                 };
-                if (customConditions) _breeding.conditions = customConditions;
+                if(customConditions) _breeding.conditions = customConditions;
                 return this;
             },
 
             /**
-             * Configures hive production results for this bee.
+             * Configures advanced beehive production output.
              * @param {Array<Object>} [customResults] - Produced items array.
              * @param {Array<Object>} [customConditions] - Optional recipe conditions.
              */
@@ -322,17 +450,16 @@ ServerEvents.generateData('after_mods', catalyst => {
                     ingredient: `productivebees:${_id}`,
                     results: results
                 };
-                if (customConditions) _produce.conditions = customConditions;
+                if(customConditions) _produce.conditions = customConditions;
                 return this;
             },
 
             /**
-             * centrifugeHoneycomb
-             * Registers centrifuge recipe for individual comb item (configurable_comb).
+             * Configures centrifuge recipe for single comb item (configurable_comb).
              * @param {Array<Object>|string} resultItems - Output item(s).
-             * @param {string} [fluidType='productivebees:honey'] - Fluid ID.
-             * @param {number} [fluidAmount=100] - Fluid amount produced.
-             * @param {number} [processingTime=200] - Processing time in ticks.
+             * @param {string} [fluidType='productivebees:honey'] - Output fluid.
+             * @param {number} [fluidAmount=100] - Output fluid amount in mB.
+             * @param {number} [processingTime=200] - Process time in ticks.
              * @param {Array<Object>} [customConditions] - Optional recipe conditions.
              */
             centrifugeHoneycomb: function(resultItems, fluidType, fluidAmount, processingTime, customConditions) {
@@ -347,12 +474,11 @@ ServerEvents.generateData('after_mods', catalyst => {
             },
 
             /**
-             * centrifugeComb
-             * Registers centrifuge recipe for honeycomb block (configurable_honeycomb).
+             * Configures centrifuge recipe for honeycomb block (configurable_honeycomb).
              * @param {Array<Object>|string} resultItems - Output item(s).
-             * @param {string} [fluidType='productivebees:honey'] - Fluid ID.
-             * @param {number} [fluidAmount=50] - Fluid amount produced.
-             * @param {number} [processingTime=0] - Processing time in ticks.
+             * @param {string} [fluidType='productivebees:honey'] - Output fluid.
+             * @param {number} [fluidAmount=50] - Output fluid amount in mB.
+             * @param {number} [processingTime=0] - Process time in ticks.
              * @param {Array<Object>} [customConditions] - Optional recipe conditions.
              */
             centrifugeComb: function(resultItems, fluidType, fluidAmount, processingTime, customConditions) {
@@ -377,66 +503,66 @@ ServerEvents.generateData('after_mods', catalyst => {
                     size: _size
                 };
 
-                if (_tertiaryColor) beeJson.tertiaryColor = _tertiaryColor;
-                if (_beeTexture) beeJson.beeTexture = _beeTexture;
-                if (_renderer) beeJson.renderer = _renderer;
-                if (_attributes !== null) beeJson.attributes = _attributes;
-                if (_particleColor) beeJson.particleColor = _particleColor;
-                if (_particleType) beeJson.particleType = _particleType;
-                if (_description) beeJson.description = _description;
-                if (_attackResponse) beeJson.attackResponse = _attackResponse;
-                if (_nestingPreference) beeJson.nestingPreference = _nestingPreference;
+                if(_tertiaryColor) beeJson.tertiaryColor = _tertiaryColor;
+                if(_beeTexture) beeJson.beeTexture = _beeTexture;
+                if(_renderer) beeJson.renderer = _renderer;
+                if(_attributes !== null) beeJson.attributes = _attributes;
+                if(_particleColor) beeJson.particleColor = _particleColor;
+                if(_particleType) beeJson.particleType = _particleType;
+                if(_description) beeJson.description = _description;
+                if(_attackResponse) beeJson.attackResponse = _attackResponse;
+                if(_nestingPreference) beeJson.nestingPreference = _nestingPreference;
 
                 // Flower configurations
-                if (_flowerTag) beeJson.flowerTag = _flowerTag;
-                if (_flowerBlock) beeJson.flowerBlock = _flowerBlock;
-                if (_flowerFluid) beeJson.flowerFluid = _flowerFluid;
-                if (_flowerItem) beeJson.flowerItem = _flowerItem;
-                if (_flowerType) beeJson.flowerType = _flowerType;
+                if(_flowerTag) beeJson.flowerTag = _flowerTag;
+                if(_flowerBlock) beeJson.flowerBlock = _flowerBlock;
+                if(_flowerFluid) beeJson.flowerFluid = _flowerFluid;
+                if(_flowerItem) beeJson.flowerItem = _flowerItem;
+                if(_flowerType) beeJson.flowerType = _flowerType;
+                if(_inverseFlower) beeJson.inverseFlower = true;
 
-                if (_postPollination) beeJson.postPollination = _postPollination;
-                if (_model) beeJson.model = _model;
-                if (_animation) beeJson.animation = _animation;
-                if (_breedingItem) beeJson.breedingItem = _breedingItem;
-                if (_breedingItemCount !== null) beeJson.breedingItemCount = _breedingItemCount;
-                if (_renderTransform) beeJson.renderTransform = _renderTransform;
-                if (_pollinatedSize !== null) beeJson.pollinatedSize = _pollinatedSize;
-                if (_speed !== null) beeJson.speed = _speed;
-                if (_attack !== null) beeJson.attack = _attack;
-                if (_colorCycle) beeJson.colorCycle = _colorCycle;
-                if (_useGlowLayer) beeJson.useGlowLayer = _useGlowLayer;
+                if(_postPollination) beeJson.postPollination = _postPollination;
+                if(_model) beeJson.model = _model;
+                if(_animation) beeJson.animation = _animation;
+                if(_breedingItem) beeJson.breedingItem = _breedingItem;
+                if(_breedingItemCount !== null) beeJson.breedingItemCount = _breedingItemCount;
+                if(_renderTransform) beeJson.renderTransform = _renderTransform;
+                if(_pollinatedSize !== null) beeJson.pollinatedSize = _pollinatedSize;
+                if(_speed !== null) beeJson.speed = _speed;
+                if(_attack !== null) beeJson.attack = _attack;
+                if(_colorCycle) beeJson.colorCycle = _colorCycle;
+                if(!_useGlowLayer) beeJson.useGlowLayer = false;
 
                 // Traits
-                if (_teleporting) beeJson.teleporting = _teleporting;
-                if (_translucent) beeJson.translucent = _translucent;
-                if (_redstoned) beeJson.redstoned = _redstoned;
-                if (_slimy) beeJson.slimy = _slimy;
-                if (_fireproof) beeJson.fireproof = _fireproof;
-                if (_draconic) beeJson.draconic = _draconic;
-                if (_withered) beeJson.withered = _withered;
-                if (_blinding) beeJson.blinding = _blinding;
-                if (_munchies) beeJson.munchies = _munchies;
-                if (_selfbreed !== null) beeJson.selfbreed = _selfbreed;
-                if (_selfheal) beeJson.selfheal = _selfheal;
-                if (_stringy) beeJson.stringy = _stringy;
-                if (_stingless) beeJson.stingless = _stingless;
-                if (_waterproof) beeJson.waterproof = _waterproof;
-                if (_coldResistant) beeJson.coldResistant = _coldResistant;
-                if (_irradiated) beeJson.irradiated = _irradiated;
+                if(_teleporting) beeJson.teleporting = _teleporting;
+                if(_translucent) beeJson.translucent = _translucent;
+                if(_redstoned) beeJson.redstoned = _redstoned;
+                if(_slimy) beeJson.slimy = _slimy;
+                if(_fireproof) beeJson.fireproof = _fireproof;
+                if(_draconic) beeJson.draconic = _draconic;
+                if(_withered) beeJson.withered = _withered;
+                if(_blinding) beeJson.blinding = _blinding;
+                if(_munchies) beeJson.munchies = _munchies;
+                if(_selfbreed !== null) beeJson.selfbreed = _selfbreed;
+                if(_selfheal) beeJson.selfheal = _selfheal;
+                if(_stringy) beeJson.stringy = _stringy;
+                if(_stingless) beeJson.stingless = _stingless;
+                if(_waterproof) beeJson.waterproof = _waterproof;
+                if(_coldResistant) beeJson.coldResistant = _coldResistant;
+                if(_irradiated) beeJson.irradiated = _irradiated;
 
-                if (_invulnerability && _invulnerability.length > 0) beeJson.invulnerability = _invulnerability;
-                if (_conditions && _conditions.length > 0) beeJson.conditions = _conditions;
+                if(_passiveEffects.length > 0) beeJson.passiveEffects = _passiveEffects;
+                if(_invulnerability && _invulnerability.length > 0) beeJson.invulnerability = _invulnerability;
+                if(_conditions && _conditions.length > 0) beeJson.conditions = _conditions;
 
-                // 1. Bee definition JSON file
                 catalyst.json(`productivebees:productivebees/${_id}`, beeJson);
 
-                // 2. Conversion, Breeding, and Production recipe files
-                if (_conversion) catalyst.json(`productivebees:recipe/bee_conversion/${_id}_bee`, _conversion);
-                if (_breeding) catalyst.json(`productivebees:recipe/bee_breeding/${_id}_bee`, _breeding);
-                if (_produce) catalyst.json(`productivebees:recipe/bee_produce/${_id}_bee`, _produce);
+                if(_conversion) catalyst.json(`productivebees:recipe/bee_conversion/${_id}_bee`, _conversion);
+                if(_breeding) catalyst.json(`productivebees:recipe/bee_breeding/${_id}_bee`, _breeding);
+                if(_produce) catalyst.json(`productivebees:recipe/bee_produce/${_id}_bee`, _produce);
 
-                // 3. Single comb centrifuge recipe (configurable_comb)
-                if (_centrifugeComb) {
+                if(_centrifugeComb)
+                {
                     let allOutputs = [
                         { chance: 1.0, item: { tag: "c:waxes" }, max: 1, min: 1 }
                     ];
@@ -445,10 +571,14 @@ ServerEvents.generateData('after_mods', catalyst => {
                     let recipeConditions = [
                         { type: "productivebees:bee_exists", bee: `productivebees:${_id}` }
                     ];
-                    if (_centrifugeComb.conditions) {
-                        if (Array.isArray(_centrifugeComb.conditions)) {
+                    if(_centrifugeComb.conditions)
+                    {
+                        if(Array.isArray(_centrifugeComb.conditions))
+                        {
                             _centrifugeComb.conditions.forEach(cond => recipeConditions.push(cond));
-                        } else {
+                        }
+                        else
+                        {
                             recipeConditions.push(_centrifugeComb.conditions);
                         }
                     }
@@ -474,8 +604,8 @@ ServerEvents.generateData('after_mods', catalyst => {
                     catalyst.json(`productivebees:recipe/centrifuge/${_id}_comb`, combRecipe);
                 }
 
-                // 4. Honeycomb block centrifuge recipe (configurable_honeycomb)
-                if (_centrifugeHoneycomb) {
+                if(_centrifugeHoneycomb)
+                {
                     let allOutputs = [
                         { chance: 1.0, item: { tag: "c:waxes" }, max: 1, min: 1 }
                     ];
@@ -484,10 +614,14 @@ ServerEvents.generateData('after_mods', catalyst => {
                     let recipeConditions = [
                         { type: "productivebees:bee_exists", bee: `productivebees:${_id}` }
                     ];
-                    if (_centrifugeHoneycomb.conditions) {
-                        if (Array.isArray(_centrifugeHoneycomb.conditions)) {
+                    if(_centrifugeHoneycomb.conditions)
+                    {
+                        if(Array.isArray(_centrifugeHoneycomb.conditions))
+                        {
                             _centrifugeHoneycomb.conditions.forEach(cond => recipeConditions.push(cond));
-                        } else {
+                        }
+                        else
+                        {
                             recipeConditions.push(_centrifugeHoneycomb.conditions);
                         }
                     }
@@ -563,8 +697,8 @@ ServerEvents.generateData('after_mods', catalyst => {
         .register();
 
     BeeBuilder('eternal_dark_ingot', 'Eternal Dark Bee')
-        .primaryColor('#9e96d0')
-        .secondaryColor('#5b4a80')
+        .primaryColor('#130b0c')
+        .secondaryColor('#f9f9f9')
         .flowerBlock('eternalores:eternal_dark_block')
         .description("productivebees.ingredient.description.only_spawnegg")
         .selfbreed(false)
