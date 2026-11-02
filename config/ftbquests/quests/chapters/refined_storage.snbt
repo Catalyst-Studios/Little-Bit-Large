@@ -1171,13 +1171,13 @@
 			}]
 			tasks: [
 				{
-					id: "3F2F387A2AF9EDA2"
-					item: { count: 1, id: "replication_rs2_bridge:rep_rs2_bridge" }
+					id: "6FCF76F4AF8F9C5A"
+					item: { count: 1, id: "refinedschematics:cannon_interface" }
 					type: "item"
 				}
 				{
-					id: "6FCF76F4AF8F9C5A"
-					item: { count: 1, id: "refinedschematics:cannon_interface" }
+					id: "11AF28EBAA10E452"
+					item: { count: 1, id: "rs2replicationinterface:replication_interface" }
 					type: "item"
 				}
 			]
