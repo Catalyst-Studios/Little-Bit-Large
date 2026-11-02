@@ -1358,7 +1358,7 @@
 	quest.0F9E52B5BC4CB50A.quest_desc: [
 		"RS has few addons, but those are &#FF4500powerful&r, similar to AE2 ones!"
 		""
-		"First block allows to connect &#1E90FFReplication network&r to RS. It can only connect via Replication cables. First, you need to store them in your network, just connect this block to your RS network and Replication. After that you can start to convert blocks and items to matter and store them on your network"
+		"First block allows to connect &#1E90FFReplication network&r to RS. It can only connect via Replication cables. First, you need to store them in your network, just connect this block to your RS network and Replication. After that you can start to convert blocks and items to matter and store them on your network. And you can request items too! If you have them on chips before"
 		""
 		"And the second block allows the &#FF00FFSchematicannon&r from Create to use items from your network"
 		""
