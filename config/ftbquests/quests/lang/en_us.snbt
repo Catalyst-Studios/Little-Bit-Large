@@ -4588,7 +4588,7 @@
 		""
 		"For example, let's say that we have 289 &#e0e090raw iron&r and we use it on the &8void&r dimension, well, the machine will do 3 &5recipes&r instead of 289 &drecipes&r, one doing 256 &#e0e090raw iron&r to 256 iron ingot, another doing 32, and last one doing 1."
 		""
-		"This is &#ff004bimplemented&r instead of parallels, so you don't need to worry &#ffc400&othat&r much."
+		"This is &#ff004bimplemented&r instead of parallels, so you don't need to worry &#ffc400&othat&r much. Needs a biome reader to detect dimensions, if not, it will always pick the 1:1 recipe instead of the 1:2 or 1:4 ones!"
 	]
 	quest.34B94E6DBEC34BCE.quest_subtitle: "The glorified furnace, the biggest one"
 	quest.34B94E6DBEC34BCE.title: "&#00ff19Celestial&r Forge"
@@ -7536,7 +7536,7 @@
 		""
 		"- Fluid-based recipes provide guaranteed outputs + &abonus yields&r."
 		""
-		"Best used in the &5Mining Dimension&r for special dimension-specific recipes!"
+		"Best used in the &5Mining Dimension&r for special dimension-specific recipes! Needs a biome reader placed to make it detect the dimension"
 	]
 	quest.56DFE3E7B60578CD.quest_desc: [
 		"You would need some &#85c1e9water&r to even start the machine, but it gives a precious fluid back, &#1e8449Dirty Water&r"

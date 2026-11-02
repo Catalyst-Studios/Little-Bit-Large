@@ -1147,6 +1147,12 @@
 				"45E20853E7B9B611"
 			]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:celestial_forge"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
 			id: "34B94E6DBEC34BCE"
 			rewards: [{
 				id: "400B2EE265483705"
@@ -1158,12 +1164,19 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "19EEFA67CAA80AA9"
-				item: { components: { "modular_machinery_reborn:machine": "mmr:celestial_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
-				match_components: "strict"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19EEFA67CAA80AA9"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:celestial_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
+					id: "3CA86143286219F4"
+					item: { count: 1, id: "modular_machinery_reborn:biome_reader" }
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: -20.0d
 		}
@@ -1684,6 +1697,12 @@
 				"45E20853E7B9B611"
 			]
 			hide_dependency_lines: true
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:miner"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
 			id: "56DEFAA19EE44DB7"
 			rewards: [{
 				count: 12
@@ -1695,12 +1714,19 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "48A666ADC8065472"
-				item: { components: { "modular_machinery_reborn:machine": "mmr:miner" }, count: 1, id: "modular_machinery_reborn:controller" }
-				match_components: "strict"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48A666ADC8065472"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:miner" }, count: 1, id: "modular_machinery_reborn:controller" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
+					id: "28E002E97EF13B3A"
+					item: { count: 1, id: "modular_machinery_reborn:biome_reader" }
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: -19.5d
 		}
