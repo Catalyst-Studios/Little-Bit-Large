@@ -4,23 +4,36 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 ServerEvents.recipes(catalyst => {
         
-    catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:osmotic_concentrator", 20)
-        .progressData(ProgressData.create().x(45).y(20))
-        .width(110)
-        .height(60)
-        .requireEnergy(100000, 0, 4)
-        .produceFluid("5000000x mekanism:brine", 75, 20)
-        .requireFluid("50000000x minecraft:water", 25, 20)
-        .id('catalyst:mmr/osmotic_concentrator/brine')
+    for(let tier = 1; tier <= 10; tier++)
+    {
+        let ratio = tier / 10;
+        let waterAmount = Math.round(50000000 * ratio);
+        let brineAmount = Math.round(5000000 * ratio);
+        let lithiumAmount = Math.round(500000 * ratio);
 
-    catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:osmotic_concentrator", 20)
-        .progressData(ProgressData.create().x(45).y(20))
-        .width(110)
-        .height(60)
-        .requireEnergy(100000, 0, 4)
-        .produceChemical("500000x mekanism:lithium", 75, 20)
-        .requireFluid("5000000x mekanism:brine", 25, 20)
-        .id('catalyst:mmr/osmotic_concentrator/lithium')
+        let duration = Math.round(20 * (10 / tier));
+        let energy = Math.round(100000 * (10 / tier));
+
+        catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:osmotic_concentrator", duration)
+            .progressData(ProgressData.create().x(45).y(20))
+            .width(110)
+            .height(60)
+            .requireEnergy(energy, 0, 4)
+            .produceFluid(`${brineAmount}x mekanism:brine`, 75, 20)
+            .requireFluid(Fluid.of("minecraft:water", waterAmount), 25, 20)
+            .priority(tier)
+            .id(`catalyst:mmr/osmotic_concentrator/brine_t${tier}`);
+
+        catalyst.recipes.modular_machinery_reborn.machine_recipe("mmr:osmotic_concentrator", duration)
+            .progressData(ProgressData.create().x(45).y(20))
+            .width(110)
+            .height(60)
+            .requireEnergy(energy, 0, 4)
+            .produceChemical(`${lithiumAmount}x mekanism:lithium`, 75, 20)
+            .requireFluid(`${brineAmount}x mekanism:brine`, 25, 20)
+            .priority(tier + 30)
+            .id(`catalyst:mmr/osmotic_concentrator/lithium_t${tier}`);
+    }
 
     console.log("[CatJS] Added Thermal Evaporation recipes MMR");
 });
