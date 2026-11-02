@@ -79,6 +79,11 @@ ServerEvents.recipes(catalyst => {
         B: '#minecraft:flowers'
     })
     .id("catalyst:spore_blossom");
+
+    catalyst.shapeless(Item.of('minecraft:clay_ball', 4), [
+        'minecraft:clay'
+    ])
+    .id("catalyst:clay_ball");
             
     console.log("[CatJS] Added minecraft recipes")
 })
