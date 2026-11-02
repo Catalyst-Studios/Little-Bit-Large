@@ -8,20 +8,20 @@
 	noInteractionBlocks = []
 	#List of blocks that are not allowed to connect to backpacks - e.g. "refinedstorage:external_storage"
 	noConnectionBlocks = []
+	#If true, disallows all blocks from connecting to backpacks
+	allBlockConnectionsDisallowed = false
 	#Maximum number of upgrades of type per backpack in format of "UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
-	maxUpgradesPerStorage = ["stack_upgrades|3", "furnace_upgrades|1", "jukebox_upgrades|1"]
+	maxUpgradesPerStorage = ["furnace_upgrades|1", "stack_upgrades|3", "jukebox_upgrades|1"]
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
 	itemFluidHandlerEnabled = true
 	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
-	allowOpeningOtherPlayerBackpacks = false
+	allowOpeningOtherPlayerBackpacks = true
 	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
 	itemDisplayDisabled = false
 	#Allows disabling logic that dedupes backpacks with the same UUID in players' inventory. This is here to allow turning off the logic just in case it would be causing performance issues.
 	tickDedupeLogicDisabled = false
 	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
 	canBePlacedInContainerItems = false
-	#If true, disallows all blocks from connecting to backpacks
-	allBlockConnectionsDisallowed = false
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
@@ -459,6 +459,21 @@
 		# Range: 1 ~ 1000
 		maxInputOutput = 20
 
+	#Battery Upgrade Settings
+	[server.batteryUpgrade]
+		#Energy in FE the battery upgrade will have per row of storage slots
+		# Default: 10000
+		# Range: 500 ~ 50000
+		energyPerSlotRow = 10000
+		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		stackMultiplierRatio = 1.0
+		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
+		# Default: 20
+		# Range: 1 ~ 1000
+		maxInputOutput = 20
+
 	#Pump Upgrade Settings
 	[server.pumpUpgrade]
 		#Number of fluid filter slots
@@ -507,6 +522,33 @@
 		# Default: 8
 		# Range: 1 ~ 20
 		filterSlots = 8
+
+	#Mob Catcher Upgrade Settings
+	[server.mobCatcherUpgrade]
+		#Maximum slot cost a mob may have to be captured by the basic mob catcher. This is a hard limit, not a clamp.
+		# Default: 18
+		# Range: 1 ~ 120
+		basicMaxSlotCost = 18
+		#Maximum slot cost a mob may have to be captured by the advanced mob catcher. This is a hard limit, not a clamp.
+		# Default: 72
+		# Range: 1 ~ 120
+		advancedMaxSlotCost = 72
+		#Multiplier applied to animal mob slot cost.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		animalMultiplier = 1.0
+		#Multiplier applied to hostile mob slot cost.
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		hostileMultiplier = 2.0
+		#When true, mobs that expose inventories or container menus are not capturable.
+		disallowInventoryEntities = false
+		#Entity types or entity tags prefixed with # that cannot be captured.
+		entityBlockList = []
+		#Entity types or entity tags prefixed with # treated as hostile by mob catcher slot cost and tier rules.
+		hostileOverrides = []
+		#Entity types or entity tags prefixed with # treated as passive by mob catcher slot cost and tier rules.
+		passiveOverrides = []
 
 	#Settings for Spawning Entities with Backpack
 	[server.entityBackpackAdditions]
@@ -585,48 +627,6 @@
 		# Range: 0.1 ~ 5.0
 		slownessLevelsPerAdditionalBackpack = 2.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
-		onlyWornBackpackTriggersUpgrades = true
+		onlyWornBackpackTriggersUpgrades = false
 		#Effect that is applied to player when they have too many backpacks. Can be any effect including modded ones like overencumbered effect some mods have.
 		nerfEffect = "minecraft:slowness"
-
-	#Battery Upgrade Settings
-	[server.batteryUpgrade]
-		#Energy in FE the battery upgrade will have per row of storage slots
-		# Default: 10000
-		# Range: 500 ~ 50000
-		energyPerSlotRow = 10000
-		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
-		# Default: 1.0
-		# Range: 0.0 ~ 5.0
-		stackMultiplierRatio = 1.0
-		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
-		# Default: 20
-		# Range: 1 ~ 1000
-		maxInputOutput = 20
-
-	#Mob Catcher Upgrade Settings
-	[server.mobCatcherUpgrade]
-		#Maximum slot cost a mob may have to be captured by the basic mob catcher. This is a hard limit, not a clamp.
-		# Default: 18
-		# Range: 1 ~ 120
-		basicMaxSlotCost = 18
-		#Maximum slot cost a mob may have to be captured by the advanced mob catcher. This is a hard limit, not a clamp.
-		# Default: 72
-		# Range: 1 ~ 120
-		advancedMaxSlotCost = 72
-		#Multiplier applied to animal mob slot cost.
-		# Default: 1.0
-		# Range: 0.1 ~ 10.0
-		animalMultiplier = 1.0
-		#Multiplier applied to hostile mob slot cost.
-		# Default: 2.0
-		# Range: 0.1 ~ 10.0
-		hostileMultiplier = 2.0
-		#When true, mobs that expose inventories or container menus are not capturable.
-		disallowInventoryEntities = false
-		#Entity types or entity tags prefixed with # that cannot be captured.
-		entityBlockList = []
-		#Entity types or entity tags prefixed with # treated as hostile by mob catcher slot cost and tier rules.
-		hostileOverrides = []
-		#Entity types or entity tags prefixed with # treated as passive by mob catcher slot cost and tier rules.
-		passiveOverrides = []
