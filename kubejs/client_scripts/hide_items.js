@@ -48,7 +48,10 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
 
         'rftoolsutility:syringe',
 
-        'enderio:soul_vial'
+        'enderio:soul_vial',
+        'justdynathings:echoing_budding_allthemodium',
+        'justdynathings:echoing_budding_vibranium',
+        'justdynathings:echoing_budding_unobtainium'
     ];
 
     itemsToRemove.forEach(item => {
