@@ -65,8 +65,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:casing_reinforced", count: 6, chance: 1.0 },
                 { id: "curvy_pipes:huge_energy_pipe", count: 4, chance: 1.0 },
-                { id: "eternalores:plate_eternal_dark", count: 20, chance: 1.0 },
-                { id: "eternalores:rod_eternal_light", count: 20, chance: 1.0 }
+                { id: "eternalores:plate_eternal_light", count: 20, chance: 1.0 },
+                { id: "eternalores:rod_eternal_dark", count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -167,8 +167,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:casing_reinforced", count: 6, chance: 1.0 },
                 { id: "minecraft:chest", count: 64, chance: 1.0 },
-                { id: 'eternalores:plate_tungsten', count: 20, chance: 1.0 },
-                { id: 'eternalores:rod_uraninite', count: 20, chance: 1.0 }
+                { id: 'eternalores:plate_uraninite', count: 20, chance: 1.0 },
+                { id: 'eternalores:rod_tungsten', count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -184,8 +184,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:outputbus_big", count: 1, chance: 1.0 },
                 { id: "modular_machinery_reborn:casing_reinforced", count: 3, chance: 1.0 },
-                { id: "eternalores:plate_eternal_dark", count: 20, chance: 1.0 },
-                { id: "eternalores:rod_eternal_light", count: 20, chance: 1.0 }
+                { id: "eternalores:plate_eternal_light", count: 20, chance: 1.0 },
+                { id: "eternalores:rod_eternal_dark", count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -269,8 +269,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:casing_reinforced", count: 6, chance: 1.0 },
                 { id: "mekanism:ultimate_fluid_tank", count: 4, chance: 1.0 },
-                { id: "eternalores:plate_eternal_dark", count: 20, chance: 1.0 },
-                { id: "eternalores:rod_eternal_light", count: 20, chance: 1.0 }
+                { id: "eternalores:plate_eternal_light", count: 20, chance: 1.0 },
+                { id: "eternalores:rod_eternal_dark", count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -371,8 +371,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:casing_reinforced", count: 6, chance: 1.0 },
                 { id: "mekanism:ultimate_chemical_tank", count: 4, chance: 1.0 },
-                { id: "eternalores:plate_eternal_dark", count: 20, chance: 1.0 },
-                { id: "eternalores:rod_eternal_light", count: 20, chance: 1.0 }
+                { id: "eternalores:plate_eternal_light", count: 20, chance: 1.0 },
+                { id: "eternalores:rod_eternal_dark", count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -490,8 +490,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:casing_reinforced", count: 6, chance: 1.0 },
                 { id: "arseng:source_storage_cell_256k", count: 1, chance: 1.0 },
-                { id: "eternalores:plate_eternal_dark", count: 20, chance: 1.0 },
-                { id: "eternalores:rod_eternal_light", count: 20, chance: 1.0 }
+                { id: "eternalores:plate_eternal_light", count: 20, chance: 1.0 },
+                { id: "eternalores:rod_eternal_dark", count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -507,8 +507,8 @@ ServerEvents.recipes(catalyst => {
             inputs: [
                 { id: "modular_machinery_reborn:casing_reinforced", count: 6, chance: 1.0 },
                 { id: "refinedtypes:8192b_source_storage_part", count: 1, chance: 1.0 },
-                { id: "eternalores:plate_eternal_dark", count: 20, chance: 1.0 },
-                { id: "eternalores:rod_eternal_light", count: 20, chance: 1.0 }
+                { id: "eternalores:plate_eternal_light", count: 20, chance: 1.0 },
+                { id: "eternalores:rod_eternal_dark", count: 20, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
