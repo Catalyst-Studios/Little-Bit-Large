@@ -32,6 +32,7 @@ MMREvents.machines(catalyst => {
                     "#modular_machinery_reborn_mekanism:chemicalinputhatch",
                     "#modular_machinery_reborn_mekanism:chemicaloutputhatch",
                     "#modular_machinery_reborn:energyinputhatch",
+                    'modular_machinery_reborn:inputbus_tiny',
                     "modular_machinery_reborn:casing_plain"
                 ],
                 "d":["chipped:basalt_bricks"],
