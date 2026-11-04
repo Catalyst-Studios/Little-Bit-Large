@@ -363,6 +363,109 @@ ServerEvents.recipes(catalyst => {
     })
     .id("catalyst:powah/crystal_nitro");
 
+    //Generators
+    catalyst.shaped(Item.of('powah:thermo_generator_starter', 1), [
+        "PPP",
+        "EDE",
+        "TLT"
+    ],
+    {
+        P: 'eternalores:plate_enderium',
+        E: 'eternalores:eternal_dark_ingot',
+        D: 'powah:dielectric_casing',
+        T: 'powah:thermoelectric_plate',
+        L: 'eternalores:lumium_capacitor'
+    })
+    .id("catalyst:thermo_generator_starter");
+
+    catalyst.shaped(Item.of('powah:thermo_generator_basic', 1), [
+        "PPP",
+        "ETE",
+        "ALA"
+    ],
+    {
+        P: 'eternalores:plate_enderium',
+        E: 'eternalores:eternal_light_ingot',
+        A: 'powah:thermo_generator_starter',
+        T: 'eternalores:lumium_block',
+        L: 'eternalores:lumium_capacitor'
+    })
+    .id("catalyst:thermo_generator_basic");
+
+    catalyst.shaped(Item.of('powah:thermo_generator_hardened', 1), [
+        "PCP",
+        "GTG",
+        "ASA"
+    ],
+    {
+        P: 'eternalores:plate_sculkite',
+        C: 'eternalores:compressed_energized_steel_block_3x',
+        G: 'eternalores:gear_modularium',
+        A: 'powah:thermo_generator_basic',
+        T: 'eternalores:signalum_block',
+        S: 'eternalores:signalum_capacitor'
+    })
+    .id("catalyst:thermo_generator_hardened");
+
+    catalyst.shaped(Item.of('powah:thermo_generator_blazing', 1), [
+        "PCP",
+        "GTG",
+        "ASA"
+    ],
+    {
+        P: 'eternalores:plate_sculkite',
+        C: 'eternalores:compressed_blazing_crystal_block_4x',
+        G: 'eternalores:gear_modularium',
+        A: 'powah:thermo_generator_hardened',
+        T: 'eternalores:signalum_block',
+        S: 'eternalores:signalum_capacitor'
+    })
+    .id("catalyst:thermo_generator_blazing");
+
+    catalyst.shaped(Item.of('powah:thermo_generator_niotic', 1), [
+        "PCP",
+        "MAM",
+        "TET"
+    ],
+    {
+        P: 'eternalores:plate_etherium',
+        C: 'eternalores:compressed_niotic_crystal_block_4x',
+        M: 'eternalores:missing_ingot',
+        A: 'eternalores:compressed_replica_block_3x',
+        T: 'powah:thermo_generator_blazing',
+        E: 'eternalores:enderium_capacitor'
+    })
+    .id("catalyst:thermo_generator_niotic");
+
+    catalyst.shaped(Item.of('powah:thermo_generator_spirited', 1), [
+        "GCG",
+        "MAM",
+        "TET"
+    ],
+    {
+        G: 'eternalores:gear_cosmic_matter',
+        C: 'eternalores:compressed_spirited_crystal_block_4x',
+        M: 'eternalores:missing_ingot',
+        A: 'eternalores:compressed_replica_block_3x',
+        T: 'powah:thermo_generator_niotic',
+        E: 'eternalores:enderium_capacitor'
+    })
+    .id("catalyst:thermo_generator_spirited");
+
+    catalyst.shaped(Item.of('powah:thermo_generator_nitro', 1), [
+        "PPP",
+        "CGC",
+        "TAT"
+    ],
+    {
+        P: 'eternalores:plate_catalyrium',
+        C: 'powah:capacitor_nitro',
+        G: 'eternalores:gear_catalyrium',
+        T: 'powah:thermo_generator_spirited',
+        A: 'eternalores:catalyric_capacitor'
+    })
+    .id("catalyst:thermo_generator_nitro");
+
     console.log("[CatJS] Powah Recipes");
 })
 

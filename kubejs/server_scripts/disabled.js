@@ -190,6 +190,13 @@ ServerEvents.recipes(catalyst => {
         //powah
         {id: "eternalores:compat/powah/energizing_orb/item/uraninite_ore"}, 
         {id: "mysticalagradditions:essence/nitro_crystal"},
+        { output: "powah:thermo_generator_starter" },
+        { output: "powah:thermo_generator_basic" },
+        { output: "powah:thermo_generator_hardened" },
+        { output: "powah:thermo_generator_blazing" },
+        { output: "powah:thermo_generator_niotic" },
+        { output: "powah:thermo_generator_spirited" },
+        { output: "powah:thermo_generator_nitro" },
 
         {output: 'jamd:portal_block'},
         {output: 'jamd:nether_portal'},

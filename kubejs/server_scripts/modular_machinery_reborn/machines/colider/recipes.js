@@ -825,11 +825,13 @@ ServerEvents.recipes(catalyst => {
         },
         {
             time: 50,
-            energy: 3000000,
+            energy: 6000000,
             outputs: [{ id: "powah:thermo_generator_niotic", count: 1, chance: 1.0 }],
             inputs: [
-                { id: "powah:niotic_crystal_block", count: 4, chance: 1.0 },
-                { id: 'powah:thermoelectric_plate', count: 10, chance: 1.0 }
+                { id: "eternalores:plate_etherium", count: 2, chance: 1.0 },
+                { id: "eternalores:missing_ingot", count: 2, chance: 1.0 },
+                { id: "eternalores:compressed_replica_block_3x", count: 1, chance: 1.0 },
+                { id: 'eternalores:signalum_capacitor', count: 1, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -837,12 +839,13 @@ ServerEvents.recipes(catalyst => {
         },
         {
             time: 50,
-            energy: 3000000,
+            energy: 9000000,
             outputs: [{ id: "powah:thermo_generator_spirited", count: 1, chance: 1.0 }],
             inputs: [
-                { id: "powah:niotic_crystal_block", count: 4, chance: 1.0 },
-                { id: "powah:spirited_crystal_block", count: 2, chance: 1.0 },
-                { id: 'powah:thermoelectric_plate', count: 10, chance: 1.0 }
+                { id: "powah:thermo_generator_niotic", count: 1, chance: 1.0 },
+                { id: "eternalores:gear_cosmic_matter", count: 2, chance: 1.0 },
+                { id: "eternalores:compressed_replica_block_3x", count: 1, chance: 1.0 },
+                { id: "eternalores:enderium_capacitor", count: 1, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
@@ -850,13 +853,12 @@ ServerEvents.recipes(catalyst => {
         },
         {
             time: 50,
-            energy: 3000000,
+            energy: 12000000,
             outputs: [{ id: "powah:thermo_generator_nitro", count: 1, chance: 1.0 }],
             inputs: [
-                { id: "powah:niotic_crystal_block", count: 4, chance: 1.0 },
-                { id: "powah:spirited_crystal_block", count: 2, chance: 1.0 },
-                { id: 'powah:nitro_crystal_block', count: 1, chance: 1.0 },
-                { id: 'powah:thermoelectric_plate', count: 10, chance: 1.0 }
+                { id: "powah:thermo_generator_spirited", count: 1, chance: 1.0 },
+                { id: "eternalores:plate_catalyrium", count: 3, chance: 1.0 },
+                { id: "eternalores:catalyric_capacitor", count: 1, chance: 1.0 }
             ],
             fluid_input: [],
             fluid_output: [],
