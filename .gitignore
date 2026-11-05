@@ -5,6 +5,7 @@ packwiz*
 Questi*
 mods/**
 resourcepacks/**
+shaders/**
 pack.toml
 index.toml
 quest_editor.json
