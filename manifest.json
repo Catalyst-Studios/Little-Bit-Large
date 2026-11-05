@@ -2125,6 +2125,31 @@
             "fileID": 7437845,
             "projectID": 667299,
             "required": true
+        },
+        {
+            "fileID": 8884654,
+            "projectID": 627557,
+            "required": true
+        },
+        {
+            "fileID": 7588844,
+            "projectID": 322506,
+            "required": true
+        },
+        {
+            "fileID": 7251787,
+            "projectID": 610844,
+            "required": true
+        },
+        {
+            "fileID": 9255112,
+            "projectID": 1312687,
+            "required": true
+        },
+        {
+            "fileID": 9352253,
+            "projectID": 1093481,
+            "required": true
         }
     ],
     "image": "https://media.forgecdn.net/avatars/1178/792/638751612352045357.png",
@@ -2133,7 +2158,7 @@
     "minecraft": {
         "modLoaders": [
             {
-                "id": "neoforge-21.1.264",
+                "id": "neoforge-21.1.265",
                 "primary": true
             }
         ],

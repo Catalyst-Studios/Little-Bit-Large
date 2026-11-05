@@ -379,6 +379,10 @@ ServerEvents.recipes(catalyst => {
     })
     .id("catalyst:gate_pearl");
 
+    catalyst.shapeless(Item.of('minecraft:black_dye', 1), [
+        'catalystgraves:catalogue'
+    ])
+    .id("catalyst:black_dye_from_catalogue");
 
     console.log("[CatJS] Added misc items using Cat items");
     
