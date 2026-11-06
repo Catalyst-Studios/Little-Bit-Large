@@ -12,6 +12,26 @@ ServerEvents.recipes(catalyst => {
     let time = 75;
     let energy = 500;
 
+    const dustPriorityList = [
+        "eternalores",
+        "minecraft",
+        "kubejs",
+        "mekanism",
+        "railcraft",
+        "pneumaticcraft",
+        "immersiveengineering",
+        "ae2",
+        "create",
+        "powah",
+        "actuallyadditions"
+    ];
+
+    let getDustPriority = (idStr) => {
+        let modId = idStr.split(':')[0];
+        let index = dustPriorityList.indexOf(modId);
+        return index !== -1 ? (dustPriorityList.length - index) : 0;
+    };
+
     let baseRecipe = () => {
         return catalyst.recipes.modular_machinery_reborn.machine_recipe(machine_id, time)
             .width(120)
@@ -129,6 +149,9 @@ ServerEvents.recipes(catalyst => {
         return null;
     };
 
+    // input -> { dustId, outputAmount, priority }
+    let bestDustPerInput = new Map();
+
     Ingredient.of('#c:dusts').getItemIds().forEach(dustId => {
         let idStr = dustId.toString();
 
@@ -151,13 +174,26 @@ ServerEvents.recipes(catalyst => {
             return;
         }
 
+        let priority = getDustPriority(idStr);
+        let current = bestDustPerInput.get(inputInfo.input);
+
+        if(!current || priority > current.priority)
+        {
+            bestDustPerInput.set(inputInfo.input, {
+                dustId: idStr,
+                outputAmount: inputInfo.outputAmount,
+                priority: priority
+            });
+        }
+    });
+
+    bestDustPerInput.forEach((data, input) => {
         let recipe = baseRecipe();
 
-        recipe.requireItem(Ingredient.of(inputInfo.input, 1), input_slot.x, input_slot.y);
+        recipe.requireItem(Ingredient.of(input, 1), input_slot.x, input_slot.y);
+        recipe.produceItem(Item.of(data.dustId, data.outputAmount), output_slot.x, output_slot.y);
 
-        recipe.produceItem(Item.of(idStr, inputInfo.outputAmount), output_slot.x, output_slot.y);
-
-        recipe.id(`catalyst:mmr/macerator/${recipe_counter}/${idStr.replace(':', '_')}`);
+        recipe.id(`catalyst:mmr/macerator/${recipe_counter}/${data.dustId.replace(':', '_')}`);
         recipe_counter++;
     });
 
