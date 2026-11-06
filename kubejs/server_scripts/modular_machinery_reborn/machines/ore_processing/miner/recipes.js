@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 let IOType = Java.loadClass("es.degrassi.mmreborn.common.machine.IOType");
 
 
@@ -577,3 +581,7 @@ MMREvents.extraTooltips(catalyst => {
     catalyst.create("mmr:miner", 'gui')
         .add(Component.translatable("catalyst.mmr.tooltip.miner.gui"))
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

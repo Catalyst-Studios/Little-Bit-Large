@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 RecipeViewerEvents.removeCategories(catalyst => {
     if(!Platform.isLoaded("emi") && !Platform.isLoaded("jei"))
     {
@@ -27,3 +31,7 @@ RecipeViewerEvents.removeCategories(catalyst => {
     catalyst.remove('mysticalagriculture:soulium_spawner')
     console.info("[CatJS] Remove JEI categories")
 })
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/

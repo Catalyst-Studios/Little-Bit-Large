@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 let chiseled_groups = {};
 let disable = true; //Disable lots of recipe and tags
 
@@ -169,3 +173,8 @@ ServerEvents.recipes(catalyst => {
     factory_tag = null;
     factory_items = null;
 });
+
+/* 
+This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
